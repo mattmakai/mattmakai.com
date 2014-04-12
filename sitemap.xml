@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+  <url>
+    <loc>http://www.mattmakai.com/bookmarks.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.mattmakai.com/bookmarks/ebooks.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.mattmakai.com/bookmarks/general-programming.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.mattmakai.com/bookmarks/javascript.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.mattmakai.com/bookmarks/javascript-frameworks.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.mattmakai.com/bookmarks/python.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.mattmakai.com/bookmarks/r-statistics.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.mattmakai.com/bookmarks/startups.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.mattmakai.com/bootstrapped-companies.html</loc>
+    <priority>1.0</priority>
+  </url>
+
+</urlset>

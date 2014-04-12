@@ -1,0 +1,44 @@
+{% set STATIC = '/source/theme/static/' %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Matt Makai dot com</title>
+    <meta name="author" content="Matt Makai">
+    <meta name="description" content="Python and Java web stacks software developer and Developer Evangelist for Twilio.">
+    <meta name="language" content="english">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ STATIC }}css/mm.css">
+    <style>
+        {% include "css_sidebar.html" %}
+    </style>
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js">
+      </script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js">      </script>
+    <![endif]-->
+    {% block css_head %}{% endblock %}
+</head>
+<body>
+    {% block forkme %}{% endblock %}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3 col-md-2 sidebar">
+                {% include "sidebar.html" %}
+            </div>
+        </div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+            {% block content %}{% endblock %}
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+    <script src="{{ STATIC }}js/bootstrap.min.js"></script>
+    {% block javascript_body %}{% endblock %}
+    <script type="text/javascript">
+        $(document).ready(function() {
+            {% block js_ready %}{% endblock %}
+        });
+    </script>
+</body>
+</html>

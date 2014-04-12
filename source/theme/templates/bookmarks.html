@@ -1,0 +1,8 @@
+<div class="col-md-9">
+    {{ page.content }}
+    {% for p in pages %}
+        {% if p.category == 'bookmarks' and not p.slug == 'bookmarks' %}
+            <a href="/bookmarks/{{ p.slug }}.html">{{ p.title }}</a>
+        {% endif %}
+    {% endfor %}
+</div>

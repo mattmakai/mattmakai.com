@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% if page.category == 'about' %}
+        {% include 'about.html' %}
+    {% elif page.category == 'bookmarks' %}
+        {% include 'bookmarks.html' %}
+    {% elif page.category == 'page' %}
+        {% include 'other.html' %}
+    {% endif %}
+{% endblock %}

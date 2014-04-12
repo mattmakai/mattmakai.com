@@ -1,0 +1,132 @@
+
+/* Template-specific stuff
+ *
+ * Customizations just for the template—these are not necessary for anything
+ * with disabling the responsiveness.
+ */
+
+body {
+    margin: 20px 0 10px 0;
+    color: #222;
+}
+
+/* Finesse the page header spacing */
+.page-header {
+  margin-bottom: 30px;
+}
+.page-header .lead {
+  margin-bottom: 10px;
+}
+
+
+/* Non-responsive overrides
+ *
+ * Utilitze the following CSS to disable the responsive-ness of the container,
+ * grid system, and navbar.
+ */
+
+/* Reset the container */
+.container {
+  max-width: none !important;
+  width: 970px;
+  margin: 0 30px 0 50px;
+}
+
+/* Demonstrate the grids */
+.container .navbar-header,
+.container .navbar-collapse {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* Always float the navbar header */
+.navbar-header {
+  float: left;
+}
+
+/* Undo the collapsing navbar */
+.navbar-collapse {
+  display: block !important;
+  height: auto !important;
+  padding-bottom: 0;
+  overflow: visible !important;
+}
+
+.navbar-toggle {
+  display: none;
+}
+
+.navbar-brand {
+  margin-left: -15px;
+}
+
+/* Always apply the floated nav */
+.navbar-nav {
+  float: left;
+  margin: 0;
+}
+.navbar-nav > li {
+  float: left;
+}
+.navbar-nav > li > a {
+  padding: 15px;
+}
+
+/* Redeclare since we override the float above */
+.navbar-nav.navbar-right {
+  float: right;
+}
+
+/* Undo custom dropdowns */
+.navbar .open .dropdown-menu {
+  position: absolute;
+  float: left;
+  background-color: #fff;
+  border: 1px solid #cccccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-width: 0 1px 1px;
+  border-radius: 0 0 4px 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+}
+.navbar .open .dropdown-menu > li > a {
+  color: #333;
+}
+.navbar .open .dropdown-menu > li > a:hover,
+.navbar .open .dropdown-menu > li > a:focus,
+.navbar .open .dropdown-menu > .active > a,
+.navbar .open .dropdown-menu > .active > a:hover,
+.navbar .open .dropdown-menu > .active > a:focus {
+  color: #fff !important;
+  background-color: #428bca !important;
+}
+.navbar .open .dropdown-menu > .disabled > a,
+.navbar .open .dropdown-menu > .disabled > a:hover,
+.navbar .open .dropdown-menu > .disabled > a:focus {
+  color: #999 !important;
+  background-color: transparent !important;
+}
+
+.my-address-info {color: #555; text-align: right; margin-top: 25px;} 
+.number {font-size: 14px; padding-top: 0px; margin-top: 0px; 
+         font-family: monospace;}
+
+img.portrait {border-radius: 6px;}
+h2.my-name {margin-bottom: 15px;}
+h4.my-title {font-size: 18px;} 
+h3.my-advantages {font-size: 21px; margin-top: 40px;}
+
+.section-title {margin: 30px 0 0 0; padding-bottom: 4px; line-height: 1em;}
+.section-subtitle {font-size: 11px;}
+.specific-name {font-weight: bold;}
+.specific-location {}
+.specific-dates {}
+.specific-link {font-style: italic;}
+.specific-text {font-size: 13px; line-height: 1.25em;}
+.talk-title {font-size: 12px;}
+
+.contact-info {font-family: "News Cycle"; font-weight: normal;}
+
+.after-one {margin-top: 15px;}
+.after-talk-one {margin-top: 10px;}
+p.what-i-do-for-you {font-size: 13px;}
