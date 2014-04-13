@@ -1,6 +1,6 @@
 title: Git
 category: bookmarks
-slug: bookmarks/git
+slug: git
 
 # Git
 

@@ -1,6 +1,6 @@
 title: Python
 category: bookmarks
-slug: bookmarks/python
+slug: python
 
 # Python
 

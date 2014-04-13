@@ -1,6 +1,6 @@
 title: Java Virtual Machine (JVM)
 category: bookmarks
-slug: bookmarks/jvm
+slug: jvm
 
 # Java Virtual Machine (JVM)
 

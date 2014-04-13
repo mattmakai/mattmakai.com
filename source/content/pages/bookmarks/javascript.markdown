@@ -1,6 +1,6 @@
 title: JavaScript
 category: bookmarks
-slug: bookmarks/javascript
+slug: javascript
 
 # JavaScript
 

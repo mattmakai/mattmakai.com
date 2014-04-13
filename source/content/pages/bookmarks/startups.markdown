@@ -1,6 +1,6 @@
 title: Startups
 category: bookmarks
-slug: bookmarks/startups
+slug: startups
 
 # Startups
 

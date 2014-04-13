@@ -1,6 +1,6 @@
 title: Programming
 category: bookmarks
-slug: bookmarks/general-programming
+slug: general-programming
 
 
 # Programming

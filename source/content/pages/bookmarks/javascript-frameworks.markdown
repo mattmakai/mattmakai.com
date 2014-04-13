@@ -1,6 +1,6 @@
 title: JavaScript Frameworks
 category: bookmarks
-slug: bookmarks/javascript-frameworks
+slug: javascript-frameworks
 
 
 # JavaScript Frameworks

@@ -1,5 +1,4 @@
 {% set STATIC = '/source/theme/static/' %}
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,10 +20,12 @@
     {% block css_head %}{% endblock %}
 </head>
 <body>
+    {% block variables %}{% endblock %}
     {% block forkme %}{% endblock %}
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-3 col-md-2 sidebar">
+                <!-- {{ active_page }} -->
                 {% include "sidebar.html" %}
             </div>
         </div>

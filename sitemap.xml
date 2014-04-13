@@ -7,47 +7,47 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://www.mattmakai.com/bookmarks/general-programming.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>http://www.mattmakai.com/bookmarks/git.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>http://www.mattmakai.com/bookmarks/javascript.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>http://www.mattmakai.com/bookmarks/javascript-frameworks.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>http://www.mattmakai.com/bookmarks/jvm.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>http://www.mattmakai.com/bookmarks/python.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>http://www.mattmakai.com/bookmarks/r-statistics.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>http://www.mattmakai.com/bookmarks/startups.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>http://www.mattmakai.com/bookmarks/twilio.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>http://www.mattmakai.com/bootstrapped-companies.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://www.mattmakai.com/ebooks.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.mattmakai.com/general-programming.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.mattmakai.com/git.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.mattmakai.com/javascript.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.mattmakai.com/javascript-frameworks.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.mattmakai.com/jvm.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.mattmakai.com/python.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.mattmakai.com/r-statistics.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.mattmakai.com/startups.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.mattmakai.com/twilio.html</loc>
     <priority>1.0</priority>
   </url>
 

@@ -1,6 +1,6 @@
 title: Twilio
 category: bookmarks
-slug: bookmarks/twilio
+slug: twilio
 
 # Twilio
 * The Next Web had an article on 

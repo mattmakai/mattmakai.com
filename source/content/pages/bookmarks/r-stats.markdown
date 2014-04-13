@@ -1,6 +1,6 @@
 title: R for Statistics
 category: bookmarks
-slug: bookmarks/r-statistics
+slug: r-statistics
 
 
 # R for Statistics
