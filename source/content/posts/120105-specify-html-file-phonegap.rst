@@ -1,5 +1,5 @@
-Specify the HTML File for PhoneGap and iOS
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Specify HTML File for PhoneGap and iOS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 :date: 2012-01-05
 :category: blog

@@ -1,54 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/blog.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2014-01-17T00:00:00-05:00</updated><entry><title>CFPB Collab MySQL requirements.txt Installation Error</title><link href="http://www.letshackdc.com/cfpb-collab-mysql-requirements-txt-installation-error.html" rel="alternate"></link><updated>2014-01-17T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-01-17:cfpb-collab-mysql-requirements-txt-installation-error.html</id><summary type="html">&lt;p&gt;In case you're trying to get &lt;a class="reference external" href="https://github.com/cfpb/collab"&gt;CFPB collab&lt;/a&gt;
-working in your environment, there's a few errors you might run into. This is
-a quick post to highlight solutions to the issues I came across.&lt;/p&gt;
-&lt;p&gt;Collab currently requires MySQL for the backend. I do not believe MySQL is a
-hard requirement, but that's what we had installed on our Linux servers at
-the time I was working on it while consulting for the agency. If you run into
-the following error:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-Downloading/unpacking MySQL-python (from -r requirements.txt (line 11))
-  Downloading MySQL-python-1.2.5.zip (108kB): 108kB downloaded
-  Running setup.py egg_info for package MySQL-python
-    sh: 1: mysql_config: not found
-    Traceback (most recent call last):
-      File &amp;quot;&amp;lt;string&amp;gt;&amp;quot;, line 16, in &amp;lt;module&amp;gt;
-      File &amp;quot;/home/matt/Envs/collab/build/MySQL-python/setup.py&amp;quot;, line 17, in &amp;lt;module&amp;gt;
-        metadata, options = get_config()
-      File &amp;quot;setup_posix.py&amp;quot;, line 43, in get_config
-        libs = mysql_config(&amp;quot;libs_r&amp;quot;)
-      File &amp;quot;setup_posix.py&amp;quot;, line 25, in mysql_config
-        raise EnvironmentError(&amp;quot;%s not found&amp;quot; % (mysql_config.path,))
-    EnvironmentError: mysql_config not found
-    Complete output from command python setup.py egg_info:
-    sh: 1: mysql_config: not found
-
-Traceback (most recent call last):
-
-  File &amp;quot;&amp;lt;string&amp;gt;&amp;quot;, line 16, in &amp;lt;module&amp;gt;
-
-  File &amp;quot;/home/matt/Envs/collab/build/MySQL-python/setup.py&amp;quot;, line 17, in &amp;lt;module&amp;gt;
-
-    metadata, options = get_config()
-
-  File &amp;quot;setup_posix.py&amp;quot;, line 43, in get_config
-
-    libs = mysql_config(&amp;quot;libs_r&amp;quot;)
-
-  File &amp;quot;setup_posix.py&amp;quot;, line 25, in mysql_config
-
-    raise EnvironmentError(&amp;quot;%s not found&amp;quot; % (mysql_config.path,))
-
-EnvironmentError: mysql_config not found
-
-----------------------------------------
-&lt;/pre&gt;
-&lt;p&gt;Make sure you have the MySQL server package and the client development
-library installed. On Ubuntu you can accomplish this by running:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-sudo apt-get install mysql-server libmysqlclient-dev
-&lt;/pre&gt;
-</summary></entry><entry><title>My 2013 Software Development Year in Review</title><link href="http://www.letshackdc.com/2013-development-year-in-review.html" rel="alternate"></link><updated>2013-12-12T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2013-12-12:2013-development-year-in-review.html</id><summary type="html">&lt;p&gt;2013 was an incredible and fortunate year for me. The quick highlights:&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/blog.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2013-12-12T00:00:00-05:00</updated><entry><title>My 2013 Software Development Year in Review</title><link href="http://www.letshackdc.com/2013-development-year-in-review.html" rel="alternate"></link><updated>2013-12-12T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2013-12-12:2013-development-year-in-review.html</id><summary type="html">&lt;p&gt;2013 was an incredible and fortunate year for me. The quick highlights:&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;traveled the US for 5 months talking to tech startups and software
 developers&lt;/li&gt;
@@ -125,130 +76,6 @@ and it will use the MIT open source license.&lt;/p&gt;
 be based in D.C. and will travel quite a bit to tech events around the US.
 It's an exciting opportunity and I'm sure I'll have more to say once I get
 started in a few weeks.&lt;/p&gt;
-&lt;/div&gt;
-</summary></entry><entry><title>Getting Started With Pelican and GitHub Pages</title><link href="http://www.letshackdc.com/introduction-to-pelican.html" rel="alternate"></link><updated>2013-11-06T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2013-11-06:introduction-to-pelican.html</id><summary type="html">&lt;p&gt;Pelican is an open source static website generator. While Pelican is written
-in Python, you don't have to know much about that programming language to get
-started. In this post, I'll walk through the steps to getting your first
-Pelican website up and running, including a deployment to GitHub Pages for
-hosting.&lt;/p&gt;
-&lt;p&gt;A quick note before we dive in. I've been using Pelican for about
-two and a half years. I currently have three live sites
-deployed, and the code to each one is on GitHub. Those repositories are
-&lt;a class="reference external" href="https://github.com/makaimc/mattmakai.github.com"&gt;this blog&lt;/a&gt;,
-&lt;a class="reference external" href="https://github.com/makaimc/codingacrossamerica.github.com"&gt;my Coding Across America project&lt;/a&gt;,
-and
-&lt;a class="reference external" href="https://github.com/makaimc/fullstackpython.github.com"&gt;the Full Stack Python walkthrough&lt;/a&gt;.
-I can't guarantee that each one uses Pelican version 3.3+ best practices, but
-each one does exactly what I want it to do: get out of my way so I can
-write and publish.&lt;/p&gt;
-&lt;p&gt;I'm assuming you're working with Mac OS X or Linux for this tutorial. I
-used Cygwin on Windows a couple of years ago to get some of this working so
-that may be an option if you're operating system limited.&lt;/p&gt;
-&lt;div class="section" id="kickstart-example-project"&gt;
-&lt;h2&gt;Kickstart Example Project&lt;/h2&gt;
-&lt;p&gt;Let's use the Full Stack Python code to get up and running within just a
-few steps.&lt;/p&gt;
-&lt;p&gt;First, grab the code and put it in a directory named &amp;quot;fsp&amp;quot;:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-git clone git&amp;#64;github.com:makaimc/fullstackpython.github.com fsp
-&lt;/pre&gt;
-&lt;p&gt;We can already get the website working since it's already been generated in
-its current state by Pelican when I checked it in. Go to the &amp;quot;fsp&amp;quot; directory
-and use the built-in Python HTTP server:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-python -m SimpleHTTPServer
-&lt;/pre&gt;
-&lt;p&gt;Full Stack Python is now running on port 8000. Go to &lt;a class="reference external" href="http://localhost:8000/"&gt;http://localhost:8000/&lt;/a&gt;
-in your browser and you'll see the same site that's currently on
-fullstackpython.com. Note if you want to run more than one site at a time
-you can add a port number after &amp;quot;SimpleHTTPServer&amp;quot; to serve on a different
-port.&lt;/p&gt;
-&lt;p&gt;Now we need to install the dependencies to make changes to the site and
-regenerate the output. This step is the one part that takes a little more
-Python knowledge. We need to use &lt;a class="reference external" href="https://pypi.python.org/pypi/pip"&gt;pip&lt;/a&gt;
-to install Pelican, but first we need to make sure pip is installed.
-On Mac OS X's console:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-sudo easy_install pip
-&lt;/pre&gt;
-&lt;p&gt;On the Ubuntu command line:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-sudo apt-get install python-pip
-&lt;/pre&gt;
-&lt;p&gt;If you're not familiar with Python, you'll also want to look at
-&lt;a class="reference external" href="https://pypi.python.org/pypi/virtualenv"&gt;virtualenv&lt;/a&gt; to isolate Pelican's
-dependencies. This will be important if you have more than one Pelican-using
-project and they are on different versions of Pelican. Python developers can
-just nod and move along here.&lt;/p&gt;
-&lt;p&gt;Full Stack Python's dependencies are stored in the
-fsp/source/requirements.txt file. Go to that directory and install Pelican:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-pip install -r requirements.txt
-&lt;/pre&gt;
-&lt;p&gt;That will fail if you're not using a virtualenv because you're trying to
-install these requirements into your base Python installation. If you don't
-want to use virtualenv at this point just put a &amp;quot;sudo&amp;quot; in front of the
-command.&lt;/p&gt;
-&lt;p&gt;We're ready to make a change now. Go to the fsp/source/content/pages/
-directory and modify one of the files. For example, add another
-entry in change-log.rst then save the file.&lt;/p&gt;
-&lt;p&gt;Pelican needs to regenerate the website output before you can see the results
-in your browser. I've wrapped those changes in a Makefile stored in
-fsp/source/. Rather than explaining make here, let's just execute the commands
-manually that we need to regenerate the website:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-mkdir ./output
-mkdir ./output/static/
-cp -R theme/static/css theme/static/js theme/static/img output/
-cp -R theme/static/lib theme/static/plugin output/
-cp -R static-html/* output/static/
-pelican -t theme -s settings.py content
-cp -R output/* ..
-rm -rf output/
-&lt;/pre&gt;
-&lt;p&gt;What's all that? Basically we're just:&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;creating a couple of output directories&lt;/li&gt;
-&lt;li&gt;copying static files that Pelican doesn't touch (like CSS, JavaScript,
-and images) into our output directory&lt;/li&gt;
-&lt;li&gt;regenerating the website HTML output with Pelican&lt;/li&gt;
-&lt;li&gt;copying all of the output to the parent directory of fsp/source&lt;/li&gt;
-&lt;li&gt;deleting the output directory&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I wrap those commands in a Makefile to automate the execution of those
-commands. Note that there's a bunch of ways to make this build process more
-efficient. But once I got everything working I focused on writing and
-publishing. You should figure out what setup will work best for your goals.&lt;/p&gt;
-&lt;p&gt;Now the website is regenerated and you should see the changes in your
-browser when you refresh the page.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="github-pages"&gt;
-&lt;h2&gt;GitHub Pages&lt;/h2&gt;
-&lt;p&gt;GitHub Pages is an easy and free way to host static websites. You just
-need to have a branch called &amp;quot;gh-pages&amp;quot; in your repository, then go into
-the application's settings through GitHub's user interface and enable
-GitHub Pages.&lt;/p&gt;
-&lt;img alt="GitHub Pages website view under application settings" src="../img/gh-pages.jpg" style="width: 100%;" /&gt;
-&lt;p&gt;GitHub Pages settings through the user interface on their web application.&lt;/p&gt;
-&lt;p&gt;Fork the Full Stack Python repository or create a new repository with a
-gh-pages branch. Enable GitHub Pages under the application settings. Then
-you should be able to access your static website at [repo name].github.io.&lt;/p&gt;
-&lt;p&gt;One last note. You can point your host records for your DNS settings of a
-domain you own to 204.232.175.78 so the site will be accessible through
-your domain name. I use Namecheap as my domain name registrar so my host
-records for &amp;#64; and www look like this:&lt;/p&gt;
-&lt;img alt="Namecheap host records for fullstackpython.com" src="../img/host-records-github-pages.jpg" style="width: 100%;" /&gt;
-&lt;p&gt;Namecheap host records pointing to GitHub Pages IP address for
-fullstackpython.com.&lt;/p&gt;
-&lt;p&gt;That's all for now! You'll definitely want to check out the
-&lt;a class="reference external" href="http://docs.getpelican.com/en/latest/getting_started.html"&gt;Pelican Getting Started Guide&lt;/a&gt;
-next for a thorough walkthrough of setting up your own new project.&lt;/p&gt;
-&lt;hr class="docutils" /&gt;
-&lt;p&gt;If you enjoyed this post you should check out my
-&lt;a class="reference external" href="http://www.codingacrossamerica.com/"&gt;Coding Across America&lt;/a&gt;
-and &lt;a class="reference external" href="http://www.fullstackpython.com/"&gt;Full Stack Python&lt;/a&gt; projects, both of
-which are Pelican-powered websites with all code freely accessible on
-GitHub.&lt;/p&gt;
 &lt;/div&gt;
 </summary></entry><entry><title>Evaluating Third Party Services for Django Projects</title><link href="http://www.letshackdc.com/evaluating-third-party-services-for-django.html" rel="alternate"></link><updated>2013-08-14T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2013-08-14:evaluating-third-party-services-for-django.html</id><summary type="html">&lt;p&gt;Every non-trivial modern Django project combines externally hosted third
 party services with custom code to create a complete web application. The
@@ -2085,7 +1912,7 @@ reasonable design I was okay starting with that I knew I could
 improve as I grow more comfortable in this step. Eventually I
 can look ahead to the next step in the path towards Internet
 entrepreneurship.&lt;/p&gt;
-</summary></entry><entry><title>Specify the HTML File for PhoneGap and iOS</title><link href="http://www.letshackdc.com/specify-html-file-phonegap-ios.html" rel="alternate"></link><updated>2012-01-05T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-01-05:specify-html-file-phonegap-ios.html</id><summary type="html">&lt;p&gt;When working with iOS applications and using PhoneGap, you'll often want to use a different
+</summary></entry><entry><title>Specify HTML File for PhoneGap and iOS</title><link href="http://www.letshackdc.com/specify-html-file-phonegap-ios.html" rel="alternate"></link><updated>2012-01-05T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-01-05:specify-html-file-phonegap-ios.html</id><summary type="html">&lt;p&gt;When working with iOS applications and using PhoneGap, you'll often want to use a different
 file name than &amp;quot;index.html&amp;quot; for your first page. This can be tricky for first time
 PhoneGap/iOS developers because there is no stub function or properties file for
 specifying the file like there is in Android and BlackBerry projects.&lt;/p&gt;
@@ -2099,50 +1926,4 @@ HTML file you want to use.&lt;/p&gt;
 &lt;p&gt;Bonus: you can also use this to specify a different path than www. For example, if
 you have a combined Android and iOS project where Android requires the assets directory,
 specify &amp;quot;../assets/www/yourfile.html&amp;quot; as the return value.&lt;/p&gt;
-</summary></entry><entry><title>Heroku on Ubuntu 10.04</title><link href="http://www.letshackdc.com/heroku-ubuntu-10-04.html" rel="alternate"></link><updated>2012-01-03T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-01-03:heroku-ubuntu-10-04.html</id><summary type="html">&lt;p&gt;A couple of guys from Heroku gave a talk tonight at DC Python and it looked like a good
-solution for running small sites. However, I was disappointed that set up was more
-difficult on Ubuntu 10.04 than turn key installers on Windows and Mac OS X. The set
-up &lt;a class="reference external" href="http://toolbelt.herokuapp.com/linux/readme"&gt;instructions&lt;/a&gt; required a few
-modifications to work properly.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;sudo apt-add-repository &amp;#39;deb http://toolbelt.herokuapp.com/ubuntu ./&amp;#39;
-curl https://toolbelt.herokuapp.com/apt/release.key | sudo apt-key add -
-sudo apt-get update
-sudo apt-get install heroku-toolbelt
-sudo apt-get install ruby libopenssl-ruby ruby1.8-dev
-sudo apt-get install libreadline-ruby
-&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Type &amp;quot;heroku&amp;quot; at the command line to check that the installation is working properly.&lt;/p&gt;
-&lt;p&gt;Sources:&lt;/p&gt;
-&lt;p&gt;[1] &lt;a class="reference external" href="http://wmilesn.com/2011/10/code/avoiding-pitfalls-when-setting-up-heroku-for-node-js-on-ubuntu/"&gt;http://wmilesn.com/2011/10/code/avoiding-pitfalls-when-setting-up-heroku-for-node-js-on-ubuntu/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;[2] &lt;a class="reference external" href="http://rukuro-blog.heroku.com/2011/05/11/ruby-readline-loaderror"&gt;http://rukuro-blog.heroku.com/2011/05/11/ruby-readline-loaderror&lt;/a&gt;&lt;/p&gt;
-</summary></entry><entry><title>Impress.js: Now Works With Presentation Pointers</title><link href="http://www.letshackdc.com/impress-js-works-with-presentation-pointers.html" rel="alternate"></link><updated>2012-01-02T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-01-02:impress-js-works-with-presentation-pointers.html</id><summary type="html">&lt;p&gt;I saw &lt;a class="reference external" href="https://github.com/bartaz/impress.js"&gt;impress.js&lt;/a&gt;, a really cool CSS3
-transformation-based presentation Javascript library on Hacker News yesterday.
-The &lt;a class="reference external" href="http://bartaz.github.com/impress.js/"&gt;demo&lt;/a&gt; is flashy - similar to Prezi
-but without Flash, plus new 3D effects. The only downside compared to an
-established browser slideshow library such as &lt;a class="reference external" href="https://github.com/geraldb/s6"&gt;S6&lt;/a&gt; was
-that my Logitech presentation pointer didn't work for advancing and reversing the slides.&lt;/p&gt;
-&lt;p&gt;After a little digging, I found out that presentation pointers emulate page up/down
-key strokes. So I &lt;a class="reference external" href="https://github.com/makaimc/impress.js"&gt;forked the impress.js&lt;/a&gt;
-library, updated the code, and issued a
-&lt;a class="reference external" href="https://github.com/bartaz/impress.js/pull/15"&gt;pull request&lt;/a&gt; to add the presentation
-pointer capability. Thanks to &lt;a class="reference external" href="https://github.com/bartaz"&gt;Bartek&lt;/a&gt;'s quick response,
-the pull request was merged and closed just a few hours later. So now
-presentation pointers work great with impress.js.&lt;/p&gt;
-</summary></entry><entry><title>New Blog</title><link href="http://www.letshackdc.com/new-blog.html" rel="alternate"></link><updated>2012-01-01T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-01-01:new-blog.html</id><summary type="html">&lt;p&gt;&lt;em&gt;Note&lt;/em&gt;: &lt;strong&gt;This post is outdated&lt;/strong&gt; because I am
-&lt;a class="reference external" href="../matt-makai-dot-com-site-relaunch.html"&gt;already on a new blog platform&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;To kick off 2012, I'm shifting my technical blog from Tumblr to my own platform.&lt;/p&gt;
-&lt;p&gt;I created this site with &lt;a class="reference external" href="http://python.org/"&gt;Python&lt;/a&gt;,
-&lt;a class="reference external" href="http://www.djangoproject.com/"&gt;Django&lt;/a&gt;,
-&lt;a class="reference external" href="http://www.mysql.com/"&gt;MySQL&lt;/a&gt;, and
-&lt;a class="reference external" href="http://twitter.github.com/bootstrap/"&gt;Twitter Bootstrap&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The site is hosted on a Linux &lt;a class="reference external" href="http://www.linode.com/"&gt;Linode&lt;/a&gt; instance and runs
-on &lt;a class="reference external" href="http://nginx.org/"&gt;nginx&lt;/a&gt; and
-&lt;a class="reference external" href="http://gunicorn.org/"&gt;Green Unicorn&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Once 2012 kicks off, I will add my presentations and (potentially) screencasts on technical content.&lt;/p&gt;
-</summary></entry><entry><title>Older Blog Posts</title><link href="http://www.letshackdc.com/older-blog-posts.html" rel="alternate"></link><updated>2012-01-01T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-01-01:older-blog-posts.html</id><summary type="html">&lt;p&gt;My blog posts from the last couple of years can still be access at
-&lt;a class="reference external" href="http://mmakai.com/"&gt;http://mmakai.com/&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Eventually I'll transfer the posts' content to this site and redirect the URLs to
-their new locations, but for now I'm leaving the old posts on Tumblr.
-There is also a nice way to browse the posts in the
-&lt;a class="reference external" href="http://mmakai.com/archive/"&gt;archive&lt;/a&gt;.&lt;/p&gt;
 </summary></entry></feed>

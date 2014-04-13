@@ -2,8 +2,7 @@ Heroku on Ubuntu 10.04
 ~~~~~~~~~~~~~~~~~~~~~~
 
 :date: 2012-01-03
-:category: blog
-:featured: True
+:category: post
 :slug: heroku-ubuntu-10-04
 
 A couple of guys from Heroku gave a talk tonight at DC Python and it looked like a good 

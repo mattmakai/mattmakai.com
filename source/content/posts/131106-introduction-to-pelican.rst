@@ -1,7 +1,7 @@
 Getting Started With Pelican and GitHub Pages
 =============================================
 
-:category: blog
+:category: post
 :date: 2013-11-06
 :slug: introduction-to-pelican
 
@@ -83,24 +83,19 @@ Pelican needs to regenerate the website output before you can see the results
 in your browser. I've wrapped those changes in a Makefile stored in 
 fsp/source/. Rather than explaining make here, let's just execute the commands
 manually that we need to regenerate the website::
-    
-    mkdir ./output
-    mkdir ./output/static/
-    cp -R theme/static/css theme/static/js theme/static/img output/
-    cp -R theme/static/lib theme/static/plugin output/
-    cp -R static-html/* output/static/
-    pelican -t theme -s settings.py content
-    cp -R output/* ..
-    rm -rf output/
+
+    cp -R static-html/* ..
+    pelican -t theme -s settings.py -o .. content
+    cp ../pages/* ../
+    rm -rf ../pages/
 
 What's all that? Basically we're just:
 
-* creating a couple of output directories
 * copying static files that Pelican doesn't touch (like CSS, JavaScript,
   and images) into our output directory
 * regenerating the website HTML output with Pelican
-* copying all of the output to the parent directory of fsp/source
-* deleting the output directory
+* copying the files Pelican puts in the pages directory into the base directory
+* deleting the pages directory
 
 I wrap those commands in a Makefile to automate the execution of those 
 commands. Note that there's a bunch of ways to make this build process more
@@ -117,7 +112,7 @@ need to have a branch called "gh-pages" in your repository, then go into
 the application's settings through GitHub's user interface and enable
 GitHub Pages.
 
-.. image:: ../img/gh-pages.jpg
+.. image:: /source/static/img/131106-pelican/gh-pages.jpg
   :alt: GitHub Pages website view under application settings
   :width: 100%
 
@@ -132,7 +127,7 @@ domain you own to 204.232.175.78 so the site will be accessible through
 your domain name. I use Namecheap as my domain name registrar so my host
 records for @ and www look like this:
 
-.. image:: ../img/host-records-github-pages.jpg
+.. image:: /source/static/img/131106-pelican/host-records-github-pages.jpg
   :alt: Namecheap host records for fullstackpython.com
   :width: 100%
 

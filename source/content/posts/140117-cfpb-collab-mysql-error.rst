@@ -1,8 +1,8 @@
-CFPB Collab MySQL requirements.txt Installation Error
-=====================================================
+CFPB Collab MySQL Install Error
+===============================
 
 :slug: cfpb-collab-mysql-requirements-txt-installation-error
-:category: blog
+:category: post
 :date: 2014-01-17
 
 In case you're trying to get `CFPB collab <https://github.com/cfpb/collab>`_

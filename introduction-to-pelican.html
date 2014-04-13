@@ -7,7 +7,7 @@
     <meta name="language" content="english">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/source/theme/static/css/mm.css">
+    <link rel="stylesheet" href="/source/static/css/mm.css">
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js">
       </script>
@@ -21,7 +21,7 @@
                 <!--  -->
 <ul class="nav nav-sidebar nav-sidebar-top">
     <li style="text-align: center;">
-        <img src="/source/theme/static/img/matt-makai-small.jpg" class="img-circle">
+        <img src="/source/static/img/matt-makai-small.jpg" class="img-circle">
     </li>
 </ul>
 <div class="nav nav-sidebar">
@@ -44,10 +44,10 @@
 </ul>
 <ul class="nav nav-sidebar nav-sidebar-top">
     <li class="active" style="text-align: center;">
-        <img src="/source/theme/static/img/8-bit-matt-small.png" class="img-rounded">
+        <img src="/source/static/img/8-bit-matt-small.png" class="img-rounded">
     </li>
 </ul>            </div>
-            <div class="col-md-offset-2 col-md-9 main">
+            <div class="col-md-offset-2 col-md-8 main">
         
     <h2 class="entry-title">
         <a href="/introduction-to-pelican.html">Getting Started With Pelican and GitHub Pages</a>
@@ -123,23 +123,18 @@ in your browser. I've wrapped those changes in a Makefile stored in
 fsp/source/. Rather than explaining make here, let's just execute the commands
 manually that we need to regenerate the website:</p>
 <pre class="literal-block">
-mkdir ./output
-mkdir ./output/static/
-cp -R theme/static/css theme/static/js theme/static/img output/
-cp -R theme/static/lib theme/static/plugin output/
-cp -R static-html/* output/static/
-pelican -t theme -s settings.py content
-cp -R output/* ..
-rm -rf output/
+cp -R static-html/* ..
+pelican -t theme -s settings.py -o .. content
+cp ../pages/* ../
+rm -rf ../pages/
 </pre>
 <p>What's all that? Basically we're just:</p>
 <ul class="simple">
-<li>creating a couple of output directories</li>
 <li>copying static files that Pelican doesn't touch (like CSS, JavaScript,
 and images) into our output directory</li>
 <li>regenerating the website HTML output with Pelican</li>
-<li>copying all of the output to the parent directory of fsp/source</li>
-<li>deleting the output directory</li>
+<li>copying the files Pelican puts in the pages directory into the base directory</li>
+<li>deleting the pages directory</li>
 </ul>
 <p>I wrap those commands in a Makefile to automate the execution of those
 commands. Note that there's a bunch of ways to make this build process more
@@ -154,7 +149,7 @@ browser when you refresh the page.</p>
 need to have a branch called &quot;gh-pages&quot; in your repository, then go into
 the application's settings through GitHub's user interface and enable
 GitHub Pages.</p>
-<img alt="GitHub Pages website view under application settings" src="../img/gh-pages.jpg" style="width: 100%;" />
+<img alt="GitHub Pages website view under application settings" src="/source/static/img/131106-pelican/gh-pages.jpg" style="width: 100%;" />
 <p>GitHub Pages settings through the user interface on their web application.</p>
 <p>Fork the Full Stack Python repository or create a new repository with a
 gh-pages branch. Enable GitHub Pages under the application settings. Then
@@ -163,7 +158,7 @@ you should be able to access your static website at [repo name].github.io.</p>
 domain you own to 204.232.175.78 so the site will be accessible through
 your domain name. I use Namecheap as my domain name registrar so my host
 records for &#64; and www look like this:</p>
-<img alt="Namecheap host records for fullstackpython.com" src="../img/host-records-github-pages.jpg" style="width: 100%;" />
+<img alt="Namecheap host records for fullstackpython.com" src="/source/static/img/131106-pelican/host-records-github-pages.jpg" style="width: 100%;" />
 <p>Namecheap host records pointing to GitHub Pages IP address for
 fullstackpython.com.</p>
 <p>That's all for now! You'll definitely want to check out the
@@ -183,7 +178,7 @@ GitHub.</p>
         </div>
     </div>
     <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
-    <script src="/source/theme/static/js/bootstrap.min.js"></script>
+    <script src="/source/static/js/bootstrap.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function() {
         });

@@ -1,9 +1,8 @@
-Impress.js: Now Works With Presentation Pointers
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Impress.js With Presentation Pointers
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 :date: 2012-01-02
-:category: blog
-:featured: True
+:category: post
 :slug: impress-js-works-with-presentation-pointers
 
 I saw `impress.js <https://github.com/bartaz/impress.js>`_, a really cool CSS3 
