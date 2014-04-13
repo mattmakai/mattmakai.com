@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Matt Makai dot com</title>
+    <meta name="author" content="Matt Makai">
+    <meta name="description" content="Python and Java web stacks software developer and Developer Evangelist for Twilio.">
+    <meta name="language" content="english">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/source/theme/static/css/mm.css">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js">
+      </script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js">      </script>
+    <![endif]-->
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 sidebar">
+                <!--  -->
+<ul class="nav nav-sidebar nav-sidebar-top">
+    <li style="text-align: center;">
+        <img src="/source/theme/static/img/matt-makai-small.jpg" class="img-circle">
+    </li>
+</ul>
+<div class="nav nav-sidebar">
+    <p>
+        Matt Makai, Python &amp; Java web developer. 
+        Washington, D.C.-based Developer Evangelist for
+        <a href="https://www.twilio.com/">Twilio</a>.
+    </p>
+</div>
+<ul class="nav nav-sidebar">
+    <li><a href="/">Writing</a></li>
+    <li><a href="/talks.html">Talks</a></li>
+</ul>
+<ul class="nav nav-sidebar">
+    <li><a href="">Projects</a></li>
+    <li ><a href="/bookmarks.html">Bookmarks</a></li>
+    <li><a href="/matt-makai-resume.pdf">Resume (.pdf)</a></li>
+    <li><a href="/about.html">About</a></li>
+    <li><a href="/contact.html">Contact</a></li>
+</ul>
+<ul class="nav nav-sidebar nav-sidebar-top">
+    <li class="active" style="text-align: center;">
+        <img src="/source/theme/static/img/8-bit-matt-small.png" class="img-rounded">
+    </li>
+</ul>            </div>
+            <div class="col-md-offset-2 col-md-9 main">
+        
+    <h2 class="entry-title">
+        <a href="/journey-to-true-full-stack-developer.html">The Journey to True Full-Stack Developer</a>
+    </h2> 
+    <p>There are several areas in which I need to improve to be a truly self-reliant
+full-stack software engineer. My full-stack focus is on web development, both
+traditional desktop and tablet browsers as well as constrained smartphone
+mobile browsers. This post describes those areas and what I'm doing through
+the next year to improve those deficiencies.</p>
+<p>The technical areas I need to improve in are:</p>
+<blockquote>
+<ol class="arabic simple">
+<li><strong>Web design</strong></li>
+<li><strong>Server monitoring</strong></li>
+<li><strong>Data analysis &amp; visualization</strong></li>
+</ol>
+</blockquote>
+<p>I also want to get better at content creation, marketing, and working with
+end users to understand their needs better, but I won't cover those less
+technical topics in this post.</p>
+<div class="section" id="web-design">
+<h2>Web Design</h2>
+<p>I'm fine with CSS, LESS, and JavaScript although there's always room to get
+better in those areas. What I really need to get better in is creating
+interesting graphics that aid users' understanding of the products I develop.
+A great example of this is
+<a class="reference external" href="http://teamtreehouse.com/">Team Treehouse's current home page</a> where
+the site asks &quot;What do you want to learn today?&quot; with intuitive icons for
+web design, web development, and iOS development. Creating simple icons
+like those and using them where appropriate goes a long way towards converting
+a ho-hum web design into both a more appealing aesthetic and easier for users.</p>
+<p>Towards this end I will (finally) purchase a copy of Adobe Illustrator CS6,
+work on tutorials, and pick up tips from my web design friends. Retrofitting
+<a class="reference external" href="https://www.proofdriven.com/">ProofDriven</a> with new icons will likely be
+my first conversion project so I have a goal to work towards.</p>
+</div>
+<div class="section" id="server-monitoring">
+<h2>Server Monitoring</h2>
+<p>Lately I have started using Heroku to deploy many of my side projects, but
+I still do a lot of DevOps for clients with Linux, Apache, nginx,
+mod_wsgi, Green Unicorn, MySQL, and PostgreSQL.</p>
+<p>I am ashamed to admit I have very little insight into how well the servers
+I'm using are holding up under load. This situation really needs to be
+corrected by using a combination of Graphite &amp; statsd, Raven &amp; Sentry (I
+do already use these in many cases), New Relic, and some quick and dirty
+custom code with Python's cProfile and psutil.</p>
+<p>Monitoring is a complicated subject and every application has a different
+server resource utilization profile. Once I collect the metrics, my next
+area for improvement will be important.</p>
+</div>
+<div class="section" id="data-analysis-and-visualization">
+<h2>Data analysis and visualization</h2>
+<p>There's something about working with Python that makes data analysis
+appealing. Maybe it's the easy-to-use built-in data structures or the
+abundance of analysis libraries such as
+<a class="reference external" href="http://pandas.pydata.org/">pandas</a>, <a class="reference external" href="http://numpy.scipy.org/">NumPy</a>,
+and <a class="reference external" href="http://www.scipy.org/">SciPy</a>. Whatever the reason, I plan to study
+O'Reilly's excellent
+<a class="reference external" href="http://shop.oreilly.com/product/0636920023784.do">Data Analysis with Python</a>
+book to learn more, particularly about Pandas.</p>
+<p>On the visualization side, d3.js is fantastic. I've already been using it to
+create simple visualizations such as
+<a class="reference external" href="http://www.prgrmrlvlup.com/">prgrmrlvlup</a> and some other internal Excella
+applications for business development. I'm a huge fan of using CSS to style
+the visualizations and the enter(), exit(), and data joins model. Overall
+d3.js will provide the foundation for visualizing the results of  interesting
+data sets processed on the server side with Python. I'll write blog posts and
+add many d3.js-related entries in my
+<a class="reference external" href="../pages/learning-log.html">learning log</a> over the next several months.</p>
+</div>
+
+
+    <hr />
+            </div>
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+    <script src="/source/theme/static/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+        });
+    </script>
+</body>
+</html>

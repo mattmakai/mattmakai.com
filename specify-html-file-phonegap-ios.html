@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Matt Makai dot com</title>
+    <meta name="author" content="Matt Makai">
+    <meta name="description" content="Python and Java web stacks software developer and Developer Evangelist for Twilio.">
+    <meta name="language" content="english">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/source/theme/static/css/mm.css">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js">
+      </script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js">      </script>
+    <![endif]-->
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 sidebar">
+                <!--  -->
+<ul class="nav nav-sidebar nav-sidebar-top">
+    <li style="text-align: center;">
+        <img src="/source/theme/static/img/matt-makai-small.jpg" class="img-circle">
+    </li>
+</ul>
+<div class="nav nav-sidebar">
+    <p>
+        Matt Makai, Python &amp; Java web developer. 
+        Washington, D.C.-based Developer Evangelist for
+        <a href="https://www.twilio.com/">Twilio</a>.
+    </p>
+</div>
+<ul class="nav nav-sidebar">
+    <li><a href="/">Writing</a></li>
+    <li><a href="/talks.html">Talks</a></li>
+</ul>
+<ul class="nav nav-sidebar">
+    <li><a href="">Projects</a></li>
+    <li ><a href="/bookmarks.html">Bookmarks</a></li>
+    <li><a href="/matt-makai-resume.pdf">Resume (.pdf)</a></li>
+    <li><a href="/about.html">About</a></li>
+    <li><a href="/contact.html">Contact</a></li>
+</ul>
+<ul class="nav nav-sidebar nav-sidebar-top">
+    <li class="active" style="text-align: center;">
+        <img src="/source/theme/static/img/8-bit-matt-small.png" class="img-rounded">
+    </li>
+</ul>            </div>
+            <div class="col-md-offset-2 col-md-9 main">
+        
+    <h2 class="entry-title">
+        <a href="/specify-html-file-phonegap-ios.html">Specify the HTML File for PhoneGap and iOS</a>
+    </h2> 
+    <p>When working with iOS applications and using PhoneGap, you'll often want to use a different
+file name than &quot;index.html&quot; for your first page. This can be tricky for first time
+PhoneGap/iOS developers because there is no stub function or properties file for
+specifying the file like there is in Android and BlackBerry projects.</p>
+<p>In your AppDelegate.m file, add the following method and change the return value to the
+HTML file you want to use.</p>
+<div class="highlight"><pre>+ (NSString*) startPage
+{
+  return @&quot;different.html&quot;;
+}
+</pre></div>
+<p>Bonus: you can also use this to specify a different path than www. For example, if
+you have a combined Android and iOS project where Android requires the assets directory,
+specify &quot;../assets/www/yourfile.html&quot; as the return value.</p>
+
+
+    <hr />
+            </div>
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+    <script src="/source/theme/static/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+        });
+    </script>
+</body>
+</html>

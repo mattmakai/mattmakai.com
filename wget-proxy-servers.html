@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Matt Makai dot com</title>
+    <meta name="author" content="Matt Makai">
+    <meta name="description" content="Python and Java web stacks software developer and Developer Evangelist for Twilio.">
+    <meta name="language" content="english">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/source/theme/static/css/mm.css">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js">
+      </script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js">      </script>
+    <![endif]-->
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 sidebar">
+                <!--  -->
+<ul class="nav nav-sidebar nav-sidebar-top">
+    <li style="text-align: center;">
+        <img src="/source/theme/static/img/matt-makai-small.jpg" class="img-circle">
+    </li>
+</ul>
+<div class="nav nav-sidebar">
+    <p>
+        Matt Makai, Python &amp; Java web developer. 
+        Washington, D.C.-based Developer Evangelist for
+        <a href="https://www.twilio.com/">Twilio</a>.
+    </p>
+</div>
+<ul class="nav nav-sidebar">
+    <li><a href="/">Writing</a></li>
+    <li><a href="/talks.html">Talks</a></li>
+</ul>
+<ul class="nav nav-sidebar">
+    <li><a href="">Projects</a></li>
+    <li ><a href="/bookmarks.html">Bookmarks</a></li>
+    <li><a href="/matt-makai-resume.pdf">Resume (.pdf)</a></li>
+    <li><a href="/about.html">About</a></li>
+    <li><a href="/contact.html">Contact</a></li>
+</ul>
+<ul class="nav nav-sidebar nav-sidebar-top">
+    <li class="active" style="text-align: center;">
+        <img src="/source/theme/static/img/8-bit-matt-small.png" class="img-rounded">
+    </li>
+</ul>            </div>
+            <div class="col-md-offset-2 col-md-9 main">
+        
+    <h2 class="entry-title">
+        <a href="/wget-proxy-servers.html">wget and Proxy Servers</a>
+    </h2> 
+    <p>Short answer: before you use wget, specify
+'export http_proxy=my.proxy.server:port' then wget will use the proxy.</p>
+<p>I needed to grab some files with wget while working on a Linux server I was
+setting up for a Django deployment. Unfortunately, I was behind a firewall
+and had to use a specific proxy for HTTP connections.</p>
+<p>pip makes it easy, just do 'pip install --proxy my.proxy.server:8080 packages'
+and I figured wget would have the same commandline argument to specify a
+proxy. No such luck.</p>
+<p>I found the following link that specified
+<a class="reference external" href="http://www.linuxquestions.org/questions/linux-software-2/wget-with-proxy-276075/">'man wget' as the answer</a> unhelpful (and a dick answer anyway).</p>
+<p>So for future reference, 'export http_proxy=my.proxy.server:port', will
+specify a proxy server to use with wget. I also found
+<a class="reference external" href="http://www.gnu.org/software/wget/manual/html_node/Proxies.html">this proxies link</a>
+useful as well.</p>
+
+
+    <hr />
+            </div>
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+    <script src="/source/theme/static/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+        });
+    </script>
+</body>
+</html>

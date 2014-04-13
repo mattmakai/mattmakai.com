@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Matt Makai dot com</title>
+    <meta name="author" content="Matt Makai">
+    <meta name="description" content="Python and Java web stacks software developer and Developer Evangelist for Twilio.">
+    <meta name="language" content="english">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/source/theme/static/css/mm.css">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js">
+      </script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js">      </script>
+    <![endif]-->
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 sidebar">
+                <!--  -->
+<ul class="nav nav-sidebar nav-sidebar-top">
+    <li style="text-align: center;">
+        <img src="/source/theme/static/img/matt-makai-small.jpg" class="img-circle">
+    </li>
+</ul>
+<div class="nav nav-sidebar">
+    <p>
+        Matt Makai, Python &amp; Java web developer. 
+        Washington, D.C.-based Developer Evangelist for
+        <a href="https://www.twilio.com/">Twilio</a>.
+    </p>
+</div>
+<ul class="nav nav-sidebar">
+    <li><a href="/">Writing</a></li>
+    <li><a href="/talks.html">Talks</a></li>
+</ul>
+<ul class="nav nav-sidebar">
+    <li><a href="">Projects</a></li>
+    <li ><a href="/bookmarks.html">Bookmarks</a></li>
+    <li><a href="/matt-makai-resume.pdf">Resume (.pdf)</a></li>
+    <li><a href="/about.html">About</a></li>
+    <li><a href="/contact.html">Contact</a></li>
+</ul>
+<ul class="nav nav-sidebar nav-sidebar-top">
+    <li class="active" style="text-align: center;">
+        <img src="/source/theme/static/img/8-bit-matt-small.png" class="img-rounded">
+    </li>
+</ul>            </div>
+            <div class="col-md-offset-2 col-md-9 main">
+        
+    <h2 class="entry-title">
+        <a href="/identifying-third-party-services-for-django.html">Discovering Third Party Services for Django Projects</a>
+    </h2> 
+    <p>Every non-trivial modern Django project combines externally hosted third
+party services with custom code to create a complete web application.</p>
+<p>For example:</p>
+<ul class="simple">
+<li>Google Analytics for traffic and customer funnel analysis</li>
+<li>Stripe, Dwolla, or PayPal for payment processing</li>
+<li>Twilio for text message notifications</li>
+<li>GitHub API for code searches</li>
+<li>New Relic or CopperEgg for application and infrastructure monitoring</li>
+<li>Intercom.io for user engagement</li>
+</ul>
+<p>A major part of being a knowledgeable developer in 2013 is knowing what
+services are out there. This post provides resources for discovering third
+party services you can use in your Django web application. How to evaluate
+known services is a separate topic that will come in a later post.</p>
+<p>Some of these services, such as Google Analytics, are easy to drop into
+your application with a line of JavaScript. Other services, such as
+Intercom.io, Stripe, or Twilio are integrated on the back end. These services
+are often critical to your application's full operation.</p>
+<p>Even with simple drop-in third party services there are ways to properly
+handle them in your Django project. For example, you should have a flag
+that disables Google Analytics code in your local development environment
+when DEBUG is set to True in settings. That way the JavaScript does not
+load while you're working.</p>
+<div class="section" id="mindset">
+<h2>Mindset</h2>
+<p>I prefer to do my research when I have extra time and do not yet have a
+specific purpose for a service in mind. This situation allows me to browse
+services and their competitors without getting hung up on particular
+features. Then when I'm working on a particular project I have a wide
+set of choices that I am aware of which I can evaluate further.</p>
+<p>Your mileage may vary, but when I'm in the moment working on a specific
+application my mindset is just to try a service out and get it to work
+without thinking as objectively about potential alternatives. Identifying
+services before starting a particular project helps me to avoid that
+narrow focus.</p>
+</div>
+<div class="section" id="weekly-updates">
+<h2>Weekly Updates</h2>
+<p>There are a couple of newsletters I subscribe to that push out information
+about new and existing services. Weekly updates help me learn on a regular
+basis bouth about the services themselves and also about the Python bindings
+that exist:</p>
+<ul class="simple">
+<li><a class="reference external" href="http://leanstack.io/">Leanstack</a></li>
+<li><a class="reference external" href="http://lincolnloop.com/django-round-up/">Lincoln Loop Django Newsletter</a></li>
+<li><a class="reference external" href="http://www.pythonweekly.com/">Python Weekly</a></li>
+<li><a class="reference external" href="http://pycoders.com/">Pycoder's Weekly</a></li>
+</ul>
+</div>
+<div class="section" id="ongoing">
+<h2>Ongoing</h2>
+<p>There are a few other sites that help give me ideas for what I can be using.
+I browse these sites on a regular basis to see what's new or remind me about
+a service I have not used in awhile:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://addons.heroku.com/">Heroku Addons</a></li>
+<li><a class="reference external" href="http://www.geckoboard.com/widget-directory/">Geckoboard Widgets Directory</a></li>
+<li><a class="reference external" href="https://ducksboard.com/services-integrations/">Ducksboard Services Integration</a></li>
+<li><a class="reference external" href="http://newrelic.com/platform">New Relic Platform Partners</a></li>
+</ul>
+<p>The great part about identifying these services is that the knowledge
+translates to other frameworks, such as Flask or Pyramid, and other languages
+such as Ruby and Clojure. Although in my next blog post I'll describe why
+you should be evaluating these services from a language and framework
+perspective before committing to them.</p>
+<p>If you're going to DjangoCon this year, come see my talk on
+<a class="reference external" href="http://www.djangocon.us/schedule/presentation/47/">Making Django Play Nice With Third Party Services</a>
+on September 5 at 10am.</p>
+<p>If you enjoyed this post you should read
+<a class="reference external" href="../django-project-checklist.html">my checklist for evaluating existing Django projects</a>
+and check out my <a class="reference external" href="http://www.codingacrossamerica.com/">Coding Across America</a>
+project.</p>
+</div>
+
+
+    <hr />
+            </div>
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+    <script src="/source/theme/static/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+        });
+    </script>
+</body>
+</html>

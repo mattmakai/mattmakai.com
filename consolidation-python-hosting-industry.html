@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Matt Makai dot com</title>
+    <meta name="author" content="Matt Makai">
+    <meta name="description" content="Python and Java web stacks software developer and Developer Evangelist for Twilio.">
+    <meta name="language" content="english">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/source/theme/static/css/mm.css">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js">
+      </script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js">      </script>
+    <![endif]-->
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 sidebar">
+                <!--  -->
+<ul class="nav nav-sidebar nav-sidebar-top">
+    <li style="text-align: center;">
+        <img src="/source/theme/static/img/matt-makai-small.jpg" class="img-circle">
+    </li>
+</ul>
+<div class="nav nav-sidebar">
+    <p>
+        Matt Makai, Python &amp; Java web developer. 
+        Washington, D.C.-based Developer Evangelist for
+        <a href="https://www.twilio.com/">Twilio</a>.
+    </p>
+</div>
+<ul class="nav nav-sidebar">
+    <li><a href="/">Writing</a></li>
+    <li><a href="/talks.html">Talks</a></li>
+</ul>
+<ul class="nav nav-sidebar">
+    <li><a href="">Projects</a></li>
+    <li ><a href="/bookmarks.html">Bookmarks</a></li>
+    <li><a href="/matt-makai-resume.pdf">Resume (.pdf)</a></li>
+    <li><a href="/about.html">About</a></li>
+    <li><a href="/contact.html">Contact</a></li>
+</ul>
+<ul class="nav nav-sidebar nav-sidebar-top">
+    <li class="active" style="text-align: center;">
+        <img src="/source/theme/static/img/8-bit-matt-small.png" class="img-rounded">
+    </li>
+</ul>            </div>
+            <div class="col-md-offset-2 col-md-9 main">
+        
+    <h2 class="entry-title">
+        <a href="/consolidation-python-hosting-industry.html">Consolidation in the Python Hosting Industry</a>
+    </h2> 
+    <p>The announcement yesterday about
+<a class="reference external" href="https://www.ep.io/blog/epio-closing-down/">Epio closing down</a>
+got me thinking about the Python PaaS industry. I did not have any personal
+experience with Epio, but from the
+<a class="reference external" href="http://news.ycombinator.com/item?id=3860196">discussion on Hacker News</a>
+it sounded like these guys were top notch developers and just nice guys
+in general. While it's difficult to see Epio's platform close down after
+all the effort invested in it, I'm sure those guys will end up in a great
+place. If they didn't already have multiple great job offers I'd be shocked.</p>
+<p>I've only personally used Google App Engine, Heroku, and Gondor PaaS,
+Amazon Web Services IaaS, and Slicehost and Linode for virtual private
+servers. I currently use Linode (for my side business) and Amazon Web Services  (for this blog plus side projects).</p>
+<p>Linode is great, especially when combined with Ubuntu images along with
+Fabric and cuisine for server set up. Amazon Web Services is also a fantastic
+platform when <a class="reference external" href="https://github.com/boto/boto">boto</a> is used to automate
+EC2, S3, etc. Right now I'm very happy with the combination of those two
+services.</p>
+<p>A few years ago I worked with Google App Engine both on side projects and
+some client projects. I still have a certain gut reaction when I think about
+using GAE. I liked the ease of deployment and the tie in to the Google APIs.
+However, I was really concerned about the lock in since the Python code
+I wrote had to be written in a certain way. The Python 2.5 restriction,
+which is now lifted to 2.7, didn't bother me too much. The big thing for me
+on GAE was the uncertainty over the eventual production costs (I used the beta
+version). Those pricing fears proved to be
+<a class="reference external" href="http://www.informationweek.com/news/cloud-computing/platform/231600672">an issue</a> for developers that went full-on in the platform. I'm glad I got out
+when I did before production GAE went live.</p>
+<p><a class="reference external" href="https://gondor.io/">Gondor</a> seemed interesting, but I really only
+played with the beta. I was concerned that they were too small to really be
+a player in the field and
+I didn't want to get locked to their platform. On the plus side, there really
+wasn't much code modification necessary to deploy a Django project.</p>
+<p>Heroku is a great platform - assuming you work within the boundaries. I found
+the shared database performance very limited. The performance was often
+an order of magnitude worse than on a very small private VPS with PostgreSQL.
+However the ease of deployment was fantastic. &quot;git push heroku master&quot; felt
+just as natural as interacting with Github all day. I could easily see
+getting into the workflow where the only platform a developer uses is
+Heroku. The dedicated database cost did scare me though. If there were a
+lower cost, $50/month instance, that might help. I'd have to do more
+research at that point to do a cost/benefit analysis over AWS or a VPS.</p>
+<p>There's no silver bullet for Python developers looking to deploy on a PaaS.
+Still, it's great to have options. For prototyping apps, Gondor and Heroku
+make great choices (as long as you don't immediately need a lot of database
+storage and performance). For production apps though, I still lean towards a
+mix of AWS and virtual private servers.</p>
+
+
+    <hr />
+            </div>
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+    <script src="/source/theme/static/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+        });
+    </script>
+</body>
+</html>

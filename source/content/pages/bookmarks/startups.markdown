@@ -26,4 +26,10 @@ slug: startups
   explains how to approach interviewing for startup opportunities as a 
   non-technical MBA.
 
-* 
+
+## Value creation
+* [What do you need to make a successful web app?](http://mir.aculo.us/2014/04/13/what-do-you-need-to-make-a-successful-web-app/)
+  is a list for necessary concepts and software you need to make a successful
+  web application (and a bunch of things you do not need).
+
+

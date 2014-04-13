@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Matt Makai dot com</title>
+    <meta name="author" content="Matt Makai">
+    <meta name="description" content="Python and Java web stacks software developer and Developer Evangelist for Twilio.">
+    <meta name="language" content="english">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/source/theme/static/css/mm.css">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js">
+      </script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js">      </script>
+    <![endif]-->
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 sidebar">
+                <!--  -->
+<ul class="nav nav-sidebar nav-sidebar-top">
+    <li style="text-align: center;">
+        <img src="/source/theme/static/img/matt-makai-small.jpg" class="img-circle">
+    </li>
+</ul>
+<div class="nav nav-sidebar">
+    <p>
+        Matt Makai, Python &amp; Java web developer. 
+        Washington, D.C.-based Developer Evangelist for
+        <a href="https://www.twilio.com/">Twilio</a>.
+    </p>
+</div>
+<ul class="nav nav-sidebar">
+    <li><a href="/">Writing</a></li>
+    <li><a href="/talks.html">Talks</a></li>
+</ul>
+<ul class="nav nav-sidebar">
+    <li><a href="">Projects</a></li>
+    <li ><a href="/bookmarks.html">Bookmarks</a></li>
+    <li><a href="/matt-makai-resume.pdf">Resume (.pdf)</a></li>
+    <li><a href="/about.html">About</a></li>
+    <li><a href="/contact.html">Contact</a></li>
+</ul>
+<ul class="nav nav-sidebar nav-sidebar-top">
+    <li class="active" style="text-align: center;">
+        <img src="/source/theme/static/img/8-bit-matt-small.png" class="img-rounded">
+    </li>
+</ul>            </div>
+            <div class="col-md-offset-2 col-md-9 main">
+        
+    <h2 class="entry-title">
+        <a href="/learning-python-for-non-developers.html">Learning Python</a>
+    </h2> 
+    <p>I am often asked by friends and colleagues that are not currently
+developers how they should go about learning Python. It's not an easy
+question - the answer is often highly dependent upon the individual's
+immediate technical aptitude. I do however believe anyone can learn how to
+program just as anyone can learn about history or business. The interest in
+learning to program usually stems from wanting to achieve in one or more
+of the following goals:</p>
+<ol class="arabic simple">
+<li><a class="reference external" href="../steps-non-developers-start-internet-business.html">Prototype an Internet-based business idea</a></li>
+<li>Build a new skill set to become a developer</li>
+<li>Work better with developers through a greater understanding of their work</li>
+</ol>
+<p>This post summarizes the many discussions I've previously so the information
+can be consumed by a wider audience. I love teaching programming to
+non-developers so don't hesistant to <a class="reference external" href="../pages/about.html">contact me</a>
+with further questions.</p>
+<div class="section" id="where-to-start">
+<h2>Where to Start</h2>
+<p>There's an overwhelming number of resources out there - it's incredibly
+difficult to know where to begin when you have not done development
+work before.</p>
+<p>My recommendation is to get to a point where you can do &quot;cool stuff&quot; -
+projects that interest you and will make you want to learn more. The
+faster you go from forcing yourself to learn to having goals for implementing
+new interesting ideas, the higher your chances of achieving your goals.</p>
+<p>First, get your feet wet. Spend a few hours going through
+<a class="reference external" href="http://www.codecademy.com/tracks/python">Code Academy's Python tutorials</a>.
+The great part about using a service like Code Academy is that it's free,
+structured, has a low barrier to entry, and will teach you some basic
+concepts that are important in Python.</p>
+</div>
+<div class="section" id="local-installation">
+<h2>Local Installation</h2>
+<p>When I say &quot;local&quot; I mean you want to have Python installed on your
+computer instead of interacting with it in the browser. This will allow
+you to start creating website projects.</p>
+<p>Get Python on your system. Depending on your operating system, you may
+already have Python installed. Mac OS X and Linux are good to go. If you're
+using Windows, head over to
+<a class="reference external" href="http://www.python.org/download/">Python.org's download page</a> and get
+Python 2.7. Ignore Python 3+ for now - you can learn it later.</p>
+<p>Now go to the command line - on Windows go to Run -&gt; &quot;cmd&quot; and then change
+directory to C:\Python27\ then type 'python'. You'll get the interpreter
+you're used to seeing on Code Academy.</p>
+<p>On Mac OS X or Linux go to the Terminal and type 'python'. You'll
+get the interpreter. Again this is great for learning more and running
+Python on your own system.</p>
+</div>
+<div class="section" id="creating-a-project">
+<h2>Creating a Project</h2>
+<p>Now that you have Python installed locally you'll want to create a
+project with .py files so you don't have to type everything into the
+interpreter.</p>
+<p>At this point you'll want to create a subdirectory under your home
+directory or like C:\devel\ on Windows. Just create some place that you'll
+remember and can store your files under. Then create subdirectories, such as
+/Users/johnsmith/devel/blog/ or C:\devel\blog\ for a blog project. Inside
+that folder you can store your .py (Python) files.</p>
+</div>
+<div class="section" id="flask-or-django">
+<h2>Flask or Django</h2>
+<p><a class="reference external" href="http://flask.pocoo.org/">Flask</a> and
+<a class="reference external" href="http://www.djangoproject.com/">Django</a> are
+web application frameworks. A framework
+is just code that other developers have written to perform common tasks
+associated with a given domain. So a &quot;web application&quot; framework is designed
+to handle all of the common tasks a web application (also known as a website)
+needs to do, such as:</p>
+<ol class="arabic simple">
+<li>Authenticating users so they can log in and log out of your site</li>
+<li>Storing passwords in a secure way</li>
+<li>Accessing the database and then passing that data to the browser</li>
+<li>Creating URLs so you can access information at different parts of your
+website, such as <a class="reference external" href="http://www.mywebsite.com/users/">http://www.mywebsite.com/users/</a> to handle /users/ url</li>
+</ol>
+<p>There's a myriad of other things a web framework handles so that you don't
+have to write that code yourself. Different frameworks such as Flask and
+Django have different approaches to solving these problems and have
+varying degrees of difficulty in their associated learning curves.</p>
+<p>Once you learn how to use Flask or Django with Python you'll be able to
+build simple websites. Then you can add complexity and implement the ideas
+that have been floating around in your head. Eventually you'll reach an
+&quot;a-ha!&quot; moment where things will click and your productivity will take off.
+That's when programming goes from being a struggle to actually being fun.</p>
+</div>
+<div class="section" id="how-do-i-learn-more-advanced-topics">
+<h2>How Do I Learn More Advanced Topics?</h2>
+<p>By far one of the best resources is <a class="reference external" href="http://github.com/">Github</a>.
+Github allows you to read other people's open source code to learn from it.
+Reading other people's work is very important because you'll learn what
+makes sense and what can be confusing. Python places a lot of emphasis on
+language readability and maintainability. You want to embrace that
+philosophy in the code you write.</p>
+<p>An interesting resource I created is a
+<a class="reference external" href="http://www.visualizationportfolio.com/visualization/python-topics-tree/">Python topics tree</a>. It gives you a dependency tree for ordering what topics you'll
+want to learn and in what order for the base Python language. If you
+find it useful I can create more for topics such as Flask, Django,
+and other Python libraries.</p>
+<p>Next up is a list of resources for keeping you learning. These resources
+range from general advice on generally learning programming to specific
+tutorials on web application frameworks such as Django and Flask.</p>
+</div>
+<div class="section" id="resources">
+<h2>Resources</h2>
+<ul class="simple">
+<li><a class="reference external" href="http://www.pythontutor.com/">Python Tutor</a>. Learn by visual code
+execution.</li>
+<li><a class="reference external" href="http://tech.yipit.com/2012/08/21/how-i-taught-myself-to-code-in-8-weeks/">How I Taught Myself to Code in 8 Weeks</a>. Weekends, really.</li>
+<li><a class="reference external" href="http://docs.python-guide.org/en/latest/">Hitchhiker's Guide to Python</a>.
+Awesome wide-ranging resource to give you direction on how to learn and
+use Python the right way.</li>
+<li><a class="reference external" href="http://ontwik.com/python/introduction-to-python/">Introduction to Python video</a></li>
+<li><a class="reference external" href="http://orangethirty.blogspot.com/2012/08/teaching-my-10-yeard-old-niece-how-to.html">Teaching a 10 Year Old to Code in Python</a></li>
+<li><a class="reference external" href="http://pythonbooks.revolunet.com/">Best Free Python Books on the Web</a></li>
+<li><a class="reference external" href="http://www.pythonweekly.com/">Python Weekly</a>. Newsletter with weekly
+Python and related project updates.</li>
+<li><a class="reference external" href="https://github.com/nryoung/algorithms">Common computer science algorithms in Python</a></li>
+<li><a class="reference external" href="http://www.amazon.com/gp/product/144933072X/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=144933072X&amp;linkCode=as2&amp;tag=minimneeds-20">Think Python</a>. Complete beginner's introduction to computer science and Python.</li>
+<li><a class="reference external" href="http://elweb.co/programacion/want-to-learn-django-start-here/">Want to Learn Django? Start Here</a></li>
+<li><a class="reference external" href="http://www.mattmakai.com/favorite-django-article-sources.html">My Favorite Django Article Sources</a>.</li>
+<li><a class="reference external" href="http://tech.yipit.com/2012/02/28/learn-django/">15 Key Resources to Learn Django</a></li>
+</ul>
+</div>
+
+
+    <hr />
+            </div>
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+    <script src="/source/theme/static/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+        });
+    </script>
+</body>
+</html>

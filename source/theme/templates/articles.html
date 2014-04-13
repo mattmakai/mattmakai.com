@@ -1,0 +1,32 @@
+{% block content %}        
+{% if articles %}
+    {% if articles_page.has_previous() %}
+        {% include 'pagination.html' %}
+    {% endif %}
+    {% for article in articles_page.object_list %}        
+        {% if loop.first and not articles_page.has_previous() %}
+            <h2 class="entry-title">
+                <a href="/{{ article.slug }}.html">{{ article.title }}</a>
+            </h2> 
+            {{ article.content|truncate(350) }}
+            <a class="readmore" href="/{{ article.slug }}.html">read more</a>
+            {% if loop.length == 1 %}
+                {% include 'pagination.html' %}
+            {% endif %}
+        {% else %} 
+            <h2 class="after-entry-title">
+                <a href="/{{ article.slug }}.html" rel="bookmark" title="Permalink to {{ article.title|striptags}}">{{ article.title }}</a>
+            </h2>
+            <div class="entry-content">
+                {{ article.content|truncate(350) }}
+                <a class="readmore" href="/{{ article.slug }}.html">read more</a>
+            </div>
+        {% endif %}
+        {% if loop.last and (articles_page.has_previous() 
+           or not articles_page.has_previous() and loop.length > 1) %}
+            <hr />
+            {% include 'pagination.html' %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
+{% endblock content %}

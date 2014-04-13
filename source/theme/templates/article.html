@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}        
+    <h2 class="entry-title">
+        <a href="/{{ article.slug }}.html">{{ article.title }}</a>
+    </h2> 
+    {{ article.content }}
+
+    <hr />
+{% endblock %}

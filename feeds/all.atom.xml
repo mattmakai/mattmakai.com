@@ -1,2 +1,2148 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/all.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2014-04-13T08:21:24Z</updated></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/all.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2014-01-17T00:00:00-05:00</updated><entry><title>CFPB Collab MySQL requirements.txt Installation Error</title><link href="http://www.letshackdc.com/cfpb-collab-mysql-requirements-txt-installation-error.html" rel="alternate"></link><updated>2014-01-17T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-01-17:cfpb-collab-mysql-requirements-txt-installation-error.html</id><summary type="html">&lt;p&gt;In case you're trying to get &lt;a class="reference external" href="https://github.com/cfpb/collab"&gt;CFPB collab&lt;/a&gt;
+working in your environment, there's a few errors you might run into. This is
+a quick post to highlight solutions to the issues I came across.&lt;/p&gt;
+&lt;p&gt;Collab currently requires MySQL for the backend. I do not believe MySQL is a
+hard requirement, but that's what we had installed on our Linux servers at
+the time I was working on it while consulting for the agency. If you run into
+the following error:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+Downloading/unpacking MySQL-python (from -r requirements.txt (line 11))
+  Downloading MySQL-python-1.2.5.zip (108kB): 108kB downloaded
+  Running setup.py egg_info for package MySQL-python
+    sh: 1: mysql_config: not found
+    Traceback (most recent call last):
+      File &amp;quot;&amp;lt;string&amp;gt;&amp;quot;, line 16, in &amp;lt;module&amp;gt;
+      File &amp;quot;/home/matt/Envs/collab/build/MySQL-python/setup.py&amp;quot;, line 17, in &amp;lt;module&amp;gt;
+        metadata, options = get_config()
+      File &amp;quot;setup_posix.py&amp;quot;, line 43, in get_config
+        libs = mysql_config(&amp;quot;libs_r&amp;quot;)
+      File &amp;quot;setup_posix.py&amp;quot;, line 25, in mysql_config
+        raise EnvironmentError(&amp;quot;%s not found&amp;quot; % (mysql_config.path,))
+    EnvironmentError: mysql_config not found
+    Complete output from command python setup.py egg_info:
+    sh: 1: mysql_config: not found
+
+Traceback (most recent call last):
+
+  File &amp;quot;&amp;lt;string&amp;gt;&amp;quot;, line 16, in &amp;lt;module&amp;gt;
+
+  File &amp;quot;/home/matt/Envs/collab/build/MySQL-python/setup.py&amp;quot;, line 17, in &amp;lt;module&amp;gt;
+
+    metadata, options = get_config()
+
+  File &amp;quot;setup_posix.py&amp;quot;, line 43, in get_config
+
+    libs = mysql_config(&amp;quot;libs_r&amp;quot;)
+
+  File &amp;quot;setup_posix.py&amp;quot;, line 25, in mysql_config
+
+    raise EnvironmentError(&amp;quot;%s not found&amp;quot; % (mysql_config.path,))
+
+EnvironmentError: mysql_config not found
+
+----------------------------------------
+&lt;/pre&gt;
+&lt;p&gt;Make sure you have the MySQL server package and the client development
+library installed. On Ubuntu you can accomplish this by running:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+sudo apt-get install mysql-server libmysqlclient-dev
+&lt;/pre&gt;
+</summary></entry><entry><title>My 2013 Software Development Year in Review</title><link href="http://www.letshackdc.com/2013-development-year-in-review.html" rel="alternate"></link><updated>2013-12-12T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2013-12-12:2013-development-year-in-review.html</id><summary type="html">&lt;p&gt;2013 was an incredible and fortunate year for me. The quick highlights:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;traveled the US for 5 months talking to tech startups and software
+developers&lt;/li&gt;
+&lt;li&gt;developed numerous client and open source software projects while traveling&lt;/li&gt;
+&lt;li&gt;wrote dozens of blog posts on Coding Across America and this blog&lt;/li&gt;
+&lt;li&gt;gave technical talks in D.C., Memphis, San Diego, San Francisco, Omaha,
+Chicago, and Boston&lt;/li&gt;
+&lt;li&gt;built out Full Stack Python which I originally started in December 2012&lt;/li&gt;
+&lt;li&gt;accepted an offer to join Twilio as their D.C.-based Developer Evangelist&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="section" id="coding-across-america"&gt;
+&lt;h2&gt;Coding Across America&lt;/h2&gt;
+&lt;p&gt;As I anticipated in my
+&lt;a class="reference external" href="../coding-across-america.html"&gt;Coding Across America blog post&lt;/a&gt;, much of
+2013 was dominated by my road trip. I'm now a firm believer in the power of
+self-defined projects that motivate yourself to learn and grow. I am happy
+with how my &lt;a class="reference external" href="http://www.codingacrossamerica.com/"&gt;Coding Across America&lt;/a&gt;
+website is coming along and I look forward to adding even more great content
+in 2014.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="languages"&gt;
+&lt;h2&gt;Languages&lt;/h2&gt;
+&lt;p&gt;Here's what I wrote last year about which languages I worked with:&lt;/p&gt;
+&lt;blockquote&gt;
+I spent most of the year programming in Python and JavaScript, with a
+touch of Objective-C, Java, and Clojure. An approximate breakdown
+would be something like 90% Python &amp;amp; JavaScript (hard to separate them
+since I work with both on the same projects), 5% Objective-C, 5% Java
+&amp;amp; Clojure. If anything, my time with Python and JavaScript might be
+higher.&lt;/blockquote&gt;
+&lt;p&gt;Ditto for this year, minus the Objective-C and Java. My focus was on Python
+with emphasis on learning Ansible, (railsless) Capistrano, and d3.js. I also
+handled a lot of server and application operations. New Relic along with
+decent Django application logging was a lifesaver on several production
+projects I worked on.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="technical-talks"&gt;
+&lt;h2&gt;Technical Talks&lt;/h2&gt;
+&lt;p&gt;I wouldn't have believed someone if they told me at the end of 2012 that in
+2013 I'd have the opportunity to give technical talks all over the US.
+Fortunately all that came to fruition. My first talk outside of Washington,
+D.C. was at MemPy in March.&lt;/p&gt;
+&lt;p&gt;My favorite talks this year were
+&lt;a class="reference external" href="http://www.youtube.com/watch?v=iGP8DQIqxXs"&gt;Making Django Play Nice with Third Party Services&lt;/a&gt;
+at &lt;a class="reference external" href="http://www.djangocon.us/schedule/presentation/47/"&gt;DjangoCon 2013&lt;/a&gt;
+in Chicago,
+&lt;a class="reference external" href="http://www.youtube.com/watch?v=psCVC9BdgsA"&gt;Staying Sane While Taking Over An Existing Django Codebase&lt;/a&gt;
+at &lt;a class="reference external" href="http://www.meetup.com/djangoboston/events/100266532/"&gt;Django Boston&lt;/a&gt;,
+and &lt;a class="reference external" href="http://www.mattmakai.com/static/presentations/jmu-everything-i-wish-i-knew.html"&gt;Everything I Wish I Knew as JMU Computer Science Undergrad&lt;/a&gt;
+to
+&lt;a class="reference external" href="http://acm.cs.jmu.edu/"&gt;JMU's Association for Computing Machinery (ACM) group&lt;/a&gt; (where I studied computer science for undergrad). I really enjoyed
+giving all my talks, those were just the ones that stick out in my mind the
+most.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="open-source"&gt;
+&lt;h2&gt;Open Source&lt;/h2&gt;
+&lt;p&gt;Most of my open source contributions were just additions to this blog,
+Coding Across America, and Full Stack Python (all of which are open
+repositories on GitHub). Each site is powered by Pelican, a Python-based
+static website generator. I wrote a
+&lt;a class="reference external" href="../introduction-to-pelican.html"&gt;Pelican quickstart post&lt;/a&gt; in November due
+to the number of questions I received this year about how to get started
+with Pelican.&lt;/p&gt;
+&lt;img alt="My 2013 GitHub contributions through Dec 13, 2013" src="../img/github-contributions-2013.jpg" style="width: 100%;" /&gt;
+&lt;p&gt;My GitHub contributions through December 13 of 2013.&lt;/p&gt;
+&lt;p&gt;I'm working on open sourcing my Ansible scripts for deploying Django websites.
+The repository is called
+&lt;a class="reference external" href="https://github.com/makaimc/deploy-django-with-ansible"&gt;deploy-django-with-ansible&lt;/a&gt;
+and it will use the MIT open source license.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="twilio"&gt;
+&lt;h2&gt;Twilio&lt;/h2&gt;
+&lt;p&gt;I am starting a new gig on Jan 6 as Twilio's new Developer Evangelist. I'll
+be based in D.C. and will travel quite a bit to tech events around the US.
+It's an exciting opportunity and I'm sure I'll have more to say once I get
+started in a few weeks.&lt;/p&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Getting Started With Pelican and GitHub Pages</title><link href="http://www.letshackdc.com/introduction-to-pelican.html" rel="alternate"></link><updated>2013-11-06T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2013-11-06:introduction-to-pelican.html</id><summary type="html">&lt;p&gt;Pelican is an open source static website generator. While Pelican is written
+in Python, you don't have to know much about that programming language to get
+started. In this post, I'll walk through the steps to getting your first
+Pelican website up and running, including a deployment to GitHub Pages for
+hosting.&lt;/p&gt;
+&lt;p&gt;A quick note before we dive in. I've been using Pelican for about
+two and a half years. I currently have three live sites
+deployed, and the code to each one is on GitHub. Those repositories are
+&lt;a class="reference external" href="https://github.com/makaimc/mattmakai.github.com"&gt;this blog&lt;/a&gt;,
+&lt;a class="reference external" href="https://github.com/makaimc/codingacrossamerica.github.com"&gt;my Coding Across America project&lt;/a&gt;,
+and
+&lt;a class="reference external" href="https://github.com/makaimc/fullstackpython.github.com"&gt;the Full Stack Python walkthrough&lt;/a&gt;.
+I can't guarantee that each one uses Pelican version 3.3+ best practices, but
+each one does exactly what I want it to do: get out of my way so I can
+write and publish.&lt;/p&gt;
+&lt;p&gt;I'm assuming you're working with Mac OS X or Linux for this tutorial. I
+used Cygwin on Windows a couple of years ago to get some of this working so
+that may be an option if you're operating system limited.&lt;/p&gt;
+&lt;div class="section" id="kickstart-example-project"&gt;
+&lt;h2&gt;Kickstart Example Project&lt;/h2&gt;
+&lt;p&gt;Let's use the Full Stack Python code to get up and running within just a
+few steps.&lt;/p&gt;
+&lt;p&gt;First, grab the code and put it in a directory named &amp;quot;fsp&amp;quot;:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+git clone git&amp;#64;github.com:makaimc/fullstackpython.github.com fsp
+&lt;/pre&gt;
+&lt;p&gt;We can already get the website working since it's already been generated in
+its current state by Pelican when I checked it in. Go to the &amp;quot;fsp&amp;quot; directory
+and use the built-in Python HTTP server:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+python -m SimpleHTTPServer
+&lt;/pre&gt;
+&lt;p&gt;Full Stack Python is now running on port 8000. Go to &lt;a class="reference external" href="http://localhost:8000/"&gt;http://localhost:8000/&lt;/a&gt;
+in your browser and you'll see the same site that's currently on
+fullstackpython.com. Note if you want to run more than one site at a time
+you can add a port number after &amp;quot;SimpleHTTPServer&amp;quot; to serve on a different
+port.&lt;/p&gt;
+&lt;p&gt;Now we need to install the dependencies to make changes to the site and
+regenerate the output. This step is the one part that takes a little more
+Python knowledge. We need to use &lt;a class="reference external" href="https://pypi.python.org/pypi/pip"&gt;pip&lt;/a&gt;
+to install Pelican, but first we need to make sure pip is installed.
+On Mac OS X's console:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+sudo easy_install pip
+&lt;/pre&gt;
+&lt;p&gt;On the Ubuntu command line:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+sudo apt-get install python-pip
+&lt;/pre&gt;
+&lt;p&gt;If you're not familiar with Python, you'll also want to look at
+&lt;a class="reference external" href="https://pypi.python.org/pypi/virtualenv"&gt;virtualenv&lt;/a&gt; to isolate Pelican's
+dependencies. This will be important if you have more than one Pelican-using
+project and they are on different versions of Pelican. Python developers can
+just nod and move along here.&lt;/p&gt;
+&lt;p&gt;Full Stack Python's dependencies are stored in the
+fsp/source/requirements.txt file. Go to that directory and install Pelican:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+pip install -r requirements.txt
+&lt;/pre&gt;
+&lt;p&gt;That will fail if you're not using a virtualenv because you're trying to
+install these requirements into your base Python installation. If you don't
+want to use virtualenv at this point just put a &amp;quot;sudo&amp;quot; in front of the
+command.&lt;/p&gt;
+&lt;p&gt;We're ready to make a change now. Go to the fsp/source/content/pages/
+directory and modify one of the files. For example, add another
+entry in change-log.rst then save the file.&lt;/p&gt;
+&lt;p&gt;Pelican needs to regenerate the website output before you can see the results
+in your browser. I've wrapped those changes in a Makefile stored in
+fsp/source/. Rather than explaining make here, let's just execute the commands
+manually that we need to regenerate the website:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+mkdir ./output
+mkdir ./output/static/
+cp -R theme/static/css theme/static/js theme/static/img output/
+cp -R theme/static/lib theme/static/plugin output/
+cp -R static-html/* output/static/
+pelican -t theme -s settings.py content
+cp -R output/* ..
+rm -rf output/
+&lt;/pre&gt;
+&lt;p&gt;What's all that? Basically we're just:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;creating a couple of output directories&lt;/li&gt;
+&lt;li&gt;copying static files that Pelican doesn't touch (like CSS, JavaScript,
+and images) into our output directory&lt;/li&gt;
+&lt;li&gt;regenerating the website HTML output with Pelican&lt;/li&gt;
+&lt;li&gt;copying all of the output to the parent directory of fsp/source&lt;/li&gt;
+&lt;li&gt;deleting the output directory&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I wrap those commands in a Makefile to automate the execution of those
+commands. Note that there's a bunch of ways to make this build process more
+efficient. But once I got everything working I focused on writing and
+publishing. You should figure out what setup will work best for your goals.&lt;/p&gt;
+&lt;p&gt;Now the website is regenerated and you should see the changes in your
+browser when you refresh the page.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="github-pages"&gt;
+&lt;h2&gt;GitHub Pages&lt;/h2&gt;
+&lt;p&gt;GitHub Pages is an easy and free way to host static websites. You just
+need to have a branch called &amp;quot;gh-pages&amp;quot; in your repository, then go into
+the application's settings through GitHub's user interface and enable
+GitHub Pages.&lt;/p&gt;
+&lt;img alt="GitHub Pages website view under application settings" src="../img/gh-pages.jpg" style="width: 100%;" /&gt;
+&lt;p&gt;GitHub Pages settings through the user interface on their web application.&lt;/p&gt;
+&lt;p&gt;Fork the Full Stack Python repository or create a new repository with a
+gh-pages branch. Enable GitHub Pages under the application settings. Then
+you should be able to access your static website at [repo name].github.io.&lt;/p&gt;
+&lt;p&gt;One last note. You can point your host records for your DNS settings of a
+domain you own to 204.232.175.78 so the site will be accessible through
+your domain name. I use Namecheap as my domain name registrar so my host
+records for &amp;#64; and www look like this:&lt;/p&gt;
+&lt;img alt="Namecheap host records for fullstackpython.com" src="../img/host-records-github-pages.jpg" style="width: 100%;" /&gt;
+&lt;p&gt;Namecheap host records pointing to GitHub Pages IP address for
+fullstackpython.com.&lt;/p&gt;
+&lt;p&gt;That's all for now! You'll definitely want to check out the
+&lt;a class="reference external" href="http://docs.getpelican.com/en/latest/getting_started.html"&gt;Pelican Getting Started Guide&lt;/a&gt;
+next for a thorough walkthrough of setting up your own new project.&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;If you enjoyed this post you should check out my
+&lt;a class="reference external" href="http://www.codingacrossamerica.com/"&gt;Coding Across America&lt;/a&gt;
+and &lt;a class="reference external" href="http://www.fullstackpython.com/"&gt;Full Stack Python&lt;/a&gt; projects, both of
+which are Pelican-powered websites with all code freely accessible on
+GitHub.&lt;/p&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Evaluating Third Party Services for Django Projects</title><link href="http://www.letshackdc.com/evaluating-third-party-services-for-django.html" rel="alternate"></link><updated>2013-08-14T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2013-08-14:evaluating-third-party-services-for-django.html</id><summary type="html">&lt;p&gt;Every non-trivial modern Django project combines externally hosted third
+party services with custom code to create a complete web application. The
+art of discovering, evaluating, integrating, and maintaining these third
+party services is an important capability for any post-entry-level Django
+developer. I'm writing these posts as a framework for how to broadly think
+about working with third party services.&lt;/p&gt;
+&lt;p&gt;This is the second of four blog posts, following my
+&lt;a class="reference external" href="../identifying-third-party-services-for-django.html"&gt;discovering third party services post&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="section" id="company-evaluation-criteria"&gt;
+&lt;h2&gt;Company Evaluation Criteria&lt;/h2&gt;
+&lt;p&gt;I start by evaluating the third party service company itself. Several
+questions immediately come to mind when looking at a newly discovered
+service:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;Which languages and frameworks are shown in their tutorials?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I ask this question because it's common for newer services built on Rails to
+only show Rails tutorials. In that case I know I may potentially spend a
+significant amount of time figuring out how to connect to their service. I
+may also have to build a third party Python binding or fork an existing but
+not well-maintained binding.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol class="arabic simple" start="2"&gt;
+&lt;li&gt;What ecosystem is their platform built on?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;What happens if you end up reliant upon the third party service and begin
+to encounter edge cases? If they only have Ruby or PHP developers in their
+company, you're going to have to figure it out on your own. On the other hand
+if their platform is built on the Python ecosystem, they'll likely have
+developers passionate and interested in helping you solve the problems you
+encounter while building and maintaining your Django app.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol class="arabic simple" start="3"&gt;
+&lt;li&gt;Does the company have one or more developer evangelists?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This question has two parts. First, developer evangelists are great for
+answering technical questions that come up while you're trying out a service.
+Second, I'm wondering &amp;quot;does this company care about developers or are they
+a sales outfit&amp;quot;? Some services launch to great fanfare but flame out quickly.
+For example, look at
+&lt;a class="reference external" href="http://www.crunchbase.com/company/simplegeo"&gt;SimpleGeo&lt;/a&gt;. If your Django
+project is built on a service that's about to shut down that will shift your
+focus from new development to ripping out an existing part of your project
+and replacing it with a home-grown solution or another third party service.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol class="arabic simple" start="4"&gt;
+&lt;li&gt;What's the service's &amp;quot;data gravity&amp;quot;?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://twitter.com/acdha"&gt;Chris Adams&lt;/a&gt; gave me the &amp;quot;data gravity&amp;quot; term
+while I was presenting the initial rough cut of my
+&lt;a class="reference external" href="http://www.mattmakai.com/static/presentations/djangocon-2013.html"&gt;DjangoCon talk&lt;/a&gt;
+at
+&lt;a class="reference external" href="http://www.meetup.com/django-district/events/131235942/"&gt;Django District&lt;/a&gt;.
+&amp;quot;Data gravity&amp;quot; struck me as an awesome concept for thinking about an
+increasingly valuable asset to any business: its data. The more data gravity
+a service potentially holds over my Django project, the more careful
+consideration that needs to happen about testing, abstracting, and backing
+up our project's data that could be compromised or lost on that service.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol class="arabic simple" start="5"&gt;
+&lt;li&gt;StackExchange or forum discussions&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Are people asking questions about a third party service? If so, that's a good
+sign you're not alone in uncharted territory. StackExchange is the defacto
+community for asking technical questions nowadays. Don't neglect blog posts
+and other forums though. Sometimes companies have official forums for their
+services. They are a great way to find out there's either an active, engaged
+group of developers on the service's side ready to help you out. Or a broken
+cesspool of empty promises and unanswered questions (for an example, see
+&lt;a class="reference external" href="http://developer.linkedin.com/forum"&gt;LinkedIn's atrocious developer forums&lt;/a&gt;).&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;If you're going to DjangoCon this year, come see my talk on
+&lt;a class="reference external" href="http://www.djangocon.us/schedule/presentation/47/"&gt;Making Django Play Nice With Third Party Services&lt;/a&gt;
+on September 5 at 10am.&lt;/p&gt;
+&lt;p&gt;If you enjoyed this post you should read
+&lt;a class="reference external" href="../django-project-checklist.html"&gt;my checklist for evaluating existing Django projects&lt;/a&gt;
+and check out my &lt;a class="reference external" href="http://www.codingacrossamerica.com/"&gt;Coding Across America&lt;/a&gt;
+project.&lt;/p&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Discovering Third Party Services for Django Projects</title><link href="http://www.letshackdc.com/identifying-third-party-services-for-django.html" rel="alternate"></link><updated>2013-08-14T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2013-08-14:identifying-third-party-services-for-django.html</id><summary type="html">&lt;p&gt;Every non-trivial modern Django project combines externally hosted third
+party services with custom code to create a complete web application.&lt;/p&gt;
+&lt;p&gt;For example:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Google Analytics for traffic and customer funnel analysis&lt;/li&gt;
+&lt;li&gt;Stripe, Dwolla, or PayPal for payment processing&lt;/li&gt;
+&lt;li&gt;Twilio for text message notifications&lt;/li&gt;
+&lt;li&gt;GitHub API for code searches&lt;/li&gt;
+&lt;li&gt;New Relic or CopperEgg for application and infrastructure monitoring&lt;/li&gt;
+&lt;li&gt;Intercom.io for user engagement&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A major part of being a knowledgeable developer in 2013 is knowing what
+services are out there. This post provides resources for discovering third
+party services you can use in your Django web application. How to evaluate
+known services is a separate topic that will come in a later post.&lt;/p&gt;
+&lt;p&gt;Some of these services, such as Google Analytics, are easy to drop into
+your application with a line of JavaScript. Other services, such as
+Intercom.io, Stripe, or Twilio are integrated on the back end. These services
+are often critical to your application's full operation.&lt;/p&gt;
+&lt;p&gt;Even with simple drop-in third party services there are ways to properly
+handle them in your Django project. For example, you should have a flag
+that disables Google Analytics code in your local development environment
+when DEBUG is set to True in settings. That way the JavaScript does not
+load while you're working.&lt;/p&gt;
+&lt;div class="section" id="mindset"&gt;
+&lt;h2&gt;Mindset&lt;/h2&gt;
+&lt;p&gt;I prefer to do my research when I have extra time and do not yet have a
+specific purpose for a service in mind. This situation allows me to browse
+services and their competitors without getting hung up on particular
+features. Then when I'm working on a particular project I have a wide
+set of choices that I am aware of which I can evaluate further.&lt;/p&gt;
+&lt;p&gt;Your mileage may vary, but when I'm in the moment working on a specific
+application my mindset is just to try a service out and get it to work
+without thinking as objectively about potential alternatives. Identifying
+services before starting a particular project helps me to avoid that
+narrow focus.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="weekly-updates"&gt;
+&lt;h2&gt;Weekly Updates&lt;/h2&gt;
+&lt;p&gt;There are a couple of newsletters I subscribe to that push out information
+about new and existing services. Weekly updates help me learn on a regular
+basis bouth about the services themselves and also about the Python bindings
+that exist:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://leanstack.io/"&gt;Leanstack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://lincolnloop.com/django-round-up/"&gt;Lincoln Loop Django Newsletter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.pythonweekly.com/"&gt;Python Weekly&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://pycoders.com/"&gt;Pycoder's Weekly&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="ongoing"&gt;
+&lt;h2&gt;Ongoing&lt;/h2&gt;
+&lt;p&gt;There are a few other sites that help give me ideas for what I can be using.
+I browse these sites on a regular basis to see what's new or remind me about
+a service I have not used in awhile:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://addons.heroku.com/"&gt;Heroku Addons&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.geckoboard.com/widget-directory/"&gt;Geckoboard Widgets Directory&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://ducksboard.com/services-integrations/"&gt;Ducksboard Services Integration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://newrelic.com/platform"&gt;New Relic Platform Partners&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The great part about identifying these services is that the knowledge
+translates to other frameworks, such as Flask or Pyramid, and other languages
+such as Ruby and Clojure. Although in my next blog post I'll describe why
+you should be evaluating these services from a language and framework
+perspective before committing to them.&lt;/p&gt;
+&lt;p&gt;If you're going to DjangoCon this year, come see my talk on
+&lt;a class="reference external" href="http://www.djangocon.us/schedule/presentation/47/"&gt;Making Django Play Nice With Third Party Services&lt;/a&gt;
+on September 5 at 10am.&lt;/p&gt;
+&lt;p&gt;If you enjoyed this post you should read
+&lt;a class="reference external" href="../django-project-checklist.html"&gt;my checklist for evaluating existing Django projects&lt;/a&gt;
+and check out my &lt;a class="reference external" href="http://www.codingacrossamerica.com/"&gt;Coding Across America&lt;/a&gt;
+project.&lt;/p&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>One Additon Per Day</title><link href="http://www.letshackdc.com/one-addition-per-day.html" rel="alternate"></link><updated>2013-08-12T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2013-08-12:one-addition-per-day.html</id><summary type="html">&lt;p&gt;I'm a huge believer in the power of results that accumulate by working on
+something every single day. This idea obviously isn't new.
+&lt;a class="reference external" href="http://nathanbarry.com/authority/"&gt;Nathan Barry's new book Authority&lt;/a&gt; is
+one of the most recent examples that explains the power of writing each day.&lt;/p&gt;
+&lt;p&gt;My favorite personal data visualization to show the power that results from
+accumulation every day is my
+&lt;a class="reference external" href="http://www.codingacrossamerica.com/#miles-driven-viz"&gt;miles driven per day&lt;/a&gt;
+graph from my Coding Across America project. At the very beginning of my trip
+a large drive could double my total mileage, for example going 720 miles
+from Charlotte, NC to New Orleans, LA. But a 700 mile drive from Colorado
+to Des Moines looks miniscule compared to the approximately 10,000 total
+miles 2/3 of the way through my trip.&lt;/p&gt;
+&lt;p&gt;There are several things off the top of my head that I finished in large
+part because of a sustained daily effort (other than the miles driven chart
+above):&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;My Virginia Tech Computer Science Master's thesis&lt;/li&gt;
+&lt;li&gt;My six month &lt;a class="reference external" href="../pages/learning-log.html"&gt;learning log&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Working out and/or running - I almost never miss a day&lt;/li&gt;
+&lt;li&gt;Numerous &lt;a class="reference external" href="../pages/presentations.html"&gt;presentations&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Next up will be taking my very rough but well received (judging from the
+number of stars on Github so far)
+&lt;a class="reference external" href="http://www.fullstackpython.com/"&gt;Full Stack Python&lt;/a&gt; and fleshing out
+each section. Within the next week it won't be complete, but after a few
+weeks of sustained effort it will become a much more comprehensive resource.&lt;/p&gt;
+</summary></entry><entry><title>Checklist for Evaluating Existing Django Projects</title><link href="http://www.letshackdc.com/django-project-checklist.html" rel="alternate"></link><updated>2013-07-31T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2013-07-31:django-project-checklist.html</id><summary type="html">&lt;p&gt;Lately I've consulted for several clients where I was asked to drop into
+an existing large Django project code base to triage issues and build
+enhancements. Working on an established code base is common whether you're
+a new developer on a team or like me working on consulting projects.&lt;/p&gt;
+&lt;p&gt;There are many attributes of an existing project: the code (and
+documentation), infrastructure, deployment procedures, and third-party
+services. While reviewing each one of these areas I get either a good feeling
+I'll be able to accomplish my work quickly, or a terrible feeling that
+the pre-work to triage issues will dwarf the scope of the work requested
+by the client.&lt;/p&gt;
+&lt;p&gt;Here is the checklist I now use (and add to when I uncover something new)
+after having gone through this process of evaluating established projects
+many times.&lt;/p&gt;
+&lt;div class="section" id="code-base"&gt;
+&lt;h2&gt;Code base&lt;/h2&gt;
+&lt;p&gt;The code repository is where most developers will dive in and try to
+understand the project. A README file that screams &amp;quot;start here!&amp;quot; is a must.&lt;/p&gt;
+&lt;div class="section" id="readme"&gt;
+&lt;h3&gt;README&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;A brief (one paragraph or bullet points) explanation of what the project
+is, its purpose, and goals to provide context for developers&lt;/li&gt;
+&lt;li&gt;Important links to development wikis, testing, staging, and production
+servers&lt;/li&gt;
+&lt;li&gt;Contact information for anyone critical to the project.&lt;/li&gt;
+&lt;li&gt;&amp;quot;Getting Started&amp;quot; section that bootstraps developers from a blank
+slate to a functional development environment. Included even if you're
+using Vagrant (to show a new developer how to use Vagrant)&lt;/li&gt;
+&lt;li&gt;Instructions for special software required for a fully-functioanl site.
+For example, how to set up Solr and build the search indexes, or how to
+locally replicate the database from a test or production environment&lt;/li&gt;
+&lt;li&gt;Basic deployment information and/or a link to detailed deployment
+instructions (even if this is just how to use the included Fabric or
+Capistrano scripts)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="project-structure"&gt;
+&lt;h3&gt;Project Structure&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Is this a flat 1.3 (and previous versions) Django project structure?&lt;/li&gt;
+&lt;li&gt;Is this a standard Django 1.4+ project structure with urls.py, wsgi.py,
+and settings.py in a subdirectory under the project's root directory?&lt;/li&gt;
+&lt;li&gt;Does this project use a custom layout with a mangled manage.py?
+For example, do the individual app directories live in the project's root
+directory or are they found in a subdirectory such as &amp;quot;apps&amp;quot;?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="dependencies"&gt;
+&lt;h3&gt;Dependencies&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Is the requirements.txt located in the project's root folder or under
+a subdirectory such as env?&lt;/li&gt;
+&lt;li&gt;Does the requirements.txt file itself point to another text file such
+as production.txt located in a subdirectory?&lt;/li&gt;
+&lt;li&gt;Are all the requirements pegged to specific version numbers? If not,
+how fast can you run away from this project?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="configuration"&gt;
+&lt;h3&gt;Configuration&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Is the settings.py file located in the root directory or under the
+project name's subdirectory as standard in Django 1.4+?&lt;/li&gt;
+&lt;li&gt;Is there a local_settings.py template file?&lt;/li&gt;
+&lt;li&gt;Are environment variables required? What's the proper way to set those
+variables?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="data"&gt;
+&lt;h3&gt;Data&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Which database is the project tested to run with? MySQL, PostgreSQL?&lt;/li&gt;
+&lt;li&gt;Are there custom SQL scripts that can only be used with a specific
+database? For example, if the project is designed to run on MySQL are
+there SQL primary keys with autoincrement that would be confusing to
+translate to PostgreSQL?&lt;/li&gt;
+&lt;li&gt;Does this project have test data? Is the test data per app, or loaded
+for the entire project?&lt;/li&gt;
+&lt;li&gt;How is test data loaded? Data data generation scripts, fixtures, database
+dump SQL scripts, or a database replication scheme?&lt;/li&gt;
+&lt;li&gt;If by fixtures or unsure, use &amp;quot;grep -r fixtures.json *.py&amp;quot; and
+&amp;quot;find . -name '*.json'&amp;quot; to find one or more JSON fixture files.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="tests"&gt;
+&lt;h3&gt;Tests&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Are there any tests? If so, do the tests.py files contain anything more
+than the boilerplate 1+1=2 example test function?&lt;/li&gt;
+&lt;li&gt;Is there a custom test runner? Is django-nose or django-jenkins used to
+run the tests?&lt;/li&gt;
+&lt;li&gt;Are tests grouped into a single tests.py file or are they under a tests/
+subdirectory under each app?&lt;/li&gt;
+&lt;li&gt;Are there coverage reports generated for the existing code?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="infrastructure"&gt;
+&lt;h2&gt;Infrastructure&lt;/h2&gt;
+&lt;p&gt;Infrastructure is the actual physical or virtualized hardware, or
+platform-as-a-service, that the project is deployed to. Production, staging,
+testing, and development servers not on an individual developer's machine
+are included in this category.&lt;/p&gt;
+&lt;p&gt;Note that there are certain things I'm leaving out here. I firmly believe
+there is little to no value to &amp;quot;enterprise architecture&amp;quot; type diagrams that
+are not generated dynamically. The amount of man hours I've witnessed
+ivory tower architects waste on drawing UML diagrams makes my blood boil.&lt;/p&gt;
+&lt;div class="section" id="environments"&gt;
+&lt;h3&gt;Environments&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Is there a master &amp;quot;environments document&amp;quot; that is autogenerated with
+information on the infrastructure?&lt;/li&gt;
+&lt;li&gt;What environment is the project designed to run in?&lt;/li&gt;
+&lt;li&gt;Linux? What distribution and version? What packages need to be installed?&lt;/li&gt;
+&lt;li&gt;Is this project meant to run on a platform-as-a-service? Which one? Heroku?&lt;/li&gt;
+&lt;li&gt;Is there a content delivery network necessary for static and media files?
+How are the files synced when there is a static files change during
+deployment?&lt;/li&gt;
+&lt;li&gt;Are there separate servers for the database and web? Are there separate
+caching servers? (Obviously this question can scale to many other questions
+depending on the infrastructure size.)&lt;/li&gt;
+&lt;li&gt;What are the IP addresses of existing servers?&lt;/li&gt;
+&lt;li&gt;Are the testing, staging, and production environments in sync? How do you
+know if they go out of sync?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="access-rights"&gt;
+&lt;h3&gt;Access Rights&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Are the environemnts accessible with a username and password?&lt;/li&gt;
+&lt;li&gt;Is a public encryption key in the authorized_keys file needed to login?
+Who already has access to add a new key or is there a general key?&lt;/li&gt;
+&lt;li&gt;Is root access to a box by SSH denied (as it should be)?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="deployment"&gt;
+&lt;h3&gt;Deployment&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Generally speaking, how is a deployment done?&lt;/li&gt;
+&lt;li&gt;Are Fabric, Capistrano (railsless-deploy), or shell scripts used?&lt;/li&gt;
+&lt;li&gt;Is Ansible, Salt Stack, Puppet, or Chef used?&lt;/li&gt;
+&lt;li&gt;What are the purposes of various users? For example, if there is a
+deployment user as well as another general purpose user, which one
+should be used for debugging?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="third-party-services"&gt;
+&lt;h2&gt;Third-party services&lt;/h2&gt;
+&lt;p&gt;Most Django projects combine custom apps with third party services,
+such as Twilio, Stripe, New Relic, and Intercom.io, to create a complete
+product. Which ones are used in the project, do they fail gracefully when
+their APIs are down or inaccessible, and who has admin access rights to
+the services?&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;What third party services are used with this project?&lt;/li&gt;
+&lt;li&gt;How are the third party services tested locally?&lt;/li&gt;
+&lt;li&gt;What are the usernames and passwords for the services?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Developer Interview Questions</title><link href="http://www.letshackdc.com/developer-interview-questions.html" rel="alternate"></link><updated>2013-02-26T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2013-02-26:developer-interview-questions.html</id><summary type="html">&lt;p&gt;One of my clients was interviewing web developers and asked me about how
+I go about performing technical interviews. I have interviewed 15
+developers of all experience levels for
+&lt;a class="reference external" href="http://www.excella.com/"&gt;Excella Consulting&lt;/a&gt; in the past year. My style
+and questions are still developing. This morning when I read
+&lt;a class="reference external" href="https://medium.com/on-startups/4c0197625f69"&gt;Facebook Lost A Great Engineer&lt;/a&gt;
+I felt like it might help my learning process if I synthesized my thoughts
+with a blog post.&lt;/p&gt;
+&lt;p&gt;There are different interviewing philosophies so this is my opinionated
+perspective.&lt;/p&gt;
+&lt;div class="section" id="open-source"&gt;
+&lt;h2&gt;Open Source&lt;/h2&gt;
+&lt;p&gt;Before an interview I always check out if a person has open
+source projects on &lt;a class="reference external" href="https://github.com/"&gt;Github&lt;/a&gt; or
+&lt;a class="reference external" href="https://bitbucket.org/"&gt;Bitbucket&lt;/a&gt;. If they don't, that's a huge
+black mark to me. I do know some really great engineers who do not use Git
+and do not have open source work to their name. In general though I am
+very leary of anyone who does not have some sort of public project or website.
+I need time to peruse their code outside that one hour interview. That process
+helps me understand how someone approaches problems.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="behavioral-questions"&gt;
+&lt;h2&gt;Behavioral Questions&lt;/h2&gt;
+&lt;p&gt;Once the interview begins I start by asking a mix of behavioral questions to
+determine what roles a person has performed on a team. The behavioral
+questions also help to discover what a candidate's strengths and
+weaknesses may be. For example, &amp;quot;Tell me a time you were developing
+software with a team.&amp;quot; They give a bit of background then I ask simple
+followup questions. &amp;quot;What went right about the project?&amp;quot; &amp;quot;What could have
+been improved?&amp;quot; &amp;quot;What was the most difficult technical challenge you faced
+and how did you overcome it?&amp;quot;&lt;/p&gt;
+&lt;p&gt;Simple questions of that nature to help the candidate get loosened up a
+little bit - there's no &amp;quot;wrong&amp;quot; answers because it draws on their own
+experiences. I watch out for people that pass a lot of blame around -
+&amp;quot;so and so didn't do their job, I had to fix everything&amp;quot; - even if that
+truly happened, it's a sign of team dysfunction.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="technical-questions"&gt;
+&lt;h2&gt;Technical Questions&lt;/h2&gt;
+&lt;p&gt;That's pretty standard stuff so far. Once we get past some initial
+questions which allow me to determine if they can communicate,
+whether they work well with a team, what their general technical
+interests are, I ask some blanket, open-ended technical questions. Here
+are some examples:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&amp;quot;Explain to me what happens when a user enters a URL into a browser to
+go to a website.&amp;quot; - web developers should understand the HTTP
+request/response cycle, a bit about browser rendering (WebKit, Mozilla,
+IE, etc), what happens in what order, and something about how the
+server does the processing. This is a great question because the
+candidate can give an overview and then go into further detail to
+show their level of competency. They can talk about domain name
+resolution, TCP/IP/HTTP networking stack, etc.&lt;/li&gt;
+&lt;li&gt;&amp;quot;Describe the parts of your ideal web application stack. Tell me what
+goes into your thought process in picking out which pieces to use on
+projects.&amp;quot; This is in line with the website I created at
+&lt;a class="reference external" href="http://www.fullstackpython.com/"&gt;Full Stack Python&lt;/a&gt;. If a candidate
+can tell me about MySQL, Redis, some web frameworks and WHY they make
+sense in some situations and not others that's good. I try to filter
+out &amp;quot;well this is what I've used in the past so that's what I'm going to
+pick.&amp;quot; I want to work with developers that really think about why they
+use various pieces in the stack puzzle. It also allows me to find out if
+a candidate is using interesting new tools on side projects outside their
+day job.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="what-i-do-not-do"&gt;
+&lt;h2&gt;What I Do Not Do&lt;/h2&gt;
+&lt;p&gt;I never ask &amp;quot;teaser&amp;quot; or puzzle questions like they do at Facebook.
+I don't feel like puzzle questions are highly correlated enough with
+filtering out if a person is going to be a &amp;quot;gets stuff done&amp;quot; type of
+developer. Facebook and Google probably have better luck with those
+questions since it fits their culture.&lt;/p&gt;
+&lt;p&gt;To me most puzzles are a waste of time. I would rather be solving real
+client and customer business problems by using technology. This is my
+philosophy - not judgment on the cultures where puzzle interviews
+are prevalent. If that works for them that's great. I just would not
+fit in well in that culture. It's likely that the people I want on my
+development teams would feel the same way so that's the path I take.&lt;/p&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Coding Across America</title><link href="http://www.letshackdc.com/coding-across-america.html" rel="alternate"></link><updated>2013-02-22T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2013-02-22:coding-across-america.html</id><summary type="html">&lt;p&gt;In two weeks I get on the road to begin my primary 2013 project:
+&lt;a class="reference external" href="http://www.codingacrossamerica.com/"&gt;Coding Across America&lt;/a&gt;. This is
+a large undertaking. I travel for five months from March until August to
+thirty cities across the United States.&lt;/p&gt;
+&lt;p&gt;I am going to be developing software for my existing clients for at least
+the first couple of months of my trip. Plans are still fluid but it looks
+like I'll be developing for about 25 hours a week. That work plus my side
+projects should keep my Python skills from going soft.&lt;/p&gt;
+&lt;p&gt;My blogging here on this site will likely languish (as it has since early in
+January) because I will be writing so frequently for Coding Across America.
+I will continue to update this blog with occasional technical posts and
+&lt;a class="reference external" href="../pages/presentations.html"&gt;my presentations&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I currently have two future tech talks scheduled. I will be speaking
+to the George Washington University Computer Science department about
+&amp;quot;real world&amp;quot; Python development. At the end of March I still plan to
+speak at Memphis Python. I need to circle back with them about which of
+the two topics I suggested are more useful to their audience. Otherwise
+I hope to keep the speaking engagements to a minimum while I am on the
+road. Listening, asking questions, and synthesizing information through
+writing are my priorities.&lt;/p&gt;
+</summary></entry><entry><title>Getting to Plan B</title><link href="http://www.letshackdc.com/getting-to-plan-b.html" rel="alternate"></link><updated>2013-01-06T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2013-01-06:getting-to-plan-b.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="http://www.amazon.com/gp/product/B004OC07HQ/ref=as_li_ss_tl?ie=UTF8&amp;amp;tag=minimneeds-20&amp;amp;linkCode=as2&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=B004OC07HQ"&gt;Getting to Plan B&lt;/a&gt;
+by John Mullins and Randy Komisar is a book about transitioning from an
+initial idea, your &amp;quot;Plan A&amp;quot;, to a subsequent idea, &amp;quot;Plan B through Z&amp;quot;,
+with a better product/market fit.&lt;/p&gt;
+&lt;p&gt;The authors introduce several key terms that are used throughout the book,
+including &lt;em&gt;analogs&lt;/em&gt;, &lt;em&gt;antilogs&lt;/em&gt;, &lt;em&gt;leaps of faith&lt;/em&gt;. The use of
+&lt;em&gt;dashboards&lt;/em&gt; is also a key concept and many examples in each chapter
+are used to demonstrate their value.&lt;/p&gt;
+&lt;div class="section" id="analogs-and-antilogs"&gt;
+&lt;h2&gt;Analogs and Antilogs&lt;/h2&gt;
+&lt;p&gt;Analogs are examples of companies, in the same industry you seek to do
+business or a different industry, that have key similarities between how
+they do business and your prospective business model. Antilogs are the
+opposite - what you do not want to replicate from other organizations. The
+mixture of analogs and antilogs helps to define your business model.&lt;/p&gt;
+&lt;p&gt;Analogs and antilogs are intended to produce a basic level of evidence
+that the way you plan to execute your business has already been proven by
+other currently operating businesses.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="leaps-of-faith-and-dashboards"&gt;
+&lt;h2&gt;Leaps of Faith and Dashboards&lt;/h2&gt;
+&lt;p&gt;Aspects of a business that are not &amp;quot;proven&amp;quot; by analogs and antilogs are
+leaps of faith. Leaps of faith are hypotheses that must be proven if the
+business is to work properly. Dashboards are used to constantly monitor
+the leaps of faith. Leaps of faith change from high-level to granular
+through multiple iterations of dashboarding and modifying the business
+based on the results achieved (or not achieved).&lt;/p&gt;
+&lt;p&gt;One of the major concepts hammered home by the book is to test and dashboard
+the most fundamental hypotheses about your business model first. If you and
+your co-founders are wrong about a key hypothesis in your business model
+then smaller assumptions will not matter. Test the biggest questions first,
+prove them out, then evolve your dashboard to cover the more granular
+assumptions.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="business-model"&gt;
+&lt;h2&gt;Business Model&lt;/h2&gt;
+&lt;p&gt;Six chapters are devoted to understanding your business model in pieces
+and then how they fit together. Figuring out if there is a way to run
+your business differently than industry incumbents can lead to a sustainable
+competitive advantage because it is usually difficult for existing
+businesses to change parts of their established business model. The five
+models that Getting to Plan B covers are:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;Revenue&lt;/li&gt;
+&lt;li&gt;Gross margin&lt;/li&gt;
+&lt;li&gt;Operating&lt;/li&gt;
+&lt;li&gt;Working capital&lt;/li&gt;
+&lt;li&gt;Investment&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="section" id="takeaway"&gt;
+&lt;h2&gt;Takeaway&lt;/h2&gt;
+&lt;p&gt;The book provides a solid bridge between entrepreneurship and &amp;quot;traditional&amp;quot;
+business concepts that would be taught in an MBA program. The examples were
+interesting and drove home each of the concepts. It would have been a good
+idea to include examples of business model failures. For example, where
+did changing the gross margin model in an established industry turn out to
+be a really bad idea and why?&lt;/p&gt;
+&lt;p&gt;Overall Getting to Plan B is a good supplement to books like the
+&lt;a class="reference external" href="../lean-startup-notes.html"&gt;Lean Startup&lt;/a&gt; and
+&lt;a class="reference external" href="../startup-owners-manual-strategy-guide.html"&gt;The Startup Owner's Manual Strategy Guide&lt;/a&gt;. This book provides a different perspective that is not
+seen in those two books or similar Lean Startup resources.&lt;/p&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>My 2012 Software Development Year in Review</title><link href="http://www.letshackdc.com/2012-development-year-in-review.html" rel="alternate"></link><updated>2012-12-26T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-12-26:2012-development-year-in-review.html</id><summary type="html">&lt;p&gt;Ever since I was a little kid I knew that I wanted to develop software.
+From what I hear that clarity of purpose is rare. It wasn't until college
+that I really felt I &amp;quot;got serious&amp;quot; about constantly improving on what I
+know. That learning has accelerated in the past few years since I finished
+my second Master's. 2012 has been a very good year for expanding my
+capabilities in software development.&lt;/p&gt;
+&lt;p&gt;However, I sometimes forget about the improvements I make and why I'm
+making them. I take some of what I've done and learned for granted.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Along the journey we commonly forget its goal.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Friedrich Nietzsche&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This post is a summary of what I've accomplished and learned during 2012.
+Hopefully it helps me remember where I've been and where I may go next.&lt;/p&gt;
+&lt;div class="section" id="languages"&gt;
+&lt;h2&gt;Languages&lt;/h2&gt;
+&lt;p&gt;I spent most of the year programming in Python and JavaScript, with a touch
+of Objective-C, Java, and Clojure. An approximate breakdown would be something
+like 90% Python &amp;amp; JavaScript (hard to separate them since I work with both
+on the same projects), 5% Objective-C, 5% Java &amp;amp; Clojure. If anything, my
+time with Python and JavaScript might be higher.&lt;/p&gt;
+&lt;p&gt;I also learned LESS and got much better with CSS3.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="libraries-open-source"&gt;
+&lt;h2&gt;Libraries &amp;amp; Open Source&lt;/h2&gt;
+&lt;p&gt;I did some work with the &lt;a class="reference external" href="https://github.com/makaimc/python-library"&gt;Urban Airship Python API binding library&lt;/a&gt;
+for a mobile app proof of concept to a client that unfortunately didn't pan
+out.&lt;/p&gt;
+&lt;p&gt;I issued a pretty simple but useful
+&lt;a class="reference external" href="https://github.com/bartaz/impress.js/pull/15"&gt;pull request&lt;/a&gt;
+on &lt;a class="reference external" href="https://github.com/bartaz/impress.js"&gt;impress.js&lt;/a&gt; after I saw it on
+Hacker News but I found out it wouldn't work with my Logitech presentation
+pointer. All my
+&lt;a class="reference external" href="../pages/presentations.html"&gt;2012 presentations&lt;/a&gt;
+were created with impress.js. I never really felt like I had enough time
+to grasp the full power of the framework - but it's a really well written
+open source project. I'm working with
+&lt;a class="reference external" href="https://github.com/imakewebthings/deck.js"&gt;deck.js&lt;/a&gt; for at least my
+first several 2013 presentations but I may go back to impress.js at some
+point.&lt;/p&gt;
+&lt;p&gt;I
+&lt;a class="reference external" href="https://github.com/makaimc/Visualization-Portfolio"&gt;open sourced on Github&lt;/a&gt;
+my &lt;a class="reference external" href="http://visualizationportfolio.com/"&gt;Visualization Portfolio&lt;/a&gt; side
+project. I also open sourced
+&lt;a class="reference external" href="https://github.com/makaimc/mattmakai.github.com"&gt;this blog&lt;/a&gt; and my
+&lt;a class="reference external" href="https://github.com/makaimc/codingacrossamerica.github.com"&gt;Coding Across America blog&lt;/a&gt;.
+I need to figure out the licensing situations on those things though.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="side-projects"&gt;
+&lt;h2&gt;Side Projects&lt;/h2&gt;
+&lt;p&gt;I launched (and relaunched) several side projects.&lt;/p&gt;
+&lt;p&gt;First up was &lt;a class="reference external" href="https://www.proofdriven.com/"&gt;ProofDriven&lt;/a&gt;, an attempt to
+create a full-stack Python web app that produces estimates of savings from
+software development upgrades (for example, going from no source control to
+using Git) so developers could give a financial report to their managers.
+ProofDriven produces PDF reports that can be printed out. Each report can
+be customized with various parameters, such as the total cost of the software
+development project, the team size, and other assumptions. The models and
+report outputs are based on input assumptions as well as other
+technology-inherent factors based on which report is chosen. I integrated
+Stripe and PayPal for payments on reports other than the free default one.
+I never marketed the idea but I may reboot it at some point and see if I
+can apply the Customer Development approach to find out if there is any
+potential market there.&lt;/p&gt;
+&lt;p&gt;I launched (and relaunched) this blog a couple of times on different
+platforms. More on that in the next section.&lt;/p&gt;
+&lt;p&gt;I created
+&lt;a class="reference external" href="http://visualizationportfolio.com/"&gt;Visualization Portfolio and deployed it on Heroku&lt;/a&gt;. I'll begin adding more than the base three visualizations with
+d3.js soon once I get caught up with the 3.0 release.&lt;/p&gt;
+&lt;p&gt;I also just created but haven't finished (more on this in a few days)
+&lt;a class="reference external" href="http://www.fullstackpython.com/"&gt;Full Stack Python&lt;/a&gt;. It will be a site
+dedicated to explaining everything you need to know to launch a Python-based
+web application from server to browser. It should also be useful to people
+who know other stacks (RoR, JVM, PHP) and what to compare them to the
+Python stack. It'll probably take me into 2013 before I finish that site
+up and officially launch it.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="blogging"&gt;
+&lt;h2&gt;Blogging&lt;/h2&gt;
+&lt;p&gt;I moved from my &lt;a class="reference external" href="http://www.mmakai.com/"&gt;original Tumblr blog&lt;/a&gt; to a
+statically generated &lt;a class="reference external" href="http://docs.getpelican.com/en/3.1.1/"&gt;Pelican&lt;/a&gt;.
+At first I hosted it on Amazon S3 but then I moved it over to Github Pages.
+Github Pages is absolutely awesome and I've been really happy with it
+ever since I made the switch.&lt;/p&gt;
+&lt;p&gt;My Coding Across America blog is also on Github Pages. Coding Across America
+should begin to get interesting in late January when I start talking to
+startups in Washington, DC. Then on March 9th I'll hit the road for a
+5 month tour of the US. Any startups out there in any of the 30 cities I'll
+be in please contact me on Twitter &amp;#64;makaimc or by email at
+&lt;a class="reference external" href="mailto:matthew.makai&amp;#64;gmail.com"&gt;matthew.makai&amp;#64;gmail.com&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="presentations-and-technical-talks"&gt;
+&lt;h2&gt;Presentations and Technical Talks&lt;/h2&gt;
+&lt;p&gt;I gave a bunch of talks in 2012. Among my favorites were my April 2012
+DC Python talk about using
+&lt;a class="reference external" href="../static/presentations/python-wrapper-urban-airship-dc-python.html"&gt;Urban Airship to send push notifications&lt;/a&gt;,
+my high-level &lt;a class="reference external" href="../static/presentations/what-is-python-for-everyone.html#/step-1"&gt;Python Indoctrination class&lt;/a&gt;, and my discussion of
+&lt;a class="reference external" href="../static/presentations/agile-software-development-in-federal-government.html#/step-1"&gt;Agile Software Development in the Federal Government&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I'm excited about my slate of talks for 2013, especially that many of them
+will be in cities I've never been to before: Memphis, San Francisco, etc.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="learning-log"&gt;
+&lt;h2&gt;Learning Log&lt;/h2&gt;
+&lt;p&gt;I tried a little experiment in mid-September to write a daily
+&lt;a class="reference external" href="/pages/learning-log.html"&gt;learning log&lt;/a&gt;. Basically I force myself to
+go look at the documentation of a programming language or library I'm
+using and learn something new about it - however esoteric or at that
+moment seemingly useless.&lt;/p&gt;
+&lt;p&gt;For example, I'm been reading the d3.js API documentation to learn more
+about the shortcut functions that make it easier to manipulate DOM-bound
+data. Many of the functions aren't &lt;em&gt;necessary&lt;/em&gt; but are really useful for
+cutting down on boilerplate code.&lt;/p&gt;
+&lt;p&gt;I really like the learning log and I'm going to continue doing it in 2013.
+The only major issue I've had so far is sometimes I get caught up in other
+things and I have to &amp;quot;catch up&amp;quot; - so I try to learn like 2 weeks worth at
+a time. That's less useful than learning one, two, or three new topics a day.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="what-s-next"&gt;
+&lt;h2&gt;What's Next&lt;/h2&gt;
+&lt;p&gt;I've already written about what skills I'm currently working on developing
+to be a better
+&lt;a class="reference external" href="../journey-to-true-full-stack-developer.html"&gt;full-stack software developer&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;The majority of 2013 will be defined by my
+&lt;a class="reference external" href="http://www.codingacrossamerica.com/"&gt;Coding Across America&lt;/a&gt; trip.&lt;/p&gt;
+&lt;p&gt;I'll write up a separate post sometime in the near future to cover 2013.&lt;/p&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>The Startup Owner's Manual Strategy Guide</title><link href="http://www.letshackdc.com/startup-owners-manual-strategy-guide.html" rel="alternate"></link><updated>2012-12-14T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-12-14:startup-owners-manual-strategy-guide.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="http://www.amazon.com/gp/product/B009UMTMKS/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=B009UMTMKS&amp;amp;linkCode=as2&amp;amp;tag=minimneeds-20"&gt;The Startup Owner's Manual Strategy Guide&lt;/a&gt;
+by Steve Blank and Bob Dorf describes the Customer Development methodology
+that can be used by startups to search for a business model. The
+Customer Development model was developed because existing tools and
+strategies for established companies are designed for measuring
+execution of an &lt;em&gt;existing&lt;/em&gt; business model but are wasteful when
+attempting to measure the search process for an unknown business model.&lt;/p&gt;
+&lt;div class="section" id="customer-development-versus-product-development"&gt;
+&lt;h2&gt;Customer Development Versus Product Development&lt;/h2&gt;
+&lt;p&gt;Traditional product development in an established company follows a
+predictable waterfall process because the customers are already known.
+However, a startup is defined as &amp;quot;a temporary organization in search of a
+scalable, repeatable, profitable business model&amp;quot; and therefore does not
+yet know who its customers are.&lt;/p&gt;
+&lt;p&gt;Therefore startups must search for their business model and customers
+through the Customer Development process. Traditional product development
+models are not suited to finding and obtaining customer feedback because
+&lt;em&gt;there is no existing product on which customers can base their feedback&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Therefore at first a quick low-fidelity minimum viable product must be
+created to obtain initial customer feedback. Customer feedback is used
+by the founders to validate hypotheses in their business model. Later,
+a high-fidelity minimum viable product is used for customer validation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="nine-mistakes-about-new-product-introductions"&gt;
+&lt;h2&gt;Nine Mistakes About New Product Introductions&lt;/h2&gt;
+&lt;p&gt;The authors outline nine common flawed assumptions about product introduction
+when both the customer and business model are unknown.&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;&amp;quot;I Know What the Customer Wants&amp;quot;&lt;/li&gt;
+&lt;li&gt;&amp;quot;I Know What Features to Build&amp;quot;&lt;/li&gt;
+&lt;li&gt;Focus on Launch Date&lt;/li&gt;
+&lt;li&gt;Emphasis on Execution Instead of Learning and Iteration&lt;/li&gt;
+&lt;li&gt;Presuming No Trial and No Errors&lt;/li&gt;
+&lt;li&gt;Traditional Job Titles&lt;/li&gt;
+&lt;li&gt;Sales and Marketing Execute to a Plan&lt;/li&gt;
+&lt;li&gt;Premature Scaling on Presumption of Success&lt;/li&gt;
+&lt;li&gt;Management by Crisis&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Examples of each and analysis of where these go wrong in a startup are
+given. The gist is, you don't know your customers until you get out of the
+building (the authors use this term frequently) and start showing them
+something tangible.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="customer-development"&gt;
+&lt;h2&gt;Customer Development&lt;/h2&gt;
+&lt;p&gt;Customer development is the process used by a startup to &lt;em&gt;search&lt;/em&gt; for a
+repeatable business model. An important quote from the book:&lt;/p&gt;
+&lt;blockquote&gt;
+Search versus execution is what differentiates a new venture from an
+existing business unit.&lt;/blockquote&gt;
+&lt;p&gt;Agile development combines with customer development in a software-based
+business to organize and implement the business model search process.&lt;/p&gt;
+&lt;p&gt;The first step in customer development is &lt;em&gt;customer discovery&lt;/em&gt;. Customer
+discovery is the process for transforming founders' vision into
+a series of the most important testable business model hypotheses.&lt;/p&gt;
+&lt;p&gt;The second step in customer development is &lt;em&gt;customer validation&lt;/em&gt;. Customer
+validation tests whether the business model is repeatable and scalable.&lt;/p&gt;
+&lt;p&gt;A primary feature of the customer development process is that there are
+&lt;strong&gt;no&lt;/strong&gt; functional departments until the business model is proven and moves
+into execution mode. Everything done during customer development is done
+by a cross-functional team working together to search for the business model.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="customer-creation-and-company-building"&gt;
+&lt;h2&gt;Customer Creation and Company-Building&lt;/h2&gt;
+&lt;p&gt;Once customer discovery and customer validation are proven, the company
+moves into execution mode (&lt;em&gt;customer creation&lt;/em&gt;) then &lt;em&gt;company-building&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Customer discovery and customer validation are explained with great
+detail by the authors. I will elaborate further in a later post that
+crosses lessons learned from both
+&lt;a class="reference external" href="../lean-startup-notes.html"&gt;The Lean Startup&lt;/a&gt; and The Startup Owner's
+Manual Strategy Guide.&lt;/p&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>The Lean Startup by Eric Ries</title><link href="http://www.letshackdc.com/lean-startup-notes.html" rel="alternate"></link><updated>2012-12-09T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-12-09:lean-startup-notes.html</id><summary type="html">&lt;p&gt;I recently finished reading &lt;a class="reference external" href="http://www.amazon.com/gp/product/0307887898/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=0307887898&amp;amp;linkCode=as2&amp;amp;tag=minimneeds-20"&gt;The Lean Startup&lt;/a&gt; by Eric Ries. This blog post contains
+some brief notes on the book. I'll have more to say at a later time.&lt;/p&gt;
+&lt;div class="section" id="primary-concepts"&gt;
+&lt;h2&gt;Primary concepts&lt;/h2&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;Neither the traditional management approach nor the &amp;quot;just do it&amp;quot; without
+a plan schools of thought are effective ways of maximizing the chances for
+success in creating a new venture&lt;/li&gt;
+&lt;li&gt;Small batch sizes reduce waste by minimizing effort spent creating
+unwanted features. Small batches are also crucial to obtaining
+constant feedback by customers&lt;/li&gt;
+&lt;li&gt;Learning should be the initial measure of progress for highly
+uncertain ventures such as new start up companies&lt;/li&gt;
+&lt;li&gt;Minimum Viable Products (MVPs) drive the Build-Measure-Learn feedback
+loop through constant iterations based partially on customer feedback
+and driven by the founder's vision&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Other thoughts I picked up along the way are below.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="validated-learning"&gt;
+&lt;h2&gt;Validated Learning&lt;/h2&gt;
+&lt;p&gt;Validated learning is &amp;quot;the process of demonstrating empirically that a
+team has discovered valuable truths about a startup's present and
+future business prospects.&amp;quot; Part of the motivation behind measuring progress
+with validated learning is to get away from the idea that following a
+predefined plan will work. Predefined plans do not work because they
+do not take embed customers' feedback as a critical driver of the development
+process for a new product or service.&lt;/p&gt;
+&lt;p&gt;The Eric Ries' proposed model is based on explicitly declaring hypotheses
+that underlie a potential business model and then determining what
+measurements prove or disprove each hypothesis. Eric discusses how this
+process called &lt;em&gt;validated learning&lt;/em&gt; should work to avoid subjective arguments
+that are superficially supported by &lt;em&gt;vanity metrics&lt;/em&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="cross-functional-teams-and-mvps"&gt;
+&lt;h2&gt;Cross-functional teams and MVPs&lt;/h2&gt;
+&lt;p&gt;Cross-functional teams are necessary (as opposed to organization by
+traditional functional departments) for MVPs because feedback cycle times'
+speed is dependent upon the team working together in multiple roles.
+Communication overhead and bureaucracy are minimized in cross-functional
+teams that work well together. Some people are not suited for this type of
+work, for example someone that just wants to work on a single aspect of
+work (such as programming) 100% of the time.&lt;/p&gt;
+&lt;p&gt;There's more to this but these are just some of my initial thoughts as I
+dive deeper into the Lean Startup and Customer Development philosophies.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="startup-definition"&gt;
+&lt;h2&gt;Startup Definition&lt;/h2&gt;
+&lt;p&gt;Eric defines a startup as &amp;quot;a human institution designed to create a new
+product or service under conditions of extreme uncertainty.&amp;quot; I like this
+definition although &amp;quot;extreme&amp;quot; sounds vague to me, but at the current time
+I'm not sure exactly how I would improve upon the definition.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="sxsw-2012-video"&gt;
+&lt;h2&gt;SXSW 2012 Video&lt;/h2&gt;
+&lt;p&gt;In &lt;a class="reference external" href="http://www.udemy.com/lean-startup-sxsw-2012-videos-and-presentations/"&gt;this video of Eric Ries at SXSW&lt;/a&gt; he discusses that Lean Startup is a process
+for helping execute a founders' vision - it does not tell you what to build
+but instead helps you get feedback so your vision creates a product that
+provides value to customers.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="lean-startup-s-relationship-to-customer-development"&gt;
+&lt;h2&gt;Lean Startup's Relationship to Customer Development&lt;/h2&gt;
+&lt;p&gt;The Lean Startup and Customer Development (as taught by Steve Blank)
+are intertwined. Steve Blank's condition for investing in IMVU when it
+was founded by Eric Ries and Will Harvey was that both founders had to
+audit Steve's Customer Development course. Eric Ries explicitly mentioned
+using the Customer Development methodology while running IMVU. Steve
+Blank writes in &lt;a class="reference external" href="http://www.amazon.com/gp/product/0984999302/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=0984999302&amp;amp;linkCode=as2&amp;amp;tag=minimneeds-20"&gt;The Startup Owner's Manual&lt;/a&gt;
+that Lean Startup is Customer Development combined with the Agile
+software development methodology.&lt;/p&gt;
+&lt;p&gt;Lean Startup as a combination of Customer Development plus Agile methodology
+makes sense because Customer Develoment is intended as a general approach
+to searching for a business model. Lean Startup also espouses certain
+practices that make the most sense in the context of the software development
+world including continuous deployment and delivery.&lt;/p&gt;
+&lt;p&gt;Steve Blank actually writes about the relationship in
+&lt;a class="reference external" href="http://steveblank.com/2010/01/25/whats-a-startup-first-principles/"&gt;What's a Startup? First Principles&lt;/a&gt;. Customer Development is how a founder
+iterates and tests each element of their business model. Agile development
+is how startups iterate the product as they learn from their customers and
+combine that learning with the founders' vision. Lean Startup is the
+intersection of Customer Development and Agile development.&lt;/p&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>How I Feel While Reading Open Source Projects</title><link href="http://www.letshackdc.com/how-i-feel-reading-python-projects.html" rel="alternate"></link><updated>2012-12-08T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-12-08:how-i-feel-reading-python-projects.html</id><summary type="html">&lt;p&gt;My New Year's resolution for 2013 is to read code from
+&lt;a class="reference external" href="http://flask.pocoo.org/"&gt;awesome&lt;/a&gt;
+&lt;a class="reference external" href="http://docs.python-requests.org/en/latest/"&gt;open&lt;/a&gt;
+&lt;a class="reference external" href="http://gunicorn.org/"&gt;source&lt;/a&gt;
+projects each day. I don't like waiting for New Year's Day to start a
+good idea so I've already begun reading Flask's source code.&lt;/p&gt;
+&lt;p&gt;It's enlightening to read great code although the &amp;quot;downside&amp;quot; (due to my
+lack of free time) is that it is
+motivating me to figure out something I can write to give back to the
+community. On the lighter side,
+&lt;a class="reference external" href="http://i.qkme.me/3s3myj.jpg"&gt;this is how I feel&lt;/a&gt; while I am reading
+all the great open source Python projects out there.&lt;/p&gt;
+</summary></entry><entry><title>Learning Python</title><link href="http://www.letshackdc.com/learning-python-for-non-developers.html" rel="alternate"></link><updated>2012-11-14T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-11-14:learning-python-for-non-developers.html</id><summary type="html">&lt;p&gt;I am often asked by friends and colleagues that are not currently
+developers how they should go about learning Python. It's not an easy
+question - the answer is often highly dependent upon the individual's
+immediate technical aptitude. I do however believe anyone can learn how to
+program just as anyone can learn about history or business. The interest in
+learning to program usually stems from wanting to achieve in one or more
+of the following goals:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="../steps-non-developers-start-internet-business.html"&gt;Prototype an Internet-based business idea&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Build a new skill set to become a developer&lt;/li&gt;
+&lt;li&gt;Work better with developers through a greater understanding of their work&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This post summarizes the many discussions I've previously so the information
+can be consumed by a wider audience. I love teaching programming to
+non-developers so don't hesistant to &lt;a class="reference external" href="../pages/about.html"&gt;contact me&lt;/a&gt;
+with further questions.&lt;/p&gt;
+&lt;div class="section" id="where-to-start"&gt;
+&lt;h2&gt;Where to Start&lt;/h2&gt;
+&lt;p&gt;There's an overwhelming number of resources out there - it's incredibly
+difficult to know where to begin when you have not done development
+work before.&lt;/p&gt;
+&lt;p&gt;My recommendation is to get to a point where you can do &amp;quot;cool stuff&amp;quot; -
+projects that interest you and will make you want to learn more. The
+faster you go from forcing yourself to learn to having goals for implementing
+new interesting ideas, the higher your chances of achieving your goals.&lt;/p&gt;
+&lt;p&gt;First, get your feet wet. Spend a few hours going through
+&lt;a class="reference external" href="http://www.codecademy.com/tracks/python"&gt;Code Academy's Python tutorials&lt;/a&gt;.
+The great part about using a service like Code Academy is that it's free,
+structured, has a low barrier to entry, and will teach you some basic
+concepts that are important in Python.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="local-installation"&gt;
+&lt;h2&gt;Local Installation&lt;/h2&gt;
+&lt;p&gt;When I say &amp;quot;local&amp;quot; I mean you want to have Python installed on your
+computer instead of interacting with it in the browser. This will allow
+you to start creating website projects.&lt;/p&gt;
+&lt;p&gt;Get Python on your system. Depending on your operating system, you may
+already have Python installed. Mac OS X and Linux are good to go. If you're
+using Windows, head over to
+&lt;a class="reference external" href="http://www.python.org/download/"&gt;Python.org's download page&lt;/a&gt; and get
+Python 2.7. Ignore Python 3+ for now - you can learn it later.&lt;/p&gt;
+&lt;p&gt;Now go to the command line - on Windows go to Run -&amp;gt; &amp;quot;cmd&amp;quot; and then change
+directory to C:\Python27\ then type 'python'. You'll get the interpreter
+you're used to seeing on Code Academy.&lt;/p&gt;
+&lt;p&gt;On Mac OS X or Linux go to the Terminal and type 'python'. You'll
+get the interpreter. Again this is great for learning more and running
+Python on your own system.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="creating-a-project"&gt;
+&lt;h2&gt;Creating a Project&lt;/h2&gt;
+&lt;p&gt;Now that you have Python installed locally you'll want to create a
+project with .py files so you don't have to type everything into the
+interpreter.&lt;/p&gt;
+&lt;p&gt;At this point you'll want to create a subdirectory under your home
+directory or like C:\devel\ on Windows. Just create some place that you'll
+remember and can store your files under. Then create subdirectories, such as
+/Users/johnsmith/devel/blog/ or C:\devel\blog\ for a blog project. Inside
+that folder you can store your .py (Python) files.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="flask-or-django"&gt;
+&lt;h2&gt;Flask or Django&lt;/h2&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://flask.pocoo.org/"&gt;Flask&lt;/a&gt; and
+&lt;a class="reference external" href="http://www.djangoproject.com/"&gt;Django&lt;/a&gt; are
+web application frameworks. A framework
+is just code that other developers have written to perform common tasks
+associated with a given domain. So a &amp;quot;web application&amp;quot; framework is designed
+to handle all of the common tasks a web application (also known as a website)
+needs to do, such as:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;Authenticating users so they can log in and log out of your site&lt;/li&gt;
+&lt;li&gt;Storing passwords in a secure way&lt;/li&gt;
+&lt;li&gt;Accessing the database and then passing that data to the browser&lt;/li&gt;
+&lt;li&gt;Creating URLs so you can access information at different parts of your
+website, such as &lt;a class="reference external" href="http://www.mywebsite.com/users/"&gt;http://www.mywebsite.com/users/&lt;/a&gt; to handle /users/ url&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;There's a myriad of other things a web framework handles so that you don't
+have to write that code yourself. Different frameworks such as Flask and
+Django have different approaches to solving these problems and have
+varying degrees of difficulty in their associated learning curves.&lt;/p&gt;
+&lt;p&gt;Once you learn how to use Flask or Django with Python you'll be able to
+build simple websites. Then you can add complexity and implement the ideas
+that have been floating around in your head. Eventually you'll reach an
+&amp;quot;a-ha!&amp;quot; moment where things will click and your productivity will take off.
+That's when programming goes from being a struggle to actually being fun.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="how-do-i-learn-more-advanced-topics"&gt;
+&lt;h2&gt;How Do I Learn More Advanced Topics?&lt;/h2&gt;
+&lt;p&gt;By far one of the best resources is &lt;a class="reference external" href="http://github.com/"&gt;Github&lt;/a&gt;.
+Github allows you to read other people's open source code to learn from it.
+Reading other people's work is very important because you'll learn what
+makes sense and what can be confusing. Python places a lot of emphasis on
+language readability and maintainability. You want to embrace that
+philosophy in the code you write.&lt;/p&gt;
+&lt;p&gt;An interesting resource I created is a
+&lt;a class="reference external" href="http://www.visualizationportfolio.com/visualization/python-topics-tree/"&gt;Python topics tree&lt;/a&gt;. It gives you a dependency tree for ordering what topics you'll
+want to learn and in what order for the base Python language. If you
+find it useful I can create more for topics such as Flask, Django,
+and other Python libraries.&lt;/p&gt;
+&lt;p&gt;Next up is a list of resources for keeping you learning. These resources
+range from general advice on generally learning programming to specific
+tutorials on web application frameworks such as Django and Flask.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="resources"&gt;
+&lt;h2&gt;Resources&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.pythontutor.com/"&gt;Python Tutor&lt;/a&gt;. Learn by visual code
+execution.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://tech.yipit.com/2012/08/21/how-i-taught-myself-to-code-in-8-weeks/"&gt;How I Taught Myself to Code in 8 Weeks&lt;/a&gt;. Weekends, really.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://docs.python-guide.org/en/latest/"&gt;Hitchhiker's Guide to Python&lt;/a&gt;.
+Awesome wide-ranging resource to give you direction on how to learn and
+use Python the right way.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://ontwik.com/python/introduction-to-python/"&gt;Introduction to Python video&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://orangethirty.blogspot.com/2012/08/teaching-my-10-yeard-old-niece-how-to.html"&gt;Teaching a 10 Year Old to Code in Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://pythonbooks.revolunet.com/"&gt;Best Free Python Books on the Web&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.pythonweekly.com/"&gt;Python Weekly&lt;/a&gt;. Newsletter with weekly
+Python and related project updates.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/nryoung/algorithms"&gt;Common computer science algorithms in Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.amazon.com/gp/product/144933072X/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=144933072X&amp;amp;linkCode=as2&amp;amp;tag=minimneeds-20"&gt;Think Python&lt;/a&gt;. Complete beginner's introduction to computer science and Python.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://elweb.co/programacion/want-to-learn-django-start-here/"&gt;Want to Learn Django? Start Here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.mattmakai.com/favorite-django-article-sources.html"&gt;My Favorite Django Article Sources&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://tech.yipit.com/2012/02/28/learn-django/"&gt;15 Key Resources to Learn Django&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Wise Words From Elon Musk</title><link href="http://www.letshackdc.com/wise-words-from-elon-musk.html" rel="alternate"></link><updated>2012-11-02T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-11-02:wise-words-from-elon-musk.html</id><summary type="html">&lt;p&gt;Wise words from Elon Musk. While process can sometimes allow for a
+repeatable way to perform an action, it is also often a substitute for
+thinking creatively. That type of situation leads to an innovation vacuum
+where workers do a task in the same way &amp;quot;it's always been done&amp;quot; without
+determining whether the task actually adds value to the organization. Musk's
+original quote:&lt;/p&gt;
+&lt;blockquote&gt;
+The problem is that at a lot of big companies, process becomes a
+substitute for thinking. You’re encouraged to behave like a little
+gear in a complex machine. Frankly, it allows you to keep people who
+aren’t that smart, who aren’t that creative.&lt;/blockquote&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.wired.com/wiredscience/2012/10/ff-elon-musk-qa/all/"&gt;Awesome interview with Elon Musk on Wired.com&lt;/a&gt;.&lt;/p&gt;
+</summary></entry><entry><title>Learning Vim - A Colleague's Question</title><link href="http://www.letshackdc.com/learning-vim-colleague-question.html" rel="alternate"></link><updated>2012-10-15T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-10-15:learning-vim-colleague-question.html</id><summary type="html">&lt;p&gt;I received the following email from my colleague this morning:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hey buddy, finally taking the plunge to learn VIM because it will make
+me a lot more productive when working with Puppet manifests.  Any
+helpful tips you've come across?  I already set up my client with
+pathogen to allow me to easily use new plugins and I pulled in things
+like tabular, syntastic and puppet syntax highlighting.  Love to hear
+anything else you'd recommend.&lt;/p&gt;
+&lt;p&gt;Thanks!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I love Vim and I've been using it for about four years as my only editor
+when coding in Python, typing up blog posts, or learning new
+programming languages. I even tried switching to Sublime Text 2 with Vim
+mode but I ended up switching back to straight Vim. So here are my
+recommendations for getting started.&lt;/p&gt;
+&lt;p&gt;It takes awhile to learn VIM but it's amazing once you do. I took the
+&lt;a class="reference external" href="http://www.tuxfiles.org/linuxhelp/vimcheat.html"&gt;Vim cheatsheet&lt;/a&gt; and
+tried to learn a command each day. Just look for something that you either
+didn't know you could do, or try to do on a regular basis but aren't quite
+sure how. For example, I find/replace things all the times with regular
+expressions. Here's how you can easy do that globally in a file:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;:%s/replace-this-text/replace-with-this-text/g
+&lt;/pre&gt;&lt;/div&gt;
+&lt;!--  --&gt;
+&lt;p&gt;The major logical leap is understanding that Vim is basically a language where you have a command and it can be prefixed by a number to execute it multiple times. For example,&lt;/p&gt;
+&lt;p&gt;dd &amp;lt;-- cut the line and move it into the &amp;quot;clipboard&amp;quot;&lt;/p&gt;
+&lt;p&gt;5dd &amp;lt;-- cut 5 lines and move them into the &amp;quot;clipboard&amp;quot;&lt;/p&gt;
+&lt;p&gt;Definitely start out by checking out some interesting web tutorials. Here are
+some resources that I have found helpful over the years:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://haridas.in/vim-as-your-ide.html"&gt;Vim as your IDE&lt;/a&gt;. Awesome
+article.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.moolenaar.net/habits.html"&gt;7 Habits of Effective Text Editing&lt;/a&gt;
+great article on how to effectively use Vim.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/scrooloose/syntastic"&gt;Syntastic&lt;/a&gt;. Plugins for
+Vim. Important for things like syntax checking and code completion.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://blog.sanctum.geek.nz/vim-koans/"&gt;Vim Koans&lt;/a&gt;. A bit
+tongue-and-cheek but you can learn a lot from them as well.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://vimuniversity.com/"&gt;Vim University&lt;/a&gt;. Some good introductory
+articles and screencasts.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A few random tips. I disabled the use of the arrow keys so I could get used
+to the &amp;quot;hlkj&amp;quot; movement. Do that with the following in your .vimrc file:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&amp;quot; disable arrow keys
+map &amp;lt;up&amp;gt; &amp;lt;nop&amp;gt;
+map &amp;lt;down&amp;gt; &amp;lt;nop&amp;gt;
+map &amp;lt;left&amp;gt; &amp;lt;nop&amp;gt;
+map &amp;lt;right&amp;gt; &amp;lt;nop&amp;gt;
+imap &amp;lt;up&amp;gt; &amp;lt;nop&amp;gt;
+imap &amp;lt;down&amp;gt; &amp;lt;nop&amp;gt;
+imap &amp;lt;left&amp;gt; &amp;lt;nop&amp;gt;
+imap &amp;lt;right&amp;gt; &amp;lt;nop&amp;gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;!--  --&gt;
+&lt;p&gt;Also if you prefer spaces to tabs just use &lt;em&gt;set tabexpand&lt;/em&gt; in your .vimrc.
+Shift width and tab spaces usually default to 8 spaces, so I change that
+to 4 spaces with:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;set ts=4
+set shiftwidth=4
+&lt;/pre&gt;&lt;/div&gt;
+&lt;!--  --&gt;
+&lt;p&gt;Vim takes awhile to get the hang of but once you get over that initial
+curve the editor feels like a natural extension of your thought process.
+The speed at which you can accomplish most tasks skyrockets after
+learning enough commands and embracing the philosophy of just using
+the keyboard for editing.&lt;/p&gt;
+</summary></entry><entry><title>The Journey to True Full-Stack Developer</title><link href="http://www.letshackdc.com/journey-to-true-full-stack-developer.html" rel="alternate"></link><updated>2012-10-06T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-10-06:journey-to-true-full-stack-developer.html</id><summary type="html">&lt;p&gt;There are several areas in which I need to improve to be a truly self-reliant
+full-stack software engineer. My full-stack focus is on web development, both
+traditional desktop and tablet browsers as well as constrained smartphone
+mobile browsers. This post describes those areas and what I'm doing through
+the next year to improve those deficiencies.&lt;/p&gt;
+&lt;p&gt;The technical areas I need to improve in are:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;&lt;strong&gt;Web design&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Server monitoring&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data analysis &amp;amp; visualization&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I also want to get better at content creation, marketing, and working with
+end users to understand their needs better, but I won't cover those less
+technical topics in this post.&lt;/p&gt;
+&lt;div class="section" id="web-design"&gt;
+&lt;h2&gt;Web Design&lt;/h2&gt;
+&lt;p&gt;I'm fine with CSS, LESS, and JavaScript although there's always room to get
+better in those areas. What I really need to get better in is creating
+interesting graphics that aid users' understanding of the products I develop.
+A great example of this is
+&lt;a class="reference external" href="http://teamtreehouse.com/"&gt;Team Treehouse's current home page&lt;/a&gt; where
+the site asks &amp;quot;What do you want to learn today?&amp;quot; with intuitive icons for
+web design, web development, and iOS development. Creating simple icons
+like those and using them where appropriate goes a long way towards converting
+a ho-hum web design into both a more appealing aesthetic and easier for users.&lt;/p&gt;
+&lt;p&gt;Towards this end I will (finally) purchase a copy of Adobe Illustrator CS6,
+work on tutorials, and pick up tips from my web design friends. Retrofitting
+&lt;a class="reference external" href="https://www.proofdriven.com/"&gt;ProofDriven&lt;/a&gt; with new icons will likely be
+my first conversion project so I have a goal to work towards.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="server-monitoring"&gt;
+&lt;h2&gt;Server Monitoring&lt;/h2&gt;
+&lt;p&gt;Lately I have started using Heroku to deploy many of my side projects, but
+I still do a lot of DevOps for clients with Linux, Apache, nginx,
+mod_wsgi, Green Unicorn, MySQL, and PostgreSQL.&lt;/p&gt;
+&lt;p&gt;I am ashamed to admit I have very little insight into how well the servers
+I'm using are holding up under load. This situation really needs to be
+corrected by using a combination of Graphite &amp;amp; statsd, Raven &amp;amp; Sentry (I
+do already use these in many cases), New Relic, and some quick and dirty
+custom code with Python's cProfile and psutil.&lt;/p&gt;
+&lt;p&gt;Monitoring is a complicated subject and every application has a different
+server resource utilization profile. Once I collect the metrics, my next
+area for improvement will be important.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="data-analysis-and-visualization"&gt;
+&lt;h2&gt;Data analysis and visualization&lt;/h2&gt;
+&lt;p&gt;There's something about working with Python that makes data analysis
+appealing. Maybe it's the easy-to-use built-in data structures or the
+abundance of analysis libraries such as
+&lt;a class="reference external" href="http://pandas.pydata.org/"&gt;pandas&lt;/a&gt;, &lt;a class="reference external" href="http://numpy.scipy.org/"&gt;NumPy&lt;/a&gt;,
+and &lt;a class="reference external" href="http://www.scipy.org/"&gt;SciPy&lt;/a&gt;. Whatever the reason, I plan to study
+O'Reilly's excellent
+&lt;a class="reference external" href="http://shop.oreilly.com/product/0636920023784.do"&gt;Data Analysis with Python&lt;/a&gt;
+book to learn more, particularly about Pandas.&lt;/p&gt;
+&lt;p&gt;On the visualization side, d3.js is fantastic. I've already been using it to
+create simple visualizations such as
+&lt;a class="reference external" href="http://www.prgrmrlvlup.com/"&gt;prgrmrlvlup&lt;/a&gt; and some other internal Excella
+applications for business development. I'm a huge fan of using CSS to style
+the visualizations and the enter(), exit(), and data joins model. Overall
+d3.js will provide the foundation for visualizing the results of  interesting
+data sets processed on the server side with Python. I'll write blog posts and
+add many d3.js-related entries in my
+&lt;a class="reference external" href="../pages/learning-log.html"&gt;learning log&lt;/a&gt; over the next several months.&lt;/p&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Agile in the Federal Government Presentation</title><link href="http://www.letshackdc.com/agile-in-federal-government-presentation.html" rel="alternate"></link><updated>2012-09-29T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-09-29:agile-in-federal-government-presentation.html</id><summary type="html">&lt;p&gt;Yesterday I presented at the &lt;a class="reference external" href="http://www.pmiwdc.org/2012/09/project-management-symposium"&gt;2012 PMI Project Management Symposium&lt;/a&gt; in at the Crystal City
+Hyatt in Arlington, Virginia. My &lt;a class="reference external" href="/presentations/agile-software-development-in-federal-government.html"&gt;slides for the talk&lt;/a&gt; are posted and the source code
+is &lt;a class="reference external" href="https://github.com/makaimc/mattmakai.github.com/blob/gh-pages/source/static-html/presentations/agile-software-development-in-federal-government.html"&gt;available on Github&lt;/a&gt;.
+It's a decent example of &lt;a class="reference external" href="http://bartaz.github.com/impress.js"&gt;impress.js&lt;/a&gt;
+although I still need to invest more time into the framework to put together
+a really impressive talk.&lt;/p&gt;
+&lt;p&gt;I'm thinking the combination of impress.js + d3.js could create a really
+amazing data visualization heavy presentation (with the right theme and
+content of course).&lt;/p&gt;
+&lt;p&gt;Thanks to everyone who came out to my talk. I'm not a project manager so
+it was somewhat intimidating talking to a large group of people who all
+had at least several more years of experience than me. I hope everyone
+who went got some value out of it and took away the key themes - there are
+certain actions (elaborated on in the presentation) that the best
+project managers do constantly that make projects much more likely to succeed.&lt;/p&gt;
+</summary></entry><entry><title>Introduction to Python for Non-Developers Notes</title><link href="http://www.letshackdc.com/introduction-python-non-developers-notes.html" rel="alternate"></link><updated>2012-08-22T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-08-22:introduction-python-non-developers-notes.html</id><summary type="html">&lt;p&gt;Matt Camilli and I gave a
+&lt;a class="reference external" href="/presentations/what-is-python-for-everyone.html"&gt;talk Tuesday night&lt;/a&gt;
+introducing about 30 non-developers to the Python programming language's
+history, philosophy, and differences from other languages, as well as an
+industry analysis of companies using Python. Matt Camilli
+covered
+&lt;a class="reference external" href="/presentations/python101.pptx"&gt;how he learned Python and what great resources exist&lt;/a&gt; out on the web for anyone looking to learn more about the language.&lt;/p&gt;
+&lt;p&gt;The topics included the
+&lt;a class="reference external" href="http://www.python.org/dev/peps/pep-0020/"&gt;Zen of Python&lt;/a&gt;, the
+&lt;a class="reference external" href="http://www.python.org/psf/"&gt;Python Software Foundation&lt;/a&gt;, language
+comparison with Excella Consulting other two primarily languages, Java
+and .NET, and advantages of Python.&lt;/p&gt;
+&lt;p&gt;Paul Graham's &lt;a class="reference external" href="http://www.paulgraham.com/pypar.html"&gt;The Python Paradox&lt;/a&gt;
+essay was covered. Paul's
+&lt;a class="reference external" href="http://www.paulgraham.com/articles.html"&gt;other essays&lt;/a&gt; are also
+fantastic, especially
+&lt;a class="reference external" href="http://www.paulgraham.com/makersschedule.html"&gt;Maker's Schedule, Manager's Schedule&lt;/a&gt;, &lt;a class="reference external" href="http://www.paulgraham.com/javacover.html"&gt;Java's Cover&lt;/a&gt;, and
+&lt;a class="reference external" href="http://www.paulgraham.com/lies.html"&gt;Lies We Tell Kids&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I also covered what companies are using Python, such as &lt;a class="reference external" href="http://instagram-engineering.tumblr.com/post/13649370142/what-powers-instagram-hundreds-of-instances-dozens-of"&gt;Instagram&lt;/a&gt; and
+&lt;a class="reference external" href="http://techreport.com/discussions.x/16713"&gt;Google&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Thanks again to everyone who came out to learn more about Python and also
+to my partner in crime, Matt Camilli.&lt;/p&gt;
+</summary></entry><entry><title>The First Django Website Run On Python 3</title><link href="http://www.letshackdc.com/first-django-website-run-python-3.html" rel="alternate"></link><updated>2012-08-15T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-08-15:first-django-website-run-python-3.html</id><summary type="html">&lt;p&gt;The top post on &lt;a class="reference external" href="http://news.ycombinator.com/"&gt;Hacker News&lt;/a&gt; this morning
+is about a &lt;a class="reference external" href="http://myks.org/django-python3/"&gt;Django (1.5 development branch) site running on Python 3&lt;/a&gt;.
+Why is a Django site running on Python 3 newsworthy? Because while Django
+1.5 is tested and supported against Python 2.6 and Python 2.7 (dropping
+support for Python 2.5 found in Django 1.4), Python 3 compatibility is a
+&lt;a class="reference external" href="https://docs.djangoproject.com/en/dev/topics/python3/"&gt;new feature&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Python 3 breaks backwards compatibility with Python 2 to remove the cruft
+from years of Python 1 &amp;amp; 2 development syntax. Python 3 is a better language.
+But until the vast majority of libraries and frameworks support or move
+exclusively to Python 3, Python 2 will continue to be used. Django in
+particular is an important project because it is the most widely used Python
+framework.&lt;/p&gt;
+&lt;p&gt;Python 3 is supported by Django through the
+&lt;a class="reference external" href="http://packages.python.org/six/"&gt;six compatibility layer&lt;/a&gt;. It will be
+interesting to see how many bugs in advanced Django features come up
+throughout the development cycle and whether Python 3 is officially supported
+(the current plan) or whether there is a backtrack to unofficial support
+for this release to prevent too much of a delay in
+&lt;a class="reference external" href="https://docs.djangoproject.com/en/dev/releases/1.5/"&gt;releasing version 1.5&lt;/a&gt;.&lt;/p&gt;
+</summary></entry><entry><title>Steps for Non-Developers to Start an Internet Business</title><link href="http://www.letshackdc.com/steps-non-developers-start-internet-business.html" rel="alternate"></link><updated>2012-08-14T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-08-14:steps-non-developers-start-internet-business.html</id><summary type="html">&lt;p&gt;I am often asked by friends and colleagues about what first steps
+a non-technical person should take when they come up with ideas and want to
+do something with them. I always appreciate these requests since it
+provides recognition that I have some insight into software development
+in the entrepreneurship and small business space. This is my first attempt to
+describe in a blog post what I tell non-developers who ask me for advice.&lt;/p&gt;
+&lt;div class="section" id="outline"&gt;
+&lt;h2&gt;Outline&lt;/h2&gt;
+&lt;p&gt;There's an overwhelming amount of information in the areas of
+entrepreneurship and software development. This post is one perspective for
+an outline of what you need to know. The goal is to point you in the right
+direction so you don't become demotivated while reading endless information.&lt;/p&gt;
+&lt;p&gt;The five-part outline described in &lt;a class="reference external" href="http://www.amazon.com/gp/product/B004JXXKR4/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=B004JXXKR4&amp;amp;linkCode=as2&amp;amp;tag=minimneeds-20"&gt;The Personal MBA&lt;/a&gt; (highly recommended read)
+provides an initial framework for understanding what you need to know about
+business. I'll use these five parts to describe what to learn:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;&lt;strong&gt;Value Creation&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Marketing&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sales&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Value Delivery&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Finance&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="section" id="value-creation"&gt;
+&lt;h2&gt;Value Creation&lt;/h2&gt;
+&lt;p&gt;When someone has an idea, they perceive value for themselves or others in the
+abstract concept. But there is no way to know whether the implementation of
+that idea creates actual value. This is why prototypes, such as screen mockups
+using &lt;a class="reference external" href="http://www.balsamiq.com/"&gt;Balsamiq&lt;/a&gt;, and &lt;a class="reference external" href="http://www.startuplessonslearned.com/2009/08/minimum-viable-product-guide.html"&gt;minimum&lt;/a&gt; &lt;a class="reference external" href="http://steveblank.com/2010/03/04/perfection-by-subtraction-the-minimum-feature-set/"&gt;viable&lt;/a&gt;
+&lt;a class="reference external" href="http://johnnyholland.org/2012/02/making-sense-of-minimum-viable-products/"&gt;products&lt;/a&gt; are important. The sooner you go from idea to even partially
+implemented product, the faster you can get feedback from your target paying
+customers as to whether or not your implementation provides value to them.&lt;/p&gt;
+&lt;p&gt;Three more concepts are important here. First, does your implementation
+solve a real problem? Is the solution a &amp;quot;nice to have&amp;quot; or a &lt;strong&gt;must have now&lt;/strong&gt;
+type of product? Don Dodge &lt;a class="reference external" href="http://dondodge.typepad.com/the_next_big_thing/2008/03/does-your-start.html"&gt;covers the &amp;quot;vitamin or painkiller&amp;quot; question&lt;/a&gt;
+brilliantly in that post.&lt;/p&gt;
+&lt;p&gt;Second, ideas aren't worth anything until they are (well) executed on.
+Customers do not pay for an idea, they pay for a product or service that
+solves their problem. That's not to say the idea isn't important, it just
+means the idea is important &lt;em&gt;in combination&lt;/em&gt; with execution. Here's what
+some of the best minds in technology have to say about
+&lt;a class="reference external" href="http://www.derekflanzraich.com/2010/08/idea-or-execution/"&gt;idea versus execution&lt;/a&gt;
+and another post that takes the hard stand that
+&lt;a class="reference external" href="http://www.inc.com/rob-adams/2010/06/ideas-commodity-but-execution-intelligence-matters.html"&gt;your idea doesn't matter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Third, what is it going to take to get you to the point where you can talk
+to potential customers? For non-developers, this means putting together
+screen mock ups with a tool like Balsamiq or
+&lt;a class="reference external" href="https://gomockingbird.com/"&gt;Mockingbird&lt;/a&gt; while &lt;em&gt;also learning how to code&lt;/em&gt;.
+There are many reasons for why you should
+&lt;a class="reference external" href="http://sachagreif.com/please-learn-to-code/"&gt;learn to code&lt;/a&gt;, but it
+primarily boils down to:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;Iterating on your working prototype faster based on customer feedback&lt;/li&gt;
+&lt;li&gt;Gaining an in-depth understanding your business' operations&lt;/li&gt;
+&lt;li&gt;Pitching in with development, especially in the early days, even if you plan to do the customer development while your co-founder builds the site&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If you don't want to learn how to code, ask yourself if you really want to
+be an entrepreneur in an Internet-based business. Entrepreneurs recognize
+that sometimes you've just got to roll up your sleeves and get a job done.
+(Likewise, developers must to recognize customer development, marketing,
+sales, finance, etc., are &lt;strong&gt;really&lt;/strong&gt; important to a business' success.)
+Learning how to code needs its own detailed blog post in the future but I
+subjectively recommend &lt;a class="reference external" href="http://python.org/"&gt;Python&lt;/a&gt; and
+&lt;a class="reference external" href="http://www.djangoproject.com/"&gt;Django&lt;/a&gt; as a programming language and
+web application framework starting point.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="marketing"&gt;
+&lt;h2&gt;Marketing&lt;/h2&gt;
+&lt;p&gt;Once you've created a desirable web application based on customer feedback,
+marketing becomes a priority for gaining new paying customers. Your first
+customers should be the people you worked with to create your product.
+Hopefully they are early-adopter evangelists who are willing to both give
+you testimonials to put on your website as well as spread the word to
+like-minded potential customers.&lt;/p&gt;
+&lt;p&gt;There are several resources I have found that were tremendously helpful in
+better understanding marketing. First, &lt;a class="reference external" href="http://www.amazon.com/gp/product/0615373968/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=0615373968&amp;amp;linkCode=as2&amp;amp;tag=minimneeds-20"&gt;Start Small, Stay Small&lt;/a&gt; provides a
+developer-centric perspective on online advertisements, search engine
+optimization, and marketing. If you're already a software developer, you
+should start with this book. Second, &lt;a class="reference external" href="http://www.amazon.com/gp/product/0684856360/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=0684856360&amp;amp;linkCode=as2&amp;amp;tag=minimneeds-20"&gt;Permission Marketing&lt;/a&gt; is a classic marketing
+book that discusses the shift from interruption marketing (stopping people
+from what they are currently doing) and shifting into a permission marketing
+model where potential customers identify that they have the problem you
+are solving with your product or service.&lt;/p&gt;
+&lt;p&gt;There are a few likely options you will most commonly use to market your
+product since your budget for marketing is going to be limited.&lt;/p&gt;
+&lt;p&gt;1. &lt;strong&gt;Blog posts&lt;/strong&gt;, along with proper &lt;a class="reference external" href="ttp://www.amazon.com/gp/product/B0043D2E7W/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=B0043D2E7W&amp;amp;linkCode=as2&amp;amp;tag=minimneeds-20"&gt;Search Engine Optimization&lt;/a&gt; (SEO), also known as
+organic search results. These should be really high quality content blog
+posts that are exactly what your target demographic would be looking for
+when they have the problem your product solves.&lt;/p&gt;
+&lt;p&gt;2. &lt;strong&gt;Email lists&lt;/strong&gt;. Targeted lists of people who are interested in the problem
+space both in and around the area your product solves.&lt;/p&gt;
+&lt;p&gt;3. &lt;strong&gt;Adwords&lt;/strong&gt;. Ads that appear next to search results in Google. For people
+who are searching but do not necessarily hit your blog posts.&lt;/p&gt;
+&lt;p&gt;Together these three approaches help form the basis for your initial
+low-budget marketing efforts.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="sales"&gt;
+&lt;h2&gt;Sales&lt;/h2&gt;
+&lt;p&gt;Sales is different from marketing. Marketing is getting potential customers
+to know about your product and getting them to your site. Sales is moving a
+visitor to your site from a potential customer into a paying customer.&lt;/p&gt;
+&lt;p&gt;Sales involves concepts such as &lt;a class="reference external" href="http://www.contrast.ie/blog/designing-your-sign-up-page/"&gt;designing your sales page&lt;/a&gt;, performing A/B optimization testing,
+studying and &lt;a class="reference external" href="http://conversionxl.com/pricing-experiments-you-might-not-know-but-can-learn-from/"&gt;trying sales experiments&lt;/a&gt; to see if they convert more
+potential customers into paying customers, and &lt;a class="reference external" href="http://www.problogger.net/archives/2010/12/20/how-to-optimize-your-sales-funnel-for-success/"&gt;tweaking your sales funnel&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The sales funnel is an important concept and it should be baked into analytics
+that are used on the site, such as &lt;a class="reference external" href="https://www.google.com/analytics/"&gt;Google Analytics&lt;/a&gt;, &lt;a class="reference external" href="https://mixpanel.com/"&gt;MixPanel&lt;/a&gt;, &lt;a class="reference external" href="http://www.kissmetrics.com/"&gt;KISSmetrics&lt;/a&gt;,
+and home-grown analytics solutions. More on analytics in a future post as
+well.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="value-delivery"&gt;
+&lt;h2&gt;Value Delivery&lt;/h2&gt;
+&lt;p&gt;Once you've sold a product or service to a customer you must make sure it
+is satisfying their needs and they feel they are getting what they paid for.
+This is the customer development process continued. Value delivery involves
+collecting, analyzing, and acting on data about how your customers use
+your product or service. In addition, directly talking to a broad swath of
+users to determine what other problems they have that can be solved with an
+expansion of your business.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="finance"&gt;
+&lt;h2&gt;Finance&lt;/h2&gt;
+&lt;p&gt;Finance involves running a profitable and cash-flow positive business as
+well as performing accounting. Software such as &lt;a class="reference external" href="http://www.xero.com/"&gt;Xero&lt;/a&gt;,
+&lt;a class="reference external" href="http://www.freshbooks.com/"&gt;FreshBooks&lt;/a&gt;, and &lt;a class="reference external" href="http://quickbooksonline.intuit.com/"&gt;QuickBooks Online&lt;/a&gt; are a boon to Internet-based businesses and
+well-worth the monthly fee once the business is launched with customers.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="misc"&gt;
+&lt;h2&gt;Misc&lt;/h2&gt;
+&lt;p&gt;There are a couple other misc notes I wanted to mention that did not directly
+fall into the above categories.&lt;/p&gt;
+&lt;p&gt;Getting legal advice from an actual lawyer matters once you get off the
+ground. Don't worry too much about it until you have momentum behind you.
+I found this laywer's
+&lt;a class="reference external" href="http://thestartuplawyer.com/startup-issues/if-i-launched-a-startup"&gt;list of what he would do when starting a start up&lt;/a&gt; to be insightful at least to
+get an overview of the concepts.&lt;/p&gt;
+&lt;p&gt;Also, reading sources such as &lt;a class="reference external" href="http://news.ycombinator.com/"&gt;Hacker News&lt;/a&gt;,
+and &lt;a class="reference external" href="http://www.kalzumeus.com/"&gt;Patrick McKenzie's blog&lt;/a&gt;
+can help to identify new subjects to learn.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="conclusion"&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;There's &lt;strong&gt;a lot&lt;/strong&gt; to learn and it can be overwhelming. In some ways having
+an outline is a downside because you realize how far you have to go. But it
+also helps to prevent blindspots in your knowledge map of what you need
+to know.&lt;/p&gt;
+&lt;p&gt;I'm sure I missed many areas. Message me on Twitter &amp;#64;makaimc to let me know
+what else needs to be added to this outline for non-developers as I also
+work on expanding each point into its own blog post.&lt;/p&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>A Fascinating Post on Curiousity's Software</title><link href="http://www.letshackdc.com/fascinating-post-curiositys-software.html" rel="alternate"></link><updated>2012-08-13T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-08-13:fascinating-post-curiositys-software.html</id><summary type="html">&lt;p&gt;I found this &lt;a class="reference external" href="http://jlouisramblings.blogspot.com/2012/08/getting-25-megalines-of-code-to-behave.html"&gt;blog post on Curiosity's hardware and software&lt;/a&gt; to
+be a fascinating read. The Curiosity rover has 2.5 million lines of C code
+running on custom radiation and extreme temperature hardened computer systems.
+The author presents his view as an Erlang programmer of how the systems are
+designed to be as fault-proof as possible.&lt;/p&gt;
+</summary></entry><entry><title>Spreadsheets As A Beachhead</title><link href="http://www.letshackdc.com/spreadsheets-as-beachhead.html" rel="alternate"></link><updated>2012-07-14T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-07-14:spreadsheets-as-beachhead.html</id><summary type="html">&lt;p&gt;Spreadsheets represent a need by the business to solve a data-related
+problem in a structured manner. Looking for spreadsheets that run
+business-critical operations is an opportunity to build a system that
+replaces an ad hoc bunch of columns with a normalized, scalable database.
+This opportunity holds regardless of whether you're an employee of that
+organization or a consultant.&lt;/p&gt;
+</summary></entry><entry><title>My Favorite Django Article Sources</title><link href="http://www.letshackdc.com/favorite-django-article-sources.html" rel="alternate"></link><updated>2012-06-22T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-06-22:favorite-django-article-sources.html</id><summary type="html">&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://tech.yipit.com/"&gt;yipit tech blog&lt;/a&gt;:
+Yipit is a tech start up in New York specializing in daily deals. Their
+platform is built on Python/Django and they write a lot of detailed
+posts on topics such as how they set up their configuration management
+and what to watch for when upgrading from Django 1.3.1 to 1.4.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.reddit.com/r/django"&gt;Django subreddit&lt;/a&gt;:
+The Django subreddit often rolls up lesser-known blogs that have interesting
+technical posts.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://lincolnloop.com/blog/categories/django/"&gt;Lincoln Loop django tagged posts&lt;/a&gt;:
+Lincoln Loop is a consulting practice based on user experience and building
+services with the Python/Django stack. They write about a range of technical
+topics but their Django specific posts are tagged with 'django'.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.askthepony.com/blog/"&gt;Ask the Pony blog&lt;/a&gt;:
+A weekly updated blog, but unfortunately it seems to have gone silent
+since August of 2011. Still some great existing posts on the site.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://pydanny.com/"&gt;Pydanny's blog&lt;/a&gt;:
+Daniel Greenfield (PyDanny) is an influential developer and blogger in
+the Python world. He writes on general Python subjects as well as specific
+Django topics of interest.&lt;/li&gt;
+&lt;/ul&gt;
+</summary></entry><entry><title>Fabric Function For Rebuilding a Django MySQL Database</title><link href="http://www.letshackdc.com/fabfile-function-rebuilding-django-mysql-database.html" rel="alternate"></link><updated>2012-06-12T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-06-12:fabfile-function-rebuilding-django-mysql-database.html</id><summary type="html">&lt;p&gt;This is a very specific blog post on what my Fabric fabfile.py looks
+like for rebuilding my database. This is particularly useful early in
+a project lifecycle before I start using South for database migrations
+and instead I am building new tables and columns at a fast clip.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;def rebuild_db():
+  run(&amp;#39;mysql -u %s -p%s -e &amp;quot;drop database if exists %s&amp;quot;&amp;#39; % (env.db_user,
+    env.db_passwd, env.db_schema))
+  run(&amp;#39;mysql -u %s -p%s -e &amp;quot;create database %s&amp;quot;&amp;#39; % (env.db_user,
+    env.db_passwd, env.db_schema))
+  virtualenv(&amp;#39;python %smanage.py syncdb --noinput&amp;#39; % \
+    env.deploy_dir)
+  virtualenv(&amp;#39;python %smanage.py loaddata %s/core/&amp;#39; +
+    &amp;#39;fixtures/test.json&amp;#39; % (env.deploy_dir, env.deploy_dir))
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;A few notes:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;You should define env.db_user, env.db_passwd, env.db_schema,
+env.deploy_dir in your fabfile before calling this function.&lt;/li&gt;
+&lt;li&gt;I put my main test.json fixture under a &amp;quot;core&amp;quot; app directory. Parameterize
+these settings if your project structure differs.&lt;/li&gt;
+&lt;/ul&gt;
+</summary></entry><entry><title>Recent Python Posts</title><link href="http://www.letshackdc.com/recent-python-posts.html" rel="alternate"></link><updated>2012-05-27T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-05-27:recent-python-posts.html</id><summary type="html">&lt;p&gt;I recently read and enjoyed the following Python blog posts (in no
+particular order).&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://me.veekun.com/blog/2012/05/23/python-faq-descriptors/"&gt;Python FAQ: Descriptors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.mikkolehtinen.com/blog/2012/05/25/rewindy-tech-stack/"&gt;Backbone/Python Tech Stack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://docs.python.org/release/3.1.5/howto/advocacy.html"&gt;Python Advocacy How To&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://satyajit.ranjeev.in/2012/05/17/python-a-few-things-to-remember.html"&gt;A Few Things to Remember While Coding in Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://lukeplant.me.uk/blog/posts/some-quick-django-optimisation-lessons/"&gt;Some quick Django optimisation lessons&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</summary></entry><entry><title>RFP Bullshit</title><link href="http://www.letshackdc.com/government-rfp-bullshit.html" rel="alternate"></link><updated>2012-05-25T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-05-25:government-rfp-bullshit.html</id><summary type="html">&lt;p&gt;Request For Proposals (RFPs) in the government are so heavily tilted towards
+&lt;a class="reference external" href="http://www.boozallen.com/"&gt;big&lt;/a&gt;
+&lt;a class="reference external" href="http://www.lockheedmartin.com/"&gt;lumbering&lt;/a&gt;
+&lt;a class="reference external" href="http://www.saic.com/"&gt;companies&lt;/a&gt;* that government uses a
+&amp;quot;small business only&amp;quot; category to get companies with less than $25 million
+in revenue into the bidding process.&lt;/p&gt;
+&lt;p&gt;In an RFP, you generally lay out your recommended approach to solving
+the problem(s) the agency states it has. You then show how you've solved
+similar problems in the past by embellishing your accomplishments. This is
+where the RFP process is bullshit. The government should ask for all the
+similar ways in which you've &lt;em&gt;screwed up&lt;/em&gt; in the past. That would balance
+out the fact that most of the companies have messed things up so badly,
+(&lt;a class="reference external" href="http://www.fiercegovernmentit.com/story/fbi-puts-sentinel-hold/2010-03-21"&gt;for example, Sentinel&lt;/a&gt;) that they don't actually have more experiences
+solving the problem than most small businesses.&lt;/p&gt;
+&lt;p&gt;Of course this doesn't really solve the problem because large firms have
+plenty more advantages, such as connections, money, name recognition, etc,
+but it seems like stating your failures with the successes in the RFP
+would be a nice change to the process.&lt;/p&gt;
+&lt;p&gt;* These are just a sample of the massive corporations I'm talking about.
+Also I used to work for Booz Allen so I am not exempt from this rant.&lt;/p&gt;
+</summary></entry><entry><title>wget and Proxy Servers</title><link href="http://www.letshackdc.com/wget-proxy-servers.html" rel="alternate"></link><updated>2012-05-24T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-05-24:wget-proxy-servers.html</id><summary type="html">&lt;p&gt;Short answer: before you use wget, specify
+'export http_proxy=my.proxy.server:port' then wget will use the proxy.&lt;/p&gt;
+&lt;p&gt;I needed to grab some files with wget while working on a Linux server I was
+setting up for a Django deployment. Unfortunately, I was behind a firewall
+and had to use a specific proxy for HTTP connections.&lt;/p&gt;
+&lt;p&gt;pip makes it easy, just do 'pip install --proxy my.proxy.server:8080 packages'
+and I figured wget would have the same commandline argument to specify a
+proxy. No such luck.&lt;/p&gt;
+&lt;p&gt;I found the following link that specified
+&lt;a class="reference external" href="http://www.linuxquestions.org/questions/linux-software-2/wget-with-proxy-276075/"&gt;'man wget' as the answer&lt;/a&gt; unhelpful (and a dick answer anyway).&lt;/p&gt;
+&lt;p&gt;So for future reference, 'export http_proxy=my.proxy.server:port', will
+specify a proxy server to use with wget. I also found
+&lt;a class="reference external" href="http://www.gnu.org/software/wget/manual/html_node/Proxies.html"&gt;this proxies link&lt;/a&gt;
+useful as well.&lt;/p&gt;
+</summary></entry><entry><title>Recent Design Books</title><link href="http://www.letshackdc.com/recent-design-books.html" rel="alternate"></link><updated>2012-05-22T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-05-22:recent-design-books.html</id><summary type="html">&lt;p&gt;I recently purchased and read two design books,
+&lt;a class="reference external" href="http://bootstrappingdesign.com/"&gt;Bootstrapping Design&lt;/a&gt; by Jarrod Drysdale
+and
+&lt;a class="reference external" href="http://sachagreif.com/ebook/"&gt;Step by Step UI Design&lt;/a&gt; by Sacha Greif. Both
+books came out around the same time and were on the front page of Hacker News,
+so they are linked in my brain and probably many other people's minds. I felt
+I got a lot of value out of each book and for different reasons. If I
+had to do it over again, I would still purchase both.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bootstrapping Design&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Bootstrapping Design had a lot of specific advice for web application
+designers. In particular, the chapters on typography and color were fantastic.
+The typography advice on using a sans serif font for headlines and a serif
+font for block text really improved my designs (which need to be incorporated
+into this blog). The advice on choosing one color to start with and then
+using a second color sparingly really helped get me past that initial hurdle
+of uncertainty around picking color schemes.&lt;/p&gt;
+&lt;p&gt;I've read the CRAP (Contrast, Repetition, Alignment, and Proximity) principles
+before, so I had a general understanding of how to use them in good design.
+Bootstrapping Design presented specific tips on how to handle each of these
+principles in practice, which is often lacking from other books.&lt;/p&gt;
+&lt;p&gt;Overall there were only two areas I could see improvement in this book. First,
+incorporating a complete example (similar to how Step by Step UI Design
+is presented) at the end of the book that reinforces the tips presented.
+Second, the advice and tips presented were so useful I found myself saying,
+&amp;quot;I really want more advice like this.&amp;quot;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step by Step UI Design&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Step by Step UI Design presents a complete example from start to finish of
+a web application screen design. A Photoshop PSD is included in the deluxe
+package of the book (I purchased this deluxe version). I found the PSD
+useful while going through the book although I'm on the fence as to whether
+I would spend the extra money for it if I had to do it over again.&lt;/p&gt;
+&lt;p&gt;What I really liked about this book was that it was very practical and
+focused on creating a single web application screen. The explanations
+behind why certain design decisions were made opened
+up the curtain as to what goes on in a designers' mind during the creation
+process. As a software developer but non-design expert, the logical,
+rational look at the process greatly appealed to my analytical method of
+thinking.&lt;/p&gt;
+&lt;p&gt;I found the book short enough to read in a single sitting. It is worth
+several read-throughs simply because it is difficult to assimilate all the
+details at once. When Step by Step UI Design is combined with Sacha's recent
+&lt;a class="reference external" href="http://sachagreif.com/the-toolbox-from-idea-to-launch-in-10-hours/"&gt;post on the 10 hours it took to create The Toolbox&lt;/a&gt;  it provides a complete picture
+of how to both come up with an idea, design it, and execute it quickly.&lt;/p&gt;
+&lt;p&gt;Overall I am very pleased I purchased both of these design books. I recommend
+them to fellow software developers who want to improve their design
+thinking and have a more comfortable grasp on the design process.&lt;/p&gt;
+</summary></entry><entry><title>Advice to College Graduates</title><link href="http://www.letshackdc.com/advice-college-graduates.html" rel="alternate"></link><updated>2012-05-17T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-05-17:advice-college-graduates.html</id><summary type="html">&lt;p&gt;A couple of weekends ago, I watched my little brother Luke graduate from
+&lt;a class="reference external" href="http://www.jmu.edu/"&gt;JMU&lt;/a&gt;. Dr. Rose, the outgoing President of JMU gave
+the commencement address. I've attended &lt;a class="reference external" href="http://www.jmu.edu/"&gt;enough&lt;/a&gt;
+&lt;a class="reference external" href="http://www.vt.edu/"&gt;graduation&lt;/a&gt; &lt;a class="reference external" href="http://www.virginia.edu/"&gt;ceremonies&lt;/a&gt;
+to know that most of them sound the same and this speech by Dr. Rose was
+no different. There is usually a whole lot of &amp;quot;be different&amp;quot; and &amp;quot;work hard&amp;quot;
+with a lot of rah-rah and the occasional funny story thrown in.&lt;/p&gt;
+&lt;p&gt;Tradition runs through all aspects of our higher education system and maybe
+that's why most graduation speeches sound the same. But I believe that is a
+disservice to undergraduates who are about to get a major shock when they
+jump into the real world. So here are the key points I'd use in a speech.&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;&lt;strong&gt;No one &amp;quot;owes&amp;quot; you anything&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Sure, you have a college degree from a &amp;quot;prestigious&amp;quot; university. So does
+everyone else you're competing with. If you're from a privileged upper
+middle class existence like me, you've been told how wonderful you are all
+your life. Let's get it straight right now, &lt;em&gt;you don't matter for shit.&lt;/em&gt;
+Once you accept that fact, you can begin to figure out how you actually
+can build yourself into something that does matter to other people. You can
+figure out how to make real a difference in the world. But before you figure
+out how to make a difference...&lt;/p&gt;
+&lt;ol class="arabic simple" start="2"&gt;
+&lt;li&gt;&lt;strong&gt;Work like you have a chip on your shoulder&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Your first job out of college will have a lot of meaningless tasks thrown
+at you. Work on them fervently and with passion. Learn everything you can
+as quickly as possible and deliver great results, even if the tasks seem
+&amp;quot;meaningless.&amp;quot; People will take note. They will give you more responsibility.
+You will continue to learn and expand your horizon.&lt;/p&gt;
+&lt;p&gt;Don't listen to people who tell you to slow down. Remember that
+&lt;a class="reference external" href="http://sivers.org/kimo"&gt;there is no speed limit&lt;/a&gt;. Ignore anyone
+that tells you that you are going to burn out or can't do it. Do you truly
+want to work full-time and go to graduate school at the same time while
+still enjoying yourself and meeting new people? Do it. Do everything with
+a ferocity and determination. Once you can throw yourself into anything and
+succeed...&lt;/p&gt;
+&lt;ol class="arabic simple" start="3"&gt;
+&lt;li&gt;&lt;strong&gt;Figure out how you will truly add value&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Once you realize no one owes you anything and you decide to work with a
+passionate intensity regardless of the tasks, figure out where you want
+to add value. What's value? I highly recommend reading
+&lt;a class="reference external" href="http://www.amazon.com/gp/product/1591843529/ref=as_li_ss_tl?ie=UTF8&amp;amp;tag=minimneeds-20&amp;amp;linkCode=as2&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=1591843529"&gt;The Personal MBA by Josh Kauffman&lt;/a&gt;. Whether you want to start your own business,
+work in an existing corporation, or freelance with consulting work, that
+book will help you put a framework around what you want to do with your
+professional life.&lt;/p&gt;
+&lt;p&gt;Those are the three main professional points of advice I give to any
+college grad who wants to succeed and be happy in the real world. That isn't
+&lt;em&gt;everything&lt;/em&gt; you need to know, but it will ultimately lead you in the
+right professional direction.&lt;/p&gt;
+</summary></entry><entry><title>Stanford's CS183 Class Notes</title><link href="http://www.letshackdc.com/stanford-cs-183-class-notes.html" rel="alternate"></link><updated>2012-05-09T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-05-09:stanford-cs-183-class-notes.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="http://blakemasters.tumblr.com/peter-thiels-cs183-startup"&gt;Stanford's CS183 class with Peter Thiel&lt;/a&gt; is simply amazing. A &lt;em&gt;huge&lt;/em&gt; thank you to Blake Masters
+for writing up summaries of each class. Every class notes post I have read
+has been amazingly insightful. I highly recommend checking it out if you
+are interested in how technology is shaping the world and learning about
+entrepreneurship from some of the major Silicon Valley investors.&lt;/p&gt;
+</summary></entry><entry><title>Big Data Presentation</title><link href="http://www.letshackdc.com/big-data-presentation.html" rel="alternate"></link><updated>2012-05-07T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-05-07:big-data-presentation.html</id><summary type="html">&lt;p&gt;Over the weekend I finished up the
+&lt;a class="reference external" href="/presentations/what-is-big-data.html"&gt;big data presentation&lt;/a&gt; that I am
+presenting to Excella's Business Intelligence Center of Excellence this
+evening at 530pm.&lt;/p&gt;
+&lt;p&gt;I prefer my presentations minimal to keep them as an aid
+to my talk (instead of reading from the slides). Therefore it may be hard
+to follow unless you actually hear the talk. Nevertheless, the slides are
+there and present one view of this whole &amp;quot;big data&amp;quot; concept that seems to
+be hyped up everywhere now.&lt;/p&gt;
+</summary></entry><entry><title>Screencasting on Mac OS X</title><link href="http://www.letshackdc.com/screencasting-software-for-mac-os-x.html" rel="alternate"></link><updated>2012-05-04T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-05-04:screencasting-software-for-mac-os-x.html</id><summary type="html">&lt;p&gt;I recently took a look at the range of screencasting software available
+on Mac OS X for a couple of reasons. First, I want to have an easy way
+of demoing software and uploading videos to Vimeo. Second, short
+screencasts like the ones provided by
+&lt;a class="reference external" href="http://www.teamtreehouse.com/"&gt;Treehouse&lt;/a&gt; (highly recommended site
+for learning programming and web design by the way), are a great way to
+help others learn new technologies. For example, yesterday I helped a
+coworker set up static file serving from the Django built-in server used
+for development. He was really close and just needed a few lines of code
+to get it working. Blog posts are good for when you're searching for a
+quick fix, but a short screencast that walks you through the whole process
+is great too. So those scenarios are my basic use cases for screencasting.
+Also, I don't mind paying for great software since I plan to use it almost
+every day.&lt;/p&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;I downloaded and tried the following options:&lt;/dt&gt;
+&lt;dd&gt;&lt;ol class="first last arabic simple"&gt;
+&lt;li&gt;Quicktime Pro (built into Mac OS X) - free&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.shinywhitebox.com/ishowu-hd/"&gt;iShowU HD&lt;/a&gt; - $60 (for Pro)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.syniumsoftware.com/screenium/"&gt;Screenium&lt;/a&gt; - $40&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.telestream.net/screen-flow/"&gt;ScreenFlow&lt;/a&gt; - $99&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;Here's what I thought of each product.&lt;/p&gt;
+&lt;p&gt;I couldn't figure out how to get Quicktime Pro to both record the screen
+and my microphone at the same time. I'm sure it's possible and I read you
+can just record separately and put both of them together in iMovie but
+I found that onerous. Scratch this one for serious screencasting.&lt;/p&gt;
+&lt;p&gt;I really liked iShowU HD's feature for showing what you're typing on the
+screen. I found it very slick and helpful to people watching the video. My
+only hang up with it was that if I mistyped and was too slow in catching
+myself, iShowU HD thought I was typing a separate block of text instead
+of continuing with the existing line. Basically I needed to not make as
+many mistakes - probably a good thing. I also liked that I could record
+only a piece of the screen instead of recording the whole screen and editing
+it later. The major downside to iShowU HD was that it did not have any
+editing capabilities after the video was finished. I know I could use
+iMovie or something like that but I prefer just staying in the program and
+doing my work from there.&lt;/p&gt;
+&lt;p&gt;Speaking of editing within the program, both Screenium and ScreenFlow
+provide both recording and editing parts to the programs. This was
+very appealing to me. I played around with Screenium and subjectively I
+liked parts of it but did not like others. I created a couple of
+short screencasts with Screenium and then did the same with ScreenFlow.
+I felt like ScreenFlow just jived better with what I was trying to do
+and was easier to use. The difference in price did not matter to me. I
+have not gone ahead and purchased ScreenFlow but I plan to within the next
+few days. My recommendation is if you want screencasting software with
+editing capabilities, try both Screenflow and Screenium and see which one
+fits you better.&lt;/p&gt;
+&lt;p&gt;One last note: some of these products are now on the Mac App Store. I read
+some pretty scathing reviews that the software did not work as well when
+purchased from there. This may be becasue the software is new to the App
+Store and it will get better. But do your due diligence to make sure you
+do not end up with a neutered product due to the API limitations placed
+on apps in the Mac OS X App Store.&lt;/p&gt;
+</summary></entry><entry><title>Can't "Find" Developers? Increase Your Offer</title><link href="http://www.letshackdc.com/pay-for-developers.html" rel="alternate"></link><updated>2012-05-03T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-05-03:pay-for-developers.html</id><summary type="html">&lt;p&gt;This little
+&lt;a class="reference external" href="http://www.irrlicht3d.org/pivot/entry.php?id=1295"&gt;rant about paying developers what the market demands instead of complaining you can't find them&lt;/a&gt;
+climbed its way up to the top of the
+&lt;a class="reference external" href="http://news.ycombinator.com/"&gt;Hacker News&lt;/a&gt; charts this morning and for
+good reason. While the blog post was written specifically for the Austrian
+market, great software developers are in high demand everywhere.&lt;/p&gt;
+&lt;p&gt;There is a limited supply of people with development skills. When
+software developers' skills are used properly, there is great potential
+for creating value in organizations ranging from startups to large
+government and commercial organizations. I've seen many organization make
+the mistake of paying as little as possible for their developers. That
+is a losing strategy (one I often come into to try to fix - although
+usually by then the organization is dug in too deep and is too far behind
+the competition for it to matter).&lt;/p&gt;
+&lt;p&gt;Great developers know their worth. They will seek out environments where
+either the salary is high enough that they feel they are adequately
+paid or compensated with a mix of salary, equity, and benefits. If you're
+not able to &amp;quot;find&amp;quot; developers, increase your offer in salary, vacation
+days, or some other compensation, such as 20% time for side projects.&lt;/p&gt;
+</summary></entry><entry><title>MongoDB, node.js, and Backbone.js</title><link href="http://www.letshackdc.com/mongodb-nodejs-backbonejs.html" rel="alternate"></link><updated>2012-05-02T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-05-02:mongodb-nodejs-backbonejs.html</id><summary type="html">&lt;p&gt;The concept of an all-JavaScript stack on both the client and server is
+hardly new, but I'm finding the idea more appealing now that the projects
+have matured. I see notifications like this
+&lt;a class="reference external" href="http://www.marketwatch.com/story/10gen-committed-to-making-mongodb-de-facto-data-store-for-nodejs-applications-2012-04-25"&gt;press release by 10gen&lt;/a&gt;
+that they are making a commitment to better integration with node.js.
+Granted it is a press release, but I do see the effort 10gen is putting in
+through the new tutorials and code releases for MongoDB.&lt;/p&gt;
+&lt;p&gt;Python and Django continue to be my day job technologies of choice. They are
+great for quickly building web applications. Python and Django are still
+fun and productive. But it feels like there's an industry shift going on
+that will continue to provide fuel to the all- or mostly-JavaScript stack.&lt;/p&gt;
+&lt;p&gt;So I am starting a new side project with &lt;a class="reference external" href="http://www.mongodb.org/"&gt;MongoDB&lt;/a&gt;,
+&lt;a class="reference external" href="http://nodejs.org/"&gt;node.js&lt;/a&gt;, and
+&lt;a class="reference external" href="http://documentcloud.github.com/backbone/"&gt;Backbone.js&lt;/a&gt;. I know what the
+project will be but I am not yet sure if I will just open source it or
+make it a pay-for access web application.&lt;/p&gt;
+&lt;p&gt;What do I currently find appealing about learning the
+MongoDB/node.js/Backbone.js stack (there must be a better name for this
+similar to the LAMP stack)?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. Mastering JavaScript fundamentals&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Although I've written plenty of JQuery and standard JavaScript code,
+I still don't feel like I &amp;quot;get it&amp;quot; when it comes to JavaScript fundamentals.
+Part of learning this stack is figuring out how to do JavaScript the right
+way.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. Comparing a traditional LAMP stack with the node.js stack&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Non-blocking I/O on node.js sounds like it makes sense. But what does it
+really mean when you get into the details? What are the real implications
+for coding fast web applications? I'm curious to learn more about how
+this works.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. Is it fun?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;As I wrote above, programming in Python/Django is &lt;em&gt;fun&lt;/em&gt;. Way more fun than
+the Java code I used to write. I still cringe when thinking about how damn
+difficult it was to write a web application in Struts. So will writing a
+web application in node.js with a NoSQL MongoDB backend and a client-side
+MVC framework be fun? I just don't know until I write a project with these
+technologies.&lt;/p&gt;
+</summary></entry><entry><title>Django Officially On Github</title><link href="http://www.letshackdc.com/django-on-github.html" rel="alternate"></link><updated>2012-04-28T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-04-28:django-on-github.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="http://www.djangoproject.com/"&gt;Django&lt;/a&gt;, the web application framework
+for perfectionists with deadlines, is now
+&lt;a class="reference external" href="https://groups.google.com/forum/?fromgroups#!topic/django-developers/9--P57ezyBs"&gt;officially on Github&lt;/a&gt;. Welcome Django, it's about time you migrated
+over!&lt;/p&gt;
+&lt;p&gt;The code and documentation can now be found in the
+&lt;a class="reference external" href="https://github.com/django/django"&gt;official repository&lt;/a&gt;.&lt;/p&gt;
+</summary></entry><entry><title>Database Backups</title><link href="http://www.letshackdc.com/database-backups.html" rel="alternate"></link><updated>2012-04-27T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-04-27:database-backups.html</id><summary type="html">&lt;p&gt;Backing up your databases on a daily, or more preferrably, hourly basis is
+IMPORTANT. Do not skimp on preserving your data.&lt;/p&gt;
+&lt;p&gt;You never know when an errant &amp;quot;drop database ...&amp;quot; will screw up your afternoon.
+Even the fantastic developers at
+&lt;a class="reference external" href="https://github.com/blog/744-today-s-outage"&gt;Github are not immune&lt;/a&gt; to making
+costly mistakes.&lt;/p&gt;
+&lt;p&gt;Don't tempt fate. Back up your database frequently.&lt;/p&gt;
+</summary></entry><entry><title>Python &amp; MongoDB News</title><link href="http://www.letshackdc.com/python-mongodb-news.html" rel="alternate"></link><updated>2012-04-24T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-04-24:python-mongodb-news.html</id><summary type="html">&lt;p&gt;Yesterday had a couple of interesting Python &amp;amp; MongoDB related posts on
+&lt;a class="reference external" href="http://news.ycombinator.com/"&gt;Hacker News&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The first post was on
+&lt;a class="reference external" href="http://isbullsh.it/2012/04/Web-crawling-with-scrapy/"&gt;scrapping websites with scrapy and storing the data in MongoDB&lt;/a&gt;. The post walks through establishing
+the URL patterns to crawl then shows an example of how to set up the
+MongoDB mapping in a .py file.&lt;/p&gt;
+&lt;p&gt;The second post showed the results of a project to
+&lt;a class="reference external" href="http://thomasst.ch/mongoadmin/"&gt;recreate the Django admin interface with Twitter Bootstrap for MongoDB backends&lt;/a&gt;. I've worked on several projects where
+using MongoDB with Django would have been advantageous but recreating the
+admin interface was a significant hurdle. It's great to see community projects
+that break down these barriers.&lt;/p&gt;
+&lt;p&gt;Hopefully future Django releases can incorporate some of this work to
+make it easier to work with non-relational databases when necessary.&lt;/p&gt;
+</summary></entry><entry><title>Consolidation in the Python Hosting Industry</title><link href="http://www.letshackdc.com/consolidation-python-hosting-industry.html" rel="alternate"></link><updated>2012-04-19T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-04-19:consolidation-python-hosting-industry.html</id><summary type="html">&lt;p&gt;The announcement yesterday about
+&lt;a class="reference external" href="https://www.ep.io/blog/epio-closing-down/"&gt;Epio closing down&lt;/a&gt;
+got me thinking about the Python PaaS industry. I did not have any personal
+experience with Epio, but from the
+&lt;a class="reference external" href="http://news.ycombinator.com/item?id=3860196"&gt;discussion on Hacker News&lt;/a&gt;
+it sounded like these guys were top notch developers and just nice guys
+in general. While it's difficult to see Epio's platform close down after
+all the effort invested in it, I'm sure those guys will end up in a great
+place. If they didn't already have multiple great job offers I'd be shocked.&lt;/p&gt;
+&lt;p&gt;I've only personally used Google App Engine, Heroku, and Gondor PaaS,
+Amazon Web Services IaaS, and Slicehost and Linode for virtual private
+servers. I currently use Linode (for my side business) and Amazon Web Services  (for this blog plus side projects).&lt;/p&gt;
+&lt;p&gt;Linode is great, especially when combined with Ubuntu images along with
+Fabric and cuisine for server set up. Amazon Web Services is also a fantastic
+platform when &lt;a class="reference external" href="https://github.com/boto/boto"&gt;boto&lt;/a&gt; is used to automate
+EC2, S3, etc. Right now I'm very happy with the combination of those two
+services.&lt;/p&gt;
+&lt;p&gt;A few years ago I worked with Google App Engine both on side projects and
+some client projects. I still have a certain gut reaction when I think about
+using GAE. I liked the ease of deployment and the tie in to the Google APIs.
+However, I was really concerned about the lock in since the Python code
+I wrote had to be written in a certain way. The Python 2.5 restriction,
+which is now lifted to 2.7, didn't bother me too much. The big thing for me
+on GAE was the uncertainty over the eventual production costs (I used the beta
+version). Those pricing fears proved to be
+&lt;a class="reference external" href="http://www.informationweek.com/news/cloud-computing/platform/231600672"&gt;an issue&lt;/a&gt; for developers that went full-on in the platform. I'm glad I got out
+when I did before production GAE went live.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://gondor.io/"&gt;Gondor&lt;/a&gt; seemed interesting, but I really only
+played with the beta. I was concerned that they were too small to really be
+a player in the field and
+I didn't want to get locked to their platform. On the plus side, there really
+wasn't much code modification necessary to deploy a Django project.&lt;/p&gt;
+&lt;p&gt;Heroku is a great platform - assuming you work within the boundaries. I found
+the shared database performance very limited. The performance was often
+an order of magnitude worse than on a very small private VPS with PostgreSQL.
+However the ease of deployment was fantastic. &amp;quot;git push heroku master&amp;quot; felt
+just as natural as interacting with Github all day. I could easily see
+getting into the workflow where the only platform a developer uses is
+Heroku. The dedicated database cost did scare me though. If there were a
+lower cost, $50/month instance, that might help. I'd have to do more
+research at that point to do a cost/benefit analysis over AWS or a VPS.&lt;/p&gt;
+&lt;p&gt;There's no silver bullet for Python developers looking to deploy on a PaaS.
+Still, it's great to have options. For prototyping apps, Gondor and Heroku
+make great choices (as long as you don't immediately need a lot of database
+storage and performance). For production apps though, I still lean towards a
+mix of AWS and virtual private servers.&lt;/p&gt;
+</summary></entry><entry><title>Repository Structure and Python</title><link href="http://www.letshackdc.com/repository-structure-and-python.html" rel="alternate"></link><updated>2012-04-18T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-04-18:repository-structure-and-python.html</id><summary type="html">&lt;p&gt;Kenneth Reitz has another great post on how to
+&lt;a class="reference external" href="http://kennethreitz.com/repository-structure-and-python.html"&gt;structure repositories for Python projects&lt;/a&gt;. Repository structure is one of those topics
+that everyone seems to come up with a slightly different way of doing so
+it's great to see some direction from a leader in the Python field.&lt;/p&gt;
+</summary></entry><entry><title>Django Nudge (django-nudge)</title><link href="http://www.letshackdc.com/django-nudge.html" rel="alternate"></link><updated>2012-04-17T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-04-17:django-nudge.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="https://github.com/cfpb/django-nudge"&gt;Django Nudge&lt;/a&gt; (nudge) is an open
+source Django application written by developers at the Consumer Financial
+Protection Bureau. Nudge is designed to be the Django equivalent to Ramp
+for WordPress.&lt;/p&gt;
+&lt;p&gt;In a nutshell, Nudge allows content creators to develop their content on
+a staging server. When the content is ready to go to production, Nudge
+provides an admin interface for selecting only the pieces of content that
+should be pushed to production. Nudge allows fine-grained control of which
+content to push because not all content needs to go live at the same time.&lt;/p&gt;
+&lt;p&gt;Considering how often Django is used in media companies, I was surprised
+that I could not find another project that was equivalent to Nudge.
+It's completely possible that this type of app has already been written
+but never open sourced.&lt;/p&gt;
+&lt;p&gt;Which brings me to another point: it's great to see the government open
+source useful projects. When developers are thinking &amp;quot;hey this code will
+actually see the light of day&amp;quot; there is a lot of motivation to get it
+done right. Too often when I've consulted for other government
+agencies so many corners are cut partially because developers know
+that their project will never go to production or be open sourced.&lt;/p&gt;
+&lt;p&gt;It's also great to see the &lt;a class="reference external" href="http://techcrunch.com/2012/04/09/u-s-consumer-financial-protection-bureau-gets-open-source-publishes-on-github/"&gt;positive press&lt;/a&gt;
+and &lt;a class="reference external" href="http://radar.oreilly.com/2012/04/open-source-government-cfpb.html"&gt;recognition&lt;/a&gt; that CFPB received for being a forward-thinking government agency.&lt;/p&gt;
+&lt;p&gt;We need more of this great work coming from the government. Let's hope
+other agencies take note.&lt;/p&gt;
+</summary></entry><entry><title>Django in Production</title><link href="http://www.letshackdc.com/django-in-production.html" rel="alternate"></link><updated>2012-04-16T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-04-16:django-in-production.html</id><summary type="html">&lt;p&gt;Django is easy to get started with, especially if you already have a
+programming background in a &amp;quot;heavier&amp;quot; language like Java. When I first
+started creating websites with Django 0.96, I was programming Java systems
+during the day and relaxed in the evenings by using Python/Django. I found
+the speed at which I could create sites allowed me to feel like I was
+accomplishing something even though I did not have full days to focus on
+side project development.&lt;/p&gt;
+&lt;p&gt;One of the hurdles I found with Django was just figuring out how to deploy
+the projects to a production server. &amp;quot;python manage.py runserver&amp;quot; wasn't
+going to cut it. In addition, once I got the sites live, I was not sure
+of how to properly monitor them. The following links helped me a lot to
+learn what the &amp;quot;big boys&amp;quot; in the Django space were using in production:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://f.souza.cc/2011/11/setting-up-a-django-production-environment-compiling-and-configuring-nginx/"&gt;Setting up a Production Django Environment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://instagram-engineering.tumblr.com/post/20541814340/keeping-instagram-up-with-over-a-million-new-users-in"&gt;Instagram Production Engineering&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://tech.yipit.com/2011/12/15/introducing-xenia-smart-monitoring-of-custom-application-level-metrics/"&gt;Yipit Monitoring Key Metrics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.robgolding.com/blog/2011/11/12/django-in-production-part-1---the-stack/"&gt;Django in Production - Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.sparklewise.com/django-settings-for-production-and-development-best-practices/"&gt;Django Settings for Production and Development&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://adrian.org.ar/python/automatic-setup-of-django-nginx-and-gunicorn-on-ec2"&gt;Automatic Set Up of Django With nginx &amp;amp; gunicorn&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Those are the best articles I've come across recently that I wish I had when
+I first started deploying Django projects (to be fair, those links didn't
+yet exist nor did many of the technologies that are now commonplace).&lt;/p&gt;
+</summary></entry><entry><title>Site Relaunch</title><link href="http://www.letshackdc.com/matt-makai-dot-com-site-relaunch.html" rel="alternate"></link><updated>2012-03-10T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-03-10:matt-makai-dot-com-site-relaunch.html</id><summary type="html">&lt;p&gt;I recreated mattmakai.com earlier this year with a new theme on top of
+a custom Python/Django stack I wrote. Although I liked some of the
+work I did, I just
+was not satisfied with the overall result. So I'm relaunching the blog
+with the core written in Markdown and jinja2 with
+&lt;a class="reference external" href="http://pelican.readthedocs.org/en/2.8/index.html"&gt;Pelican&lt;/a&gt; used to
+generate the static HTML pages.&lt;/p&gt;
+&lt;p&gt;I'm also
+&lt;a class="reference external" href="http://www.github.com/makaimc/matt-makai-static-blog"&gt;open sourcing&lt;/a&gt;
+the code and content for anyone else interested in creating their
+own Pelican-driven blog.&lt;/p&gt;
+</summary></entry><entry><title>"DevOps is Ruining My Craft"</title><link href="http://www.letshackdc.com/devops-ruining-my-craft.html" rel="alternate"></link><updated>2012-02-23T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-02-23:devops-ruining-my-craft.html</id><summary type="html">&lt;p&gt;This &lt;a class="reference external" href="http://tatiyants.com/devops-is-ruining-my-craft/"&gt;DevOps blog post&lt;/a&gt; is a great satirical take on the automation and DevOps movement. The post is written as an &amp;quot;interview&amp;quot; with a current sysadmin and it's definitely worth the quick read.&lt;/p&gt;
+</summary></entry><entry><title>Python Context Managers</title><link href="http://www.letshackdc.com/python-context-managers.html" rel="alternate"></link><updated>2012-02-22T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-02-22:python-context-managers.html</id><summary type="html">&lt;p&gt;During my talk to django-district last night, I explained that Django
+1.4 drops support for Python 2.4 because the core committers wanted to
+use Python's context managers. Python 2.4 would not suffice because
+context managers are a &lt;a class="reference external" href="http://www.python.org/dev/peps/pep-0343/"&gt;Python 2.5+ feature&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Someone in the audience asked what a context manager is, and I was annoyed
+with myself for not having a clear, concise answer. So to paraphrase the
+old saying, now &amp;quot;there's a blog post for that.&amp;quot;&lt;/p&gt;
+&lt;div class="section" id="id1"&gt;
+&lt;h2&gt;Python Context Managers&lt;/h2&gt;
+&lt;p&gt;A context manager is created syntactically using the 'with' statement.
+Here is an example:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;with open(&amp;quot;example.txt&amp;quot;) as f:
+    data = f.read()
+    print len(data)
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The code above opens a file, reads its contents, and prints the length
+of the string read from the file. Since we are using the with statement,
+the file will always be closed after it is read. This behavior is because
+the 'with' statement performs actions on entry (the __enter__ method)
+and on exit (the __exit__ method), regardless of how the block of code
+exits. See this &lt;a class="reference external" href="http://preshing.com/20110920/the-python-with-statement-by-example"&gt;blog post with a detailed explanation&lt;/a&gt; of the process a context
+manager runs through.&lt;/p&gt;
+&lt;p&gt;The context manager essentially can be thought of as an alternative to a try-finally block (before context managers these blocks were more common). So the concise way of explaining a context manager is that it is a statement that defines the runtime context for how a block of code should be executed. Context managers are particularly useful for locking/unlocking as well as setting or reseting state before a code block is executed.&lt;/p&gt;
+&lt;div class="section" id="references"&gt;
+&lt;h3&gt;References&lt;/h3&gt;
+&lt;p&gt;[1] &lt;a class="reference external" href="http://preshing.com/20110920/the-python-with-statement-by-example"&gt;http://preshing.com/20110920/the-python-with-statement-by-example&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[2] &lt;a class="reference external" href="http://effbot.org/zone/python-with-statement.htm"&gt;http://effbot.org/zone/python-with-statement.htm&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Django 1.4 Beta Released</title><link href="http://www.letshackdc.com/django-1-4-beta-released.html" rel="alternate"></link><updated>2012-02-16T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-02-16:django-1-4-beta-released.html</id><summary type="html">&lt;p&gt;The Django 1.4 beta release is &lt;a class="reference external" href="https://www.djangoproject.com/weblog/2012/feb/15/14-beta-1/"&gt;now available&lt;/a&gt; for testing.&lt;/p&gt;
+&lt;p&gt;Although the 1.4 beta can be &lt;a class="reference external" href="https://www.djangoproject.com/download/"&gt;downloaded as a package&lt;/a&gt;, it's probably best to get it from the SVN development branch (also mirrored on github) so you can update and take advantage of bug fixes as they are incorporated into the code base.&lt;/p&gt;
+&lt;p&gt;For more information on the new features coming in 1.4, come see &lt;a class="reference external" href="http://www.mattmakai.com/blog/django-district-feb-meetup-lightning-talk/"&gt;my talk on Tuesday night's Django District meetup in DC&lt;/a&gt;.&lt;/p&gt;
+</summary></entry><entry><title>Django District February Meetup Lightning Talk</title><link href="http://www.letshackdc.com/django-district-feb-meetup-lightning-talk.html" rel="alternate"></link><updated>2012-02-15T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-02-15:django-district-feb-meetup-lightning-talk.html</id><summary type="html">&lt;p&gt;I'll be giving a 10 minute lightning talk on updates and incompatibilities in
+the upcoming &lt;a class="reference external" href="https://docs.djangoproject.com/en/dev/releases/1.4/"&gt;Django 1.4 release&lt;/a&gt;. If you're interested in Python/Django and want to hear more,
+&lt;a class="reference external" href="http://www.django-district.org/events/48873672/"&gt;RSVP on meetup.com&lt;/a&gt;.
+There will be some other great talks as well on EC2 + github integration,
+monitoring your apps with Graphite and Sentry, and Django chartit.&lt;/p&gt;
+&lt;p&gt;My impress.js slides for the talk will be posted on this site over the weekend.&lt;/p&gt;
+</summary></entry><entry><title>Django 1.4 Requires Python 2.5+</title><link href="http://www.letshackdc.com/django-1-4-requires-python-2-5.html" rel="alternate"></link><updated>2012-01-25T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-01-25:django-1-4-requires-python-2-5.html</id><summary type="html">&lt;p&gt;Django 1.4 is the first Django release to
+&lt;a class="reference external" href="https://docs.djangoproject.com/en/dev/releases/1.4/#backwards-incompatible-changes-in-1-4"&gt;remove support for Python 2.4&lt;/a&gt;. This change is an expected
+for two reasons. First, beginning with Django 1.2, Python 2.3 support
+was dropped and the community was notified that Django 1.4 would again
+increment the required Python version. Second, the Django core
+developers need &lt;a class="reference external" href="http://mmakai.com/post/8732320824/django-1-4-and-beyond"&gt;support for context managers&lt;/a&gt;, which were added in Python 2.5.&lt;/p&gt;
+&lt;p&gt;Note that although Django 1.4 supports Python 2.5+, it does not
+yet support Python 3.x. Although progress has been made porting Django
+to Python 3.x, it is not fully tested or ready for release as specified
+in Django's release process.&lt;/p&gt;
+</summary></entry><entry><title>What the Django's ORM Author Hates About It</title><link href="http://www.letshackdc.com/what-author-django-orm-hates-about-it.html" rel="alternate"></link><updated>2012-01-20T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-01-20:what-author-django-orm-hates-about-it.html</id><summary type="html">&lt;p&gt;Alex Gaynor, a Django core committer and author of much of the
+object-relational mapping (ORM) code,
+&lt;a class="reference external" href="http://speakerdeck.com/u/alex/p/why-i-hate-the-django-orm"&gt;gave a presentation&lt;/a&gt; on what he hates about the mapping layer. Every ORM layer in
+existence has issues, especially for edge cases, but Django's has
+been criticized lately for
+&lt;a class="reference external" href="http://www.nitinh.com/2009/02/why-django-orm-sucks-it-takes-a-hell-lot-of-memory-in-processing/"&gt;various&lt;/a&gt;
+&lt;a class="reference external" href="http://jeffcroft.com/blog/2008/jul/25/top-ten-things-suck-about-django-revisited/"&gt;reasons&lt;/a&gt;.
+Alex's presentation addresses concerns are in three areas of the ORM layer:&lt;/p&gt;
+&lt;p&gt;1. Inconsistencies in querying syntax are confusing and were
+built up without an overall strategy over time&lt;/p&gt;
+&lt;p&gt;2. Complex queries are virtually impossible with the existing syntax,
+especially compared to SQLAlchemy&lt;/p&gt;
+&lt;p&gt;3. Aggregation queries take strings instead of objects, which is
+inconsistent with other query types and limits the aggregation
+queries' usefulness&lt;/p&gt;
+&lt;p&gt;Alex's point during the presentation is to bring up the most glaring issues,
+show why they need to be fixed in future Django releases, and move the
+Django ORM from an &amp;quot;80/20&amp;quot; solution closer to a &amp;quot;90/10&amp;quot; solution that
+is easier to apply across a broader set of use cases.&lt;/p&gt;
+&lt;p&gt;Slides: &lt;a class="reference external" href="http://speakerdeck.com/u/alex/p/why-i-hate-the-django-orm"&gt;Why I hate the Django ORM&lt;/a&gt; (Speaker Deck)&lt;/p&gt;
+</summary></entry><entry><title>The Seven Steps</title><link href="http://www.letshackdc.com/the-seven-steps.html" rel="alternate"></link><updated>2012-01-18T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-01-18:the-seven-steps.html</id><summary type="html">&lt;p&gt;There are at least seven distinct steps towards Internet entrepreneurship.
+I'll begin with the caveat that these seven steps only apply in the
+Internet space and not other avenues such as starting a bakery.
+From my (limited) experience, everyone goes through these steps in
+order. Some steps take hours, while others can take years.&lt;/p&gt;
+&lt;p&gt;The seven steps are:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;Putting something online through a platform such as Tumblr, spreading
+the word, receiving critical feedback, and improving your work&lt;/li&gt;
+&lt;li&gt;Building and putting out any type of website of your own creation&lt;/li&gt;
+&lt;li&gt;Building a site conceived from your own idea with potential
+for monetization&lt;/li&gt;
+&lt;li&gt;Launching your first web application with a sign up process and
+methods for payments&lt;/li&gt;
+&lt;li&gt;Getting your first paying customer, obtaining feedback, and
+improving your product&lt;/li&gt;
+&lt;li&gt;Having a steady stream of customers&lt;/li&gt;
+&lt;li&gt;Becoming profitable, growing your customer base, and increasing
+your product's value to your customers&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;By understanding these seven steps, you can assess your own position
+and determine how you can take the next step. The goal
+is not to rush through each step to get to the next one, but instead
+to learn at each milestone. Become comfortable with yourself, your
+own skills, and determine what aspects you need to improve.&lt;/p&gt;
+&lt;p&gt;For example, I created many sites with Python and Django in 2009. I
+designed, developed, and deployed them, learning a lot about
+Django's best practices and Linux system administration in the
+process. However, I realized I had (and still have to some extent)
+a deficiency in design. I knew that before I could take the next
+step towards building a site that could be monetized and feel good
+about it, I needed to learn better design and get to know more
+people who could give me honest, critical feedback on my website designs.&lt;/p&gt;
+&lt;p&gt;Once I spent several months reading, drawing, building, and
+discussing designs, I felt more comfortable that I could take the
+next step. About six months and a lot of late nights later, I
+launched &lt;a class="reference external" href="https://www.proofdriven.com/"&gt;ProofDriven&lt;/a&gt; with a
+reasonable design I was okay starting with that I knew I could
+improve as I grow more comfortable in this step. Eventually I
+can look ahead to the next step in the path towards Internet
+entrepreneurship.&lt;/p&gt;
+</summary></entry><entry><title>Specify the HTML File for PhoneGap and iOS</title><link href="http://www.letshackdc.com/specify-html-file-phonegap-ios.html" rel="alternate"></link><updated>2012-01-05T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-01-05:specify-html-file-phonegap-ios.html</id><summary type="html">&lt;p&gt;When working with iOS applications and using PhoneGap, you'll often want to use a different
+file name than &amp;quot;index.html&amp;quot; for your first page. This can be tricky for first time
+PhoneGap/iOS developers because there is no stub function or properties file for
+specifying the file like there is in Android and BlackBerry projects.&lt;/p&gt;
+&lt;p&gt;In your AppDelegate.m file, add the following method and change the return value to the
+HTML file you want to use.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;+ (NSString*) startPage
+{
+  return @&amp;quot;different.html&amp;quot;;
+}
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Bonus: you can also use this to specify a different path than www. For example, if
+you have a combined Android and iOS project where Android requires the assets directory,
+specify &amp;quot;../assets/www/yourfile.html&amp;quot; as the return value.&lt;/p&gt;
+</summary></entry><entry><title>Heroku on Ubuntu 10.04</title><link href="http://www.letshackdc.com/heroku-ubuntu-10-04.html" rel="alternate"></link><updated>2012-01-03T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-01-03:heroku-ubuntu-10-04.html</id><summary type="html">&lt;p&gt;A couple of guys from Heroku gave a talk tonight at DC Python and it looked like a good
+solution for running small sites. However, I was disappointed that set up was more
+difficult on Ubuntu 10.04 than turn key installers on Windows and Mac OS X. The set
+up &lt;a class="reference external" href="http://toolbelt.herokuapp.com/linux/readme"&gt;instructions&lt;/a&gt; required a few
+modifications to work properly.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;sudo apt-add-repository &amp;#39;deb http://toolbelt.herokuapp.com/ubuntu ./&amp;#39;
+curl https://toolbelt.herokuapp.com/apt/release.key | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install heroku-toolbelt
+sudo apt-get install ruby libopenssl-ruby ruby1.8-dev
+sudo apt-get install libreadline-ruby
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Type &amp;quot;heroku&amp;quot; at the command line to check that the installation is working properly.&lt;/p&gt;
+&lt;p&gt;Sources:&lt;/p&gt;
+&lt;p&gt;[1] &lt;a class="reference external" href="http://wmilesn.com/2011/10/code/avoiding-pitfalls-when-setting-up-heroku-for-node-js-on-ubuntu/"&gt;http://wmilesn.com/2011/10/code/avoiding-pitfalls-when-setting-up-heroku-for-node-js-on-ubuntu/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[2] &lt;a class="reference external" href="http://rukuro-blog.heroku.com/2011/05/11/ruby-readline-loaderror"&gt;http://rukuro-blog.heroku.com/2011/05/11/ruby-readline-loaderror&lt;/a&gt;&lt;/p&gt;
+</summary></entry><entry><title>Impress.js: Now Works With Presentation Pointers</title><link href="http://www.letshackdc.com/impress-js-works-with-presentation-pointers.html" rel="alternate"></link><updated>2012-01-02T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-01-02:impress-js-works-with-presentation-pointers.html</id><summary type="html">&lt;p&gt;I saw &lt;a class="reference external" href="https://github.com/bartaz/impress.js"&gt;impress.js&lt;/a&gt;, a really cool CSS3
+transformation-based presentation Javascript library on Hacker News yesterday.
+The &lt;a class="reference external" href="http://bartaz.github.com/impress.js/"&gt;demo&lt;/a&gt; is flashy - similar to Prezi
+but without Flash, plus new 3D effects. The only downside compared to an
+established browser slideshow library such as &lt;a class="reference external" href="https://github.com/geraldb/s6"&gt;S6&lt;/a&gt; was
+that my Logitech presentation pointer didn't work for advancing and reversing the slides.&lt;/p&gt;
+&lt;p&gt;After a little digging, I found out that presentation pointers emulate page up/down
+key strokes. So I &lt;a class="reference external" href="https://github.com/makaimc/impress.js"&gt;forked the impress.js&lt;/a&gt;
+library, updated the code, and issued a
+&lt;a class="reference external" href="https://github.com/bartaz/impress.js/pull/15"&gt;pull request&lt;/a&gt; to add the presentation
+pointer capability. Thanks to &lt;a class="reference external" href="https://github.com/bartaz"&gt;Bartek&lt;/a&gt;'s quick response,
+the pull request was merged and closed just a few hours later. So now
+presentation pointers work great with impress.js.&lt;/p&gt;
+</summary></entry><entry><title>New Blog</title><link href="http://www.letshackdc.com/new-blog.html" rel="alternate"></link><updated>2012-01-01T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-01-01:new-blog.html</id><summary type="html">&lt;p&gt;&lt;em&gt;Note&lt;/em&gt;: &lt;strong&gt;This post is outdated&lt;/strong&gt; because I am
+&lt;a class="reference external" href="../matt-makai-dot-com-site-relaunch.html"&gt;already on a new blog platform&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To kick off 2012, I'm shifting my technical blog from Tumblr to my own platform.&lt;/p&gt;
+&lt;p&gt;I created this site with &lt;a class="reference external" href="http://python.org/"&gt;Python&lt;/a&gt;,
+&lt;a class="reference external" href="http://www.djangoproject.com/"&gt;Django&lt;/a&gt;,
+&lt;a class="reference external" href="http://www.mysql.com/"&gt;MySQL&lt;/a&gt;, and
+&lt;a class="reference external" href="http://twitter.github.com/bootstrap/"&gt;Twitter Bootstrap&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The site is hosted on a Linux &lt;a class="reference external" href="http://www.linode.com/"&gt;Linode&lt;/a&gt; instance and runs
+on &lt;a class="reference external" href="http://nginx.org/"&gt;nginx&lt;/a&gt; and
+&lt;a class="reference external" href="http://gunicorn.org/"&gt;Green Unicorn&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Once 2012 kicks off, I will add my presentations and (potentially) screencasts on technical content.&lt;/p&gt;
+</summary></entry><entry><title>Older Blog Posts</title><link href="http://www.letshackdc.com/older-blog-posts.html" rel="alternate"></link><updated>2012-01-01T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-01-01:older-blog-posts.html</id><summary type="html">&lt;p&gt;My blog posts from the last couple of years can still be access at
+&lt;a class="reference external" href="http://mmakai.com/"&gt;http://mmakai.com/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Eventually I'll transfer the posts' content to this site and redirect the URLs to
+their new locations, but for now I'm leaving the old posts on Tumblr.
+There is also a nice way to browse the posts in the
+&lt;a class="reference external" href="http://mmakai.com/archive/"&gt;archive&lt;/a&gt;.&lt;/p&gt;
+</summary></entry></feed>

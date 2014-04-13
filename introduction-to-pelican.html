@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Matt Makai dot com</title>
+    <meta name="author" content="Matt Makai">
+    <meta name="description" content="Python and Java web stacks software developer and Developer Evangelist for Twilio.">
+    <meta name="language" content="english">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/source/theme/static/css/mm.css">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js">
+      </script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js">      </script>
+    <![endif]-->
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 sidebar">
+                <!--  -->
+<ul class="nav nav-sidebar nav-sidebar-top">
+    <li style="text-align: center;">
+        <img src="/source/theme/static/img/matt-makai-small.jpg" class="img-circle">
+    </li>
+</ul>
+<div class="nav nav-sidebar">
+    <p>
+        Matt Makai, Python &amp; Java web developer. 
+        Washington, D.C.-based Developer Evangelist for
+        <a href="https://www.twilio.com/">Twilio</a>.
+    </p>
+</div>
+<ul class="nav nav-sidebar">
+    <li><a href="/">Writing</a></li>
+    <li><a href="/talks.html">Talks</a></li>
+</ul>
+<ul class="nav nav-sidebar">
+    <li><a href="">Projects</a></li>
+    <li ><a href="/bookmarks.html">Bookmarks</a></li>
+    <li><a href="/matt-makai-resume.pdf">Resume (.pdf)</a></li>
+    <li><a href="/about.html">About</a></li>
+    <li><a href="/contact.html">Contact</a></li>
+</ul>
+<ul class="nav nav-sidebar nav-sidebar-top">
+    <li class="active" style="text-align: center;">
+        <img src="/source/theme/static/img/8-bit-matt-small.png" class="img-rounded">
+    </li>
+</ul>            </div>
+            <div class="col-md-offset-2 col-md-9 main">
+        
+    <h2 class="entry-title">
+        <a href="/introduction-to-pelican.html">Getting Started With Pelican and GitHub Pages</a>
+    </h2> 
+    <p>Pelican is an open source static website generator. While Pelican is written
+in Python, you don't have to know much about that programming language to get
+started. In this post, I'll walk through the steps to getting your first
+Pelican website up and running, including a deployment to GitHub Pages for
+hosting.</p>
+<p>A quick note before we dive in. I've been using Pelican for about
+two and a half years. I currently have three live sites
+deployed, and the code to each one is on GitHub. Those repositories are
+<a class="reference external" href="https://github.com/makaimc/mattmakai.github.com">this blog</a>,
+<a class="reference external" href="https://github.com/makaimc/codingacrossamerica.github.com">my Coding Across America project</a>,
+and
+<a class="reference external" href="https://github.com/makaimc/fullstackpython.github.com">the Full Stack Python walkthrough</a>.
+I can't guarantee that each one uses Pelican version 3.3+ best practices, but
+each one does exactly what I want it to do: get out of my way so I can
+write and publish.</p>
+<p>I'm assuming you're working with Mac OS X or Linux for this tutorial. I
+used Cygwin on Windows a couple of years ago to get some of this working so
+that may be an option if you're operating system limited.</p>
+<div class="section" id="kickstart-example-project">
+<h2>Kickstart Example Project</h2>
+<p>Let's use the Full Stack Python code to get up and running within just a
+few steps.</p>
+<p>First, grab the code and put it in a directory named &quot;fsp&quot;:</p>
+<pre class="literal-block">
+git clone git&#64;github.com:makaimc/fullstackpython.github.com fsp
+</pre>
+<p>We can already get the website working since it's already been generated in
+its current state by Pelican when I checked it in. Go to the &quot;fsp&quot; directory
+and use the built-in Python HTTP server:</p>
+<pre class="literal-block">
+python -m SimpleHTTPServer
+</pre>
+<p>Full Stack Python is now running on port 8000. Go to <a class="reference external" href="http://localhost:8000/">http://localhost:8000/</a>
+in your browser and you'll see the same site that's currently on
+fullstackpython.com. Note if you want to run more than one site at a time
+you can add a port number after &quot;SimpleHTTPServer&quot; to serve on a different
+port.</p>
+<p>Now we need to install the dependencies to make changes to the site and
+regenerate the output. This step is the one part that takes a little more
+Python knowledge. We need to use <a class="reference external" href="https://pypi.python.org/pypi/pip">pip</a>
+to install Pelican, but first we need to make sure pip is installed.
+On Mac OS X's console:</p>
+<pre class="literal-block">
+sudo easy_install pip
+</pre>
+<p>On the Ubuntu command line:</p>
+<pre class="literal-block">
+sudo apt-get install python-pip
+</pre>
+<p>If you're not familiar with Python, you'll also want to look at
+<a class="reference external" href="https://pypi.python.org/pypi/virtualenv">virtualenv</a> to isolate Pelican's
+dependencies. This will be important if you have more than one Pelican-using
+project and they are on different versions of Pelican. Python developers can
+just nod and move along here.</p>
+<p>Full Stack Python's dependencies are stored in the
+fsp/source/requirements.txt file. Go to that directory and install Pelican:</p>
+<pre class="literal-block">
+pip install -r requirements.txt
+</pre>
+<p>That will fail if you're not using a virtualenv because you're trying to
+install these requirements into your base Python installation. If you don't
+want to use virtualenv at this point just put a &quot;sudo&quot; in front of the
+command.</p>
+<p>We're ready to make a change now. Go to the fsp/source/content/pages/
+directory and modify one of the files. For example, add another
+entry in change-log.rst then save the file.</p>
+<p>Pelican needs to regenerate the website output before you can see the results
+in your browser. I've wrapped those changes in a Makefile stored in
+fsp/source/. Rather than explaining make here, let's just execute the commands
+manually that we need to regenerate the website:</p>
+<pre class="literal-block">
+mkdir ./output
+mkdir ./output/static/
+cp -R theme/static/css theme/static/js theme/static/img output/
+cp -R theme/static/lib theme/static/plugin output/
+cp -R static-html/* output/static/
+pelican -t theme -s settings.py content
+cp -R output/* ..
+rm -rf output/
+</pre>
+<p>What's all that? Basically we're just:</p>
+<ul class="simple">
+<li>creating a couple of output directories</li>
+<li>copying static files that Pelican doesn't touch (like CSS, JavaScript,
+and images) into our output directory</li>
+<li>regenerating the website HTML output with Pelican</li>
+<li>copying all of the output to the parent directory of fsp/source</li>
+<li>deleting the output directory</li>
+</ul>
+<p>I wrap those commands in a Makefile to automate the execution of those
+commands. Note that there's a bunch of ways to make this build process more
+efficient. But once I got everything working I focused on writing and
+publishing. You should figure out what setup will work best for your goals.</p>
+<p>Now the website is regenerated and you should see the changes in your
+browser when you refresh the page.</p>
+</div>
+<div class="section" id="github-pages">
+<h2>GitHub Pages</h2>
+<p>GitHub Pages is an easy and free way to host static websites. You just
+need to have a branch called &quot;gh-pages&quot; in your repository, then go into
+the application's settings through GitHub's user interface and enable
+GitHub Pages.</p>
+<img alt="GitHub Pages website view under application settings" src="../img/gh-pages.jpg" style="width: 100%;" />
+<p>GitHub Pages settings through the user interface on their web application.</p>
+<p>Fork the Full Stack Python repository or create a new repository with a
+gh-pages branch. Enable GitHub Pages under the application settings. Then
+you should be able to access your static website at [repo name].github.io.</p>
+<p>One last note. You can point your host records for your DNS settings of a
+domain you own to 204.232.175.78 so the site will be accessible through
+your domain name. I use Namecheap as my domain name registrar so my host
+records for &#64; and www look like this:</p>
+<img alt="Namecheap host records for fullstackpython.com" src="../img/host-records-github-pages.jpg" style="width: 100%;" />
+<p>Namecheap host records pointing to GitHub Pages IP address for
+fullstackpython.com.</p>
+<p>That's all for now! You'll definitely want to check out the
+<a class="reference external" href="http://docs.getpelican.com/en/latest/getting_started.html">Pelican Getting Started Guide</a>
+next for a thorough walkthrough of setting up your own new project.</p>
+<hr class="docutils" />
+<p>If you enjoyed this post you should check out my
+<a class="reference external" href="http://www.codingacrossamerica.com/">Coding Across America</a>
+and <a class="reference external" href="http://www.fullstackpython.com/">Full Stack Python</a> projects, both of
+which are Pelican-powered websites with all code freely accessible on
+GitHub.</p>
+</div>
+
+
+    <hr />
+            </div>
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+    <script src="/source/theme/static/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+        });
+    </script>
+</body>
+</html>

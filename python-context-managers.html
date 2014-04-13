@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Matt Makai dot com</title>
+    <meta name="author" content="Matt Makai">
+    <meta name="description" content="Python and Java web stacks software developer and Developer Evangelist for Twilio.">
+    <meta name="language" content="english">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/source/theme/static/css/mm.css">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js">
+      </script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js">      </script>
+    <![endif]-->
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 sidebar">
+                <!--  -->
+<ul class="nav nav-sidebar nav-sidebar-top">
+    <li style="text-align: center;">
+        <img src="/source/theme/static/img/matt-makai-small.jpg" class="img-circle">
+    </li>
+</ul>
+<div class="nav nav-sidebar">
+    <p>
+        Matt Makai, Python &amp; Java web developer. 
+        Washington, D.C.-based Developer Evangelist for
+        <a href="https://www.twilio.com/">Twilio</a>.
+    </p>
+</div>
+<ul class="nav nav-sidebar">
+    <li><a href="/">Writing</a></li>
+    <li><a href="/talks.html">Talks</a></li>
+</ul>
+<ul class="nav nav-sidebar">
+    <li><a href="">Projects</a></li>
+    <li ><a href="/bookmarks.html">Bookmarks</a></li>
+    <li><a href="/matt-makai-resume.pdf">Resume (.pdf)</a></li>
+    <li><a href="/about.html">About</a></li>
+    <li><a href="/contact.html">Contact</a></li>
+</ul>
+<ul class="nav nav-sidebar nav-sidebar-top">
+    <li class="active" style="text-align: center;">
+        <img src="/source/theme/static/img/8-bit-matt-small.png" class="img-rounded">
+    </li>
+</ul>            </div>
+            <div class="col-md-offset-2 col-md-9 main">
+        
+    <h2 class="entry-title">
+        <a href="/python-context-managers.html">Python Context Managers</a>
+    </h2> 
+    <p>During my talk to django-district last night, I explained that Django
+1.4 drops support for Python 2.4 because the core committers wanted to
+use Python's context managers. Python 2.4 would not suffice because
+context managers are a <a class="reference external" href="http://www.python.org/dev/peps/pep-0343/">Python 2.5+ feature</a>.</p>
+<p>Someone in the audience asked what a context manager is, and I was annoyed
+with myself for not having a clear, concise answer. So to paraphrase the
+old saying, now &quot;there's a blog post for that.&quot;</p>
+<div class="section" id="id1">
+<h2>Python Context Managers</h2>
+<p>A context manager is created syntactically using the 'with' statement.
+Here is an example:</p>
+<div class="highlight"><pre>with open(&quot;example.txt&quot;) as f:
+    data = f.read()
+    print len(data)
+</pre></div>
+<p>The code above opens a file, reads its contents, and prints the length
+of the string read from the file. Since we are using the with statement,
+the file will always be closed after it is read. This behavior is because
+the 'with' statement performs actions on entry (the __enter__ method)
+and on exit (the __exit__ method), regardless of how the block of code
+exits. See this <a class="reference external" href="http://preshing.com/20110920/the-python-with-statement-by-example">blog post with a detailed explanation</a> of the process a context
+manager runs through.</p>
+<p>The context manager essentially can be thought of as an alternative to a try-finally block (before context managers these blocks were more common). So the concise way of explaining a context manager is that it is a statement that defines the runtime context for how a block of code should be executed. Context managers are particularly useful for locking/unlocking as well as setting or reseting state before a code block is executed.</p>
+<div class="section" id="references">
+<h3>References</h3>
+<p>[1] <a class="reference external" href="http://preshing.com/20110920/the-python-with-statement-by-example">http://preshing.com/20110920/the-python-with-statement-by-example</a></p>
+<p>[2] <a class="reference external" href="http://effbot.org/zone/python-with-statement.htm">http://effbot.org/zone/python-with-statement.htm</a></p>
+</div>
+</div>
+
+
+    <hr />
+            </div>
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+    <script src="/source/theme/static/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+        });
+    </script>
+</body>
+</html>

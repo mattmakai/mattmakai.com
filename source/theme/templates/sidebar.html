@@ -6,17 +6,18 @@
 <div class="nav nav-sidebar">
     <p>
         Matt Makai, Python &amp; Java web developer. 
-        Developer Evangelist at <a href="https://www.twilio.com/">Twilio</a>.
+        Washington, D.C.-based Developer Evangelist for
+        <a href="https://www.twilio.com/">Twilio</a>.
     </p>
 </div>
 <ul class="nav nav-sidebar">
-    <li{% if active_page == "index" or "writing" %} class="active"{% endif %}><a href="/">Writing</a></li>
+    <li{% if active_page == "index" or active_page == "writing" %} class="active"{% endif %}><a href="/">Writing</a></li>
     <li><a href="/talks.html">Talks</a></li>
 </ul>
 <ul class="nav nav-sidebar">
     <li><a href="">Projects</a></li>
-    <li><a href="/bookmarks.html">Bookmarks</a></li>
-    <li><a href="/matt-makai-resume.pdf">Resume</a></li>
+    <li {% if page and page.category == "bookmarks" %} class="active"{% endif %}><a href="/bookmarks.html">Bookmarks</a></li>
+    <li><a href="/matt-makai-resume.pdf">Resume (.pdf)</a></li>
     <li><a href="/about.html">About</a></li>
     <li><a href="/contact.html">Contact</a></li>
 </ul>

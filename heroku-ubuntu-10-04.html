@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Matt Makai dot com</title>
+    <meta name="author" content="Matt Makai">
+    <meta name="description" content="Python and Java web stacks software developer and Developer Evangelist for Twilio.">
+    <meta name="language" content="english">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/source/theme/static/css/mm.css">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js">
+      </script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js">      </script>
+    <![endif]-->
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 sidebar">
+                <!--  -->
+<ul class="nav nav-sidebar nav-sidebar-top">
+    <li style="text-align: center;">
+        <img src="/source/theme/static/img/matt-makai-small.jpg" class="img-circle">
+    </li>
+</ul>
+<div class="nav nav-sidebar">
+    <p>
+        Matt Makai, Python &amp; Java web developer. 
+        Washington, D.C.-based Developer Evangelist for
+        <a href="https://www.twilio.com/">Twilio</a>.
+    </p>
+</div>
+<ul class="nav nav-sidebar">
+    <li><a href="/">Writing</a></li>
+    <li><a href="/talks.html">Talks</a></li>
+</ul>
+<ul class="nav nav-sidebar">
+    <li><a href="">Projects</a></li>
+    <li ><a href="/bookmarks.html">Bookmarks</a></li>
+    <li><a href="/matt-makai-resume.pdf">Resume (.pdf)</a></li>
+    <li><a href="/about.html">About</a></li>
+    <li><a href="/contact.html">Contact</a></li>
+</ul>
+<ul class="nav nav-sidebar nav-sidebar-top">
+    <li class="active" style="text-align: center;">
+        <img src="/source/theme/static/img/8-bit-matt-small.png" class="img-rounded">
+    </li>
+</ul>            </div>
+            <div class="col-md-offset-2 col-md-9 main">
+        
+    <h2 class="entry-title">
+        <a href="/heroku-ubuntu-10-04.html">Heroku on Ubuntu 10.04</a>
+    </h2> 
+    <p>A couple of guys from Heroku gave a talk tonight at DC Python and it looked like a good
+solution for running small sites. However, I was disappointed that set up was more
+difficult on Ubuntu 10.04 than turn key installers on Windows and Mac OS X. The set
+up <a class="reference external" href="http://toolbelt.herokuapp.com/linux/readme">instructions</a> required a few
+modifications to work properly.</p>
+<div class="highlight"><pre>sudo apt-add-repository &#39;deb http://toolbelt.herokuapp.com/ubuntu ./&#39;
+curl https://toolbelt.herokuapp.com/apt/release.key | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install heroku-toolbelt
+sudo apt-get install ruby libopenssl-ruby ruby1.8-dev
+sudo apt-get install libreadline-ruby
+</pre></div>
+<p>Type &quot;heroku&quot; at the command line to check that the installation is working properly.</p>
+<p>Sources:</p>
+<p>[1] <a class="reference external" href="http://wmilesn.com/2011/10/code/avoiding-pitfalls-when-setting-up-heroku-for-node-js-on-ubuntu/">http://wmilesn.com/2011/10/code/avoiding-pitfalls-when-setting-up-heroku-for-node-js-on-ubuntu/</a></p>
+<p>[2] <a class="reference external" href="http://rukuro-blog.heroku.com/2011/05/11/ruby-readline-loaderror">http://rukuro-blog.heroku.com/2011/05/11/ruby-readline-loaderror</a></p>
+
+
+    <hr />
+            </div>
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+    <script src="/source/theme/static/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+        });
+    </script>
+</body>
+</html>

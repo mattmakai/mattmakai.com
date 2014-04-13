@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Matt Makai dot com</title>
+    <meta name="author" content="Matt Makai">
+    <meta name="description" content="Python and Java web stacks software developer and Developer Evangelist for Twilio.">
+    <meta name="language" content="english">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/source/theme/static/css/mm.css">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js">
+      </script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js">      </script>
+    <![endif]-->
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 sidebar">
+                <!--  -->
+<ul class="nav nav-sidebar nav-sidebar-top">
+    <li style="text-align: center;">
+        <img src="/source/theme/static/img/matt-makai-small.jpg" class="img-circle">
+    </li>
+</ul>
+<div class="nav nav-sidebar">
+    <p>
+        Matt Makai, Python &amp; Java web developer. 
+        Washington, D.C.-based Developer Evangelist for
+        <a href="https://www.twilio.com/">Twilio</a>.
+    </p>
+</div>
+<ul class="nav nav-sidebar">
+    <li><a href="/">Writing</a></li>
+    <li><a href="/talks.html">Talks</a></li>
+</ul>
+<ul class="nav nav-sidebar">
+    <li><a href="">Projects</a></li>
+    <li ><a href="/bookmarks.html">Bookmarks</a></li>
+    <li><a href="/matt-makai-resume.pdf">Resume (.pdf)</a></li>
+    <li><a href="/about.html">About</a></li>
+    <li><a href="/contact.html">Contact</a></li>
+</ul>
+<ul class="nav nav-sidebar nav-sidebar-top">
+    <li class="active" style="text-align: center;">
+        <img src="/source/theme/static/img/8-bit-matt-small.png" class="img-rounded">
+    </li>
+</ul>            </div>
+            <div class="col-md-offset-2 col-md-9 main">
+        
+    <h2 class="entry-title">
+        <a href="/evaluating-third-party-services-for-django.html">Evaluating Third Party Services for Django Projects</a>
+    </h2> 
+    <p>Every non-trivial modern Django project combines externally hosted third
+party services with custom code to create a complete web application. The
+art of discovering, evaluating, integrating, and maintaining these third
+party services is an important capability for any post-entry-level Django
+developer. I'm writing these posts as a framework for how to broadly think
+about working with third party services.</p>
+<p>This is the second of four blog posts, following my
+<a class="reference external" href="../identifying-third-party-services-for-django.html">discovering third party services post</a>.</p>
+<div class="section" id="company-evaluation-criteria">
+<h2>Company Evaluation Criteria</h2>
+<p>I start by evaluating the third party service company itself. Several
+questions immediately come to mind when looking at a newly discovered
+service:</p>
+<blockquote>
+<ol class="arabic simple">
+<li>Which languages and frameworks are shown in their tutorials?</li>
+</ol>
+</blockquote>
+<p>I ask this question because it's common for newer services built on Rails to
+only show Rails tutorials. In that case I know I may potentially spend a
+significant amount of time figuring out how to connect to their service. I
+may also have to build a third party Python binding or fork an existing but
+not well-maintained binding.</p>
+<blockquote>
+<ol class="arabic simple" start="2">
+<li>What ecosystem is their platform built on?</li>
+</ol>
+</blockquote>
+<p>What happens if you end up reliant upon the third party service and begin
+to encounter edge cases? If they only have Ruby or PHP developers in their
+company, you're going to have to figure it out on your own. On the other hand
+if their platform is built on the Python ecosystem, they'll likely have
+developers passionate and interested in helping you solve the problems you
+encounter while building and maintaining your Django app.</p>
+<blockquote>
+<ol class="arabic simple" start="3">
+<li>Does the company have one or more developer evangelists?</li>
+</ol>
+</blockquote>
+<p>This question has two parts. First, developer evangelists are great for
+answering technical questions that come up while you're trying out a service.
+Second, I'm wondering &quot;does this company care about developers or are they
+a sales outfit&quot;? Some services launch to great fanfare but flame out quickly.
+For example, look at
+<a class="reference external" href="http://www.crunchbase.com/company/simplegeo">SimpleGeo</a>. If your Django
+project is built on a service that's about to shut down that will shift your
+focus from new development to ripping out an existing part of your project
+and replacing it with a home-grown solution or another third party service.</p>
+<blockquote>
+<ol class="arabic simple" start="4">
+<li>What's the service's &quot;data gravity&quot;?</li>
+</ol>
+</blockquote>
+<p><a class="reference external" href="https://twitter.com/acdha">Chris Adams</a> gave me the &quot;data gravity&quot; term
+while I was presenting the initial rough cut of my
+<a class="reference external" href="http://www.mattmakai.com/static/presentations/djangocon-2013.html">DjangoCon talk</a>
+at
+<a class="reference external" href="http://www.meetup.com/django-district/events/131235942/">Django District</a>.
+&quot;Data gravity&quot; struck me as an awesome concept for thinking about an
+increasingly valuable asset to any business: its data. The more data gravity
+a service potentially holds over my Django project, the more careful
+consideration that needs to happen about testing, abstracting, and backing
+up our project's data that could be compromised or lost on that service.</p>
+<blockquote>
+<ol class="arabic simple" start="5">
+<li>StackExchange or forum discussions</li>
+</ol>
+</blockquote>
+<p>Are people asking questions about a third party service? If so, that's a good
+sign you're not alone in uncharted territory. StackExchange is the defacto
+community for asking technical questions nowadays. Don't neglect blog posts
+and other forums though. Sometimes companies have official forums for their
+services. They are a great way to find out there's either an active, engaged
+group of developers on the service's side ready to help you out. Or a broken
+cesspool of empty promises and unanswered questions (for an example, see
+<a class="reference external" href="http://developer.linkedin.com/forum">LinkedIn's atrocious developer forums</a>).</p>
+<hr class="docutils" />
+<p>If you're going to DjangoCon this year, come see my talk on
+<a class="reference external" href="http://www.djangocon.us/schedule/presentation/47/">Making Django Play Nice With Third Party Services</a>
+on September 5 at 10am.</p>
+<p>If you enjoyed this post you should read
+<a class="reference external" href="../django-project-checklist.html">my checklist for evaluating existing Django projects</a>
+and check out my <a class="reference external" href="http://www.codingacrossamerica.com/">Coding Across America</a>
+project.</p>
+</div>
+
+
+    <hr />
+            </div>
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+    <script src="/source/theme/static/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+        });
+    </script>
+</body>
+</html>

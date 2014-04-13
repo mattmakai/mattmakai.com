@@ -8,107 +8,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/source/theme/static/css/mm.css">
-    <style>
-/*
- * Global add-ons
- */
-.sub-header {
-  padding-bottom: 10px;
-  border-bottom: 1px solid #eee;
-}
-
-
-/*
- * Sidebar
- */
-
-/* Hide for mobile, show later */
-.sidebar {
-  display: none;
-}
-@media (min-width: 768px) {
-  .sidebar {
-    position: fixed;
-    top: 0px;
-    bottom: 0;
-    left: 0;
-    z-index: 1000;
-    display: block;
-    padding: 20px;
-    overflow-x: hidden;
-    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
-    background-color: #222;
-    border-right: 1px solid #eee;
-  }
-}
-
-/* Sidebar navigation */
-.nav-sidebar {
-  margin-right: -21px; /* 20px padding + 1px border */
-  margin-bottom: 20px;
-  margin-left: -20px;
-  text-align: right;
-}
-.nav-sidebar > li > a, .nav-sidebar > p {
-  padding-right: 40px;
-  padding-left: 20px;
-}
-
-.nav-sidebar > p {
-  color: #eee;
-  font-size: 12px;
-}
-
-p.nav-sidebar-text {
-    color: #eee;
-    font-size: 12px;
-    text-align: center;
-}
-.nav-sidebar > .active > a {
-  color: #fff;
-  background-color: #428bca;
-}
-.nav-sidebar-top {
-    margin-top: 25px;
-}
-
-
-/*
- * Main content
- */
-
-.main {
-  padding: 20px;
-}
-@media (min-width: 768px) {
-  .main {
-    padding-right: 40px;
-    padding-left: 40px;
-  }
-}
-.main .page-header {
-  margin-top: 0;
-}
-
-
-/*
- * Placeholder dashboard ideas
- */
-
-.placeholders {
-  margin-bottom: 30px;
-  text-align: center;
-}
-.placeholders h4 {
-  margin-bottom: 0;
-}
-.placeholder {
-  margin-bottom: 20px;
-}
-.placeholder img {
-  display: inline-block;
-  border-radius: 50%;
-}    </style>
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js">
       </script>
@@ -118,7 +17,7 @@ p.nav-sidebar-text {
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-3 col-md-2 sidebar">
+            <div class="col-md-2 sidebar">
                 <!--  -->
 <ul class="nav nav-sidebar nav-sidebar-top">
     <li style="text-align: center;">
@@ -128,17 +27,18 @@ p.nav-sidebar-text {
 <div class="nav nav-sidebar">
     <p>
         Matt Makai, Python &amp; Java web developer. 
-        Developer Evangelist at <a href="https://www.twilio.com/">Twilio</a>.
+        Washington, D.C.-based Developer Evangelist for
+        <a href="https://www.twilio.com/">Twilio</a>.
     </p>
 </div>
 <ul class="nav nav-sidebar">
-    <li class="active"><a href="/">Writing</a></li>
+    <li><a href="/">Writing</a></li>
     <li><a href="/talks.html">Talks</a></li>
 </ul>
 <ul class="nav nav-sidebar">
     <li><a href="">Projects</a></li>
-    <li><a href="/bookmarks.html">Bookmarks</a></li>
-    <li><a href="/matt-makai-resume.pdf">Resume</a></li>
+    <li  class="active"><a href="/bookmarks.html">Bookmarks</a></li>
+    <li><a href="/matt-makai-resume.pdf">Resume (.pdf)</a></li>
     <li><a href="/about.html">About</a></li>
     <li><a href="/contact.html">Contact</a></li>
 </ul>
@@ -147,8 +47,7 @@ p.nav-sidebar-text {
         <img src="/source/theme/static/img/8-bit-matt-small.png" class="img-rounded">
     </li>
 </ul>            </div>
-        </div>
-        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+            <div class="col-md-offset-2 col-md-9 main">
 <div class="col-md-9">
     <h1>Java Virtual Machine (JVM)</h1>
 <h2>Clojure</h2>
@@ -162,6 +61,10 @@ p.nav-sidebar-text {
 <p><a href="http://jrheard.tumblr.com/post/40024238467/getting-started-with-clojure">Getting Started with Clojure</a>
   provides a detailed walkthrough for what resources to use and how to go
   about learning Clojure.</p>
+</li>
+<li>
+<p><a href="http://www.braveclojure.com/do-things/">Do Things</a> is a crash course in
+  programming with Clojure.</p>
 </li>
 <li>
 <p><a href="http://blackstag.com/blog.posting?id=5">Guide to programming in Clojure for beginners</a>
@@ -191,6 +94,10 @@ p.nav-sidebar-text {
   complete Clojure web application.</p>
 </li>
 <li>
+<p><a href="http://adambard.com/blog/clojure-batteries-included/">Clojure Batteries (Almost) Included</a>
+  is a guided tour through the many libraries available for Clojure.</p>
+</li>
+<li>
 <p><a href="http://yogthos.net/blog/33-Moving+to+Compojure">Moving to Compojure</a> is a
   look at web development in Clojure post-Noir.</p>
 </li>
@@ -217,6 +124,14 @@ p.nav-sidebar-text {
 <p><a href="https://hackworth.be/2014/03/26/clojure-web-security-is-worse-than-you-think/">Clojure web security is worse than you think</a>
   is a warning but also a hopeful post that the state will eventually get
   better.</p>
+</li>
+<li>
+<p><a href="http://blog.getprismatic.com/bringing-functional-to-the-frontend-clojure-clojurescript-for-the-web/">Bringing functional to the frontend</a>
+  goes over migrrating from node to Clojure and Clojurescript.</p>
+</li>
+<li>
+<p><a href="http://jasonrudolph.com/blog/2012/09/11/clojurescript-4-things-that-might-worry-you-but-should-not/">4 things that might worry you about Clojurescript but shouldn't</a>
+  discusses API stability, debugging, performance and the runtime.</p>
 </li>
 </ul>
         <ul>
@@ -254,7 +169,8 @@ p.nav-sidebar-text {
         <ul>
             <li><a href="/bookmarks/twilio.html">Twilio</a></li>
         </ul>
-</div>        </div>
+</div>            </div>
+        </div>
     </div>
     <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
     <script src="/source/theme/static/js/bootstrap.min.js"></script>
