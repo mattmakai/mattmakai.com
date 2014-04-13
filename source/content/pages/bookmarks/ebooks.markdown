@@ -1,6 +1,6 @@
 title: Ebooks
 category: bookmarks
-slug: bookmarks/ebooks
+slug: ebooks
 
 
 # Ebooks
