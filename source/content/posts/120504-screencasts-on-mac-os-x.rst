@@ -2,8 +2,7 @@ Screencasting on Mac OS X
 =========================
 
 :date: 2012-05-04
-:category: blog
-:featured: True
+:category: post
 :slug: screencasting-software-for-mac-os-x
 
 I recently took a look at the range of screencasting software available

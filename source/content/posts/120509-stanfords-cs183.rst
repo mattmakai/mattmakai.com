@@ -2,8 +2,7 @@ Stanford's CS183 Class Notes
 ============================
 
 :date: 2012-05-09
-:category: blog
-:featured: True
+:category: post
 :slug: stanford-cs-183-class-notes
 
 `Stanford's CS183 class with Peter Thiel <http://blakemasters.tumblr.com/peter-thiels-cs183-startup>`_ is simply amazing. A *huge* thank you to Blake Masters

@@ -1,7 +1,7 @@
 Wise Words From Elon Musk
 =========================
 
-:category: blog
+:category: post
 :date: 2012-11-02
 :slug: wise-words-from-elon-musk
 

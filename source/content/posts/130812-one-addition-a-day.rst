@@ -1,7 +1,7 @@
 One Additon Per Day
 ===================
 
-:category: blog
+:category: post
 :date: 2013-08-12
 :slug: one-addition-per-day
 

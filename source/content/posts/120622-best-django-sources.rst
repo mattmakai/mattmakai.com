@@ -1,7 +1,7 @@
 My Favorite Django Article Sources
 ==================================
 
-:category: blog
+:category: post
 :date: 2012-06-22
 :slug: favorite-django-article-sources
 

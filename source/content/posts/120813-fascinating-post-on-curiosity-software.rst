@@ -1,7 +1,7 @@
 A Fascinating Post on Curiousity's Software
 ===========================================
 
-:category: blog
+:category: post
 :date: 2012-08-13
 :slug: fascinating-post-curiositys-software
 

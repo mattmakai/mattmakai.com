@@ -3,7 +3,7 @@ How I Feel While Reading Open Source Projects
 
 :date: 2012-12-08
 :slug: how-i-feel-reading-python-projects
-:category: blog
+:category: post
 
 My New Year's resolution for 2013 is to read code from 
 `awesome <http://flask.pocoo.org/>`_ 

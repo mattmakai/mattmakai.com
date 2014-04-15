@@ -1,7 +1,7 @@
 Agile in the Federal Government Presentation
 ============================================
 
-:category: blog
+:category: post
 :date: 2012-09-29
 :slug: agile-in-federal-government-presentation
 

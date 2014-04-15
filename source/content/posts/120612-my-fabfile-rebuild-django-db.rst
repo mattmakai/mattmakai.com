@@ -1,7 +1,7 @@
 Fabric Function For Rebuilding a Django MySQL Database
 ======================================================
 
-:category: blog
+:category: post
 :date: 2012-06-12
 :slug: fabfile-function-rebuilding-django-mysql-database
 

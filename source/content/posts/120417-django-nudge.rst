@@ -2,8 +2,7 @@ Django Nudge (django-nudge)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 :date: 2012-04-17
-:category: blog
-:featured: True
+:category: post
 :slug: django-nudge
 
 `Django Nudge <https://github.com/cfpb/django-nudge>`_ (nudge) is an open 

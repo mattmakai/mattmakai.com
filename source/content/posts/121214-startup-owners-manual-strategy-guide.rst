@@ -3,7 +3,7 @@ The Startup Owner's Manual Strategy Guide
 
 :date: 2012-12-14
 :slug: startup-owners-manual-strategy-guide
-:category: blog
+:category: post
 
 `The Startup Owner's Manual Strategy Guide <http://www.amazon.com/gp/product/B009UMTMKS/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B009UMTMKS&linkCode=as2&tag=minimneeds-20>`_ 
 by Steve Blank and Bob Dorf describes the Customer Development methodology 

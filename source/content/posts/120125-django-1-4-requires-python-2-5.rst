@@ -2,8 +2,7 @@ Django 1.4 Requires Python 2.5+
 ===============================
 
 :date: 2012-01-25
-:category: blog
-:featured: True
+:category: post
 :slug: django-1-4-requires-python-2-5
 
 Django 1.4 is the first Django release to 

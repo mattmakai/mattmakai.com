@@ -1,7 +1,7 @@
 The Journey to True Full-Stack Developer
 ========================================
 
-:category: blog
+:category: post
 :date: 2012-10-06
 :slug: journey-to-true-full-stack-developer
 

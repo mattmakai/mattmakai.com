@@ -2,8 +2,7 @@ MongoDB, node.js, and Backbone.js
 =================================
 
 :date: 2012-05-02
-:category: blog
-:featured: True
+:category: post
 :slug: mongodb-nodejs-backbonejs
 
 The concept of an all-JavaScript stack on both the client and server is 

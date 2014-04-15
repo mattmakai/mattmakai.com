@@ -94,10 +94,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://www.mattmakai.com/spreadsheets-as-beachhead.html</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>http://www.mattmakai.com/favorite-django-article-sources.html</loc>
     <priority>0.8</priority>
   </url>
@@ -107,10 +103,6 @@
   </url>
   <url>
     <loc>http://www.mattmakai.com/recent-python-posts.html</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mattmakai.com/government-rfp-bullshit.html</loc>
     <priority>0.8</priority>
   </url>
   <url>
@@ -130,10 +122,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://www.mattmakai.com/big-data-presentation.html</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>http://www.mattmakai.com/screencasting-software-for-mac-os-x.html</loc>
     <priority>0.8</priority>
   </url>
@@ -147,10 +135,6 @@
   </url>
   <url>
     <loc>http://www.mattmakai.com/django-on-github.html</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mattmakai.com/database-backups.html</loc>
     <priority>0.8</priority>
   </url>
   <url>
@@ -171,10 +155,6 @@
   </url>
   <url>
     <loc>http://www.mattmakai.com/django-in-production.html</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://www.mattmakai.com/matt-makai-dot-com-site-relaunch.html</loc>
     <priority>0.8</priority>
   </url>
   <url>

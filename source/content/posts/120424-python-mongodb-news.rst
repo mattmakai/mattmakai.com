@@ -2,8 +2,7 @@ Python & MongoDB News
 =====================
 
 :date: 2012-04-24
-:category: blog
-:featured: True
+:category: post
 :slug: python-mongodb-news
 
 Yesterday had a couple of interesting Python & MongoDB related posts on

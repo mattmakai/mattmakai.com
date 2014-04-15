@@ -5,10 +5,11 @@ Heroku on Ubuntu 10.04
 :category: post
 :slug: heroku-ubuntu-10-04
 
-A couple of guys from Heroku gave a talk tonight at DC Python and it looked like a good 
-solution for running small sites. However, I was disappointed that set up was more 
-difficult on Ubuntu 10.04 than turn key installers on Windows and Mac OS X. The set 
-up `instructions <http://toolbelt.herokuapp.com/linux/readme>`_ required a few 
+A couple of guys from Heroku gave a talk tonight at DC Python and it looked 
+like a good solution for running small sites. However, I was disappointed that 
+set up was more difficult on Ubuntu 10.04 than turn key installers on Windows 
+and Mac OS X. The set up 
+`instructions <http://toolbelt.herokuapp.com/linux/readme>`_ required a few 
 modifications to work properly.
 
 .. code-block:: heroku-setup-code
@@ -20,7 +21,8 @@ modifications to work properly.
   sudo apt-get install ruby libopenssl-ruby ruby1.8-dev
   sudo apt-get install libreadline-ruby
 
-Type "heroku" at the command line to check that the installation is working properly.
+Type "heroku" at the command line to check that the installation is working 
+properly.
 
 Sources:
 

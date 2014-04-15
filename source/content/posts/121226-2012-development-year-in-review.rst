@@ -2,7 +2,7 @@ My 2012 Software Development Year in Review
 ===========================================
 
 :slug: 2012-development-year-in-review
-:category: blog
+:category: post
 :date: 2012-12-26
 
 Ever since I was a little kid I knew that I wanted to develop software.

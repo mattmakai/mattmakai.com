@@ -2,7 +2,7 @@ Coding Across America
 =====================
 
 :date: 2013-02-22
-:category: blog
+:category: post
 :slug: coding-across-america
 
 In two weeks I get on the road to begin my primary 2013 project:

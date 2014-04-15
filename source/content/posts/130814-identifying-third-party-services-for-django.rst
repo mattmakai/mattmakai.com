@@ -1,7 +1,7 @@
 Discovering Third Party Services for Django Projects
 ====================================================
 
-:category: blog
+:category: post
 :date: 2013-08-14
 :slug: identifying-third-party-services-for-django
 

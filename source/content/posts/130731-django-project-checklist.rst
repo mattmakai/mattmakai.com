@@ -1,7 +1,7 @@
 Checklist for Evaluating Existing Django Projects
 =================================================
 
-:category: blog
+:category: post
 :date: 2013-07-31
 :slug: django-project-checklist
 

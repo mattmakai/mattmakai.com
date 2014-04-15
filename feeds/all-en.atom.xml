@@ -1523,12 +1523,6 @@ be a fascinating read. The Curiosity rover has 2.5 million lines of C code
 running on custom radiation and extreme temperature hardened computer systems.
 The author presents his view as an Erlang programmer of how the systems are
 designed to be as fault-proof as possible.&lt;/p&gt;
-</summary></entry><entry><title>Spreadsheets As A Beachhead</title><link href="http://www.letshackdc.com/spreadsheets-as-beachhead.html" rel="alternate"></link><updated>2012-07-14T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-07-14:spreadsheets-as-beachhead.html</id><summary type="html">&lt;p&gt;Spreadsheets represent a need by the business to solve a data-related
-problem in a structured manner. Looking for spreadsheets that run
-business-critical operations is an opportunity to build a system that
-replaces an ad hoc bunch of columns with a normalized, scalable database.
-This opportunity holds regardless of whether you're an employee of that
-organization or a consultant.&lt;/p&gt;
 </summary></entry><entry><title>My Favorite Django Article Sources</title><link href="http://www.letshackdc.com/favorite-django-article-sources.html" rel="alternate"></link><updated>2012-06-22T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-06-22:favorite-django-article-sources.html</id><summary type="html">&lt;ul class="simple"&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://tech.yipit.com/"&gt;yipit tech blog&lt;/a&gt;:
 Yipit is a tech start up in New York specializing in daily deals. Their
@@ -1580,26 +1574,6 @@ particular order).&lt;/p&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://satyajit.ranjeev.in/2012/05/17/python-a-few-things-to-remember.html"&gt;A Few Things to Remember While Coding in Python&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://lukeplant.me.uk/blog/posts/some-quick-django-optimisation-lessons/"&gt;Some quick Django optimisation lessons&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</summary></entry><entry><title>RFP Bullshit</title><link href="http://www.letshackdc.com/government-rfp-bullshit.html" rel="alternate"></link><updated>2012-05-25T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-05-25:government-rfp-bullshit.html</id><summary type="html">&lt;p&gt;Request For Proposals (RFPs) in the government are so heavily tilted towards
-&lt;a class="reference external" href="http://www.boozallen.com/"&gt;big&lt;/a&gt;
-&lt;a class="reference external" href="http://www.lockheedmartin.com/"&gt;lumbering&lt;/a&gt;
-&lt;a class="reference external" href="http://www.saic.com/"&gt;companies&lt;/a&gt;* that government uses a
-&amp;quot;small business only&amp;quot; category to get companies with less than $25 million
-in revenue into the bidding process.&lt;/p&gt;
-&lt;p&gt;In an RFP, you generally lay out your recommended approach to solving
-the problem(s) the agency states it has. You then show how you've solved
-similar problems in the past by embellishing your accomplishments. This is
-where the RFP process is bullshit. The government should ask for all the
-similar ways in which you've &lt;em&gt;screwed up&lt;/em&gt; in the past. That would balance
-out the fact that most of the companies have messed things up so badly,
-(&lt;a class="reference external" href="http://www.fiercegovernmentit.com/story/fbi-puts-sentinel-hold/2010-03-21"&gt;for example, Sentinel&lt;/a&gt;) that they don't actually have more experiences
-solving the problem than most small businesses.&lt;/p&gt;
-&lt;p&gt;Of course this doesn't really solve the problem because large firms have
-plenty more advantages, such as connections, money, name recognition, etc,
-but it seems like stating your failures with the successes in the RFP
-would be a nice change to the process.&lt;/p&gt;
-&lt;p&gt;* These are just a sample of the massive corporations I'm talking about.
-Also I used to work for Booz Allen so I am not exempt from this rant.&lt;/p&gt;
 </summary></entry><entry><title>wget and Proxy Servers</title><link href="http://www.letshackdc.com/wget-proxy-servers.html" rel="alternate"></link><updated>2012-05-24T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-05-24:wget-proxy-servers.html</id><summary type="html">&lt;p&gt;Short answer: before you use wget, specify
 'export http_proxy=my.proxy.server:port' then wget will use the proxy.&lt;/p&gt;
 &lt;p&gt;I needed to grab some files with wget while working on a Linux server I was
@@ -1716,15 +1690,6 @@ for writing up summaries of each class. Every class notes post I have read
 has been amazingly insightful. I highly recommend checking it out if you
 are interested in how technology is shaping the world and learning about
 entrepreneurship from some of the major Silicon Valley investors.&lt;/p&gt;
-</summary></entry><entry><title>Big Data Presentation</title><link href="http://www.letshackdc.com/big-data-presentation.html" rel="alternate"></link><updated>2012-05-07T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-05-07:big-data-presentation.html</id><summary type="html">&lt;p&gt;Over the weekend I finished up the
-&lt;a class="reference external" href="/presentations/what-is-big-data.html"&gt;big data presentation&lt;/a&gt; that I am
-presenting to Excella's Business Intelligence Center of Excellence this
-evening at 530pm.&lt;/p&gt;
-&lt;p&gt;I prefer my presentations minimal to keep them as an aid
-to my talk (instead of reading from the slides). Therefore it may be hard
-to follow unless you actually hear the talk. Nevertheless, the slides are
-there and present one view of this whole &amp;quot;big data&amp;quot; concept that seems to
-be hyped up everywhere now.&lt;/p&gt;
 </summary></entry><entry><title>Screencasting on Mac OS X</title><link href="http://www.letshackdc.com/screencasting-software-for-mac-os-x.html" rel="alternate"></link><updated>2012-05-04T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-05-04:screencasting-software-for-mac-os-x.html</id><summary type="html">&lt;p&gt;I recently took a look at the range of screencasting software available
 on Mac OS X for a couple of reasons. First, I want to have an easy way
 of demoing software and uploading videos to Vimeo. Second, short
@@ -1843,13 +1808,6 @@ for perfectionists with deadlines, is now
 over!&lt;/p&gt;
 &lt;p&gt;The code and documentation can now be found in the
 &lt;a class="reference external" href="https://github.com/django/django"&gt;official repository&lt;/a&gt;.&lt;/p&gt;
-</summary></entry><entry><title>Database Backups</title><link href="http://www.letshackdc.com/database-backups.html" rel="alternate"></link><updated>2012-04-27T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-04-27:database-backups.html</id><summary type="html">&lt;p&gt;Backing up your databases on a daily, or more preferrably, hourly basis is
-IMPORTANT. Do not skimp on preserving your data.&lt;/p&gt;
-&lt;p&gt;You never know when an errant &amp;quot;drop database ...&amp;quot; will screw up your afternoon.
-Even the fantastic developers at
-&lt;a class="reference external" href="https://github.com/blog/744-today-s-outage"&gt;Github are not immune&lt;/a&gt; to making
-costly mistakes.&lt;/p&gt;
-&lt;p&gt;Don't tempt fate. Back up your database frequently.&lt;/p&gt;
 </summary></entry><entry><title>Python &amp; MongoDB News</title><link href="http://www.letshackdc.com/python-mongodb-news.html" rel="alternate"></link><updated>2012-04-24T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-04-24:python-mongodb-news.html</id><summary type="html">&lt;p&gt;Yesterday had a couple of interesting Python &amp;amp; MongoDB related posts on
 &lt;a class="reference external" href="http://news.ycombinator.com/"&gt;Hacker News&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;The first post was on
@@ -1959,22 +1917,15 @@ learn what the &amp;quot;big boys&amp;quot; in the Django space were using in pr
 &lt;p&gt;Those are the best articles I've come across recently that I wish I had when
 I first started deploying Django projects (to be fair, those links didn't
 yet exist nor did many of the technologies that are now commonplace).&lt;/p&gt;
-</summary></entry><entry><title>Site Relaunch</title><link href="http://www.letshackdc.com/matt-makai-dot-com-site-relaunch.html" rel="alternate"></link><updated>2012-03-10T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-03-10:matt-makai-dot-com-site-relaunch.html</id><summary type="html">&lt;p&gt;I recreated mattmakai.com earlier this year with a new theme on top of
-a custom Python/Django stack I wrote. Although I liked some of the
-work I did, I just
-was not satisfied with the overall result. So I'm relaunching the blog
-with the core written in Markdown and jinja2 with
-&lt;a class="reference external" href="http://pelican.readthedocs.org/en/2.8/index.html"&gt;Pelican&lt;/a&gt; used to
-generate the static HTML pages.&lt;/p&gt;
-&lt;p&gt;I'm also
-&lt;a class="reference external" href="http://www.github.com/makaimc/matt-makai-static-blog"&gt;open sourcing&lt;/a&gt;
-the code and content for anyone else interested in creating their
-own Pelican-driven blog.&lt;/p&gt;
-</summary></entry><entry><title>"DevOps is Ruining My Craft"</title><link href="http://www.letshackdc.com/devops-ruining-my-craft.html" rel="alternate"></link><updated>2012-02-23T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-02-23:devops-ruining-my-craft.html</id><summary type="html">&lt;p&gt;This &lt;a class="reference external" href="http://tatiyants.com/devops-is-ruining-my-craft/"&gt;DevOps blog post&lt;/a&gt; is a great satirical take on the automation and DevOps movement. The post is written as an &amp;quot;interview&amp;quot; with a current sysadmin and it's definitely worth the quick read.&lt;/p&gt;
+</summary></entry><entry><title>"DevOps is Ruining My Craft"</title><link href="http://www.letshackdc.com/devops-ruining-my-craft.html" rel="alternate"></link><updated>2012-02-23T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-02-23:devops-ruining-my-craft.html</id><summary type="html">&lt;p&gt;This &lt;a class="reference external" href="http://tatiyants.com/devops-is-ruining-my-craft/"&gt;DevOps blog post&lt;/a&gt;
+is a great satirical take on the automation and DevOps movement. The post
+is written as an &amp;quot;interview&amp;quot; with a current sysadmin and it's definitely
+worth the quick read.&lt;/p&gt;
 </summary></entry><entry><title>Python Context Managers</title><link href="http://www.letshackdc.com/python-context-managers.html" rel="alternate"></link><updated>2012-02-22T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-02-22:python-context-managers.html</id><summary type="html">&lt;p&gt;During my talk to django-district last night, I explained that Django
 1.4 drops support for Python 2.4 because the core committers wanted to
 use Python's context managers. Python 2.4 would not suffice because
-context managers are a &lt;a class="reference external" href="http://www.python.org/dev/peps/pep-0343/"&gt;Python 2.5+ feature&lt;/a&gt;.&lt;/p&gt;
+context managers are a
+&lt;a class="reference external" href="http://www.python.org/dev/peps/pep-0343/"&gt;Python 2.5+ feature&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Someone in the audience asked what a context manager is, and I was annoyed
 with myself for not having a clear, concise answer. So to paraphrase the
 old saying, now &amp;quot;there's a blog post for that.&amp;quot;&lt;/p&gt;
@@ -1991,8 +1942,9 @@ of the string read from the file. Since we are using the with statement,
 the file will always be closed after it is read. This behavior is because
 the 'with' statement performs actions on entry (the __enter__ method)
 and on exit (the __exit__ method), regardless of how the block of code
-exits. See this &lt;a class="reference external" href="http://preshing.com/20110920/the-python-with-statement-by-example"&gt;blog post with a detailed explanation&lt;/a&gt; of the process a context
-manager runs through.&lt;/p&gt;
+exits. See this
+&lt;a class="reference external" href="http://preshing.com/20110920/the-python-with-statement-by-example"&gt;blog post with a detailed explanation&lt;/a&gt;
+of the process a context manager runs through.&lt;/p&gt;
 &lt;p&gt;The context manager essentially can be thought of as an alternative to a try-finally block (before context managers these blocks were more common). So the concise way of explaining a context manager is that it is a statement that defines the runtime context for how a block of code should be executed. Context managers are particularly useful for locking/unlocking as well as setting or reseting state before a code block is executed.&lt;/p&gt;
 &lt;div class="section" id="references"&gt;
 &lt;h3&gt;References&lt;/h3&gt;
@@ -2000,9 +1952,16 @@ manager runs through.&lt;/p&gt;
 &lt;p&gt;[2] &lt;a class="reference external" href="http://effbot.org/zone/python-with-statement.htm"&gt;http://effbot.org/zone/python-with-statement.htm&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</summary></entry><entry><title>Django 1.4 Beta Released</title><link href="http://www.letshackdc.com/django-1-4-beta-released.html" rel="alternate"></link><updated>2012-02-16T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-02-16:django-1-4-beta-released.html</id><summary type="html">&lt;p&gt;The Django 1.4 beta release is &lt;a class="reference external" href="https://www.djangoproject.com/weblog/2012/feb/15/14-beta-1/"&gt;now available&lt;/a&gt; for testing.&lt;/p&gt;
-&lt;p&gt;Although the 1.4 beta can be &lt;a class="reference external" href="https://www.djangoproject.com/download/"&gt;downloaded as a package&lt;/a&gt;, it's probably best to get it from the SVN development branch (also mirrored on github) so you can update and take advantage of bug fixes as they are incorporated into the code base.&lt;/p&gt;
-&lt;p&gt;For more information on the new features coming in 1.4, come see &lt;a class="reference external" href="http://www.mattmakai.com/blog/django-district-feb-meetup-lightning-talk/"&gt;my talk on Tuesday night's Django District meetup in DC&lt;/a&gt;.&lt;/p&gt;
+</summary></entry><entry><title>Django 1.4 Beta Released</title><link href="http://www.letshackdc.com/django-1-4-beta-released.html" rel="alternate"></link><updated>2012-02-16T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-02-16:django-1-4-beta-released.html</id><summary type="html">&lt;p&gt;The Django 1.4 beta release is
+&lt;a class="reference external" href="https://www.djangoproject.com/weblog/2012/feb/15/14-beta-1/"&gt;now available&lt;/a&gt;
+for testing.&lt;/p&gt;
+&lt;p&gt;Although the 1.4 beta can be
+&lt;a class="reference external" href="https://www.djangoproject.com/download/"&gt;downloaded as a package&lt;/a&gt;,
+it's probably best to get it from the SVN development branch (also mirrored
+on github) so you can update and take advantage of bug fixes as they are
+incorporated into the code base.&lt;/p&gt;
+&lt;p&gt;For more information on the new features coming in 1.4, come see
+&lt;a class="reference external" href="http://www.mattmakai.com/blog/django-district-feb-meetup-lightning-talk/"&gt;my talk on Tuesday night's Django District meetup in DC&lt;/a&gt;.&lt;/p&gt;
 </summary></entry><entry><title>Django District February Meetup Lightning Talk</title><link href="http://www.letshackdc.com/django-district-feb-meetup-lightning-talk.html" rel="alternate"></link><updated>2012-02-15T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-02-15:django-district-feb-meetup-lightning-talk.html</id><summary type="html">&lt;p&gt;I'll be giving a 10 minute lightning talk on updates and incompatibilities in
 the upcoming &lt;a class="reference external" href="https://docs.djangoproject.com/en/dev/releases/1.4/"&gt;Django 1.4 release&lt;/a&gt;. If you're interested in Python/Django and want to hear more,
 &lt;a class="reference external" href="http://www.django-district.org/events/48873672/"&gt;RSVP on meetup.com&lt;/a&gt;.
@@ -2080,24 +2039,27 @@ reasonable design I was okay starting with that I knew I could
 improve as I grow more comfortable in this step. Eventually I
 can look ahead to the next step in the path towards Internet
 entrepreneurship.&lt;/p&gt;
-</summary></entry><entry><title>Specify HTML File for PhoneGap and iOS</title><link href="http://www.letshackdc.com/specify-html-file-phonegap-ios.html" rel="alternate"></link><updated>2012-01-05T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-01-05:specify-html-file-phonegap-ios.html</id><summary type="html">&lt;p&gt;When working with iOS applications and using PhoneGap, you'll often want to use a different
-file name than &amp;quot;index.html&amp;quot; for your first page. This can be tricky for first time
-PhoneGap/iOS developers because there is no stub function or properties file for
-specifying the file like there is in Android and BlackBerry projects.&lt;/p&gt;
-&lt;p&gt;In your AppDelegate.m file, add the following method and change the return value to the
-HTML file you want to use.&lt;/p&gt;
+</summary></entry><entry><title>Specify HTML File for PhoneGap and iOS</title><link href="http://www.letshackdc.com/specify-html-file-phonegap-ios.html" rel="alternate"></link><updated>2012-01-05T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-01-05:specify-html-file-phonegap-ios.html</id><summary type="html">&lt;p&gt;When working with iOS applications and using PhoneGap, you'll often want to
+use a different file name than &amp;quot;index.html&amp;quot; for your first page. This can be
+tricky for first time PhoneGap/iOS developers because there is no stub
+function or properties file for specifying the file like there is in Android
+and BlackBerry projects.&lt;/p&gt;
+&lt;p&gt;In your AppDelegate.m file, add the following method and change the return
+value to the HTML file you want to use.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;+ (NSString*) startPage
 {
   return @&amp;quot;different.html&amp;quot;;
 }
 &lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Bonus: you can also use this to specify a different path than www. For example, if
-you have a combined Android and iOS project where Android requires the assets directory,
-specify &amp;quot;../assets/www/yourfile.html&amp;quot; as the return value.&lt;/p&gt;
-</summary></entry><entry><title>Heroku on Ubuntu 10.04</title><link href="http://www.letshackdc.com/heroku-ubuntu-10-04.html" rel="alternate"></link><updated>2012-01-03T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-01-03:heroku-ubuntu-10-04.html</id><summary type="html">&lt;p&gt;A couple of guys from Heroku gave a talk tonight at DC Python and it looked like a good
-solution for running small sites. However, I was disappointed that set up was more
-difficult on Ubuntu 10.04 than turn key installers on Windows and Mac OS X. The set
-up &lt;a class="reference external" href="http://toolbelt.herokuapp.com/linux/readme"&gt;instructions&lt;/a&gt; required a few
+&lt;p&gt;Bonus: you can also use this to specify a different path than www. For
+example, if you have a combined Android and iOS project where Android
+requires the assets directory, specify &amp;quot;../assets/www/yourfile.html&amp;quot; as
+the return value.&lt;/p&gt;
+</summary></entry><entry><title>Heroku on Ubuntu 10.04</title><link href="http://www.letshackdc.com/heroku-ubuntu-10-04.html" rel="alternate"></link><updated>2012-01-03T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2012-01-03:heroku-ubuntu-10-04.html</id><summary type="html">&lt;p&gt;A couple of guys from Heroku gave a talk tonight at DC Python and it looked
+like a good solution for running small sites. However, I was disappointed that
+set up was more difficult on Ubuntu 10.04 than turn key installers on Windows
+and Mac OS X. The set up
+&lt;a class="reference external" href="http://toolbelt.herokuapp.com/linux/readme"&gt;instructions&lt;/a&gt; required a few
 modifications to work properly.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;sudo apt-add-repository &amp;#39;deb http://toolbelt.herokuapp.com/ubuntu ./&amp;#39;
 curl https://toolbelt.herokuapp.com/apt/release.key | sudo apt-key add -
@@ -2106,7 +2068,8 @@ sudo apt-get install heroku-toolbelt
 sudo apt-get install ruby libopenssl-ruby ruby1.8-dev
 sudo apt-get install libreadline-ruby
 &lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Type &amp;quot;heroku&amp;quot; at the command line to check that the installation is working properly.&lt;/p&gt;
+&lt;p&gt;Type &amp;quot;heroku&amp;quot; at the command line to check that the installation is working
+properly.&lt;/p&gt;
 &lt;p&gt;Sources:&lt;/p&gt;
 &lt;p&gt;[1] &lt;a class="reference external" href="http://wmilesn.com/2011/10/code/avoiding-pitfalls-when-setting-up-heroku-for-node-js-on-ubuntu/"&gt;http://wmilesn.com/2011/10/code/avoiding-pitfalls-when-setting-up-heroku-for-node-js-on-ubuntu/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;[2] &lt;a class="reference external" href="http://rukuro-blog.heroku.com/2011/05/11/ruby-readline-loaderror"&gt;http://rukuro-blog.heroku.com/2011/05/11/ruby-readline-loaderror&lt;/a&gt;&lt;/p&gt;
@@ -2114,13 +2077,17 @@ sudo apt-get install libreadline-ruby
 transformation-based presentation Javascript library on Hacker News yesterday.
 The &lt;a class="reference external" href="http://bartaz.github.com/impress.js/"&gt;demo&lt;/a&gt; is flashy - similar to Prezi
 but without Flash, plus new 3D effects. The only downside compared to an
-established browser slideshow library such as &lt;a class="reference external" href="https://github.com/geraldb/s6"&gt;S6&lt;/a&gt; was
-that my Logitech presentation pointer didn't work for advancing and reversing the slides.&lt;/p&gt;
-&lt;p&gt;After a little digging, I found out that presentation pointers emulate page up/down
-key strokes. So I &lt;a class="reference external" href="https://github.com/makaimc/impress.js"&gt;forked the impress.js&lt;/a&gt;
+established browser slideshow library such as
+&lt;a class="reference external" href="https://github.com/geraldb/s6"&gt;S6&lt;/a&gt; was
+that my Logitech presentation pointer didn't work for advancing and
+reversing the slides.&lt;/p&gt;
+&lt;p&gt;After a little digging, I found out that presentation pointers emulate page
+up/down key strokes. So I
+&lt;a class="reference external" href="https://github.com/makaimc/impress.js"&gt;forked the impress.js&lt;/a&gt;
 library, updated the code, and issued a
-&lt;a class="reference external" href="https://github.com/bartaz/impress.js/pull/15"&gt;pull request&lt;/a&gt; to add the presentation
-pointer capability. Thanks to &lt;a class="reference external" href="https://github.com/bartaz"&gt;Bartek&lt;/a&gt;'s quick response,
+&lt;a class="reference external" href="https://github.com/bartaz/impress.js/pull/15"&gt;pull request&lt;/a&gt; to add
+the presentation pointer capability. Thanks to
+&lt;a class="reference external" href="https://github.com/bartaz"&gt;Bartek&lt;/a&gt;'s quick response,
 the pull request was merged and closed just a few hours later. So now
 presentation pointers work great with impress.js.&lt;/p&gt;
 </summary></entry></feed>

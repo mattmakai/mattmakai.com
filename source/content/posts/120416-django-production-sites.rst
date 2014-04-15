@@ -2,8 +2,7 @@ Django in Production
 ~~~~~~~~~~~~~~~~~~~~
 
 :date: 2012-04-16
-:category: blog
-:featured: True
+:category: post
 :slug: django-in-production
 
 Django is easy to get started with, especially if you already have a 

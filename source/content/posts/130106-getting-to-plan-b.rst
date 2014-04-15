@@ -2,7 +2,7 @@ Getting to Plan B
 =================
 
 :date: 2013-01-06
-:category: blog
+:category: post
 :slug: getting-to-plan-b
 
 `Getting to Plan B <http://www.amazon.com/gp/product/B004OC07HQ/ref=as_li_ss_tl?ie=UTF8&tag=minimneeds-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B004OC07HQ>`_ 

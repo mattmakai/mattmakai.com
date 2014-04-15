@@ -2,8 +2,7 @@ Repository Structure and Python
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 :date: 2012-04-18
-:category: blog
-:featured: True
+:category: post
 :slug: repository-structure-and-python
 
 Kenneth Reitz has another great post on how to 

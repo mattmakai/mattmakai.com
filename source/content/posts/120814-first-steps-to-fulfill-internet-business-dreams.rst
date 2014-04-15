@@ -3,7 +3,7 @@ Steps for Non-Developers to Start an Internet Business
 
 :slug: steps-non-developers-start-internet-business
 :date: 2012-08-14
-:category: blog
+:category: post
 
 I am often asked by friends and colleagues about what first steps 
 a non-technical person should take when they come up with ideas and want to

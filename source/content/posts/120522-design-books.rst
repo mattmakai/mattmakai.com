@@ -1,7 +1,7 @@
 Recent Design Books
 ===================
 
-:category: blog
+:category: post
 :date: 2012-05-22
 :slug: recent-design-books
 

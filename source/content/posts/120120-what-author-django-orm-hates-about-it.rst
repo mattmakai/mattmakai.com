@@ -3,7 +3,7 @@ What the Django's ORM Author Hates About It
 
 :date: 2012-01-20
 :slug: what-author-django-orm-hates-about-it
-:category: blog
+:category: post
 
 Alex Gaynor, a Django core committer and author of much of the 
 object-relational mapping (ORM) code, 

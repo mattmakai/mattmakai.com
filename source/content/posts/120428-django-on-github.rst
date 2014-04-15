@@ -2,8 +2,7 @@ Django Officially On Github
 ===========================
 
 :date: 2012-04-28
-:category: blog
-:featured: True
+:category: post
 :slug: django-on-github
 
 `Django <http://www.djangoproject.com/>`_, the web application framework

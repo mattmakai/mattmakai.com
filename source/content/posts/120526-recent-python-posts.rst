@@ -1,7 +1,7 @@
 Recent Python Posts
 ===================
 
-:category: blog
+:category: post
 :date: 2012-05-27
 :slug: recent-python-posts
 

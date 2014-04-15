@@ -2,8 +2,7 @@ Consolidation in the Python Hosting Industry
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 :date: 2012-04-19
-:category: blog
-:featured: True
+:category: post
 :slug: consolidation-python-hosting-industry
 
 The announcement yesterday about 

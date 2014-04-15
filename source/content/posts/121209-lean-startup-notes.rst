@@ -3,7 +3,7 @@ The Lean Startup by Eric Ries
 
 :date: 2012-12-09
 :slug: lean-startup-notes
-:category: blog
+:category: post
 
 I recently finished reading `The Lean Startup <http://www.amazon.com/gp/product/0307887898/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0307887898&linkCode=as2&tag=minimneeds-20>`_ by Eric Ries. This blog post contains
 some brief notes on the book. I'll have more to say at a later time.

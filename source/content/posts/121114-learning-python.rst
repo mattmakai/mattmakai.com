@@ -1,7 +1,7 @@
 Learning Python
 ===============
 
-:category: blog
+:category: post
 :date: 2012-11-14
 :slug: learning-python-for-non-developers
 

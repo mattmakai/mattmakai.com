@@ -2,8 +2,7 @@ The Seven Steps
 ===============
 
 :date: 2012-01-18
-:category: blog
-:featured: True
+:category: post
 
 There are at least seven distinct steps towards Internet entrepreneurship. 
 I'll begin with the caveat that these seven steps only apply in the 

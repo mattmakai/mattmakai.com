@@ -2,8 +2,7 @@ Django District February Meetup Lightning Talk
 ==============================================
 
 :date: 2012-02-15
-:category: blog
-:featured: True
+:category: post
 :slug: django-district-feb-meetup-lightning-talk
 
 I'll be giving a 10 minute lightning talk on updates and incompatibilities in 

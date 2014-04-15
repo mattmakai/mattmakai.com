@@ -2,8 +2,7 @@ Advice to College Graduates
 ===========================
 
 :date: 2012-05-17
-:category: blog
-:featured: True
+:category: post
 :slug: advice-college-graduates
 
 A couple of weekends ago, I watched my little brother Luke graduate from

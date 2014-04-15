@@ -3,7 +3,7 @@ Introduction to Python for Non-Developers Notes
 
 :slug: introduction-python-non-developers-notes
 :date: 2012-08-22
-:category: blog
+:category: post
 
 Matt Camilli and I gave a 
 `talk Tuesday night </presentations/what-is-python-for-everyone.html>`_ 

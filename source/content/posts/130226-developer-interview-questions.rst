@@ -2,7 +2,7 @@ Developer Interview Questions
 =============================
 
 :date: 2013-02-26
-:category: blog
+:category: post
 :slug: developer-interview-questions
 
 One of my clients was interviewing web developers and asked me about how

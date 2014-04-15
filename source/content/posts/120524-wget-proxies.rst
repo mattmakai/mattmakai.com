@@ -1,7 +1,7 @@
 wget and Proxy Servers 
 ======================
 
-:category: blog
+:category: post
 :date: 2012-05-24
 :slug: wget-proxy-servers
 

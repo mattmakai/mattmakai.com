@@ -1,7 +1,7 @@
 Learning Vim - A Colleague's Question
 =====================================
 
-:category: blog
+:category: post
 :date: 2012-10-15
 :slug: learning-vim-colleague-question
 

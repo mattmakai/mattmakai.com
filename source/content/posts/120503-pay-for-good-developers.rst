@@ -2,8 +2,7 @@ Can't "Find" Developers? Increase Your Offer
 ============================================
 
 :date: 2012-05-03
-:category: blog
-:featured: True
+:category: post
 :slug: pay-for-developers
 
 This little 
