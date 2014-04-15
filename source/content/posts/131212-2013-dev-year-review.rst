@@ -75,7 +75,7 @@ static website generator. I wrote a
 to the number of questions I received this year about how to get started 
 with Pelican.
 
-.. image:: ../img/github-contributions-2013.jpg
+.. image:: /source/static/img/131212-dev-year-review/github-contributions-2013.jpg
   :alt: My 2013 GitHub contributions through Dec 13, 2013
   :width: 100%
 
