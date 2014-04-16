@@ -219,6 +219,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>http://www.mattmakai.com/go-lang.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>http://www.mattmakai.com/javascript.html</loc>
     <priority>1.0</priority>
   </url>
