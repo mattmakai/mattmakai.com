@@ -239,6 +239,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>http://www.mattmakai.com/node-js.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>http://www.mattmakai.com/python.html</loc>
     <priority>1.0</priority>
   </url>
