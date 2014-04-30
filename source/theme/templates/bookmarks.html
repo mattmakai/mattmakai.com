@@ -1,8 +1,21 @@
+{% if page.slug == 'bookmarks' %}
+    {% for p in pages %}
+        <ul>
+        {% if p.category == 'bookmarks' and not p.slug == 'bookmarks' %}
+            <li><a href="/{{ p.slug }}.html">{{ p.title }}</a></li>
+        {% endif %}
+        </ul>
+    {% endfor %}
+{% else %}
+    {% for p in pages %}
+        {% if p.category == 'bookmarks' and not p.slug == 'bookmarks' %}
+            {% if page.slug == p.slug %}
+                <strong>{{ p.title }}</strong>
+            {% else %}
+                <a href="/{{ p.slug }}.html">{{ p.title }}</a> 
+            {% endif %}
+            {% if not loop.last %} | {% endif %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
 {{ page.content }}
-{% for p in pages %}
-    <ul>
-    {% if p.category == 'bookmarks' and not p.slug == 'bookmarks' %}
-        <li><a href="/bookmarks/{{ p.slug }}.html">{{ p.title }}</a></li>
-    {% endif %}
-    </ul>
-{% endfor %}

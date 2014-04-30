@@ -32,3 +32,6 @@ slug: go-lang
 
 * What [Python developers should know before migrating to Go](http://blog.repustate.com/migrating-code-from-python-to-golang-what-you-need-to-know/2013/04/23/)
   contains some of the pitfalls and advantages of switching from Python.
+
+* [Go: Best Practices for Production Environments](http://peter.bourgon.org/go-in-production/)
+  shows how to set up a Go environment in a more maintainable way.
