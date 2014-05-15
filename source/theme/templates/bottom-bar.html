@@ -1,9 +1,7 @@
-<ul class="nav nav-sidebar nav-sidebar-top">
-    <li style="text-align: center;">
+<div style="background: #222; color: #eee;">
+    <div style="text-align: center;">
         <img src="{{ STATIC }}img/matt-makai-small.jpg" class="img-circle">
-    </li>
-</ul>
-<div class="nav nav-sidebar">
+    </div>
     <p>
         Matt Makai, Python &amp; Java web developer. 
         Washington, D.C.-based Developer Evangelist for
@@ -15,20 +13,18 @@
         and 
         <a href="http://www.codingacrossamerica.com/">Coding Across America</a>.
     </p>
-</div>
-<ul class="nav nav-sidebar">
-    <li{% if active_page == "writing" %} class="active"{% endif %}{% if not page and not active_page %} class="active"{% endif %}><a href="/">Writing</a></li>
+    <li{% if active_page == "index" or active_page == "writing" %} class="active"{% endif %}><a href="/">Writing</a></li>
     <li {% if page and page.category == 'tech-talks' %} class="active"{% endif %}><a href="/tech-talks.html">Tech Talks</a></li>
-</ul>
-<ul class="nav nav-sidebar">
+    </ul>
+    <ul class="nav nav-sidebar">
     <li><a href="">Projects</a></li>
     <li {% if page and page.category == "bookmarks" %} class="active"{% endif %}><a href="/bookmarks.html">Bookmarks</a></li>
     <li><a href="/matt-makai-resume.pdf">Resume (.pdf)</a></li>
     <li><a href="/about.html">About</a></li>
     <li><a href="/contact.html">Contact</a></li>
-</ul>
-<ul class="nav nav-sidebar nav-sidebar-top">
+    </ul>
+    <ul class="nav nav-sidebar nav-sidebar-top">
     <li class="active" style="text-align: center;">
         <img src="{{ STATIC }}img/8-bit-matt-small.png" class="img-rounded">
     </li>
-</ul>
+</div>

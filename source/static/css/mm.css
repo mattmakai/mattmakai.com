@@ -6121,6 +6121,9 @@ h1.page-title {padding: 30px 0 30px 0;}
     background-color: #222;
     border-right: 1px solid #eee;
   }
+  #responsive-bottom-bar {
+    display: none;
+  }
 }
 
 /* Sidebar navigation */

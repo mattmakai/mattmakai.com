@@ -1,5 +1,6 @@
 {% block content %}        
 {% if articles %}
+    <h1>Blog posts</h1>
     {% if articles_page.has_previous() %}
         {% include 'pagination.html' %}
     {% endif %}
