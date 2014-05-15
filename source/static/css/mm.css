@@ -6107,6 +6107,25 @@ h1.page-title {padding: 30px 0 30px 0;}
 .sidebar {
   display: none;
 }
+
+#responsive-top-bar {
+    background-color: #222;
+    color: #eee;
+}
+
+#responsive-bottom-bar {
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #222;
+    color: #eee;
+    text-align: center;
+}
+
 @media (min-width: 992px) {
   .sidebar {
     position: fixed;
@@ -6121,9 +6140,19 @@ h1.page-title {padding: 30px 0 30px 0;}
     background-color: #222;
     border-right: 1px solid #eee;
   }
-  #responsive-bottom-bar {
+  #responsive-bottom-bar, #responsive-top-bar {
     display: none;
   }
+}
+
+.fork-me {
+    display: none;
+}
+
+@media (min-width: 720px) {
+    .fork-me {
+        display: block;
+    }
 }
 
 /* Sidebar navigation */

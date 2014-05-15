@@ -19,9 +19,14 @@
 </head>
 <body>
     {% block variables %}{% endblock %}
-    {% block forkme %}{% endblock %}
+    <div class="fork-me">
+        {% block forkme %}{% endblock %}
+    </div>
     <div class="container-fluid">
         <div class="row">
+            <div class="col-md-2" id="responsive-top-bar">
+                {% include "top-bar.html" %}
+            </div>
             <div class="col-md-2 sidebar">
                 {% include "sidebar.html" %}
             </div>
