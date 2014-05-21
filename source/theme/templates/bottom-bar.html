@@ -1,13 +1,11 @@
 <div>
-    <li{% if active_page == "index" or active_page == "writing" %} class="active"{% endif %}><a href="/">Writing</a></li>
-    <li {% if page and page.category == 'tech-talks' %} class="active"{% endif %}><a href="/tech-talks.html">Tech Talks</a></li>
-    </ul>
-    <ul class="nav nav-sidebar">
-    <li><a href="">Projects</a></li>
-    <li {% if page and page.category == "bookmarks" %} class="active"{% endif %}><a href="/bookmarks.html">Bookmarks</a></li>
-    <li><a href="/matt-makai-resume.pdf">Resume (.pdf)</a></li>
-    <li><a href="/about.html">About</a></li>
-    <li><a href="/contact.html">Contact</a></li>
+    <ul class="nav nav-sidebar" style="text-align: center;">
+        <li{% if active_page == "index" or active_page == "writing" %} class="active"{% endif %}><a href="/">Writing</a></li>
+        <li {% if page and page.category == 'talks' %} class="active"{% endif %}><a href="/talks.html">Tech Talks</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li {% if page and page.category == "bookmarks" %} class="active"{% endif %}><a href="/bookmarks.html">Bookmarks</a></li>
+        <li><a href="/matt-makai-resume.pdf">Resume (.pdf)</a></li>
+        <li><a href="https://github.com/makaimc">Code (github.com) &raquo;</a></li>
     </ul>
     <ul class="nav nav-sidebar nav-sidebar-top">
     <li class="active" style="text-align: center;">
