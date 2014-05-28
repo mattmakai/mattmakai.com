@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>What's New In Django 1.4?</title>
+
+  <meta name="author" content="Matthew Makai" />
+
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+  <link href="/css/impress-style.css" rel="stylesheet" />
+  <link href="/css/whats-new-django-1-4.css" rel="stylesheet" />
+</head>
+<body>
+  <div id="impress" class="impress-not-supported">
+
+    <div class="fallback-message">
+      <p>Your browser <b>doesn't support the features required</b> 
+      by impress.js, so you are presented with a simplified version 
+      of this presentation.</p>
+      <p>For the best experience please use the latest <b>Chrome</b> 
+      or <b>Safari</b> browser. Firefox 10 and Internet Explorer 10 
+      <i>should</i> also handle it.</p>
+  </div>
+
+  <div class="step slide my-title center" data-x="0" data-y="0">
+    <div class="presentation-title">
+      What's Coming in 
+      <p>
+        Django 1.4
+      </p>
+    </div>
+    <div class="presentation-author">
+      by <strong>Matthew Makai</strong>
+      <div class="top-space">Excella Consulting</div>
+      <div class="top-space">Talk given to Django District on Feb. 21, 2012</div>
+    </div>
+  </div>
+  <div id="overview" class="step" data-x="2300" data-y="1350" data-scale="6">
+  </div>
+  <div class="step slide" data-x="1200" data-y="0">
+    <div class="agenda-points">
+      <h2>What's Incompatible?</h2>
+      <ul>
+        <li>Python 2.4</li>
+        <li>"postgresql" type and PostgresSQL before 8.2</li>
+      </ul>
+      <div class="agenda-break"></div>
+      <h2>What's New?</h2>
+      <ul>
+        <li>ORM bulk create</li>
+        <li>Better WSGI support</li>
+        <li>Time zone support</li>
+        <li>In browser testing frameworks</li>
+      </ul>
+    </div>
+  </div>
+  <div class="step slide section-title center" data-x="0" data-y="950">
+    <div class="section-title-text">
+      What's
+      <p>Incompatible?</p>
+    </div>
+  </div>
+  <div class="step slide" data-x="1200" data-y="950">
+    <h1 class="slide-title">Python 2.4</h1>
+    <ul class="bullets">
+      <li class="red">Django 1.4 drops Python 2.4</li>
+      <li>Context managers -> Python 2.5+</li>
+      <li>Python 2.5 - 2.7 required</li>
+      <li class="no-bullet">&nbsp;</li>
+      <li>No Python 3 support (yet)</li>
+  </div>
+  <div class="step slide" data-x="2400" data-y="950">
+    <h1 class="slide-title">PostgreSQL support</h1>
+    <ul class="bullets">
+      <li class="red">"postgresql" database type removed</li>
+      <li>use psycopg2 instead</li>
+      <li class="no-bullet">&nbsp;</li>
+      <li class="red">PostgreSQL 8.2 minimum version</li>
+  </div>
+  <div class="step slide section-title center" data-x="0" data-y="1900">
+    <div class="section-title-text">
+      What's <p>New?</p>
+    </div>
+  </div>
+  <div class="step slide" data-x="1200" data-y="1900">
+    <h1 class="slide-title">ORM bulk create</h1>
+    <ul class="bullets">
+      <li>Efficient insertion for bulk data</li>
+    </ul>
+    <pre class="code">
+  BlogPost.objects.bulk_create([<br/>
+    BlogPost(title="Django 1.4 presentation"),<br/>
+    BlogPost(title="Hello, Django District")<br/>
+    BlogPost(title="First post!"),<br/>
+  ])
+    </pre>
+    <ul class="bullets">
+      <li class="red">save() is not called and no pre_save or post_save signals</li>
+    </ul> 
+  </div>
+  <div class="step slide" data-x="2400" data-y="1900">
+    <h1 class="slide-title">Better WSGI support</h1>
+    <ul class="bullets">
+      <li>startproject now creates wsgi.py</li>
+      <li>Dev server supports external WSGI configuration</li>
+      <li>Use deployment WSGI config in dev</li>
+      <li class="no-bullet">&nbsp;</li>
+      <li class="red">mod_python removal in Django 1.5</li>
+    
+  </div>
+  <div class="step slide" data-x="3600" data-y="1900">
+    <h1 class="slide-title">Time zone support</h1>
+    <ul class="bullets">
+      <li>Can enable time zone support</li>
+      <li>Store date/times as UTC</li>
+      <li>Localizes for users</li>
+      <li>In settings.py:</li>
+    </ul>
+    <pre class="code">
+    USE_TZ = True
+    </pre>
+    <ul class="bullets">
+      <li class="red">Recommended you install <i>pytz</i></li>
+    </ul>
+  </div>
+  <div class="step slide" data-x="4800" data-y="1900">
+    <h1 class="slide-title">In browser testing</h1>
+    <ul class="bullets">
+      <li>LiveServerTestCase</li>
+      <li>Launches live Django server</li>
+      <li>Integrate w/ in-browser frameworks</li>
+      <li>pip install selenium</li>
+      <li class="no-bullet">&nbsp;</li>
+      <li class="red">Uses staticfiles contrib app</li> 
+    </ul> 
+  </div>
+  <div class="step slide" data-x="0" data-y="2850">
+    <h1 class="slide-title">Other Highlights</h1>
+    <ul class="bullets">
+      <li>QuerySet.prefetch_related()</li>
+      <li>Project layout & manage.py</li>
+      <li>HTML5 doctype on admin pages</li>
+      <li>Custom startproject templates</li>
+      <li class="no-bullet">&nbsp;</li>
+      <li class="red">Admin no longer supports IE6</li>
+    </ul>
+  </div>
+
+  <div class="step slide" data-x="6000" data-y="6000">
+    <h1 class="slide-title">More Resources</h1>
+    <ul class="more-resources">
+      <li>http://www.mattmakai.com/</li>
+      <li>https://docs.djangoproject.com/en/<span class="red">dev</span>/</li>
+      <li>https://docs.djangoproject.com/en/dev/releases/1.4/</li>
+    </ul>
+    <div class="thank-you">
+      Thank you!
+    </div>
+  </div>
+
+  <script src="/js/impress.js"></script>
+  <script>impress().init();</script>
+</body>
+</html>

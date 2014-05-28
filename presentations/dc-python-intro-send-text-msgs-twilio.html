@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>DC Python: An Introduction to Sending SMS Texts with Twilio</title>
+
+		<meta name="description" content="Text messages are one of the best communication methods for sending time sensitive information or asking users to take immediate action. Twilio makes sending Short Message Service (SMS) messages easy with a few lines of code.  This talk will walk through the Twilio service, sign up process, API, Python library, and how to easily integrate it into your application.">
+		<meta name="author" content="Matt Makai">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="/css/reveal/reveal.min.css">
+		<link rel="stylesheet" href="/css/reveal/theme/simple.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="/lib/css/zenburn.css">
+        <style>
+            h1.not-cool {font-size: 2.2em; margin-top: 1em;}
+            ol.bigger li, 
+            ul.bigger li {
+               font-size: 1.4em;
+               margin-top: 20px;
+               margin-bottom: 15px;
+               line-height: 1.1em;
+               margin-left: 20px;
+            }
+            ol.bigger li {
+                margin-left: 1em;
+            }
+        </style>
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="/css/reveal/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="/lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+			<div class="slides" style="text-align: left;">
+				<section>
+					<h1>DC Python</h1>
+                    <br/>
+                    <h2>An Introduction to Sending SMS Texts With Twilio</h2>
+                    <br/>
+					<p>
+						<small><a href="http://www.mattmakai.com">Matt Makai</a> / <a href="http://twitter.com/mattmakai">@mattmakai</a></small>
+					</p>
+				</section>
+
+                <section>
+                    <h2>Talk Approach</h2>
+                    <ul class="bigger">
+                        <li>Quick overview of SMS and Twilio</li>
+                        <li>Tutorial</li>
+                        <li>Apps &amp; Ideas</li>
+                        <li>Resources</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Who Am I?</h2>
+                    <br/>
+                    <pre style="font-size: 28px; color: #222;">
+
+ {'name': 'Matt Makai',
+  'occupation': 'Full stack developer',
+  'specialties': ['Python',
+                  {'Django': 'since 0.96'},
+                  'prototypes',
+                  'oh crap! moments',
+                  'DjangoCon speaker',
+                  'Twilio rookie'],
+  'normal_location': 'Washington, DC', 
+ }
+                    </pre>
+                </section>
+                
+                <section style="text-align: center;">
+                    <br/>
+                    <img src="/img/presentations/omaha-python-dev-communities/caa-logo.png" style="border: none; box-shadow: none; background: none;" />
+                    <div style="text-align: right;">
+                        <strong><a href="http://www.codingacrossamerica.com/" style="color: #406BB4; padding-right: 25px;">codingacrossamerica.com</a></strong>
+                    </div>
+				</section>
+
+                <section>
+                    <h2>March 9 - August 9</h2>
+                    <img src="/img/presentations/omaha-python-dev-communities/coding-across-america-map.jpg" style="border: 1px solid; box-shadow: none; background: none;" id="caa-map" />
+                </section>
+                
+                <section>
+                    <h2>Coding &amp; Writing</h2>
+                    <img src="/img/presentations/django-boston-july-2013/chicago-coding-outside.jpg"/>
+                </section>
+                
+                <section>
+                    <h2>Meeting startups</h2>
+                    <img src="/img/presentations/san-diego/copperegg-mascot.jpg"/>
+                </section>
+
+                <section>
+                    <h2>Redesign</h2>
+                    <img src="/img/presentations/dc-python-twilio-sms-intro/coding-across-america-redesign.jpg" />
+                </section>
+
+                <section style="text-align: center;">
+					<h1 style="margin-top: 1.6em;">SMS and Twilio</h1>
+				</section>
+                
+                <!-- overview SMS and Twilio -->
+				<section>
+                    <h2>SMS</h2>
+                    <ul class="bigger">
+                        <li>Short Message Service</li>
+                        <li>Standardized communications protocol</li>
+                        <li>160 7-bit or 140 8-bit characters</li>
+                        <li>Both mobile and capable landline phones</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2>Why care about SMS texts?</h2>
+                    <ul class="bigger">
+                        <li>3.5 billion active users</li>
+                        <li>80-90% mobile phone owners use text messaging</li>
+                        <li>193,000 SMS sent per second</li>
+                        <li>Engage with feature and smart phones</li>
+                        <li>Alert recipient to take immediate action</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <img src="/img/presentations/dc-python-twilio-sms-intro/sms_messages_sent_monthly_usa_in_billions.png"/>
+                    <p style="font-size: .5em;">Source: <a href="http://en.wikipedia.org/wiki/File:SMS_messages_sent_monthly_in_USA_(in_billions).svg">Wikipedia image</a></p>
+                </section>
+
+                <section>
+                    <h2>Twilio</h2>
+                    <div style="text-align: center;">
+                    <img src="/img/presentations/dc-python-twilio-sms-intro/twilio-logo.png" style="border: none; box-shadow: none; background: none; width: 50%;" />
+                    <div>
+                </section>
+                
+                <section>
+                    <h2>What's Twilio?</h2>
+                    <ul class="bigger">
+                        <li>Telecommunications abstraction layer</li>
+                        <li>Voice, SMS, MMS, 2-factor authentication</li>
+                        <li>Developer-focused organization</li>
+                        <li>Used by Airbnb, Uber, The Home Depot</li>
+                    </ul>
+                </section>
+               
+                <!-- tutorial -->
+                <section style="text-align: center;">
+					<h1 style="margin-top: 1.6em;">Tutorial</h1>
+				</section>
+                
+                <section>
+                    <h2>Twilio</h2>
+                    <img src="/img/presentations/dc-python-twilio-sms-intro/twilio-homepage.jpg" />
+                </section>
+                
+                <section>
+                    <h2>Dashboard</h2>
+                    <img src="/img/presentations/dc-python-twilio-sms-intro/twilio-dashboard.jpg" />
+                </section>
+                
+                <section>
+                    <h2>Manage Numbers</h2>
+                    <img src="/img/presentations/dc-python-twilio-sms-intro/twilio-numbers.jpg" />
+                </section>
+                
+                <section>
+                    <h2>SMS Usage</h2>
+                    <img src="/img/presentations/dc-python-twilio-sms-intro/twilio-sms-usage.jpg" />
+                </section>
+
+                <section style="text-align: center;">
+					<h1 class="not-cool">Yea but UI's aren't 
+                                         cool.</h1>
+					<h1 class="not-cool">You know what's cool?</h1>
+
+					<h1 class="not-cool">Building stuff 
+                                         <em>programmatically</em>.</h1>
+				</section>
+                
+                <section>
+                    <h2>Integration Paths</h2>
+                    <ul class="bigger">
+                        <li>First- or third-party binding</li>
+                        <li>Libsaas</li>
+                        <li>Requests</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2>Libsaas</h2>
+                    <img src="/img/presentations/django-district-aug-27-2013/libsaas.jpg"/>
+                </section>
+
+                
+                <section>
+                    <h2>twilio/twilio-python</h2>
+                    <img src="/img/presentations/dc-python-twilio-sms-intro/twilio-github.jpg" />
+                </section>
+                
+                <section>
+                    <h2>Documentation</h2>
+                    <img src="/img/presentations/dc-python-twilio-sms-intro/twilio-helper-library.jpg" />
+                </section>
+
+                <section>
+                    <h2>Let's send an SMS message</h2>
+                    <img src="/img/presentations/dc-python-twilio-sms-intro/twilio-send-text.jpg" />
+                </section>
+
+                <section>
+                    <h2>Environment variables</h2>
+                    <ul class="bigger">
+                        <li>TwilioRestClient looks for TWILIO_ACCOUNT_SID and
+                            TWILIO_AUTH_TOKEN</li>
+                        <li>Otherwise pass them into TwilioRestClient 
+                            at construction</li>
+                        <li>But don't do that. Use environment variables.</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>More code</h2>
+                    <ul class="bigger">
+                        <li>twilio-python Messages code</li>
+                        <li>Picture messages (with URL)</li>
+                        <li>Retrieving list of sent messages</li>
+                        <li>Filtering sent messages list</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2>Message class</h2>
+                    <img src="/img/presentations/dc-python-twilio-sms-intro/twilio-messages-code.jpg"/>
+                </section>
+                
+                <section>
+                    <h2>Send MMS with URL</h2>
+                    <img src="/img/presentations/dc-python-twilio-sms-intro/twilio-mms.jpg"/>
+                </section>
+                
+                <section>
+                    <h2>Retrieve sent messages</h2>
+                    <img src="/img/presentations/dc-python-twilio-sms-intro/retrieve-sent-messages.jpg"/>
+                </section>
+
+                <section>
+                    <h2>Filter sent messages</h2>
+                    <img src="/img/presentations/dc-python-twilio-sms-intro/filter-messages.jpg" />
+                </section>
+
+                <!-- potential use cases -->
+                <section style="text-align: center;">
+					<h1 style="margin-top: 1.6em;">Apps &amp; Ideas</h1>
+				</section>
+                
+                <section>
+                    <h2>Txt 2 React</h2>
+                    <img src="/img/presentations/dc-python-twilio-sms-intro/txt2react.jpg"/>
+                </section>
+                
+                <section>
+                    <h2>TrackMaven</h2>
+                    <img src="/img/presentations/dc-python-twilio-sms-intro/trackmaven.jpg"/>
+                </section>
+                
+                <section>
+                    <h2>Social Code</h2>
+                    <img src="/img/presentations/dc-python-twilio-sms-intro/social-code.jpg"/>
+                </section>
+
+                <!-- wrap up -->
+                <section style="text-align: center;">
+                    <h1 style="margin-top: 1.6em;">Resources</h1>
+                </section>
+                
+                <section>
+                    <h2>Resources</h2>
+                    <ul>
+                        <li><a href="https://www.twilio.com/sms">Twilio SMS API overview documentation</a></li>
+                        <li><a href="https://twilio-python.readthedocs.org/en/latest/">twilio-python library documentation</a></li>
+                        <li><a href="http://docs.libsaas.net/en/latest/generated/twilio/">Libsass Twilio integration docs</a></li>
+                        <li><a href="https://www.twilio.com/docs/quickstart/python/sms/hello-monkey">Twilio Quickstart app</a></li>
+                        <li><a href="http://www.windowsazure.com/en-us/develop/python/how-to-guides/twilio-voice-and-sms-service/">Twilio and Azure</a></li>
+                        <li><a href="https://www.twilio.com/docs/quickstart/python/sms/tracking-conversations">Flask &amp; Twilio example</a></li>
+                        <li><a href="https://github.com/rdegges/django-twilio">django-twilio</a></li>
+                        <li><a href="http://blog.leanstack.io/rooster-your-personal-sms-wake-up-call-and-weather-forecast-service/">Twilio-powered Wake Up Service</a></li>
+                        <li><a href="https://github.com/RobSpectre/Twilio-Hackpack-for-Heroku-and-Flask">Twilio Hackpack for Flash &amp; Heroku</a></li>
+                        <li><a href="http://www.fullstackpython.com/">Full Stack Python</a></li>
+                        <li><a href="https://github.com/jpf/TwilioSheet">Twilio Sheet</a></li>
+                    </ul>
+                </section>
+
+                <!-- questions and contact -->
+                <section style="text-align: center;">
+                    <h1 style="margin-top: 1.6em;">?</h1>
+                </section>
+                
+                <section>
+                    <h2>Thank you!</h2>
+                    <ul class="bigger">
+                        <li>Matt Makai</li>
+                        <li><a href="http://www.excella.com/">Excella Consulting</a></li>
+                        <li><a href="http://twitter.com/mattmakai">@mattmakai</a></li>
+                        <li>matthew.makai@gmail.com</li>
+                        <li><a href="http://www.mattmakai.com/">www.mattmakai.com</a></li>
+                        <li><a href="http://www.codingacrossamerica.com/">www.codingacrossamerica.com</a></li>
+                    </ul>
+                </section>
+		</div>
+
+        <script src="/js/jquery.min.js"></script>
+		<script src="/lib/js/head.min.js"></script>
+		<script src="/js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'page', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: '/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: '/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: '/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: '/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+		</script>
+
+	</body>
+</html>

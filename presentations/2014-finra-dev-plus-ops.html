@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Making Dev + Ops Work</title>
+
+		<meta name="description" content="Getting DevOps to work in any organization is difficult because developers speak a different language than ops. This talk focuses on bridging the divide between the application developer and system administrator perspectives, improving infrastructure incrementally, and showing progress to skeptical non-technical colleagues in a 'because we've always done it that way environment." />
+
+		<meta name="author" content="Matt Makai" />
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="/css/reveal/reveal.min.css">
+		<link rel="stylesheet" href="/css/reveal/theme/night.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="/lib/css/zenburn.css">
+        <style>
+            ol.bigger li, 
+            ul.bigger li {
+               font-size: 1.8em;
+               margin-top: 20px;
+               margin-bottom: 15px;
+               line-height: 1.1em;
+               margin-left: 20px;
+            }
+            ol.bigger li {
+                margin-left: 1em;
+            }
+            img.no-border-rounded {border: none; border-radius: 5px;}
+        </style>
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="/css/reveal/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="/lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div class="reveal">
+            <div class="slides" style="text-align: left;">
+				<section>
+					<h1 style="line-height: 1.05em; font-size: 4.5em; margin-bottom: 50px;">Making Dev + Ops Work</h1>
+                    <h4>FINRA January 2014</a></h4>
+                    <br/>
+					<p><small>
+                        <a href="http://www.mattmakai.com">Matt Makai</a> | 
+                        <a href="http://twitter.com/mattmakai">@mattmakai</a> |
+                        <a href="https://github.com/makaimc">makaimc</a> 
+                        on GitHub |
+                        <a href="https://www.twilio.com">Twilio</a> 
+                        Developer Evangelist
+                    </small></p>
+				</section>
+                
+                <section>
+                    <h1>Application developers?</h1>
+                </section>
+                
+                <section>
+                    <h1>Systems administrators?</h1>
+                </section>
+                
+                <section>
+                    <img src="/img/presentations/2014-finra-devops-in-govt/sf.jpg" class="no-border-rounded" style="border: 1px solid #fefefe;" /> 
+                </section>
+                
+                <section>
+                    <img src="/img/presentations/2014-finra-devops-in-govt/sf-django-talk.jpg" class="no-border-rounded" style="border: 1px solid #fefefe;" />
+                </section>
+                
+                <section>
+                    <h2>My first sys admin</h2>
+                    <img src="/img/presentations/2014-san-fran-django-ansible/sys-admin.jpg" style="border: 1px solid; border-radius: 5px;" />
+                </section>
+                
+                <section style="text-align: center;">
+                    <h1 style="font-size: 6em; color: red;">ERROR</h1>
+                </section>
+                
+                <section>
+                    <h2 style="font-size: 3em;">Today</h2>
+                    <ul class="bigger">
+                        <li class="fragment">DevOps</li>
+                        <li class="fragment">Perspectives</li>
+                        <li class="fragment">Incremental improvement</li>
+                        <li class="fragment">Groups &amp; Resources</li>
+                    </ul>
+                </section>
+                
+                <section style="text-align: center;">
+                    <h1 style="font-size: 6em; color: #eee;">DevOps</h1>
+                </section>
+                
+                <section>
+                    <img src="/img/presentations/2014-finra-devops-in-govt/world-view.jpg" class="no-border-rounded" style="border: 1px solid #fefefe;" />
+                </section>
+                
+                <section>
+                    <img src="/img/presentations/2014-finra-devops-in-govt/world-view-inverted.jpg" class="no-border-rounded" style="border: 1px solid #fefefe;" />
+                </section>
+                
+                <section>
+                    <h1 style="font-size: 3.8em; line-height: 1em;">
+                        "communication, collaboration &amp; integration"
+                    </h1>
+                </section>
+                
+                <section>
+                    <h1 style="font-size: 2.8em; line-height: 1em;">
+                        "increase the reliability, stability, 
+                        resilience and security of the <strong>production 
+                        environment</strong>" 
+                        <span style="float: right;">
+                        - <a href="http://itrevolution.com/11devops/">Gene Kim</a>
+                        </span>
+                    </h1>
+                </section>
+                
+                <section>
+                    <h2 style="font-size: 3em;">Keys to DevOps</h2>
+                    <ul class="bigger">
+                        <li class="fragment">Learning on all sides</li>
+                        <li class="fragment">Automation</li>
+                        <li class="fragment">More access, 
+                            greater responsibility</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h1 style="font-size: 3em; line-height: 1.05em;"> 
+                        Why do we have <br/>to do this?
+                    </h1>
+                </section>
+                
+                <section>
+                    <img src="/img/presentations/2014-finra-devops-in-govt/bob-dylan.jpg" style="border: 1px solid; border-radius: 5px;" />
+                </section>
+                
+                <section>
+                    <img src="/img/presentations/2014-finra-devops-in-govt/waterfall.jpg" style="border: 1px solid; border-radius: 5px;" />
+                </section>
+                
+                <section>
+                    <h2 style="font-size: 3em;">Technology Maturity</h2>
+                    <ul class="bigger">
+                        <li class="fragment">Virtualization</li>
+                        <li class="fragment">Cloud</li>
+                        <li class="fragment">Libraries++</li>
+                        <li class="fragment">Configuration management tools</li>
+                        <li class="fragment">Continuous delivery</li>
+                </section>
+                
+                <section style="text-align: center;">
+                    <h1 style="font-size: 4.5em;">Perspectives</h1>
+                </section>
+                
+                <section>
+                    <h2 style="font-size: 3em;">App Developers</h2>
+                    <ul class="bigger">
+                        <li class="fragment">Architect application</li>
+                        <li class="fragment">Create functionality</li>
+                        <li class="fragment">Fix bugs</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2>Architect application - not this</h2>
+                    <img src="/img/presentations/2014-finra-devops-in-govt/class-diagram.png" style="border: 1px solid; border-radius: 5px;" width="80%" height="80%" />
+                </section>
+                
+                <section>
+                    <h2>Architect application - this</h2>
+                    <img src="/img/presentations/2014-finra-devops-in-govt/codebase.jpg" style="border: 1px solid; border-radius: 5px;" width="110%" height="110%" />
+                </section>
+                
+                <section>
+                    <h2>Create functionality</h2>
+                    <img src="/img/presentations/2014-finra-devops-in-govt/move-fast-break-things.jpg" style="border: 1px solid; border-radius: 5px;" height="150%" width="150%" />
+                </section>
+                
+                <section>
+                    <h2>Fix bugs</h2>
+                    <img src="/img/presentations/2014-finra-devops-in-govt/stack-trace.png" style="border: 1px solid; border-radius: 5px; padding: 10px; background: white;" /> 
+                </section>
+                
+                <section>
+                    <h2 style="font-size: 3em;">Ops</h2>
+                    <ul class="bigger">
+                        <li class="fragment">Keep apps running</li>
+                        <li class="fragment">Ensure security</li>
+                        <li class="fragment">Plan &amp; provision capacity</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2>Keep apps running</h2>
+                    <h1 style="font-size: 3.5em; "> 
+                        &gt; <span style="color: green;">99.9999% uptime</span>
+                    </h1>
+                </section>
+                
+                <section>
+                    <h2>Ensure security</h2>
+                    <img src="/img/presentations/2014-finra-devops-in-govt/security-ascii.jpg" style="border: 1px solid; border-radius: 5px; padding: 5px; background: white;" /> 
+                </section>
+                
+                <section>
+                    <h2>Plan &amp; provision capacity</h2>
+                    <img src="/img/presentations/2014-finra-devops-in-govt/servers.jpg" style="border: 1px solid; border-radius: 5px;" height="90%" width="90%" /> 
+                </section>
+                
+                <section>
+                    <h2 style="font-size: 3em;">Tension</h2>
+                    <ul class="bigger">
+                        <li class="fragment">
+                            Application architecture vs. 
+                            capacity</li>
+                        <li class="fragment">Functionality vs. uptime</li>
+                        <li class="fragment">Bug fixes vs. security</li>
+                    </ul>
+                </section>
+                
+                <section style="text-align: center;">
+                    <h1 style="font-size: 4.5em; color: #eee;">Incremental 
+                    improvement</h1>
+                </section>
+
+                <section>
+                    <h2 style="font-size: 3em;">Incremental improvement</h2>
+                    <ul class="bigger">
+                        <li class="fragment">Measure progress</li>
+                        <li class="fragment">Ops</li>
+                        <li class="fragment">App dev</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2 style="font-size: 3em;">Measure progress</h2>
+                    <ul class="bigger">
+                        <li class="fragment">
+                            Time from feature requested 
+                            to available in production
+                        </li>
+                        <li class="fragment">
+                            Time from issue reported 
+                            to fixed in production
+                        </li>
+                        <li class="fragment">
+                            Getting into production 
+                            satisfaction survey
+                        </li>
+                    </ul>
+                    
+                </section>
+                
+                <section>
+                    <h2 style="font-size: 3em;">Ops</h2>
+                    <ul class="bigger">
+                        <li class="fragment">Read best development practices</li>
+                        <li class="fragment">Share code (GitHub, BitBucket)</li>
+                        <li class="fragment">Create an operations API</li>
+                        <li class="fragment">Go to DevOps meetup groups</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <img src="/img/presentations/2014-finra-devops-in-govt/pragprog.jpg" style="border: 1px solid; border-radius: 5px;" />
+                </section>
+                
+                <section>
+                    <h2 style="font-size: 2em;">Share code - GitHub</h2>
+                    <img src="/img/presentations/2014-finra-devops-in-govt/tim-ski.jpg" style="border: 1px solid; border-radius: 5px;" /> 
+                </section>
+                
+                <section style="text-align: center;">
+                    <h1 style="font-size: 3em;">Create operations API</h2>
+                </section>
+                
+                <section>
+                    <h2 style="font-size: 2em;">Go to DevOps meetup groups</h2>
+                    <img src="/img/presentations/2014-finra-devops-in-govt/devopsdc.jpg" style="border: 1px solid; border-radius: 5px;" /> 
+                </section>
+                
+                <section>
+                    <h2 style="font-size: 3em;">App dev</h2>
+                    <ul class="bigger">
+                        <li class="fragment">Learn the full stack</li>
+                        <li class="fragment">Program configuration code</li>
+                        <li class="fragment">Create metrics visibility app</li>
+                        <li class="fragment">Go to DevOps meetup groups</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2 style="font-size: 2em;">Learn the full stack</h2>
+                    <img src="/img/presentations/2014-finra-devops-in-govt/deploy-database.jpg" style="border: 1px solid; border-radius: 5px;" /> 
+                </section>
+                
+                <section>
+                    <h2 style="font-size: 2em;">Program configuration code</h2>
+                    <img src="/img/presentations/2014-finra-devops-in-govt/puppet-django.jpg" style="border: 1px solid; border-radius: 5px;" /> 
+                </section>
+                
+                <section>
+                    <h2 style="font-size: 2em;">Create metrics visibility app</h2>
+                    <img src="/img/presentations/2014-finra-devops-in-govt/metrics-admin.jpg" style="border: 1px solid; border-radius: 5px;" /> 
+                </section>
+                
+                
+                <section>
+                    <h2 style="font-size: 2em;">Go to DevOps meetup groups</h2>
+                    <img src="/img/presentations/2014-finra-devops-in-govt/dc-config-mgmt.jpg" style="border: 1px solid; border-radius: 5px;" /> 
+                </section>
+                
+                <section style="text-align: center;">
+                    <h1 style="font-size: 4.5em; color: #eee;">Groups &amp; Resources</h1> 
+                </section>
+                
+                <section>
+                    <h2>Groups</h2>
+                    <ul class="bigger">
+                        <li><a href="http://www.meetup.com/DevOpsDC/">DevOps DC</a></li>
+                        <li><a href="http://www.meetup.com/DC-Configuration-Management-Group/">DC Continuous Integration</a></li>
+                        <li><a href="http://www.meetup.com/DC-continuous-delivery/">DC Continuous Delivery</a></li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2>Resources</h2>
+                    <ul>
+                        <li><a href="http://devopsweekly.com/">DevOps Weekly Newsletter</a></li>
+                        <li><a href="http://www.fullstackpython.com/">Full Stack Python</a></li>
+                        <li><a href="http://www.slideshare.net/devopsguys/dev-opsguys-devops-101-for-recruiters">DevOps 101 for Recruiters (good simple intro)</a></li>
+                        <li><a href="http://puppetlabs.com/puppet/what-is-puppet">What is Puppet?</a></li>
+                        <li><a href="http://www.getchef.com/chef/">What is Chef?</a></li>
+                        <li><a href="http://www.ansible.com/about-ansible">What is Ansible?</a></li>
+                        <li><a href="http://devopsu.com/blog/ansible-vs-shell-scripts/">Ansible vs. Shell Scripts</a></li>
+                        <li><a href="http://missingm.co/2013/06/ansible-and-salt-a-detailed-comparison/">Ansible and Salt: A Detailed Comparison</a></li>
+                        <li><a href="http://davidwinter.me/articles/2013/11/23/introduction-to-ansible/">(Detailed) Introduction to Ansible</a></li>
+                        <li><a href="https://groups.google.com/forum/#!msg/Ansible-project/WpRblldA2PQ/lYDpFjBXDlsJ">Idempotence, convergence, and other silly fancy words</a></li>
+                        <li><a href="https://github.com/makaimc/mattmakai.github.com/blob/gh-pages/static/presentations/2014-finra-devops-dev-plus-ops.html">This presentation's source code</a></li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2>Contact Information</h2>
+                    <ul class="bigger">
+                        <li>Matt Makai</li>
+                        <li><a href="http://twitter.com/mattmakai">@mattmakai</a></li>
+                        <li>matthew.makai@gmail.com</li>
+                        <li><a href="https://github.com/makaimc">makaimc</a> on GitHub</a>
+                        <li><a href="http://www.mattmakai.com/">www.mattmakai.com</a></li>
+                        <li><a href="http://www.codingacrossamerica.com/">www.codingacrossamerica.com</a></li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Picture references</h2>
+                    <ul>
+                        <li><a href="http://farm5.static.flickr.com/4029/4360104794_4f3f2b7a2f_b.jpg">"Sys admin"</a></li>
+                        <li><a href="http://www.recordsale.de/cdpix/b/bob_dylan-the_times_they_are_a-changin(7).jpg">Bob Dylan times a-changing</a></li>
+                        <li><a href="http://6269-9001.zippykid.netdna-cdn.com/wp-content/uploads/2013/09/Waterfall-Wallpaper.jpg">Waterfall</a></li>
+                        <li><a href="http://img153.imageshack.us/img153/8877/class.png">Class diagram</a></li>
+                        <li><a href="http://jeffhilimire.com/wp-content/uploads/2012/05/move-fast-break-things.jpg">Facebook move fast break things</a></li>
+                        <li><a href="http://www.jbesolutions.com/samples/images/faceletErrorPage-StackTrace.png">Stack trace</a></li>
+                        <li><a href="http://enterprisesystemsconsulting.com/uploads/web_servers.jpg">Web servers</a></li>
+                    </ul>
+                </section>
+		</div>
+
+        <script src="/js/jquery.min.js"></script>
+		<script src="/lib/js/head.min.js"></script>
+		<script src="/js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: '/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: '/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: '/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: '/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+		</script>
+
+	</body>
+</html>

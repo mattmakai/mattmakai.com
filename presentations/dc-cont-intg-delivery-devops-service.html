@@ -1,0 +1,549 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>DevOps-as-a-Service</title>
+
+		<meta name="description" content="A talk on various options for integrating external third party services as part of your DevOps process.">
+		<meta name="author" content="Matt Makai">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="/css/reveal/reveal.min.css">
+		<link rel="stylesheet" href="/css/reveal/theme/darkness.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="/lib/css/zenburn.css">
+        <style>
+            h2.question {
+                font-size: 2.4em;
+            }
+            .total-miles-tooltip {
+                color: #222;
+                background: #eee;
+                border: 1px solid #222;
+                padding: 3px;
+                -webkit-border-radius:3px;
+                -moz-border-radius:3px;
+                border-radius:3px;
+            }
+
+            .miles-driven-tooltip {
+                color: #eee;
+                background: #406BB4;
+                border: 1px solid #222;
+                padding: 3px;
+                -webkit-border-radius:3px;
+                -moz-border-radius:3px;
+                border-radius:3px;
+            }
+            ol.bigger li, 
+            ul.bigger li {
+               font-size: 1.4em;
+               margin-top: 20px;
+               margin-bottom: 15px;
+               line-height: 1.1em;
+               margin-left: 10px;
+            }
+            ol.bigger li {
+                margin-left: 1em;
+            }
+        </style>
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="/css/reveal/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="/lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+			<div class="slides" style="text-align: left;">
+				<section>
+					<h1 style="font-size: 2.5em; font-weight: bold;">
+                        DevOps Deployments-as-a-Service
+                    </h1>
+                    <br/>
+                    <h2 style="font-size: 1.75em;">DC Continuous Integration, Delivery, and Deployments</h2>
+                    <br/>
+					<p>
+						<small><a href="http://www.mattmakai.com">Matt Makai</a> / <a href="http://twitter.com/mattmakai">@mattmakai</a></small>
+					</p>
+				</section>
+                
+                <section style="text-align: center;">
+                    <br/>
+                    <img src="/img/presentations/django-district-aug-27-2013/caa-logo.png" style="border: none; box-shadow: none; background: none;" />
+                    <div style="text-align: right; margin-right: 25px;">
+                        <strong><a href="http://www.codingacrossamerica.com/">codingacrossamerica.com</a></strong>
+                    </div>
+				</section>
+
+                
+                <section>
+                    <h2>March 9 - August 9</h2>
+                    <img src="/img/presentations/omaha-python-dev-communities/coding-across-america-map.jpg" style="border: 1px solid; box-shadow: none; background: none;" id="caa-map" />
+                </section>
+                
+                <section>
+                    <h2>Driving</h2>
+                    <img src="/img/presentations/djangocon-2013/view-from-10k-feet.jpg"/>
+                </section>
+                
+                <section data-state="show-miles-driven">
+                    <h2>Miles driven</h2>
+                    <div id="miles-driven-chart" style="height: 500px;"></div>
+                </section>
+                
+                <section>
+                    <h2>Coding</h2>
+                    <img src="/img/presentations/django-boston-july-2013/chicago-coding-outside.jpg"/>
+                </section>
+                
+                <section>
+                    <h2>Meeting w/tech companies</h2>
+                    <img src="/img/presentations/san-diego/copperegg-mascot.jpg"/>
+                </section>
+                
+                <section style="text-align: center;">
+                    <h1 style="margin-top: .55em;">
+                        DevOps Deployments-as-a-Service
+                    </h1>
+                </section>
+                
+                <section style="text-align: center;">
+                    <h1 style="margin-top: .25em; line-height: 1.25em;"> 
+                        DevOps? Deployments? Services?
+                    </h1>
+                </section>
+                
+                <section>
+                    <div style="text-align: center;">
+                        <br/>&nbsp;<br/>&nbsp;<br/>&nbsp;<br/>
+                        <h2 class="question">Programming ecosystems?</h2>
+                    </div>
+                </section>
+                
+                <section>
+                    <div style="text-align: center;">
+                        <h2 class="question" style="margin-top: 1.2em;">Happy with current deployments?</h2>
+                        <h2 class="question" style="margin-top: .8em;">Improvements?</h2>
+                    </div>
+                </section>
+                
+                <section>
+                    <div style="text-align: center;">
+                        <br/>&nbsp;<br/>&nbsp;<br/>&nbsp;<br/>
+                        <h2 class="question">Using services for deployments?</h2>
+                    </div>
+                </section>
+                
+                <section style="text-align: center;">
+                    <h1 style="margin-top: 1.6em;">Ideal workflow</h1>
+                </section>
+                
+                <section> 
+                    <h2>Ideal workflow</h2>
+                    <img src="/img/presentations/dc-cont-intg/ideal-workflow.jpg" />
+                </section>
+
+                <section>
+                    <h2>General attributes</h2>
+                    <ul class="bigger">
+                        <li class="fragment">When something breaks, 
+                                             you know</li>
+                        <li class="fragment">Minimal maintenance time 
+                                             overhead</li>
+                        <li class="fragment">Metrics show progress 
+                                             over time</li>
+                        <li class="fragment">Confidence to always deliver
+                                             a quality application</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2>Where the process breaks</h2>
+                    <ul class="bigger">
+                        <li class="fragment">Uncertainty over benefits</li>
+                        <li class="fragment">Unclear how to set up</li>
+                        <li class="fragment">Missing links in execution</li>
+                        <li class="fragment">Difficulty provisioning 
+                                             environments</li>
+                    </ul>
+                </section>
+                
+                <section style="text-align: center;">
+                    <h1 style="margin-top: 1.6em;">Services</h1>
+                </section>
+                
+                <section>
+                    <h2>General advantages</h2>
+                    <ul class="bigger">
+                        <li class="fragment">Saves (expensive) developer 
+                                             time</li>
+                        <li class="fragment">Minimal maintenace overhead</li>
+                        <li class="fragment">Opinionated</li>
+                        <li class="fragment">Company focused on product</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2>General <strong>dis</strong>advantages</h2>
+                    <ul class="bigger">
+                        <li class="fragment">Lose control over data</li>
+                        <li class="fragment">Hosting fees</li>
+                        <li class="fragment">Opinionated</li>
+                        <li class="fragment">Long-term viability?</li>
+                    </ul>
+                </section>
+               
+                <section>
+                    <h2>Continuous Integration</h2>
+                    <img src="/img/presentations/dc-cont-intg/workflow-ci.jpg" />
+                </section>
+                
+                <section>
+                    <h2>Circle CI</h2>
+                    <img src="/img/presentations/dc-cont-intg/circle-ci.jpg" />
+                </section>
+                
+                <section>
+                    <h2>Travis CI</h2>
+                    <img src="/img/presentations/dc-cont-intg/travis-ci.jpg" />
+                </section>
+
+                <section>
+                    <h2>Atlassian Bamboo</h2>
+                    <img src="/img/presentations/dc-cont-intg/atlassian-bamboo.jpg" />
+                </section>
+                
+                <section>
+                    <h2>CloudBees Hosted Jenkins</h2>
+                    <img src="/img/presentations/dc-cont-intg/cloudbees-jenkins-ci.jpg" />
+                </section>
+                
+                <section>
+                    <h2>Semaphore (Rails)</h2>
+                    <img src="/img/presentations/dc-cont-intg/semaphore-ci.jpg" />
+                </section>
+
+                <section>
+                    <h2>Testing</h2>
+                    <img src="/img/presentations/dc-cont-intg/workflow-testing.jpg" />
+                </section>
+                
+                <section>
+                    <h2>BrowserStack</h2>
+                    <img src="/img/presentations/dc-cont-intg/browserstack.jpg" />
+                </section>
+                
+                <section>
+                    <h2>CrossBrowserTesting</h2>
+                    <img src="/img/presentations/dc-cont-intg/crossbrowsertesting.jpg" />
+                </section>
+                
+                <section>
+                    <h2>Monitoring</h2>
+                    <img src="/img/presentations/dc-cont-intg/workflow-monitor.jpg" />
+                </section>
+                
+                <section>
+                    <h2>New Relic</h2>
+                    <img src="/img/presentations/dc-cont-intg/new-relic.jpg" />
+                </section>
+                
+                <section>
+                    <h2>CopperEgg</h2>
+                    <img src="/img/presentations/dc-cont-intg/copperegg.jpg" />
+                </section>
+
+                <section>
+                    <h2>Pingdom</h2>
+                    <img src="/img/presentations/dc-cont-intg/pingdom.jpg" />
+                </section>
+                
+                <section>
+                    <h2>PagerDuty</h2>
+                    <img src="/img/presentations/dc-cont-intg/pagerduty.jpg" />
+                </section>
+                
+                
+                <section style="text-align: center;">
+                    <h1 style="margin-top: 1.6em;">Build Process</h1>
+                </section>
+                
+                <section>
+                    <h2>Code Climate (Ruby)</h2>
+                    <img src="/img/presentations/dc-cont-intg/code-climate.jpg" />
+                </section>
+                
+                <section>
+                    <h2>Factor.io</h2>
+                    <img src="/img/presentations/dc-cont-intg/factor-io.jpg" />
+                </section>
+                
+                <section>
+                    <h2>Tinfoil Security</h2>
+                    <img src="/img/presentations/dc-cont-intg/tinfoil-security.jpg" />
+                </section>
+                
+                
+                <section style="text-align: center;">
+                    <h1 style="margin-top: 1.6em;">Learning More</h1>
+                </section>
+
+                <section>
+                    <h2>Mindset</h2>
+                    <ul class="bigger">
+                        <li>Research when not under pressure to
+                            immediately integrate
+                        </li>
+                        <li>
+                            Ask "What problem can this service
+                            potentially solve?"
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Mindset</h2>
+                    <ul class="bigger">
+                        <li>
+                            Background and philosophy
+                        </li>
+                        <li>
+                            Openness about their solution approach
+                        </li>
+                        <li>Bookmark services and arguments for
+                            and against
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>"Push" sources</h2>
+                    <ul class="bigger">
+                        <li><a href="http://leanstack.io/">Leanstack</a></li>
+                        <li><a href="http://www.pythonweekly.com/">Python Weekly</a></li>
+                        <li><a href="http://rubyweekly.com/">Ruby Weekly</a></li>
+                        <li><a href="http://devopsweekly.com/">DevOps Weekly</a></li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Geckoboard Widgets</h2>
+                    <img src="/img/presentations/django-district-aug-27-2013/geckoboard-widget-directory.jpg"/>
+                </section>
+
+                <section>
+                    <h2>Ducksboard Integrations</h2>
+                    <img src="/img/presentations/django-district-aug-27-2013/ducksboard-integrations.jpg"/>
+                </section>
+               
+                <section>
+                    <h2>Resources</h2>
+                    <ul class="bigger">
+                        <li><a href="http://blog.leanstack.io/circleci-github-heroku-deployed-green-builds-in-minutes/">Heroku + Circle CI + GitHub</a></li>
+                        <li><a href="http://leanstack.io/">Leanstack</a></li>
+                        <li><a href="/identifying-third-party-services-for-django.html">Discovering Third Party Services for Django</a></li>
+                        <li><a href="http://www.geckoboard.com/widget-directory/">Geckoboard Widget Directory</a></li>
+                        <li><a href="https://ducksboard.com/services-integrations/">Ducksboard Services Integrations</a></li>
+                    </ul>
+
+                </section>
+                
+                
+                <section>
+                    <h2>Thank you!</h2>
+                    <ul class="bigger">
+                        <li>Matt Makai</li>
+                        <li><a href="http://www.excella.com/">Excella Consulting</a></li>
+                        <li><a href="http://twitter.com/mattmakai">@mattmakai</a></li>
+                        <li>matthew.makai@gmail.com</li>
+                        <li><a href="http://www.mattmakai.com/">www.mattmakai.com</a></li>
+                        <li><a href="http://www.codingacrossamerica.com/">www.codingacrossamerica.com</a></li>
+                    </ul>
+                </section>
+		</div>
+
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/d3.min.js" charset="utf-8"></script>
+		<script src="/lib/js/head.min.js"></script>
+		<script src="/js/reveal.min.js"></script>
+
+		<script>
+
+$(document).ready(function() {
+/* MILES DRIVEN chart */
+var milesDrivenContainerWidth = 900, /*$("#miles-driven-chart").width(),*/
+    milesDrivenContainerHeight = 500; /*$("#caa-map").height();*/
+
+var margin = {top: 5, right: 5, bottom: 5, left: 5},
+    milesDrivenWidth = milesDrivenContainerWidth,
+    milesDrivenHeight = milesDrivenContainerHeight;
+
+var maxDays = 150, maxMiles = 14000,
+    lineWidth = milesDrivenWidth / maxDays;
+
+var x = d3.scale.linear()
+    .domain([0, maxDays])
+    .range([0, milesDrivenWidth]);
+
+var y = d3.scale.linear()
+    .domain([0, maxMiles])
+    .range([milesDrivenHeight, 0]);
+
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("bottom");
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left");
+
+var svg = d3.select("#miles-driven-chart").append("svg")
+        .attr("width", milesDrivenWidth + margin.left + margin.right)
+        .attr("height", milesDrivenHeight + margin.top + margin.bottom)
+    .append("g")
+        .attr("transform", "translate(" + margin.left + "," + 
+            margin.top + ")");
+
+svg.append("g")
+    .attr("class", "x axis")
+    .attr("transform", "translate(0," + milesDrivenHeight + ")")
+    .call(xAxis);
+
+svg.append("g")
+    .attr("class", "y axis")
+    .call(yAxis);
+
+
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'page', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: '/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: '/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: '/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: '/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+function drawChart(data) {
+    var totalTooltip = d3.select("body")
+        .append("div")
+            .style("position", "absolute")
+            .style("z-index", "10")
+            .style("visibility", "hidden")
+            .attr("class", "total-miles-tooltip")
+            .text(function(d) {return "";});
+    
+    var byDayTooltip = d3.select("body")
+        .append("div")
+            .style("position", "absolute")
+            .style("z-index", "10")
+            .style("visibility", "hidden")
+            .attr("class", "miles-driven-tooltip")
+            .text(function(d) {return "";});
+
+    var total_bars = svg.selectAll("rect.total-miles")
+        .data(data.driving)
+            .enter()
+        .append("rect")
+            .attr("x", function(d) {return x(d.day) - lineWidth;})
+            .attr("y", function(d) {return milesDrivenHeight;})
+            .attr("width",lineWidth)
+            .attr("class", "total-miles")
+            .attr("height", function(d) {return 0;})
+            .attr("title", function(d) {return d.date;})
+            .style("stroke","#fff")
+            .style("fill","#F9A31A")
+            .on("mouseover", function(d, i) {
+                var tipMsg = "Day " + d.day + ": " + d.total + " total miles driven";
+                return totalTooltip.style("visibility", "visible")
+                    .text(tipMsg);
+            })
+            .on("mousemove", function(d, i) {
+                return totalTooltip.style("top", 
+                    (event.pageY-10)+"px").style("left",
+                    (event.pageX+10)+"px");
+            })
+            .on("mouseout", function(d, i) {
+                return totalTooltip.style("visibility", "hidden");
+            })
+        .transition()
+            .attr("y", function(d) {return y(d.total);})
+            .attr("height", function(d) {
+                    return milesDrivenHeight - y(d.total);
+                })
+            .delay(function(d, i) {return (i * 50) + 100;})
+            .duration(1200);
+
+    var bars = svg.selectAll("rect.daily-miles")
+        .data(data.driving)
+            .enter()
+        .append("rect")
+            .attr("x", function(d) {return x(d.day) - lineWidth;})
+            .attr("y", function(d) {return milesDrivenHeight;})
+            .attr("class", "daily-miles")
+            .attr("width",lineWidth)
+            .attr("height", function(d) {return 0;})
+            .style("stroke","#fff")
+            .style("fill","#406BB4")
+            .on("mouseover", function(d, i) {
+                var tipMsg = "Day " + d.day + ": " + d.miles + " daily miles";
+                return byDayTooltip.style("visibility", "visible")
+                    .text(tipMsg);
+            })
+            .on("mousemove", function(d, i) {
+                return byDayTooltip.style("top", 
+                    (event.pageY-10)+"px").style("left",
+                    (event.pageX+10)+"px");
+            })
+            .on("mouseout", function(d, i) {
+                return byDayTooltip.style("visibility", "hidden");
+            })
+        .transition()
+            .attr("y", function(d) {return y(d.miles);})
+            .attr("height", function(d) {
+                    return milesDrivenHeight - y(d.miles);
+                })
+            .delay(function(d, i) {return (i * 50) + 100;})
+            .duration(1200);
+
+}
+
+
+            Reveal.addEventListener( 'show-miles-driven', function() {
+                d3.json('/static/data/driving.json', drawChart);
+            } );
+});
+
+		</script>
+
+	</body>
+</html>

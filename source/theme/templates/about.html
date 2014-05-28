@@ -1,56 +1,64 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <h1>About Matt Makai</h1>
-    <p>
-     I'm a Developer Evangelist for <a href="https://www.twilio.com/">Twilio</a>
-     and a full stack software developer based in our nation's capital, 
-     Washington, DC. My job is to inspire and equip software developers so they
-     can build amazing new communications applications.
-    </p>
+<div class="row">
+    <div class="col-md-12">
+        <h1>About Matt Makai</h1>
+        <p>
+         I'm a Developer Evangelist for 
+         <a href="https://www.twilio.com/">Twilio</a>
+         and a 
+         <a href="http://programming.oreilly.com/2014/05/driving-demand-for-full-stack-developers.html">full stack software developer</a> 
+         based in our nation's capital, Washington, DC. My job is to inspire 
+         and equip software developers so they can build amazing new 
+         communications applications.
+        </p>
 
-    <h3>Projects</h3>
-    <p>
-     Every year I pick a major project to sink my teeth into. In 2014, that 
-     project is building 
-     <a href="http://www.fullstackpython.com/">Full Stack Python</a> into a great
-     resource for anyone interested in learning about Python web application
-     development.
-    </p>
-    <p>
-     My previous project in 2013 was
-     <a href="http://www.codingacrossamerica.com/">Coding Across America</a>.
-     I road tripped for 5 months to 30 cities across the United States to 
-     talk with fellow software developers and tech startups.
-    </p>
+        <h3>Projects</h3>
+        <p>
+         Every year I pick a major project to sink my teeth into. In 2014, 
+         that project is building 
+         <a href="http://www.fullstackpython.com/">Full Stack Python</a> 
+         into a great resource for anyone interested in learning about Python 
+         web application development.
+        </p>
+        <p>
+         My previous project in 2013 was
+         <a href="http://www.codingacrossamerica.com/">Coding Across America</a>.
+         I road tripped for 5 months to 30 cities across the United States to 
+         talk with fellow software developers and tech startups.
+        </p>
 
-    <h3>Software Development</h3>
-    <p>
-      My primarily technology skill set is in the Python ecosystem. My secondary
-      programming capabilities are in the JVM stack with Java and Clojure. I 
-      also create data visualizations, primarily with 
-      <a href="http://d3js.org/">d3.js</a> and I'm beginning to
-      get into data analysis with pandas, numpy, scipy, matplotlib, and
-      iPython Notebook.
-    </p>
-
-    <div class="row">
-        <div class="col-md-6">
-            <h3>Email</h3>
-            <a href="mailto:matthew.makai@gmail.com">matthew.makai@gmail.com</a>
-        </div>
-        <div class="col-md-6">
-            <h3>Freenode</h3>
-            mattmakai
-        </div>
+        <h3>Software Development</h3>
+        <p>
+          My primarily technology skill set is in the Python ecosystem. My 
+          secondary programming capabilities are in the JVM stack with Java 
+          and Clojure. I also create data visualizations, primarily with 
+          <a href="http://d3js.org/">d3.js</a> and I'm beginning to
+          get into data analysis with pandas, numpy, scipy, matplotlib, and
+          iPython Notebook.
+        </p>
     </div>
+</div>
 
-    <h3 style="margin-bottom: 10px;">Social Sites</h3>
-    <div class="row">
-      <div class="col-md-5">
+<div class="row">
+    <div class="col-md-6">
+        <h3>Email</h3>
+        <a href="mailto:matthew.makai@gmail.com">matthew.makai@gmail.com</a>
+    </div>
+    <div class="col-md-6">
+        <h3>Freenode</h3>
+        mattmakai
+    </div>
+</div>
+
+<h3 style="margin-bottom: 10px;">Social Sites</h3>
+<div class="row">
+    <div class="col-md-5">
         <a class="social-media-icon" href="http://twitter.com/mattmakai"><img src="{{ STATIC }}img/social/twitter.png" /></a>
         <a class="social-media-icon" href="http://github.com/makaimc"><img src="{{ STATIC }}img/social/github.png" /></a>
         <a class="social-media-icon" href="http://www.linkedin.com/in/matthewmakai"><img src="{{ STATIC }}img/social/linkedin.png"></a>
         <a class="social-media-icon" href="http://www.facebook.com/matthew.makai"><img src="{{ STATIC }}img/social/facebook.png" /></a>
     </div>
+</div>
 {% endblock %}

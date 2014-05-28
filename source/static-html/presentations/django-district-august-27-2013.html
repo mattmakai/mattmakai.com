@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Django District: Making Django Play Nice with Third Party Services</title>
+
+		<meta name="description" content="Tips and tricks for working with third party services when using the Django web application framework.">
+		<meta name="author" content="Matt Makai">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="/css/reveal/reveal.min.css">
+		<link rel="stylesheet" href="/css/reveal/theme/beige.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="/lib/css/zenburn.css">
+        <style>
+            ul.bigger li {
+               font-size: 1.4em;
+               margin-top: 20px;
+               margin-bottom: 15px;
+               line-height: 1.1em;
+               margin-left: 10px;
+            }
+            ol.bigger li {
+                margin-left: 1em;
+            }
+        </style>
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="/css/reveal/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="/lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+			<div class="slides" style="text-align: left;">
+				<section>
+					<h1>Django District</h1>
+                    <br/>
+                    <h2>Making Django Play Nice with Third Party Services</h2>
+                    <br/>
+					<p>
+						<small><a href="http://www.mattmakai.com">Matt Makai</a> / <a href="http://twitter.com/mattmakai">@mattmakai</a></small>
+					</p>
+				</section>
+                
+                <section>
+                    <h2>Matt Makai</h2>
+                    <br/>
+                    <pre style="font-size: 30px; color: #222;">
+ {'name': 'Matt Makai',
+  'occupation': 'Full stack developer',
+  'specialties': ['Python',
+                  {'Django': 'since 0.96'},
+                  'prototypes',
+                  'oh crap! moments'],
+  'normal_location': 'Washington, DC', 
+ }
+                    </pre>
+                </section>
+                
+                <section style="text-align: center;">
+                    <br/>
+                    <img src="/img/presentations/django-district-aug-27-2013/caa-logo.png" style="border: none; box-shadow: none; background: none;" />
+                    <div style="text-align: right; margin-right: 25px;">
+                        <strong><a href="http://www.codingacrossamerica.com/" style="color: #406BB4;">codingacrossamerica.com</a></strong>
+                    </div>
+				</section>
+				
+                <section>
+					<h1>Making Django Play Nice with Third Party Services</h1>
+				</section>
+
+                <section>
+                    <h2>Why Care?</h2>
+                    <ul class="bigger">
+                        <li>Your app, your responsibility</li>
+                        <li>Service usage is increasing</li>
+                        <li>Little effort to prevent big headaches</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>What You Will Learn</h2>
+                    <ul class="bigger">
+                        <li>Discover new services</li>
+                        <li>Evaluate objectively</li>
+                        <li>Integrate properly with Django</li>
+                        <li>Maintain your sanity</li>
+                    </ul>
+                </section>
+
+                <section style="text-align: center;">
+                    <h1 style="margin-top: 1.6em;">Discover</h1>
+                </section>
+                
+                <section>
+                    <h2>Mindset</h2>
+                    <ul class="bigger">
+                        <li>Research when not under pressure to 
+                            immediately integrate
+                        </li>
+                        <li>
+                            Ask "What problem can this service 
+                            potentially solve?"
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Mindset</h2>
+                    <ul class="bigger">
+                        <li>
+                            Background and philosophy
+                        </li>
+                        <li>
+                            Openness about their solution approach
+                        </li>
+                        <li>Bookmark services and arguments for 
+                            and against
+                        </li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2>"Push" sources</h2>
+                    <ul class="bigger">
+                        <li><a href="http://leanstack.io/">Leanstack</a></li>
+                        <li><a href="http://www.pythonweekly.com/">Python Weekly</a></li>
+                        <li><a href="http://pycoders.com/">PyCoder's Weekly</a></li>
+                        <li><a href="http://lincolnloop.com/django-round-up/">Django Round-up</a></li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2>Heroku Addons</h2>
+                    <img src="/img/presentations/django-district-aug-27-2013/heroku-addons.jpg"/>
+                </section>
+                
+                <section>
+                    <h2>Geckoboard Widgets</h2>
+                    <img src="/img/presentations/django-district-aug-27-2013/geckoboard-widget-directory.jpg"/>
+                </section>
+                
+                <section>
+                    <h2>Ducksboard Integrations</h2>
+                    <img src="/img/presentations/django-district-aug-27-2013/ducksboard-integrations.jpg"/>
+                </section>
+                
+                <section style="text-align: center;">
+                    <h1 style="margin-top: 1.6em;">Evaluate</h1>
+                </section>
+
+                <section>
+                    <h2>Platform</h2>
+                    <ul class="bigger">
+                        <li>What language tutorials do they provide?</li>
+                        <li>What ecosystem is their platform built with?</li>
+                        <li>Do they have developer evangelists to reach 
+                            out to?</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2>Twilio</h2>
+                    <ul class="bigger">
+                        <li>Tutorials in Python</li>
+                        <li>Platform built on Python</li>
+                        <li>Open source Django application examples</li>
+                        <li>Developer evangelists active in Python 
+                            community</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2>Twilio open source examples</h2>
+                    <img src="/img/presentations/django-district-aug-27-2013/twilio-python.jpg"/>
+                </section>
+                
+                <section>
+                    <h2>Stripe</h2>
+                    <ul class="bigger">
+                        <li>Payment processing</li>
+                        <li>Tutorials in Ruby, Python, PHP</li>
+                        <li>Ruby &amp; CoffeeScript platform</li>
+                        <li>Third party open source Django application 
+                            examples</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2>Stripe tutorial</h2>
+                    <img src="/img/presentations/django-district-aug-27-2013/stripe-tutorial.jpg"/>
+                </section>
+                
+                <section>
+                    <h2>Intercom</h2>
+                    <ul class="bigger">
+                        <li>Customer engagement</li>
+                        <li>Ruby on Rails platform</li>
+                        <li>Third party open source Django application 
+                            examples</li>
+                        <li>Long term viability?</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2>Intercom open source</h2>
+                    <img src="/img/presentations/django-district-aug-27-2013/intercom-github.jpg"/>
+                </section>
+                
+                <section>
+                    <h2>Factor.io</h2>
+                    <ul class="bigger">
+                        <li>Build and deployment workflow</li>
+                        <li>Microsoft &amp; PHP platform</li>
+                        <li>No Django tutorials or projects</li>
+                    </ul>
+                </section>
+                
+                <section style="text-align: center;">
+                    <h1 style="margin-top: 1.6em;">Integrate</h1>
+                </section>
+
+                <section>
+                    <h2>Integration Paths</h2>
+                    <ul class="bigger">
+                        <li>First-party binding</li>
+                        <li>Open source binding</li>
+                        <li>libsaas</li>
+                        <li>Requests</li>
+                    </ul>
+                </section>
+                
+                <section style="text-align: center;">
+                    <img src="/img/presentations/django-district-aug-27-2013/octocat.jpg" />
+                </section>
+                
+                <section>
+                    <h2>First-party binding</h2>
+                    <ul class="bigger">
+                        <li>Ideal</li>
+                        <li>Update frequency</li>
+                        <li>Pull request incorporation speed</li>
+                        <li>Outstanding issues</li>
+                    </ul>
+                </section>
+                
+                <section style="text-align: center;">
+                    <h2>Official GitHub binding?</h2>
+                    <img src="/img/presentations/django-district-aug-27-2013/github-official-binding.jpg" />
+                </section>
+                
+                <section>
+                    <h2>Third-party binding</h2>
+                    <ul class="bigger">
+                        <li>Update frequency</li>
+                        <li>Pull request incorporation speed</li>
+                        <li>Outstanding issues</li>
+                        <li>Company backing?</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2>Third-party binding</h2>
+                    <img src="/img/presentations/django-district-aug-27-2013/pygithub.jpg" />
+                </section>
+                
+                <section>
+                    <h2>Print repos</h2>
+                    <img src="/img/presentations/django-district-aug-27-2013/github-third-party-binding.jpg" />
+                </section>
+                
+                <section>
+                    <h2>libsaas</h2>
+                    <img src="/img/presentations/django-district-aug-27-2013/libsaas.jpg" />
+                </section>
+                
+                <section>
+                    <h2>Print repos</h2>
+                    <img src="/img/presentations/django-district-aug-27-2013/github-api-libsaas.jpg" />
+                </section>
+
+                <section>
+                    <h2>Requests</h2>
+                    <img src="/img/presentations/django-district-aug-27-2013/requests.jpg" />
+                </section>
+                
+                <section>
+                    <h2>Print (public) Repos</h2>
+                    <img src="/img/presentations/django-district-aug-27-2013/requests-github-api.jpg" />
+                </section>
+
+                <section style="text-align: center;">
+                    <h1 style="margin-top: 1.6em;">Maintain</h1>
+                </section>
+                
+                <section>
+                    <h2>Project README / docs</h2>
+                    <ul class="bigger">
+                        <li>What services are used?</li>
+                        <li>How are the services tested locally?</li>
+                        <li>Who controls the user names and passwords?</li>
+                        <li>Do the services cover full range of purposes? 
+                            (debugging, user engagement, payments, etc)
+                        </li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2>Environment variables</h2>
+                    <img src="/img/presentations/django-boston-july-2013/env-variables-settings.jpg" />
+                </section>
+                
+                <section>
+                    <h2>Local env variable setting</h2>
+                    <img src="/img/presentations/django-boston-july-2013/settings-set-envs.jpg" />
+                </section>
+                
+                <section>
+                    <h2>PyPi Notifications</h2>
+                    <ul class="bigger">
+                        <li>
+                            <a href="https://github.com/cenkalti/pypi-notifier">pypi-notifier</a>
+                        </li>
+                        <li>Hosted, or host your own copy</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Testing services</h2>
+                    <ul class="bigger">
+                        <li>Separate tests</li>
+                        <li>Custom test runner</li>
+                        <li>Break build? Or alert?</li>
+                    </ul>
+                </section>
+                
+                <section style="text-align: center;">
+                    <h1 style="margin-top: 1.6em;">Resources</h1>
+                </section>
+                
+                <section style="text-align: center;">
+                    <h2>Resources</h2>
+                    <ul>
+                        <li><a href="/identifying-third-party-services-for-django.html">Discovering Third Party Services for Django</a>
+                        <li><a href="https://django.2scoops.org/">2 Scoops of Django</a></li>
+                        <li><a href="http://docs.python-guide.org/en/latest/">Hitchhiker's Guide to Python</a></li>
+                        <li><a href="http://www.fullstackpython.com/">Full Stack Python</a></li>
+                    </ul>
+                </section>
+
+                <!-- questions and contact -->
+                <section style="text-align: center;">
+                    <h1 style="margin-top: 1.6em;">?</h1>
+                </section>
+                
+                <section>
+                    <h2>Thank you!</h2>
+                    <ul class="bigger">
+                        <li>Matt Makai</li>
+                        <li><a href="http://www.excella.com/">Excella Consulting</a></li>
+                        <li><a href="http://twitter.com/mattmakai">@mattmakai</a></li>
+                        <li>matthew.makai@gmail.com</li>
+                        <li><a href="http://www.mattmakai.com/">www.mattmakai.com</a></li>
+                        <li><a href="http://www.codingacrossamerica.com/">www.codingacrossamerica.com</a></li>
+                    </ul>
+                </section>
+		</div>
+
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/d3.min.js" charset="utf-8"></script>
+		<script src="/lib/js/head.min.js"></script>
+		<script src="/js/reveal.min.js"></script>
+
+		<script>
+
+$(document).ready(function() {
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'page', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: '/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: '/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: '/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: '/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+});
+		</script>
+
+	</body>
+</html>

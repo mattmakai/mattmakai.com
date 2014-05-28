@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Automated Deployments with Ansible &amp; Fabric</title>
+
+		<meta name="description" content="This talk will show how to automated Linux and Python stack deployments with Ansible and Fabric. You'll learn how to apply these libraries to your project and see how to use Ansible Playbooks with tasks, handlers, and templates to go from a bare Linux installation to a running Python web application." >
+		<meta name="author" content="Matt Makai" />
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="/css/reveal/reveal.min.css">
+		<link rel="stylesheet" href="/css/reveal/theme/pony.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="/lib/css/zenburn.css">
+        <style>
+            h1.not-cool {font-size: 2.2em; margin-top: 1em;}
+            ol.bigger li, 
+            ul.bigger li {
+               font-size: 1.4em;
+               margin-top: 20px;
+               margin-bottom: 15px;
+               line-height: 1.1em;
+               margin-left: 20px;
+            }
+            ol.bigger li {
+                margin-left: 1em;
+            }
+        </style>
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="/css/reveal/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="/lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div class="reveal">
+            <div class="slides" style="text-align: left;">
+				<section>
+					<h1 style="font-size: 3em;">Automated Deployments with Ansible and Fabric</h1>
+                    <h4><a href="http://centerforopenscience.org/">Center for Open Science March 2014</a></h4>
+                    <br/>
+					<p><small>
+                        <a href="http://www.mattmakai.com">Matt Makai</a> | 
+                        <a href="http://twitter.com/mattmakai">@mattmakai</a> |
+                        <a href="https://github.com/makaimc">makaimc</a> 
+                        on GitHub |
+                        <a href="https://www.twilio.com">Twilio</a> 
+                        Developer Evangelist
+                    </small></p>
+				</section>
+                
+                <section>
+                    <h1 style="margin-top: 1.2em;">Back in the day...</h1>
+                </section>
+                
+                <section>
+                    <h2>My first sys admin</h2>
+                    <img src="/img/presentations/2014-san-fran-django-ansible/sys-admin.jpg" style="border: 1px solid; box-shadow: none; background: none;" />
+                    <p>
+                    <small><a href="http://farm5.static.flickr.com/4029/4360104794_4f3f2b7a2f_b.jpg">Picture reference</a></small>
+                    </p>
+                </section>
+                
+                <section style="text-align: center;">
+                    <h1 style="margin-top: 1.6em;">#!/bin/bash</h1>
+                </section>
+                
+                <section>
+                    <h2>What starts as this...</h2>
+                    <img src="/img/presentations/2014-san-fran-django-ansible/bash-deploy-script.jpg" style="border: 1px solid; box-shadow: none; background: none;" />
+                    <small><a href="http://blog.umanoapp.com/post/35685965949/writing-a-simple-deployment-script-for-your-ec2-servers">Original script reference</a></small>
+                </section>
+
+                <section>
+                    <h2>...usually ends like this</h2>
+                    <img src="/img/presentations/2014-san-fran-django-ansible/meteor-heading-to-earth.jpg" style="border: 1px solid; box-shadow: none; background: none;" />
+                    <small><a href="http://www.redorbit.com/media/uploads/2013/02/shutterstock_71231404-617x416.jpg">Original picture reference</a></small>
+                </section>
+                
+                <section style="text-align: center;">
+                    <h1 style="margin-top: 1.6em;">Fabric</h1>
+                </section>
+                
+                <section>
+                    <h2>Fabric Scripting</h2>
+                    <img src="/img/presentations/2014-san-fran-django-ansible/fabfile-gist.jpg" style="border: 1px solid; box-shadow: none; background: none;" />
+                    <small><a href="https://gist.github.com/makaimc/6382525">Gist</a></small>
+                </section>
+
+                <section style="text-align: center;">
+                    <h1 style="margin-top: 1.6em;">Deployments</h1>
+                </section>
+
+                <section>
+                    <h2>Deployment Tasks</h2>
+                    <ul class="bigger">
+                        <li>Configure servers</li>
+                        <li class="fragment">Set up [Python] environment</li>
+                        <li class="fragment">Deploy code</li>
+                        <li class="fragment">Migrate database schema &amp; data</li>
+                        <li class="fragment">Perform ad hoc tasks</li>
+                    </ul>
+                </section>
+                
+                <section style="text-align: center;">
+                    <img src="/img/presentations/2014-san-fran-django-ansible/ansibleworks-logo.jpg" style="border: 1px solid; box-shadow: none; background: none; margin-top: 5em; border-radius: 4px;" />
+                </section>
+                
+                <section>
+                    <h2>What is Ansible?</h2>
+                    <ul class="bigger">
+                        <li>Multinode orchestration framework</li>
+                        <li class="fragment">Configuration management</li>
+                        <li class="fragment">Application deployment</li>
+                        <li class="fragment">Ad hoc tasks</li>
+                    </ul>
+                </section>
+               
+                <section>
+                    <h2>Ansible technology</h2>
+                    <ul class="bigger">
+                        <li>YAML syntax</li>
+                        <li class="fragment">Jinja2 templates</li>
+                        <li class="fragment">SSH (no remote agents)</li>
+                        <li class="fragment">Ansible module library</li>
+                        <li class="fragment">
+                            Django manage.py commands module
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Modules</h2>
+                    <img src="/img/presentations/2014-san-fran-django-ansible/ansible-modules-list.jpg" style="border: 1px solid; box-shadow: none; background: none;" />
+                </section>
+                
+                <section>
+                    <h2>user module</h2>
+                    <img src="/img/presentations/2014-san-fran-django-ansible/ansible-user-module.jpg" style="border: 1px solid; box-shadow: none; background: none;" />
+                </section>
+                
+                <section>
+                    <h2>Ad hoc commands</h2>
+                    <br/>
+                    <pre style="font-size: 1em;">
+
+$ ansible webservers -m user -a   \
+  "name=cville state=present     \
+  uid=1040 group=meetup" -u deployer
+
+                    </pre>
+                </section>
+                
+                <section>
+                    <h2>Playbooks</h2>
+                    <br/>
+                    <pre style="font-size: 1em;">
+
+- name: ensure user "cville" exists
+  user: name=cville state=present 
+        uid=1040 group=meetup
+
+                    </pre>
+                </section>
+                
+                <section>
+                    <h2>Playbook on GitHub</h2>
+                    <h4>
+                        <a href="https://github.com/makaimc/sf-django">https://github.com/makaimc/sf-django</a>
+                    </h4>
+                    <img src="/img/presentations/2014-san-fran-django-ansible/deploy-with-ansible-repo.jpg" style="border: 1px solid; box-shadow: none; background: none;" />
+                </section>
+                
+                <section>
+                    <h2>Organization</h2>
+                    <pre style="font-size: .9em;">
+deploy
+  |---- deploy.yml
+  |---- hosts
+  |---- group_vars/
+          |---- all
+          |---- dbservers
+          |---- webservers
+  |---- roles/
+          |---- all
+          |---- db
+              |---- handlers
+              |---- tasks
+              |---- templates
+          |---- web
+                    </pre>
+                </section>
+                
+                <section>
+                    <h2>Variables</h2>
+                    <ul class="bigger">
+                        <li>Letters, numbers, underscores are valid names</li>
+                        <li class="fragment">Always start with a letter</li>
+                        <li class="fragment">Valid: port_number</li>
+                        <li class="fragment">{{ ansible_env }} pulls from environment</li>
+                        <li class="fragment">Precedence rules exist</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2>Roles</h2>
+                    <ul class="bigger">
+                        <li>Allow multinode orchestration</li>
+                        <li class="fragment">Define behavior for server type</li>
+                        <li class="fragment">Enable reuse and organization</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2>Deployment Tasks</h2>
+                    <ul class="bigger">
+                        <li>Configure servers</li>
+                        <li>Set up [Python] environment</li>
+                        <li>Deploy code</li>
+                        <li>Migrate database schema &amp; data</li>
+                        <li>Perform ad hoc tasks</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2>Configure servers</h2>
+                    <img src="/img/presentations/2014-san-fran-django-ansible/deploy-config-mgmt.jpg" style="border: 1px solid; box-shadow: none; background: none; border-radius: 5px;" />
+                </section>
+                
+                <section>
+                    <h2>Configure servers</h2>
+                    <pre style="font-size: .9em;">
+- name: install latest version of Apache
+  yum: name=httpd state=latest
+
+- name: check if apache conf.d dir exists
+  stat: path=/etc/httpd/conf.d/
+  register: apache_dir
+
+- debug: msg="conf.d exists and is dir"
+  when: apache_dir.stat.isdir is defined 
+        and apache_dir.stat.isdir
+                    </pre>
+                </section>
+                
+                <section>
+                    <h2>Set up environment</h2>
+                    <img src="/img/presentations/2014-san-fran-django-ansible/deploy-python-env.jpg" style="border: 1px solid; box-shadow: none; background: none; border-radius: 5px;" />
+                </section>
+                
+                <section>
+                    <h2>Set up environment</h2>
+                    <pre style="font-size: .9em;">
+- name: check if virtualenv already exists
+  stat: path={{virtualenv_dir}}
+  register: venv_dir
+
+- name: create virtualenv for Django web app
+  shell: virtualenv {{virtualenv_dir}}
+  when: venv_dir.stat.isdir is not defined
+
+- name: install web application dependencies
+  pip: requirements={{app_dir}}/reqs.txt
+       virtualenv={{virtualenv_dir}}
+                    </pre>
+                </section>
+                
+                <section>
+                    <h2>Deploy code</h2>
+                    <img src="/img/presentations/2014-san-fran-django-ansible/deploy-code.jpg" style="border: 1px solid; box-shadow: none; background: none; border-radius: 5px;" />
+                </section>
+                
+                <section>
+                    <h2>Deploy code</h2>
+                    <pre style="font-size: .9em;">
+- name: install known_hosts file for GitHub
+  copy: src={{ ssh_dir }}/known_hosts 
+        dest=/home/{{ deploy_user }}/.ssh
+
+- name: checkout latest web app code
+  git: repo={{code_repo}} dest={{app_dir}}
+                    </pre>
+                </section>
+                
+                <section>
+                    <h2>Migrate DB schema &amp; data</h2>
+                    <img src="/img/presentations/2014-san-fran-django-ansible/deploy-database.jpg" style="border: 1px solid; box-shadow: none; background: none; border-radius: 5px;" />
+                </section>
+                
+                <section>
+                    <h2>Migrate DB schema &amp; data</h2>
+                    <pre style="font-size: .9em;">
+- name: Django syncdb
+  django_manage: command=syncdb
+                 app_path={{app_code_dir}}
+                 virtualenv={{venv_dir}}
+  environment: django_env_vars
+
+
+- name: Django migrate
+  django_manage: command=migrate
+                 app_path={{app_code_dir}}
+                 virtualenv={{venv_dir}}
+  environment: django_env_vars
+  when: django_use_south
+                    </pre>
+                </section>
+                
+                <section>
+                    <h2>Perform ad hoc tasks</h2>
+                    <img src="/img/presentations/2014-san-fran-django-ansible/deploy-ad-hoc.jpg" style="border: 1px solid; box-shadow: none; background: none; border-radius: 5px;" />
+                </section>
+                        
+                <section>
+                    <h2>Perform ad hoc tasks</h2>
+                    <pre style="font-size: .9em;">
+# playbook
+- name: Django collectstatic
+  django_manage: command=collectstatic 
+                 app_path={{app_code_dir}}
+                 virtualenv={{venv_dir}}
+  environment: django_env_vars
+
+# command line
+$ ansible-playbook django-stack.yml --step \
+  --start-at-task="Django collectstatic"   \
+  -u deployer -K
+                    </pre>
+                </section>
+
+                <section>
+                    <h2>Ansible downsides</h2>
+                    <ul class="bigger">
+                        <li>No Windows support</li>
+                        <li class="fragment">Lack of testing tools</li>
+                        <li class="fragment">Reuse ambiguity</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2>Django deployment dream</h2>
+                    <ul class="bigger">
+                        <li>pip install deploy-tool</li>
+                        <li class="fragment">
+                            INSTALLED_APPS += 'deploy_tool'
+                        </li>
+                        <li class="fragment">vim deploy-params.yml</li>
+                        <li class="fragment">python manage.py deploy</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2>Underwear</h2>
+                    <img src="/img/presentations/2014-san-fran-django-ansible/underwear-github.jpg" style="border: 1px solid; box-shadow: none; background: none;" />
+                </section>
+                
+                <section>
+                    <h2>Underwear</h2>
+                    <ul class="bigger">
+                        <li>pip install underwear</li>
+                        <li class="fragment">
+                            INSTALLED_APPS += 'underwear'
+                        </li>
+                        <li class="fragment">wget underwear.yml</li>
+                        <li class="fragment">wget hosts</li>
+                        <li class="fragment">vim deploy/underwear.yml</li>
+                        <li class="fragment">vim deploy/hosts</li>
+                        <li class="fragment">python manage.py deploy</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2>Underwear Repository</h2>
+                    <p style="margin-top: 3.8em; font-size: 1.4em;"><a href="https://github.com/makaimc/underwear">https://github.com/makaimc/underwear</a></p>
+                </section>
+
+                <section>
+                    <h2>Resources</h2>
+                    <ul>
+                        <li><a href="http://www.ansibleworks.com/docs/">Ansible Docs</a></li>
+                        <li><a href="http://devopsu.com/newsletters/ansible-weekly-newsletter.html">Ansible Weekly Newsletter</a></li>
+                        <li><a href="http://www.fullstackpython.com/">Full Stack Python</a></li>
+                        <li><a href="http://devopsu.com/blog/ansible-vs-shell-scripts/">Ansible vs. Shell Scripts</a></li>
+                        <li><a href="http://missingm.co/2013/06/ansible-and-salt-a-detailed-comparison/">Ansible and Salt: A Detailed Comparison</a></li>
+                        <li><a href="http://www.nickhammond.com/automating-development-environment-ansible/">Automating your development environment with Ansible</a></li>
+                        <li><a href="http://devopsu.com/guides/ansible-post-install.html">Post-install steps with Ansible</a></li>
+                        <li><a href="http://lattejed.com/first-five-and-a-half-minutes-on-a-server-with-ansible">First Five (and a Half) Minutes on a Server with Ansible</a></li>
+                        <li><a href="http://davidwinter.me/articles/2013/11/23/introduction-to-ansible/">(Detailed) Introduction to Ansible</a></li>
+                        <li><a href="http://blog.couchbase.com/create-couchbase-cluster-with-ansible">Create a Couchbase Cluster with Ansible</a></li>
+                        <li><a href="https://groups.google.com/forum/#!msg/Ansible-project/WpRblldA2PQ/lYDpFjBXDlsJ">Idempotence, convergence, and other silly fancy words</a></li>
+                        <li><a href="https://github.com/makaimc/mattmakai.github.com/blob/gh-pages/static/presentations/2014-san-fran-django-ansible.html">This presentation's source code</a></li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2>Contact Information</h2>
+                    <ul class="bigger">
+                        <li>Matt Makai</li>
+                        <li><a href="https://www.twilio.com/">Twilio</a></li>
+                        <li><a href="http://twitter.com/mattmakai">@mattmakai</a></li>
+                        <li>matthew.makai@gmail.com</li>
+                        <li><a href="https://github.com/makaimc">makaimc</a> on GitHub</a>
+                        <li><a href="http://www.mattmakai.com/">www.mattmakai.com</a></li>
+                    </ul>
+                </section>
+		</div>
+
+        <script src="/js/jquery.min.js"></script>
+		<script src="/lib/js/head.min.js"></script>
+		<script src="/js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'page', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: '/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: '/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: '/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: '/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+		</script>
+
+	</body>
+</html>

@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Finding, Evaluating, and Integrating External APIs</title>
+
+		<meta name="description" content="Modern software applications combine custom code with third party APIs, such as Twilio and Stripe, to create a complete product. Choosing the right services for your application can make or break its usefulness to users as well as your sanity during maintenance. This talk will show you how to find, evaluate, and integrate external APIs to maximize their value in your software application." />
+
+		<meta name="author" content="Matt Makai" />
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="/css/reveal/reveal.min.css">
+		<link rel="stylesheet" href="/css/reveal/theme/visualize.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="/lib/css/zenburn.css">
+        <style>
+            img.standard {border: none; border-radius: 5px;}
+            ol.bigger li, 
+            ul.bigger li {
+               font-size: 1.8em;
+               margin-top: 20px;
+               margin-bottom: 15px;
+               line-height: 1.1em;
+               margin-left: 20px;
+            }
+            ol.bigger li {
+                margin-left: 1em;
+            }
+            img.no-border-rounded {border: none; border-radius: 5px;}
+
+            h2.background-img {
+                font-size: 4.5em;
+                color: white;
+                text-shadow: -1px -1px 0 #222, 1px -1px 0 #222, 
+                -1px 1px 0 #222, 1px 1px 0 #222; 
+            }
+            .total-miles-tooltip {
+                color: #222;
+                background: #eee;
+                border: 1px solid #222;
+                padding: 3px;
+                -webkit-border-radius:3px;
+                -moz-border-radius:3px;
+                border-radius:3px;
+            }
+
+            .miles-driven-tooltip {
+                color: #eee;
+                background: #406BB4;
+                border: 1px solid #222;
+                padding: 3px;
+                -webkit-border-radius:3px;
+                -moz-border-radius:3px;
+                border-radius:3px;
+            }
+
+        </style>
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="/css/reveal/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="/lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div class="reveal">
+            <div class="slides" style="text-align: left;">
+				<section>
+					<h1>Finding, Evaluating, and Integrating External APIs</h1>
+                    <h4>Capital One March 2014</a></h4>
+                    <br/>
+                    <br/>
+					<p><small>
+                        <a href="http://www.mattmakai.com">Matt Makai</a> | 
+                        <a href="http://twitter.com/mattmakai">@mattmakai</a> |
+                        <a href="https://github.com/makaimc">makaimc</a> 
+                        on GitHub |
+                        <a href="https://www.twilio.com">Twilio</a> 
+                        Developer Evangelist
+                    </small></p>
+				</section>
+                
+                <section data-state="bubbles-viz">
+                    <div id="bubbles-viz"></div>
+                </section>
+                
+                <section data-state="api-growth-viz">
+                    <div id="api-growth-viz"></div>
+                </section>
+                
+                <section>
+                    <h1>APIs are proliferating for good reasons.</h1>
+                </section>
+                
+                <section>
+                    <h2>Apps = custom code + APIs</h2>
+                    <img src="/img/presentations/2014-capital-one-apis/cloud-arch.jpg" class="standard" style="border: none;"/>
+                </section>
+                
+                <section data-state="composable-enterprise">
+                    <h1 style="color: green;">Composable Enterprise</h1>
+                </section>
+                
+                <section>
+                    <h1>"Ok, I'm interested. But how do I start?"</h1>
+                </section>
+                
+                <section data-state="bottom-mountain">
+                </section>
+                
+                <section data-state="base-jumper">
+                </section>
+                
+                <section data-state="top-mountain">
+                </section>
+                
+                <section>
+                    <h1>Funnel</h1>
+                </section>
+
+                <section data-state="funnel-viz">
+                    <div id="funnel-container"></div>
+                </section>
+                
+                <section>
+                    <h1>Example</h1>
+                </section>
+                
+                <section>
+                    <h2>Send notifications to users</h2>
+                    <img src="/img/presentations/2014-capital-one-apis/word-requirements.png" class="standard" style="border: none;" width="80%" height="80%"/>
+                </section>
+
+                <section data-state="find-title">
+                    <h1 style="color: #222;">Find</h1>
+                </section>
+                
+                <section>
+                    <h1>Push</h1>
+                </section>
+                
+                <section>
+                    <h2>leanstack.io</h2>
+                    <img src="/img/presentations/2014-capital-one-apis/leanstack.jpg" class="standard" style="border: none;"/>
+                </section>
+                
+                <section>
+                    <h2>saasclub.com</h2>
+                    <img src="/img/presentations/2014-capital-one-apis/saas-club.jpg" class="standard" style="border: none;"/>
+                </section>
+                
+                <section>
+                    <h2>javaweeklybytes.com</h2>
+                    <img src="/img/presentations/2014-capital-one-apis/java-weekly-bytes.jpg" class="standard" style="border: none;"/>
+                </section>
+                
+                <section>
+                    <h1>Pull</h1>
+                </section>
+                
+                <section>
+                    <h2>Geckoboard Widget Directory</h2>
+                    <img src="/img/presentations/django-district-aug-27-2013/geckoboard-widget-directory.jpg" class="standard" style="border: none;"/>
+                </section>
+                
+                <section>
+                    <h2>Ducksboard Integrations</h2>
+                    <img src="/img/presentations/django-district-aug-27-2013/ducksboard-integrations.jpg" class="standard" style="border: none;" />
+                </section>
+                
+                <section>
+                    <h2>Heroku Addons</h2>
+                    <img src="/img/presentations/django-district-aug-27-2013/heroku-addons.jpg" class="standard" style="border: none;"/>
+                </section>
+                
+                <section>
+                    <h2>Programmable Web</h2>
+                    <img src="/img/presentations/2014-capital-one-apis/programmableweb.jpg" class="standard" style="border: none;"/>
+                </section>
+
+                <section>
+                    <h2>DC API Group</h2>
+                    <img src="/img/presentations/2014-capital-one-apis/dc-web-api-group.jpg" class="standard" style="border: none;"/>
+                </section>
+
+                <section data-state="evaluate-title">
+                    <h1 style="color: #222;">Evaluate</h1>
+                </section>
+                
+                <section>
+                    <h2>Documentation</h2>
+                    <img src="/img/presentations/2014-capital-one-apis/twilio-docs.jpg" class="standard" style="border: none;"/>
+                </section>
+
+                <section>
+                    <h2>Documentation Checklist</h2>
+                    <ul class="bigger">
+                        <li>Clear &amp; concise</li>
+                        <li class="fragment">Languages</li>
+                        <li class="fragment">Tutorials</li>
+                        <li class="fragment">Edge cases</li>
+                        <li class="fragment">Security</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2>Stack Overflow</h2>
+                    <img src="/img/presentations/2014-capital-one-apis/stackoverflow.jpg" class="standard" style="border: none;"/>
+                </section>
+
+                <section>
+                    <h2>Forums</h2>
+                    <img src="/img/presentations/2014-capital-one-apis/stripe-forum.jpg" class="standard" style="border: none;"/>
+                </section>
+                
+                <section>
+                    <h2>Forums</h2>
+                    <img src="/img/presentations/2014-capital-one-apis/linkedin-forum.jpg" class="standard" style="border: none;"/>
+                </section>
+                
+                <section>
+                    <h2>Internal Discussions</h2>
+                    <img src="/img/presentations/2014-capital-one-apis/spark-pay.jpg" class="standard" style="border: none;"/>
+                </section>
+                
+                <section>
+                    <h2>Helper Source Code</h2>
+                    <img src="/img/presentations/2014-capital-one-apis/sendgrid-csharp.jpg" class="standard" style="border: none;"/>
+                </section>
+                
+                <section>
+                    <h2>Evaluation criteria</h2>
+                    <ul class="bigger">
+                        <li>Documentation</li>
+                        <li class="fragment">Stack Overflow</li>
+                        <li class="fragment">Forums</li>
+                        <li class="fragment">Internal discussion</li>
+                        <li class="fragment">Source code</li>
+                    </ul>
+                </section>
+
+                <section data-state="integrate-title">
+                    <h1>Integrate</h1>
+                </section>
+
+                <section data-state="postman-demo">
+                    <h1 style="color: #222; font-size: 5em;">Demo</h1>
+                </section>
+                
+                <section>
+                    <h2>Integration Paths</h2>
+                    <ul class="bigger">
+                        <li>First-party helper library</li>
+                        <li>Unofficial helper library</li>
+                        <li>Unified API library</li>
+                        <li>HTTP requests</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2>Twilio first-party library</h2>
+                    <img src="/img/presentations/2014-capital-one-apis/twilio-java-helper.jpg" class="standard" style="border: none;"/>
+                </section>
+                
+                <section>
+                    <h2>GitHub first-party library</h2>
+                    <img src="/img/presentations/2014-capital-one-apis/github-official-helper-libraries.jpg" class="standard" style="border: none;"/>
+                </section>
+                
+                <section>
+                    <h2>GitHub unofficial libraries</h2>
+                    <img src="/img/presentations/2014-capital-one-apis/github-java-helper-library.jpg" class="standard" style="border: none;"/>
+                </section>
+                
+                <section>
+                    <h2>Unified API libraries</h2>
+                    <img src="/img/presentations/2014-capital-one-apis/libcloud.jpg" class="standard" style="border: none;"/>
+                </section>
+                
+                <section>
+                    <h2>HTTP requests</h2>
+                    <img src="/img/presentations/2014-capital-one-apis/apache-http-components.jpg" class="standard" style="border: none;"/>
+                </section>
+                
+                <section>
+                    <h2>Recommendations</h2>
+                    <ul class="bigger">
+                        <li>"Flex" APIs with a REST client</li>
+                        <li class="fragment">Use helper libraries initially</li>
+                        <li class="fragment">Abstract only failover APIs</li>
+                        <li class="fragment">Create libraries for career++</li>
+                        <li class="fragment">Process for upgrading libraries</li>
+                    </ul>
+                </section>
+                
+                <section data-state="funnel-viz-2">
+                    <div id="funnel-container-2"></div>
+                </section>
+
+                <section data-state="resources">
+                    <h1 style="color: #222;">Resources</h1>
+                </section>
+
+                <section>
+                    <h2>Resources</h2>
+                    <ul>
+                        <li><a href="http://leanstack.io/">Leanstack.io</a></li>
+                        <li><a href="http://saasclub.com/">SaaS Club</a></li>
+                        <li><a href="http://javaweeklybytes.com/">Java Weekly Bytes</a></li>
+                        <li><a href="http://www.geckoboard.com/widget-directory">Geckoboard Widget Directory</a></li>
+                        <li><a href="https://ducksboard.com/services-integrations/">Ducksboard Integrations</a></li>
+                        <li><a href="https://addons.heroku.com/">Heroku Addons</a></li>
+                        <li><a href="http://www.programmableweb.com/">Programmable Web</a></li>
+                        <li><a href="https://hc.apache.org/">Apache HTTPComponents</a></li>
+                        <li><a href="http://www.mattmakai.com/identifying-third-party-services-for-django.html">Identifying Third Party Services</a></li> 
+                        <li><a href="http://www.fullstackpython.com/">Full Stack Python</a></li>
+                        <li><a href="https://github.com/makaimc/mattmakai.github.com/blob/gh-pages/static/presentations/2014-capital-one-find-evaluate-integrate-external-apis.html">This presentation's source code</a></li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2>Matt Makai</h2>
+                    <ul class="bigger">
+                        <li><a href="http://twitter.com/mattmakai">@mattmakai</a></li>
+                        <li>matthew.makai@gmail.com</li>
+                        <li><a href="https://www.twilio.com/">Twilio</a></li>
+                        <li><a href="https://github.com/makaimc">makaimc</a> on GitHub</a>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Picture references</h2>
+                    <ul>
+                        <li><a href="http://www.orcanos.com/uploaded/ScreenShots/21_cfr_part_11/21_cfr_part_11_traceability_matrix.png">Word document requirements</a></li>
+                        <li><a href="http://blog.utest.com/wp-content/uploads/2012/10/Programming-Languages.jpg">Programming languages</a></li>
+                    </ul>
+                </section>
+		</div>
+
+        <script src="/js/jquery.min.js"></script>
+		<script src="/lib/js/head.min.js"></script>
+        <script src="/js/d3.min.js" charset="utf-8"></script>
+		<script src="/js/reveal.min.js"></script>
+        <script src="/js/presentations/std-bubbles.js"></script>
+        <script src="/js/presentations/api-growth.js"></script>
+        <script type="text/javascript" src="/js/presentations/d3-funnel-charts.js"></script>
+        <script type="text/javascript" src="/js/presentations/d3-funnel-chart-2.js"></script>
+		<script>
+            $(document).ready(function() {
+
+                // Full list of configuration options available here:
+                // https://github.com/hakimel/reveal.js#configuration
+                Reveal.initialize({
+                    controls: true,
+                    progress: true,
+                    history: true,
+                    center: true,
+
+                    theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+                    transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
+
+                    // Optional libraries used to extend on reveal.js
+                    dependencies: [
+                        { src: '/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                        { src: '/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                        { src: '/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                        { src: '/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                        { src: '/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                        { src: '/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+                        // { src: '/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+                        // { src: '/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+                    ]
+                });
+                
+            });
+
+            var containerWidth = $(".slides").width(),
+                containerHeight = $(".slides").height();
+
+            var margin = {top: 5, right: 5, bottom: 5, left: 5},
+                vizWidth = containerWidth,
+                vizHeight = containerHeight;
+
+            /* API growth visualization */
+            var apiGrowthSvg = d3.select("#api-growth-viz").append("svg")
+                .attr("width", vizWidth + margin.left + margin.right)
+                .attr("height", vizHeight + margin.top + margin.bottom)
+                .attr("class", "api-growth")
+                .attr("id", "api-growth-svg");
+
+            /* bubbles of APIs visualization */
+            var svg = d3.select("#bubbles-viz").append("svg")
+                .attr("width", vizWidth + margin.left + margin.right)
+                .attr("height", vizHeight + margin.top + margin.bottom)
+                .attr("class", "bubble")
+                .attr("id", "bubbles-svg");
+
+            /* funnel visualization */
+            var funnelSvg = d3.select("#funnel-container").append('svg')
+                                .attr('id', 'funnel-svg')
+                                .attr('width', vizWidth)
+                                .attr('height', vizHeight)
+                            .append('g');
+           
+            /* funnel visualization 2 */
+            var funnelSvg2 = d3.select("#funnel-container-2").append('svg')
+                                .attr('id', 'funnel-svg-2')
+                                .attr('width', vizWidth)
+                                .attr('height', vizHeight)
+                            .append('g');
+
+            var apiGrowthAlreadyDrawn = false;
+            Reveal.addEventListener( 'api-growth-viz', function() {
+                if (!apiGrowthAlreadyDrawn) {
+                    apiGrowthAlreadyDrawn = true;
+                    d3.json('/static/data/api-growth.json', drawApiGrowth);
+                }
+            } );
+            
+            Reveal.addEventListener( 'bubbles-viz', function() {
+                d3.json('/static/data/bubbles.json', drawBubblesChart);
+            } );
+
+            var alreadyDrawn = false;
+            Reveal.addEventListener('funnel-viz', function() {
+                data = [['Potential', 2000], ['Find', 1000], 
+                        ['Evaluate', 400], ['Integrate', 100]];
+                chart = new FunnelChart(data, 900, 500, 1/4);
+                if (!alreadyDrawn) {
+                    alreadyDrawn = true;
+                    chart.draw('#funnel-container', 2);
+                }
+            } );
+            
+            var funnelAlreadyDrawn = false;
+            Reveal.addEventListener('funnel-viz-2', function() {
+                data2 = [['Potential', 50], ['Find', 40], 
+                        ['Evaluate', 20], ['Integrate', 5]];
+                chart2 = new FunnelChart2(data2, 900, 500, 1/4);
+                if (!funnelAlreadyDrawn) {
+                    funnelAlreadyDrawn = true;
+                    chart2.draw('#funnel-container-2', 2);
+                }
+            } );
+		</script>
+
+	</body>
+</html>
