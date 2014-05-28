@@ -1,10 +1,47 @@
-Talks
-=====
+Tech Talks
+==========
 
 :category: talks
+:slug: talks
 
-2014 Talks
-----------
+
+12 talks so far from 2014
+-------------------------
+
+Full Stack Python
+~~~~~~~~~~~~~~~~~
+This talk is a high level overview for developers new to Python web 
+development and need to understand how various web stack layers fit 
+together. The content is based on information from the open source guide 
+`Full Stack Python <http://www.fullstackpython.com/>`_. This DC Python 
+version is a preview of the talk that will be delivered at 
+`EuroPython 2014 in Berlin <https://ep2014.europython.eu/en/event/talks/>`_.
+
+We'll cover what web developers need to know about virtual servers, web 
+servers, and WSGI servers, what web frameworks provide, the important 
+parts of a web application to monitor, how to handle static files and 
+conclude with resources to learn more about each layer of the Python web 
+stack.
+
+Upcoming talk at DC Python in Washington, D.C. on June 3.
+
+----
+
+
+`Ansible Notification Modules </presentations/2014-ansible-notification-modules.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Immediate notification when a deployment step has issues is critical for 
+efficient continuous delivery. This talk walks through the available Ansible 
+core notifications modules library. You'll learn how to easily integrate 
+various notification types into playbooks, especially the brand new modules 
+that come with Ansible 1.6.
+
+Upcoming talk at 
+`AnsibleFest NYC 2014 <https://www.eventbrite.com/e/ansiblefest-nyc-2014-tickets-10952628607>`_
+in New York, NY on May 20.
+
+----
+
 
 Creating a Web App Around Existing Statsmodels Code
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -17,7 +54,7 @@ through the Web.
 
 Upcoming talk to 
 `Statistical Programming DC <http://www.meetup.com/stats-prog-dc/>`_ 
-in Washington, D.C. (exact May date TBD).
+in Washington, D.C. (exact date TBD).
 
 ----
 
@@ -171,8 +208,8 @@ headquarters in San Francisco.
 
 
 
-2013 Talks
-----------
+14 talks from 2013
+------------------
 
 `Static Sites With Pelican </presentations/pelican-static-sites.html>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -393,10 +430,11 @@ best jobs out of school.
 
 Presented to `JMU's ACM group <http://acm.cs.jmu.edu/>`_ on January 23, 2013.
 
+
 ----
 
-2012 Talks
-----------
+7 talks from 2012
+-----------------
 
 `Agile Software Development in the Federal Government </presentations/agile-software-development-in-federal-government.html>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

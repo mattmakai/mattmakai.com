@@ -266,5 +266,9 @@
     <loc>http://www.mattmakai.com/twilio.html</loc>
     <priority>1.0</priority>
   </url>
+  <url>
+    <loc>http://www.mattmakai.com/work.html</loc>
+    <priority>1.0</priority>
+  </url>
 
 </urlset>
