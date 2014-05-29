@@ -14,11 +14,11 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="/css/reveal/reveal.min.css">
-		<link rel="stylesheet" href="/css/reveal/theme/pony.css" id="theme">
+		<link rel="stylesheet" href="/source/static/css/reveal/reveal.min.css">
+		<link rel="stylesheet" href="/source/static/css/reveal/theme/pony.css" id="theme">
 
 		<!-- For syntax highlighting -->
-		<link rel="stylesheet" href="/lib/css/zenburn.css">
+		<link rel="stylesheet" href="/source/static/lib/css/zenburn.css">
         <style>
             h1.not-cool {font-size: 2.2em; margin-top: 1em;}
             ol.bigger li, 
@@ -36,11 +36,11 @@
 
 		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
 		<script>
-			document.write( '<link rel="stylesheet" href="/css/reveal/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+			document.write( '<link rel="stylesheet" href="/source/static/css/reveal/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
 		</script>
 
 		<!--[if lt IE 9]>
-		<script src="/lib/js/html5shiv.js"></script>
+		<script src="/source/static/lib/js/html5shiv.js"></script>
 		<![endif]-->
 	</head>
 
@@ -67,7 +67,7 @@
                 
                 <section>
                     <h2>My first sys admin</h2>
-                    <img src="/img/presentations/2014-san-fran-django-ansible/sys-admin.jpg" style="border: 1px solid; box-shadow: none; background: none;" />
+                    <img src="/source/static/img/presentations/2014-san-fran-django-ansible/sys-admin.jpg" style="border: 1px solid; box-shadow: none; background: none;" />
                     <p>
                     <small><a href="http://farm5.static.flickr.com/4029/4360104794_4f3f2b7a2f_b.jpg">Picture reference</a></small>
                     </p>
@@ -79,13 +79,13 @@
                 
                 <section>
                     <h2>What starts as this...</h2>
-                    <img src="/img/presentations/2014-san-fran-django-ansible/bash-deploy-script.jpg" style="border: 1px solid; box-shadow: none; background: none;" />
+                    <img src="/source/static/img/presentations/2014-san-fran-django-ansible/bash-deploy-script.jpg" style="border: 1px solid; box-shadow: none; background: none;" />
                     <small><a href="http://blog.umanoapp.com/post/35685965949/writing-a-simple-deployment-script-for-your-ec2-servers">Original script reference</a></small>
                 </section>
 
                 <section>
                     <h2>...usually ends like this</h2>
-                    <img src="/img/presentations/2014-san-fran-django-ansible/meteor-heading-to-earth.jpg" style="border: 1px solid; box-shadow: none; background: none;" />
+                    <img src="/source/static/img/presentations/2014-san-fran-django-ansible/meteor-heading-to-earth.jpg" style="border: 1px solid; box-shadow: none; background: none;" />
                     <small><a href="http://www.redorbit.com/media/uploads/2013/02/shutterstock_71231404-617x416.jpg">Original picture reference</a></small>
                 </section>
                 
@@ -95,7 +95,7 @@
                 
                 <section>
                     <h2>Fabric Scripting</h2>
-                    <img src="/img/presentations/2014-san-fran-django-ansible/fabfile-gist.jpg" style="border: 1px solid; box-shadow: none; background: none;" />
+                    <img src="/source/static/img/presentations/2014-san-fran-django-ansible/fabfile-gist.jpg" style="border: 1px solid; box-shadow: none; background: none;" />
                     <small><a href="https://gist.github.com/makaimc/6382525">Gist</a></small>
                 </section>
 
@@ -115,7 +115,7 @@
                 </section>
                 
                 <section style="text-align: center;">
-                    <img src="/img/presentations/2014-san-fran-django-ansible/ansibleworks-logo.jpg" style="border: 1px solid; box-shadow: none; background: none; margin-top: 5em; border-radius: 4px;" />
+                    <img src="/source/static/img/presentations/2014-san-fran-django-ansible/ansibleworks-logo.jpg" style="border: 1px solid; box-shadow: none; background: none; margin-top: 5em; border-radius: 4px;" />
                 </section>
                 
                 <section>
@@ -143,12 +143,12 @@
 
                 <section>
                     <h2>Modules</h2>
-                    <img src="/img/presentations/2014-san-fran-django-ansible/ansible-modules-list.jpg" style="border: 1px solid; box-shadow: none; background: none;" />
+                    <img src="/source/static/img/presentations/2014-san-fran-django-ansible/ansible-modules-list.jpg" style="border: 1px solid; box-shadow: none; background: none;" />
                 </section>
                 
                 <section>
                     <h2>user module</h2>
-                    <img src="/img/presentations/2014-san-fran-django-ansible/ansible-user-module.jpg" style="border: 1px solid; box-shadow: none; background: none;" />
+                    <img src="/source/static/img/presentations/2014-san-fran-django-ansible/ansible-user-module.jpg" style="border: 1px solid; box-shadow: none; background: none;" />
                 </section>
                 
                 <section>
@@ -180,7 +180,7 @@ $ ansible webservers -m user -a   \
                     <h4>
                         <a href="https://github.com/makaimc/sf-django">https://github.com/makaimc/sf-django</a>
                     </h4>
-                    <img src="/img/presentations/2014-san-fran-django-ansible/deploy-with-ansible-repo.jpg" style="border: 1px solid; box-shadow: none; background: none;" />
+                    <img src="/source/static/img/presentations/2014-san-fran-django-ansible/deploy-with-ansible-repo.jpg" style="border: 1px solid; box-shadow: none; background: none;" />
                 </section>
                 
                 <section>
@@ -236,7 +236,7 @@ deploy
                 
                 <section>
                     <h2>Configure servers</h2>
-                    <img src="/img/presentations/2014-san-fran-django-ansible/deploy-config-mgmt.jpg" style="border: 1px solid; box-shadow: none; background: none; border-radius: 5px;" />
+                    <img src="/source/static/img/presentations/2014-san-fran-django-ansible/deploy-config-mgmt.jpg" style="border: 1px solid; box-shadow: none; background: none; border-radius: 5px;" />
                 </section>
                 
                 <section>
@@ -257,7 +257,7 @@ deploy
                 
                 <section>
                     <h2>Set up environment</h2>
-                    <img src="/img/presentations/2014-san-fran-django-ansible/deploy-python-env.jpg" style="border: 1px solid; box-shadow: none; background: none; border-radius: 5px;" />
+                    <img src="/source/static/img/presentations/2014-san-fran-django-ansible/deploy-python-env.jpg" style="border: 1px solid; box-shadow: none; background: none; border-radius: 5px;" />
                 </section>
                 
                 <section>
@@ -279,7 +279,7 @@ deploy
                 
                 <section>
                     <h2>Deploy code</h2>
-                    <img src="/img/presentations/2014-san-fran-django-ansible/deploy-code.jpg" style="border: 1px solid; box-shadow: none; background: none; border-radius: 5px;" />
+                    <img src="/source/static/img/presentations/2014-san-fran-django-ansible/deploy-code.jpg" style="border: 1px solid; box-shadow: none; background: none; border-radius: 5px;" />
                 </section>
                 
                 <section>
@@ -296,7 +296,7 @@ deploy
                 
                 <section>
                     <h2>Migrate DB schema &amp; data</h2>
-                    <img src="/img/presentations/2014-san-fran-django-ansible/deploy-database.jpg" style="border: 1px solid; box-shadow: none; background: none; border-radius: 5px;" />
+                    <img src="/source/static/img/presentations/2014-san-fran-django-ansible/deploy-database.jpg" style="border: 1px solid; box-shadow: none; background: none; border-radius: 5px;" />
                 </section>
                 
                 <section>
@@ -320,7 +320,7 @@ deploy
                 
                 <section>
                     <h2>Perform ad hoc tasks</h2>
-                    <img src="/img/presentations/2014-san-fran-django-ansible/deploy-ad-hoc.jpg" style="border: 1px solid; box-shadow: none; background: none; border-radius: 5px;" />
+                    <img src="/source/static/img/presentations/2014-san-fran-django-ansible/deploy-ad-hoc.jpg" style="border: 1px solid; box-shadow: none; background: none; border-radius: 5px;" />
                 </section>
                         
                 <section>
@@ -363,7 +363,7 @@ $ ansible-playbook django-stack.yml --step \
                 
                 <section>
                     <h2>Underwear</h2>
-                    <img src="/img/presentations/2014-san-fran-django-ansible/underwear-github.jpg" style="border: 1px solid; box-shadow: none; background: none;" />
+                    <img src="/source/static/img/presentations/2014-san-fran-django-ansible/underwear-github.jpg" style="border: 1px solid; box-shadow: none; background: none;" />
                 </section>
                 
                 <section>
@@ -417,9 +417,9 @@ $ ansible-playbook django-stack.yml --step \
                 </section>
 		</div>
 
-        <script src="/js/jquery.min.js"></script>
-		<script src="/lib/js/head.min.js"></script>
-		<script src="/js/reveal.min.js"></script>
+        <script src="/source/static/js/jquery.min.js"></script>
+		<script src="/source/static/lib/js/head.min.js"></script>
+		<script src="/source/static/js/reveal.min.js"></script>
 
 		<script>
 
@@ -436,14 +436,14 @@ $ ansible-playbook django-stack.yml --step \
 
 				// Optional libraries used to extend on reveal.js
 				dependencies: [
-					{ src: '/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: '/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: '/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: '/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: '/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-					{ src: '/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
-					// { src: '/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
-					// { src: '/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+					{ src: '/source/static/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '/source/static/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '/source/static/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '/source/static/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '/source/static/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: '/source/static/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: '/source/static/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: '/source/static/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
 				]
 			});
 		</script>

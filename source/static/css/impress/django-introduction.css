@@ -1,0 +1,17 @@
+body { background:#092e20; color: white;}
+h1 {font-size: 72px;}
+.smaller-text {font-size: 32px;}
+.slide-title {text-align: center; font-size: 2em; color: white; 
+                background: #234f32;
+              margin-top: 20px; line-height: 1.1em;}
+.slide-center {margin-top: 180px; font-size: 2.5em;}
+.slide-center-2 {margin-top: 35px;}
+.slide-author {margin-top: 150px;}
+.author-supporting-info {margin-top: 10px;}
+.single-word {font-size: 5em;}
+.larger-font {font-size: 4em;}
+ul.larger-bullets li {line-height: 80px; font-size: 50px;}
+.big-question {font-size: 12em; text-align: center;}
+.center {text-align: center;}
+a, a:hover {text-decoration: underline; color: blue;}
+pre {font-size: 24px; font-family: Courier;}

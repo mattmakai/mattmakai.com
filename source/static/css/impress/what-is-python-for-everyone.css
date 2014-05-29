@@ -1,0 +1,39 @@
+body { 
+  background: rgb(90, 159, 212);
+  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(90, 159, 212)), to(rgb(48, 105, 152)));
+  background: -webkit-radial-gradient(rgb(90, 159, 212), rgb(48, 105, 152));
+  background:    -moz-radial-gradient(rgb(90, 159, 212), rgb(48, 105, 152));
+  background:      -o-radial-gradient(rgb(90, 159, 212), rgb(48, 105, 152));
+  background:         radial-gradient(rgb(90, 159, 212), rgb(48, 105, 152));
+  -webkit-font-smoothing: antialiased;
+  color: #111;
+  font-family: sans-serif;
+}
+h1 {font-size: 72px;}
+.smaller-text {font-size: 32px;}
+.slide {
+  background: #333;
+  border: 2px solid #111;
+}
+.slide-title {text-align: center; font-size: 2em; color: white;
+              margin-top: 20px; line-height: 1.1em;}
+.slide-center {margin-top: 180px; font-size: 2.2em; color: #ffd43b;}
+.slide-center-2 {margin-top: 35px;}
+.slide-author {margin-top: 150px;}
+.author-supporting-info {margin-top: 10px;}
+.agenda-slide {margin-top: 50px; color: #ffd43b; font-size: 54px;}
+.single-word {font-size: 5em;}
+.larger-font {font-size: 4em;}
+ul {margin-left: 45px; font-size: 52px;}
+ul.larger-bullets li {line-height: 80px; font-size: 44px; color: white; margin-left: 40px;}
+.big-question {font-size: 12em; text-align: center;}
+.center {text-align: center;}
+a, a:hover {text-decoration: underline; color: blue;}
+pre {font-size: 24px; font-family: Courier; margin-left: 0px;}
+.step {
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+img {border: 2px solid #111;}
+.yellow {color: #ffd43b;}
+h2 {font-size: 52px;}
+.impress-enabled .step {opacity: 1;}

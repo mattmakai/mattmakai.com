@@ -1,0 +1,48 @@
+body {
+  background: rgb(235, 235, 235);
+  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(250, 250, 250)), to(rgb(190, 190, 190)));
+  background: -webkit-radial-gradient(rgb(250, 250, 250), rgb(190, 190, 190));
+  background:    -moz-radial-gradient(rgb(250, 250, 250), rgb(190, 190, 190));
+  background:      -o-radial-gradient(rgb(250, 250, 250), rgb(190, 190, 190));
+  background:         radial-gradient(rgb(250, 250, 250), rgb(190, 190, 190));
+  -webkit-font-smoothing: antialiased;
+}
+.slide-title {text-align: center; font-size: 2em; color: black;
+              margin-top: 20px; line-height: 1.1em;}
+.slide-center {margin-top: 220px; font-size: 3em;}
+.center-image {text-align: center;}
+.margin-top-20 {margin-top: 20px;}
+.margin-top-60 {margin-top: 60px;}
+.margin-top-80 {margin-top: 80px;}
+h1.title {font-size: 1.5em;}
+ul.bullets {list-style-type: circle; margin-left: 1em; font-size: 1.5em;
+            line-height: 1em;}
+ul.bullets li {margin-top: .75em; color: #333;}
+ul.bullets li.no-bullet {list-style-type: none;}
+.code {margin-top: 1.2em; font-family: "Courier New"; line-height: .75em;
+       color: #222;}
+.red {color: #CC0000;}
+ul.bullets li.red {color: #CC0000;}
+ul.reference-bullets {list-style-type: circle; margin-left: .5em; 
+                      font-size: .7em; line-height: 1em;}
+ul.reference-bullets li {margin-top: 15px;}
+code {font-family: courier;}
+.view-all {
+    z-index: -1;
+    opacity: 1;
+}
+
+/* on overview step everything is visible */
+
+#impress.step-overview2 .step {
+  opacity: 1;
+}
+
+.rotate-image {
+-webkit-transform: rotate(-270deg);
+-moz-transform: rotate(-270deg);
+}
+
+a {text-decoration: underline; color: blue; font-size: .8em;}
+pre.code {margin-left: -70px; font-family: courier; line-height: 1.2em;}
+pre.smaller {font-size: .75em;}

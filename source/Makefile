@@ -3,6 +3,8 @@ run:
 	cp -R ../pages/* ../
 	rm -rf ../pages/
 	cp -R static-html/* ..
+	mkdir ../static/data/
+	cp -R static-html/data/* ../data/
 
 init:
 	pip install -r requirements.txt

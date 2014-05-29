@@ -14,11 +14,11 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="/css/reveal/reveal.min.css">
-		<link rel="stylesheet" href="/css/reveal/theme/solarized.css" id="theme">
+		<link rel="stylesheet" href="/source/static/css/reveal/reveal.min.css">
+		<link rel="stylesheet" href="/source/static/css/reveal/theme/solarized.css" id="theme">
 
 		<!-- For syntax highlighting -->
-		<link rel="stylesheet" href="/lib/css/zenburn.css">
+		<link rel="stylesheet" href="/source/static/lib/css/zenburn.css">
         <style>
             .total-miles-tooltip {
                 color: #222;
@@ -43,11 +43,11 @@
 
 		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
 		<script>
-			document.write( '<link rel="stylesheet" href="/css/reveal/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+			document.write( '<link rel="stylesheet" href="/source/static/css/reveal/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
 		</script>
 
 		<!--[if lt IE 9]>
-		<script src="/lib/js/html5shiv.js"></script>
+		<script src="/source/static/lib/js/html5shiv.js"></script>
 		<![endif]-->
 	</head>
 
@@ -80,7 +80,7 @@
                 </section>
                 
                 <section>
-                    <img src="/img/presentations/omaha-python-dev-communities/caa-logo.png" style="border: none; box-shadow: none; background: none;" />
+                    <img src="/source/static/img/presentations/omaha-python-dev-communities/caa-logo.png" style="border: none; box-shadow: none; background: none;" />
 				</section>
 
 
@@ -97,7 +97,7 @@
 
                 <section>
                     <h2>March 9 - August 9</h2>
-                    <img src="/img/presentations/omaha-python-dev-communities/coding-across-america-map.jpg" style="border: 1px solid; box-shadow: none; background: none;" id="caa-map" />
+                    <img src="/source/static/img/presentations/omaha-python-dev-communities/coding-across-america-map.jpg" style="border: 1px solid; box-shadow: none; background: none;" id="caa-map" />
                 </section>
 
                 <section data-state="show-miles-driven">
@@ -130,7 +130,7 @@
                 </section>
                 
                 <section>
-                    <h1><img src="/img/presentations/omaha-python-dev-communities/omaha-py-logo-100x50.png" style="border: 2px solid white; vertical-align: bottom; padding: 15px;"> Community Perspective</h1>
+                    <h1><img src="/source/static/img/presentations/omaha-python-dev-communities/omaha-py-logo-100x50.png" style="border: 2px solid white; vertical-align: bottom; padding: 15px;"> Community Perspective</h1>
                     <aside class="notes">
                         Poll the audience on their background, what they want to get out of Omaha Python, and what they like/dislike about the community
                     </aside>
@@ -189,22 +189,22 @@
 
                 <section>
                     <h2>Introduction classes</h2>
-                    <img src="/img/presentations/omaha-python-dev-communities/dgentle-django.png" />
+                    <img src="/source/static/img/presentations/omaha-python-dev-communities/dgentle-django.png" />
                 </section>
                 
                 <section>
                     <h2>Hacking events</h2>
-                    <img src="/img/presentations/omaha-python-dev-communities/group_hacking_2.jpg" />
+                    <img src="/source/static/img/presentations/omaha-python-dev-communities/group_hacking_2.jpg" />
                 </section>
                 
                 <section>
                     <h2>National organizations</h2>
-                    <img src="/img/presentations/omaha-python-dev-communities/kauffman-foundation.jpg" />
+                    <img src="/source/static/img/presentations/omaha-python-dev-communities/kauffman-foundation.jpg" />
                 </section>
                 
                 <section>
                     <h2>Hacker houses</h2>
-                    <img src="/img/presentations/omaha-python-dev-communities/hacker-house.jpg" />
+                    <img src="/source/static/img/presentations/omaha-python-dev-communities/hacker-house.jpg" />
                 </section>
                 
                 <section>
@@ -280,10 +280,10 @@
                 </section>
 		</div>
 
-        <script src="/js/jquery.min.js"></script>
-        <script src="/js/d3.min.js" charset="utf-8"></script>
-		<script src="/lib/js/head.min.js"></script>
-		<script src="/js/reveal.min.js"></script>
+        <script src="/source/static/js/jquery.min.js"></script>
+        <script src="/source/static/js/d3.min.js" charset="utf-8"></script>
+		<script src="/source/static/lib/js/head.min.js"></script>
+		<script src="/source/static/js/reveal.min.js"></script>
 
 		<script>
 
@@ -346,14 +346,14 @@ svg.append("g")
 
 				// Optional libraries used to extend on reveal.js
 				dependencies: [
-					{ src: '/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: '/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: '/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: '/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: '/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-					{ src: '/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
-					// { src: '/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
-					// { src: '/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+					{ src: '/source/static/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '/source/static/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '/source/static/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '/source/static/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '/source/static/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: '/source/static/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: '/source/static/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: '/source/static/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
 				]
 			});
 

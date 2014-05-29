@@ -1,0 +1,22 @@
+.presentation-title {font-size: 3em; margin: 1em 0 1em 0;}
+.presentation-title p {margin-top: 1em;}
+h1.slide-title {text-align: center; font-size: 2.5em; margin: .5em 0 1em 0; 
+                color: black;}
+.agenda-points h2 {font-size: 2em; margin: .5em 0 0 .5em; color: black;}
+.agenda-break {margin-top: 3em;}
+.agenda-points ul {margin: 1em 0 0 3em; list-style-type: circle;}
+.center {text-align: center;}
+.section-title {font-size: 5em; color: black;}
+.section-title-text {margin-top: 2em; font-size: 1.25em;}
+.section-title-text p {margin-top: 1em;}
+ul.more-resources {list-style-type: circle; margin-left: 1em;}
+ul.more-resources li {margin-top: .5em;}
+.thank-you {font-size: 2em; text-align: center; margin-top: 2em; color: black;}
+ul.bullets {list-style-type: circle; margin-left: 1em; font-size: 1.5em;
+            line-height: 1em;}
+ul.bullets li {margin-top: .75em; color: #333;}
+ul.bullets li.no-bullet {list-style-type: none;}
+.code {margin-top: 1.2em; font-family: "Courier New"; line-height: .75em;
+       color: #222;}
+.red {color: #CC0000;}
+ul.bullets li.red {color: #CC0000;}

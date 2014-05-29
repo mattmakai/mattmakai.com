@@ -1,0 +1,10 @@
+body {background: white;}
+.slide-title {text-align: center; font-size: 2em; color: black;
+              margin-top: 20px; line-height: 1.1em;}
+.slide-center {margin-top: 220px; font-size: 2.5em;}
+.slide-author {margin-top: 200px;}
+.author-supporting-info {margin-top: 10px;}
+.single-word {font-size: 5em;}
+.larger-font {font-size: 4em;}
+.big-question {font-size: 12em; text-align: center;}
+.center {text-align: center;}
