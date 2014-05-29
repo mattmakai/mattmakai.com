@@ -4,9 +4,9 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>DjangoCon 2013: Python Lessons Learned From Roadtripping the US</title>
+		<title>DevOps-as-a-Service</title>
 
-		<meta name="description" content="A talk on making a city's developer community awesome based on my experiences during Coding Across America.">
+		<meta name="description" content="A talk on various options for integrating external third party services as part of your DevOps process.">
 		<meta name="author" content="Matt Makai">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
@@ -15,11 +15,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<link rel="stylesheet" href="/source/static/css/reveal/reveal.min.css">
-		<link rel="stylesheet" href="/source/static/css/reveal/theme/simple.css" id="theme">
+		<link rel="stylesheet" href="/source/static/css/reveal/theme/darkness.css" id="theme">
 
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="/source/static/lib/css/zenburn.css">
         <style>
+            h2.question {
+                font-size: 2.4em;
+            }
             .total-miles-tooltip {
                 color: #222;
                 background: #eee;
@@ -68,29 +71,21 @@
 			<div class="slides" style="text-align: left;">
 				<section>
 					<h1 style="font-size: 2.5em; font-weight: bold;">
-                        Python Lessons Learned From Roadtripping 
-                        the US for 5 Months
+                        DevOps Deployments-as-a-Service
                     </h1>
                     <br/>
-                    <h2 style="font-size: 1.8em;">DjangoCon 2013 Lightning Talk</h2>
+                    <h2 style="font-size: 1.75em;">DC Continuous Integration, Delivery, and Deployments</h2>
                     <br/>
 					<p>
 						<small><a href="http://www.mattmakai.com">Matt Makai</a> / <a href="http://twitter.com/mattmakai">@mattmakai</a></small>
 					</p>
 				</section>
-
-                <section>
-                    <div style="text-align: center;">
-                        <br/>&nbsp;<br/>&nbsp;<br/>&nbsp;<br/>
-                        <h1>PyCon?</h1>
-                    </div>
-                </section>
                 
                 <section style="text-align: center;">
                     <br/>
                     <img src="/source/static/img/presentations/django-district-aug-27-2013/caa-logo.png" style="border: none; box-shadow: none; background: none;" />
                     <div style="text-align: right; margin-right: 25px;">
-                        <strong><a href="http://www.codingacrossamerica.com/" style="color: #406BB4;">codingacrossamerica.com</a></strong>
+                        <strong><a href="http://www.codingacrossamerica.com/">codingacrossamerica.com</a></strong>
                     </div>
 				</section>
 
@@ -100,14 +95,14 @@
                     <img src="/source/static/img/presentations/omaha-python-dev-communities/coding-across-america-map.jpg" style="border: 1px solid; box-shadow: none; background: none;" id="caa-map" />
                 </section>
                 
-                <section data-state="show-miles-driven">
-                    <h2>Miles driven</h2>
-                    <div id="miles-driven-chart" style="height: 500px;"></div>
-                </section>
-                
                 <section>
                     <h2>Driving</h2>
                     <img src="/source/static/img/presentations/djangocon-2013/view-from-10k-feet.jpg"/>
+                </section>
+                
+                <section data-state="show-miles-driven">
+                    <h2>Miles driven</h2>
+                    <div id="miles-driven-chart" style="height: 500px;"></div>
                 </section>
                 
                 <section>
@@ -116,71 +111,258 @@
                 </section>
                 
                 <section>
-                    <h2>Meeting with Startups</h2>
+                    <h2>Meeting w/tech companies</h2>
                     <img src="/source/static/img/presentations/san-diego/copperegg-mascot.jpg"/>
                 </section>
                 
+                <section style="text-align: center;">
+                    <h1 style="margin-top: .55em;">
+                        DevOps Deployments-as-a-Service
+                    </h1>
+                </section>
+                
+                <section style="text-align: center;">
+                    <h1 style="margin-top: .25em; line-height: 1.25em;"> 
+                        DevOps? Deployments? Services?
+                    </h1>
+                </section>
+                
                 <section>
-                   <h2>Python &amp; Django Groups</h2>
-                   <ul class="bigger">
-                        <li>Django District, DC Python</li>
-                        <li>Memphis Python</li>
-                        <li>Austin Python</li>
-                        <li>San Diego Python</li>
-                        <li>Omaha Python</li>
-                        <li>Boston Django</li>
-                   </ul> 
+                    <div style="text-align: center;">
+                        <br/>&nbsp;<br/>&nbsp;<br/>&nbsp;<br/>
+                        <h2 class="question">Programming ecosystems?</h2>
+                    </div>
+                </section>
+                
+                <section>
+                    <div style="text-align: center;">
+                        <h2 class="question" style="margin-top: 1.2em;">Happy with current deployments?</h2>
+                        <h2 class="question" style="margin-top: .8em;">Improvements?</h2>
+                    </div>
+                </section>
+                
+                <section>
+                    <div style="text-align: center;">
+                        <br/>&nbsp;<br/>&nbsp;<br/>&nbsp;<br/>
+                        <h2 class="question">Using services for deployments?</h2>
+                    </div>
+                </section>
+                
+                <section style="text-align: center;">
+                    <h1 style="margin-top: 1.6em;">Ideal workflow</h1>
+                </section>
+                
+                <section> 
+                    <h2>Ideal workflow</h2>
+                    <img src="/source/static/img/presentations/dc-cont-intg/ideal-workflow.jpg" />
                 </section>
 
                 <section>
-                    <h2>Lessons Learned (1/5)</h2>
-                    <br/>
-                    <h1 style="font-size: 3em;">Python community inclusiveness</h1>
+                    <h2>General attributes</h2>
+                    <ul class="bigger">
+                        <li class="fragment">When something breaks, 
+                                             you know</li>
+                        <li class="fragment">Minimal maintenance time 
+                                             overhead</li>
+                        <li class="fragment">Metrics show progress 
+                                             over time</li>
+                        <li class="fragment">Confidence to always deliver
+                                             a quality application</li>
+                    </ul>
                 </section>
                 
                 <section>
-                    <h2>Lessons Learned (2/5)</h2>
-                    <br/>
-                    <h1 style="font-size: 3em;">Hook in to communities while traveling</h1>
+                    <h2>Where the process breaks</h2>
+                    <ul class="bigger">
+                        <li class="fragment">Uncertainty over benefits</li>
+                        <li class="fragment">Unclear how to set up</li>
+                        <li class="fragment">Missing links in execution</li>
+                        <li class="fragment">Difficulty provisioning 
+                                             environments</li>
+                    </ul>
+                </section>
+                
+                <section style="text-align: center;">
+                    <h1 style="margin-top: 1.6em;">Services</h1>
                 </section>
                 
                 <section>
-                    <h2>Lessons Learned (3/5)</h2>
-                    <br/>
-                    <h1 style="font-size: 3em;">Local communities need strong leaders</h1>
+                    <h2>General advantages</h2>
+                    <ul class="bigger">
+                        <li class="fragment">Saves (expensive) developer 
+                                             time</li>
+                        <li class="fragment">Minimal maintenace overhead</li>
+                        <li class="fragment">Opinionated</li>
+                        <li class="fragment">Company focused on product</li>
+                    </ul>
                 </section>
                 
                 <section>
-                    <h2>Lessons Learned (4/5)</h2>
-                    <br/>
-                    <h1 style="font-size: 3em;">Amazing diversity of software development</h1>
+                    <h2>General <strong>dis</strong>advantages</h2>
+                    <ul class="bigger">
+                        <li class="fragment">Lose control over data</li>
+                        <li class="fragment">Hosting fees</li>
+                        <li class="fragment">Opinionated</li>
+                        <li class="fragment">Long-term viability?</li>
+                    </ul>
+                </section>
+               
+                <section>
+                    <h2>Continuous Integration</h2>
+                    <img src="/source/static/img/presentations/dc-cont-intg/workflow-ci.jpg" />
                 </section>
                 
                 <section>
-                    <h2>Lessons Learned (5/5)</h2>
-                    <br/>
-                    <h1 style="font-size: 3em;">Washington, D.C. introductions</h1>
-                    <a href="http://www.codingacrossamerica.com/dc-offer.html">An offer to developers visiting D.C.</a>
+                    <h2>Circle CI</h2>
+                    <img src="/source/static/img/presentations/dc-cont-intg/circle-ci.jpg" />
                 </section>
                 
                 <section>
-                    <h2>Map of Local Resources</h2>
-                    <img src="/source/static/img/presentations/djangocon-2013/stories-by-city-lightning.jpg" />
+                    <h2>Travis CI</h2>
+                    <img src="/source/static/img/presentations/dc-cont-intg/travis-ci.jpg" />
                 </section>
-                
-                <section>
-                    <h2>External Resources</h2>
-                    <img src="/source/static/img/presentations/djangocon-2013/external-resources.png" />
-                </section>
-                
-                <section>
-                    <h3>Up next!</h3>
-                    <h1 style="font-size: 3.5em;">Making Django Play Nice with Third Party Services</h1>
-					<p>
-						<small><a href="http://www.mattmakai.com">Matt Makai</a> / <a href="http://twitter.com/mattmakai">@mattmakai</a></small>
-					</p>
-				</section>
 
+                <section>
+                    <h2>Atlassian Bamboo</h2>
+                    <img src="/source/static/img/presentations/dc-cont-intg/atlassian-bamboo.jpg" />
+                </section>
+                
+                <section>
+                    <h2>CloudBees Hosted Jenkins</h2>
+                    <img src="/source/static/img/presentations/dc-cont-intg/cloudbees-jenkins-ci.jpg" />
+                </section>
+                
+                <section>
+                    <h2>Semaphore (Rails)</h2>
+                    <img src="/source/static/img/presentations/dc-cont-intg/semaphore-ci.jpg" />
+                </section>
+
+                <section>
+                    <h2>Testing</h2>
+                    <img src="/source/static/img/presentations/dc-cont-intg/workflow-testing.jpg" />
+                </section>
+                
+                <section>
+                    <h2>BrowserStack</h2>
+                    <img src="/source/static/img/presentations/dc-cont-intg/browserstack.jpg" />
+                </section>
+                
+                <section>
+                    <h2>CrossBrowserTesting</h2>
+                    <img src="/source/static/img/presentations/dc-cont-intg/crossbrowsertesting.jpg" />
+                </section>
+                
+                <section>
+                    <h2>Monitoring</h2>
+                    <img src="/source/static/img/presentations/dc-cont-intg/workflow-monitor.jpg" />
+                </section>
+                
+                <section>
+                    <h2>New Relic</h2>
+                    <img src="/source/static/img/presentations/dc-cont-intg/new-relic.jpg" />
+                </section>
+                
+                <section>
+                    <h2>CopperEgg</h2>
+                    <img src="/source/static/img/presentations/dc-cont-intg/copperegg.jpg" />
+                </section>
+
+                <section>
+                    <h2>Pingdom</h2>
+                    <img src="/source/static/img/presentations/dc-cont-intg/pingdom.jpg" />
+                </section>
+                
+                <section>
+                    <h2>PagerDuty</h2>
+                    <img src="/source/static/img/presentations/dc-cont-intg/pagerduty.jpg" />
+                </section>
+                
+                
+                <section style="text-align: center;">
+                    <h1 style="margin-top: 1.6em;">Build Process</h1>
+                </section>
+                
+                <section>
+                    <h2>Code Climate (Ruby)</h2>
+                    <img src="/source/static/img/presentations/dc-cont-intg/code-climate.jpg" />
+                </section>
+                
+                <section>
+                    <h2>Factor.io</h2>
+                    <img src="/source/static/img/presentations/dc-cont-intg/factor-io.jpg" />
+                </section>
+                
+                <section>
+                    <h2>Tinfoil Security</h2>
+                    <img src="/source/static/img/presentations/dc-cont-intg/tinfoil-security.jpg" />
+                </section>
+                
+                
+                <section style="text-align: center;">
+                    <h1 style="margin-top: 1.6em;">Learning More</h1>
+                </section>
+
+                <section>
+                    <h2>Mindset</h2>
+                    <ul class="bigger">
+                        <li>Research when not under pressure to
+                            immediately integrate
+                        </li>
+                        <li>
+                            Ask "What problem can this service
+                            potentially solve?"
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Mindset</h2>
+                    <ul class="bigger">
+                        <li>
+                            Background and philosophy
+                        </li>
+                        <li>
+                            Openness about their solution approach
+                        </li>
+                        <li>Bookmark services and arguments for
+                            and against
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>"Push" sources</h2>
+                    <ul class="bigger">
+                        <li><a href="http://leanstack.io/">Leanstack</a></li>
+                        <li><a href="http://www.pythonweekly.com/">Python Weekly</a></li>
+                        <li><a href="http://rubyweekly.com/">Ruby Weekly</a></li>
+                        <li><a href="http://devopsweekly.com/">DevOps Weekly</a></li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Geckoboard Widgets</h2>
+                    <img src="/source/static/img/presentations/django-district-aug-27-2013/geckoboard-widget-directory.jpg"/>
+                </section>
+
+                <section>
+                    <h2>Ducksboard Integrations</h2>
+                    <img src="/source/static/img/presentations/django-district-aug-27-2013/ducksboard-integrations.jpg"/>
+                </section>
+               
+                <section>
+                    <h2>Resources</h2>
+                    <ul class="bigger">
+                        <li><a href="http://blog.leanstack.io/circleci-github-heroku-deployed-green-builds-in-minutes/">Heroku + Circle CI + GitHub</a></li>
+                        <li><a href="http://leanstack.io/">Leanstack</a></li>
+                        <li><a href="/identifying-third-party-services-for-django.html">Discovering Third Party Services for Django</a></li>
+                        <li><a href="http://www.geckoboard.com/widget-directory/">Geckoboard Widget Directory</a></li>
+                        <li><a href="https://ducksboard.com/services-integrations/">Ducksboard Services Integrations</a></li>
+                    </ul>
+
+                </section>
+                
+                
                 <section>
                     <h2>Thank you!</h2>
                     <ul class="bigger">
@@ -195,7 +377,7 @@
 		</div>
 
         <script src="/source/static/js/jquery.min.js"></script>
-        <script src="/source/static/js/d3.min.js" charset="utf-8"></script>
+        <script src="/js/d3.min.js" charset="utf-8"></script>
 		<script src="/source/static/lib/js/head.min.js"></script>
 		<script src="/source/static/js/reveal.min.js"></script>
 

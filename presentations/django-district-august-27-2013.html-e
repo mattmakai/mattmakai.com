@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>DjangoCon: Making Django Play Nice with Third Party Services</title>
+		<title>Django District: Making Django Play Nice with Third Party Services</title>
 
 		<meta name="description" content="Tips and tricks for working with third party services when using the Django web application framework.">
 		<meta name="author" content="Matt Makai">
@@ -15,7 +15,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<link rel="stylesheet" href="/source/static/css/reveal/reveal.min.css">
-		<link rel="stylesheet" href="/source/static/css/reveal/theme/pony.css" id="theme">
+		<link rel="stylesheet" href="/source/static/css/reveal/theme/beige.css" id="theme">
 
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="/source/static/lib/css/zenburn.css">
@@ -47,14 +47,42 @@
 		<div class="reveal">
 			<div class="slides" style="text-align: left;">
 				<section>
-                    <h1 style="font-size: 3em;">Making Django Play Nice with Third Party Services</h1>
+					<h1>Django District</h1>
                     <br/>
-                    <h2 style="color: #ddd;">DjangoCon 2013</h2>
+                    <h2>Making Django Play Nice with Third Party Services</h2>
+                    <br/>
 					<p>
 						<small><a href="http://www.mattmakai.com">Matt Makai</a> / <a href="http://twitter.com/mattmakai">@mattmakai</a></small>
 					</p>
 				</section>
                 
+                <section>
+                    <h2>Matt Makai</h2>
+                    <br/>
+                    <pre style="font-size: 30px; color: #222;">
+ {'name': 'Matt Makai',
+  'occupation': 'Full stack developer',
+  'specialties': ['Python',
+                  {'Django': 'since 0.96'},
+                  'prototypes',
+                  'oh crap! moments'],
+  'normal_location': 'Washington, DC', 
+ }
+                    </pre>
+                </section>
+                
+                <section style="text-align: center;">
+                    <br/>
+                    <img src="/source/static/img/presentations/django-district-aug-27-2013/caa-logo.png" style="border: none; box-shadow: none; background: none;" />
+                    <div style="text-align: right; margin-right: 25px;">
+                        <strong><a href="http://www.codingacrossamerica.com/" style="color: #406BB4;">codingacrossamerica.com</a></strong>
+                    </div>
+				</section>
+				
+                <section>
+					<h1>Making Django Play Nice with Third Party Services</h1>
+				</section>
+
                 <section>
                     <h2>Why Care?</h2>
                     <ul class="bigger">
@@ -73,19 +101,9 @@
                         <li>Maintain your sanity</li>
                     </ul>
                 </section>
-                
-                <section>
-                    <h2>Third Party Service Usage</h2>
-                    <img src="/source/static/img/presentations/djangocon-2013/funnel.jpg" />
-                </section>
 
                 <section style="text-align: center;">
                     <h1 style="margin-top: 1.6em;">Discover</h1>
-                </section>
-                
-                <section>
-                    <h2>Discover Services</h2>
-                    <img src="/source/static/img/presentations/djangocon-2013/funnel-discover.jpg" />
                 </section>
                 
                 <section>
@@ -146,21 +164,14 @@
                 </section>
 
                 <section>
-                    <h2>Evaluate Services</h2>
-                    <img src="/source/static/img/presentations/djangocon-2013/funnel-evaluate.jpg" />
-                </section>
-
-                <section>
                     <h2>Platform</h2>
                     <ul class="bigger">
-                        <li>Language tutorials provided?</li>
-                        <li>Platform ecosystem?</li>
-                        <li>Developer evangelists?</li>
-                        <li>Data gravity?</li>
-                        <li>StackExchange or forum discussions?</li>
+                        <li>What language tutorials do they provide?</li>
+                        <li>What ecosystem is their platform built with?</li>
+                        <li>Do they have developer evangelists to reach 
+                            out to?</li>
                     </ul>
                 </section>
-                
                 
                 <section>
                     <h2>Twilio</h2>
@@ -210,13 +221,17 @@
                     <img src="/source/static/img/presentations/django-district-aug-27-2013/intercom-github.jpg"/>
                 </section>
                 
-                <section style="text-align: center;">
-                    <h1 style="margin-top: 1.6em;">Integrate</h1>
+                <section>
+                    <h2>Factor.io</h2>
+                    <ul class="bigger">
+                        <li>Build and deployment workflow</li>
+                        <li>Microsoft &amp; PHP platform</li>
+                        <li>No Django tutorials or projects</li>
+                    </ul>
                 </section>
                 
-                <section>
-                    <h2>Integrate Services</h2>
-                    <img src="/source/static/img/presentations/djangocon-2013/funnel-integrate.jpg" />
+                <section style="text-align: center;">
+                    <h1 style="margin-top: 1.6em;">Integrate</h1>
                 </section>
 
                 <section>
@@ -237,7 +252,7 @@
                     <h2>First-party binding</h2>
                     <ul class="bigger">
                         <li>Ideal</li>
-                        <li>Age? Update frequency?</li>
+                        <li>Update frequency</li>
                         <li>Pull request incorporation speed</li>
                         <li>Outstanding issues</li>
                     </ul>
@@ -251,7 +266,7 @@
                 <section>
                     <h2>Third-party binding</h2>
                     <ul class="bigger">
-                        <li>Age? Update frequency?</li>
+                        <li>Update frequency</li>
                         <li>Pull request incorporation speed</li>
                         <li>Outstanding issues</li>
                         <li>Company backing?</li>
@@ -293,11 +308,6 @@
                 </section>
                 
                 <section>
-                    <h2>Maintain Services</h2>
-                    <img src="/source/static/img/presentations/djangocon-2013/funnel-maintain.jpg" />
-                </section>
-                
-                <section>
                     <h2>Project README / docs</h2>
                     <ul class="bigger">
                         <li>What services are used?</li>
@@ -316,17 +326,7 @@
                 
                 <section>
                     <h2>Local env variable setting</h2>
-                    <img src="/source/static/img/presentations/djangocon-2013/env_settings.jpg" />
-                </section>
-                
-                <section>
-                    <h2>Testing services</h2>
-                    <ul class="bigger">
-                        <li>Separate tests</li>
-                        <li>Custom test runner</li>
-                        <li>Break build? Or alert?</li>
-                        <li>unittest2 @if-skip decorator</li>
-                    </ul>
+                    <img src="/source/static/img/presentations/django-boston-july-2013/settings-set-envs.jpg" />
                 </section>
                 
                 <section>
@@ -339,6 +339,15 @@
                     </ul>
                 </section>
 
+                <section>
+                    <h2>Testing services</h2>
+                    <ul class="bigger">
+                        <li>Separate tests</li>
+                        <li>Custom test runner</li>
+                        <li>Break build? Or alert?</li>
+                    </ul>
+                </section>
+                
                 <section style="text-align: center;">
                     <h1 style="margin-top: 1.6em;">Resources</h1>
                 </section>
@@ -346,21 +355,18 @@
                 <section style="text-align: center;">
                     <h2>Resources</h2>
                     <ul>
-                        <li><a href="/identifying-third-party-services-for-django.html">Discovering Third Party Services for Django</a></li>
-                        <li><a href="http://libsaas.net/">Libsaas</a></li>
+                        <li><a href="/identifying-third-party-services-for-django.html">Discovering Third Party Services for Django</a>
                         <li><a href="https://django.2scoops.org/">2 Scoops of Django</a></li>
-                        <li><a href="https://addons.heroku.com/">Heroku Addons</a></li>
-                        <li><a href="http://www.geckoboard.com/widget-directory/">Geckoboard Widget Directory</a></li>
-                        <li><a href="https://ducksboard.com/services-integrations/">Ducksboard Services Integrations</a></li>
-                        <li><a href="http://leanstack.io/">Leanstack</a></li>
-                        <li><a href="http://www.pythonweekly.com/">Python Weekly</a></li>
-                        <li><a href="http://pycoders.com/">PyCoder's Weekly</a></li>
-                        <li><a href="http://lincolnloop.com/django-round-up/">Django Round-up</a></li>
                         <li><a href="http://docs.python-guide.org/en/latest/">Hitchhiker's Guide to Python</a></li>
                         <li><a href="http://www.fullstackpython.com/">Full Stack Python</a></li>
                     </ul>
                 </section>
 
+                <!-- questions and contact -->
+                <section style="text-align: center;">
+                    <h1 style="margin-top: 1.6em;">?</h1>
+                </section>
+                
                 <section>
                     <h2>Thank you!</h2>
                     <ul class="bigger">
@@ -372,25 +378,10 @@
                         <li><a href="http://www.codingacrossamerica.com/">www.codingacrossamerica.com</a></li>
                     </ul>
                 </section>
-                
-                <section style="text-align: center;">
-                    <br/>
-                    <img src="/source/static/img/presentations/django-district-aug-27-2013/caa-logo.png" style="border: none; box-shadow: none; background: none;" />
-                    <div style="text-align: right; margin-right: 25px;">
-                        <strong><a href="http://www.codingacrossamerica.com/" style="color: #406BB4;">codingacrossamerica.com</a></strong>
-                    </div>
-				</section>
-                
-                <!-- questions and contact -->
-                <section style="text-align: center;">
-                    <h1 style="margin-top: 1.6em;">?</h1>
-                </section>
-                
-                
 		</div>
 
         <script src="/source/static/js/jquery.min.js"></script>
-        <script src="/source/static/js/d3.min.js" charset="utf-8"></script>
+        <script src="/js/d3.min.js" charset="utf-8"></script>
 		<script src="/source/static/lib/js/head.min.js"></script>
 		<script src="/source/static/js/reveal.min.js"></script>
 

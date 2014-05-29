@@ -4,10 +4,10 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>Txt 2 React: Immediate Audience Feedback</title>
+		<title>Omaha Python: Making Your City's Developer Community Awesome</title>
 
-		<meta name="description" content="Txt 2 React is a web application built on the Twilio platform made for capturing audience feedback through text messages during a presentation. Tells the story of why it was created." />
-		<meta name="author" content="Matt Makai" />
+		<meta name="description" content="A talk on making a city's developer community awesome based on my experiences during Coding Across America.">
+		<meta name="author" content="Matt Makai">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -15,25 +15,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<link rel="stylesheet" href="/source/static/css/reveal/reveal.min.css">
-		<link rel="stylesheet" href="/source/static/css/reveal/theme/twilio.css" id="theme">
+		<link rel="stylesheet" href="/source/static/css/reveal/theme/solarized.css" id="theme">
 
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="/source/static/lib/css/zenburn.css">
         <style>
-            h1.not-cool {font-size: 2.2em; margin-top: 1em;}
-            ol.bigger li, 
-            ul.bigger li {
-               font-size: 1.4em;
-               margin-top: 20px;
-               margin-bottom: 15px;
-               line-height: 1.1em;
-               margin-left: 20px;
-            }
-            ol.bigger li {
-                margin-left: 1em;
-            }
-            img.edges {border: 1px solid; box-shadow: none; background: none;
-                       border-radius: 5px; }
             .total-miles-tooltip {
                 color: #222;
                 background: #eee;
@@ -66,128 +52,236 @@
 	</head>
 
 	<body>
+
 		<div class="reveal">
-            <div class="slides" style="text-align: left;">
+			<div class="slides" style="text-align: left;">
 				<section>
-                    <br/>
-					<h1>Txt 2 React</h1>
-                    <h3>Instant audience feedback via SMS</h3>
-					<p style="margin-top: 8em;"><small>
-                        <a href="http://www.mattmakai.com">Matt Makai</a> | 
-                        <a href="http://twitter.com/mattmakai">@mattmakai</a> |
-                        <a href="https://www.twilio.com">Twilio</a> 
-                        Developer Evangelist
-                    </small></p>
+					<h1>Omaha Python</h1>
+                    <h2>Making Your City's Developer Community Awesome</h2>
+					<p>
+						<small><a href="http://www.mattmakai.com">Matt Makai</a> / <a href="http://twitter.com/mattmakai">@mattmakai</a></small>
+					</p>
 				</section>
-                
-                <section style="text-align: center;">
-                    <img src="/source/static/img/presentations/omaha-python-dev-communities/caa-logo.png" style="border: none; box-shadow: none; background: none; margin-top: 2em;" />
+
+                <section>
+                    <h2>Matt Makai</h2>
+                    <pre style="font-size: 28px; color: #222;">
+ def what_you_do():
+   i_do = 
+     {'name': 'Matt Makai',
+      'occupation': 'Full stack developer',
+      'specialties': ['Python',
+                      'data visualization',
+                      'prototypes'],
+      'normal_location': 'Washington, DC', 
+     }
+   return i_do
+                    </pre>
                 </section>
                 
                 <section>
-                    <h2>Mar 9 - Aug 9, 30 cities</h2>
-                    <img src="/source/static/img/presentations/omaha-python-dev-communities/coding-across-america-map.jpg" class="edges" id="caa-map" />
-                </section>
+                    <img src="/source/static/img/presentations/omaha-python-dev-communities/caa-logo.png" style="border: none; box-shadow: none; background: none;" />
+				</section>
 
 
-               <section>
-                    <h2>Meeting startups</h2>
-                    <img src="/source/static/img/presentations/san-diego/copperegg-mascot.jpg" class="edges"/>
+                <section>
+                   <h2>Coding Across America?</h2>
+                   <ul>
+                        <li>Road tripping 30 cities in 5 months</li>
+                        <li>Talk with developers from all types of cities</li>
+                        <li>Write about problems being solved with 
+                            software</li>
+                        <li>Connect people in different locations</li>
+                    </ul> 
                 </section>
 
                 <section>
-                    <h2>Coding</h2>
-                    <img src="/source/static/img/presentations/django-boston-july-2013/chicago-coding-outside.jpg" class="edges"/>
-                </section>
-
-                <section>
-                    <h2>Exploring</h2>
-                    <img src="/source/static/img/presentations/django-boston-july-2013/hiking.jpg" class="edges"/>
-                </section> 
-                
-                <section>
-                    <h2>Driving</h2>
-                    <img src="/source/static/img/presentations/2014-txt2react-twilio-app/driving-west.jpg" class="edges"/>
+                    <h2>March 9 - August 9</h2>
+                    <img src="/source/static/img/presentations/omaha-python-dev-communities/coding-across-america-map.jpg" style="border: 1px solid; box-shadow: none; background: none;" id="caa-map" />
                 </section>
 
                 <section data-state="show-miles-driven">
                     <h2>Miles driven</h2>
                     <div id="miles-driven-chart" style="height: 500px;"></div>
                 </section>
-                
+				
                 <section>
-                    <h2>MemPy Talk</h2>
-                    <img src="/source/static/img/presentations/2014-txt2react-twilio-app/mempy-talk.jpg" class="edges"/>
+					<h1>Developer Communities</h1>
+                    <h2>Why should <strong>you</strong> care?</h2>
+				</section>
+                
+                <!-- talk agenda -->
+				<section>
+                    <h2>Tonight</h2>
+                    <ol>
+                        <li>Perspective</li>
+                        <li>Ideas</li>
+                        <li>Focus</li>
+                        <li>Execution</li>
+                    </ol>
+                </section>
+                
+                <!-- talk section #1 -->
+                <section>
+                    <h1>Perspective</h1>
+                    <aside class="notes">
+                        Perspective informs what to do.
+                    </aside>
                 </section>
                 
                 <section>
-                    <h2>DjangoCon Talk</h2>
-                    <img src="/source/static/img/presentations/2014-txt2react-twilio-app/djangocon-talk.jpg" class="edges"/>
+                    <h1><img src="/source/static/img/presentations/omaha-python-dev-communities/omaha-py-logo-100x50.png" style="border: 2px solid white; vertical-align: bottom; padding: 15px;"> Community Perspective</h1>
+                    <aside class="notes">
+                        Poll the audience on their background, what they want to get out of Omaha Python, and what they like/dislike about the community
+                    </aside>
                 </section>
                 
                 <section>
-                    <h2>Problem</h2>
-                    <img src="/source/static/img/presentations/2014-txt2react-twilio-app/no-feedback-loop.jpg" class="edges"/>
-                </section>
-                
-                <section>
-                    <h2>Close the Loop</h2>
-                    <img src="/source/static/img/presentations/2014-txt2react-twilio-app/talk-feedback-loop.jpg" class="edges"/>
-                </section>
-                
-                <section style="text-align: center;">
-                    <h1 style="margin-top: 1.2em;">Txt 2 React</h1>
-                </section>
-                
-                <section>
-                    <h2>Demo</h2>
-                    <img src="/source/static/img/presentations/2014-txt2react-twilio-app/txt2react-screenshot.jpg" class="edges" />
-                </section>
-                
-                <section>
-                    <h2>Txt 2 React</h2>
-                    <img src="/source/static/img/presentations/2014-txt2react-twilio-app/txt2react-github.jpg" class="edges" />
-                    <h4><a href="https://github.com/makaimc/txt2react">https://github.com/makaimc/txt2react</a></h4>
-                </section>
-                
-                <section>
-                    <h2>Underwear</h2>
-                    <img src="/source/static/img/presentations/2014-txt2react-twilio-app/underwear-github.jpg" class="edges" />
-                    <h4><a href="https://github.com/makaimc/underwear">https://github.com/makaimc/underwear</a></h4>
-                </section>
-                
-                <section>
-                    <h2>San Francisco Django</h2>
-                    <img src="/source/static/img/presentations/2014-txt2react-twilio-app/san-fran-django.jpg" class="edges" />
-                    <h4><a href="http://www.meetup.com/The-San-Francisco-Django-Meetup-Group/events/151920512/">Next Tuesday, January 14</a></h4>
-                </section>
-                
-                <section>
-                    <h2>Resources</h2>
+                    <h2>Python in Washington, DC: Good!</h2>
                     <ul>
-                        <li><a href="https://github.com/makaimc/txt2react">Txt 2 React source code</a></li>
-                        <li><a href="https://github.com/makaimc/underwear">Underwear source code</a></li>
-                        <li><a href="http://www.fullstackpython.com/">Full Stack Python</a></li>
-                        <li><a href="http://www.codingacrossamerica.com/">Coding Across America</a></li>
-                        <li><a href="https://github.com/makaimc/mattmakai.github.com/blob/gh-pages/static/presentations/2014-txt2react-twilio-app.html">This presentation's source code</a></li>
+                        <li>Organized groups</li>
+                        <li>PyLadies</li>
+                        <li>Teaching</li>
+                        <li>Media, government, &amp; science investment</li>
+                    </ul>
+               </section>
+               <section>
+                    <h2>Python in Washington, DC: Meh.</h2>
+                    <ul>
+                        <li>Marketing</li>
+                        <li>Greater community</li>
                     </ul>
                 </section>
                 
                 <section>
+                    <h2>Python in Austin, TX: Good!</h2>
+                    <ul>
+                        <li>Leaders</li>
+                        <li>Companies</li>
+                        <li>SciPy</li>
+                        <li>Buzz</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2>Python in Austin, TX: Meh.</h2>
+                    <ul>
+                        <li>Rails</li>
+                        <li>Teaching</li>
+                    </ul>
+                </section>
+
+                <!-- talk section #2 -->
+                <section>
+                    <h1>Ideas</h1>
+                </section>
+
+                <section>
+                    <h2>Ideas</h2>
+                    <ul>
+                        <li>Introduction classes (programming, data, web)</li>
+                        <li>Hacking events</li>
+                        <li>National organizations (NumFOCUS, PSF)</li>
+                        <li>Hacker houses</li>
+                        <li>...and more!</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Introduction classes</h2>
+                    <img src="/source/static/img/presentations/omaha-python-dev-communities/dgentle-django.png" />
+                </section>
+                
+                <section>
+                    <h2>Hacking events</h2>
+                    <img src="/source/static/img/presentations/omaha-python-dev-communities/group_hacking_2.jpg" />
+                </section>
+                
+                <section>
+                    <h2>National organizations</h2>
+                    <img src="/source/static/img/presentations/omaha-python-dev-communities/kauffman-foundation.jpg" />
+                </section>
+                
+                <section>
+                    <h2>Hacker houses</h2>
+                    <img src="/source/static/img/presentations/omaha-python-dev-communities/hacker-house.jpg" />
+                </section>
+                
+                <section>
+                    <h2>Additional ideas</h2>
+                    <ul>
+                        <li>Visiting speakers</li>
+                        <li>Various event spaces</li>
+                        <li>Working with other community groups</li>        
+                    </ul>
+                </section>
+                
+                <!-- talk section #3 -->
+                <section>
+                    <h1>Focus</h1>
+                </section>
+
+                <section>
+                    <h2>Focus</h2>
+                    <ul>
+                        <li>What will provide the most value to the community?</li>
+                        <li>Pick a cause to rally around</li>
+                        <li>Organizations that can help with time and/or money</li>
+                    </ul>
+                    <aside class="notes">
+                        Potential organizations are companies, non-profits,
+                        recruiting firms, and universities that use Python.
+                    </aside>
+                </section>
+
+                <!-- talk section #4 -->
+                <section>
+                    <h1>Execution</h1>
+                </section>
+
+                <section>
+                    <h2>Execution</h2>
+                    <ul>
+                        <li>Accountability and buy-in</li>
+                        <li>Awareness of tradeoffs event space</li>
+                        <li>Help speakers' w/ audience</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h1>Review</h1>
+                </section>
+				
+                <section>
+                    <h2>Review</h2>
+                    <ul>
+                        <li>Perspective</li>
+                        <li>Ideas</li>
+                        <li>Focus</li>
+                        <li>Execution</li>
+                    </ul>
+				</section>
+
+                <section style="text-align: center;">
+                    <h1>?</h1>
+                </section>
+                
+                <section>
                     <h2>Contact Information</h2>
-                    <ul class="bigger">
+                    <ul>
                         <li>Matt Makai</li>
+                        <li><a href="http://www.excella.com/">Excella Consulting</a></li>
                         <li><a href="http://twitter.com/mattmakai">@mattmakai</a></li>
                         <li>matthew.makai@gmail.com</li>
-                        <li><a href="https://github.com/makaimc">makaimc</a> on GitHub</a>
-                        <li><a href="http://www.mattmakai.com/">www.mattmakai.com</a></li>
-                        <li><a href="http://www.codingacrossamerica.com/">www.codingacrossamerica.com</a></li>
+                        <li><a href="http://www.mattmakai.com/">http://www.mattmakai.com/</a></li>
+                        <li><a href="http://www.codingacrossamerica.com/">http://www.codingacrossamerica.com/</a></li>
+                        <li><a href="http://www.mattmakai.com/static/presentations/omaha-python-july-2013.html">Presentation link</a></li>
                     </ul>
                 </section>
 		</div>
 
         <script src="/source/static/js/jquery.min.js"></script>
-        <script src="/source/static/js/d3.min.js" charset="utf-8"></script>
+        <script src="/js/d3.min.js" charset="utf-8"></script>
 		<script src="/source/static/lib/js/head.min.js"></script>
 		<script src="/source/static/js/reveal.min.js"></script>
 
@@ -202,7 +296,7 @@ var margin = {top: 5, right: 5, bottom: 5, left: 5},
     milesDrivenWidth = milesDrivenContainerWidth,
     milesDrivenHeight = milesDrivenContainerHeight;
 
-var maxDays = 150, maxMiles = 14000,
+var maxDays = 155, maxMiles = 11000,
     lineWidth = milesDrivenWidth / maxDays;
 
 var x = d3.scale.linear()

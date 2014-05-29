@@ -350,7 +350,7 @@
 
         <script src="/source/static/js/jquery.min.js"></script>
 		<script src="/source/static/lib/js/head.min.js"></script>
-        <script src="/source/static/js/d3.min.js" charset="utf-8"></script>
+        <script src="/js/d3.min.js" charset="utf-8"></script>
 		<script src="/source/static/js/reveal.min.js"></script>
         <script src="/js/presentations/std-bubbles.js"></script>
         <script src="/js/presentations/api-growth.js"></script>
