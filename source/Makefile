@@ -3,7 +3,7 @@ run:
 	cp -R ../pages/* ../
 	rm -rf ../pages/
 	cp -R static-html/* ..
-	mkdir ../static/data/
+	mkdir -p ../static/data/
 	cp -R static-html/data/* ../data/
 
 init:

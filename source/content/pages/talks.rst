@@ -8,13 +8,13 @@ Tech Talks
 12 talks so far from 2014
 -------------------------
 
-Full Stack Python
-~~~~~~~~~~~~~~~~~
+`Full Stack Python </presentations/2014-full-stack-python-dc.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 This talk is a high level overview for developers new to Python web 
 development and need to understand how various web stack layers fit 
-together. The content is based on information from the open source guide 
-`Full Stack Python <http://www.fullstackpython.com/>`_. This DC Python 
-version is a preview of the talk that will be delivered at 
+together. The content is based on information from the 
+`open source guide Full Stack Python <http://www.fullstackpython.com/>`_. 
+This DC Python version is a preview of the talk that will be delivered at 
 `EuroPython 2014 in Berlin <https://ep2014.europython.eu/en/event/talks/>`_.
 
 We'll cover what web developers need to know about virtual servers, web 
