@@ -23,7 +23,7 @@
         <style>
             ol.bigger li, 
             ul.bigger li {
-               font-size: 2em;
+               font-size: 2.2em;
                margin-top: 20px;
                margin-bottom: 15px;
                line-height: 1.1em;
@@ -95,23 +95,30 @@
                 </section>
                 
                 <section>
-                    <h1>What's that provide?</h1>
+                    <ul class="bigger">
+                        <li>URL routing</li> 
+                        <li class="fragment">Database interaction</li>
+                        <li class="fragment">Authentication</h1>
+                        <li class="fragment">Output templates</li>
+                        <li class="fragment">Code organization</li>
+                    </ul>
                 </section>
                 
-                <section>
-                    <h1>URL routing, templating, ORM, authentication</h1>
-                </section>
-
-                <section>
-                    <h1>Django, Flask, Pyramid</h1>
+                <section style="text-align: center;">
+                    <img src="/source/static/img/presentations/2014-full-stack-python/django.png" style="border: none; background: none; box-shadow: none;">
                 </section>
                 
-                <section>
-                    <h1>Basically we just need to generate HTML responses</h1>
+                <section data-state="gray-bg">
+                    <img src="/source/static/img/presentations/2014-full-stack-python/flask.png" style="border: none; background: none; box-shadow: none;">
                 </section>
                 
+                <!-- removing these slides for now
                 <section data-state="resources">
                     <h1 style="color: green;">CSS</h1>
+                </section>
+               
+                <section data-state="resources" style="text-align: center;">
+                    <img src="/source/static/img/presentations/2014-full-stack-python/jquery.png" style="border: none; background: none; box-shadow: none;" width="125%">
                 </section>
                 
                 <section data-state="resources">
@@ -125,14 +132,38 @@
                 <section style="text-align: center;">
                     <img src="/source/static/img/presentations/2014-full-stack-python/angular-js.png" style="border: none; background: none;">
                 </section>
+                -->
                 
                 <section>
-                    <h1>Ok, we built an "MVP" as these 
-                        lean guys like to say</h1>
+                    <div style="display: inline;">
+                        <div style="float: left;">
+                            <h2>Batteries<br/>included!</h2>
+                        </div>
+                        <div style="float: right;">
+                            <h2>Extensibility!</h2>
+                        </div>
+                    </div>
                 </section>
                 
                 <section>
-                    <h1>How do we get this on the web?</h1>
+                    <h1 style="color: green;">Calm down.</h1>
+                </section>
+                
+                <section data-state="resources">
+                    <h1 style="color: green;">WSGI</h1>
+                </section>
+                
+                <section>
+                    <h1 style='font-family: "Courier New"; font-weight: bold;'>
+                        <span style="color: green;">W</span>eb<br/> 
+                        <span style="color: green;">S</span>erver<br/> 
+                        <span style="color: green;">G</span>ateway<br/> 
+                        <span style="color: green;">I</span>nterface
+                    </h1>
+                </section>
+                
+                <section>
+                    <h1>PEP 333 & 3333</h1>
                 </section>
                 
                 <section data-state="resources">
@@ -324,6 +355,8 @@
                         <li><a href="http://wallpoper.com/images/00/38/82/48/light-bulbs_00388248.jpg">Light bulb</a></li>
                         <li><a href="http://thenypost.files.wordpress.com/2013/11/twitter2.jpg">Twitter IPO</a></li>
                         <li><a href="http://img1.wikia.nocookie.net/__cb20100807165027/nonciclopedia/images/b/b1/Logo_Python.png">Python logo</a></li>
+                        <li><a href="http://www.unixstickers.com/image/cache/data/stickers/django/django.sh-600x600.png">Django logo</a></li>
+                        <li><a href="http://flask.pocoo.org/static/logo/flask.png">Flask logo</a></li>
                         <li><a href="http://upload.wikimedia.org/wikipedia/en/thumb/9/9e/JQuery_logo.svg/524px-JQuery_logo.svg.png">JQuery logo</a></li>
                         <li><a href="https://theworkmob.com/static/img/angular-large.png">Angular JS logo</a></li>
                     </ul>

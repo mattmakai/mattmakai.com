@@ -215,4 +215,8 @@ body {
   background-color: #eee;
 }
 
+.gray-bg .reveal .state-background {
+  background-color: #ccc;
+}
+
 h1.light-bg {color: #222;}
