@@ -185,11 +185,6 @@ body {
   background-size: cover;
 }
 
-.rainbow-cat .reveal .state-background {
-  background: url(/source/static/img/presentations/2014-hacking-ansible/rainbow-cat.jpg);
-  background-size: cover;
-}
-
 .light-bulb .reveal .state-background {
   background: url(/source/static/img/presentations/2014-full-stack-python/light-bulb.jpg);
   background-size: cover;
@@ -206,17 +201,16 @@ body {
 }
 
 
-.drunk-guy .reveal .state-background {
-  background: url(/source/static/img/presentations/2014-hacking-ansible/drunk-guy.jpg);
-  background-size: cover;
-}
-
 .resources .reveal .state-background {
   background-color: #eee;
 }
 
 .gray-bg .reveal .state-background {
   background-color: #ccc;
+}
+
+.white-bg .reveal .state-background {
+  background-color: #fff;
 }
 
 h1.light-bg {color: #222;}
