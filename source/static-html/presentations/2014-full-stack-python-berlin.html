@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Full Stack Python: EuroPython</title>
+
+		<meta name="description" content="">
+
+		<meta name="author" content="Matt Makai">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="/source/static/css/reveal/reveal.min.css">
+		<link rel="stylesheet" href="/source/static/css/reveal/theme/full-stack-python.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="/source/static/lib/css/zenburn.css">
+        <style>
+            ol.bigger li, 
+            ul.bigger li {
+               font-size: 2.2em;
+               margin-top: 20px;
+               margin-bottom: 15px;
+               line-height: 1.1em;
+               margin-left: 20px;
+            }
+            ol.bigger li {
+                margin-left: 1em;
+            }
+            img.no-border-rounded {border: none; border-radius: 5px;}
+            h2.background-img {
+                font-size: 4.5em;
+                color: white;
+                text-shadow: -1px -1px 0 #222, 1px -1px 0 #222, 
+                -1px 1px 0 #222, 1px 1px 0 #222; 
+            }
+        </style>
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="/source/static/css/reveal/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="/source/static/lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div class="reveal">
+            <div class="slides" style="text-align: left;">
+				<section>
+                    <h1 style="margin-bottom: 25px;">Full Stack Python</h1>
+                    <h3>EuroPython July 2014</a></h3>
+                    <br>
+                    <br>
+					<p style="font-size: .85em;">
+                        <a href="http://www.mattmakai.com">Matt Makai</a> | 
+                        <a href="http://twitter.com/mattmakai">@mattmakai</a> |
+                        <a href="https://github.com/makaimc">makaimc</a> 
+                        on GitHub |
+                        <a href="https://www.twilio.com">Twilio</a> 
+                        Developer Evangelist
+                    </p>
+				</section>
+                
+                <section data-state="light-bulb">
+                </section>
+               
+                <section>
+                    <h1>Let's build it...</h1>
+                </section>
+                
+                <section style="text-align: center;">
+                    <img src="/source/static/img/presentations/2014-full-stack-python/python-logo.png" style="border: none; background: none; box-shadow: none;">
+                </section>
+                
+                <section data-state="python">
+                </section>
+                
+                <section data-state="resources">
+                    <h1 style="color: green;">Web framework</h1>
+                </section>
+                
+                <section>
+                    <ul class="bigger">
+                        <li>URL routing</li> 
+                        <li class="fragment">Database interaction</li>
+                        <li class="fragment">Authentication</h1>
+                        <li class="fragment">Output templates</li>
+                        <li class="fragment">Code organization</li>
+                    </ul>
+                </section>
+                
+                <section style="text-align: center;">
+                    <img src="/source/static/img/presentations/2014-full-stack-python/django.png" style="border: none; background: none; box-shadow: none;">
+                </section>
+                
+                <section data-state="gray-bg">
+                    <img src="/source/static/img/presentations/2014-full-stack-python/flask.png" style="border: none; background: none; box-shadow: none;">
+                </section>
+                
+                <!-- removing these slides for now
+                <section data-state="resources">
+                    <h1 style="color: green;">CSS</h1>
+                </section>
+               
+                <section data-state="resources" style="text-align: center;">
+                    <img src="/source/static/img/presentations/2014-full-stack-python/jquery.png" style="border: none; background: none; box-shadow: none;" width="125%">
+                </section>
+                
+                <section data-state="resources">
+                    <h1 style="color: green;">JavaScript</h1>
+                </section>
+                
+                <section data-state="resources" style="text-align: center;">
+                    <img src="/source/static/img/presentations/2014-full-stack-python/jquery.png" style="border: none; background: none; box-shadow: none;" width="125%">
+                </section>
+
+                <section style="text-align: center;">
+                    <img src="/source/static/img/presentations/2014-full-stack-python/angular-js.png" style="border: none; background: none;">
+                </section>
+                -->
+                
+                <section>
+                    <div style="display: inline;">
+                        <div style="float: left;">
+                            <h2 style="color: green;">Django</h2>
+                            <h2>Batteries<br/>included!</h2>
+                        </div>
+                        <div style="float: right;">
+                            <h2 style="color: green;">Flask</h2>
+                            <h2>Extensible!</h2>
+                        </div>
+                    </div>
+                </section>
+                
+                <section>
+                    <h1 style="color: green;">Calm down.</h1>
+                </section>
+                
+                <section data-state="resources">
+                    <h1 style="color: green;">WSGI</h1>
+                </section>
+                
+                <section>
+                    <h1 style='font-family: "Courier New"; font-weight: bold;'>
+                        <span style="color: green;">W</span>eb<br/> 
+                        <span style="color: green;">S</span>erver<br/> 
+                        <span style="color: green;">G</span>ateway<br/> 
+                        <span style="color: green;">I</span>nterface
+                    </h1>
+                </section>
+                
+                <section>
+                    <h1>PEP 333 & 3333</h1>
+                </section>
+                
+                <section data-state="white-bg" style="text-align: center;">
+                    <img src="/source/static/img/presentations/2014-full-stack-python/wsgi-interface.png" style="border: none; background: none; box-shadow: none;">
+                </section>
+                
+                <section data-state="resources" style="text-align: center;">
+                    <h1 style="color: green;">Full Stack Python</h1>
+                </section>
+
+                <section>
+                    <h2>WSGI servers</h2>
+                    <ul class="bigger">
+                        <li>Green Unicorn</li>
+                        <li class="fragment">mod_wsgi</li>
+                        <li class="fragment">uWSGI</li>
+                        <li class="fragment">CherryPy</li>
+                    </ul>
+                </section>
+                
+                <section data-state="resources">
+                    <h1 style="color: green;">Servers &amp; OS</h1>
+                </section>
+
+                <section>
+                    <h2>Server options</h2>
+                    <ul class="bigger">
+                        <li>Bare metal</li>
+                        <li class="fragment">Virtualized</li>
+                        <li class="fragment">IaaS</li>
+                        <li class="fragment">PaaS</li>
+                    </ul>
+                </section>
+
+                <section style="text-align: center;"> 
+                    <img src="/source/static/img/presentations/2014-full-stack-python/linux-tux.png" style="border: none; background: none;">
+                </section>
+                
+                <section>
+                    <div style="display: inline;">
+                        <div style="float: left;">
+                            <h1>Apache</h1>
+                            <img src="/source/static/img/presentations/2014-full-stack-python/apache-logo.png" style="border: none; background: none;">
+                        </div>
+                        <div style="float: right;">
+                            <h1>Nginx</h1>
+                            <img src="/source/static/img/presentations/2014-full-stack-python/nginx-logo.png" style="border: none; background: #eee; border-radius: 5px; margin-top: 50px;">
+                        </div>
+                    </div>
+                </section>
+                
+                <section data-state="white-bg">
+                    <img src="/source/static/img/presentations/2014-full-stack-python/web-browser-server-wsgi.png" style="border: none; background: none; box-shadow: none;">
+                </section>
+                
+                <section data-state="white-bg" style="text-align: center;">
+                    <img src="/source/static/img/presentations/2014-full-stack-python/web-wsgi.png" style="border: none; background: none; box-shadow: none;">
+                </section>
+
+                <section style="text-align: center;">
+                    <h1 style="color: red;">Missing?</h1>
+                </section>
+
+                <section>
+                    <h1>Our app</h1>
+                </section>
+                
+                <section data-state="resources">
+                    <h1 style="color: green;">Source control</h1>
+                </section>
+                
+                <section>
+                    <div style="display: inline;">
+                        <div style="float: left;">
+                            <img src="/source/static/img/presentations/2014-full-stack-python/git-logo.png" style="border: none; background: none; box-shadow: none;">
+                        </div>
+                        <div style="float: right;">
+                            <img src="/source/static/img/presentations/2014-full-stack-python/mercurial-logo.png" style="border: none; background: none; box-shadow: none; border-radius: 5px;">
+                        </div>
+                    </div>
+                </section>
+                
+                <section data-state="white-bg" style="text-align: center;">
+                    <img src="/source/static/img/presentations/2014-full-stack-python/app-source-control.png" style="border: none; background: none; box-shadow: none;">
+                </section>
+                
+                <section data-state="resources">
+                    <h1 style="color: green;">Dependencies</h1>
+                </section>
+                
+                <section>
+                    <h2 style="color: white;">Application dependencies</h2>
+                    <img src="/source/static/img/presentations/2014-full-stack-python/pd-git-repo.png" style="border: none; background: none; box-shadow: none;">
+                </section>
+                
+                <section data-state="requirements-txt">
+                </section>
+                
+                <section>
+                    <h1>virtualenv</h1>
+                </section>
+                
+                <section data-state="white-bg">
+                    <img src="/source/static/img/presentations/2014-full-stack-python/app-source-control-empty-virtualenv.png" style="border: none; background: none; box-shadow: none;">
+                </section>
+                
+                <section>
+                    <h1>pip install -r requirements.txt</h1>
+                </section>
+                
+                <section>
+                    <h1>PyPI</h1>
+                </section>
+                
+                <section data-state="white-bg">
+                    <img src="/source/static/img/presentations/2014-full-stack-python/app-source-control-virtualenv-pypi.png" style="border: none; background: none; box-shadow: none;">
+                </section>
+                
+                <section data-state="resources">
+                    <h1 style="color: green;">Data</h1>
+                </section>
+                
+                <section>
+                    <h1>Relational</h1>
+                </section>
+                
+                <section>
+                    <div style="display: inline;">
+                        <div style="float: left;">
+                            <img src="/source/static/img/presentations/2014-full-stack-python/postgresql-logo.png" style="border: none; background: none; box-shadow: none;">
+                            <h2>PostgreSQL</h2>
+                        </div>
+                        <div style="float: right;">
+                            <img src="/source/static/img/presentations/2014-full-stack-python/mysql-logo.png" style="border: none; background: none; box-shadow: none; margin-top: 155px;">
+                        </div>
+                    </div>
+                </section>
+                
+                <section data-state="white-bg">
+                    <img src="/source/static/img/presentations/2014-full-stack-python/server-setup-with-db.png" style="border: none; background: none; box-shadow: none;">
+                </section>
+                
+                <section data-state="resources">
+                    <h1 style="color: green;">Configuration management</h1>
+                </section>
+                
+                <section>
+                    <h2>Automation</h2>
+                    <ul class="bigger">
+                        <li>Chef</li>
+                        <li class="fragment">Puppet</li>
+                        <li class="fragment">SaltStack</li>
+                        <li class="fragment">Ansible</li>
+                    </ul>
+                </section>
+                
+                <section data-state="white-bg">
+                    <img src="/source/static/img/presentations/2014-full-stack-python/server-db-config-mgmt.png" style="border: none; background: none; box-shadow: none;">
+                </section>
+                
+                <section data-state="resources">
+                    <h1 style="color: green;">Web analytics</h1>
+                </section>
+                
+                <section>
+                    <h1>"Uhh.. anyone out there?"</h1>
+                </section>
+                
+                <section data-state="ga-fsp">
+                </section>
+
+                <!--<section>
+                    <img src="/source/static/img/presentations/2014-full-stack-python/ga-logo.png" style="border: none; background: none; box-shadow: none; border-radius: 5px;">
+                </section>-->
+                
+                <section data-state="resources">
+                    <h1 style="color: green;">Logging &amp; Monitoring</h1>
+                </section>
+                
+                <section>
+                    <h1 style="color: red;">ERROR</h1>
+                </section>
+                
+                <!--<section>
+                    <h1>New Relic, CopperEgg, PagerDuty</h1>
+                </section>
+                -->
+                
+                <section data-state="white-bg">
+                    <img src="/source/static/img/presentations/2014-full-stack-python/logging-analytics-monitoring.png" style="border: none; background: none; box-shadow: none;">
+                </section>
+                
+                <section data-state="resources">
+                    <h1 style="color: green;">Task queues</h1>
+                </section>
+                
+                <section>
+                    <h2>Task queues</h2>
+                    <ul class="bigger">
+                        <li>Celery</li>
+                        <li class="fragment">Taskmaster</li>
+                        <li class="fragment">RQ</li>
+                    </ul>
+                </section>
+                
+                <section data-state="white-bg">
+                    <img src="/source/static/img/presentations/2014-full-stack-python/task-queues.png" style="border: none; background: none; box-shadow: none;">
+                </section>
+                
+                <section>
+                    <h1 style="color: green;">We're live!</h1>
+                </section>
+                
+                <section>
+                    <img src="/source/static/img/presentations/2014-full-stack-python/proofdriven.jpg" style="border: none; background: none; box-shadow: none; border-radius: 5px;" width="200%">
+                </section>
+                
+                <section>
+                    <h2>Basics</h2>
+                    <ul class="bigger">
+                        <li>Web frameworks</li>
+                        <li class="fragment">WSGI</li>
+                        <li class="fragment">Servers &amp; OS</li>
+                        <li class="fragment">Web servers</li>
+                        <li class="fragment">App dependencies</li>
+                        <li class="fragment">Databases</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2>So much more...</h2>
+                    <ul class="bigger">
+                        <li>Configuration management</li>
+                        <li class="fragment">Web analytics</li>
+                        <li class="fragment">Logging</li>
+                        <li class="fragment">Monitoring</li>
+                        <li class="fragment">Task queues</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2>On Full Stack Python...</h2>
+                    <ul class="bigger">
+                        <li>CSS &amp; JavaScript</li>
+                        <li class="fragment">APIs</li>
+                        <li class="fragment">Web app security</li>
+                        <li class="fragment">NoSQL data stores</li>
+                        <li class="fragment">IaaS, PaaS</li>
+                        <li class="fragment">Static content</li>
+                    </ul>
+                </section>
+                
+                <section data-state="resources">
+                    <h1 style="color: green;">Resources</h1>
+                </section>
+                
+                <section>
+                    <h2>Resources</h2>
+                    <ul>
+                        <li><a href="http://www.fullstackpython.com/">Full Stack Python</a></li>
+                        <li><a href="http://programming.oreilly.com/2014/05/driving-demand-for-full-stack-developers.html">Driving Demand for Full Stack Developers</a></li>
+                        <li><a href="https://github.com/makaimc/fullstackpython.github.com">Full Stack Python GitHub repo</a></li>
+                        <li><a href="https://github.com/makaimc/mattmakai.github.io/blob/gh-pages/static/presentations/2014-full-stack-python-dc.html">This presentation's source code</a></li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2>Matt Makai</h2>
+                    <ul class="bigger">
+                        <li><a href="https://www.twilio.com/">Twilio</a> Developer Evangelist</li>
+                        <li><a href="http://twitter.com/mattmakai">@mattmakai</a></li>
+                        <li><a href="https://github.com/makaimc">makaimc</a> on GitHub</a>
+                        <li>mmakai@twilio.com</li>
+                        <li>matthew.makai@gmail.com</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Picture references</h2>
+                    <ul>
+                        <li><a href="http://wallpoper.com/images/00/38/82/48/light-bulbs_00388248.jpg">Light bulb</a></li>
+                        <li><a href="http://thenypost.files.wordpress.com/2013/11/twitter2.jpg">Twitter IPO</a></li>
+                        <li><a href="http://img1.wikia.nocookie.net/__cb20100807165027/nonciclopedia/images/b/b1/Logo_Python.png">Python logo</a></li>
+                        <li><a href="http://www.unixstickers.com/image/cache/data/stickers/django/django.sh-600x600.png">Django logo</a></li>
+                        <li><a href="http://flask.pocoo.org/static/logo/flask.png">Flask logo</a></li>
+                        <li><a href="http://clipartist.net/RSS/openclipart.org/Unity/tux_enhanced_penguin_linux_art-999px.png">Linux Tux</a></li>
+                        <li><a href="http://upload.wikimedia.org/wikipedia/en/thumb/9/9e/JQuery_logo.svg/524px-JQuery_logo.svg.png">JQuery logo</a></li>
+                        <li><a href="https://theworkmob.com/static/img/angular-large.png">Angular JS logo</a></li>
+                        <li><a href="http://knackforge.com/sites/default/files/apache_web_server_logo_0.png">Apache web server logo</a></li>
+                        <li><a href="http://comlounge.net/material/logo-nginx.png/image">Nginx logo</a></li>
+                        <li><a href="http://git-scm.com/images/logos/downloads/Git-Logo-White.png">Git logo</a></li>
+                        <li><a href="https://www.scm-manager.com/wp-content/uploads/2013/04/mercurial-logo.png">Mercurial logo</a></li>
+                        <li><a href="http://cdn1.itcentralstation.com/vendors/logos/original/postgresql_logo-555px.png?1392729205">PostgreSQL logo</a></li>
+                        <li><a href="http://www.flexinetworks.pt/blog/wp-content/uploads/2013/09/MySQL-1024x768.png">MySQL logo</a></li>
+                        <li><a href="http://strategylab.ca/wp-content/uploads/2013/09/Google-Analytics-logo-2013-small-770x300.png">GA logo</a></li>
+                    </ul>
+                </section>
+		</div>
+
+        <script src="/source/static/js/jquery.min.js"></script>
+		<script src="/source/static/lib/js/head.min.js"></script>
+		<script src="/source/static/js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: '/source/static/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '/source/static/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '/source/static/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '/source/static/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '/source/static/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: '/source/static/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: '/source/static/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: '/source/static/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+		</script>
+
+	</body>
+</html>

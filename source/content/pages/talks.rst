@@ -5,11 +5,38 @@ Tech Talks
 :slug: talks
 
 
-12 talks so far from 2014
+14 talks so far from 2014
 -------------------------
 
-`Full Stack Python </presentations/2014-full-stack-python-dc.html>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+`Full Stack Python </presentations/2014-full-stack-python-berlin.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Upcoming talk for 
+`EuroPython <https://ep2014.europython.eu/en/schedule/schedule/>`_ 
+in Berlin, Germany on July 22.
+
+----
+
+
+`Deployed in 60 Minutes </presentations/2014-qcon-deployed-60-mins.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Software end users demand to know: why did you tell them a feature was "code 
+complete" but they won't get to use it until it's deployed months later? Why 
+is it so difficult to perform production deployments in most organizations?
+ 
+This talk will explore why deployments are so difficult and show solutions 
+with case studies for how other organizations cut their production deployment 
+times down from months to every hour.
+
+Upcoming talk will be given at 
+`QCon NYC <https://qconnewyork.com/users/matt-makai>`_ on June 12.
+
+----
+
+
+`Full Stack Python: Take One </presentations/2014-full-stack-python-dc.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 This talk is a high level overview for developers new to Python web 
 development and need to understand how various web stack layers fit 
 together. The content is based on information from the 
@@ -23,7 +50,9 @@ parts of a web application to monitor, how to handle static files and
 conclude with resources to learn more about each layer of the Python web 
 stack.
 
-Upcoming talk at DC Python in Washington, D.C. on June 3.
+Talk given at 
+`DC Python meetup <http://www.meetup.com/DCPython/events/184415582/>`_ 
+in Washington, D.C. on June 3.
 
 ----
 
@@ -36,7 +65,7 @@ core notifications modules library. You'll learn how to easily integrate
 various notification types into playbooks, especially the brand new modules 
 that come with Ansible 1.6.
 
-Upcoming talk at 
+Talk given at 
 `AnsibleFest NYC 2014 <https://www.eventbrite.com/e/ansiblefest-nyc-2014-tickets-10952628607>`_
 in New York, NY on May 20.
 
