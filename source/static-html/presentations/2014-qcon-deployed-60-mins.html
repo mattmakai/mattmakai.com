@@ -16,7 +16,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<link rel="stylesheet" href="/source/static/css/reveal/reveal.min.css">
-		<link rel="stylesheet" href="/source/static/css/reveal/theme/full-stack-python.css" id="theme">
+		<link rel="stylesheet" href="/source/static/css/reveal/theme/qcon-nyc.css" id="theme">
 
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="/source/static/lib/css/zenburn.css">
@@ -55,7 +55,8 @@
 		<div class="reveal">
             <div class="slides" style="text-align: left;">
 				<section>
-                    <h1 style="margin-bottom: 25px;">Deployed in 60 Minutes</h1>
+                    <h1 style="margin-bottom: 30px; line-height: 1em;">Deployed in
+                        <br/>60 Minutes</h1>
                     <h4>QCon NYC July 2014</a></h4>
                     <br>
                     <br>
@@ -68,6 +69,151 @@
                         Developer Evangelist
                     </p>
 				</section>
+                
+                <section>
+                    <h1>The day began like any other. It ended a week 
+                        later with lost accounts, revenue and credibility</h1>
+                </section>
+                
+                <section>
+                    <h1>External facing product that helps customers process
+                        account transactions</h1>
+                </section>
+
+                <section style="text-align: center;">
+                    <img src="/source/static/img/presentations/2014-qcon-nyc/redis-logo.png">
+                </section>
+
+                <section>
+                    <h2>5 whys</h2>
+                    <ul>
+                        <li>App code checked local Redis server for
+                            user account data and charged incorrect amounts</li>
+                        <li>3 of 5 Redis instances did not properly invalidate 
+                            their cache upon user account update</li>
+                        <li>A background cache invalidation program deployed 
+                            to only 2 web servers.</li>
+                        <li>Ops not properly informed of script that must be 
+                            deployed to all application servers. It was on
+                            2 of the servers because instructions said 
+                            "deploy to web server" but not to all.</li>
+                        <li>Ops not informed because developer created 
+                            background program in January, left company in
+                            March, deployment executed in June.</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h1>In the aftermath, the company surveyed 
+                        developers+ops</h1>
+                </section>
+                
+                <section>
+                    <h1>Here's what they found.</h1>
+                </section>
+
+                <section>
+                    <h1>Hard choices have to be made...</h1>
+                </section>
+                
+                <section>
+                    <h1>...but they have to be the choices that will
+                        actually solve the problem.</h1>
+                </section>
+
+                <section>
+                    <h1>What works, versus the traditional route
+                        enterprises often take?</h1>
+                </section>
+                
+                <section>
+                    <h1>Technologists always say.. we should do x.
+                        It'll make us faster, better quality. Bullshit.</h1>
+                </section>
+                
+                <section>
+                    <h1>Let's talk the language of the business.</h1>
+                </section>
+                
+                <section>
+                    <h1>What do they understand?</h1>
+                </section>
+                
+                <section>
+                    <h1>$</h1>
+                </section>
+                
+                <section>
+                    <h1>For every decision here I'm going to calculate
+                        the net present value of each decision if you implement
+                        it on a project
+                    </h1>
+                </section>
+                
+                <section>
+                    <h1>I'll show you the money it'll save over a period of
+                        1, 3 and 5 years</h1>
+                </section>
+                
+                <section>
+                    <div style="display: inline;">
+                        <div style="float: left;">
+                            <h1>60 minutes</h1>
+                        </div>
+                        <div style="float: right;">
+                            <h1>10 months</h1>
+                        </div>
+                    </div>
+                </section>
+                
+                <section>
+                    <h1>Visualize decisions that each org made that led 
+                        to speed up versus slow down</h1>
+                </section>
+                
+                <section>
+                    <div style="display: inline;">
+                        <div style="float: left;">
+                            <h1>3 months</h1>
+                        </div>
+                        <div style="float: right;">
+                            <h1>3 months</h1>
+                        </div>
+                    </div>
+                </section>
+                
+                <section>
+                    <h1>2/3 technical, 1/3 culture</h1>
+                </section>
+
+
+                <section>
+                    <h1></h1>
+                </section>
+
+                
+                <section>
+                    <h2>Why decreased-increased</h2>
+                    <ul>
+                        <li>Look at Simon's slides for regulated 
+                            environments</li>
+                        <li>Decision making with technical workers 
+                            vs executive CCB</li>
+                        <li>Continuous integration</li>
+                        <li>Meetings blocked versus whenever</li>
+                        <li>Automated unit/integration testing</li>
+                        <li>Clueless architect vs extensive developer</li>
+                        <li>Time to obtain dev, test, prod environments</li>
+                        <li>Justification for every decision versus 
+                            important decisions</li>
+                        <li>Automating security hooks vs manual testing</li>
+                        <li>Definitive project end dates versus 
+                            ongoing business value creation</li>
+                        <li>Deployment during hours vs after hours</li>
+                        <li>Speed up versus slow down</li>
+                    </ul>
+                </section>
+                
                 
                 <section>
                     <h2>Resources</h2>

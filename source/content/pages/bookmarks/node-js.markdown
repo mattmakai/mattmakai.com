@@ -32,3 +32,7 @@ slug: node-js
 * [Why everyone is talking about Node](http://mashable.com/2011/03/10/node-js/)
   is a less technical but relevant explanation for node's current popularity.
 
+* [Node.js in Production](http://blog.carbonfive.com/2014/06/02/node-js-in-production/)
+  shows an example node.js production set up with a load balancer, two
+  web servers and a single database backend server. The configuration is
+  performed with Ansible.
