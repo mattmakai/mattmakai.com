@@ -13,7 +13,9 @@ The majority of my work has been on
 day with new sections, resources and explanations for all layers of the Python
 web stack.
 
-There are also three blog posts on Twilio's blog:
+There are three blog posts on `Twilio <https://www.twilio.com/>`_'s blog as 
+well as one on 
+`O'Reilly's Programming Blog <http://programming.oreilly.com/>`_:
 
 * `Introducing Developer Evangelist Matt Makai <https://www.twilio.com/blog/2014/02/introducing-developer-evangelist-matt-makai.html>`_
   is my introductory blog post. I write about D.C.'s current mistake-avoidance
