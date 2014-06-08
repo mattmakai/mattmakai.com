@@ -1,5 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/all.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2014-01-17T00:00:00-05:00</updated><entry><title>CFPB Collab MySQL Install Error</title><link href="http://www.letshackdc.com/cfpb-collab-mysql-requirements-txt-installation-error.html" rel="alternate"></link><updated>2014-01-17T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-01-17:cfpb-collab-mysql-requirements-txt-installation-error.html</id><summary type="html">&lt;p&gt;In case you're trying to get &lt;a class="reference external" href="https://github.com/cfpb/collab"&gt;CFPB collab&lt;/a&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/all.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2014-06-08T00:00:00-04:00</updated><entry><title>Recent Writing</title><link href="http://www.letshackdc.com/recent-writing-june-2014.html" rel="alternate"></link><updated>2014-06-08T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-06-08:recent-writing-june-2014.html</id><summary type="html">&lt;p&gt;Recently I have been writing content on other places around the Web. Here's a
+quick summary of what I've been up to.&lt;/p&gt;
+&lt;p&gt;The majority of my work has been on
+&lt;a class="reference external" href="http://www.fullstackpython.com/"&gt;Full Stack Python&lt;/a&gt;, which I update every
+day with new sections, resources and explanations for all layers of the Python
+web stack.&lt;/p&gt;
+&lt;p&gt;There are also three blog posts on Twilio's blog:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.twilio.com/blog/2014/02/introducing-developer-evangelist-matt-makai.html"&gt;Introducing Developer Evangelist Matt Makai&lt;/a&gt;
+is my introductory blog post. I write about D.C.'s current mistake-avoidance
+culture and the perils of not stretching yourself professionally because
+you're too afraid to fail at anything.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.twilio.com/blog/2014/05/ansible-text-messages-notifications-with-twilio-sms.html"&gt;Ansible Text Message Notifications with Twilio SMS&lt;/a&gt;
+is a detailed walkthrough for the Twilio notifications module in core
+&lt;a class="reference external" href="http://www.ansible.com/home"&gt;Ansible&lt;/a&gt; as of the
+&lt;a class="reference external" href="http://www.ansible.com/blog/ansible-1.6-adds-30-new-modules"&gt;1.6 release&lt;/a&gt;
+that came out in May.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.twilio.com/blog/2014/05/github-pull-request-sms-alerts.html"&gt;How To Set Up GitHub Activity SMS Alerts&lt;/a&gt;
+is a short guide for adding SMS notifications to GitHub pull requests with
+Twilio and Zapier. It's a handy trick I use on Full Stack Python to ensure
+I respond to new requests in a timely fashion.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://programming.oreilly.com/2014/05/driving-demand-for-full-stack-developers.html"&gt;Driving demand for full stack developers&lt;/a&gt;
+is my most recent post and first time on the O'Reilly Programming Blog.
+I enjoyed thinking about the full stack trend and writing about it. I may
+reconsider my positions taken in that post at some point. For now though I
+do believe the proliferation of mature open source projects, APIs and
+infrastructure-as-code as major trends that allow talented developers to
+produce entire professional applications themselves with scope that would've
+been impossible as little as 5 years ago.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There are several other posts in the works. However, much of my focus lately
+has been on producing content for technical talks. In particular, I'm looking
+forward to my
+&lt;a class="reference external" href="https://ep2014.europython.eu/en/schedule/sessions/41/"&gt;Full Stack Python talk at EuroPython&lt;/a&gt;
+in Berlin on July 22nd.&lt;/p&gt;
+</summary></entry><entry><title>CFPB Collab MySQL Install Error</title><link href="http://www.letshackdc.com/cfpb-collab-mysql-requirements-txt-installation-error.html" rel="alternate"></link><updated>2014-01-17T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-01-17:cfpb-collab-mysql-requirements-txt-installation-error.html</id><summary type="html">&lt;p&gt;In case you're trying to get &lt;a class="reference external" href="https://github.com/cfpb/collab"&gt;CFPB collab&lt;/a&gt;
 working in your environment, there's a few errors you might run into. This is
 a quick post to highlight solutions to the issues I came across.&lt;/p&gt;
 &lt;p&gt;Collab currently requires MySQL for the backend. I do not believe MySQL is a
