@@ -15,3 +15,16 @@
   VP wants Chef, ops folks perfer Puppet but officially
   no decision made and you must use shell scripts to
   automate
+
+## what a mess
+* many companies would ask how do we control this?
+  we need controls in place. lets have review boards
+* instead, they took a different approach
+
+## light bulb?
+* what are the biggest changes we can make as investments to
+  go from deploying in 6 months to 60 minutes? 
+
+
+## results
+* continuous integration also includes automated testing, deployment

@@ -23,11 +23,11 @@
         <style>
             ol.bigger li, 
             ul.bigger li {
-               font-size: 2.2em;
+               font-size: 2em;
                margin-top: 20px;
                margin-bottom: 15px;
                line-height: 1.1em;
-               margin-left: 20px;
+               margin-left: 10px;
             }
             ol.bigger li {
                 margin-left: 1em;
@@ -51,6 +51,11 @@
             
             .survey .reveal .state-background {
               background: url(/source/static/img/presentations/2014-qcon-nyc/survey.jpg);
+              background-size: cover;
+            }
+            
+            .light-bulb .reveal .state-background {
+              background: url(/source/static/img/presentations/2014-full-stack-python/light-bulb.jpg);
               background-size: cover;
             }
 
@@ -136,43 +141,61 @@
                 <section data-state="black-bg" style="text-align: center;"> 
                     <h1 style="color: red;">What a mess.</h1>
                 </section>
+                
+                <section data-state="light-bulb">
+                </section>
 
                 <section data-state="survey">
                 </section>
                 
-                <section>
-                    <h1>Here's what they found.</h1>
+                <section style="text-align: center;">
+                    <h1>Results</h1>
                 </section>
 
                 <section>
-                    <h1>Hard choices have to be made...</h1>
-                </section>
-                
-                <section>
-                    <h1>...but they have to be the choices that will
-                        actually solve the problem.</h1>
+                    <ul class="bigger">
+                        <li>Configuration management</li>
+                        <li class="fragment">Continuous integration</li>
+                        <li class="fragment">Time to obtain environments</li>
+                        <li class="fragment">Incident response time</li>
+                        <li class="fragment">Meetings sprawl</li>
+                    <ul>
                 </section>
 
                 <section>
-                    <h1>What works, versus the traditional route
-                        enterprises often take?</h1>
+                    <h1>One result stood loud and clear: We've tried 
+                        making improvements to ops process before but 
+                        they were pushed aside during implementation because
+                        there was no "business case" for them</h1>
                 </section>
                 
                 <section>
-                    <h1>Technologists always say.. we should do x.
-                        It'll make us faster, better quality. Bullshit.</h1>
+                    <h1>Rather than just saying "this time will be different",
+                        they created a business case for technical
+                        improvement buckets.</h1>
                 </section>
                 
                 <section>
-                    <h1>Let's talk the language of the business.</h1>
+                    <h1>See, finance looks at IT as a cost center.</h1>
                 </section>
                 
                 <section>
-                    <h1>What do they understand?</h1>
+                    <h1>We as technical folks inherently understand the
+                        value created by investment in our infrastructure.</h1>
                 </section>
                 
                 <section>
-                    <h1>$</h1>
+                    <h1>We need to translate our understanding of value 
+                        creation into their language.</h1>
+                </section>
+                
+                <section>
+                    <h1>This is done by talking the language of the 
+                        business.</h1>
+                </section>
+                
+                <section>
+                    <h1>Managerial finance</h1>
                 </section>
                 
                 <section>
@@ -188,41 +211,8 @@
                 </section>
                 
                 <section>
-                    <div style="display: inline;">
-                        <div style="float: left;">
-                            <h1>60 minutes</h1>
-                        </div>
-                        <div style="float: right;">
-                            <h1>10 months</h1>
-                        </div>
-                    </div>
-                </section>
-                
-                <section>
-                    <h1>Visualize decisions that each org made that led 
-                        to speed up versus slow down</h1>
-                </section>
-                
-                <section>
-                    <div style="display: inline;">
-                        <div style="float: left;">
-                            <h1>3 months</h1>
-                        </div>
-                        <div style="float: right;">
-                            <h1>3 months</h1>
-                        </div>
-                    </div>
-                </section>
-                
-                <section>
-                    <h1>2/3 technical, 1/3 culture</h1>
-                </section>
-
-
-                <section>
                     <h1></h1>
                 </section>
-
                 
                 <section>
                     <h2>Why decreased-increased</h2>
@@ -232,10 +222,8 @@
                         <li>Decision making with technical workers 
                             vs executive CCB</li>
                         <li>Continuous integration</li>
-                        <li>Meetings blocked versus whenever</li>
                         <li>Automated unit/integration testing</li>
                         <li>Clueless architect vs extensive developer</li>
-                        <li>Time to obtain dev, test, prod environments</li>
                         <li>Justification for every decision versus 
                             important decisions</li>
                         <li>Automating security hooks vs manual testing</li>
@@ -246,10 +234,14 @@
                     </ul>
                 </section>
                 
+                <section>
+                    <h2>Wrap up</h2>
+                </section>
                 
                 <section>
                     <h2>Resources</h2>
                     <ul>
+                        <li><a href="http://smile.amazon.com/Financial-Intelligence-Professionals-Really-Numbers-ebook/dp/B0026L7BLM/ref=sr_1_4?ie=UTF8&qid=1402334062&sr=8-4&keywords=financial+intelligence+it+managers">Financial Intelligence for IT Professionals</a></li>
                         <li><a href="https://github.com/makaimc/mattmakai.github.io/blob/gh-pages/static/presentations/2014-qcon-deployed-60-mins.html">This presentation's source code</a></li>
                     </ul>
                 </section>
