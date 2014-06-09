@@ -1,0 +1,108 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="960" measuredH="490" mockupW="850" mockupH="435">
+  <controls>
+    <control controlID="4" controlTypeID="__group__" x="110" y="55" w="263" h="207" measuredW="263" measuredH="207" zOrder="0" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="263" h="207" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="4">
+          <controlProperties>
+            <color>6989903</color>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::SubTitle" x="15" y="15" w="-1" h="-1" measuredW="107" measuredH="27" zOrder="1" locked="false" isInGroup="4">
+          <controlProperties>
+            <text>Server%20%231</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Image" x="15" y="57" w="147" h="129" measuredW="251" measuredH="223" zOrder="2" locked="false" isInGroup="4">
+          <controlProperties>
+            <src>./redis-logo-only.png</src>
+            <text/>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="5" controlTypeID="__group__" x="405" y="55" w="263" h="207" measuredW="263" measuredH="207" zOrder="1" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="263" h="207" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="5">
+          <controlProperties>
+            <color>13576743</color>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::SubTitle" x="15" y="15" w="-1" h="-1" measuredW="113" measuredH="27" zOrder="1" locked="false" isInGroup="5">
+          <controlProperties>
+            <text>Server%20%232</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Image" x="15" y="57" w="147" h="129" measuredW="251" measuredH="223" zOrder="2" locked="false" isInGroup="5">
+          <controlProperties>
+            <src>./redis-logo-only.png</src>
+            <text/>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="7" controlTypeID="__group__" x="110" y="283" w="263" h="207" measuredW="263" measuredH="207" zOrder="3" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="263" h="207" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="7">
+          <controlProperties>
+            <color>13576743</color>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::SubTitle" x="15" y="15" w="-1" h="-1" measuredW="114" measuredH="27" zOrder="1" locked="false" isInGroup="7">
+          <controlProperties>
+            <text>Server%20%234</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Image" x="15" y="57" w="147" h="129" measuredW="251" measuredH="223" zOrder="2" locked="false" isInGroup="7">
+          <controlProperties>
+            <src>./redis-logo-only.png</src>
+            <text/>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="8" controlTypeID="__group__" x="405" y="283" w="263" h="207" measuredW="263" measuredH="207" zOrder="4" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="263" h="207" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="8">
+          <controlProperties>
+            <color>13576743</color>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::SubTitle" x="15" y="15" w="-1" h="-1" measuredW="111" measuredH="27" zOrder="1" locked="false" isInGroup="8">
+          <controlProperties>
+            <text>Server%20%235</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Image" x="15" y="57" w="147" h="129" measuredW="251" measuredH="223" zOrder="2" locked="false" isInGroup="8">
+          <controlProperties>
+            <src>./redis-logo-only.png</src>
+            <text/>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="9" controlTypeID="__group__" x="697" y="55" w="263" h="207" measuredW="263" measuredH="207" zOrder="2" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="__group__" x="0" y="0" w="263" h="207" measuredW="263" measuredH="207" zOrder="0" locked="false" isInGroup="9">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="263" h="207" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="0">
+              <controlProperties>
+                <color>6989903</color>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::SubTitle" x="15" y="15" w="-1" h="-1" measuredW="112" measuredH="27" zOrder="1" locked="false" isInGroup="0">
+              <controlProperties>
+                <text>Server%20%233</text>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Image" x="15" y="57" w="147" h="129" measuredW="251" measuredH="223" zOrder="2" locked="false" isInGroup="0">
+              <controlProperties>
+                <src>./redis-logo-only.png</src>
+                <text/>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</mockup>

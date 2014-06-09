@@ -43,15 +43,25 @@
               background: url(/source/static/img/presentations/2014-qcon-nyc/ecommerce-site.jpg);
               background-size: cover;
             }
+
             .java-code .reveal .state-background {
               background: url(/source/static/img/presentations/2014-qcon-nyc/java-code.png);
               background-size: cover;
             }
+            
+            .survey .reveal .state-background {
+              background: url(/source/static/img/presentations/2014-qcon-nyc/survey.jpg);
+              background-size: cover;
+            }
+
             .green-bg .reveal .state-background {
                 background-color: green;
             }
             .black-bg .reveal .state-background {
                 background-color: #111;
+            }
+            .white-bg .reveal .state-background {
+                background-color: #fff;
             }
         </style>
 
@@ -92,7 +102,7 @@
                 </section>
                 
                 <section data-state="black-bg" style="text-align: center;">
-                    <h1 style="color: red;">+30-38%</h1>
+                    <h1 style="color: red;"><span style="color: green;">$</span> +30-38%</h1>
                 </section>
                 
                 <section data-state="java-code">
@@ -106,29 +116,28 @@
                 <section style="text-align: center;">
                     <img src="/source/static/img/presentations/2014-qcon-nyc/redis-logo.png">
                 </section>
-
-                <section>
-                    <h2>5 whys</h2>
-                    <ul>
-                        <li>App code checked local Redis server for
-                            user account data and charged incorrect amounts</li>
-                        <li>3 of 5 Redis instances did not properly invalidate 
-                            their cache upon user account update</li>
-                        <li>A background cache invalidation program deployed 
-                            to only 2 web servers.</li>
-                        <li>Ops not properly informed of script that must be 
-                            deployed to all application servers. It was on
-                            2 of the servers because instructions said 
-                            "deploy to web server" but not to all.</li>
-                        <li>Ops not informed because developer created 
-                            background program in January, left company in
-                            March, deployment executed in June.</li>
-                    </ul>
+                
+                <section style="text-align: center;">
+                    <img src="/source/static/img/presentations/2014-qcon-nyc/redis-servers.png">
+                </section>
+                
+                <section style="text-align: center;">
+                    <img src="/source/static/img/presentations/2014-qcon-nyc/redis-update-program.png">
+                </section>
+                
+                <section style="text-align: center;">
+                    <img src="/source/static/img/presentations/2014-qcon-nyc/silohettes.png">
                 </section>
 
-                <section>
-                    <h1>In the aftermath, the company surveyed 
-                        developers+ops</h1>
+                <section> 
+                    <h2>Our official policy says...</h2>
+                </section>
+                
+                <section data-state="black-bg" style="text-align: center;"> 
+                    <h1 style="color: red;">What a mess.</h1>
+                </section>
+
+                <section data-state="survey">
                 </section>
                 
                 <section>
@@ -261,6 +270,8 @@
                     <ul>
                         <li><a href="http://radiance-theme-sky.myshopify.com/">E-commerce theme</a></li>
                         <li><a href=http://www.cs.utexas.edu/~scottm/cs307/javacode/codeSamples/GenericList.java">Java code</a></li>
+                        <li><a href="http://www.dailyfreepsd.com/wp-content/uploads/2013/06/Silhouette-of-Business-Peoplemen-vector.png">People silohettes</a></li>
+                        <li><a href="http://torontofinancialdistrict.com/wp-content/uploads/1395767_43069089.jpg">Survey</a></li>
                     </ul>
                 </section>
 		</div>
