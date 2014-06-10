@@ -35,3 +35,8 @@ slug: go-lang
 
 * [Go: Best Practices for Production Environments](http://peter.bourgon.org/go-in-production/)
   shows how to set up a Go environment in a more maintainable way.
+
+* [Is Go an Object-oriented language?](http://spf13.com/post/is-go-object-oriented)
+  covers how developers implement traditional OO in Go even if many
+  of the language features are called by different names.
+
