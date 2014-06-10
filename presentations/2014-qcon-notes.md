@@ -28,3 +28,19 @@
 
 ## results
 * continuous integration also includes automated testing, deployment
+
+## groundhog day
+* One result stood loud and clear: We have tried 
+  making improvements to ops process before but 
+  they were pushed aside during implementation because
+  there was no "business case" for them
+
+## it as cost center 
+* We as technical folks inherently understand the
+  value created by investment in our infrastructure.
+
+## break the cycle
+* Rather than just saying "this time will be different",
+  they created a business case for technical
+  improvement buckets.
+
