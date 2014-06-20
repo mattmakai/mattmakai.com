@@ -5,16 +5,34 @@ Tech Talks
 :slug: talks
 
 
-14 talks so far from 2014
--------------------------
+15+ talks so far from 2014
+--------------------------
 
 `Full Stack Python </presentations/2014-full-stack-python-berlin.html>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+There has been a lot of noise about being a "full stack developer" recently. 
+What does the full web stack look like for Python and how do you go about 
+learning each piece?
 
+This talk will guide you up the layers from the server that handles the web 
+request through the JavaScript that executes on a user's browser.
 
 Upcoming talk for 
 `EuroPython <https://ep2014.europython.eu/en/schedule/schedule/>`_ 
 in Berlin, Germany on July 22.
+
+----
+
+
+`Ansible Resources </presentations/2014-ansible-resources.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This short talk explains the Ansible equivalent concepts to Chef's cookbooks 
+and Puppet's manifests. It also go into beginning learning material, more
+advanced scenarios and a real world deployment playbook for EdX.
+
+Lightning talk given at 
+`NoVA Python <http://www.meetup.com/NOVA-Python/events/169170702/>`_ 
+on June 19 in Reston, VA.
 
 ----
 
@@ -29,8 +47,8 @@ This talk will explore why deployments are so difficult and show solutions
 with case studies for how other organizations cut their production deployment 
 times down from months to every hour.
 
-Upcoming talk will be given at 
-`QCon NYC <https://qconnewyork.com/users/matt-makai>`_ on June 12.
+Talk given at `QCon NYC <https://qconnewyork.com/users/matt-makai>`_ 
+on June 12 in Brooklyn, NY.
 
 ----
 
