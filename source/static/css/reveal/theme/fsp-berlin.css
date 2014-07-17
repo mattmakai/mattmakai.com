@@ -205,6 +205,36 @@ body {
   background-size: cover;
 }
 
+.fsp-map-step-1 .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-fsp-berlin/fsp-step-1.png);
+  background-size: cover;
+}
+
+.fsp-map-step-2 .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-fsp-berlin/fsp-step-2.png);
+  background-size: cover;
+}
+
+.fsp-map-step-3 .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-fsp-berlin/fsp-step-3.png);
+  background-size: cover;
+}
+
+.fsp-map-step-4 .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-fsp-berlin/fsp-step-4.png);
+  background-size: cover;
+}
+
+.fsp-map-step-5 .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-fsp-berlin/fsp-step-5.png);
+  background-size: cover;
+}
+
+.fsp-map-step-6 .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-fsp-berlin/fsp-step-6.png);
+  background-size: cover;
+}
+
 .requirements-txt .reveal .state-background {
   background: url(/source/static/img/presentations/2014-full-stack-python/requirements-txt.png);
   background-size: cover;
