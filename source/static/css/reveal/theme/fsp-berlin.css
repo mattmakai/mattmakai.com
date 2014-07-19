@@ -240,6 +240,21 @@ body {
   background-size: cover;
 }
 
+.fsp-map-step-8 .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-fsp-berlin/fsp-step-8.png);
+  background-size: cover;
+}
+
+.fsp-map-step-9 .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-fsp-berlin/fsp-step-9.png);
+  background-size: cover;
+}
+
+.fsp-map-step-10 .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-fsp-berlin/fsp-step-10.png);
+  background-size: cover;
+}
+
 .requirements-txt .reveal .state-background {
   background: url(/source/static/img/presentations/2014-full-stack-python/requirements-txt.png);
   background-size: cover;
