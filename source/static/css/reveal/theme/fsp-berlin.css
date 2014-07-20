@@ -255,13 +255,23 @@ body {
   background-size: cover;
 }
 
+.fsp-map-step-11 .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-fsp-berlin/fsp-step-11.png);
+  background-size: cover;
+}
+
+.fsp-map-step-12 .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-fsp-berlin/fsp-step-12.png);
+  background-size: cover;
+}
+
 .requirements-txt .reveal .state-background {
   background: url(/source/static/img/presentations/2014-full-stack-python/requirements-txt.png);
   background-size: cover;
 }
 
 .ga-fsp .reveal .state-background {
-  background: url(/source/static/img/presentations/2014-full-stack-python/ga-fsp.png);
+  background: url(/source/static/img/presentations/2014-fsp-berlin/ga.png);
   background-size: cover;
 }
 
