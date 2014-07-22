@@ -200,6 +200,23 @@
                 
                 <section data-state="fsp-map-step-5">
                 </section>
+<!--
+                <section>
+<pre style="font-size: 1.5em;">
+upstream app_server_wsgiapp {
+  server localhost:8000;
+}
+
+location /blog {
+  if (!-f $request_filename) {
+    proxy_pass 
+      http://app_server_wsgiapp;
+    break;
+  }
+}
+</pre>
+                </section>
+-->
 
                 <section style="text-align: center;">
                     <h1 style="color: red;">Our code?</h1>
