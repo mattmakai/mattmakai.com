@@ -30,8 +30,8 @@ audience to learn the subject matter.
 
 Yet lately the topics I'm most interested in require more time to dive 
 into the technical details. Which is why I am beginning to prefer teaching 
-through hands on walkthroughs for the audience in a tutorial session than a 
-brief talk. I've found audiences learn the most from hands on walkthroughs in a 
+through hands on walkthroughs for the audience in a tutorial session rather 
+than a brief talk. I've found audiences learn more from a hands on walkthrough 
 tutorial even if sessions take correspondingly more time than two or three 
 traditional talks.
 
