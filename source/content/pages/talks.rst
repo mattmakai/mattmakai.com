@@ -17,9 +17,10 @@ learning each piece?
 This talk will guide you up the layers from the server that handles the web 
 request through the JavaScript that executes on a user's browser.
 
-Upcoming talk for 
+Talk given at
 `EuroPython <https://ep2014.europython.eu/en/schedule/schedule/>`_ 
-in Berlin, Germany on July 22.
+in Berlin, Germany on July 22. There is a 
+`talk video available <https://www.youtube.com/watch?v=s6NaOKD40rY>`_.
 
 ----
 
