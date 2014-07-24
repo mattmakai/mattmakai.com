@@ -15,7 +15,7 @@ web stack.
 
 There are three blog posts on `Twilio <https://www.twilio.com/>`_'s blog as 
 well as one on 
-`O'Reilly's Programming Blog <http://programming.oreilly.com/>`_:
+`O'Reilly Radar <http://radar.oreilly.com/>`_:
 
 * `Introducing Developer Evangelist Matt Makai <https://www.twilio.com/blog/2014/02/introducing-developer-evangelist-matt-makai.html>`_
   is my introductory blog post. I write about D.C.'s current mistake-avoidance
@@ -33,7 +33,7 @@ well as one on
   Twilio and Zapier. It's a handy trick I use on Full Stack Python to ensure
   I respond to new requests in a timely fashion.
 
-* `Driving demand for full stack developers <http://programming.oreilly.com/2014/05/driving-demand-for-full-stack-developers.html>`_
+* `Driving demand for full stack developers <http://radar.oreilly.com/2014/05/driving-demand-for-full-stack-developers.html>`_
   is my most recent post and first time on the O'Reilly Programming Blog.
   I enjoyed thinking about the full stack trend and writing about it. I may
   reconsider my positions taken in that post at some point. For now though I 

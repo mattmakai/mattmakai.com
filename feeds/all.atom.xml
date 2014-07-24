@@ -36,7 +36,7 @@ day with new sections, resources and explanations for all layers of the Python
 web stack.&lt;/p&gt;
 &lt;p&gt;There are three blog posts on &lt;a class="reference external" href="https://www.twilio.com/"&gt;Twilio&lt;/a&gt;'s blog as
 well as one on
-&lt;a class="reference external" href="http://programming.oreilly.com/"&gt;O'Reilly's Programming Blog&lt;/a&gt;:&lt;/p&gt;
+&lt;a class="reference external" href="http://radar.oreilly.com/"&gt;O'Reilly Radar&lt;/a&gt;:&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.twilio.com/blog/2014/02/introducing-developer-evangelist-matt-makai.html"&gt;Introducing Developer Evangelist Matt Makai&lt;/a&gt;
 is my introductory blog post. I write about D.C.'s current mistake-avoidance
@@ -51,7 +51,7 @@ that came out in May.&lt;/li&gt;
 is a short guide for adding SMS notifications to GitHub pull requests with
 Twilio and Zapier. It's a handy trick I use on Full Stack Python to ensure
 I respond to new requests in a timely fashion.&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="http://programming.oreilly.com/2014/05/driving-demand-for-full-stack-developers.html"&gt;Driving demand for full stack developers&lt;/a&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://radar.oreilly.com/2014/05/driving-demand-for-full-stack-developers.html"&gt;Driving demand for full stack developers&lt;/a&gt;
 is my most recent post and first time on the O'Reilly Programming Blog.
 I enjoyed thinking about the full stack trend and writing about it. I may
 reconsider my positions taken in that post at some point. For now though I
