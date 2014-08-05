@@ -5,8 +5,15 @@ Tech Talks
 :slug: talks
 
 
-15+ talks so far from 2014
+16+ talks so far from 2014
 --------------------------
+
+`Choose Your Own Django Deployment Adventure </presentations/2014-djangocon-deployment.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Experimentation for `DjangoCon 2014 <http://www.djangocon.us>`_ talk.
+
+----
+
 
 `Full Stack Python </presentations/2014-full-stack-python-berlin.html>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
