@@ -5,12 +5,22 @@ Tech Talks
 :slug: talks
 
 
-16+ talks so far from 2014
+17+ talks so far from 2014
 --------------------------
 
-`Choose Your Own Django Deployment Adventure </presentations/2014-djangocon-deployment.html>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Experimentation for `DjangoCon 2014 <http://www.djangocon.us>`_ talk.
+Choose Your Own Django Deployment Adventure
+-------------------------------------------
+
+Upcoming `DjangoCon 2014 <http://www.djangocon.us>`_ talk with Kate Heddleston
+in Portland, Oregon at the beginning of September..
+
+----
+
+How to Solve Django's Top 5 Enterprise Headaches
+------------------------------------------------
+
+Upcoming `DjangoCon 2014 <http://www.djangocon.us>`_ talk in Portland, Oregon
+at the beginning of September.
 
 ----
 
