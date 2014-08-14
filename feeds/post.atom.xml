@@ -1,5 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/post.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2014-07-21T00:00:00-04:00</updated><entry><title>Favoring Hands On Walkthroughs</title><link href="http://www.letshackdc.com/favoring-hands-on-walkthroughs.html" rel="alternate"></link><updated>2014-07-21T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-07-21:favoring-hands-on-walkthroughs.html</id><summary type="html">&lt;p&gt;Tomorrow I'm giving a talk at
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/post.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2014-08-13T00:00:00-04:00</updated><entry><title>U.S. Digital Services</title><link href="http://www.letshackdc.com/united-states-digital-services.html" rel="alternate"></link><updated>2014-08-13T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-08-13:united-states-digital-services.html</id><summary type="html">&lt;p&gt;I paused for a few moments this morning in the Boston rain and took this
+picture. Many thoughts have swirled in my head about the new
+&lt;a class="reference external" href="http://www.washingtonpost.com/blogs/the-switch/wp/2014/08/11/white-house-launches-u-s-digital-service-with-healthcare-gov-fixer-at-the-helm/"&gt;U.S. Digital Services&lt;/a&gt;
+group publicly announced earlier this week.&lt;/p&gt;
+&lt;img alt="Boston during a hard downpouring rain" src="/source/static/img/140813-us-digital-services/boston.jpg" style="width: 100%;" /&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;Boston is a good place for contemplating how the government must always do
+its best to be accountable to the People rather than its own interests. A
+few moments after I took that picture I walked by the graveyard where Sam
+Adams, the Boston Massacre victims and many of Ben Franklin's family are
+buried. Ol' Ben himself is buried in Philadelphia but he was born in Boston.&lt;/p&gt;
+&lt;p&gt;I felt like Mr. Franklin's ideas would tie together nebulous thoughts in my
+head for a coherent blog post. I quickly web searched for Ben's famous quotes.
+This one struck me.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;Either write something worth reading or do something worth writing.&amp;quot;&lt;/p&gt;
+&lt;p&gt;Benjamin Franklin&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I've been thinking about recommendations for how U.S. Digital Services can
+hire talented developers that otherwise would avoid public sector work. I
+learned about the group's creation in conversations after our
+&lt;a class="reference external" href="https://www.twilio.com/blog/2014/08/twilio-white-house-twilio-org-rapid-response-kit-nt.html"&gt;Twilio Rapid Response Kit demo&lt;/a&gt;
+at the &lt;a class="reference external" href="http://www.whitehouse.gov/blog/2014/07/29/watch-white-house-innovation-disaster-response-and-recovery-demo-day%20"&gt;White House Innovation Disaster Response Day&lt;/a&gt;
+a couple of weeks ago and finally found time in Boston to write this post.&lt;/p&gt;
+&lt;p&gt;Until Ben's quote though I wasn't sure what to think but reading the above
+quote nails the approach I'd take to staff up the Digital Services team. The
+best software developers are looking for more than just a paycheck. They are
+looking to create elegant solutions to hard problems. The
+best software developers want to write software worth reading and executing.&lt;/p&gt;
+&lt;p&gt;Well, no shit right? Every startup and government agency talks about how they
+are &amp;quot;changing the world&amp;quot; and &amp;quot;doing things that matter.&amp;quot; But few of them are
+places worth working because the talk is hollow. Here's how Digital Services
+(or any organization) can prove they have an environment that deserves to
+employ some of the country's best technical minds.&lt;/p&gt;
+&lt;div class="section" id="open-source-everything"&gt;
+&lt;h2&gt;Open source everything&lt;/h2&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://github.com/whitehouse/playbook"&gt;This playbook&lt;/a&gt; is a great start.
+Make sure it's not just documentation but also &lt;strong&gt;code&lt;/strong&gt; as CFPB has done
+with the &lt;a class="reference external" href="https://github.com/cfpb/collab"&gt;collab Python source code&lt;/a&gt; and 18F
+with the &lt;a class="reference external" href="https://github.com/18F/answers"&gt;answers Ruby source code&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;There's something about knowing your code is open to the rest of the software
+development world via open source that makes her feel she's held accountable
+and writing something that matters.&lt;/p&gt;
+&lt;p&gt;A public visualization of how much code at Digital Services is currently open
+source, how much is private and how much is in process to be open sourced
+would be awesome. Figure out a way to make that dynamically generated so it
+doesn't have to be updated in a spreadsheet by hand. Automate the transparency
+rather than making it a manual process.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="host-tech-meetups"&gt;
+&lt;h2&gt;Host tech meetups&lt;/h2&gt;
+&lt;p&gt;We have all these massive government buildings and the tech community
+struggles to find event space for tech meetups such as DC Python, DC
+Continuous Delivery, Ruby User's Group and so on. There has to be a way to
+cut the red tape and have at least one facility be available for tech events
+of 80-120 people. You're hosting so give us updates on all the amazing work
+you're doing at Digital Services.&lt;/p&gt;
+&lt;p&gt;Also, ensure the space is kept for real tech events that focus on software
+development, not the garbage recruiter-run events where passion for programming
+is nowhere to be found (I'm looking at you, TechMotion).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="code-review-with-outside-developers"&gt;
+&lt;h2&gt;Code review with outside developers&lt;/h2&gt;
+&lt;p&gt;The code is open source which is a start. The next step is to bring in
+awesome developers from the best tech companies with people in DC like
+TrackMaven, SocialRadar, BoundlessGeo, MapBox and SmartThings to sit down for
+in-person visits. Conduct hour-long free code review sessions for constructive
+code and documentation feedback. 18F does something like this with their
+API feedback sessions. Apply that concept to code reviews.&lt;/p&gt;
+&lt;p&gt;It's like jury duty for software developers.&lt;/p&gt;
+&lt;p&gt;I may need to work on the above analogy.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="hire-short-term-consultants-only"&gt;
+&lt;h2&gt;Hire short-term consultants only&lt;/h2&gt;
+&lt;p&gt;Use consultants only for niche skills such as information security in less than
+8 week durations, if at all. Consultants are parasites. I used to be one.
+Even though I tried to do good work it was impossible to properly serve
+the dual masters of client and consulting company.&lt;/p&gt;
+&lt;p&gt;Make information on the number and percentage of consultants at Digital
+Services publicly assessible. Actually it may be worth creating a webpage
+dashboard of all the things software developers care about so they can see
+how an organization stacks up in various attributes.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="ensure-great-gigs-for-departing-developers"&gt;
+&lt;h2&gt;Ensure great gigs for departing developers&lt;/h2&gt;
+&lt;p&gt;When developers eventually depart from Digital Services they should be getting
+gigs at private companies that have nothing to do with government sector
+work. If developers are coming out of Digital Services
+in a couple of years and being hired by Bay Area companies that's a
+positive indictator that the program is at least hiring the right talent.&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;That's my initial incomplete recommendations list. But each of those things
+are really difficult for most government organizations to do at all. The above
+items are a good litmus test for whether Digital Services is for real or
+will end up perpetuating the quagmire of overcomplicated government software
+systems maintained by an army of overpaid consultants.&lt;/p&gt;
+&lt;p&gt;Let's hope that Digital Services either writes some code worth reading or
+creates some software worth writing about.&lt;/p&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Favoring Hands On Walkthroughs</title><link href="http://www.letshackdc.com/favoring-hands-on-walkthroughs.html" rel="alternate"></link><updated>2014-07-21T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-07-21:favoring-hands-on-walkthroughs.html</id><summary type="html">&lt;p&gt;Tomorrow I'm giving a talk at
 &lt;a class="reference external" href="https://ep2014.europython.eu/en/"&gt;EuroPython&lt;/a&gt; called
 &lt;a class="reference external" href="https://ep2014.europython.eu/en/schedule/sessions/41/"&gt;Full Stack Python&lt;/a&gt;
 which is named after my Full Stack Python website. I'm stoked to give the
