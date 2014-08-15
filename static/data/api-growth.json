@@ -1,0 +1,13 @@
+{"driving": [
+    {"day": 1, "date": "03/09/2013", "miles":  50, "total":    50}, 
+    {"day": 2, "date": "03/10/2013", "miles": 100, "total":   150},
+    {"day": 3, "date": "03/11/2013", "miles": 300, "total":   450},
+    {"day": 4, "date": "03/12/2013", "miles": 300, "total":   750},
+    {"day": 5, "date": "03/13/2013", "miles": 250, "total":   1000},
+    {"day": 6, "date": "03/14/2013", "miles": 500, "total":   1500}, 
+    {"day": 7, "date": "03/15/2013", "miles": 550, "total":   2050},
+    {"day": 8, "date": "03/16/2013", "miles": 950, "total":   3000},
+    {"day": 9, "date": "03/17/2013", "miles": 2000, "total":  5000},
+    {"day": 10, "date": "03/18/2013", "miles": 5500, "total": 10500},
+    {"day": 11, "date": "03/18/2013", "miles": 6000, "total": 16500}
+]}

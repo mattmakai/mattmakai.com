@@ -5,22 +5,53 @@ Tech Talks
 :slug: talks
 
 
-17+ talks so far from 2014
---------------------------
+20+ talks done or scheduled in 2014
+-----------------------------------
+
+(TBD)
+-----
+
+Upcoming `QCon SF 2014 <http://qconsf.com/>`_ talk in San Francisco, CA 
+in early November.
+
+----
+
 
 Choose Your Own Django Deployment Adventure
 -------------------------------------------
 
 Upcoming `DjangoCon 2014 <http://www.djangocon.us>`_ talk with Kate Heddleston
-in Portland, Oregon at the beginning of September..
+in Portland, Oregon at the beginning of September.
 
 ----
+
 
 How to Solve Django's Top 5 Enterprise Headaches
 ------------------------------------------------
 
 Upcoming `DjangoCon 2014 <http://www.djangocon.us>`_ talk in Portland, Oregon
 at the beginning of September.
+
+----
+
+
+(TBD)
+-----
+
+Upcoming talk at `Capital One <https://www.capitalone.com/>`_ on 
+August 25, 2014 in Richmond, Virginia.
+
+----
+
+
+`Inspire and Equip Developers with Your API Demo </presentations/2014-dc-web-api-inspire-equip-devs.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Your organization has poured an incredible amount of time, energy and money
+into building a web application programming interface. Now comes the hard 
+part. How do you inspire and equip software developers to use the API when 
+you demo to a skeptical audience?
+
+Upcoming talk at `DC Web API Group <http://www.meetup.com/DC-Web-API-User-Group/events/199434682/>`_ in Washington, D.C.on Wednesday, August 20.
 
 ----
 
