@@ -200,6 +200,11 @@ body {
   background-size: cover;
 }
 
+.twilio-api .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-dc-web-api/twilio-api.png);
+  background-size: cover;
+}
+
 .uber .reveal .state-background {
   background: url(/source/static/img/presentations/2014-dc-web-api/uber.png);
   background-size: cover;
