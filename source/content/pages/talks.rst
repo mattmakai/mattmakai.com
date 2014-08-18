@@ -5,14 +5,21 @@ Tech Talks
 :slug: talks
 
 
-20+ talks done or scheduled in 2014
+21+ talks done or scheduled in 2014
 -----------------------------------
 
-(TBD)
------
+(TBD - something about Ansible deployments)
+-------------------------------------------
 
 Upcoming `QCon SF 2014 <http://qconsf.com/>`_ talk in San Francisco, CA 
 in early November.
+
+----
+
+(TBD - something about full stack with server software)
+-------------------------------------------------------
+
+Upcoming talk to MoDev meetup on September 16 in Tyson's Corner, Virginia.
 
 ----
 
@@ -35,8 +42,8 @@ at the beginning of September.
 ----
 
 
-(TBD)
------
+(TBD - something about APIs in software development)
+----------------------------------------------------
 
 Upcoming talk at `Capital One <https://www.capitalone.com/>`_ on 
 August 25, 2014 in Richmond, Virginia.
@@ -48,8 +55,8 @@ August 25, 2014 in Richmond, Virginia.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Your organization has poured an incredible amount of time, energy and money
 into building a web application programming interface. Now comes the hard 
-part. How do you inspire and equip software developers to use the API when 
-you demo to a skeptical audience?
+part. How do you inspire and equip software developers in five minutes
+so they are not only excited but also prepared to use your API?
 
 Upcoming talk at `DC Web API Group <http://www.meetup.com/DC-Web-API-User-Group/events/199434682/>`_ in Washington, D.C.on Wednesday, August 20.
 

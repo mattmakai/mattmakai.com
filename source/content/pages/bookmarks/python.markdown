@@ -126,7 +126,7 @@ slug: python
 * [Git based Fabric deploys are awesome](http://dan.bravender.us/2012/5/11/git-based_fabric_deploys_are_awesome.html)
 
 
-### Advocating for Python
+## Advocating for Python
 * [Python Advocacy How-to](http://docs.python.org/release/3.1.5/howto/advocacy.html) 
   recommends how to advocate for Python and what Python's advantages are 
   as a programming language.
@@ -147,6 +147,12 @@ slug: python
 
 * [Python and other dynamic languages coming to the enterprise](http://www.cio.com/article/719010/Python_and_Other_Dynamic_Languages_Coming_to_the_Enterprise_Like_It_or_Not)
   does a cursory comparison of Python with traditional enterprise languages.
+
+## Python Weaknesses
+* [The Python I Would Like to See](http://lucumr.pocoo.org/2014/8/16/the-python-i-would-like-to-see/) 
+  by Armin Ronacher who created the popular Flask web framework along with
+  many other influential open source Python projects..
+
 
 ## Python conferences
 * [Beginner's Guide to PyCon 2014](http://pydanny.com/beginners-guide-pycon-2014.html)
