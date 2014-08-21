@@ -1,5 +1,5 @@
-U.S. Digital Services
-=====================
+Hiring for U.S. Digital Services
+================================
 
 :slug: united-states-digital-services
 :category: post
@@ -47,13 +47,39 @@ best software developers want to write software worth reading and executing.
 
 Well, no shit right? Every startup and government agency talks about how they
 are "changing the world" and "doing things that matter." But few of them are
-places worth working because the talk is hollow. Here's how Digital Services
-(or any organization) can prove they have an environment that deserves to
-employ some of the country's best technical minds.
+places worth working because the talk is hollow. Here's how Digital Services,
+or any organization for that matter, can prove they have an environment that 
+deserves to employ some of the country's best technical minds.
+
+1. Keep "Few Managers to Many DOers" Ratio
+1. Open source code, documentation and data
+1. Host (quality) tech meetups
+1. Code review with outside developers
+1. Hire short-term consultants only
+1. Ensure great gigs for departing developers
 
 
-Open source everything
-----------------------
+Keep "Few Managers to Many DOers" Ratio
+---------------------------------------
+Organizations that quickly build and release software have a significantly
+higher percentage of DOers than managers. DOers include software developers,
+designers and system administrators (who are increasingly spending their time
+coding with Ansible, Puppet, Chef, etc).
+
+A primary driver in high performing software-run  organizations is that they 
+constantly work to keep as few managers and non-technical workers as possible. 
+These non-technical workers include project managers, "technical" architects 
+(who spend their days drawing useless UML diagrams instead of coding) 
+and team leads that order people around instead of doing their own work. 
+
+Managers love to spend time in meetings. Meetings are antithetical to focus
+on actual work. Make sure to read Paul Graham's essay on 
+[Maker's Schedule, Manager's Schedule](http://www.paulgraham.com/makersschedule.html) to understand why keeping a low manager to many DOers ratio is so
+important.
+
+
+Open source code, documentation and data
+----------------------------------------
 `This playbook <https://github.com/whitehouse/playbook>`_ is a great start.
 Make sure it's not just documentation but also **code** as CFPB has done 
 with the `collab Python source code <https://github.com/cfpb/collab>`_ and 18F
@@ -70,9 +96,8 @@ doesn't have to be updated in a spreadsheet by hand. Automate the transparency
 rather than making it a manual process.
 
 
-
-Host tech meetups
------------------
+Host (quality) tech meetups
+---------------------------
 We have all these massive government buildings and the tech community 
 struggles to find event space for tech meetups such as DC Python, DC 
 Continuous Delivery, Ruby User's Group and so on. There has to be a way to
@@ -81,8 +106,8 @@ of 80-120 people. You're hosting so give us updates on all the amazing work
 you're doing at Digital Services.
 
 Also, ensure the space is kept for real tech events that focus on software 
-development, not the garbage recruiter-run events where passion for programming
-is nowhere to be found (I'm looking at you, TechMotion). 
+development, not the garbage recruiter-run events where passion for 
+programming is nowhere to be found (I'm looking at you, TechMotion). 
 
 
 Code review with outside developers
@@ -91,12 +116,13 @@ The code is open source which is a start. The next step is to bring in
 awesome developers from the best tech companies with people in DC like 
 TrackMaven, SocialRadar, BoundlessGeo, MapBox and SmartThings to sit down for
 in-person visits. Conduct hour-long free code review sessions for constructive
-code and documentation feedback. 18F does something like this with their 
-API feedback sessions. Apply that concept to code reviews.
+code and documentation feedback. 
 
-It's like jury duty for software developers. 
-
-I may need to work on the above analogy.
+18F does something like this with their API feedback sessions. Apply that 
+concept to code reviews. Give quality t-shirts, stickers and simple perks 
+to outside developers who participate. Have the best reviewers who come in
+recommend other great developers they think would also be helpful to keep
+the code reviewer pipeline stocked.
 
 
 Hire short-term consultants only

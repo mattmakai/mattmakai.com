@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/all-en.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2014-08-13T00:00:00-04:00</updated><entry><title>U.S. Digital Services</title><link href="http://www.letshackdc.com/united-states-digital-services.html" rel="alternate"></link><updated>2014-08-13T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-08-13:united-states-digital-services.html</id><summary type="html">&lt;p&gt;I paused for a few moments this morning in the Boston rain and took this
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/all-en.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2014-08-13T00:00:00-04:00</updated><entry><title>Hiring for U.S. Digital Services</title><link href="http://www.letshackdc.com/united-states-digital-services.html" rel="alternate"></link><updated>2014-08-13T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-08-13:united-states-digital-services.html</id><summary type="html">&lt;p&gt;I paused for a few moments this morning in the Boston rain and took this
 picture. Many thoughts have swirled in my head about the new
 &lt;a class="reference external" href="http://www.washingtonpost.com/blogs/the-switch/wp/2014/08/11/white-house-launches-u-s-digital-service-with-healthcare-gov-fixer-at-the-helm/"&gt;U.S. Digital Services&lt;/a&gt;
 group publicly announced earlier this week.&lt;/p&gt;
@@ -30,11 +30,33 @@ looking to create elegant solutions to hard problems. The
 best software developers want to write software worth reading and executing.&lt;/p&gt;
 &lt;p&gt;Well, no shit right? Every startup and government agency talks about how they
 are &amp;quot;changing the world&amp;quot; and &amp;quot;doing things that matter.&amp;quot; But few of them are
-places worth working because the talk is hollow. Here's how Digital Services
-(or any organization) can prove they have an environment that deserves to
-employ some of the country's best technical minds.&lt;/p&gt;
-&lt;div class="section" id="open-source-everything"&gt;
-&lt;h2&gt;Open source everything&lt;/h2&gt;
+places worth working because the talk is hollow. Here's how Digital Services,
+or any organization for that matter, can prove they have an environment that
+deserves to employ some of the country's best technical minds.&lt;/p&gt;
+&lt;p&gt;1. Keep &amp;quot;Few Managers to Many DOers&amp;quot; Ratio
+1. Open source code, documentation and data
+1. Host (quality) tech meetups
+1. Code review with outside developers
+1. Hire short-term consultants only
+1. Ensure great gigs for departing developers&lt;/p&gt;
+&lt;div class="section" id="keep-few-managers-to-many-doers-ratio"&gt;
+&lt;h2&gt;Keep &amp;quot;Few Managers to Many DOers&amp;quot; Ratio&lt;/h2&gt;
+&lt;p&gt;Organizations that quickly build and release software have a significantly
+higher percentage of DOers than managers. DOers include software developers,
+designers and system administrators (who are increasingly spending their time
+coding with Ansible, Puppet, Chef, etc).&lt;/p&gt;
+&lt;p&gt;A primary driver in high performing software-run  organizations is that they
+constantly work to keep as few managers and non-technical workers as possible.
+These non-technical workers include project managers, &amp;quot;technical&amp;quot; architects
+(who spend their days drawing useless UML diagrams instead of coding)
+and team leads that order people around instead of doing their own work.&lt;/p&gt;
+&lt;p&gt;Managers love to spend time in meetings. Meetings are antithetical to focus
+on actual work. Make sure to read Paul Graham's essay on
+[Maker's Schedule, Manager's Schedule](&lt;a class="reference external" href="http://www.paulgraham.com/makersschedule.html"&gt;http://www.paulgraham.com/makersschedule.html&lt;/a&gt;) to understand why keeping a low manager to many DOers ratio is so
+important.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="open-source-code-documentation-and-data"&gt;
+&lt;h2&gt;Open source code, documentation and data&lt;/h2&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://github.com/whitehouse/playbook"&gt;This playbook&lt;/a&gt; is a great start.
 Make sure it's not just documentation but also &lt;strong&gt;code&lt;/strong&gt; as CFPB has done
 with the &lt;a class="reference external" href="https://github.com/cfpb/collab"&gt;collab Python source code&lt;/a&gt; and 18F
@@ -48,8 +70,8 @@ would be awesome. Figure out a way to make that dynamically generated so it
 doesn't have to be updated in a spreadsheet by hand. Automate the transparency
 rather than making it a manual process.&lt;/p&gt;
 &lt;/div&gt;
-&lt;div class="section" id="host-tech-meetups"&gt;
-&lt;h2&gt;Host tech meetups&lt;/h2&gt;
+&lt;div class="section" id="host-quality-tech-meetups"&gt;
+&lt;h2&gt;Host (quality) tech meetups&lt;/h2&gt;
 &lt;p&gt;We have all these massive government buildings and the tech community
 struggles to find event space for tech meetups such as DC Python, DC
 Continuous Delivery, Ruby User's Group and so on. There has to be a way to
@@ -57,8 +79,8 @@ cut the red tape and have at least one facility be available for tech events
 of 80-120 people. You're hosting so give us updates on all the amazing work
 you're doing at Digital Services.&lt;/p&gt;
 &lt;p&gt;Also, ensure the space is kept for real tech events that focus on software
-development, not the garbage recruiter-run events where passion for programming
-is nowhere to be found (I'm looking at you, TechMotion).&lt;/p&gt;
+development, not the garbage recruiter-run events where passion for
+programming is nowhere to be found (I'm looking at you, TechMotion).&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="code-review-with-outside-developers"&gt;
 &lt;h2&gt;Code review with outside developers&lt;/h2&gt;
@@ -66,10 +88,12 @@ is nowhere to be found (I'm looking at you, TechMotion).&lt;/p&gt;
 awesome developers from the best tech companies with people in DC like
 TrackMaven, SocialRadar, BoundlessGeo, MapBox and SmartThings to sit down for
 in-person visits. Conduct hour-long free code review sessions for constructive
-code and documentation feedback. 18F does something like this with their
-API feedback sessions. Apply that concept to code reviews.&lt;/p&gt;
-&lt;p&gt;It's like jury duty for software developers.&lt;/p&gt;
-&lt;p&gt;I may need to work on the above analogy.&lt;/p&gt;
+code and documentation feedback.&lt;/p&gt;
+&lt;p&gt;18F does something like this with their API feedback sessions. Apply that
+concept to code reviews. Give quality t-shirts, stickers and simple perks
+to outside developers who participate. Have the best reviewers who come in
+recommend other great developers they think would also be helpful to keep
+the code reviewer pipeline stocked.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="hire-short-term-consultants-only"&gt;
 &lt;h2&gt;Hire short-term consultants only&lt;/h2&gt;
