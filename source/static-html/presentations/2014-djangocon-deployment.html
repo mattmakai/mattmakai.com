@@ -57,43 +57,67 @@
 		<div class="reveal">
             <div class="slides" style="text-align: left;">
 				<section>
-                    <h1 style="margin-bottom: 25px;" class="front-title">Choose Your Own Django Deployment Adventure</h1>
+                    <h1 style="margin-bottom: 25px; font-size: 3.2em;">
+                        Choose Your Own Django Deployment Adventure
+                    </h1>
                     <h3>DjangoCon 2014</a></h3>
-                    <br>
-                    <br>
-					<p style="font-size: .85em;">
-                        <a href="http://www.kateheddleston.com/">Kate Heddleston</a> | Runscope
+					<p style="font-size: .85em; margin-top: 60px;">
+                        <a href="http://www.kateheddleston.com/">Kate Heddleston</a> | 
+                        <a href="https://twitter.com/heddle317">@heddle317</a> |
+                        <a href="https://github.com/heddle317">heddle317</a>
+                        on GitHub |
+                        <a href="https://www.runscope.com/">Runscope</a>
+                    </p>
+                    <p style="font-size: .85em;">
                         <a href="http://www.mattmakai.com">Matt Makai</a> | 
-                        Twilio
+                        <a href="http://twitter.com/mattmakai">@mattmakai</a> |
+                        <a href="https://github.com/makaimc">makaimc</a> 
+                        on GitHub |
+                        <a href="https://www.twilio.com">Twilio</a> 
                     </p>
 				</section>
               
                 <section>
-                    <h1>The next great app...</h1>
-                </section>  
+                    <h1>The next great app</h1>
+                </section>
+                
+                <section>
+                    <h1>Did you build...</h1>
+                </section>
                
                 <section>
                     <h2>Text "1" or "2" to (xxx) 555-1234</h2>
+                    <br>
                     <div style="display: inline;">
-                        <div style="float: left;">
+                        <div style="float: left; text-align: center;">
                             <h1>1</h1>
-                            <h2><a href="#tinder-for-pets">Tinder<br>for Pets</a></h2>
+                            <h2><a href="#/4">Tinder<br>for Pets</a></h2>
                             <h2>x votes</h2>
                         </div>
-                        <div style="float: right;">
+                        <div style="float: right; text-align: center;">
                             <h1>2</h1>
-                            <h2>Oy!<br>&nbsp;</h2>
+                            <h2><a href="#/6">Oy!</a><br>&nbsp;</h2>
                             <h2>x votes</h2>
                         </div>
                     </div>
                 </section>
-                
-                <section id="tinder-for-pets">
+               
+                <!-- link from first app choice --> 
+                <section>
                     <h1>Tinder for Pets</h1>
                 </section>
                 
                 <section>
-                    <h1>Tinder for Pets</h1>
+                    <h1>Funny Tinder for Pets content goes here</h1>
+                </section>
+               
+                <!-- link from second app choice --> 
+                <section id="oy-app">
+                    <h1>Oy!</h1>
+                </section>
+                
+                <section>
+                    <h1>Funny Oy! content goes here</h1>
                 </section>
                 
                 <section data-state="resources">
@@ -423,7 +447,7 @@ location /blog {
 				center: true,
 
 				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-				transition: Reveal.getQueryHash().transition || 'zoom', // default/cube/page/concave/zoom/linear/fade/none
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
 
 				// Optional libraries used to extend on reveal.js
 				dependencies: [
