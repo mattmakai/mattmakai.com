@@ -5,62 +5,39 @@ Hiring for U.S. Digital Services
 :category: post
 :date: 2014-08-13
 
-
-I paused for a few moments this morning in the Boston rain and took this 
-picture. Many thoughts have swirled in my head about the new 
+The new 
 `U.S. Digital Services <http://www.washingtonpost.com/blogs/the-switch/wp/2014/08/11/white-house-launches-u-s-digital-service-with-healthcare-gov-fixer-at-the-helm/>`_ 
-group publicly announced earlier this week. 
+group has a difficult task ahead assembling a
+talented new software developers and designers team. Many of the best 
+developers and designers avoid the public sector because the environment 
+is generally not conducive to producing amazing work.
 
-.. image:: /source/static/img/140813-us-digital-services/boston.jpg
-  :alt: Boston during a hard downpouring rain
-  :width: 100%
-
-----
-
-Boston is a good place for contemplating how the government must always do
-its best to be accountable to the People rather than its own interests. A
-few moments after I took that picture I walked by the graveyard where Sam
-Adams, the Boston Massacre victims and many of Ben Franklin's family are 
-buried. Ol' Ben himself is buried in Philadelphia but he was born in Boston.
-
-I felt like Mr. Franklin's ideas would tie together nebulous thoughts in my 
-head for a coherent blog post. I quickly web searched for Ben's famous quotes.  
-This one struck me.
-
-    "Either write something worth reading or do something worth writing." 
-                                            
-    Benjamin Franklin
-
-
-I've been thinking about recommendations for how U.S. Digital Services can 
-hire talented developers that otherwise would avoid public sector work. I
-learned about the group's creation in conversations after our 
-`Twilio Rapid Response Kit demo <https://www.twilio.com/blog/2014/08/twilio-white-house-twilio-org-rapid-response-kit-nt.html>`_ 
-at the `White House Innovation Disaster Response Day <http://www.whitehouse.gov/blog/2014/07/29/watch-white-house-innovation-disaster-response-and-recovery-demo-day%20>`_ 
-a couple of weeks ago and finally found time in Boston to write this post.
-
-Until Ben's quote though I wasn't sure what to think but reading the above 
-quote nails the approach I'd take to staff up the Digital Services team. The 
-best software developers are looking for more than just a paycheck. They are 
-looking to create elegant solutions to hard problems. The
+The best software developers are looking for more than just a paycheck. They 
+are looking to create elegant solutions to hard problems. The
 best software developers want to write software worth reading and executing.
+They want useless talkers to get out of their way and stop telling them why
+"it can't be done like that" and "NO, because we've never done it that way 
+before."
 
-Well, no shit right? Every startup and government agency talks about how they
+Every startup and government agency talks about how they
 are "changing the world" and "doing things that matter." But few of them are
-places worth working because the talk is hollow. Here's how Digital Services,
-or any organization for that matter, can prove they have an environment that 
-deserves to employ some of the country's best technical minds.
+places worth working because the talk is hollow. 
 
-1. Keep "Few Managers to Many DOers" Ratio
-1. Open source code, documentation and data
-1. Host (quality) tech meetups
-1. Code review with outside developers
-1. Hire short-term consultants only
-1. Ensure great gigs for departing developers
+These are my six recommendations for how Digital Services,
+or any organization for that matter, can prove to prospective employees that
+they have an environment that deserves to employ some of the country's 
+best technical minds.
+
+1. Keep a "Few Managers to Many DOers" Ratio
+2. Open source code, documentation and data
+3. Host (quality) tech meetups
+4. Code review with outside developers
+5. Hire short-term consultants only
+6. Ensure great gigs for departing developers
 
 
-Keep "Few Managers to Many DOers" Ratio
----------------------------------------
+Keep a "Few Managers to Many DOers" Ratio
+-----------------------------------------
 Organizations that quickly build and release software have a significantly
 higher percentage of DOers than managers. DOers include software developers,
 designers and system administrators (who are increasingly spending their time
@@ -74,8 +51,8 @@ and team leads that order people around instead of doing their own work.
 
 Managers love to spend time in meetings. Meetings are antithetical to focus
 on actual work. Make sure to read Paul Graham's essay on 
-[Maker's Schedule, Manager's Schedule](http://www.paulgraham.com/makersschedule.html) to understand why keeping a low manager to many DOers ratio is so
-important.
+`Maker's Schedule, Manager's Schedule <http://www.paulgraham.com/makersschedule.html>`_ 
+to understand why keeping a low manager to many DOers ratio is so important.
 
 
 Open source code, documentation and data
