@@ -13,7 +13,7 @@ body {
   background-color: #111111; }
 
 .reveal {
-  font-family: "Press Start 2P";
+  font-family: "Open Sans", sans-serif;
   font-size: 30px;
   font-weight: 200;
   letter-spacing: -0.02em;
@@ -35,8 +35,8 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #eeeeee;
-  font-family: "Press Start 2P";
-  line-height: 0.95em;
+  font-family: "Montserrat", Impact, sans-serif;
+  line-height: 0.9em;
   letter-spacing: -0.03em;
   text-transform: none;
   text-shadow: none; }
@@ -185,8 +185,8 @@ body {
   background-size: cover;
 }
 
-.none-shall-pass .reveal .state-background {
-  background: #fff;
+.light-bulb .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-full-stack-python/light-bulb.jpg);
   background-size: cover;
 }
 
@@ -287,5 +287,4 @@ body {
   background-color: #fff;
 }
 
-h1.front-title {font-size: 72px; line-height: 1.05em;}
 h1.light-bg {color: #222;}

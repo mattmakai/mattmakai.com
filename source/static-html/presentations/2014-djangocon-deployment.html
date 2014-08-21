@@ -62,20 +62,38 @@
                     <br>
                     <br>
 					<p style="font-size: .85em;">
-                        <a href="http://www.kateheddleston.com/">Kate Heddleston</a> | Python Sorceress
+                        <a href="http://www.kateheddleston.com/">Kate Heddleston</a> | Runscope
                         <a href="http://www.mattmakai.com">Matt Makai</a> | 
-                        Django Warrior
+                        Twilio
                     </p>
 				</section>
-                
-                <section style="text-align: center;" data-state="none-shall-pass">
-                    <img src="/source/static/img/presentations/2014-djangocon-deployment/none-shall-pass.jpg" style="border: none; background: none; box-shadow: none;">
-                </section>
-                
-                <section data-state="light-bulb">
-                </section>
+              
+                <section>
+                    <h1>The next great app...</h1>
+                </section>  
                
-                <section data-state="fsp-map">
+                <section>
+                    <h2>Text "1" or "2" to (xxx) 555-1234</h2>
+                    <div style="display: inline;">
+                        <div style="float: left;">
+                            <h1>1</h1>
+                            <h2><a href="#tinder-for-pets">Tinder<br>for Pets</a></h2>
+                            <h2>x votes</h2>
+                        </div>
+                        <div style="float: right;">
+                            <h1>2</h1>
+                            <h2>Oy!<br>&nbsp;</h2>
+                            <h2>x votes</h2>
+                        </div>
+                    </div>
+                </section>
+                
+                <section id="tinder-for-pets">
+                    <h1>Tinder for Pets</h1>
+                </section>
+                
+                <section>
+                    <h1>Tinder for Pets</h1>
                 </section>
                 
                 <section data-state="resources">
@@ -396,7 +414,6 @@ location /blog {
 		<script src="/source/static/js/reveal.min.js"></script>
 
 		<script>
-
 			// Full list of configuration options available here:
 			// https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
@@ -420,6 +437,17 @@ location /blog {
 					// { src: '/source/static/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
 				]
 			});
+
+            $(document).ready(function() {
+                namespace = '/i23ri23jrio32ior23oirj3io2jrio23jroi23j';
+                var socket = io.connect('http://' + document.domain + ':' + location.port + namespace);
+                // socket.emit('join', {room: {{ meeting.id }} + ""});
+
+                socket.on('my response', function(msg) {
+                    $('#messages').append('<br>"' + msg.data + '"');
+                });
+            });
+
 		</script>
 
 	</body>
