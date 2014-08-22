@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/post.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2014-08-13T00:00:00-04:00</updated><entry><title>Hiring for U.S. Digital Services</title><link href="http://www.letshackdc.com/united-states-digital-services.html" rel="alternate"></link><updated>2014-08-13T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-08-13:united-states-digital-services.html</id><summary type="html">&lt;p&gt;The new
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/post.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2014-08-22T00:00:00-04:00</updated><entry><title>Plushcap Python Package Blog Series</title><link href="http://www.letshackdc.com/plushcap-python-package-series.html" rel="alternate"></link><updated>2014-08-22T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-08-22:plushcap-python-package-series.html</id><summary type="html">&lt;p&gt;The
+&lt;a class="reference external" href="https://www.twilio.com/blog/2014/08/website-sms-alerts-with-the-plushcap-python-package-part-1.html"&gt;first part of my multi-part series&lt;/a&gt;
+with a detailed walkthrough for building the
+&lt;a class="reference external" href="https://github.com/makaimc/plushcap"&gt;Plushcap Python package&lt;/a&gt;
+for website monitoring and alerting is up on the
+&lt;a class="reference external" href="https://twilio.com/"&gt;Twilio&lt;/a&gt; blog.&lt;/p&gt;
+&lt;p&gt;Plushcap, named after the
+&lt;a class="reference external" href="http://neotropical.birds.cornell.edu/portal/species/overview?p_p_spp=589676"&gt;Neotropical bird&lt;/a&gt;,
+is a simple open source package for monitoring and
+alerting when a website is erroring or not responding to HTTP requests.&lt;/p&gt;
+&lt;p&gt;Part two in the series will show how to use Plushcap with a task queue.
+Part three will build out the
+&lt;a class="reference external" href="https://github.com/makaimc/plushcap-flask"&gt;plushcap-flask&lt;/a&gt; front end
+dashboard to view a website's uptime over extended periods.&lt;/p&gt;
+</summary></entry><entry><title>Hiring for U.S. Digital Services</title><link href="http://www.letshackdc.com/united-states-digital-services.html" rel="alternate"></link><updated>2014-08-13T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-08-13:united-states-digital-services.html</id><summary type="html">&lt;p&gt;The new
 &lt;a class="reference external" href="http://www.washingtonpost.com/blogs/the-switch/wp/2014/08/11/white-house-launches-u-s-digital-service-with-healthcare-gov-fixer-at-the-helm/"&gt;U.S. Digital Services&lt;/a&gt;
 group has a difficult task ahead assembling a
 talented new software developers and designers team. Many of the best
