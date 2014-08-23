@@ -42,8 +42,8 @@ at the beginning of September.
 ----
 
 
-(TBD - something about APIs in software development)
-----------------------------------------------------
+`Web API Power Laws </presentations/2014-cap1-api-power-laws.html>`_
+--------------------------------------------------------------------
 
 Upcoming talk at `Capital One <https://www.capitalone.com/>`_ on 
 August 25, 2014 in Richmond, Virginia.
