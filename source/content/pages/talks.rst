@@ -8,16 +8,17 @@ Tech Talks
 21+ talks done or scheduled in 2014
 -----------------------------------
 
-(TBD - something about Ansible deployments)
--------------------------------------------
+(TBD - Ansible deployments)
+---------------------------
 
 Upcoming `QCon SF 2014 <http://qconsf.com/>`_ talk in San Francisco, CA 
 in early November.
 
 ----
 
-(TBD - something about full stack with server software)
--------------------------------------------------------
+
+(TBD - full stack talk, emphasis on server software)
+----------------------------------------------------
 
 Upcoming talk to MoDev meetup on September 16 in Tyson's Corner, Virginia.
 
@@ -26,6 +27,12 @@ Upcoming talk to MoDev meetup on September 16 in Tyson's Corner, Virginia.
 
 Choose Your Own Django Deployment Adventure
 -------------------------------------------
+From WSGI servers and reverse proxies to continuous integration and 
+automated configuration management, the Django deployment environment 
+is a complicated collection of tools for developers new to the framework. 
+This talk explains the most confusing Django deployment topics as chosen 
+by the audience in real-time via text message votes. Bring your phone to 
+participate!
 
 Upcoming `DjangoCon 2014 <http://www.djangocon.us>`_ talk with Kate Heddleston
 in Portland, Oregon at the beginning of September.
@@ -35,6 +42,12 @@ in Portland, Oregon at the beginning of September.
 
 How to Solve Django's Top 5 Enterprise Headaches
 ------------------------------------------------
+The top five Django problems in large enterprise organizations are 
+integrating with Active Directory, passing security audits, transferring 
+data from legacy systems, installing packages from PyPI through proxy 
+servers and combating misperceptions around dynamically typed programming 
+languages. We'll solve these problems with code and resources to back up 
+arguments to enterprise stakeholders.
 
 Upcoming `DjangoCon 2014 <http://www.djangocon.us>`_ talk in Portland, Oregon
 at the beginning of September.
@@ -44,6 +57,11 @@ at the beginning of September.
 
 `Web API Power Laws </presentations/2014-cap1-api-power-laws.html>`_
 --------------------------------------------------------------------
+Publicly accessible Web APIs are proliferating exponentially. Power laws
+explain many of the current trends with that exponential growth. What are 
+those web API trends to be aware of and how can you as a software developer
+steer your career so you are aided by the growth instead of futily standing
+in the way?
 
 Upcoming talk at `Capital One <https://www.capitalone.com/>`_ on 
 August 25, 2014 in Richmond, Virginia.
@@ -58,7 +76,9 @@ into building a web application programming interface. Now comes the hard
 part. How do you inspire and equip software developers in five minutes
 so they are not only excited but also prepared to use your API?
 
-Upcoming talk at `DC Web API Group <http://www.meetup.com/DC-Web-API-User-Group/events/199434682/>`_ in Washington, D.C.on Wednesday, August 20.
+Talk given at 
+`DC Web API Group <http://www.meetup.com/DC-Web-API-User-Group/events/199434682/>`_ 
+in Washington, D.C.on Wednesday, August 20.
 
 ----
 
