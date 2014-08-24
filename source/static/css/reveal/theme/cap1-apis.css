@@ -135,143 +135,29 @@ body {
   background-size: cover;
 }
 
-.modules-index .reveal .state-background {
-  background: url(/source/static/img/presentations/2014-hacking-ansible/module-index.jpg);
+.dallas-cowboys .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-cap1-api-power-laws/dallas-cowboys.jpg);
   background-size: cover;
 }
 
-.network-modules .reveal .state-background {
-  background: url(/source/static/img/presentations/2014-hacking-ansible/network-modules.png);
+.macarena .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-cap1-api-power-laws/macarena.jpg);
   background-size: cover;
 }
 
-.get-url-module .reveal .state-background {
-  background: url(/source/static/img/presentations/2014-hacking-ansible/get-url-module.jpg);
+.world-wide-web .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-cap1-api-power-laws/world-wide-web.png);
   background-size: cover;
 }
 
-.get-url-examples .reveal .state-background {
-  background: url(/source/static/img/presentations/2014-hacking-ansible/get-url-examples.png);
+.netscape .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-cap1-api-power-laws/netscape-logo.png);
   background-size: cover;
+  background-color: white;
 }
 
-.demo-terminal .reveal .state-background {
-  background: url(/source/static/img/presentations/2014-hacking-ansible/demo-terminal.jpg);
-  background-size: cover;
-}
-
-.fsp .reveal .state-background {
-  background: url(/source/static/img/presentations/2014-ansible-notifications/fsp.png);
-  background-size: cover;
-}
-
-.fsp-download .reveal .state-background {
-  background: url(/source/static/img/presentations/2014-ansible-notifications/fsp-github.png);
-  background-size: cover;
-}
-
-.car-accident .reveal .state-background {
-  background: url(/source/static/img/presentations/2014-hacking-ansible/car-crash.jpg);
-  background-size: cover;
-}
-
-.alert-siren .reveal .state-background {
-  background: url(/source/static/img/presentations/2014-hacking-ansible/alert-siren.jpg);
-  background-size: cover;
-}
-
-.build-process .reveal .state-background {
-  background: url(/source/static/img/presentations/2014-hacking-ansible/build-process.jpg);
-  background-size: cover;
-}
-
-.light-bulb .reveal .state-background {
-  background: url(/source/static/img/presentations/2014-full-stack-python/light-bulb.jpg);
-  background-size: cover;
-}
-
-.your-idea-ipo .reveal .state-background {
-  background: url(/source/static/img/presentations/2014-full-stack-python/twitter-ipo.jpg);
-  background-size: cover;
-}
-
-.python .reveal .state-background {
-  background: url(/source/static/img/presentations/2014-full-stack-python/python.png);
-  background-size: cover;
-}
-
-.fsp-map .reveal .state-background {
-  background: url(/source/static/img/presentations/2014-fsp-berlin/full-stack-python-map.png);
-  background-size: cover;
-}
-
-.fsp-map-step-1 .reveal .state-background {
-  background: url(/source/static/img/presentations/2014-fsp-berlin/fsp-step-1.png);
-  background-size: cover;
-}
-
-.fsp-map-step-2 .reveal .state-background {
-  background: url(/source/static/img/presentations/2014-fsp-berlin/fsp-step-2.png);
-  background-size: cover;
-}
-
-.fsp-map-step-3 .reveal .state-background {
-  background: url(/source/static/img/presentations/2014-fsp-berlin/fsp-step-3.png);
-  background-size: cover;
-}
-
-.fsp-map-step-4 .reveal .state-background {
-  background: url(/source/static/img/presentations/2014-fsp-berlin/fsp-step-4.png);
-  background-size: cover;
-}
-
-.fsp-map-step-5 .reveal .state-background {
-  background: url(/source/static/img/presentations/2014-fsp-berlin/fsp-step-5.png);
-  background-size: cover;
-}
-
-.fsp-map-step-6 .reveal .state-background {
-  background: url(/source/static/img/presentations/2014-fsp-berlin/fsp-step-6.png);
-  background-size: cover;
-}
-
-.fsp-map-step-7 .reveal .state-background {
-  background: url(/source/static/img/presentations/2014-fsp-berlin/fsp-step-7.png);
-  background-size: cover;
-}
-
-.fsp-map-step-8 .reveal .state-background {
-  background: url(/source/static/img/presentations/2014-fsp-berlin/fsp-step-8.png);
-  background-size: cover;
-}
-
-.fsp-map-step-9 .reveal .state-background {
-  background: url(/source/static/img/presentations/2014-fsp-berlin/fsp-step-9.png);
-  background-size: cover;
-}
-
-.fsp-map-step-10 .reveal .state-background {
-  background: url(/source/static/img/presentations/2014-fsp-berlin/fsp-step-10.png);
-  background-size: cover;
-}
-
-.fsp-map-step-11 .reveal .state-background {
-  background: url(/source/static/img/presentations/2014-fsp-berlin/fsp-step-11.png);
-  background-size: cover;
-}
-
-.fsp-map-step-12 .reveal .state-background {
-  background: url(/source/static/img/presentations/2014-fsp-berlin/fsp-step-12.png);
-  background-size: cover;
-}
-
-.requirements-txt .reveal .state-background {
-  background: url(/source/static/img/presentations/2014-full-stack-python/requirements-txt.png);
-  background-size: cover;
-}
-
-.ga-fsp .reveal .state-background {
-  background: url(/source/static/img/presentations/2014-fsp-berlin/ga.png);
+.page-brin .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-cap1-api-power-laws/page-brin.jpg);
   background-size: cover;
 }
 
