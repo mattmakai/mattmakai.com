@@ -161,6 +161,26 @@ body {
   background-size: cover;
 }
 
+.currency .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-cap1-api-power-laws/currency.jpg);
+  background-size: cover;
+}
+
+.power-law .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-cap1-api-power-laws/power-law.png);
+  background-size: cover;
+}
+
+.cap1-webpage .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-cap1-api-power-laws/capital-one-webpage.jpg);
+  background-size: cover;
+}
+
+.json-xml .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-cap1-api-power-laws/json-xml.png);
+  background-size: cover;
+}
+
 .resources .reveal .state-background {
   background-color: #eee;
 }
