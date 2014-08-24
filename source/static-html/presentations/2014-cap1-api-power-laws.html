@@ -39,6 +39,25 @@
                 text-shadow: -1px -1px 0 #222, 1px -1px 0 #222, 
                 -1px 1px 0 #222, 1px 1px 0 #222; 
             }
+            .total-miles-tooltip {
+                color: #222;
+                background: #eee;
+                border: 1px solid #222;
+                padding: 3px;
+                -webkit-border-radius:3px;
+                -moz-border-radius:3px;
+                border-radius:3px;
+            }
+
+            .miles-driven-tooltip {
+                color: #eee;
+                background: #406BB4;
+                border: 1px solid #222;
+                padding: 3px;
+                -webkit-border-radius:3px;
+                -moz-border-radius:3px;
+                border-radius:3px;
+            }
         </style>
 
 		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
@@ -155,13 +174,13 @@
                 <section>
                     <h1>2014: 1996 for Web APIs</h1>
                 </section>
-                
-                <section>
-                    <h1>Picture of Web APIs growth</h1>
+
+                <section data-state="api-growth-viz">
+                    <div id="api-growth-viz"></div>
                 </section>
                 
-                <section>
-                    <h1>IoT</h1>
+                <section data-state="white-bg">
+                    <h1 style="color: green; font-size: 3.5em;">Internet of Things</h1>
                 </section>
                 
                 <section>
@@ -260,20 +279,20 @@
                 <section>
                     <h1>If you're a mobile developer...</h1>
                 </section>
-                
+
                 <section>
                     <h1>"There’s no chance that the iPhone is 
                         going to get any significant market share."</h1>
                 </section>
-                 
+
                 <section>
                     <h1>Steve Ballmer</h1>
                 </section>
-                 
+
                 <section>
                     <h1>Understand the underlying Web protocol</h1>
                 </section>
-             
+
                 <section>
                     <h1>Proof of work - open source</h1>
                 </section>
@@ -319,6 +338,7 @@
                         <li><a href="http://assets.nydailynews.com/polopoly_fs/1.1581410!/img/httpImage/image.jpg_gen/derivatives/article_970/super-bowl.jpg">Dallas Cowboys Super Bowl</a></li>
                         <li><a href="http://www.whydidyouwearthat.com/wp-content/uploads//2011/10/99553349.png">Macarena dance</a></li>
                         <li><a href="http://opensourcescholars.github.io/os-preso/images/Netscape2.png">Netscape logo</a></li>
+                        <li><a href="http://www.mit.edu/people/mkgray/net/web-growth-summary.html">Web growth</a></li>
                         <li><a href="http://upload.wikimedia.org/wikipedia/commons/0/0a/Google_page_brin.jpg">Page and Brin</a></li>
                         <li><a href="http://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Hyperlink-Wikipedia.svg/1280px-Hyperlink-Wikipedia.svg.png">Wikipedia hyperlink</a></li>
                         <li><a href="http://gold.images3.org/images/gallery/uploads_big/gold/gold-coins-no-writing-copy-683.jpg">Currency</a></li>
@@ -331,7 +351,8 @@
 		</div>
 
         <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script> 
-        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.16/socket.io.min.js"></script>
+        <script src="/source/static/js/d3.min.js" charset="utf-8"></script>
+        <script src="/source/static/js/presentations/api-growth.js"></script>
 		<script src="/source/static/lib/js/head.min.js"></script>
 		<script src="/source/static/js/reveal.min.js"></script>
 
@@ -360,14 +381,30 @@
 				]
 			});
 
-            $(document).ready(function() {
-                namespace = '/i23ri23jrio32ior23oirj3io2jrio23jroi23j';
-                var socket = io.connect('http://' + document.domain + ':' + location.port + namespace);
-                // socket.emit('join', {room: {{ meeting.id }} + ""});
+            var containerWidth = $(".slides").width(),
+                containerHeight = $(".slides").height();
 
-                socket.on('my response', function(msg) {
-                    $('#messages').append('<br>"' + msg.data + '"');
-                });
+            var margin = {top: 5, right: 5, bottom: 5, left: 5},
+                vizWidth = containerWidth,
+                vizHeight = containerHeight;
+
+            /* API growth visualization */
+            var apiGrowthSvg = d3.select("#api-growth-viz").append("svg")
+                .attr("width", vizWidth + margin.left + margin.right)
+                .attr("height", vizHeight + margin.top + margin.bottom)
+                .attr("class", "api-growth")
+                .attr("id", "api-growth-svg");
+
+
+            var apiGrowthAlreadyDrawn = false;
+            Reveal.addEventListener( 'api-growth-viz', function() {
+                if (!apiGrowthAlreadyDrawn) {
+                    apiGrowthAlreadyDrawn = true;
+                    d3.json('/static/data/api-growth.json', drawApiGrowth);
+                }
+            } );
+
+            $(document).ready(function() {
             });
 
 		</script>
