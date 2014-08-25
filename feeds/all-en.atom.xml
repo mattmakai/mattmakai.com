@@ -19,6 +19,16 @@ for both technical and non-technical audiences who want to learn the
 fundamentals behind web APIs.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
+&lt;div class="section" id="finding-apis"&gt;
+&lt;h2&gt;Finding APIs&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.programmableweb.com/"&gt;ProgrammableWeb&lt;/a&gt; focuses on API industry
+news and trends.&lt;/li&gt;
+&lt;li&gt;My post on
+&lt;a class="reference external" href="http://www.mattmakai.com/identifying-third-party-services-for-django.html"&gt;identifying third party services&lt;/a&gt;
+was written with Django in mind but is language agnostic.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 &lt;div class="section" id="creating-apis"&gt;
 &lt;h2&gt;Creating APIs&lt;/h2&gt;
 &lt;ul class="simple"&gt;

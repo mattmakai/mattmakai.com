@@ -27,6 +27,16 @@ Web and API Fundamentals
   fundamentals behind web APIs.
 
 
+Finding APIs
+------------
+* `ProgrammableWeb <http://www.programmableweb.com/>`_ focuses on API industry
+  news and trends.
+
+* My post on 
+  `identifying third party services <http://www.mattmakai.com/identifying-third-party-services-for-django.html>`_ 
+  was written with Django in mind but is language agnostic.
+
+
 Creating APIs
 -------------
 * "`Design a beautiful REST API <https://medium.com/@zwacky/design-a-beautiful-rest-api-901c73489458>`_" 
