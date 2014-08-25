@@ -55,8 +55,8 @@ at the beginning of September.
 ----
 
 
-`Web API Power Laws </presentations/2014-cap1-api-power-laws.html>`_
---------------------------------------------------------------------
+`Web APIs, Exponential Growth and You </presentations/2014-cap1-api-power-laws.html>`_
+--------------------------------------------------------------------------------------
 Publicly accessible Web APIs are proliferating exponentially. Power laws
 explain many of the current trends with that exponential growth. What are 
 those web API trends to be aware of and how can you as a software developer
