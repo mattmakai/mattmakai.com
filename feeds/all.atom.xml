@@ -6,6 +6,8 @@ that code with APIs. The concepts listed here are key to performing
 software development well. Many of these links are also included in my
 &lt;a class="reference external" href="http://www.fullstackpython.com/application-programming-interfaces.html"&gt;application programming interfaces section on Full Stack Python&lt;/a&gt;
 but the ones here are programming language agnostic.&lt;/p&gt;
+&lt;p&gt;These links go along with my
+&lt;a class="reference external" href="http://www.mattmakai.com/presentations/2014-cap1-api-power-laws.html#/"&gt;Web APIs, Exponential Growth and You&lt;/a&gt; talk.&lt;/p&gt;
 &lt;div class="section" id="web-and-api-fundamentals"&gt;
 &lt;h2&gt;Web and API Fundamentals&lt;/h2&gt;
 &lt;ul class="simple"&gt;

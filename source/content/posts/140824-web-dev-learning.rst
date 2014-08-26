@@ -13,6 +13,9 @@ software development well. Many of these links are also included in my
 `application programming interfaces section on Full Stack Python <http://www.fullstackpython.com/application-programming-interfaces.html>`_
 but the ones here are programming language agnostic. 
 
+These links go along with my 
+`Web APIs, Exponential Growth and You <http://www.mattmakai.com/presentations/2014-cap1-api-power-laws.html#/>`_ talk.
+
 
 Web and API Fundamentals
 ------------------------
