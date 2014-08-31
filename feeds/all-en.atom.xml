@@ -1,5 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/all-en.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2014-08-24T00:00:00-04:00</updated><entry><title>Links for Learning Web Fundamentals</title><link href="http://www.letshackdc.com/links-learning-web-fundamentals.html" rel="alternate"></link><updated>2014-08-24T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-08-24:links-learning-web-fundamentals.html</id><summary type="html">&lt;p&gt;The following list is a collection of resources for understanding and
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/all-en.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2014-08-31T00:00:00-04:00</updated><entry><title>Django Deployment Adventure Links</title><link href="http://www.letshackdc.com/links-django-deployment-adventure.html" rel="alternate"></link><updated>2014-08-31T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-08-31:links-django-deployment-adventure.html</id><summary type="html">&lt;p&gt;The following list is a collection of resources for Django deployments and
+scenarios like handling web security vulnerabilities, measuring user traction&amp;quot;
+with web analytics, improving web application performance with caching and
+managing incoming feature requests from users.&lt;/p&gt;
+&lt;p&gt;Many of these resources along with more detailed explanations can be found on
+&lt;a class="reference external" href="http://www.fullstackpython.com/"&gt;Full Stack Python&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;These links go along with our
+&lt;a class="reference external" href="/presentations/2014-djangocon-deployment.html"&gt;Choose Your Own Django Deployment Adventure&lt;/a&gt; talk.&lt;/p&gt;
+&lt;div class="section" id="django-deployments"&gt;
+&lt;h2&gt;Django Deployments&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="section" id="web-application-security"&gt;
+&lt;h2&gt;Web Application Security&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="section" id="measuring-user-traction"&gt;
+&lt;h2&gt;Measuring User Traction&lt;/h2&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Links for Solving Django's Top Enterprise Headaches</title><link href="http://www.letshackdc.com/links-solve-djangos-top-enterprise-headaches.html" rel="alternate"></link><updated>2014-08-30T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-08-30:links-solve-djangos-top-enterprise-headaches.html</id><summary type="html">&lt;p&gt;The following list is a collection of resources for solving many of the
+headaches that come with using a dynamically typed language like Python
+in the enterprise with Django as a commonly misunderstood web framework.
+These resources I found very helpful when I found them during my time
+consulting on numerous enterprise Django apps across commercial, non-profit
+and government clients before joining Twilio. These links also go along
+with my
+&lt;a class="reference external" href="/presentations/2014-djangocon-top-5-enterprise.html"&gt;How to Solve Django's Top 5 Enterprise Headaches&lt;/a&gt;
+talk presented at
+&lt;a class="reference external" href="http://www.djangocon.us/schedule/presentation/10/"&gt;DjangoCon 2014&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="section" id="integrating-with-active-directory"&gt;
+&lt;h2&gt;Integrating with Active Directory&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="section" id="passing-security-audits"&gt;
+&lt;h2&gt;Passing Security Audits&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="section" id="tranferring-data-from-legacy-systems"&gt;
+&lt;h2&gt;Tranferring Data from Legacy Systems&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="section" id="securing-python-package-installations"&gt;
+&lt;h2&gt;Securing Python Package Installations&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="section" id="correcting-dynamic-typing-misconceptions"&gt;
+&lt;h2&gt;Correcting Dynamic Typing Misconceptions&lt;/h2&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Links for Learning Web Fundamentals</title><link href="http://www.letshackdc.com/links-learning-web-fundamentals.html" rel="alternate"></link><updated>2014-08-24T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-08-24:links-learning-web-fundamentals.html</id><summary type="html">&lt;p&gt;The following list is a collection of resources for understanding and
 learning Web fundamentals and application programming interfaces (APIs).
 Modern software development is driven by crafting custom code and combining
 that code with APIs. The concepts listed here are key to performing

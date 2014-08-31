@@ -8,8 +8,8 @@ Tech Talks
 21+ talks done or scheduled in 2014
 -----------------------------------
 
-(TBD - Ansible deployments)
----------------------------
+(TBD - Web APIs talk)
+~~~~~~~~~~~~~~~~~~~~~
 
 Upcoming `QCon SF 2014 <http://qconsf.com/>`_ talk in San Francisco, CA 
 in early November.
@@ -18,15 +18,15 @@ in early November.
 
 
 (TBD - full stack talk, emphasis on server software)
-----------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Upcoming talk to MoDev meetup on September 16 in Tyson's Corner, Virginia.
 
 ----
 
 
-Choose Your Own Django Deployment Adventure
--------------------------------------------
+`Choose Your Own Django Deployment Adventure </presentations/2014-djangocon-deployment.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 From WSGI servers and reverse proxies to continuous integration and 
 automated configuration management, the Django deployment environment 
 is a complicated collection of tools for developers new to the framework. 
@@ -34,14 +34,17 @@ This talk explains the most confusing Django deployment topics as chosen
 by the audience in real-time via text message votes. Bring your phone to 
 participate!
 
-Upcoming `DjangoCon 2014 <http://www.djangocon.us>`_ talk with Kate Heddleston
-in Portland, Oregon at the beginning of September.
+Upcoming 
+`DjangoCon 2014 talk <http://www.djangocon.us/schedule/presentation/5/>`_ 
+with 
+`Kate Heddleston <http://kateheddleston.com/>`_ in Portland, Oregon 
+on Thursday, September 4, 2014.
 
 ----
 
 
-How to Solve Django's Top 5 Enterprise Headaches
-------------------------------------------------
+`Solving Django's Top 5 Enterprise Headaches </presentations/2014-djangocon-top-5-enterprise.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The top five Django problems in large enterprise organizations are 
 integrating with Active Directory, passing security audits, transferring 
 data from legacy systems, installing packages from PyPI through proxy 
@@ -49,21 +52,21 @@ servers and combating misperceptions around dynamically typed programming
 languages. We'll solve these problems with code and resources to back up 
 arguments to enterprise stakeholders.
 
-Upcoming `DjangoCon 2014 <http://www.djangocon.us>`_ talk in Portland, Oregon
-at the beginning of September.
+Upcoming `DjangoCon 2014 <http://www.djangocon.us/schedule/presentation/10/>`_ 
+talk in Portland, Oregon on Wednesday, September 3, 2014.
 
 ----
 
 
 `Web APIs, Exponential Growth and You </presentations/2014-cap1-api-power-laws.html>`_
---------------------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Publicly accessible Web APIs are proliferating exponentially. Power laws
 explain many of the current trends with that exponential growth. What are 
 those web API trends to be aware of and how can you as a software developer
 steer your career so you are aided by the growth instead of futily standing
 in the way?
 
-Upcoming talk at `Capital One <https://www.capitalone.com/>`_ on 
+Talk presented to `Capital One <https://www.capitalone.com/>`_ on 
 August 25, 2014 in Richmond, Virginia.
 
 ----
@@ -383,8 +386,8 @@ Presented to
 ----
 
 
-`DjangoCon 2013: Making Django Play Nice With Third Party Services </presentations/djangocon-2013.html>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+`Making Django Play Nice With Third Party Services </presentations/djangocon-2013.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Modern Django projects combine custom apps with third party services, 
 such as Twilio and Stripe, to create a complete product. Choosing the 
 right services for your application can make or break its usefulness to 
@@ -400,8 +403,8 @@ including myself in this blog post.
 ----
 
 
-`DjangoCon 2013: Python Lessons Learned From Roadtripping the US </presentations/djangocon-2013-lightning-talk.html>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+`Python Lessons Learned From Roadtripping the US </presentations/djangocon-2013-lightning-talk.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 DjangoCon 2013 lightning talk with lessons learned for the Python community 
 from my adventures road tripping the US for 5 months to 30 cities. 
 
@@ -411,8 +414,8 @@ in the morning session on September 5th in Chicago, IL.
 ----
 
 
-`Making Django Play Nice With Third Party Services </presentations/django-district-august-27-2013.html>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+`Making Django Play Nice With Third Party Services: Take One </presentations/django-district-august-27-2013.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Modern Django projects combine custom apps with third party services, 
 such as Twilio and Stripe, to create a complete product. Choosing the 
 right services for your application can make or break its usefulness to 

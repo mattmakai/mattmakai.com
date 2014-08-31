@@ -275,6 +275,11 @@ body {
   background-size: cover;
 }
 
+.title-slide .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-djangocon-enterprise/title-slide.jpg);
+  background-size: cover;
+}
+
 .resources .reveal .state-background {
   background-color: #eee;
 }
