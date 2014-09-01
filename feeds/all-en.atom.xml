@@ -59,6 +59,17 @@ talk presented at
 &lt;a class="reference external" href="http://www.djangocon.us/schedule/presentation/10/"&gt;DjangoCon 2014&lt;/a&gt;.&lt;/p&gt;
 &lt;div class="section" id="integrating-with-active-directory"&gt;
 &lt;h2&gt;Integrating with Active Directory&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Use &lt;a class="reference external" href="http://www.python-ldap.org/"&gt;python-ldap&lt;/a&gt; to integrate with
+Active Directory.&lt;/li&gt;
+&lt;li&gt;Here's a
+&lt;a class="reference external" href="https://djangosnippets.org/snippets/2604/"&gt;snippet for working with Active Directory and the User object&lt;/a&gt;
+so the User model can be updated each time a user authenticates.&lt;/li&gt;
+&lt;li&gt;This
+&lt;a class="reference external" href="http://www.roguelynn.com/words/django-custom-user-models/"&gt;post on custom Django User models&lt;/a&gt;
+is helpful for understanding how to integrate with external authentication
+mechanisms.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="passing-security-audits"&gt;
 &lt;h2&gt;Passing Security Audits&lt;/h2&gt;

@@ -19,6 +19,17 @@ talk presented at
 
 Integrating with Active Directory
 ---------------------------------
+* Use `python-ldap <http://www.python-ldap.org/>`_ to integrate with
+  Active Directory.
+
+* Here's a 
+  `snippet for working with Active Directory and the User object <https://djangosnippets.org/snippets/2604/>`_
+  so the User model can be updated each time a user authenticates.
+
+* This 
+  `post on custom Django User models <http://www.roguelynn.com/words/django-custom-user-models/>`_ 
+  is helpful for understanding how to integrate with external authentication
+  mechanisms.
 
 
 Passing Security Audits
