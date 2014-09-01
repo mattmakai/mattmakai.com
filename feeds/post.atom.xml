@@ -9,12 +9,43 @@ managing incoming feature requests from users.&lt;/p&gt;
 &lt;a class="reference external" href="/presentations/2014-djangocon-deployment.html"&gt;Choose Your Own Django Deployment Adventure&lt;/a&gt; talk.&lt;/p&gt;
 &lt;div class="section" id="django-deployments"&gt;
 &lt;h2&gt;Django Deployments&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://omniti.com/seeds/thoughts-on-web-application-deployment"&gt;Thoughts on web application deployment&lt;/a&gt;
+walks through stages of deployment with source control, planning,
+continuous deployment and monitoring the results.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.kalzumeus.com/2010/12/12/staging-servers-source-control-deploy-workflows-and-other-stuff-nobody-teaches-you/"&gt;Staging Servers, Source Control &amp;amp; Deploy Workflows, And Other Stuff Nobody Teaches You&lt;/a&gt;
+is a comprehensive overview of deployments with source control and staging
+servers.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://agiliq.com/blog/2014/08/deploying-a-django-app-on-amazon-ec2-instance/"&gt;Deploying a Django app on Amazon EC2 instance&lt;/a&gt;
+is a detailed walkthrough for deploying an example Django app to Amazon
+Web Services.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.nickpolet.com/blog/deploying-django-on-aws/1/"&gt;Deploying Django on AWS&lt;/a&gt;
+is another walkthrough for deploying Django to AWS.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="web-application-security"&gt;
 &lt;h2&gt;Web Application Security&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;The official &lt;a class="reference external" href="https://docs.djangoproject.com/en/dev/topics/security/"&gt;Django security docs page&lt;/a&gt;
+provides a good overview of security features baked into Django.&lt;/li&gt;
+&lt;li&gt;Reading &lt;a class="reference external" href="http://blog.mikeleone.com/2011/10/security-django-and-owasp-top-10.html"&gt;Django and the OWASP Top 10&lt;/a&gt;
+and watching
+&lt;a class="reference external" href="https://www.youtube.com/watch?v=sra9x44lXgU"&gt;Jacobian's talk on Django vs the OWASP Top 10&lt;/a&gt;
+provide further insight into how Django assists with the top web
+application vulnerabilities.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.securedjango.com/"&gt;Secure Django&lt;/a&gt; reviews are expensive but
+potentially help in enterprise environments where money is not a concern.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="measuring-user-traction"&gt;
 &lt;h2&gt;Measuring User Traction&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://ducksboard.com/services-integrations/"&gt;Ducksboard Web Analytics Integrations&lt;/a&gt;
+is a good initial list for web analytics tools you'll want to learn more
+about.&lt;/li&gt;
+&lt;li&gt;The &lt;a class="reference external" href="http://www.fullstackpython.com/web-analytics.html"&gt;Full Stack Python web analytics page&lt;/a&gt;
+lists open source web analytics projects and hosted web analytics services.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
 </summary></entry><entry><title>Links for Solving Django's Top Enterprise Headaches</title><link href="http://www.letshackdc.com/links-solve-djangos-top-enterprise-headaches.html" rel="alternate"></link><updated>2014-08-30T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-08-30:links-solve-djangos-top-enterprise-headaches.html</id><summary type="html">&lt;p&gt;The following list is a collection of resources for solving many of the
 headaches that come with using a dynamically typed language like Python
