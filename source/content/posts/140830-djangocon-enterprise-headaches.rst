@@ -19,6 +19,10 @@ talk presented at
 
 Integrating with Active Directory
 ---------------------------------
+* Check this Stack Overflow question on 
+  `What are the differences between LDAP and Active Directory <http://stackoverflow.com/questions/663402/what-are-the-differences-between-ldap-and-active-directory>`_ 
+  for some solid backround knowledge.
+
 * Use `python-ldap <http://www.python-ldap.org/>`_ to integrate with
   Active Directory.
 
@@ -38,15 +42,37 @@ Passing Security Audits
   is a video where Jacobian rolls through each of the top ten and what
   to do about addressing each security concern.
 
+* The official `Django security docs page <https://docs.djangoproject.com/en/dev/topics/security/>`_
+  provides a good overview of security features baked into Django.
 
+* Reading `Django and the OWASP Top 10 <http://blog.mikeleone.com/2011/10/security-django-and-owasp-top-10.html>`_ 
+  and watching 
+  `Jacobian's talk on Django vs the OWASP Top 10 <https://www.youtube.com/watch?v=sra9x44lXgU>`_
+  provide further insight into how Django assists with the top web
+  application vulnerabilities.
 
 
 Tranferring Data from Legacy Systems
 ------------------------------------
+* `Working with legacy databases <https://docs.djangoproject.com/en/dev/howto/legacy-databases/>`_
+  is the official Django documentation on the topic.
+
+* `Generate Django models from a database <http://stackoverflow.com/questions/1179469/is-it-posible-to-generate-django-models-from-the-database>`_
+  via the inspectdb command.
+
+* Create a 
+  `database graph from your Django models <http://django-extensions.readthedocs.org/en/latest/graph_models.html>`_ 
+  using the django-extensions to genereate GraphViz files.
 
 
 Securing Python Package Installations
 -------------------------------------
+* `How to get pip working behind a proxy server <http://stackoverflow.com/questions/19080352/how-to-get-pip-to-work-behind-a-proxy-server>`_ 
+  basically explains how to set the https_proxy variable on Linux so pip
+  can properly connect to PyPI.
+
+* `Setting up a custom PyPI server <http://jamie.curle.io/blog/setting-up-a-custom-pypi-server/>`_
+  walks through how to do exactly that.
 
 
 Correcting Dynamic Typing Misconceptions

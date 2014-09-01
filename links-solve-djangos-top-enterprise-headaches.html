@@ -96,6 +96,9 @@ talk presented at
 <div class="section" id="integrating-with-active-directory">
 <h2>Integrating with Active Directory</h2>
 <ul class="simple">
+<li>Check this Stack Overflow question on
+<a class="reference external" href="http://stackoverflow.com/questions/663402/what-are-the-differences-between-ldap-and-active-directory">What are the differences between LDAP and Active Directory</a>
+for some solid backround knowledge.</li>
 <li>Use <a class="reference external" href="http://www.python-ldap.org/">python-ldap</a> to integrate with
 Active Directory.</li>
 <li>Here's a
@@ -113,13 +116,36 @@ mechanisms.</li>
 <li><a class="reference external" href="https://www.youtube.com/watch?feature=player_embedded&amp;v=sra9x44lXgU&quot;">Python vs OWASP Top 10</a>
 is a video where Jacobian rolls through each of the top ten and what
 to do about addressing each security concern.</li>
+<li>The official <a class="reference external" href="https://docs.djangoproject.com/en/dev/topics/security/">Django security docs page</a>
+provides a good overview of security features baked into Django.</li>
+<li>Reading <a class="reference external" href="http://blog.mikeleone.com/2011/10/security-django-and-owasp-top-10.html">Django and the OWASP Top 10</a>
+and watching
+<a class="reference external" href="https://www.youtube.com/watch?v=sra9x44lXgU">Jacobian's talk on Django vs the OWASP Top 10</a>
+provide further insight into how Django assists with the top web
+application vulnerabilities.</li>
 </ul>
 </div>
 <div class="section" id="tranferring-data-from-legacy-systems">
 <h2>Tranferring Data from Legacy Systems</h2>
+<ul class="simple">
+<li><a class="reference external" href="https://docs.djangoproject.com/en/dev/howto/legacy-databases/">Working with legacy databases</a>
+is the official Django documentation on the topic.</li>
+<li><a class="reference external" href="http://stackoverflow.com/questions/1179469/is-it-posible-to-generate-django-models-from-the-database">Generate Django models from a database</a>
+via the inspectdb command.</li>
+<li>Create a
+<a class="reference external" href="http://django-extensions.readthedocs.org/en/latest/graph_models.html">database graph from your Django models</a>
+using the django-extensions to genereate GraphViz files.</li>
+</ul>
 </div>
 <div class="section" id="securing-python-package-installations">
 <h2>Securing Python Package Installations</h2>
+<ul class="simple">
+<li><a class="reference external" href="http://stackoverflow.com/questions/19080352/how-to-get-pip-to-work-behind-a-proxy-server">How to get pip working behind a proxy server</a>
+basically explains how to set the https_proxy variable on Linux so pip
+can properly connect to PyPI.</li>
+<li><a class="reference external" href="http://jamie.curle.io/blog/setting-up-a-custom-pypi-server/">Setting up a custom PyPI server</a>
+walks through how to do exactly that.</li>
+</ul>
 </div>
 <div class="section" id="correcting-dynamic-typing-misconceptions">
 <h2>Correcting Dynamic Typing Misconceptions</h2>

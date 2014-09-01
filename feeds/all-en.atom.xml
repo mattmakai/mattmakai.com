@@ -60,6 +60,9 @@ talk presented at
 &lt;div class="section" id="integrating-with-active-directory"&gt;
 &lt;h2&gt;Integrating with Active Directory&lt;/h2&gt;
 &lt;ul class="simple"&gt;
+&lt;li&gt;Check this Stack Overflow question on
+&lt;a class="reference external" href="http://stackoverflow.com/questions/663402/what-are-the-differences-between-ldap-and-active-directory"&gt;What are the differences between LDAP and Active Directory&lt;/a&gt;
+for some solid backround knowledge.&lt;/li&gt;
 &lt;li&gt;Use &lt;a class="reference external" href="http://www.python-ldap.org/"&gt;python-ldap&lt;/a&gt; to integrate with
 Active Directory.&lt;/li&gt;
 &lt;li&gt;Here's a
@@ -77,13 +80,36 @@ mechanisms.&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/watch?feature=player_embedded&amp;amp;v=sra9x44lXgU&amp;quot;"&gt;Python vs OWASP Top 10&lt;/a&gt;
 is a video where Jacobian rolls through each of the top ten and what
 to do about addressing each security concern.&lt;/li&gt;
+&lt;li&gt;The official &lt;a class="reference external" href="https://docs.djangoproject.com/en/dev/topics/security/"&gt;Django security docs page&lt;/a&gt;
+provides a good overview of security features baked into Django.&lt;/li&gt;
+&lt;li&gt;Reading &lt;a class="reference external" href="http://blog.mikeleone.com/2011/10/security-django-and-owasp-top-10.html"&gt;Django and the OWASP Top 10&lt;/a&gt;
+and watching
+&lt;a class="reference external" href="https://www.youtube.com/watch?v=sra9x44lXgU"&gt;Jacobian's talk on Django vs the OWASP Top 10&lt;/a&gt;
+provide further insight into how Django assists with the top web
+application vulnerabilities.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="tranferring-data-from-legacy-systems"&gt;
 &lt;h2&gt;Tranferring Data from Legacy Systems&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://docs.djangoproject.com/en/dev/howto/legacy-databases/"&gt;Working with legacy databases&lt;/a&gt;
+is the official Django documentation on the topic.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://stackoverflow.com/questions/1179469/is-it-posible-to-generate-django-models-from-the-database"&gt;Generate Django models from a database&lt;/a&gt;
+via the inspectdb command.&lt;/li&gt;
+&lt;li&gt;Create a
+&lt;a class="reference external" href="http://django-extensions.readthedocs.org/en/latest/graph_models.html"&gt;database graph from your Django models&lt;/a&gt;
+using the django-extensions to genereate GraphViz files.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="securing-python-package-installations"&gt;
 &lt;h2&gt;Securing Python Package Installations&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://stackoverflow.com/questions/19080352/how-to-get-pip-to-work-behind-a-proxy-server"&gt;How to get pip working behind a proxy server&lt;/a&gt;
+basically explains how to set the https_proxy variable on Linux so pip
+can properly connect to PyPI.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://jamie.curle.io/blog/setting-up-a-custom-pypi-server/"&gt;Setting up a custom PyPI server&lt;/a&gt;
+walks through how to do exactly that.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="correcting-dynamic-typing-misconceptions"&gt;
 &lt;h2&gt;Correcting Dynamic Typing Misconceptions&lt;/h2&gt;
