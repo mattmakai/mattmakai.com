@@ -34,6 +34,11 @@ Integrating with Active Directory
 
 Passing Security Audits
 -----------------------
+* `Python vs OWASP Top 10 <https://www.youtube.com/watch?feature=player_embedded&v=sra9x44lXgU">`_
+  is a video where Jacobian rolls through each of the top ten and what
+  to do about addressing each security concern.
+
+
 
 
 Tranferring Data from Legacy Systems
@@ -46,3 +51,4 @@ Securing Python Package Installations
 
 Correcting Dynamic Typing Misconceptions
 ----------------------------------------
+

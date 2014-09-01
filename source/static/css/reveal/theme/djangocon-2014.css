@@ -215,6 +215,65 @@ body {
   background-size: cover;
 }
 
+.django-ad .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-djangocon-enterprise/django-ad.jpg);
+  background-size: cover;
+}
+
+.python-ldap .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-djangocon-enterprise/python-ldap.jpg);
+  background-size: cover;
+}
+
+.ldap-settings-py .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-djangocon-enterprise/ldap-settings-py.jpg);
+  background-size: cover;
+}
+
+.ldap-ad-backend .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-djangocon-enterprise/ldap-ad-backend.jpg);
+  background-size: cover;
+}
+
+.client-security-audit .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-djangocon-enterprise/client-security-audit.jpg);
+  background-size: cover;
+}
+
+.dev-sec-guy .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-djangocon-enterprise/dev-sec-guy.jpg);
+  background-size: cover;
+}
+
+.how-technical .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-djangocon-enterprise/how-technical.jpg);
+  background-size: cover;
+}
+
+.what-standards .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-djangocon-enterprise/what-standards.jpg);
+  background-size: cover;
+}
+
+.owasp-top-10 .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-djangocon-enterprise/owasp-top-10.jpg);
+  background-size: cover;
+}
+
+.owasp-specifics .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-djangocon-enterprise/owasp-specifics.jpg);
+  background-size: cover;
+}
+
+.iso-iec-2013 .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-djangocon-enterprise/iso-iec-2013.jpg);
+  background-size: cover;
+}
+
+.client-legacy-data .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-djangocon-enterprise/client-legacy-data.jpg);
+  background-size: cover;
+}
 
 .gray-bg .reveal .state-background {
   background-color: #ccc;

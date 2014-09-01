@@ -73,6 +73,11 @@ mechanisms.&lt;/li&gt;
 &lt;/div&gt;
 &lt;div class="section" id="passing-security-audits"&gt;
 &lt;h2&gt;Passing Security Audits&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/watch?feature=player_embedded&amp;amp;v=sra9x44lXgU&amp;quot;"&gt;Python vs OWASP Top 10&lt;/a&gt;
+is a video where Jacobian rolls through each of the top ten and what
+to do about addressing each security concern.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="tranferring-data-from-legacy-systems"&gt;
 &lt;h2&gt;Tranferring Data from Legacy Systems&lt;/h2&gt;
