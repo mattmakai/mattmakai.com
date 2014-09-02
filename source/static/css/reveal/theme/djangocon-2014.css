@@ -285,6 +285,11 @@ body {
   background-size: cover;
 }
 
+.django-extensions .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-djangocon-enterprise/django-extensions.jpg);
+  background-size: cover;
+}
+
 .graph-models .reveal .state-background {
   background: url(/source/static/img/presentations/2014-djangocon-enterprise/graph-models.jpg);
   background-size: cover;
@@ -292,6 +297,31 @@ body {
 
 .graph-models-output .reveal .state-background {
   background: url(/source/static/img/presentations/2014-djangocon-enterprise/graph-models-output.jpg);
+  background-size: cover;
+}
+
+.existing-systems-data .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-djangocon-enterprise/existing-systems-data.jpg);
+  background-size: cover;
+}
+
+.multiple-databases .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-djangocon-enterprise/multiple-databases.jpg);
+  background-size: cover;
+}
+
+.direct-db-connect .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-djangocon-enterprise/direct-db-connect.jpg);
+  background-size: cover;
+}
+
+.build-web-api-wrapper .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-djangocon-enterprise/build-web-api-wrapper.jpg);
+  background-size: cover;
+}
+
+.xlrd-xlwt .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-djangocon-enterprise/xlrd-xlwt.jpg);
   background-size: cover;
 }
 
