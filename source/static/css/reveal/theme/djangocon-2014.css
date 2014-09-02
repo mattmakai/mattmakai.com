@@ -275,8 +275,38 @@ body {
   background-size: cover;
 }
 
+.full-db-takeover .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-djangocon-enterprise/full-db-takeover.jpg);
+  background-size: cover;
+}
+
+.inspectdb .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-djangocon-enterprise/inspectdb.jpg);
+  background-size: cover;
+}
+
+.graph-models .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-djangocon-enterprise/graph-models.jpg);
+  background-size: cover;
+}
+
 .graph-models-output .reveal .state-background {
-  background: url(/source/static/img/presentations/2014-djangocon-enterprise/graph-models.output.jpg);
+  background: url(/source/static/img/presentations/2014-djangocon-enterprise/graph-models-output.jpg);
+  background-size: cover;
+}
+
+.client-package-installs .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-djangocon-enterprise/client-package-installs.jpg);
+  background-size: cover;
+}
+
+.client-dynamic-typing .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-djangocon-enterprise/client-dynamic-typing.jpg);
+  background-size: cover;
+}
+
+.net-promoter-score .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-djangocon-enterprise/net-promoter-score.jpg);
   background-size: cover;
 }
 
