@@ -10,11 +10,14 @@ headaches that come with using a dynamically typed language like Python
 in the enterprise with Django as a commonly misunderstood web framework.
 These resources I found very helpful when I found them during my time 
 consulting on numerous enterprise Django apps across commercial, non-profit
-and government clients before joining Twilio. These links also go along 
-with my 
+and government clients before joining Twilio. 
+
+These links also go along with my 
 `How to Solve Django's Top 5 Enterprise Headaches </presentations/2014-djangocon-top-5-enterprise.html>`_
 talk presented at 
-`DjangoCon 2014 <http://www.djangocon.us/schedule/presentation/10/>`_.
+`DjangoCon 2014 <http://www.djangocon.us/schedule/presentation/10/>`_. You
+can also find the reveal.js 
+`source code to the presentation on GitHub <https://github.com/makaimc/mattmakai.github.io/blob/gh-pages/source/static-html/presentations/2014-djangocon-top-5-enterprise.html>`_.
 
 
 Integrating with Active Directory

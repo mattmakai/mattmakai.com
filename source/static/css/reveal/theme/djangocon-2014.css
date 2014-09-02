@@ -320,6 +320,11 @@ body {
   background-size: cover;
 }
 
+.spreadsheet .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-djangocon-enterprise/spreadsheet.jpg);
+  background-size: cover;
+}
+
 .xlrd-xlwt .reveal .state-background {
   background: url(/source/static/img/presentations/2014-djangocon-enterprise/xlrd-xlwt.jpg);
   background-size: cover;
@@ -327,6 +332,11 @@ body {
 
 .client-package-installs .reveal .state-background {
   background: url(/source/static/img/presentations/2014-djangocon-enterprise/client-package-installs.jpg);
+  background-size: cover;
+}
+
+.export-https-proxy .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-djangocon-enterprise/export-https-proxy.jpg);
   background-size: cover;
 }
 
