@@ -77,4 +77,11 @@ Securing Python Package Installations
 
 Correcting Dynamic Typing Misconceptions
 ----------------------------------------
+* `CIO Magazine - Dynamic Languages: Not Just For Scripting Any More <http://www.cio.com/article/2431212/developer/dynamic-languages--not-just-for-scripting-any-more.html>`_
+  provides social proof for CIOs who look to peer organizations for what
+  they should or should not be doing.
+
+* `Organizations that use Python <https://wiki.python.org/moin/OrganizationsUsingPython>`_
+  is a list of exactly what it says. Examples can be used for social proof
+  that Python is a widely used programming language.
 

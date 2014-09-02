@@ -275,6 +275,11 @@ body {
   background-size: cover;
 }
 
+.graph-models-output .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-djangocon-enterprise/graph-models.output.jpg);
+  background-size: cover;
+}
+
 .gray-bg .reveal .state-background {
   background-color: #ccc;
 }
