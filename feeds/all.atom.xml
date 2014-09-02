@@ -109,6 +109,8 @@ basically explains how to set the https_proxy variable on Linux so pip
 can properly connect to PyPI.&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://jamie.curle.io/blog/setting-up-a-custom-pypi-server/"&gt;Setting up a custom PyPI server&lt;/a&gt;
 walks through how to do exactly that.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://cramer.io/2011/04/04/setting-up-your-own-pypi-server/"&gt;Setting Up Your Own PyPI Server&lt;/a&gt;
+is another good article with a walkthrough for setting up your own server.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="correcting-dynamic-typing-misconceptions"&gt;

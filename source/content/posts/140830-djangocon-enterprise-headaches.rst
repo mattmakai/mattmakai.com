@@ -74,6 +74,9 @@ Securing Python Package Installations
 * `Setting up a custom PyPI server <http://jamie.curle.io/blog/setting-up-a-custom-pypi-server/>`_
   walks through how to do exactly that.
 
+* `Setting Up Your Own PyPI Server <http://cramer.io/2011/04/04/setting-up-your-own-pypi-server/>`_
+  is another good article with a walkthrough for setting up your own server.
+
 
 Correcting Dynamic Typing Misconceptions
 ----------------------------------------
