@@ -46,6 +46,13 @@ Web Application Security
   provide further insight into how Django assists with the top web
   application vulnerabilities.
 
+* `Firesheep <http://codebutler.github.io/firesheep/>`_ is a plugin that
+  sniffs user session cookies if there are unencrypted pages after a user
+  has logged in. That allows user session spoofing. 
+  `Heartbleed <http://heartbleed.com/>`_ is an OpenSSL bug prior to the
+  latest versions where memory exploits could leak server data without any
+  trace of what was taken.
+
 * `Secure Django <https://www.securedjango.com/>`_ reviews are expensive but
   potentially help in enterprise environments where money is not a concern.
 
@@ -58,5 +65,6 @@ Measuring User Traction
 
 * The `Full Stack Python web analytics page <http://www.fullstackpython.com/web-analytics.html>`_
   lists open source web analytics projects and hosted web analytics services.
+
 
 

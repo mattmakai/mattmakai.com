@@ -33,6 +33,12 @@ and watching
 &lt;a class="reference external" href="https://www.youtube.com/watch?v=sra9x44lXgU"&gt;Jacobian's talk on Django vs the OWASP Top 10&lt;/a&gt;
 provide further insight into how Django assists with the top web
 application vulnerabilities.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://codebutler.github.io/firesheep/"&gt;Firesheep&lt;/a&gt; is a plugin that
+sniffs user session cookies if there are unencrypted pages after a user
+has logged in. That allows user session spoofing.
+&lt;a class="reference external" href="http://heartbleed.com/"&gt;Heartbleed&lt;/a&gt; is an OpenSSL bug prior to the
+latest versions where memory exploits could leak server data without any
+trace of what was taken.&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.securedjango.com/"&gt;Secure Django&lt;/a&gt; reviews are expensive but
 potentially help in enterprise environments where money is not a concern.&lt;/li&gt;
 &lt;/ul&gt;
