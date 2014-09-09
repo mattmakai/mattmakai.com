@@ -3,5 +3,33 @@ Bio
 
 :category: bio
 
+I'm fortunate to have the opportunity to speak at a good number of tech
+events throughout the year. Here are multiple variations of my bio based
+on the audience.
 
-Matt Makai (@mattmakai) is a Twilio Developer Evangelist and Python web developer. He was a DjangoCon 2013 speaker on "Making Django Play Nicely with Third Party Services" and recently spoke on "Full Stack Python" at DC Python and "Fully Automated Django Deployments with Ansible" at San Francisco Django. Matt contributed to the Ansible configuration management project and programmed the Underwear module hosted on PyPI. He also writes Full Stack Python to help new developers understand how to deploy their web applications into production.
+
+Python
+------
+Matt Makai (`@mattmakai <https://twitter.com/mattmakai>`_) is 
+a `Twilio <https://twilio.com/>`_ Developer Evangelist and Python 
+web developer based 
+in Washington, D.C. He was a speaker at EuroPython on "Full Stack Python" 
+and DjangoCon US on "Choose Your Own Django Deployment Adventure." Matt 
+has contributed to the Ansible configuration management open source project 
+and programmed the Underwear and Plushcap libraries hosted on PyPI. He also 
+writes the Full Stack Python website read by over 10,000 developers a month 
+to help them understand how to build and deploy their WSGI-powered web 
+applications.
+
+
+Django
+------
+Matt Makai (@mattmakai) is a Twilio Developer Evangelist and Python 
+web developer. He was a DjangoCon 2013 speaker on "Making Django Play 
+Nicely with Third Party Services" and recently spoke on "Full Stack Python" 
+at EuroPython 2014 and "Fully Automated Django Deployments with Ansible" at San 
+Francisco Django. Matt contributed to the Ansible configuration management 
+project and programmed the Underwear module hosted on PyPI. He also writes 
+Full Stack Python to help new developers understand how to deploy their web 
+applications into production.
+
