@@ -5,8 +5,10 @@ Bio
 
 I'm fortunate to have the opportunity to speak at a good number of tech
 events throughout the year. Here are multiple variations of my bio based
-on the audience.
+on the audience. 
 
+If you're looking for a picture, I generally use 
+`this headshot </source/static/img/matt-makai.jpg>`_ along with the bio.
 
 Python
 ------
@@ -32,4 +34,15 @@ Francisco Django. Matt contributed to the Ansible configuration management
 project and programmed the Underwear module hosted on PyPI. He also writes 
 Full Stack Python to help new developers understand how to deploy their web 
 applications into production.
+
+
+APIs
+----
+TBD
+
+
+General Software Development Event
+----------------------------------
+TBD
+
 
