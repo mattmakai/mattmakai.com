@@ -10,17 +10,33 @@ Tech Talks
 
 (TBD - Web APIs talk)
 ~~~~~~~~~~~~~~~~~~~~~
+...
 
 Upcoming `QCon SF 2014 <http://qconsf.com/>`_ talk in San Francisco, CA 
 in early November.
 
 ----
 
+Web APIs, Exponential Growth and You
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Publicly accessible Web APIs are proliferating exponentially, from just 
+fifty in 2004 to over twelve thousand in 2014. This talk will cover what web 
+APIs are, how they work and why they are becoming increasingly important to 
+every business. Software developers will also find out what they need to 
+learn about web APIs to ensure their careers benefit from these trends.
 
-(TBD - full stack talk, emphasis on server software)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Upcoming talk for `I/OWA Conf <http://iowaconf.com/>`_ during 
+`Des Moines Tech Week <http://techweekdesmoines.com/>`_ on October 16, 2014
+in Des Moines, Iowa.
 
-Upcoming talk to MoDev meetup on September 16 in Tyson's Corner, Virginia.
+----
+
+"Full Stack" from a Python Perspective
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Upcoming talk to 
+`MoDev meetup <http://www.meetup.com/modevdc/events/202380822/>`_ on 
+Monday, September 16 in Tyson's Corner, Virginia.
 
 ----
 
@@ -34,10 +50,9 @@ This talk explains the most confusing Django deployment topics as chosen
 by the audience in real-time via text message votes. Bring your phone to 
 participate!
 
-Upcoming 
 `DjangoCon 2014 talk <http://www.djangocon.us/schedule/presentation/5/>`_ 
 with 
-`Kate Heddleston <http://kateheddleston.com/>`_ in Portland, Oregon 
+`Kate Heddleston <http://kateheddleston.com/>`_ performed in Portland, Oregon 
 on Thursday, September 4, 2014.
 
 ----
@@ -52,14 +67,14 @@ servers and combating misperceptions around dynamically typed programming
 languages. We'll solve these problems with code and resources to back up 
 arguments to enterprise stakeholders.
 
-Upcoming `DjangoCon 2014 <http://www.djangocon.us/schedule/presentation/10/>`_ 
-talk in Portland, Oregon on Wednesday, September 3, 2014.
+`DjangoCon 2014 <http://www.djangocon.us/schedule/presentation/10/>`_ 
+talk given in Portland, Oregon on Wednesday, September 3, 2014.
 
 ----
 
 
-`Web APIs, Exponential Growth and You </presentations/2014-cap1-api-power-laws.html>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+`Web APIs, Exponential Growth and Capital One </presentations/2014-cap1-api-power-laws.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Publicly accessible Web APIs are proliferating exponentially. Power laws
 explain many of the current trends with that exponential growth. What are 
 those web API trends to be aware of and how can you as a software developer
