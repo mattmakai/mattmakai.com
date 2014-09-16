@@ -260,8 +260,13 @@ body {
   background-size: cover;
 }
 
-.ga-fsp .reveal .state-background {
-  background: url(/source/static/img/presentations/2014-fsp-berlin/ga.png);
+.breadth-city .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-fsp-perspective/breadth-city.jpg);
+  background-size: cover;
+}
+
+.depth-building .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-fsp-perspective/depth-building.jpg);
   background-size: cover;
 }
 
