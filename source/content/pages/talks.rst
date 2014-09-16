@@ -5,8 +5,9 @@ Tech Talks
 :slug: talks
 
 
-21+ talks done or scheduled in 2014
+22+ talks done or scheduled in 2014
 -----------------------------------
+
 
 (TBD - Web APIs talk)
 ~~~~~~~~~~~~~~~~~~~~~
@@ -31,10 +32,26 @@ in Des Moines, Iowa.
 
 ----
 
-"Full Stack" from a Python Perspective
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Upcoming talk to 
+Twilio Workshop
+~~~~~~~~~~~~~~~
+...
+
+Upcoming workshop for Des Moines Tech Week during late October.
+
+----
+
+
+`Full Stack from a Python Perspective </presentations/2014-full-stack-python-perspective.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Understanding the full stack involves a significant amount of server side
+development despite the increasing popularity of front end MVC frameworks.
+This talk shows that "full stack" is about having your software developers
+trade depth for breadth. In addition, we'll cover what the server side stack 
+looks like for Python web application deployments and why web APIs are 
+increasingly important for the full stack trend.
+
+Upcoming short 10 minute talk to 
 `MoDev meetup <http://www.meetup.com/modevdc/events/202380822/>`_ on 
 Monday, September 16 in Tyson's Corner, Virginia.
 
