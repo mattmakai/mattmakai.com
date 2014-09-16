@@ -1,5 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/all-en.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2014-08-31T00:00:00-04:00</updated><entry><title>Django Deployment Adventure Links</title><link href="http://www.letshackdc.com/links-django-deployment-adventure.html" rel="alternate"></link><updated>2014-08-31T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-08-31:links-django-deployment-adventure.html</id><summary type="html">&lt;p&gt;The following list is a collection of resources for Django deployments and
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/all-en.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2014-09-15T00:00:00-04:00</updated><entry><title>Full Stack Perspective Links</title><link href="http://www.letshackdc.com/full-stack-perspective-links.html" rel="alternate"></link><updated>2014-09-15T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-09-15:full-stack-perspective-links.html</id><summary type="html">&lt;p&gt;This post contains links and references that go along with a short talk
+I gave at MoDev about
+&lt;a class="reference external" href="/presentations/2014-full-stack-python-perspective.html"&gt;the &amp;quot;full stack&amp;quot; development trend&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Several blog posts were influential in the early formation of the term
+&amp;quot;full stack&amp;quot;. Start by reading these to understand where the term
+originated.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.laurencegellert.com/2012/08/what-is-a-full-stack-developer/"&gt;What is a full stack developer?&lt;/a&gt;
+is the canonical &amp;quot;here are the layers a developer should understand to
+call herself full stack&amp;quot; post.&lt;/li&gt;
+&lt;li&gt;Way back in 2010, Brad Feld mentioned
+&lt;a class="reference external" href="http://www.feld.com/archives/2010/12/just-make-it-faster.html"&gt;full stack developers&lt;/a&gt;
+as critical to tech startups quickly delivering software.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following are some other great blog posts for additional perspective.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://andyshora.com/full-stack-developers.html"&gt;The Myth of the Full Stack Developer&lt;/a&gt;
+is an important counterpoint to a lot of the full stack FUD that gets
+spewed by those who do not understand the topic.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://edward-designer.com/web/full-stack-web-developer/"&gt;What is a full-stack web developer after all?&lt;/a&gt;
+provides some further insight into the numerous roles that are out there
+and the convergence of design and front end development.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I created the following resources, one for O'Reilly and one independently
+for the Python community. Full Stack Python has now been read by over
+100,000 developers so far in 2014.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;My O'Reilly Media post on &lt;a class="reference external" href="http://radar.oreilly.com/2014/05/driving-demand-for-full-stack-developers.html"&gt;Driving Demand for Full Stack Developers&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.fullstackpython.com/"&gt;Full Stack Python&lt;/a&gt;. My 2014 project
+(I pick a major project each year to work on. This follows 2013's
+&lt;a class="reference external" href="http://www.codingacrossamerica.com/"&gt;Coding Across America&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Web APIs are incredibly important in the full stack trend. If you'd like to
+read more about APIs and web fundamentals
+&lt;a class="reference external" href="/links-learning-web-fundamentals.html"&gt;I have a blog post specifically for those resources&lt;/a&gt;.&lt;/p&gt;
+</summary></entry><entry><title>Django Deployment Adventure Links</title><link href="http://www.letshackdc.com/links-django-deployment-adventure.html" rel="alternate"></link><updated>2014-08-31T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-08-31:links-django-deployment-adventure.html</id><summary type="html">&lt;p&gt;The following list is a collection of resources for Django deployments and
 scenarios like handling web security vulnerabilities, measuring user traction&amp;quot;
 with web analytics, improving web application performance with caching and
 managing incoming feature requests from users.&lt;/p&gt;
