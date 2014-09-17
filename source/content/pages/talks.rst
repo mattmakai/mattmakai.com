@@ -84,8 +84,10 @@ servers and combating misperceptions around dynamically typed programming
 languages. We'll solve these problems with code and resources to back up 
 arguments to enterprise stakeholders.
 
+Talk given at 
 `DjangoCon 2014 <http://www.djangocon.us/schedule/presentation/10/>`_ 
-talk given in Portland, Oregon on Wednesday, September 3, 2014.
+given in Portland, Oregon on Wednesday, September 3, 2014. There is a
+`video available for this talk <https://www.youtube.com/watch?v=aMtiCX38w20&list=PLE7tQUdRKcybbNiuhLcc3h6WzmZGVBMr3&index=24>`_.
 
 ----
 
