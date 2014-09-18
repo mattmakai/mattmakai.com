@@ -51,7 +51,7 @@ trade depth for breadth. In addition, we'll cover what the server side stack
 looks like for Python web application deployments and why web APIs are 
 increasingly important for the full stack trend.
 
-Upcoming short 10 minute talk to 
+Quick 10 minute talk given at
 `MoDev meetup <http://www.meetup.com/modevdc/events/202380822/>`_ on 
 Monday, September 16 in Tyson's Corner, Virginia.
 
@@ -87,7 +87,7 @@ arguments to enterprise stakeholders.
 Talk given at 
 `DjangoCon 2014 <http://www.djangocon.us/schedule/presentation/10/>`_ 
 given in Portland, Oregon on Wednesday, September 3, 2014. There is a
-`video available for this talk <https://www.youtube.com/watch?v=aMtiCX38w20&list=PLE7tQUdRKcybbNiuhLcc3h6WzmZGVBMr3&index=24>`_.
+`video available for this talk <https://www.youtube.com/watch?v=aMtiCX38w20>`_.
 
 ----
 
