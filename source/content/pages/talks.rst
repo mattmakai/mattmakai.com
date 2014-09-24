@@ -9,14 +9,19 @@ Tech Talks
 -----------------------------------
 
 
-(TBD - Web APIs talk)
-~~~~~~~~~~~~~~~~~~~~~
-...
+Web APIs, Exponential Growth and Your Career
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Public web APIs are proliferating exponentially, from just 50 in 2004 to 
+over 14000 in 2014. In this talk you'll learn what you need to know so your 
+career benefits from these trends. Find out the attributes of successful API 
+programs and how to improve your development skills to take advantage as web 
+APIs grow increasingly important to businesses.
 
 Upcoming `QCon SF 2014 <http://qconsf.com/>`_ talk in San Francisco, CA 
 in early November.
 
 ----
+
 
 Web APIs, Exponential Growth and You
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -33,11 +38,22 @@ in Des Moines, Iowa.
 ----
 
 
-Twilio Workshop
-~~~~~~~~~~~~~~~
+Twilio Workshop for Des Moines Tech Week
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ...
 
 Upcoming workshop for Des Moines Tech Week during late October.
+
+----
+
+
+Twilio Workshop for HackMIT
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...
+
+Upcoming workshop for `HackMIT <https://www.hackmit.org/>`_ on October 4
+in Cambridge, Massachusetts.
+
 
 ----
 
