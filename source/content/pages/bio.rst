@@ -38,7 +38,13 @@ applications into production.
 
 APIs
 ----
-TBD
+Matt Makai (@mattmakai) is a Twilio Developer Evangelist and Python 
+developer based in Washington, D.C. Matt most recently spoke at EuroPython 
+in Berlin on "Full Stack Python" and DC Web API Group on how to "Inspire and 
+Equip Developers with an API Demo." He wrote for O'Reilly Media on how web 
+APIs are driving demand for full stack software developers and writes the 
+Full Stack Python website read by over 10,000 developers a month to help 
+them understand how to build and deploy web applications.
 
 
 General Software Development Event
