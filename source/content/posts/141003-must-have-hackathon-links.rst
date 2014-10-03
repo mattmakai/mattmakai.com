@@ -5,8 +5,8 @@ How to Impress at Hackathons
 :category: post
 :date: 2014-10-03
 
-What's the difference between a hackathon project result that brings the 
-audience to their feet and one that lands with a thud? For better or worse 
+What's the difference between a hackathon project that amazes the
+audience versus one that lands with a thud? For better or worse 
 if you're looking to win a hackathon it takes more than just code to 
 impress the audience.
 
