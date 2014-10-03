@@ -1,5 +1,5 @@
-Must-have Hackathon Links
-=========================
+How to Impress at Hackathons
+============================
 
 :slug: must-have-hackathon-links
 :category: post
