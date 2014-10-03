@@ -49,7 +49,7 @@ Upcoming workshop for Des Moines Tech Week during late October.
 
 Twilio Workshop for HackMIT
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-...
+No slides used for this talk.
 
 Upcoming workshop for `HackMIT <https://www.hackmit.org/>`_ on October 4
 in Cambridge, Massachusetts.
