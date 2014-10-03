@@ -1,5 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/post.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2014-09-15T00:00:00-04:00</updated><entry><title>Full Stack Perspective Links</title><link href="http://www.letshackdc.com/full-stack-perspective-links.html" rel="alternate"></link><updated>2014-09-15T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-09-15:full-stack-perspective-links.html</id><summary type="html">&lt;p&gt;This post contains links and references that go along with a short talk
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/post.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2014-10-03T00:00:00-04:00</updated><entry><title>Must-have Hackathon Links</title><link href="http://www.letshackdc.com/must-have-hackathon-links.html" rel="alternate"></link><updated>2014-10-03T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-10-03:must-have-hackathon-links.html</id><summary type="html">&lt;p&gt;What's the difference between a hackathon project demo that brings the
+audience to their feet and one that lands with a thurd? For better or worse
+if you're looking to win a hackathon it takes more than just code to
+impress the audience.&lt;/p&gt;
+&lt;p&gt;Here's the list of winning attributes I've seen after spending
+much of 2014 assisting and judging teams at both college and professional
+hackathons.&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;Idea is not a blatant copy of an existing app or product&lt;/li&gt;
+&lt;li&gt;Hack scope is estimated to be 3-4 hours of work&lt;/li&gt;
+&lt;li&gt;Pitch is clear, concise and demos the solution&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I'll elaborate further on each of the above items and provide links to
+resources that'll help your team effectively handle each one.&lt;/p&gt;
+&lt;div class="section" id="idea-not-a-blatant-copy-of-an-existing-solution"&gt;
+&lt;h2&gt;Idea not a blatant copy of an existing solution&lt;/h2&gt;
+&lt;p&gt;For example, a messaging app that allows you to text to your friends over
+a cell phone data connection instead of through SMS would be silly
+because there are so many well-known apps for that already out there:
+WhatsApp, SnapChat, Facebook Messenger, etc.&lt;/p&gt;
+&lt;p&gt;However, the reverse of the SMS-data connection is brilliant: if you
+don't have a data connection but you do have SMS you can use
+SMS as a data connection instead. This is what the
+&lt;a class="reference external" href="http://mhacks.org/"&gt;MHacks&lt;/a&gt; team that built the
+&lt;a class="reference external" href="http://cosmosbrowser.org/"&gt;Cosmos Browser&lt;/a&gt; showed
+&lt;a class="reference external" href="https://gigaom.com/2014/09/11/cosmos-browser-uses-sms-to-provide-web-access-without-wi-fi-or-mobile-broadband/"&gt;an amazed audience&lt;/a&gt;
+earlier this fall.&lt;/p&gt;
+&lt;p&gt;The idea doesn't have to be mind-blowingly original though. You can often
+take something that already exists, such as a
+&lt;a class="reference external" href="http://18f.github.io/API-All-the-X/pages/individual_apis"&gt;public government web API&lt;/a&gt;
+and make it accessible to a group of people who previously had
+trouble accessing a resource. For example, Boston recently launched their
+&lt;a class="reference external" href="http://www.mbta.com/rider_tools/developers/"&gt;v2 API for bus schedules&lt;/a&gt;.
+Instead of building a mobile app that only worked on iOS or Android, a
+team at &lt;a class="reference external" href="https://2014.battlehack.org/boston"&gt;PayPal BattleHack Boston&lt;/a&gt;
+combined the new API with &lt;a class="reference external" href="https://www.twilio.com/sms"&gt;Twilio's SMS API&lt;/a&gt;
+so anyone could text a phone number for the bus schedule. That opens up
+bus schedule access to feature phones in addition to iPhone and Android
+smartphones.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="hack-is-estimated-to-be-3-4-hours-of-work"&gt;
+&lt;h2&gt;Hack is estimated to be 3-4 hours of work&lt;/h2&gt;
+&lt;p&gt;Estimating software development effort is notoriously difficult even on
+short time frames. Pare the scope of your idea back to what you believe
+your team can accomplish in 3-4 hours. If you start with an idea that takes
+36 hours and you run over you could end up not finishing and even worse,
+not sleeping. Teams that don't sleep usually end up not pitching well
+because their brains are fried.&lt;/p&gt;
+&lt;p&gt;Small scope doesn't mean an unimpressive project. There's a huge shortcut
+here. If you take one thing away from this blog post:
+&lt;strong&gt;leverage open source libraries and web APIs&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Pretty much every winning team uses a combination of open source libraries
+and web APIs in their hacks because it's like adding hundreds of
+other developers to your team. Depending on your language of choice
+familiarized yourself with and use a project template.&lt;/p&gt;
+&lt;p&gt;For Python, check out the project templates for
+&lt;a class="reference external" href="http://www.fullstackpython.com/django.html"&gt;Django&lt;/a&gt; and
+&lt;a class="reference external" href="http://www.fullstackpython.com/flask.html"&gt;Flask&lt;/a&gt; listed on
+&lt;a class="reference external" href="http://www.fullstackpython.com/"&gt;Full Stack Python&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For other langauges check out this handy
+&lt;a class="reference external" href="https://github.com/geekcamp-ph/hackathon-starters"&gt;hackathon starter project page&lt;/a&gt; on GitHub.&lt;/p&gt;
+&lt;p&gt;If you don't know what libraries exist for your programming language
+check out the
+&lt;a class="reference external" href="https://github.com/bayandin/awesome-awesomeness"&gt;awesome-lists&lt;/a&gt; which
+break down libraries by functional area.&lt;/p&gt;
+&lt;p&gt;For web APIs the usual suspects are &lt;a class="reference external" href="https://www.twilio.com/"&gt;Twilio&lt;/a&gt; for
+voice and text message (and now MMS) functionality.
+&lt;a class="reference external" href="http://sendgrid.com/"&gt;Sendgrid&lt;/a&gt; works well for email,
+&lt;a class="reference external" href="https://developer.github.com/v3/"&gt;GitHub&lt;/a&gt; offers up pretty much all their
+data through their API and
+&lt;a class="reference external" href="https://developers.google.com/apis-explorer/#p/"&gt;Google's APIs&lt;/a&gt; work
+well for hooking into their services.&lt;/p&gt;
+&lt;p&gt;Remember: less is more. I've seen groups try to demo their web API, web app
+and Android and iOS mobile apps all together in under 2 minutes only
+to have the presentation feel rushed and disappointing. It's better
+for a group to come up with a single amazing solution with a tightly
+scripted demo than several apps that you will not have time to show.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="pitch-is-concise-and-demos-solution"&gt;
+&lt;h2&gt;Pitch is concise and demos solution&lt;/h2&gt;
+&lt;p&gt;Pitching requires practice. At PayPal BattleHack the teams have to do their
+presentations to hackathon organizers during the weekend before they get
+to participate in the final pitches. Do the same even if it's not required
+for your hackathon. Find another group or an engaged sponsor to give you
+constructive feedback on how to improve your pitch and demo.&lt;/p&gt;
+&lt;p&gt;I wrote a page on
+&lt;a class="reference external" href="http://www.howdoistartup.com/pitching.html"&gt;pitching resources for startups&lt;/a&gt;
+that's just as applicable to hackathon pitches as small companies.&lt;/p&gt;
+&lt;p&gt;View the demo and pitch as 60% of the work that goes into a hackathon if
+you want it to work well. And if you're just at the hackathon to have
+fun and learn instead of trying to win (which is how I would approach a
+hackathon), it's still a great experience to get up on stage
+and demo software to the crowd.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="one-more-thing"&gt;
+&lt;h2&gt;One more thing...&lt;/h2&gt;
+&lt;p&gt;When I'm at a hackathon representing Twilio I'm there to help your team,
+regardless of whether you're using our API or not. I'll usually be in my
+red track jacket walking around or posted up in a visible location. If you
+can't find me tweet me &lt;a class="reference external" href="https://twitter.com/mattmakai"&gt;&amp;#64;mattmakai&lt;/a&gt; to get
+the fastest response. You can also email me at &lt;a class="reference external" href="mailto:makai&amp;#64;twilio.com"&gt;makai&amp;#64;twilio.com&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Full Stack Perspective Links</title><link href="http://www.letshackdc.com/full-stack-perspective-links.html" rel="alternate"></link><updated>2014-09-15T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-09-15:full-stack-perspective-links.html</id><summary type="html">&lt;p&gt;This post contains links and references that go along with a short talk
 I gave at MoDev about
 &lt;a class="reference external" href="/presentations/2014-full-stack-python-perspective.html"&gt;the &amp;quot;full stack&amp;quot; development trend&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Several blog posts were influential in the early formation of the term
