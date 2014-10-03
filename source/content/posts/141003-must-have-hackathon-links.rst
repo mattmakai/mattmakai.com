@@ -24,8 +24,8 @@ I'll elaborate further on each of the above items and provide links to
 resources that'll help your team effectively handle each one.
 
 
-Idea not a blatant copy of an existing solution
------------------------------------------------
+Idea is not a blatant copy of an existing solution
+--------------------------------------------------
 For example, a messaging app that allows you to text to your friends over
 a cell phone data connection instead of through SMS would be silly 
 because there are so many well-known apps for that already out there: 
