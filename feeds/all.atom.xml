@@ -38,6 +38,15 @@ combined the new API with &lt;a class="reference external" href="https://www.twi
 so anyone could text a phone number for the bus schedule. That opens up
 bus schedule access to feature phones in addition to iPhone and Android
 smartphones.&lt;/p&gt;
+&lt;p&gt;If you're looking to do something novel with Twilio, we just launched
+&lt;a class="reference external" href="https://www.twilio.com/mms"&gt;MMS on all US phone numbers&lt;/a&gt; a couple weeks
+ago. We've built a few hacks already including a
+&lt;a class="reference external" href="https://www.twilio.com/blog/2014/10/branded-mms-coupon-generation-with-python-and-twilio.html"&gt;digital coupon creator&lt;/a&gt;,
+&lt;a class="reference external" href="https://www.twilio.com/blog/2014/10/how-to-build-a-meme-generator-using-twilio-mms-imgflip-and-sinatra.html"&gt;meme generator&lt;/a&gt;,
+&lt;a class="reference external" href="https://www.twilio.com/blog/2014/09/build-a-picture-scavenger-hunt-using-twilio-mms.html"&gt;picture scavenger hunt&lt;/a&gt;
+and oh yes, even &lt;a class="reference external" href="http://readwrite.com/2014/09/26/friday-fun-twilio-flickr-api-picture-roulette-drinking-game"&gt;a drinking game&lt;/a&gt;.
+However, we have not barely begun to explore the limits of MMS so there's
+a whole lot of room here for amazing hackathon projects.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="hack-is-estimated-to-be-3-4-hours-of-work"&gt;
 &lt;h2&gt;Hack is estimated to be 3-4 hours of work&lt;/h2&gt;

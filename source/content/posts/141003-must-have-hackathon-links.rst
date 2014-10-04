@@ -52,6 +52,17 @@ so anyone could text a phone number for the bus schedule. That opens up
 bus schedule access to feature phones in addition to iPhone and Android 
 smartphones.
 
+If you're looking to do something novel with Twilio, we just launched
+`MMS on all US phone numbers <https://www.twilio.com/mms>`_ a couple weeks
+ago. We've built a few hacks already including a 
+`digital coupon creator <https://www.twilio.com/blog/2014/10/branded-mms-coupon-generation-with-python-and-twilio.html>`_, 
+`meme generator <https://www.twilio.com/blog/2014/10/how-to-build-a-meme-generator-using-twilio-mms-imgflip-and-sinatra.html>`_,
+`picture scavenger hunt <https://www.twilio.com/blog/2014/09/build-a-picture-scavenger-hunt-using-twilio-mms.html>`_
+and oh yes, even `a drinking game <http://readwrite.com/2014/09/26/friday-fun-twilio-flickr-api-picture-roulette-drinking-game>`_. 
+However, we have not barely begun to explore the limits of MMS so there's
+a whole lot of room here for amazing hackathon projects.
+
+
 
 Hack is estimated to be 3-4 hours of work
 -----------------------------------------
