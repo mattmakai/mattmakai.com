@@ -63,10 +63,13 @@ here. If you take one thing away from this blog post:
 and web APIs in their hacks because it's like adding hundreds of
 other developers to your team. Depending on your language of choice
 familiarized yourself with and use a project template.&lt;/p&gt;
-&lt;p&gt;For Python, check out the project templates for
+&lt;p&gt;For Python, check out the project templates for the
 &lt;a class="reference external" href="http://www.fullstackpython.com/django.html"&gt;Django&lt;/a&gt; and
-&lt;a class="reference external" href="http://www.fullstackpython.com/flask.html"&gt;Flask&lt;/a&gt; listed on
-&lt;a class="reference external" href="http://www.fullstackpython.com/"&gt;Full Stack Python&lt;/a&gt;.&lt;/p&gt;
+&lt;a class="reference external" href="http://www.fullstackpython.com/flask.html"&gt;Flask&lt;/a&gt; frameworks. If you're
+new to the web development game,
+&lt;a class="reference external" href="http://www.fullstackpython.com/"&gt;Full Stack Python&lt;/a&gt; explains each layer
+of the Python web stack and provides links to the best resources on the
+web for each topic.&lt;/p&gt;
 &lt;p&gt;For other langauges check out this handy
 &lt;a class="reference external" href="https://github.com/geekcamp-ph/hackathon-starters"&gt;hackathon starter project page&lt;/a&gt; on GitHub.&lt;/p&gt;
 &lt;p&gt;If you don't know what libraries exist for your programming language
@@ -79,7 +82,9 @@ voice and text message (and now MMS) functionality.
 &lt;a class="reference external" href="https://developer.github.com/v3/"&gt;GitHub&lt;/a&gt; offers up pretty much all their
 data through their API and
 &lt;a class="reference external" href="https://developers.google.com/apis-explorer/#p/"&gt;Google's APIs&lt;/a&gt; work
-well for hooking into their services.&lt;/p&gt;
+well for hooking into their services. As mentioned earlier, the list of
+&lt;a class="reference external" href="http://18f.github.io/API-All-the-X/pages/individual_apis"&gt;government web APIs&lt;/a&gt;
+are all free APIs ready to be used in your hacks.&lt;/p&gt;
 &lt;p&gt;Remember: less is more. I've seen groups try to demo their web API, web app
 and Android and iOS mobile apps all together in under 2 minutes only
 to have the presentation feel rushed and disappointing. It's better

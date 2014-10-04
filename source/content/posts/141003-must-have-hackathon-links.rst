@@ -82,10 +82,13 @@ and web APIs in their hacks because it's like adding hundreds of
 other developers to your team. Depending on your language of choice 
 familiarized yourself with and use a project template.
 
-For Python, check out the project templates for 
+For Python, check out the project templates for the
 `Django <http://www.fullstackpython.com/django.html>`_ and 
-`Flask <http://www.fullstackpython.com/flask.html>`_ listed on 
-`Full Stack Python <http://www.fullstackpython.com/>`_.
+`Flask <http://www.fullstackpython.com/flask.html>`_ frameworks. If you're
+new to the web development game, 
+`Full Stack Python <http://www.fullstackpython.com/>`_ explains each layer
+of the Python web stack and provides links to the best resources on the
+web for each topic.
 
 For other langauges check out this handy 
 `hackathon starter project page <https://github.com/geekcamp-ph/hackathon-starters>`_ on GitHub.
@@ -101,7 +104,9 @@ voice and text message (and now MMS) functionality.
 `GitHub <https://developer.github.com/v3/>`_ offers up pretty much all their
 data through their API and 
 `Google's APIs <https://developers.google.com/apis-explorer/#p/>`_ work
-well for hooking into their services. 
+well for hooking into their services. As mentioned earlier, the list of
+`government web APIs <http://18f.github.io/API-All-the-X/pages/individual_apis>`_
+are all free APIs ready to be used in your hacks.
 
 Remember: less is more. I've seen groups try to demo their web API, web app
 and Android and iOS mobile apps all together in under 2 minutes only 
