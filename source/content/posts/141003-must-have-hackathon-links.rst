@@ -135,5 +135,5 @@ When I'm at a hackathon representing Twilio I'm there to help your team,
 regardless of whether you're using our API or not. I'll usually be in my
 red track jacket walking around or posted up in a visible location. If you
 can't find me tweet me `@mattmakai <https://twitter.com/mattmakai>`_ to get
-the fastest response. You can also email me at makai@twilio.com.
+the fastest response. You can also email me at makai@twilio.com. Happy coding!
 
