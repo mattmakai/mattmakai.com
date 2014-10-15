@@ -87,3 +87,7 @@ Consuming APIs
   "`Zen and the Art of API Maintenance <https://speakerdeck.com/johnsheehan/zen-and-the-art-of-api-maintenance>`_" 
   slides are very relevant for API integration.
 
+
+I frequently add new links on 
+`Full Stack Python's APIs pages <http://www.fullstackpython.com/application-programming-interfaces.html>`_ 
+so be to check those out as well.
