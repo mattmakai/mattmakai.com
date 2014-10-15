@@ -166,28 +166,28 @@ body {
   background-size: cover;
 }
 
-.json-xml .reveal .state-background {
-  background: url(/source/static/img/presentations/2014-cap1-api-power-laws/json-xml.png);
+.website-for-people .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-apis-ia-conf/w3c.jpg);
   background-size: cover;
 }
 
-.ones-zeroes .reveal .state-background {
-  background: url(/source/static/img/presentations/2014-cap1-api-power-laws/1s-0s.jpg);
+.iphones .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-apis-ia-conf/iphones.jpg);
   background-size: cover;
 }
 
-.legos .reveal .state-background {
-  background: url(/source/static/img/presentations/2014-cap1-api-power-laws/legos.jpg);
+.google-glass .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-apis-ia-conf/google-glass.jpg);
   background-size: cover;
 }
 
-.cap1-github .reveal .state-background {
-  background: url(/source/static/img/presentations/2014-cap1-api-power-laws/cap1-github.jpg);
+.drone .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-apis-ia-conf/drone.jpg);
   background-size: cover;
 }
 
-.cfpb-github .reveal .state-background {
-  background: url(/source/static/img/presentations/2014-cap1-api-power-laws/cfpb-github.png);
+.spark-core .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-apis-ia-conf/spark-core.png);
   background-size: cover;
 }
 
