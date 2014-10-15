@@ -196,6 +196,31 @@ body {
   background-size: cover;
 }
 
+.ducksboard .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-apis-ia-conf/ducksboard.jpg);
+  background-size: cover;
+}
+
+.zapier .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-apis-ia-conf/zapier.jpg);
+  background-size: cover;
+}
+
+.helper-libraries .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-apis-ia-conf/helper-libraries.png);
+  background-size: cover;
+}
+
+.sample-code .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-apis-ia-conf/sample-code.png);
+  background-size: cover;
+}
+
+.restful-webhooks .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-apis-ia-conf/restful-webhooks.jpg);
+  background-size: cover;
+}
+
 .resources .reveal .state-background {
   background-color: #eee;
 }

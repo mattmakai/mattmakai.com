@@ -23,11 +23,22 @@
         <style>
             ol.bigger li, 
             ul.bigger li {
-               font-size: 2.2em;
-               margin-top: 20px;
+               color: #222;
+               font-size: 3em;
                margin-bottom: 15px;
                line-height: 1.1em;
                margin-left: 20px;
+            }
+            ul.bigger-contact-info li {
+               color: #222;
+               font-size: 2.2em;
+               margin-bottom: 15px;
+               margin-top: 20px;
+               line-height: 1.1em;
+               margin-left: 20px;
+            }
+            ol.bigger-contact-info li {
+                margin-left: 1em;
             }
             ol.bigger li {
                 margin-left: 1em;
@@ -203,18 +214,57 @@
                 </section>
                 
                 <section>
+                    <h2>Understanding Web APIs</h2>
                     <ul class="bigger">
                         <li>Discovery</li>
-                        <li>Consumption</li>
-                        <li>Creation</li>
+                        <li class="fragment">Consumption</li>
+                        <li class="fragment">Creation</li>
+                </section>
+                
+                <section style="text-align: center;">
+                    <h1>Discovery</h1>
+                </section>
+                
+                <section data-state="ducksboard">
+                </section>
+                
+                <section data-state="zapier">
+                </section>
+                
+                <section style="text-align: center;">
+                    <h1>Consumption</h1>
+                </section>
+                
+                <section data-state="sample-code">
+                </section>
+                
+                <section data-state="helper-libraries">
                 </section>
                 
                 <section>
-                    <h1>Consumption</h1>
+                    <h2>GET http://api.iowaconf.com/</h2>
+<pre style="box-shadow: none; color: #222; font-size: 1.4em;">
+{
+  "name": "I/OWA Conference",
+  "dates": ["08-16-2014", 
+            "08-17-2014"],
+  "speakers": ["Brett Trout", 
+               "Jake Kerber", 
+               "Amanda Morrow"],
+  "venues": ["Gravitate", 
+             "The Kirkwood"],
+  "tickets_left": 0
+}
+</pre>
+                </section>
+                
+                <section style="text-align: center;">
+                    <h1>Creation</h1>
                 </section>
 
                 <section>
-                    <h1>REpresentational State Transfer (REST)</h1>
+                    <h1 style="color: #222;">REpresentational 
+                                             State Transfer (REST)</h1>
                 </section>
 
                 <section>
@@ -222,24 +272,19 @@
                 </section>
 
                 <section>
-                    <h1>Resource(s)</h1>
+                    <h1 style="color: #222;">Resource(s)</h1>
                 </section>
                 
                 <section>
-                    <h1>Endpoints</h1>
+                    <h1 style="color: #222;">Webhooks</h1>
                 </section>
                 
-                <section>
-                    <h1>Webhooks</h1>
-                </section>
-                
-                <section>
-                    <h1>Helper libraries</h1>
+                <section data-state="restful-webhooks">
                 </section>
                 
                 <section>
                     <h1>2015</h1>
-                    <h1 style="font-size: 3.2em; color: #222;">1995-ish for 
+                    <h1 style="font-size: 2.8em; color: #222;">1995-ish for 
                         web APIs</h1>
                 </section>
                 
@@ -260,7 +305,7 @@
               
                 <section>
                     <h2>Matt Makai</h2>
-                    <ul class="bigger">
+                    <ul class="bigger-contact-info">
                         <li><a href="https://www.twilio.com/">Twilio</a> 
                         Developer Evangelist
                         </li>
