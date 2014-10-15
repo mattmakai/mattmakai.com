@@ -3,22 +3,32 @@ function drawApiGrowth(data) {
 var milesDrivenContainerWidth = $(".slides").width() *.9,
     milesDrivenContainerHeight = $(".slides").height() * .9; 
 
-var margin = {top: 5, right: 5, bottom: 5, left: 5},
+var margin = {top: 5, right: 5, bottom: 5, left: 65},
     milesDrivenWidth = milesDrivenContainerWidth,
     milesDrivenHeight = milesDrivenContainerHeight;
 
-var maxDays = 12, maxMiles = 17000,
-    lineWidth = milesDrivenWidth / maxDays;
+var numLines = 11, maxMiles = 17000,
+    lineWidth = milesDrivenWidth / numLines;
 
-var x = d3.scale.linear()    .domain([0, maxDays])
+var x = d3.scale.linear().domain([0, numLines])
+    .range([0, milesDrivenWidth]);
+
+var xAxisRange = d3.scale.linear().domain([2005, 2015])
     .range([0, milesDrivenWidth]);
 
 var y = d3.scale.linear()
     .domain([0, maxMiles])    .range([milesDrivenHeight, 0]);
 var xAxis = d3.svg.axis()
-    .scale(x)    .orient("bottom");
+    .scale(xAxisRange).orient("bottom").tickFormat(d3.format("0f"));
 var yAxis = d3.svg.axis()
-    .scale(y)    .orient("left");
+                .scale(y)    
+                .orient("left").tickFormat(function(d, i) {
+                    if(d > 9999) {
+                        return (d + "").substring(0, 2) + "k";
+                     } else if (d > 0) {
+                        return (d + "").substring(0, 1) + "k";
+                     }
+                     return ""; });
 
 var svg = d3.select("svg#api-growth-svg")
             .append("g")        
@@ -32,7 +42,13 @@ svg.append("g")
 
 svg.append("g")
     .attr("class", "y axis")
-    .call(yAxis);
+    .call(yAxis)
+      .append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("y", 6)
+        .attr("dy", ".71em")
+        .style("text-anchor", "end")
+        .text("Public Web APIs");
 
     var totalTooltip = d3.select("body")
         .append("div")
@@ -60,8 +76,8 @@ svg.append("g")
             .attr("class", "total-miles")
             .attr("height", function(d) {return 0;})
             .attr("title", function(d) {return d.date;})
-            .style("stroke","#fff")
-            .style("fill","#F9A31A")
+            .style("stroke","#222")
+            .style("fill","#ff0000")
             .on("mouseover", function(d, i) {
                 var tipMsg = d.total + " total APIs available";
                 return totalTooltip.style("visibility", "visible")
@@ -93,7 +109,7 @@ svg.append("g")
             .attr("width",lineWidth)
             .attr("height", function(d) {return 0;})
             .style("stroke","#fff")
-            .style("fill","#406BB4")
+            .style("fill","#222")
             .on("mouseover", function(d, i) {
                 var tipMsg = d.miles + " APIs added this year";
                 return byDayTooltip.style("visibility", "visible")
