@@ -1,5 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/post.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2014-10-03T00:00:00-04:00</updated><entry><title>How to Impress at Hackathons</title><link href="http://www.letshackdc.com/must-have-hackathon-links.html" rel="alternate"></link><updated>2014-10-03T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-10-03:must-have-hackathon-links.html</id><summary type="html">&lt;p&gt;What's the difference between a hackathon project that amazes the
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/post.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2014-10-15T00:00:00-04:00</updated><entry><title>Learning Web APIs</title><link href="http://www.letshackdc.com/learning-web-apis.html" rel="alternate"></link><updated>2014-10-15T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-10-15:learning-web-apis.html</id><summary type="html">&lt;p&gt;The following list is a collection of resources for understanding and
+learning Web fundamentals and application programming interfaces (APIs).
+Much of modern software development is driven by crafting custom code
+and combining that code with APIs. The concepts listed here are useful for
+adapting your career in an age when web APIs are proliferating exponentially
+while the number of devices communicating via the Web are outnumbering the
+number of humans interacting through web applications. Many of these links
+are also included in my
+&lt;a class="reference external" href="http://www.fullstackpython.com/application-programming-interfaces.html"&gt;application programming interfaces section on Full Stack Python&lt;/a&gt;
+but the links listed here are programming language agnostic.&lt;/p&gt;
+&lt;p&gt;These links go along with my
+&lt;a class="reference external" href="http://www.mattmakai.com/presentations/2014-apis-exponential-growth-you-iowa-conf.html"&gt;Web APIs, Exponential Growth and You&lt;/a&gt; talk.&lt;/p&gt;
+&lt;div class="section" id="web-and-api-fundamentals"&gt;
+&lt;h2&gt;Web and API Fundamentals&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Ensure you've read the
+&lt;a class="reference external" href="http://www.w3.org/Protocols/rfc2616/rfc2616.html"&gt;HTTP 1.1 Spec&lt;/a&gt; which
+defines the verbs for interacting with the Web, such as GET, POST, PUT,
+and DELETE. This document provides many foundational concepts for Web
+developers.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://zapier.com/blog/apis-101/"&gt;APIs 101&lt;/a&gt; is a free guide by Zapier
+for both technical and non-technical audiences who want to learn the
+fundamentals behind web APIs.&lt;/li&gt;
+&lt;li&gt;If you want to get into the origins of Representational State Transfer
+(REST)REST, Roy Fielding's
+&lt;a class="reference external" href="http://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm"&gt;dissertation on the topic&lt;/a&gt;
+remains hugely influential.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="finding-apis"&gt;
+&lt;h2&gt;Finding APIs&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Kin Lane's &lt;a class="reference external" href="http://discovery.apievangelist.com/"&gt;API Discovery page&lt;/a&gt; is
+a wonderful place to start finding what APIs exist.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.programmableweb.com/"&gt;ProgrammableWeb&lt;/a&gt; focuses on API industry
+news and trends.&lt;/li&gt;
+&lt;li&gt;TechCrunch is less technical than many other sources but covers large
+announcements about APIs under the
+&lt;a class="reference external" href="http://techcrunch.com/tag/api/"&gt;'api' tag&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;My post on
+&lt;a class="reference external" href="http://www.mattmakai.com/identifying-third-party-services-for-django.html"&gt;identifying third party services&lt;/a&gt;
+was written with Django in mind but is language agnostic.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="creating-apis"&gt;
+&lt;h2&gt;Creating APIs&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&amp;quot;&lt;a class="reference external" href="https://medium.com/&amp;#64;zwacky/design-a-beautiful-rest-api-901c73489458"&gt;Design a beautiful REST API&lt;/a&gt;&amp;quot;
+reviews common design decisions regarding endpoints, versioning, errors
+and pagination. There is also a source material YouTube video where this
+blog post derives its recommendations from.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/interagent/http-api-design"&gt;Heroku's API Design Guide&lt;/a&gt;
+provides a design perspective from one of the top current tech companies.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/18f/api-standards"&gt;18F&lt;/a&gt; produced an extensive set
+of opinionated API design standards.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.slideshare.net/jmusser/ten-reasons-developershateyourapi"&gt;10 Reasons Developers Hate Your API&lt;/a&gt;
+goes through the top difficulties and annoyances developers face when working with APIs and how you can avoid your API falling into the same traps.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="consuming-apis"&gt;
+&lt;h2&gt;Consuming APIs&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&amp;quot;&lt;a class="reference external" href="https://stormpath.com/blog/api-driven-development/"&gt;API Driven Development&lt;/a&gt;&amp;quot;
+by Randall Degges explains how using APIs in your application cuts
+down on the amount of code you have to write and maintain so you can
+launch your application faster.&lt;/li&gt;
+&lt;li&gt;&amp;quot;&lt;a class="reference external" href="http://www.slideshare.net/SmartBear_Software/safe-sex-with-thirdparty-apis"&gt;Safe Sex with Third Party APIs&lt;/a&gt;&amp;quot;
+is a funny high level overview of what you should do to protect your
+application when relying on third party services.&lt;/li&gt;
+&lt;li&gt;John Sheehan's
+&amp;quot;&lt;a class="reference external" href="https://speakerdeck.com/johnsheehan/zen-and-the-art-of-api-maintenance"&gt;Zen and the Art of API Maintenance&lt;/a&gt;&amp;quot;
+slides are very relevant for API integration.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>How to Impress at Hackathons</title><link href="http://www.letshackdc.com/must-have-hackathon-links.html" rel="alternate"></link><updated>2014-10-03T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-10-03:must-have-hackathon-links.html</id><summary type="html">&lt;p&gt;What's the difference between a hackathon project that amazes the
 audience versus one that lands with a thud? For better or worse
 if you're looking to win a hackathon it takes more than just code to
 impress the audience.&lt;/p&gt;

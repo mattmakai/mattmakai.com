@@ -96,7 +96,7 @@ svg.append("g")
             .attr("height", function(d) {
                     return milesDrivenHeight - y(d.total);
                 })
-            .delay(function(d, i) {return (i * 200) + 1000;})
+            .delay(function(d, i) {return (i * 200) + 8000;})
             .duration(1200);
 
     var bars = svg.selectAll("rect.daily-miles")
