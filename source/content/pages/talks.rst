@@ -23,8 +23,8 @@ in early November.
 ----
 
 
-Web APIs, Exponential Growth and You
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+`Web APIs, Exponential Growth and You </presentations/2014-apis-exponential-growth-you-iowa-conf.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Publicly accessible Web APIs are proliferating exponentially, from just 
 fifty in 2004 to over twelve thousand in 2014. This talk will cover what web 
 APIs are, how they work and why they are becoming increasingly important to 
@@ -40,9 +40,10 @@ in Des Moines, Iowa.
 
 Twilio Workshop for Des Moines Tech Week
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-...
+No slides used for this talk.
 
-Upcoming workshop for Des Moines Tech Week on October 14 in Des Moines, Iowa.
+Workshop for `Des Moines Tech Week <http://techweekdesmoines.com/>`_ 
+on October 14 in Des Moines, Iowa.
 
 ----
 

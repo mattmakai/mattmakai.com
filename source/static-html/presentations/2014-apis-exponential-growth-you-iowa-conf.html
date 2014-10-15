@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Web APIs, Exponential Growth and Your Career</title>
+
+		<meta name="description" content="">
+
+		<meta name="author" content="Matt Makai">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="/source/static/css/reveal/reveal.min.css">
+		<link rel="stylesheet" href="/source/static/css/reveal/theme/apis-exp-growth.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="/source/static/lib/css/zenburn.css">
+        <style>
+            ol.bigger li, 
+            ul.bigger li {
+               font-size: 2.2em;
+               margin-top: 20px;
+               margin-bottom: 15px;
+               line-height: 1.1em;
+               margin-left: 20px;
+            }
+            ol.bigger li {
+                margin-left: 1em;
+            }
+            img.no-border-rounded {border: none; border-radius: 5px;}
+            h2.background-img {
+                font-size: 4.5em;
+                color: white;
+                text-shadow: -1px -1px 0 #222, 1px -1px 0 #222, 
+                -1px 1px 0 #222, 1px 1px 0 #222; 
+            }
+            .total-miles-tooltip {
+                color: #222;
+                background: #eee;
+                border: 1px solid #222;
+                padding: 3px;
+                -webkit-border-radius:3px;
+                -moz-border-radius:3px;
+                border-radius:3px;
+            }
+
+            .miles-driven-tooltip {
+                color: #eee;
+                background: #406BB4;
+                border: 1px solid #222;
+                padding: 3px;
+                -webkit-border-radius:3px;
+                -moz-border-radius:3px;
+                border-radius:3px;
+            }
+        </style>
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="/source/static/css/reveal/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="/source/static/lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div class="reveal">
+            <div class="slides" style="text-align: left;">
+				<section>
+                    <h1 style="margin-bottom: 25px; font-size: 4em;">
+                        Web APIs, Exponential Growth and You
+                    </h1>
+                    <h3><a href="http://iowaconf.com/">I/OWA Conference | October 2014</a></h3>
+                    <p style="font-size: .85em;">
+                        <a href="http://www.mattmakai.com">Matt Makai</a> | 
+                        <a href="http://twitter.com/mattmakai">@mattmakai</a> |
+                        <a href="https://github.com/makaimc">makaimc</a> 
+                        on GitHub |
+                        <a href="https://www.twilio.com">Twilio</a> 
+                    </p>
+				</section>
+                
+                <section style="text-align: center;">
+                    <h1 style="font-size: 5em;">2015</h1>
+                </section>
+
+                <section style="text-align: center;" data-state="black-bg">
+                    <h1 style="font-size: 5em; color: #ff0000;">1995</h1>
+                </section>
+
+                <section data-state="toy-story">
+                </section>
+                
+                <section data-state="super-bowl-49ers">
+                </section>
+                
+                <section data-state="coolio">
+                </section>
+
+                <section data-state="world-wide-web">
+                </section>
+                
+                <section data-state="resources" style="text-align: center;">
+                    <img src="/source/static/img/presentations/2014-cap1-api-power-laws/netscape-logo.png" style="border: none; background: none; box-shadow: none;">
+                </section>
+                
+                <section data-state="black-bg">
+                    <h1 style="font-size: 5em; color: #fff;">1995</h1>
+                    <h1 style="color: #ff0000;">12.5k websites</h1>
+                </section>
+                
+                <section>
+                    <h1 style="font-size: 5em; color: #222;">2015</h1>
+                    <h1>1 billion websites</h1>
+                </section>
+                
+                <section data-state="white-bg" style="text-align: center;">
+                    <img src="/source/static/img/presentations/2014-cap1-api-power-laws/exponential-graph.png" style="border: none; background: none; box-shadow: none;">
+                </section>
+
+                <section data-state="webpage">
+                </section>
+                
+                <section data-state="purchase-tix">
+                </section>
+                
+                <section data-state="json-xml">
+                </section>
+                
+                <section style="text-align: center;">
+                    <h1>Web APIs</h1>
+                </section>
+                
+                <section>
+                    <h1>2015</h1>
+                    <h1 style="font-size: 3.5em;">1995 for Web APIs?</h1>
+                </section>
+
+                <section data-state="api-growth-viz">
+                    <div id="api-growth-viz"></div>
+                </section>
+                
+                <section data-state="white-bg">
+                    <h1 style="color: green; font-size: 3.5em;">Internet of Things</h1>
+                </section>
+                
+                <section data-state="white-bg">
+                    <h1 style="color: green; font-size: 3.5em;">M2M</h1>
+                </section>
+                
+                <section data-state="legos">
+                </section>
+
+                <section data-state="web-apis">
+                </section>
+                
+                <section data-state="resources" style="text-align: center;">
+                    <h1 style="color: green;">Your Career</h1>
+                </section>
+
+                <section>
+                    <h1>Understand Web fundamentals*</h1>
+                </section>
+
+                <section>
+                    <h1>Open source</h1>
+                </section>
+                
+                <section>
+                    <h2>Web APIs</h2>
+                    <ul class="bigger">
+                        <li>What's out there</li>
+                        <li class="fragment">When to use</li>
+                        <li class="fragment">How to integrate</li>
+                        <li class="fragment">What to copy</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h1>(515) 512-5866</h1>
+                    <br>
+                    <h2>Scale 1-10: How likely are you to recommend 
+                        this talk to a colleague or friend?</h2>
+                    <h2>0 - Not likely at all</h1>
+                    <h2>10 - Extremely likely</h2>
+                </section>
+              
+                <section>
+                    <h2>Matt Makai</h2>
+                    <ul class="bigger">
+                        <li><a href="https://www.twilio.com/">Twilio</a> 
+                        Developer Evangelist
+                        </li>
+                        <li>
+                            <a href="https://github.com/makaimc">makaimc</a> 
+                            on GitHub</a>
+                        </li>
+                        <li><a href="http://twitter.com/mattmakai">@mattmakai</a></li>
+                        <li>makai@twilio.com</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Picture references</h2>
+                    <ul>
+                        <li><a href="http://imageserver.moviepilot.com/toy-story-movie-01-toy-story-franchise-will-continue.jpeg?width=1920&height=1080">Toy Story</a></li>
+                        <li><a href="http://si.wsj.net/public/resources/images/BN-BI485_0202ma_M_20140202233348.jpg">49ers Super Bowl winners</a></li>
+                        <li><a href="http://www.centrictv.com/content/dam/centric/whats-good/soulsessions/2012/08/01/coolio-gangstas-paradise.jpg">Coolio Gangsta's Paradise</a></li>
+                        <li><a href="http://opensourcescholars.github.io/os-preso/images/Netscape2.png">Netscape logo</a></li>
+                        <li><a href="http://www.mit.edu/people/mkgray/net/web-growth-summary.html">Web growth</a></li>
+                        <li><a href="http://592f46.medialib.glogster.com/media/7f5fda2280f3ecea4350e577b2a0366591ebab4bbddbff0c80bcd830c87b24d7/dose-damage-exponential.png">Exponential graph</a></li>
+                        <li><a href="http://www.auroraedialliance.com/Portals/126065/images/JsonXmlResults.png">JSON &amp; XML</a></li>
+                    </ul>
+                </section>
+		</div>
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script> 
+        <script src="/source/static/js/d3.min.js" charset="utf-8"></script>
+        <script src="/source/static/js/presentations/api-growth.js"></script>
+		<script src="/source/static/lib/js/head.min.js"></script>
+		<script src="/source/static/js/reveal.min.js"></script>
+
+		<script>
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: '/source/static/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '/source/static/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '/source/static/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '/source/static/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '/source/static/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: '/source/static/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: '/source/static/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: '/source/static/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+            var containerWidth = $(".slides").width(),
+                containerHeight = $(".slides").height();
+
+            var margin = {top: 5, right: 5, bottom: 5, left: 5},
+                vizWidth = containerWidth,
+                vizHeight = containerHeight;
+
+            /* API growth visualization */
+            var apiGrowthSvg = d3.select("#api-growth-viz").append("svg")
+                .attr("width", vizWidth + margin.left + margin.right)
+                .attr("height", vizHeight + margin.top + margin.bottom)
+                .attr("class", "api-growth")
+                .attr("id", "api-growth-svg");
+
+
+            var apiGrowthAlreadyDrawn = false;
+            Reveal.addEventListener( 'api-growth-viz', function() {
+                if (!apiGrowthAlreadyDrawn) {
+                    apiGrowthAlreadyDrawn = true;
+                    d3.json('/static/data/api-growth.json', drawApiGrowth);
+                }
+            } );
+
+            $(document).ready(function() {
+            });
+
+		</script>
+
+	</body>
+</html>
