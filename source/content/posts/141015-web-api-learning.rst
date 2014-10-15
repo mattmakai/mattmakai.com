@@ -50,6 +50,15 @@ Finding APIs
   announcements about APIs under the 
   `'api' tag <http://techcrunch.com/tag/api/>`_.
 
+* Web APIs are integrated into all sorts of other products like 
+  `Geckoboard <https://www.geckoboard.com/integrations/>`_ and
+  `Ducksboard <https://ducksboard.com/services-integrations/>`_ so their
+  integrations pages are great places to start for established services.
+
+* `Leanstack.io <http://leanstack.io/categories>`_ breaks down web APIs
+  by categories as does `Zapier <https://zapier.com/zapbook/apps/>`_ and
+  `IFTTT <https://ifttt.com/channels>`_.
+
 * My post on 
   `identifying third party services <http://www.mattmakai.com/identifying-third-party-services-for-django.html>`_ 
   was written with Django in mind but is language agnostic.

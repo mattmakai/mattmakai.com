@@ -38,6 +38,13 @@ news and trends.&lt;/li&gt;
 &lt;li&gt;TechCrunch is less technical than many other sources but covers large
 announcements about APIs under the
 &lt;a class="reference external" href="http://techcrunch.com/tag/api/"&gt;'api' tag&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Web APIs are integrated into all sorts of other products like
+&lt;a class="reference external" href="https://www.geckoboard.com/integrations/"&gt;Geckoboard&lt;/a&gt; and
+&lt;a class="reference external" href="https://ducksboard.com/services-integrations/"&gt;Ducksboard&lt;/a&gt; so their
+integrations pages are great places to start for established services.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://leanstack.io/categories"&gt;Leanstack.io&lt;/a&gt; breaks down web APIs
+by categories as does &lt;a class="reference external" href="https://zapier.com/zapbook/apps/"&gt;Zapier&lt;/a&gt; and
+&lt;a class="reference external" href="https://ifttt.com/channels"&gt;IFTTT&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;My post on
 &lt;a class="reference external" href="http://www.mattmakai.com/identifying-third-party-services-for-django.html"&gt;identifying third party services&lt;/a&gt;
 was written with Django in mind but is language agnostic.&lt;/li&gt;
