@@ -31,7 +31,7 @@ APIs are, how they work and why they are becoming increasingly important to
 every business. Software developers will also find out what they need to 
 learn about web APIs to ensure their careers benefit from these trends.
 
-Upcoming talk for `I/OWA Conf <http://iowaconf.com/>`_ during 
+Talk for `I/OWA Conf <http://iowaconf.com/>`_ during 
 `Des Moines Tech Week <http://techweekdesmoines.com/>`_ on October 16, 2014
 in Des Moines, Iowa.
 
@@ -42,8 +42,9 @@ Twilio Workshop for Des Moines Tech Week
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 No slides used for this talk.
 
-Workshop for `Des Moines Tech Week <http://techweekdesmoines.com/>`_ 
-on October 14 in Des Moines, Iowa.
+Workshop given during `Des Moines Tech Week <http://techweekdesmoines.com/>`_ 
+on October 14 in Des Moines, Iowa at 
+`Gravitate <http://www.gravitatedsm.com/>`_.
 
 ----
 
