@@ -17,8 +17,8 @@ career benefits from these trends. Find out the attributes of successful API
 programs and how to improve your development skills to take advantage as web 
 APIs grow increasingly important to businesses.
 
-Upcoming `QCon SF 2014 <http://qconsf.com/>`_ talk in San Francisco, CA 
-in early November.
+Upcoming `QCon SF 2014 <http://qconsf.com/>`_ talk on November 5 in 
+San Francisco, CA. 
 
 ----
 
