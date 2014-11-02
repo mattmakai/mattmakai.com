@@ -5,12 +5,12 @@ Tech Talks
 :slug: talks
 
 
-22+ talks done or scheduled in 2014
+24+ talks done or scheduled in 2014
 -----------------------------------
 
 
-Web APIs, Exponential Growth and Your Career
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+`Web APIs, Exponential Growth and Your Career </presentations/2014-qcon-web-apis-career.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Public web APIs are proliferating exponentially, from just 50 in 2004 to 
 over 14000 in 2014. In this talk you'll learn what you need to know so your 
 career benefits from these trends. Find out the attributes of successful API 
@@ -19,6 +19,18 @@ APIs grow increasingly important to businesses.
 
 Upcoming `QCon SF 2014 <http://qconsf.com/>`_ talk on November 5 in 
 San Francisco, CA. 
+
+----
+
+
+Flask, Reveal.js and WebSockets Workshop
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+We'll work together to create a "Choose Your Own Adventure" presentation with 
+Reveal.js, Flask, Websockets and Twilio SMS.
+
+Upcoming workshop at 
+`Hackbright Academy <http://www.hackbrightacademy.com/>`_ on Monday,
+November 3 in San Francisco, CA.
 
 ----
 
@@ -53,8 +65,8 @@ Twilio Workshop for HackMIT
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 No slides used for this talk.
 
-Workshop given at `HackMIT <https://www.hackmit.org/>`_ on October 4
-in Cambridge, Massachusetts.
+Workshop given at `HackMIT <https://www.hackmit.org/>`_ on Saturday, 
+October 4 in Cambridge, Massachusetts.
 
 
 ----
@@ -72,6 +84,15 @@ increasingly important for the full stack trend.
 Quick 10 minute talk given at
 `MoDev meetup <http://www.meetup.com/modevdc/events/202380822/>`_ on 
 Monday, September 16 in Tyson's Corner, Virginia.
+
+----
+
+
+`Developer Evangelism <https://blog.apigee.com/detail/the_innovator_spotlight_interview_matt_makai_twilio>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Inteview at `I Love APIs Conference 2014 <http://iloveapis2014.com/>` in 
+San Francisco, CA on Tuesday, September 9.
 
 ----
 

@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Web APIs, Exponential Growth and Your Career</title>
+
+		<meta name="description" content="">
+
+		<meta name="author" content="Matt Makai">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="/source/static/css/reveal/reveal.min.css">
+		<link rel="stylesheet" href="/source/static/css/reveal/theme/qcon-sf.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="/source/static/lib/css/zenburn.css">
+        <style>
+            ol.bigger li, 
+            ul.bigger li {
+               color: #222;
+               font-size: 3em;
+               margin-bottom: 15px;
+               line-height: 1.1em;
+               margin-left: 20px;
+            }
+            ul.bigger-contact-info li {
+               color: #222;
+               font-size: 2.2em;
+               margin-bottom: 15px;
+               margin-top: 20px;
+               line-height: 1.1em;
+               margin-left: 20px;
+            }
+            ol.bigger-contact-info li {
+                margin-left: 1em;
+            }
+            ol.bigger li {
+                margin-left: 1em;
+            }
+            img.no-border-rounded {border: none; border-radius: 5px;}
+            h2.background-img {
+                font-size: 4.5em;
+                color: white;
+                text-shadow: -1px -1px 0 #222, 1px -1px 0 #222, 
+                -1px 1px 0 #222, 1px 1px 0 #222; 
+            }
+            .total-miles-tooltip {
+                color: #222;
+                background: #eee;
+                border: 1px solid #222;
+                padding: 3px;
+                -webkit-border-radius:3px;
+                -moz-border-radius:3px;
+                border-radius:3px;
+            }
+
+            .miles-driven-tooltip {
+                color: #eee;
+                background: #406BB4;
+                border: 1px solid #222;
+                padding: 3px;
+                -webkit-border-radius:3px;
+                -moz-border-radius:3px;
+                border-radius:3px;
+            }
+        </style>
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="/source/static/css/reveal/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="/source/static/lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div class="reveal">
+            <div class="slides" style="text-align: left;">
+				<section>
+                    <h1 style="margin-bottom: 25px; font-size: 4em;">
+                        Web APIs, Exponential Growth and Your Career
+                    </h1>
+                    <h3><a href="https://qconsf.com/">QCon SF | November 2014</a></h3>
+                    <p style="font-size: .85em;">
+                        <a href="http://www.mattmakai.com">Matt Makai</a> | 
+                        <a href="http://twitter.com/mattmakai">@mattmakai</a> |
+                        <a href="https://github.com/makaimc">makaimc</a> 
+                        on GitHub |
+                        <a href="https://www.twilio.com">Twilio</a> 
+                    </p>
+				</section>
+                
+                <section style="text-align: center;">
+                    <h1 style="font-size: 5em;">2015</h1>
+                </section>
+
+                <section style="text-align: center;" data-state="black-bg">
+                    <h1 style="font-size: 5em; color: #ff0000;">1995</h1>
+                </section>
+
+                <section data-state="toy-story">
+                </section>
+                
+                <section data-state="super-bowl-49ers">
+                </section>
+                
+                <section data-state="coolio">
+                </section>
+
+                <section data-state="world-wide-web">
+                </section>
+                
+                <section data-state="resources" style="text-align: center;">
+                    <img src="/source/static/img/presentations/2014-cap1-api-power-laws/netscape-logo.png" style="border: none; background: none; box-shadow: none;">
+                </section>
+                
+                <section data-state="black-bg">
+                    <h1 style="font-size: 5em; color: #fff;">1995</h1>
+                    <h1 style="color: #ff0000;">12.5k websites</h1>
+                </section>
+                
+                <section>
+                    <h1 style="font-size: 5em; color: #222;">2015</h1>
+                    <h1>1 billion websites</h1>
+                </section>
+                
+                <section>
+                    <h2>http://<span style="color: #222;">www</span>.qconsf.com/</h2>
+                </section>
+
+                <section data-state="webpage">
+                </section>
+                
+                <section data-state="website-for-people">
+                </section>
+                
+                <section>
+                    <h1>Web</h1>
+                    <h1 style="color: #222;">Application</h1>
+                    <h1 style="color: #222;">Programming</h1>
+                    <h1 style="color: #222;">Interfaces</h1>
+                    <h1>(APIs)</h1>
+                </section>
+                
+                <section>
+                    <h2>http://<span style="color: #222;">api</span>.qconsf.com/</h2>
+                </section>
+                
+                <section>
+                    <h2>GET http://api.qconsf.com/</h2>
+<pre style="box-shadow: none; color: #222; font-size: 1.4em;">
+{
+  "name": "QCon SF",
+  "dates": ["11-3-2014", 
+            "11-5-2014"],
+  "speakers": ["", 
+               "", 
+               ""],
+  "venue": "Hyatt",
+  "tickets_left": 0
+}
+</pre>
+                </section>
+                
+                <section>
+                    <h1 style="color: #222; font-size: 3.5em;">Internet of Things "IoT"</h1>
+                    <br/>
+                    <h1 style="color: #222; font-size: 3.5em;">Machine-to-Machine "M2M"</h1>
+                </section>
+                
+                <section data-state="iphones">
+                </section>
+                
+                <section data-state="google-glass">
+                </section>
+                
+                <section data-state="drone">
+                </section>
+                
+                <section data-state="spark-core">
+                </section>
+                
+                <section>
+                    <h1>Is 2015...</h1>
+                    <h1 style="font-size: 3.2em; color: #222;">1995 for 
+                        web APIs?</h1>
+                </section>
+                
+                <section data-state="api-growth-viz">
+                    <div id="api-growth-viz"></div>
+                </section>
+                
+                <section data-state="software-dev">
+                </section>
+
+                <section data-state="resources" style="text-align: center;">
+                    <h1 style="color: green;">Our Careers</h1>
+                </section>
+                
+                <section>
+                    <h2>Understanding Web APIs</h2>
+                    <ul class="bigger">
+                        <li>Discovery</li>
+                        <li class="fragment">Consumption</li>
+                        <li class="fragment">Creation</li>
+                </section>
+                
+                <section style="text-align: center;">
+                    <h1>Discovery</h1>
+                </section>
+                
+                <section data-state="ducksboard">
+                </section>
+                
+                <section data-state="zapier">
+                </section>
+                
+                <section style="text-align: center;">
+                    <h1>Consumption</h1>
+                </section>
+                
+                <section data-state="sample-code">
+                </section>
+                
+                <section data-state="helper-libraries">
+                </section>
+                
+                <section>
+                    <h2>GET http://api.iowaconf.com/</h2>
+<pre style="box-shadow: none; color: #222; font-size: 1.4em;">
+{
+  "name": "I/OWA Conference",
+  "dates": ["08-16-2014", 
+            "08-17-2014"],
+  "speakers": ["Brett Trout", 
+               "Jake Kerber", 
+               "Amanda Morrow"],
+  "venues": ["Gravitate", 
+             "The Kirkwood"],
+  "tickets_left": 0
+}
+</pre>
+                </section>
+                
+                <section style="text-align: center;">
+                    <h1>Creation</h1>
+                </section>
+
+                <section>
+                    <h1 style="color: #222;">REpresentational 
+                                             State Transfer (REST)</h1>
+                </section>
+
+                <section>
+                    <h1 style="color: #222;">GET</h1>
+                    <h1 style="color: #222;">POST</h1>
+                    <h1 style="color: #222;">PUT</h1>
+                    <h1 style="color: #222;">DELETE</h1>
+                </section>
+
+                <section>
+                    <h1 style="color: #222;">Resource(s)</h1>
+                </section>
+                
+                <section>
+                    <h1 style="color: #222;">Webhooks</h1>
+                </section>
+                
+                <section data-state="restful-webhooks">
+                </section>
+                
+                <section>
+                    <h1>2015</h1>
+                    <h1 style="font-size: 2.8em; color: #222;">1995-ish for 
+                        web APIs</h1>
+                </section>
+                
+                <section>
+                    <h2 style="color: #222; font-size: 3em;">"We know what 
+                         we are now, but not what we may become."</h2>
+                </section>
+                
+                <section>
+                    <h2>Send a text msg to:</h2>
+                    <h1 style="color: #222;">(515) 512-5866</h1>
+                    <br>
+                    <h2>Scale 1-10: How likely are you to recommend 
+                        this talk to a colleague or friend?</h2>
+                    <h2>1 - Not likely at all</h1>
+                    <h2>10 - Extremely likely</h2>
+                </section>
+              
+                <section>
+                    <h2>Matt Makai</h2>
+                    <ul class="bigger-contact-info">
+                        <li><a href="https://www.twilio.com/">Twilio</a> 
+                        Developer Evangelist
+                        </li>
+                        <li>
+                            <a href="https://github.com/makaimc">makaimc</a> 
+                            on GitHub</a>
+                        </li>
+                        <li><a href="http://twitter.com/mattmakai">@mattmakai</a></li>
+                        <li>makai@twilio.com</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Picture references</h2>
+                    <ul>
+                        <li><a href="http://imageserver.moviepilot.com/toy-story-movie-01-toy-story-franchise-will-continue.jpeg?width=1920&height=1080">Toy Story</a></li>
+                        <li><a href="http://si.wsj.net/public/resources/images/BN-BI485_0202ma_M_20140202233348.jpg">49ers Super Bowl winners</a></li>
+                        <li><a href="http://www.centrictv.com/content/dam/centric/whats-good/soulsessions/2012/08/01/coolio-gangstas-paradise.jpg">Coolio Gangsta's Paradise</a></li>
+                        <li><a href="http://opensourcescholars.github.io/os-preso/images/Netscape2.png">Netscape logo</a></li>
+                        <li><a href="http://www.mit.edu/people/mkgray/net/web-growth-summary.html">Web growth</a></li>
+                        <li><a href="http://592f46.medialib.glogster.com/media/7f5fda2280f3ecea4350e577b2a0366591ebab4bbddbff0c80bcd830c87b24d7/dose-damage-exponential.png">Exponential graph</a></li>
+                        <li><a href="http://www.w3.org/2008/10/team-photo.jpg">W3C team</a></li>
+                        <li><a href="http://blogs-images.forbes.com/anthonykosner/files/2014/04/martin-hajek-iphone-6-macfan-concept.jpg">iPhones</a></li>
+                        <li><a href="http://glass-apps.org/wp-content/uploads/2013/06/google-glass1.jpg">Google Glass</a></li>
+                        <li><a href="http://photographyisnotacrime.com/wp-content/uploads/2014/05/drone1.jpg">Drone</a></li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Resource references</h2>
+                    <ul>
+                        <li><a href="http://royal.pingdom.com/2008/04/04/how-we-got-from-1-to-162-million-websites-on-the-internet/">Internet website growth</a></li>
+                    </ul>
+                </section>
+		</div>
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script> 
+        <script src="/source/static/js/d3.min.js" charset="utf-8"></script>
+        <script src="/source/static/js/presentations/api-growth.js"></script>
+		<script src="/source/static/lib/js/head.min.js"></script>
+		<script src="/source/static/js/reveal.min.js"></script>
+
+		<script>
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: '/source/static/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '/source/static/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '/source/static/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '/source/static/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '/source/static/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: '/source/static/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: '/source/static/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: '/source/static/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+            var containerWidth = $(".slides").width(),
+                containerHeight = $(".slides").height();
+
+            var margin = {top: 5, right: 5, bottom: 5, left: 5},
+                vizWidth = containerWidth,
+                vizHeight = containerHeight;
+
+            /* API growth visualization */
+            var apiGrowthSvg = d3.select("#api-growth-viz").append("svg")
+                .attr("width", vizWidth + margin.left + margin.right)
+                .attr("height", vizHeight + margin.top + margin.bottom)
+                .attr("class", "api-growth")
+                .attr("id", "api-growth-svg");
+
+
+            var apiGrowthAlreadyDrawn = false;
+            Reveal.addEventListener( 'api-growth-viz', function() {
+                if (!apiGrowthAlreadyDrawn) {
+                    apiGrowthAlreadyDrawn = true;
+                    d3.json('/static/data/api-growth.json', drawApiGrowth);
+                }
+            } );
+
+            $(document).ready(function() {
+            });
+
+		</script>
+
+	</body>
+</html>
