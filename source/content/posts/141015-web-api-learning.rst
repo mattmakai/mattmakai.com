@@ -17,7 +17,7 @@ are also included in my
 but the links listed here are programming language agnostic. 
 
 These links go along with my 
-`Web APIs, Exponential Growth and You <http://www.mattmakai.com/presentations/2014-apis-exponential-growth-you-iowa-conf.html>`_ talk.
+`Web APIs, Exponential Growth and Your Career <http://www.mattmakai.com/presentations/2014-qcon-web-apis-career.html>`_ talk.
 
 
 Web and API Fundamentals
@@ -33,9 +33,16 @@ Web and API Fundamentals
   fundamentals behind web APIs.
 
 * If you want to get into the origins of Representational State Transfer 
-  (REST)REST, Roy Fielding's 
+  (REST), Roy Fielding's 
   `dissertation on the topic <http://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm>`_
   remains hugely influential.
+
+* Short and to the point answer on Stack Overflow about 
+  "`What is the difference between REST and RESTful? <http://stackoverflow.com/questions/1568834/whats-the-difference-between-rest-restful>`_"
+
+* `REST Vs SOAP, The Difference Between Soap And Rest <http://spf13.com/post/soap-vs-rest>`_
+  is a well thought out post on the conceptual differences between the
+  two architecture styles.
 
 
 Finding APIs
