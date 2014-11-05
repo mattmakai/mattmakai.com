@@ -21,10 +21,15 @@
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="/source/static/lib/css/zenburn.css">
         <style>
+            h2.interview-question {
+                color: #222; 
+                font-size: 2.9em;
+                line-height: 1.1em;
+            }
             ol.bigger li, 
             ul.bigger li {
                color: #222;
-               font-size: 3em;
+               font-size: 2em;
                margin-bottom: 15px;
                line-height: 1.1em;
                margin-left: 20px;
@@ -208,92 +213,74 @@
                     <h1 style="color: green;">Our Careers</h1>
                 </section>
                 
+                <section data-state="bob-dylan">
+                </section>
+                
                 <section>
-                    <h2>Understanding Web APIs</h2>
+                    <h1 style="font-size: 3em;"><span style="font-family: Courier;">1995 </span><span style="color: #222;">C++</span></h1>
+                    <h1 style="font-size: 3em;"><span style="font-family: Courier;">2000 </span><span style="color: #222;">Java / J2EE</span></h1>
+                    <h1 style="font-size: 3em;"><span style="font-family: Courier;">2007 </span><span style="color: #222;">Python, Ruby</span></h1>
+                    <h1 style="font-size: 3em;"><span style="font-family: Courier;">2014 </span><span style="color: #222;">Node.js, Go</span></h1>
+                </section>
+                
+                <section data-state="fundamentals">
+                </section>
+
+                <section>
+                    <h2>New programming language</h2>
                     <ul class="bigger">
-                        <li>Discovery</li>
-                        <li class="fragment">Consumption</li>
-                        <li class="fragment">Creation</li>
-                </section>
-                
-                <section style="text-align: center;">
-                    <h1>Discovery</h1>
-                </section>
-                
-                <section data-state="ducksboard">
-                </section>
-                
-                <section data-state="zapier">
-                </section>
-                
-                <section style="text-align: center;">
-                    <h1>Consumption</h1>
-                </section>
-                
-                <section data-state="sample-code">
-                </section>
-                
-                <section data-state="helper-libraries">
+                        <li class="fragment">Static or dynamic typing?</li>
+                        <li class="fragment">Compiled or interpreted?</li>
+                        <li class="fragment">VM or machine code?</li>
+                        <li class="fragment">Imperative? Functional? Mix?</li>
+                        <li class="fragment">Problem domain?</li>
+                    </ul>
                 </section>
                 
                 <section>
-                    <h2>GET http://api.iowaconf.com/</h2>
-<pre style="box-shadow: none; color: #222; font-size: 1.4em;">
-{
-  "name": "I/OWA Conference",
-  "dates": ["08-16-2014", 
-            "08-17-2014"],
-  "speakers": ["Brett Trout", 
-               "Jake Kerber", 
-               "Amanda Morrow"],
-  "venues": ["Gravitate", 
-             "The Kirkwood"],
-  "tickets_left": 0
-}
-</pre>
-                </section>
-                
-                <section style="text-align: center;">
-                    <h1>Creation</h1>
+                    <h1>Web APIs</h1>
                 </section>
 
                 <section>
-                    <h1 style="color: #222;">REpresentational 
-                                             State Transfer (REST)</h1>
+                    <h2 class="interview-question">Explain 
+                        what happens during the HTTP request-response
+                        cycle.</h2>
+                </section>
+                
+                <section>
+                    <h2 class="interview-question">What do 
+                        the HTTP status code categories indicate
+                        (100, 200, 300, 400 and 500)?</h2>
+                </section>
+                
+                <section>
+                    <h2 class="interview-question">What is
+                        REST? What does RESTful mean?</h2>
+                </section>
+                
+                <section>
+                    <h2 class="interview-question">What are
+                        the six constraints of a RESTful architecture?</h2>
+                </section>
+                
+                <section>
+                    <h2 class="interview-question">What is
+                        the difference between REST and SOAP?</h2>
                 </section>
 
                 <section>
-                    <h1 style="color: #222;">GET</h1>
-                    <h1 style="color: #222;">POST</h1>
-                    <h1 style="color: #222;">PUT</h1>
-                    <h1 style="color: #222;">DELETE</h1>
-                </section>
-
-                <section>
-                    <h1 style="color: #222;">Resource(s)</h1>
+                    <h2 class="interview-question">How are callbacks from
+                        a server to a client performed with web APIs?</h2>
                 </section>
                 
                 <section>
-                    <h1 style="color: #222;">Webhooks</h1>
-                </section>
-                
-                <section data-state="restful-webhooks">
-                </section>
-                
-                <section>
-                    <h1>2015</h1>
-                    <h1 style="font-size: 2.8em; color: #222;">1995-ish for 
-                        web APIs</h1>
-                </section>
-                
-                <section>
-                    <h2 style="color: #222; font-size: 3em;">"We know what 
-                         we are now, but not what we may become."</h2>
+                    <h2 class="interview-question">"What are the
+                        + / - of helper libraries for Web APIs?"</h2>
                 </section>
                 
                 <section>
                     <h2>Send a text msg to:</h2>
-                    <h1 style="color: #222;">(515) 512-5866</h1>
+                    <h1 style="color: #222;">(415) 466-8916</h1>
                     <br>
                     <h2>Scale 1-10: How likely are you to recommend 
                         this talk to a colleague or friend?</h2>
@@ -324,11 +311,12 @@
                         <li><a href="http://www.centrictv.com/content/dam/centric/whats-good/soulsessions/2012/08/01/coolio-gangstas-paradise.jpg">Coolio Gangsta's Paradise</a></li>
                         <li><a href="http://opensourcescholars.github.io/os-preso/images/Netscape2.png">Netscape logo</a></li>
                         <li><a href="http://www.mit.edu/people/mkgray/net/web-growth-summary.html">Web growth</a></li>
-                        <li><a href="http://592f46.medialib.glogster.com/media/7f5fda2280f3ecea4350e577b2a0366591ebab4bbddbff0c80bcd830c87b24d7/dose-damage-exponential.png">Exponential graph</a></li>
                         <li><a href="http://www.w3.org/2008/10/team-photo.jpg">W3C team</a></li>
                         <li><a href="http://blogs-images.forbes.com/anthonykosner/files/2014/04/martin-hajek-iphone-6-macfan-concept.jpg">iPhones</a></li>
                         <li><a href="http://glass-apps.org/wp-content/uploads/2013/06/google-glass1.jpg">Google Glass</a></li>
                         <li><a href="http://photographyisnotacrime.com/wp-content/uploads/2014/05/drone1.jpg">Drone</a></li>
+                        <li><a href="http://www.soundstation.dk/images/products/large/99/131199-a.jpg">Bob Dylan</a></li>
+                        <li><a href="http://www2.lsuagcenter.com/lahouse/resourcecenter/construction_gallery/04-06-1%20House%20foundation%20footings%20-%20forms%20and%20rebar%20reinforcement.jpg">House foundation</a></li>
                     </ul>
                 </section>
 
