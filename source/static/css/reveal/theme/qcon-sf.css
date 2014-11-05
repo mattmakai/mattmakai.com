@@ -206,6 +206,16 @@ body {
   background-size: cover;
 }
 
+.webhooks .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-qcon-sf/webhook.png);
+  background-size: cover;
+}
+
+.webhook-pic .reveal .state-background {
+  background: url(/source/static/img/presentations/2014-qcon-sf/webhook-diagram.png);
+  background-size: cover;
+}
+
 .resources .reveal .state-background {
   background-color: #eee;
 }
