@@ -17,8 +17,8 @@ career benefits from these trends. Find out the attributes of successful API
 programs and how to improve your development skills to take advantage as web 
 APIs grow increasingly important to businesses.
 
-Upcoming `QCon SF 2014 <http://qconsf.com/>`_ talk on November 5 in 
-San Francisco, CA. 
+Talk given at `QCon SF 2014 <http://qconsf.com/>`_ on Wednesday, November 5 
+in San Francisco, CA. 
 
 ----
 
@@ -28,7 +28,7 @@ Flask, Reveal.js and WebSockets Workshop
 We'll work together to create a "Choose Your Own Adventure" presentation with 
 Reveal.js, Flask, Websockets and Twilio SMS.
 
-Upcoming workshop at 
+Workshop given at 
 `Hackbright Academy <http://www.hackbrightacademy.com/>`_ on Monday,
 November 3 in San Francisco, CA.
 
