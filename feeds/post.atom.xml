@@ -1,5 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/post.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2014-10-15T00:00:00-04:00</updated><entry><title>Learning Web APIs</title><link href="http://www.letshackdc.com/learning-web-apis.html" rel="alternate"></link><updated>2014-10-15T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-10-15:learning-web-apis.html</id><summary type="html">&lt;p&gt;The following list is a collection of resources for understanding and
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/post.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2014-12-01T00:00:00-05:00</updated><entry><title>Brain Boosting</title><link href="http://www.letshackdc.com/brain-boosting.html" rel="alternate"></link><updated>2014-12-01T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-12-01:brain-boosting.html</id><summary type="html">&lt;p&gt;In college, I was never one to take adderal or ritalin to cram all night before
+an exam. That no-sleep study route sounded miserable to me. I was the
+unusual student who slowly and steadily worked every single day in the
+library towards inevitable midterms and finals. Nevertheless, increasing
+brain creativity and focus through exercise, meditation, drugs and
+supplements fascinates me.&lt;/p&gt;
+&lt;p&gt;From what I've read, brain research indicates that exercise and meditation
+are safe and highly effective ways to increase performance. Evidence trends
+towards positive performance via caffeine, electrical stimulation and
+tyrosine. However, each one of these must be used properly and their effects
+can potentially diminish over time.&lt;/p&gt;
+&lt;p&gt;Below are links to some of the resources I've found most useful while
+learning about ways to stimulate increased brain creativity and focus.&lt;/p&gt;
+&lt;div class="section" id="exercise"&gt;
+&lt;h2&gt;Exercise&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://news.stanford.edu/news/2014/april/walking-vs-sitting-042414.html"&gt;Walking improves creativity&lt;/a&gt;
+is a Stanford study that showed how creativity, as measured by high-quality,
+novel analogies was increased by walking in the control group.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.newyorker.com/tech/elements/walking-helps-us-think"&gt;Why walking helps us think&lt;/a&gt;
+goes into the connection between walking, thinking and writing.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.nytimes.com/2012/04/22/magazine/how-exercise-could-lead-to-a-better-brain.html?pagewanted=all&amp;amp;_r=0"&gt;How Exercise Could Lead to a Better Brain&lt;/a&gt;
+summarizes that over the last several decades research has pointed to the
+strong relationship between exercise and better brain function.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="meditation"&gt;
+&lt;h2&gt;Meditation&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.psychologytoday.com/blog/the-courage-be-present/201001/how-practice-mindfulness-meditation"&gt;How to practice mindfulness meditation&lt;/a&gt;
+covers the basics on how to begin with this form of meditation. Note that
+the goal with mindfulness meditation is not to clear your mind of thoughts
+but to actually allow them to come to you and work with them.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://well.blogs.nytimes.com/2011/01/28/how-meditation-may-change-the-brain/"&gt;How meditation may change the brain&lt;/a&gt;
+covers some of the research done on how meditation can alter brain structure
+for the better, especially in our always-on world.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="caffeine"&gt;
+&lt;h2&gt;Caffeine&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.newyorker.com/tech/elements/how-caffeine-can-cramp-creativity"&gt;How Caffeine Can Cramp Creativity&lt;/a&gt;
+goes into the link between creativity and focus and how caffeine can
+alter that balance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="l-tyrosine"&gt;
+&lt;h2&gt;L-Tyrosine&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Tyrosine has quite a bit of research behind its benefits compared to many
+other common supplements. &lt;a class="reference external" href="http://www.informationisbeautiful.net/play/snake-oil-supplements/"&gt;This chart&lt;/a&gt;
+lays out how it compares with other supplements and vitamins from an
+evidence perspective.&lt;/li&gt;
+&lt;li&gt;Before taking a supplement such as Tyrosine it's a good idea to check with
+a site like &lt;a class="reference external" href="http://www.webmd.com/vitamins-supplements/ingredientmono-1037-tyrosine.aspx?activeingredientid=1037&amp;amp;activeingredientname=tyrosine"&gt;WebMD for drug interactions and side effects&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="piracetam-choline"&gt;
+&lt;h2&gt;Piracetam &amp;amp; Choline&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://sites.google.com/site/thinkinginanutshell/nootropics"&gt;Nootropics, their effects, risks and where to get them&lt;/a&gt;
+is one of the most comprehensive write ups I've found on the topic of
+Nootropics, which includes synthetics like Piracetam.&lt;/li&gt;
+&lt;li&gt;Piracetam can be purchased at
+&lt;a class="reference external" href="https://www.cognitivenutrition.com/index.php?dispatch=products.view&amp;amp;product_id=60"&gt;Cognitive Nutriton&lt;/a&gt;
+while I usually get choline from &lt;a class="reference external" href="http://www.amazon.com/Solgar-Choline-Vegetable-Capsules-Count/dp/B000URVCRI/ref=sr_1_1?s=hpc&amp;amp;ie=UTF8&amp;amp;qid=1417383612&amp;amp;sr=1-1&amp;amp;keywords=choline+solgar"&gt;Amazon&lt;/a&gt; or
+&lt;a class="reference external" href="http://www.vitaminshoppe.com/p/solgar-choline-vegicaps-100-veggie-caps/sl-1567#.VHuO66TF95I"&gt;Vitamin Shoppe&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="electrical-brain-stimulation"&gt;
+&lt;h2&gt;Electrical Brain Stimulation&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Military research under controlled circumstances led to results where
+&lt;a class="reference external" href="http://www.theguardian.com/science/2014/nov/19/electrical-brain-stimulation-caffeine"&gt;electrical brain stimulation beat caffeine&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="cautionary-tales-and-supplemental-reading"&gt;
+&lt;h2&gt;Cautionary Tales and Supplemental Reading&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://well.blogs.nytimes.com/2014/01/22/how-inactivity-changes-the-brain/"&gt;How Inactivity Changes the Brain&lt;/a&gt;
+goes over the flip side to regular physical activity benefiting the brain:
+inactivity can hamper its performance.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.theatlantic.com/features/archive/2014/03/the-toxins-that-threaten-our-brains/284466/??"&gt;The toxins that threaten our brains&lt;/a&gt;
+is an in-depth well-written article on the dangers that common substances
+such as lead, mercury, arsenic and ethanol present to brains, especially
+in children whose brains are still developing.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://johannhari.com/2008/05/06/my-experiment-with-smart-drugs/"&gt;My experiment with smart drugs&lt;/a&gt;
+provides a perspective from the author on his experiment with the narcolepsy
+drug Provigil.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.cbc.ca/news/technology/age-related-brain-decline-starts-at-24-1.2611257"&gt;Age-related brain decline begins at 24&lt;/a&gt;
+according to research done with Starcraft players.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://lifehacker.com/5684996/what-alcohol-actually-does-to-your-brain-and-body"&gt;What alcohol actually does to your brain and body&lt;/a&gt;.
+Summary: seriously not good for you.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Learning Web APIs</title><link href="http://www.letshackdc.com/learning-web-apis.html" rel="alternate"></link><updated>2014-10-15T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-10-15:learning-web-apis.html</id><summary type="html">&lt;p&gt;The following list is a collection of resources for understanding and
 learning Web fundamentals and application programming interfaces (APIs).
 Much of modern software development is driven by crafting custom code
 and combining that code with APIs. The concepts listed here are useful for
