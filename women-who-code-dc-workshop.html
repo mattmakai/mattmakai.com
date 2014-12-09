@@ -124,15 +124,16 @@ client = TwilioRestClient()
 # next put your cell phone for the &quot;to&quot; and your twilio number for &quot;from\_&quot;
 
 client.messages.create(to=&quot;+12025551234&quot;, from_=&quot;+12025553456&quot;,
-body=&quot;Hello world!&quot;)
+                       body=&quot;Hello world!&quot;)
 </pre>
 <p>You should get a text message to your cell phone! Next up let's add an image
 of Grace Hopper with an early computer to your next message.</p>
 <pre class="code literal-block">
+media = &quot;http://www.nww2m.com/wp-content/uploads/2013/10/hopper-large.jpg&quot;
+
 # again replace the numbers on the next line with your numbers
 client.messages.create(to=&quot;+12025551234&quot;, from_=&quot;+12025553456&quot;,
-    body=&quot;Grace Hopper!&quot;,
-    media_url=&quot;http://www.nww2m.com/wp-content/uploads/2013/10/hopper-large.jpg&quot;)
+                       body=&quot;Grace Hopper!&quot;, media_url=media)
 </pre>
 <p>If you got the MMS then awesome! If not, call me or one of the mentors over
 and we'll help you get there. Once you've done the SMS &amp; MMS then it's time

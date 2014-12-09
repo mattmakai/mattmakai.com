@@ -58,17 +58,19 @@ code:
     # next put your cell phone for the "to" and your twilio number for "from\_"
 
     client.messages.create(to="+12025551234", from_="+12025553456", 
-    body="Hello world!")
+                           body="Hello world!")
+
 
 You should get a text message to your cell phone! Next up let's add an image
 of Grace Hopper with an early computer to your next message.
 
 .. code::
 
+    media = "http://www.nww2m.com/wp-content/uploads/2013/10/hopper-large.jpg"
+
     # again replace the numbers on the next line with your numbers
     client.messages.create(to="+12025551234", from_="+12025553456", 
-        body="Grace Hopper!", 
-        media_url="http://www.nww2m.com/wp-content/uploads/2013/10/hopper-large.jpg")
+                           body="Grace Hopper!", media_url=media)
 
 
 If you got the MMS then awesome! If not, call me or one of the mentors over
