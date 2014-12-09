@@ -15,7 +15,7 @@ Daily Structure
 Throughout the past year on the Twilio crew I've learned that my 
 secret to keeping happy and productive is to impose regular structure on my
 days. Here's how my typical non-traveling weekdays (and many Saturdays) are
-scheduled.
+set up.
 
 
 730-am(-ish): wake up, write & code
@@ -23,8 +23,8 @@ scheduled.
 We engineers know that uninterrupted quiet time is the only way to effectively 
 code. My uninterrupted time comes in the morning hours between about 7am until
 noon. These hours tend to be productive since I'm fortunately one of those 
-weird morning people who wakes up with a refreshed mind ready to go. Morning 
-hours also work well for focused tasks because our headquarters in San 
+weird morning people who wakes up with a refreshed mind that's ready to go. 
+Morning hours also work well for focused tasks because our headquarters in San 
 Francisco is three hours behind D.C. so I know I won't have to take phone 
 calls or answer emails from the West Coast until they come online.
 
