@@ -6,7 +6,8 @@ My Typical Day As A Developer Evangelist
 :date: 2014-12-06
 
 "*What is a typical day like?*" is one of the most common questions I receieve about my gig as a 
-`Twilio Developer Evangelist <https://www.twilio.com/blog/2014/02/introducing-developer-evangelist-matt-makai.html>`_.
+`Twilio Developer Evangelist <https://www.twilio.com/blog/2014/02/introducing-developer-evangelist-matt-makai.html>`_. This blog post explains how I schedule
+my non-travel days in the Developer Evangelist role.
 
 Daily Structure
 ---------------

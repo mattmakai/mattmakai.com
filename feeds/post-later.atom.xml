@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/post-later.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2014-12-05T00:00:00-05:00</updated><entry><title>Women Who Code DC Workshop</title><link href="http://www.letshackdc.com/women-who-code-dc-workshop.html" rel="alternate"></link><updated>2014-12-05T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-12-05:women-who-code-dc-workshop.html</id><summary type="html">&lt;div class="section" id="obtaining-a-twilio-account"&gt;
+&lt;h2&gt;Obtaining a Twilio account&lt;/h2&gt;
+&lt;p&gt;Head to &lt;a class="reference external" href="https://www.twilio.com/try-twilio"&gt;Twilio&lt;/a&gt; and sign up for a free
+account. After going obtaining a Twilio number, upgrade your account so you
+can send SMS, MMS and voice calls to any phone number. Use the &amp;quot;I have a promo
+code&amp;quot; link on the upgrade screen and enter the promo code given during the
+workshop to get free credit on your account.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="sending-your-first-sms-mms"&gt;
+&lt;h2&gt;Sending Your First SMS &amp;amp; MMS&lt;/h2&gt;
+&lt;p&gt;Get your Python environment set up with a new virtualenv. You'll need to
+install the
+&lt;a class="reference external" href="https://www.twilio.com/docs/python/install"&gt;Twilio helper library&lt;/a&gt;
+(&lt;tt class="docutils literal"&gt;pip install twilio&lt;/tt&gt;) and set the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN
+environment variables before firing up the Python REPL.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="ngrok"&gt;
+&lt;h2&gt;Ngrok&lt;/h2&gt;
+&lt;p&gt;We'll be using &lt;a class="reference external" href="https://ngrok.com/"&gt;Ngrok&lt;/a&gt; to create a localhost tunnel
+so the &lt;a class="reference external" href="https://www.twilio.com/docs/api/twiml"&gt;TwiML&lt;/a&gt; files can be read
+from the local filesystem.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="making-voice-calls"&gt;
+&lt;h2&gt;Making Voice Calls&lt;/h2&gt;
+&lt;/div&gt;
+</summary></entry></feed>
