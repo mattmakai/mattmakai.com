@@ -119,7 +119,7 @@ Now in the Python interpreter let's make a voice call:
 
     client = TwilioRestClient()
 
-    # next put your cell phone for the "to" and your twilio number for "from\_"
+    # next put your cell phone for the to and your twilio number for from
     # replace the url with your ngrok url plus voice.xml
 
     client.calls.create(to="+12025551234", from_="+12025553456", 

@@ -194,7 +194,7 @@ from twilio.rest import TwilioRestClient
 
 client = TwilioRestClient()
 
-# next put your cell phone for the &amp;quot;to&amp;quot; and your twilio number for &amp;quot;from\_&amp;quot;
+# next put your cell phone for the to and your twilio number for from
 # replace the url with your ngrok url plus voice.xml
 
 client.calls.create(to=&amp;quot;+12025551234&amp;quot;, from_=&amp;quot;+12025553456&amp;quot;,
