@@ -1,5 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/all.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2014-12-01T00:00:00-05:00</updated><entry><title>Brain Boosting</title><link href="http://www.letshackdc.com/brain-boosting.html" rel="alternate"></link><updated>2014-12-01T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-12-01:brain-boosting.html</id><summary type="html">&lt;p&gt;In college, I was never one to take adderal or ritalin to cram all night before
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/all.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2014-12-06T00:00:00-05:00</updated><entry><title>My Typical Day As A Developer Evangelist</title><link href="http://www.letshackdc.com/typical-day-as-developer-evangelist.html" rel="alternate"></link><updated>2014-12-06T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-12-06:typical-day-as-developer-evangelist.html</id><summary type="html">&lt;p&gt;&amp;quot;&lt;em&gt;What is a typical day like?&lt;/em&gt;&amp;quot; is one of the most common questions I receieve about my gig as a
+&lt;a class="reference external" href="https://www.twilio.com/blog/2014/02/introducing-developer-evangelist-matt-makai.html"&gt;Twilio Developer Evangelist&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="section" id="daily-structure"&gt;
+&lt;h2&gt;Daily Structure&lt;/h2&gt;
+&lt;p&gt;Throughout the past year on the Twilio crew I've learned that my
+secret to keeping happy and productive is to impose regular structure on my
+days. Here's how my typical non-traveling weekdays (and many Saturdays) are
+scheduled.&lt;/p&gt;
+&lt;div class="section" id="am-ish-wake-up-write-code"&gt;
+&lt;h3&gt;730-am(-ish): wake up, write &amp;amp; code&lt;/h3&gt;
+&lt;p&gt;We engineers know that uninterrupted quiet time is the only way to effectively
+code. My uninterrupted time comes in the morning hours between about 7am until
+noon. These hours tend to be productive since I'm fortunately one of those
+weird morning people who wakes up with a refreshed mind ready to go. Morning
+hours also work well for focused tasks because our headquarters in San
+Francisco is three hours behind D.C. so I know I won't have to take phone
+calls or answer emails from the West Coast until they come online.&lt;/p&gt;
+&lt;p&gt;Most mornings are a combination of coding &lt;em&gt;and&lt;/em&gt; writing.
+Since I do both activities in Vim they have a similar creative flow.
+Many of the open source projects I work on also go along with a blog post
+so writing and coding tasks often overlap.
+For example, I programmed the
+&lt;a class="reference external" href="https://github.com/makaimc/choose-your-own-adventure-presentations"&gt;Choose Your Own Adventure Presentations&lt;/a&gt; Flask web app while writing the
+content for the &lt;a class="reference external" href="https://www.twilio.com/blog/2014/11/choose-your-own-adventure-presentations-with-reveal-js-python-and-websockets.html"&gt;code walkthrough blog post&lt;/a&gt;.&lt;/p&gt;
+&lt;img alt="The simple desk with external monitor I use to work from home" src="/source/static/img/141201-devangel-day/home-desk.jpg" style="width: 100%;" /&gt;
+&lt;p&gt;During the morning hours I often work from the desk in my apartment (shown
+in the picture above) or from a coffee shop such as
+&lt;a class="reference external" href="http://www.busboysandpoets.com/"&gt;Busboys and Poets&lt;/a&gt; or
+&lt;a class="reference external" href="http://compasscoffee.com/"&gt;Compass Coffee&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="am-gym-time"&gt;
+&lt;h3&gt;930am: gym time&lt;/h3&gt;
+&lt;p&gt;I make time to workout every day. Invariably one day per week I'll either
+have a breakfast meeting, need the extra hours or just plain not feel like
+going to the gym. That's the day I skip each week.&lt;/p&gt;
+&lt;p&gt;The Developer Evangelist role can be tough on your body if you don't take
+care of yourself. When you're traveling it can be hard to work out every day.
+That's why I ensure a workout happens just about every day I'm not on the road.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="am-continue-coding-writing"&gt;
+&lt;h3&gt;11am: continue coding &amp;amp; writing&lt;/h3&gt;
+&lt;p&gt;As soon as I get out of the gym I head home and get back on my laptop. I find
+my mind tends to subconsciously chug through coding and writing tasks while
+I'm working out. If I was stuck on a bug or a paragraph earlier in the day I
+find I can often solve the problem immediately after my workout.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="noon-shower-lunch-head-to-coworking-space"&gt;
+&lt;h3&gt;Noon: shower, lunch, head to coworking space&lt;/h3&gt;
+&lt;p&gt;Eventually my day slides into interruption mode. Occasionally it begins with
+a lunch meeting where I need to scoot across town to catch up with someone.
+If I do not have a lunch meeting then I usually grab lunch from
+&lt;a class="reference external" href="http://sweetgreen.com/"&gt;Sweetgreen&lt;/a&gt;,
+&lt;a class="reference external" href="http://www.chipotle.com/en-US/default.aspx?type=default"&gt;Chiptole&lt;/a&gt; [1], or
+&lt;a class="reference external" href="http://sundevich.com/"&gt;SUNdeVICH&lt;/a&gt; and take it to my coworking space.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="afternoon-interruption-activities"&gt;
+&lt;h3&gt;Afternoon: interruption activities&lt;/h3&gt;
+&lt;p&gt;From lunch through the afternoon I have what I call &amp;quot;interruption activities&amp;quot;
+where I bounce from one thing to another. These activities are reading and
+writing emails, phone calls or Google Hangouts, in-person meetings, code
+reviews and generally responding to requests that come in from teammates or
+the external community.&lt;/p&gt;
+&lt;p&gt;During this time I generally work out of my WeWork coworking space in
+&lt;a class="reference external" href="http://en.wikipedia.org/wiki/Shaw,_Washington,_D.C."&gt;Shaw&lt;/a&gt;. You can see
+my typical WeWork hot desk set up in the picture below.&lt;/p&gt;
+&lt;img alt="WeWork coworking space spot" src="/source/static/img/141201-devangel-day/wework.jpg" style="width: 100%;" /&gt;
+&lt;p&gt;Around 2-3pm my mind will often start to wander so I generally take a walk,
+nap or just catch up on tech news via Techmeme or Hacker News to catch a
+breather. Then I'll get back to the interruption activities and get prepped
+for any evening events I have on the calendar.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="evening-tech-meetups"&gt;
+&lt;h3&gt;Evening: tech meetups&lt;/h3&gt;
+&lt;p&gt;When I'm in DC I generally attend 1-3 tech meetups a week. Meetups are
+clustered on Wednesday and Thursday nights although there's a few good ones
+on Monday and Tuesday evenings as well.&lt;/p&gt;
+&lt;img alt="DC Hack And Tell meetup picture from December 8, 2014" src="/source/static/img/141201-devangel-day/dc-hack-and-tell.jpg" style="width: 100%;" /&gt;
+&lt;p&gt;I attend a range of tech meetups but my favorites throughout 2014 were
+&lt;a class="reference external" href="http://dc.hackandtell.org/"&gt;DC Hack And Tell&lt;/a&gt; (shown above),
+&lt;a class="reference external" href="http://www.meetup.com/DC-Web-API-User-Group/"&gt;DC Web API Group&lt;/a&gt;
+and &lt;a class="reference external" href="http://www.meetup.com/DC-continuous-delivery/"&gt;DC Continuous Delivery&lt;/a&gt;
+(I'm the co-organizer of this group so I work to make it enjoyable). The best
+DC tech meetups focus on software development and less on entrepreneurship
+topics so I prefer to attend meetup like Django District over a &amp;quot;startup-ey&amp;quot;
+drinking event.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="life-happens"&gt;
+&lt;h2&gt;Life Happens&lt;/h2&gt;
+&lt;p&gt;That's a peek into my average non-travel day. I accommodate unscheduled
+events, calls, meetings, doctor's appointments and errands as they come up
+but try to stick to this formula as closely as possible. The rigid calendar
+creates normalcy in what could otherwise be a very unstructured lifestyle.&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;[1] burrito bowl, veges, double chicken, pico de gallo, medium salsa,
+lettuce, guac on the side, no rice, beans, cheese, sour cream or corn&lt;/p&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Brain Boosting</title><link href="http://www.letshackdc.com/brain-boosting.html" rel="alternate"></link><updated>2014-12-01T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-12-01:brain-boosting.html</id><summary type="html">&lt;p&gt;In college, I was never one to take adderal or ritalin to cram all night before
 an exam. That no-sleep study route sounded miserable to me. I was the
 unusual student who slowly and steadily worked every single day in the
 library towards inevitable midterms and finals. Nevertheless, increasing
