@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/post.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2014-12-06T00:00:00-05:00</updated><entry><title>My Typical Day As A Developer Evangelist</title><link href="http://www.letshackdc.com/typical-day-as-developer-evangelist.html" rel="alternate"></link><updated>2014-12-06T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-12-06:typical-day-as-developer-evangelist.html</id><summary type="html">&lt;p&gt;&amp;quot;&lt;em&gt;What is a typical day like?&lt;/em&gt;&amp;quot; is one of the most common questions I receieve about my gig as a
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/post.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2014-12-06T00:00:00-05:00</updated><entry><title>My Typical Day As A Developer Evangelist</title><link href="http://www.letshackdc.com/typical-day-as-developer-evangelist.html" rel="alternate"></link><updated>2014-12-06T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-12-06:typical-day-as-developer-evangelist.html</id><summary type="html">&lt;p&gt;&amp;quot;&lt;em&gt;What is a typical day like?&lt;/em&gt;&amp;quot; is one of the most common questions I receive
+about my gig as a
 &lt;a class="reference external" href="https://www.twilio.com/blog/2014/02/introducing-developer-evangelist-matt-makai.html"&gt;Twilio Developer Evangelist&lt;/a&gt;. This blog post explains how I schedule
-my non-travel days in the Developer Evangelist role.&lt;/p&gt;
+my when I'm in Washington, D.C. on work days.&lt;/p&gt;
 &lt;div class="section" id="daily-structure"&gt;
 &lt;h2&gt;Daily Structure&lt;/h2&gt;
 &lt;p&gt;Throughout the past year on the Twilio crew I've learned that my
@@ -96,6 +97,40 @@ creates normalcy in what could otherwise be a very unstructured lifestyle.&lt;/p
 &lt;hr class="docutils" /&gt;
 &lt;p&gt;[1] burrito bowl, veges, double chicken, pico de gallo, medium salsa,
 lettuce, guac on the side, no rice, beans, cheese, sour cream or corn&lt;/p&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>Women Who Code DC Workshop</title><link href="http://www.letshackdc.com/women-who-code-dc-workshop.html" rel="alternate"></link><updated>2014-12-05T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-12-05:women-who-code-dc-workshop.html</id><summary type="html">&lt;p&gt;Hello and welcome to the
+&lt;a class="reference external" href="http://www.meetup.com/Women-Who-Code-DC/events/219004596/"&gt;Women Who Code DC Twilio API workshop&lt;/a&gt;
+for the 2014 Hour of Code week! In this workshop we're going to learn how
+to send and receive text messages (SMS), multimedia messages (MMS) and voice
+calls to any phone number through the Twilio
+&lt;a class="reference external" href="https://www.twilio.com/api"&gt;web API&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="section" id="obtaining-a-twilio-account"&gt;
+&lt;h2&gt;Obtaining a Twilio account&lt;/h2&gt;
+&lt;p&gt;Head to &lt;a class="reference external" href="https://www.twilio.com/try-twilio"&gt;Twilio&lt;/a&gt; and sign up for a free
+account. After going obtaining a Twilio number, upgrade your account so you
+can send SMS, MMS and voice calls to any phone number. Use the &amp;quot;I have a promo
+code&amp;quot; link on the upgrade screen and enter the promo code given during the
+workshop to get free credit on your account.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="sending-your-first-sms-mms"&gt;
+&lt;h2&gt;Sending Your First SMS &amp;amp; MMS&lt;/h2&gt;
+&lt;p&gt;Get your Python environment set up with a new virtualenv. You'll need to
+install the
+&lt;a class="reference external" href="https://www.twilio.com/docs/python/install"&gt;Twilio helper library&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+pip install twilio&lt;/blockquote&gt;
+&lt;p&gt;Then set the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN
+&lt;a class="reference external" href="https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-a-linux-vps"&gt;environment variables&lt;/a&gt;
+before firing up the Python REPL.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="ngrok"&gt;
+&lt;h2&gt;Ngrok&lt;/h2&gt;
+&lt;p&gt;We'll be using &lt;a class="reference external" href="https://ngrok.com/"&gt;Ngrok&lt;/a&gt; to create a localhost tunnel
+so the &lt;a class="reference external" href="https://www.twilio.com/docs/api/twiml"&gt;TwiML&lt;/a&gt; files can be read
+from the local filesystem.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="making-voice-calls"&gt;
+&lt;h2&gt;Making Voice Calls&lt;/h2&gt;
 &lt;/div&gt;
 </summary></entry><entry><title>Brain Boosting</title><link href="http://www.letshackdc.com/brain-boosting.html" rel="alternate"></link><updated>2014-12-01T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-12-01:brain-boosting.html</id><summary type="html">&lt;p&gt;In college, I was never one to take adderal or ritalin to cram all night before
 an exam. That no-sleep study route sounded miserable to me. I was the
