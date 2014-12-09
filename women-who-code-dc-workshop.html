@@ -118,11 +118,9 @@ export TWILIO_AUTH_TOKEN='my auth token from Twilio dashboard'
 code:</p>
 <pre class="code literal-block">
 from twilio.rest import TwilioRestClient
-
 client = TwilioRestClient()
 
 # next put your cell phone for the &quot;to&quot; and your twilio number for &quot;from\_&quot;
-
 client.messages.create(to=&quot;+12025551234&quot;, from_=&quot;+12025553456&quot;,
                        body=&quot;Hello world!&quot;)
 </pre>

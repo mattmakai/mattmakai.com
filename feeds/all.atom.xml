@@ -94,6 +94,12 @@ drinking event.&lt;/p&gt;
 events, calls, meetings, doctor's appointments and errands as they come up
 but try to stick to this formula as closely as possible. The rigid calendar
 creates normalcy in what could otherwise be a very unstructured lifestyle.&lt;/p&gt;
+&lt;p&gt;For more information on life as a Developer Evangelist, check out these
+fine posts:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://carter.rabasa.com/2012/07/17/how-to-balance-hustling-and-family/"&gt;How to Balance Family and Hustling&lt;/a&gt; by Carter Rebasa&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://thenextweb.com/dd/2012/06/03/a-day-in-the-life-of-a-developer-evangelist/"&gt;A Day in the Life of a Developer Evangelist&lt;/a&gt; on The Next Web&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr class="docutils" /&gt;
 &lt;p&gt;[1] burrito bowl, veges, double chicken, pico de gallo, medium salsa,
 lettuce, guac on the side, no rice, beans, cheese, sour cream or corn&lt;/p&gt;
@@ -134,11 +140,9 @@ export TWILIO_AUTH_TOKEN='my auth token from Twilio dashboard'
 code:&lt;/p&gt;
 &lt;pre class="code literal-block"&gt;
 from twilio.rest import TwilioRestClient
-
 client = TwilioRestClient()
 
 # next put your cell phone for the &amp;quot;to&amp;quot; and your twilio number for &amp;quot;from\_&amp;quot;
-
 client.messages.create(to=&amp;quot;+12025551234&amp;quot;, from_=&amp;quot;+12025553456&amp;quot;,
                        body=&amp;quot;Hello world!&amp;quot;)
 &lt;/pre&gt;
