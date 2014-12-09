@@ -88,8 +88,8 @@ for the 2014 Hour of Code week! In this workshop we're going to learn how
 to send and receive text messages (SMS), multimedia messages (MMS) and voice
 calls to any phone number through the Twilio
 <a class="reference external" href="https://www.twilio.com/api">web API</a>.</p>
-<div class="section" id="obtaining-a-twilio-account">
-<h2>Obtaining a Twilio account</h2>
+<div class="section" id="hellooooo-twiliooooo">
+<h2>Hellooooo Twiliooooo!</h2>
 <p>Head to <a class="reference external" href="https://www.twilio.com/try-twilio">Twilio</a> and sign up for a free
 account. After going obtaining a Twilio number, upgrade your account so you
 can send SMS, MMS and voice calls to any phone number. Use the &quot;I have a promo
@@ -98,23 +98,114 @@ workshop to get free credit on your account.</p>
 </div>
 <div class="section" id="sending-your-first-sms-mms">
 <h2>Sending Your First SMS &amp; MMS</h2>
-<p>Get your Python environment set up with a new virtualenv. You'll need to
-install the
+<p>Get your Python environment set up with a new virtualenv. Note that if you
+don't have a Python environment ready to go you can use
+<a class="reference external" href="https://www.nitrous.io/">Nitrous.io</a> to do all these tasks in the browser.
+With your environment and new virtualenv, install the
 <a class="reference external" href="https://www.twilio.com/docs/python/install">Twilio helper library</a>:</p>
-<blockquote>
-pip install twilio</blockquote>
-<p>Then set the TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN
+<pre class="code literal-block">
+pip install twilio
+</pre>
+<p>Then set the <tt class="docutils literal">TWILIO_ACCOUNT_SID</tt> and <tt class="docutils literal">TWILIO_AUTH_TOKEN</tt>
 <a class="reference external" href="https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-a-linux-vps">environment variables</a>
-before firing up the Python REPL.</p>
+before firing up the Python REPL. On Mac OS X or Linux you can set environment
+variables using the following commands:</p>
+<pre class="code literal-block">
+export TWILIO_ACCOUNT_SID='my account sid from `Twilio dashboard &lt;https://www.twilio.com/user/account/voice-messaging&gt;`_'
+export TWILIO_AUTH_TOKEN='my auth token from Twilio dashboard'
+</pre>
+<p>Now you should be able to fire up the Python REPL and enter the following
+code:</p>
+<pre class="code literal-block">
+from twilio.rest import TwilioRestClient
+
+client = TwilioRestClient()
+
+# next put your cell phone for the &quot;to&quot; and your twilio number for &quot;from\_&quot;
+
+client.messages.create(to=&quot;+12025551234&quot;, from_=&quot;+12025553456&quot;,
+body=&quot;Hello world!&quot;)
+</pre>
+<p>You should get a text message to your cell phone! Next up let's add an image
+of Grace Hopper with an early computer to your next message.</p>
+<pre class="code literal-block">
+# again replace the numbers on the next line with your numbers
+client.messages.create(to=&quot;+12025551234&quot;, from_=&quot;+12025553456&quot;,
+    body=&quot;Grace Hopper!&quot;,
+    media_url=&quot;http://www.nww2m.com/wp-content/uploads/2013/10/hopper-large.jpg&quot;)
+</pre>
+<p>If you got the MMS then awesome! If not, call me or one of the mentors over
+and we'll help you get there. Once you've done the SMS &amp; MMS then it's time
+to make a voice call.</p>
 </div>
-<div class="section" id="ngrok">
-<h2>Ngrok</h2>
+<div class="section" id="tunneling-with-ngrok">
+<h2>Tunneling with Ngrok</h2>
 <p>We'll be using <a class="reference external" href="https://ngrok.com/">Ngrok</a> to create a localhost tunnel
 so the <a class="reference external" href="https://www.twilio.com/docs/api/twiml">TwiML</a> files can be read
-from the local filesystem.</p>
+from the local filesystem.
+<a class="reference external" href="https://ngrok.com/user/signup">Sign up for a free ngrok account</a> and
+<a class="reference external" href="https://ngrok.com/download">download the software</a>. Fire it up by
+going to the directory where you downloaded it and running this command:</p>
+<pre class="code literal-block">
+./ngrok 5000
+</pre>
+<p>That will create a tunnel to your port 5000 where you'll be running the
+local web server or Flask web application.</p>
 </div>
 <div class="section" id="making-voice-calls">
 <h2>Making Voice Calls</h2>
+<p>Create a file named &quot;voice.xml&quot; and put the following content in it:</p>
+<pre class="code literal-block">
+&lt;Response&gt;
+    &lt;Say voice=&quot;alice&quot; language=&quot;en-GB&quot;&gt;Hello world! Thanks for making a voice call with Twilio.&lt;/Say&gt;
+&lt;/Response&gt;
+</pre>
+<p>Save the file and run the following command in that directory:</p>
+<pre class="code literal-block">
+python -m SimpleHTTPServer 5000
+</pre>
+<p>Now in the Python interpreter let's make a voice call:</p>
+<pre class="code literal-block">
+from twilio.rest import TwilioRestClient
+
+client = TwilioRestClient()
+
+# next put your cell phone for the &quot;to&quot; and your twilio number for &quot;from\_&quot;
+# replace the url with your ngrok url plus voice.xml
+
+client.calls.create(to=&quot;+12025551234&quot;, from_=&quot;+12025553456&quot;,
+url=&quot;https://6e351c5f.ngrok.com/voice.xml&quot;)
+</pre>
+<p>You should now get a call on your phone and the automated &quot;alice&quot; voice will
+read off whatever text you typed in. After the voice call is done you can
+CTRL-C out of the SimpleHTTPServer since we'll need that port for the next
+tutorial.</p>
+</div>
+<div class="section" id="mustachin-selfies-with-mms">
+<h2>Mustachin' Selfies with MMS</h2>
+<p>Now that we've got the basics of the API out of the way, let's use it for a
+real practical purpose. That is, adding mustaches to selfies. Test out the
+app we're going to build by taking a selfie with your cell phone camera and
+sending it to:</p>
+<pre class="code literal-block">
+(202) 759-2423
+</pre>
+<p>Once you get your selfie back go ahead and check out the tutorial for building
+your own
+<a class="reference external" href="https://www.twilio.com/blog/2014/09/how-to-build-a-mustached-message-service-with-twilio-mms-and-python.html">selfie mustacher with Flask</a>. When you
+run into trouble be sure to flag down a mentor and we'll get it sorted out.</p>
+<p>After the mustachifier is working move on to the final tutorial for creating
+real-time Choose Your Own Adventure Presentations.</p>
+</div>
+<div class="section" id="choose-your-own-adventure-presentations-with-sms">
+<h2>Choose Your Own Adventure Presentations with SMS</h2>
+<p>One more advanced tutorial for those of you who finish early with the
+mustacher. Give this
+<a class="reference external" href="https://www.twilio.com/blog/2014/11/choose-your-own-adventure-presentations-with-reveal-js-python-and-websockets.html">Choose Your Own Adventure Presentations tutorial</a>
+a try even if you don't have time to finish this service as you can always
+go back to the post or the
+<a class="reference external" href="https://github.com/makaimc/choose-your-own-adventure-presentations">companion GitHub repository</a>
+to polish it off on your own time.</p>
 </div>
 
 
