@@ -79,9 +79,9 @@ Afternoon: interruption activities
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 From lunch through the afternoon I have what I call "interruption activities"
 where I bounce from one thing to another. These activities are reading and 
-writing emails, phone calls or Google Hangouts, in-person meetings, code 
-reviews and generally responding to requests that come in from teammates or
-the external community.
+writing emails, phone calls, Google Hangouts, in-person meetings, code 
+reviews and generally responding to requests that come in from teammates and
+the external tech community.
 
 During this time I generally work out of my WeWork coworking space in 
 `Shaw <http://en.wikipedia.org/wiki/Shaw,_Washington,_D.C.>`_. You can see
