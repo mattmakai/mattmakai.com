@@ -38,13 +38,15 @@ With your environment and new virtualenv, install the
 
 Then set the ``TWILIO_ACCOUNT_SID`` and ``TWILIO_AUTH_TOKEN`` 
 `environment variables <https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-a-linux-vps>`_
-before firing up the Python REPL. On Mac OS X or Linux you can set environment
-variables using the following commands:
+before firing up the Python REPL. These variables can be found on the 
+`Twilio account dashboard <https://www.twilio.com/user/account/voice-messaging>`_. 
+On Mac OS X or Linux you can set environment variables using the following 
+commands:
 
 .. code::
 
-    export TWILIO_ACCOUNT_SID='my account sid from `Twilio dashboard <https://www.twilio.com/user/account/voice-messaging>`_'
-    export TWILIO_AUTH_TOKEN='my auth token from Twilio dashboard'
+    export TWILIO_ACCOUNT_SID='my account sid'
+    export TWILIO_AUTH_TOKEN='my auth token'
 
 Now you should be able to fire up the Python REPL and enter the following
 code:

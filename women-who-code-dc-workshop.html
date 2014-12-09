@@ -108,11 +108,13 @@ pip install twilio
 </pre>
 <p>Then set the <tt class="docutils literal">TWILIO_ACCOUNT_SID</tt> and <tt class="docutils literal">TWILIO_AUTH_TOKEN</tt>
 <a class="reference external" href="https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-a-linux-vps">environment variables</a>
-before firing up the Python REPL. On Mac OS X or Linux you can set environment
-variables using the following commands:</p>
+before firing up the Python REPL. These variables can be found on the
+<a class="reference external" href="https://www.twilio.com/user/account/voice-messaging">Twilio account dashboard</a>.
+On Mac OS X or Linux you can set environment variables using the following
+commands:</p>
 <pre class="code literal-block">
-export TWILIO_ACCOUNT_SID='my account sid from `Twilio dashboard &lt;https://www.twilio.com/user/account/voice-messaging&gt;`_'
-export TWILIO_AUTH_TOKEN='my auth token from Twilio dashboard'
+export TWILIO_ACCOUNT_SID='my account sid'
+export TWILIO_AUTH_TOKEN='my auth token'
 </pre>
 <p>Now you should be able to fire up the Python REPL and enter the following
 code:</p>
