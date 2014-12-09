@@ -127,10 +127,11 @@ creates normalcy in what could otherwise be a very unstructured lifestyle.
 For more information on life as a Developer Evangelist, check out these
 fine posts:
 
-* `How to Balance Family and Hustling <http://carter.rabasa.com/2012/07/17/how-to-balance-hustling-and-family/>`_ by Carter Rebasa
+* `How to Balance Family and Hustling <http://carter.rabasa.com/2012/07/17/how-to-balance-hustling-and-family/>`_ by `Carter Rebasa <https://twitter.com/crtr0>`_
 
 * `A Day in the Life of a Developer Evangelist <http://thenextweb.com/dd/2012/06/03/a-day-in-the-life-of-a-developer-evangelist/>`_ on The Next Web
 
+* `My Experience As A New Developer Evangelist <http://www.rdegges.com/my-experience-as-a-new-developer-evangelist/>`_ by `Randall Degges <https://twitter.com/rdegges>`_
 
 ----
 
