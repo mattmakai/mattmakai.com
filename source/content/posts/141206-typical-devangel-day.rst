@@ -8,7 +8,7 @@ My Typical Day As A Developer Evangelist
 "*What is a typical day like?*" is one of the most common questions I receive 
 about my gig as a 
 `Twilio Developer Evangelist <https://www.twilio.com/blog/2014/02/introducing-developer-evangelist-matt-makai.html>`_. This blog post explains how I schedule
-my when I'm in Washington, D.C. on work days.
+my calendar when I'm in Washington, D.C. on work days.
 
 Daily Structure
 ---------------
