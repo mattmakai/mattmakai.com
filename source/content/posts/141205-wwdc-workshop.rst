@@ -56,7 +56,7 @@ code:
     from twilio.rest import TwilioRestClient
     client = TwilioRestClient()
 
-    # next put your cell phone for the "to" and your twilio number for "from\_"
+    # next put your cell phone for the to and your twilio number for from
     client.messages.create(to="+12025551234", from_="+12025553456", 
                            body="Hello world!")
 

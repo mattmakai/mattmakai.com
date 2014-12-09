@@ -145,7 +145,7 @@ code:&lt;/p&gt;
 from twilio.rest import TwilioRestClient
 client = TwilioRestClient()
 
-# next put your cell phone for the &amp;quot;to&amp;quot; and your twilio number for &amp;quot;from\_&amp;quot;
+# next put your cell phone for the to and your twilio number for from
 client.messages.create(to=&amp;quot;+12025551234&amp;quot;, from_=&amp;quot;+12025553456&amp;quot;,
                        body=&amp;quot;Hello world!&amp;quot;)
 &lt;/pre&gt;
