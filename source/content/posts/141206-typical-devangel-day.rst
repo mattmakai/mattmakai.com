@@ -129,12 +129,12 @@ pictured below.
   :class: space-me
 
 
-I attend a range of tech meetups but my top three favorites throughout 2014 
+I attend a range of tech meetups but my three favorites throughout 2014 
 were:
 
 * `DC Web API Group <http://www.meetup.com/DC-Web-API-User-Group/>`_ where
   technical and non-technical folks coexist peacefully and learn from each 
-  other
+  other (yes, seriously it's an amazing event)
 
 * `DC Continuous Delivery <http://www.meetup.com/DC-continuous-delivery/>`_
   for covering a range of practical DevOps topics (I'm also the co-organizer 
