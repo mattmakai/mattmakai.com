@@ -14,8 +14,7 @@ Daily Structure
 ---------------
 Throughout the past year on the Twilio crew I've learned that my 
 secret to keeping happy and productive is to impose regular structure on my
-days. Here's how my typical non-traveling weekdays (and many Saturdays) are
-set up.
+days. Here's how my typical non-traveling weekdays are set up.
 
 
 730-am(-ish): wake up, write & code
