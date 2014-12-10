@@ -6216,3 +6216,7 @@ h2.after-entry-title {
 .more-margin {
     margin-top: 30px;
 }
+.space-me {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

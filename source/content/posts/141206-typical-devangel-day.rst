@@ -90,6 +90,7 @@ my typical WeWork hot desk set up in the picture below.
 .. image:: /source/static/img/141201-devangel-day/wework.jpg
   :alt: WeWork coworking space spot
   :width: 100%
+  :class: space-me
 
 Around 2-3pm my mind will often start to wander so I generally take a walk,
 nap or just catch up on tech news via Techmeme or Hacker News to catch a 
@@ -99,22 +100,58 @@ for any evening events I have on the calendar.
 
 Evening: tech meetups
 ~~~~~~~~~~~~~~~~~~~~~
-When I'm in DC I generally attend 1-3 tech meetups a week. Meetups are 
+When I'm in D.C. I generally attend 1-3 tech meetups a week. Meetups are 
 clustered on Wednesday and Thursday nights although there's a few good ones
 on Monday and Tuesday evenings as well.
+
+Attending meetups isn't about just sitting around listening to a presenter.
+You get out of events what effort you put in. I'm fortunate to have many 
+great friends in the D.C. tech community. Meetups are a vehicle for catch 
+up with them on their latest work and open source projects, learn how I can 
+help them out and discuss programming resources.
+
+I'll often help meetup organizers find space to host their events and 
+sponsor food via Twilio. I often perform short live coding demos with 
+Twilio that are relevant to the audience. For example, at a DevOps-focused 
+meetup I'll show off text messsage notifications from an Ansible playbook 
+using the `Twilio module <http://docs.ansible.com/twilio_module.html>`_. Other 
+times I'll speak on a programming topic or give a workshop like the one for 
+`Women Who Code DC <http://www.meetup.com/Women-Who-Code-DC/events/219004596/>`_
+pictured below.
+
+.. image:: /source/static/img/141201-devangel-day/wwdc.jpg
+  :alt: Twilio workshop at Women Who Code DC
+  :width: 100%
+  :class: space-me
+
+
+I attend a range of tech meetups but my top three favorites throughout 2014 
+were:
+
+* `DC Web API Group <http://www.meetup.com/DC-Web-API-User-Group/>`_ where
+  technical and non-technical folks coexist peacefully and learn from each 
+  other
+
+* `DC Continuous Delivery <http://www.meetup.com/DC-continuous-delivery/>`_
+  for covering a range of practical DevOps topics (I'm also the co-organizer 
+  of this group )
+
+* `DC Hack And Tell <http://dc.hackandtell.org/>`_ for its constant stream
+  of fascinating software and hardware hacks
+  (shown below is `Travis Hoppe <http://thoppe.github.io/>`_ presenting at 
+  the December meetup)
+
 
 .. image:: /source/static/img/141201-devangel-day/dc-hack-and-tell.jpg
   :alt: DC Hack And Tell meetup picture from December 8, 2014
   :width: 100%
+  :class: space-me
 
-I attend a range of tech meetups but my favorites throughout 2014 were 
-`DC Hack And Tell <http://dc.hackandtell.org/>`_ (shown above),
-`DC Web API Group <http://www.meetup.com/DC-Web-API-User-Group/>`_
-and `DC Continuous Delivery <http://www.meetup.com/DC-continuous-delivery/>`_
-(I'm the co-organizer of this group so I work to make it enjoyable). The best 
-DC tech meetups focus on software development and less on entrepreneurship 
-topics so I prefer to attend meetup like Django District over a "startup-ey" 
-drinking event.
+
+Over time I've found that the worthwhile tech community events in D.C. 
+focus more on software development and less on entrepreneurship topics. 
+Therefore I prefer to attend meetup centered on programming languages, 
+frameworks and software development topics over "startup-ish" drinking events.
 
 
 Life Happens
@@ -136,4 +173,4 @@ fine posts:
 ----
 
 [1] burrito bowl, veges, double chicken, pico de gallo, medium salsa, 
-lettuce, guac on the side, no rice, beans, cheese, sour cream or corn
+lettuce, guac on the side, no rice, beans, cheese, sour cream or corn :)
