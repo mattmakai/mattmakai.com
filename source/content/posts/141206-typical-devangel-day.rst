@@ -83,9 +83,9 @@ writing emails, phone calls, Google Hangouts, in-person meetings, code
 reviews and generally responding to requests that come in from teammates and
 the external tech community.
 
-During this time I generally work out of my WeWork coworking space in 
-`Shaw <http://en.wikipedia.org/wiki/Shaw,_Washington,_D.C.>`_. You can see
-my typical WeWork hot desk set up in the picture below.
+During this time I work out of my WeWork coworking space in the
+`Shaw neighborhood of the District <http://en.wikipedia.org/wiki/Shaw,_Washington,_D.C.>`_. 
+You can see my typical WeWork hot desk set up in the picture below.
 
 .. image:: /source/static/img/141201-devangel-day/wework.jpg
   :alt: WeWork coworking space spot
