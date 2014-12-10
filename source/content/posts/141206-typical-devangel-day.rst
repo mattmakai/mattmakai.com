@@ -48,7 +48,7 @@ in the picture above) or from a coffee shop such as
 
 930am: gym time
 ~~~~~~~~~~~~~~~
-I make time to workout every day. Invariably one day per week I'll either
+I make time to workout every day. Invariably one day per week I will 
 have a breakfast meeting, need the extra hours or just plain not feel like
 going to the gym. That's the day I skip each week.
 
