@@ -38,6 +38,7 @@ content for the `code walkthrough blog post <https://www.twilio.com/blog/2014/11
 .. image:: /source/static/img/141201-devangel-day/home-desk.jpg
   :alt: The simple desk with external monitor I use to work from home
   :width: 100%
+  :class: space-me
 
 During the morning hours I often work from the desk in my apartment (shown
 in the picture above) or from a coffee shop such as 

@@ -24,7 +24,7 @@ so writing and coding tasks often overlap.
 For example, I programmed the
 &lt;a class="reference external" href="https://github.com/makaimc/choose-your-own-adventure-presentations"&gt;Choose Your Own Adventure Presentations&lt;/a&gt; Flask web app while writing the
 content for the &lt;a class="reference external" href="https://www.twilio.com/blog/2014/11/choose-your-own-adventure-presentations-with-reveal-js-python-and-websockets.html"&gt;code walkthrough blog post&lt;/a&gt;.&lt;/p&gt;
-&lt;img alt="The simple desk with external monitor I use to work from home" src="/source/static/img/141201-devangel-day/home-desk.jpg" style="width: 100%;" /&gt;
+&lt;img alt="The simple desk with external monitor I use to work from home" class="space-me" src="/source/static/img/141201-devangel-day/home-desk.jpg" style="width: 100%;" /&gt;
 &lt;p&gt;During the morning hours I often work from the desk in my apartment (shown
 in the picture above) or from a coffee shop such as
 &lt;a class="reference external" href="http://www.busboysandpoets.com/"&gt;Busboys and Poets&lt;/a&gt; or
