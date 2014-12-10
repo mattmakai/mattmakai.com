@@ -83,7 +83,7 @@ writing emails, phone calls, Google Hangouts, in-person meetings, code
 reviews and generally responding to requests that come in from teammates and
 the external tech community.
 
-During this time I work out of my WeWork coworking space in the
+During the afternoon I work out of my WeWork coworking space in the
 `Shaw neighborhood of the District <http://en.wikipedia.org/wiki/Shaw,_Washington,_D.C.>`_. 
 You can see my typical WeWork hot desk set up in the picture below.
 
@@ -92,30 +92,34 @@ You can see my typical WeWork hot desk set up in the picture below.
   :width: 100%
   :class: space-me
 
-Around 2-3pm my mind will often start to wander so I generally take a walk,
-nap or just catch up on tech news via Techmeme or Hacker News to catch a 
-breather. Then I'll get back to the interruption activities and get prepped
-for any evening events I have on the calendar.
+Around 2-3pm my mind will often start to wander so I take a walk, catch a 
+quick nap or read up on (mostly mindless) tech news via Techmeme or Hacker 
+News to catch a breather. Then I'll get back to the interruption activities 
+and get prepped for any evening events I have on the calendar.
 
 
 Evening: tech meetups
 ~~~~~~~~~~~~~~~~~~~~~
-When I'm in D.C. I generally attend 1-3 tech meetups a week. Meetups are 
-clustered on Wednesday and Thursday nights although there's a few good ones
+When I'm in D.C. I attend on average 1-3 tech meetups a week. Meetups are 
+clustered on Wednesday and Thursday nights although there are a few good ones
 on Monday and Tuesday evenings as well.
 
 Attending meetups isn't about just sitting around listening to a presenter.
-You get out of events what effort you put in. I'm fortunate to have many 
-great friends in the D.C. tech community. Meetups are a vehicle for catch 
-up with them on their latest work and open source projects, learn how I can 
-help them out and discuss programming resources.
+You get out of events what effort you put in. It's important to engage with
+your peers and learn more about what they're working on. I'm fortunate to 
+have many great friends in the D.C. tech community who I've come to know 
+through these tech events. Meetups are a fun way for me to catch up with them 
+on their latest work and open source projects, learn how I can help them out 
+and discuss programming resources.
 
 I'll often help meetup organizers find space to host their events and 
-sponsor food via Twilio. I often perform short live coding demos with 
-Twilio that are relevant to the audience. For example, at a DevOps-focused 
-meetup I'll show off text messsage notifications from an Ansible playbook 
+sponsor food via Twilio funds. I occasionally perform short live coding 
+demos with Twilio that are relevant to the audience. For example, at a 
+DevOps-focused meetup I'll show off text messsage notifications from an 
+`Ansible <http://www.ansible.com/home>`_ playbook 
 using the `Twilio module <http://docs.ansible.com/twilio_module.html>`_. Other 
-times I'll speak on a programming topic or give a workshop like the one for 
+times I'll speak on a programming topic or give a coding workshop like the 
+one for 
 `Women Who Code DC <http://www.meetup.com/Women-Who-Code-DC/events/219004596/>`_
 pictured below.
 
@@ -134,7 +138,7 @@ were:
 
 * `DC Continuous Delivery <http://www.meetup.com/DC-continuous-delivery/>`_
   for covering a range of practical DevOps topics (I'm also the co-organizer 
-  of this group )
+  of this group)
 
 * `DC Hack And Tell <http://dc.hackandtell.org/>`_ for its constant stream
   of fascinating software and hardware hacks
@@ -154,8 +158,8 @@ Therefore I prefer to attend meetup centered on programming languages,
 frameworks and software development topics over "startup-ish" drinking events.
 
 
-Life Happens
-------------
+Ad hoc Activities
+-----------------
 That's a peek into my average non-travel day. I accommodate unscheduled 
 events, calls, meetings, doctor's appointments and errands as they come up
 but try to stick to this formula as closely as possible. The rigid calendar

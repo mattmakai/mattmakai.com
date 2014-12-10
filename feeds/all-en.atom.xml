@@ -63,31 +63,35 @@ where I bounce from one thing to another. These activities are reading and
 writing emails, phone calls, Google Hangouts, in-person meetings, code
 reviews and generally responding to requests that come in from teammates and
 the external tech community.&lt;/p&gt;
-&lt;p&gt;During this time I work out of my WeWork coworking space in the
+&lt;p&gt;During the afternoon I work out of my WeWork coworking space in the
 &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Shaw,_Washington,_D.C."&gt;Shaw neighborhood of the District&lt;/a&gt;.
 You can see my typical WeWork hot desk set up in the picture below.&lt;/p&gt;
 &lt;img alt="WeWork coworking space spot" class="space-me" src="/source/static/img/141201-devangel-day/wework.jpg" style="width: 100%;" /&gt;
-&lt;p&gt;Around 2-3pm my mind will often start to wander so I generally take a walk,
-nap or just catch up on tech news via Techmeme or Hacker News to catch a
-breather. Then I'll get back to the interruption activities and get prepped
-for any evening events I have on the calendar.&lt;/p&gt;
+&lt;p&gt;Around 2-3pm my mind will often start to wander so I take a walk, catch a
+quick nap or read up on (mostly mindless) tech news via Techmeme or Hacker
+News to catch a breather. Then I'll get back to the interruption activities
+and get prepped for any evening events I have on the calendar.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="evening-tech-meetups"&gt;
 &lt;h3&gt;Evening: tech meetups&lt;/h3&gt;
-&lt;p&gt;When I'm in D.C. I generally attend 1-3 tech meetups a week. Meetups are
-clustered on Wednesday and Thursday nights although there's a few good ones
+&lt;p&gt;When I'm in D.C. I attend on average 1-3 tech meetups a week. Meetups are
+clustered on Wednesday and Thursday nights although there are a few good ones
 on Monday and Tuesday evenings as well.&lt;/p&gt;
 &lt;p&gt;Attending meetups isn't about just sitting around listening to a presenter.
-You get out of events what effort you put in. I'm fortunate to have many
-great friends in the D.C. tech community. Meetups are a vehicle for catch
-up with them on their latest work and open source projects, learn how I can
-help them out and discuss programming resources.&lt;/p&gt;
+You get out of events what effort you put in. It's important to engage with
+your peers and learn more about what they're working on. I'm fortunate to
+have many great friends in the D.C. tech community who I've come to know
+through these tech events. Meetups are a fun way for me to catch up with them
+on their latest work and open source projects, learn how I can help them out
+and discuss programming resources.&lt;/p&gt;
 &lt;p&gt;I'll often help meetup organizers find space to host their events and
-sponsor food via Twilio. I often perform short live coding demos with
-Twilio that are relevant to the audience. For example, at a DevOps-focused
-meetup I'll show off text messsage notifications from an Ansible playbook
+sponsor food via Twilio funds. I occasionally perform short live coding
+demos with Twilio that are relevant to the audience. For example, at a
+DevOps-focused meetup I'll show off text messsage notifications from an
+&lt;a class="reference external" href="http://www.ansible.com/home"&gt;Ansible&lt;/a&gt; playbook
 using the &lt;a class="reference external" href="http://docs.ansible.com/twilio_module.html"&gt;Twilio module&lt;/a&gt;. Other
-times I'll speak on a programming topic or give a workshop like the one for
+times I'll speak on a programming topic or give a coding workshop like the
+one for
 &lt;a class="reference external" href="http://www.meetup.com/Women-Who-Code-DC/events/219004596/"&gt;Women Who Code DC&lt;/a&gt;
 pictured below.&lt;/p&gt;
 &lt;img alt="Twilio workshop at Women Who Code DC" class="space-me" src="/source/static/img/141201-devangel-day/wwdc.jpg" style="width: 100%;" /&gt;
@@ -99,7 +103,7 @@ technical and non-technical folks coexist peacefully and learn from each
 other&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://www.meetup.com/DC-continuous-delivery/"&gt;DC Continuous Delivery&lt;/a&gt;
 for covering a range of practical DevOps topics (I'm also the co-organizer
-of this group )&lt;/li&gt;
+of this group)&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://dc.hackandtell.org/"&gt;DC Hack And Tell&lt;/a&gt; for its constant stream
 of fascinating software and hardware hacks
 (shown below is &lt;a class="reference external" href="http://thoppe.github.io/"&gt;Travis Hoppe&lt;/a&gt; presenting at
@@ -112,8 +116,8 @@ Therefore I prefer to attend meetup centered on programming languages,
 frameworks and software development topics over &amp;quot;startup-ish&amp;quot; drinking events.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="section" id="life-happens"&gt;
-&lt;h2&gt;Life Happens&lt;/h2&gt;
+&lt;div class="section" id="ad-hoc-activities"&gt;
+&lt;h2&gt;Ad hoc Activities&lt;/h2&gt;
 &lt;p&gt;That's a peek into my average non-travel day. I accommodate unscheduled
 events, calls, meetings, doctor's appointments and errands as they come up
 but try to stick to this formula as closely as possible. The rigid calendar
