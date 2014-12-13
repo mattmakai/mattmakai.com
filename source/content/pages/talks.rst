@@ -7,9 +7,16 @@ Tech Talks
 
 26+ talks done or scheduled in 2014
 -----------------------------------
-Learn the Twilio Web API in an Hour of Code
 
-Upcoming talk for `Women Who Code DC <http://www.meetup.com/Women-Who-Code-DC/events/219004596/>`_ on Tuesday, December 9 in Washington, D.C.
+Learn the Twilio Web API in an Hour of Code
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+No slides but the walkthrough steps are available 
+`on this blog post </women-who-code-dc-workshop.html>`_.
+
+
+Talk given at `Women Who Code DC <http://www.meetup.com/Women-Who-Code-DC/events/219004596/>`_ 
+on Tuesday, December 9 in Washington, D.C. during
+`An Hour of Code <http://csedweek.org/>`_ week.
 
 ----
 
