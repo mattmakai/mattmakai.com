@@ -5,8 +5,19 @@ Tech Talks
 :slug: talks
 
 
-26+ talks done or scheduled in 2014
------------------------------------
+2015
+----
+
+TBD
+~~~
+Most likely will give a talk at SF Python while I'm out there the week of
+Jan 12-18..
+
+----
+
+
+~30 talks done in 2014
+----------------------
 
 Learn the Twilio Web API in an Hour of Code
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
