@@ -8,10 +8,41 @@ Tech Talks
 2015
 ----
 
+Don't Make Us Say We Told You So: virtualenv for New Pythonistas
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Even though it’s possible to program without using virtual environments, you 
+can shoot yourself in the foot without them. This talk will start with an 
+illustration of how not using virtual environments can mess you up as a 
+programmer, and will walk you through a simple way to get started with good 
+habits using virtualenv.
+
+Upcoming talk with 
+`Renee Chu at PyCon 2015 <https://us.pycon.org/2015/schedule/presentation/421/>`_ 
+in Montreal, Canada at the beginning of April.
+
+
+----
+
+Choose Your Own WSGI Deployment Adventure
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+From servers and proxies to configuration management, the Web Server Gateway 
+Interface (WSGI) deployment ecosystem is complicated for new developers. This 
+choose your own adventure talk contains decision points for the audience to 
+choose topics via text and email votes. Each choice leads down a separate path 
+to explain different confusing WSGI subjects. Bring your phone or laptop to 
+participate!
+
+Upcoming talk with 
+`Kate Heddleston at PyCon 2015 <https://us.pycon.org/2015/schedule/presentation/336/>`_ 
+in Montreal, Canada at the beginning of April.
+
+----
+
+
 TBD
 ~~~
-Most likely will give a talk at SF Python while I'm out there the week of
-Jan 12-18..
+I will Most likely give a talk at SF Python while I'm out there the week of
+Jan 12-18.
 
 ----
 
