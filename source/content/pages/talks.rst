@@ -39,10 +39,16 @@ in Montreal, Canada at the beginning of April.
 ----
 
 
-TBD
-~~~
-I will most likely give a talk at SF Python while I'm out there the week of
-Jan 12-18. Details coming soon.
+Asynchronous Python Web Apps with WebSockets and gevent
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Why should Node.js folks have all the asynchronous web application fun? In 
+this talk you'll learn how to use WebSockets with Python, Flask and gevent to 
+build full-duplex communications into your web apps. We'll live code from a 
+blank file to a completed app that updates vote counters in a web browser via 
+WebSockets without page refreshes.
+
+Upcoming talk at `SF Python <http://www.meetup.com/sfpython/>`_ on January
+14 in San Francisco, CA.
 
 ----
 

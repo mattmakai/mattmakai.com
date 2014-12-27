@@ -58,15 +58,19 @@ past year were:
   `the Flickr MMS drinking game <http://readwrite.com/2014/09/26/friday-fun-twilio-flickr-api-picture-roulette-drinking-game>`_
   for `ReadWrite <http://readwrite.com/>`_
 
-* Speaking and/or doing workshops at EuroPython, DjangoCon US, SF Django, 
-  AnsibleFest, DC Configuration Management, Women Who Code DC and 
-  `many more </talks.html>`_
+* Speaking and/or doing workshops at 
+  `EuroPython <https://www.youtube.com/watch?v=s6NaOKD40rY>`_, 
+  `DjangoCon US <https://www.youtube.com/watch?v=QrFEKghISEI>`_, 
+  `SF Django <http://www.youtube.com/watch?v=pg-cOPVYKCw>`_, 
+  AnsibleFest, DC Configuration Management, 
+  `Women Who Code DC <http://www.meetup.com/Women-Who-Code-DC/events/219004596/>`_ 
+  and `many more </talks.html>`_
 
 
 Codifying My Teaching Style
 ---------------------------
-Throughout the year I tested a hypothesis I came up with in 2013 around
-content creation, speaking and coding. My hypothesis was that by focusing my
+Throughout the year I tested a hypothesis I came up with in 2013 regarding
+content creation, speaking and coding. The hypothesis was that by focusing my
 efforts on interrelated activities ("synergy" for you MBA folks), I would get
 better results and feel less scattershot in my work output.
 
@@ -78,15 +82,15 @@ what the approach looks like.
   :alt: So called "Makai Triumvirate", named by Rob Spectre
   :width: 100%
 
-When activities are related it allows me to produce much greater
-output in coding, writing and talks than if I worked on different topics
-in parallel.
+When activities are related I can produce much greater output in coding, 
+writing and talks than if I worked on several varying topics in parallel.
 
-A good example of this triumvirate approach is the work I did with Ansible.
+A good example of this triumvirate approach is the work I did this year with 
+Ansible.
 
-* Learned Ansible by deploying existing Python applications
+* Coded Ansible playbooks to deploy existing Python web applications
 
-* Built the Underwear Python library to learn more about Ansible's code base
+* Programmed [Underwear](https://github.com/makaimc/underwear) library to learn   more about Ansible's code base
 
 * Coded the Twilio module in Python
 
@@ -100,6 +104,10 @@ A good example of this triumvirate approach is the work I did with Ansible.
 * Wrote about Ansible on the Configuration Management page for Full Stack 
   Python
 
+
+From the list above it's evident that much of the work I did revolved around
+coding followed by writing and speaking after gaining experience with the
+library.
 
 After that work in the first six months of the year I relaxed my focus on 
 Ansible. I still use the project all the time for deployments but I moved on
