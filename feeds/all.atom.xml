@@ -1,5 +1,136 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/all.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2014-12-06T00:00:00-05:00</updated><entry><title>My Typical Day As A Developer Evangelist</title><link href="http://www.letshackdc.com/typical-day-as-developer-evangelist.html" rel="alternate"></link><updated>2014-12-06T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-12-06:typical-day-as-developer-evangelist.html</id><summary type="html">&lt;p&gt;&amp;quot;&lt;em&gt;What is a typical day like?&lt;/em&gt;&amp;quot; is one of the most common questions I receive
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/all.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2014-12-26T00:00:00-05:00</updated><entry><title>My 2014 Software Development Year in Review</title><link href="http://www.letshackdc.com/2014-software-development-year-review.html" rel="alternate"></link><updated>2014-12-26T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-12-26:2014-software-development-year-review.html</id><summary type="html">&lt;p&gt;2014 was a solid year for improving my software development abilities. This
+year was different from past years because I moved completely out of software
+consulting and into coding open source projects.&lt;/p&gt;
+&lt;p&gt;This post will briefly cover my highlights from 2014 and go into the insights
+I gained from my work throughout the year. I'll cover plans for 2015 in a
+future blog post.&lt;/p&gt;
+&lt;div class="section" id="highlights"&gt;
+&lt;h2&gt;2014 Highlights&lt;/h2&gt;
+&lt;p&gt;The projects and events stand out the most to me from throughout this
+past year were:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Starting my new gig as a
+&lt;a class="reference external" href="https://www.twilio.com/blog/2014/02/introducing-developer-evangelist-matt-makai.html"&gt;Twilio Developer Evangelist&lt;/a&gt;
+in January&lt;/li&gt;
+&lt;li&gt;Open sourcing &lt;a class="reference external" href="http://consumerfinance.gov/"&gt;CFPB&lt;/a&gt;'s &lt;a class="reference external" href="https://github.com/cfpb/collab"&gt;collab&lt;/a&gt;
+project that I worked on in 2012 and early 2013&lt;/li&gt;
+&lt;li&gt;Contributing the
+&lt;a class="reference external" href="http://docs.ansible.com/twilio_module.html"&gt;Twilio module to Ansible&lt;/a&gt;
+along with
+&lt;a class="reference external" href="https://www.twilio.com/blog/2014/05/ansible-text-messages-notifications-with-twilio-sms.html"&gt;blog posts&lt;/a&gt;
+and &lt;a class="reference external" href="http://www.eventbrite.com/e/ansiblefest-nyc-2014-tickets-10952628607"&gt;speaking engagements&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Working with the
+&lt;a class="reference external" href="http://mcinnovationlab.com/project-update-the-results-of-the-smart-america-challenge/"&gt;SmartAmerica SCALE team&lt;/a&gt;
+and going to the
+&lt;a class="reference external" href="http://www.whitehouse.gov/blog/2014/06/10/smartamerica-challenge-harnessing-power-internet-things"&gt;White House&lt;/a&gt;
+to wrap up&lt;/li&gt;
+&lt;li&gt;Heading back to the &lt;a class="reference external" href="http://www.whitehouse.gov/blog/2014/08/04/more-1500-people-participate-white-house-innovation-disaster-response-and-recovery-d"&gt;WH for Disaster Recovery Demo Day&lt;/a&gt;
+to
+&lt;a class="reference external" href="https://www.youtube.com/watch?v=ZAQbIa0hAeo"&gt;demo the Rapid Response Kit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Growing &lt;a class="reference external" href="http://www.fullstackpython.com/"&gt;Full Stack Python&lt;/a&gt;'s audience
+from ~500 to ~15,000 uniques a month&lt;/li&gt;
+&lt;li&gt;Coding the &lt;a class="reference external" href="https://github.com/makaimc/underwear"&gt;Underwear&lt;/a&gt;,
+&lt;a class="reference external" href="https://github.com/makaimc/plushcap"&gt;Plushcap&lt;/a&gt; and
+&lt;a class="reference external" href="https://github.com/makaimc/choose-your-own-adventure-presentations"&gt;Choose Your Own Adventure Presentations&lt;/a&gt;
+projects&lt;/li&gt;
+&lt;li&gt;Hacking on some damn fun projects with
+&lt;a class="reference external" href="http://laurenraeorsini.com/"&gt;Lauren Orsini&lt;/a&gt;, such as
+&lt;a class="reference external" href="http://readwrite.com/2014/04/23/raspberry-pi-connected-home-fish-text-message-twilio"&gt;my fish just texted me&lt;/a&gt;,
+&lt;a class="reference external" href="http://readwrite.com/2014/07/11/one-click-messaging-app"&gt;build your own Yo app clone&lt;/a&gt;
+and
+&lt;a class="reference external" href="http://readwrite.com/2014/09/26/friday-fun-twilio-flickr-api-picture-roulette-drinking-game"&gt;the Flickr MMS drinking game&lt;/a&gt;
+for &lt;a class="reference external" href="http://readwrite.com/"&gt;ReadWrite&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Speaking and/or doing workshops at EuroPython, DjangoCon US, SF Django,
+AnsibleFest, DC Configuration Management, Women Who Code DC and
+&lt;a class="reference external" href="/talks.html"&gt;many more&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="codifying-my-teaching-style"&gt;
+&lt;h2&gt;Codifying My Teaching Style&lt;/h2&gt;
+&lt;p&gt;Throughout the year I tested a hypothesis I came up with in 2013 around
+content creation, speaking and coding. My hypothesis was that by focusing my
+efforts on interrelated activities (&amp;quot;synergy&amp;quot; for you MBA folks), I would get
+better results and feel less scattershot in my work output.&lt;/p&gt;
+&lt;p&gt;I told the Twilio Developer Evangelism team about this approach and Rob
+Spectre dubbed it the &amp;quot;Makai Triumvirate&amp;quot;. Below is a picture representing
+what the approach looks like.&lt;/p&gt;
+&lt;img alt="So called &amp;quot;Makai Triumvirate&amp;quot;, named by Rob Spectre" src="/source/static/img/141225-year-review/makai-triumvirate.png" style="width: 100%;" /&gt;
+&lt;p&gt;When activities are related it allows me to produce much greater
+output in coding, writing and talks than if I worked on different topics
+in parallel.&lt;/p&gt;
+&lt;p&gt;A good example of this triumvirate approach is the work I did with Ansible.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Learned Ansible by deploying existing Python applications&lt;/li&gt;
+&lt;li&gt;Built the Underwear Python library to learn more about Ansible's code base&lt;/li&gt;
+&lt;li&gt;Coded the Twilio module in Python&lt;/li&gt;
+&lt;li&gt;Got the pull request accepted into the Ansible 1.6 release&lt;/li&gt;
+&lt;li&gt;Wrote the Ansible Twilio module blog post&lt;/li&gt;
+&lt;li&gt;Spoke about Ansible at SF Django, Center for Open Science, DC Configuration
+Management, AnsibleFest NYC and NoVA Python&lt;/li&gt;
+&lt;li&gt;Wrote about Ansible on the Configuration Management page for Full Stack
+Python&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After that work in the first six months of the year I relaxed my focus on
+Ansible. I still use the project all the time for deployments but I moved on
+to other topics for coding, speaking and writing.&lt;/p&gt;
+&lt;p&gt;The triumvirate approach sounds like common sense. However, when you're asked
+by a conference organizer to come up with a technical talk, it's easy to
+get excited by a new but unrelated topic and try to create a talk around that
+new thing. This focused approach allows me to say &amp;quot;what are the 3 big things I
+will work on this year?&amp;quot; and cut out anything else that is unrelated.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="open-source"&gt;
+&lt;h2&gt;Open Source&lt;/h2&gt;
+&lt;p&gt;Open source was a much bigger part of my professional life in 2014 than in
+any previous year.&lt;/p&gt;
+&lt;img alt="My 2013 GitHub contributions through Dec 25, 2014" src="/source/static/img/141225-year-review/github-contributions.png" style="width: 100%;" /&gt;
+&lt;p&gt;The above image shows my my daily open source GitHub contributions through
+December 25 of 2014. I came up with the idea to push an open source commit as
+many days as possible throughout the year. Currently I'm at 282 days in a
+row with my last miss on March 18 (I was up in NYC with our Twilio crew so
+I missed that day by accident).&lt;/p&gt;
+&lt;p&gt;Overall I should end up having missed 3 days out of 365 this year. I'm happy
+with that streak. It's possible I'll commit less in 2015 but I haven't set a
+hard target on my goals after Dec 31 just yet.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="writing"&gt;
+&lt;h2&gt;Writing&lt;/h2&gt;
+&lt;p&gt;I didn't write a lot on this site since I had a lot going on with
+Full Stack Python and external websites. Here's a quick list of my blog posts
+from throughout 2014.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://radar.oreilly.com/2014/05/driving-demand-for-full-stack-developers.html"&gt;Driving Demand for Full Stack Developers&lt;/a&gt;
+on &lt;a class="reference external" href="http://radar.oreilly.com/"&gt;O'Reilly Radar&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Via the Twilio blog I wrote:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.twilio.com/blog/2014/02/introducing-developer-evangelist-matt-makai.html"&gt;Introducing Developer Evangelist Matt Makai&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.twilio.com/blog/2014/05/ansible-text-messages-notifications-with-twilio-sms.html"&gt;Ansible Text Message Notifications with Twilio SMS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.twilio.com/blog/2014/05/github-pull-request-sms-alerts.html"&gt;How To Set Up GitHub Activity SMS Alerts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.twilio.com/blog/2014/08/website-sms-alerts-with-the-plushcap-python-package-part-1.html"&gt;Website SMS Alerts with the Plushcap Python Package: Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.twilio.com/blog/2014/10/branded-mms-coupon-generation-with-python-and-twilio.html"&gt;Branded MMS Coupon Generation with Python and Twilio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.twilio.com/blog/2014/11/choose-your-own-adventure-presentations-with-reveal-js-python-and-websockets.html"&gt;Choose Your Own Adventure Presentations with Reveal.js, Python and WebSockets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.twilio.com/blog/2014/12/non-coders-guide-running-twilio-org-rapid-response-kit.html"&gt;The Non-Coder’s Guide For Running the Twilio.org Rapid Response Kit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Lauren Orsini did the writing for the following three articles but we hacked
+on code together to produce these articles for ReadWrite:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://readwrite.com/2014/04/23/raspberry-pi-connected-home-fish-text-message-twilio"&gt;My Fish Just Texted Me&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://readwrite.com/2014/09/26/friday-fun-twilio-flickr-api-picture-roulette-drinking-game"&gt;Friday Fun: Build A Drinking Game With Twilio MMS And Flickr API&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://readwrite.com/2014/07/11/one-click-messaging-app"&gt;Create Your Own Obnoxiously Simple Messaging App Just Like Yo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="that-s-a-wrap"&gt;
+&lt;h2&gt;That's a Wrap&lt;/h2&gt;
+&lt;p&gt;I'm happy with how 2014 turned out from a software development standpoint.
+Much of my time is spent writing and speaking as well as coding which is
+fine by me since I no longer have to worry about the constant billable hour
+pressures of being a consultant.&lt;/p&gt;
+&lt;p&gt;2015 is already shaping up as a killer year. I'll have a separate blog post
+later on my plans for the new year.&lt;/p&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>My Typical Day As A Developer Evangelist</title><link href="http://www.letshackdc.com/typical-day-as-developer-evangelist.html" rel="alternate"></link><updated>2014-12-06T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-12-06:typical-day-as-developer-evangelist.html</id><summary type="html">&lt;p&gt;&amp;quot;&lt;em&gt;What is a typical day like?&lt;/em&gt;&amp;quot; is one of the most common questions I receive
 about my gig as a
 &lt;a class="reference external" href="https://www.twilio.com/blog/2014/02/introducing-developer-evangelist-matt-makai.html"&gt;Twilio Developer Evangelist&lt;/a&gt;. This blog post explains how I schedule
 my calendar when I'm in Washington, D.C. on work days.&lt;/p&gt;

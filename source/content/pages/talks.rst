@@ -41,8 +41,8 @@ in Montreal, Canada at the beginning of April.
 
 TBD
 ~~~
-I will Most likely give a talk at SF Python while I'm out there the week of
-Jan 12-18.
+I will most likely give a talk at SF Python while I'm out there the week of
+Jan 12-18. Details coming soon.
 
 ----
 
