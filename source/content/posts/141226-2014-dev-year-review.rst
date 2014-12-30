@@ -58,9 +58,13 @@ past year were:
   `the Flickr MMS drinking game <http://readwrite.com/2014/09/26/friday-fun-twilio-flickr-api-picture-roulette-drinking-game>`_
   for `ReadWrite <http://readwrite.com/>`_
 
+* Presenting with a experienced peer speaker, 
+  `Kate Heddleston at DjangoCon US <https://www.youtube.com/watch?v=QrFEKghISEI>`_, which raised my game on that talk way higher than I ever could've done
+  by myself
+
 * Speaking and/or doing workshops at 
   `EuroPython <https://www.youtube.com/watch?v=s6NaOKD40rY>`_, 
-  `DjangoCon US <https://www.youtube.com/watch?v=QrFEKghISEI>`_, 
+  `DjangoCon US <https://www.youtube.com/watch?v=aMtiCX38w20>`_,
   `SF Django <http://www.youtube.com/watch?v=pg-cOPVYKCw>`_, 
   AnsibleFest, DC Configuration Management, 
   `Women Who Code DC <http://www.meetup.com/Women-Who-Code-DC/events/219004596/>`_ 
