@@ -66,7 +66,8 @@ writing and talks than if I worked on several varying topics in parallel.&lt;/p&
 Ansible.&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;Coded Ansible playbooks to deploy existing Python web applications&lt;/li&gt;
-&lt;li&gt;Programmed [Underwear](&lt;a class="reference external" href="https://github.com/makaimc/underwear"&gt;https://github.com/makaimc/underwear&lt;/a&gt;) library to learn   more about Ansible's code base&lt;/li&gt;
+&lt;li&gt;Programmed &lt;a class="reference external" href="https://github.com/makaimc/underwear"&gt;Underwear&lt;/a&gt; library
+to learn  more about Ansible's code base&lt;/li&gt;
 &lt;li&gt;Coded the Twilio module in Python&lt;/li&gt;
 &lt;li&gt;Got the pull request accepted into the Ansible 1.6 release&lt;/li&gt;
 &lt;li&gt;Wrote the Ansible Twilio module blog post&lt;/li&gt;

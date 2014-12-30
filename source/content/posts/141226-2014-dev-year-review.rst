@@ -90,7 +90,8 @@ Ansible.
 
 * Coded Ansible playbooks to deploy existing Python web applications
 
-* Programmed [Underwear](https://github.com/makaimc/underwear) library to learn   more about Ansible's code base
+* Programmed `Underwear <https://github.com/makaimc/underwear>`_ library 
+  to learn  more about Ansible's code base
 
 * Coded the Twilio module in Python
 
