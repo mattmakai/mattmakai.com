@@ -92,7 +92,8 @@ writing and talks than if I worked on several varying topics in parallel.
 A good example of this triumvirate approach is the work I did this year with 
 Ansible.
 
-* Coded Ansible playbooks to deploy existing Python web applications
+* Coded `Ansible playbooks <https://github.com/makaimc/sf-django>`_ to 
+  deploy existing Python web applications
 
 * Programmed `Underwear <https://github.com/makaimc/underwear>`_ library 
   to learn  more about Ansible's code base

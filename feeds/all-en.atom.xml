@@ -68,7 +68,8 @@ writing and talks than if I worked on several varying topics in parallel.&lt;/p&
 &lt;p&gt;A good example of this triumvirate approach is the work I did this year with
 Ansible.&lt;/p&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;Coded Ansible playbooks to deploy existing Python web applications&lt;/li&gt;
+&lt;li&gt;Coded &lt;a class="reference external" href="https://github.com/makaimc/sf-django"&gt;Ansible playbooks&lt;/a&gt; to
+deploy existing Python web applications&lt;/li&gt;
 &lt;li&gt;Programmed &lt;a class="reference external" href="https://github.com/makaimc/underwear"&gt;Underwear&lt;/a&gt; library
 to learn  more about Ansible's code base&lt;/li&gt;
 &lt;li&gt;Coded the Twilio module in Python&lt;/li&gt;
