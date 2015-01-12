@@ -1,5 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/post.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2014-12-26T00:00:00-05:00</updated><entry><title>My 2014 Software Development Year in Review</title><link href="http://www.letshackdc.com/2014-software-development-year-review.html" rel="alternate"></link><updated>2014-12-26T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-12-26:2014-software-development-year-review.html</id><summary type="html">&lt;p&gt;2014 was a solid year for improving my software development abilities. This
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/post.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2015-01-14T00:00:00-05:00</updated><entry><title>WebSockets with Python Resources</title><link href="http://www.letshackdc.com/websockets-python-resources.html" rel="alternate"></link><updated>2015-01-14T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2015-01-14:websockets-python-resources.html</id><summary type="html">&lt;p&gt;Before you to node.js to handle WebSockets or any type of full-duplex
+client-server communication, learn some of the options for getting the job
+done with Python. I'll lay out some of the resources here that I found most
+helpful for getting started coding Python web applications that use
+WebSockets. It's not necessary to have seen the talk but this page goes along
+with the
+&lt;a class="reference external" href="www.meetup.com/sfpython/events/219577721/"&gt;San Francisco Python January 2015 meetup&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Before diving in make sure you check out the
+&lt;a class="reference external" href="http://www.fullstackpython.com/websockets.html"&gt;WebSockets page on Full Stack Python&lt;/a&gt;.
+The page is new so it's a bit sparse at the moment but I'll continue filling
+it out throughout the rest of the month.&lt;/p&gt;
+&lt;div class="section" id="general-websocket-resources"&gt;
+&lt;h2&gt;General WebSocket resources&lt;/h2&gt;
+&lt;p&gt;The below WebSocket resources aren't specific to Python but it's a good
+idea to get grounded in the technology itself first.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;There is an official
+&lt;a class="reference external" href="http://www.faqs.org/rfcs/rfc6455.html"&gt;RFC for WebSockets&lt;/a&gt; that is a good
+place to start if you prefer to go straight to the source. I generally
+read a few summaries by other folks before diving into an RFC.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://lucumr.pocoo.org/2012/9/24/websockets-101/"&gt;WebSockets 101&lt;/a&gt;
+provides context for what's good and not so good about the WebSockets
+protocol.&lt;/li&gt;
+&lt;li&gt;Can I Use? has a nice chart for what
+&lt;a class="reference external" href="http://caniuse.com/#feat=websockets"&gt;browsers and versions support WebSockets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://developer.mozilla.org/en-US/docs/WebSockets"&gt;Mozilla's WebSockets documentation&lt;/a&gt; is good for a range of explanations and tutorials.&lt;/li&gt;
+&lt;li&gt;This
+&lt;a class="reference external" href="http://chimera.labs.oreilly.com/books/1230000000545/ch17.html"&gt;chapter from High Performance Browsering Networking&lt;/a&gt;
+is a comprehensive overview of WebSockets.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="evented-networking-frameworks"&gt;
+&lt;h2&gt;Evented networking frameworks&lt;/h2&gt;
+&lt;p&gt;I recommend reading the
+&lt;a class="reference external" href="https://github.com/vinta/awesome-python#concurrency-and-networking"&gt;awesome-python list of concurrency and networking libraries&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In the SF Python January 2015 meetup group I used
+&lt;a class="reference external" href="http://www.gevent.org/"&gt;gevent&lt;/a&gt; with Flask,
+&lt;a class="reference external" href="https://flask-socketio.readthedocs.org/en/latest/"&gt;Flask-SocketIO&lt;/a&gt; and
+&lt;a class="reference external" href="http://socket.io/"&gt;SocketIO&lt;/a&gt; to handle WebSocket connections.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="websockets-with-python-web-frameworks"&gt;
+&lt;h2&gt;WebSockets with Python web frameworks&lt;/h2&gt;
+&lt;p&gt;These resources are specific to using WebSockets with Python web frameworks
+like Django, Flask and Bottle and Klein. Each tutorial will show you
+step-by-step how to implement WebSockets with that framework.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;I highly recommend Miguel Grinberg's blog post on
+&lt;a class="reference external" href="http://blog.miguelgrinberg.com/post/easy-websockets-with-flask-and-gevent"&gt;WebSockets with Flask&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;My &lt;a class="reference external" href="https://www.twilio.com/blog/2014/11/choose-your-own-adventure-presentations-with-reveal-js-python-and-websockets.html"&gt;Choose Your Own Adventure Presentations&lt;/a&gt;
+blog post shows how to use Flask, gevent, Reveal.js and SMS to create
+interactive presentations.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://tavendo.com/blog/post/going-asynchronous-from-flask-to-twisted-klein/"&gt;Going asynchronous: from Flask to Twisted Klein&lt;/a&gt;
+explains how to use Klein for async apps as a replacement for Flask.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://blog.jupo.org/2011/08/13/real-time-web-apps-with-django-and-websockets/"&gt;Real-time Web Apps with Django and WebSockets&lt;/a&gt;
+is a few years old but still relevant for implementing WebSockets if you're
+using Django.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://bottlepy.org/docs/dev/async.html"&gt;Async with Bottle&lt;/a&gt; is a
+walkthrough for the Bottle framework.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="websockets-vs-webrtc-data-vs-sse"&gt;
+&lt;h2&gt;WebSockets vs WebRTC Data vs SSE&lt;/h2&gt;
+&lt;p&gt;There are multiple ways to accomplish server push and full duplex
+communication between web browsers and a server. The WebRTC Data Channel and
+&lt;a class="reference external" href="http://www.w3schools.com/html/html5_serversentevents.asp"&gt;Server-Sent Events&lt;/a&gt;
+(SSE) can provide similar functionality to WebSockets, although there are
+differences such as SSE not being able to push from client to server, only
+server to client. There is often confusion for how these technologies
+compare so it's a good idea to read a few of the posts below to survey the
+landscape.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;This post on
+&lt;a class="reference external" href="http://www.tokbox.com/blog/webrtc-data-channels-vs-websockets/"&gt;WebRTC Data Channels vs WebSockets&lt;/a&gt;
+specifically addresses where data channels are currently appropriate and
+where they are less useful.&lt;/li&gt;
+&lt;li&gt;There's a well done
+&lt;a class="reference external" href="http://stackoverflow.com/questions/5195452/websockets-vs-server-sent-events-eventsource"&gt;Stack Overflow discussion on WebSockets vs SSE&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;These slides roll through
+&lt;a class="reference external" href="http://www.slideshare.net/swanandpagnis/lets-get-real-time-serversent-events-websockets-and-webrtc-for-the-soul"&gt;what WebSockets, SSE and WebRTC are&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>My 2014 Software Development Year in Review</title><link href="http://www.letshackdc.com/2014-software-development-year-review.html" rel="alternate"></link><updated>2014-12-26T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2014-12-26:2014-software-development-year-review.html</id><summary type="html">&lt;p&gt;2014 was a solid year for improving my software development abilities. This
 year was different from past years because I moved completely out of software
 consulting and into coding open source projects.&lt;/p&gt;
 &lt;p&gt;This post will briefly cover my highlights from 2014 and go into the insights

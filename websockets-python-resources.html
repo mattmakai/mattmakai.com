@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Matt Makai dot com</title>
+    <meta name="author" content="Matt Makai">
+    <meta name="description" content="Python and Java web stacks software developer and Developer Evangelist for Twilio.">
+    <meta name="language" content="english">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/source/static/img/8-bit-matt-small.png">
+    <link rel="stylesheet" href="/source/static/css/mm.css">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js">
+      </script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js">      </script>
+    <![endif]-->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-19910497-3', 'mattmakai.com'); ga('send', 'pageview');
+    </script>
+</head>
+<body>
+    <div class="fork-me">
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2" id="responsive-top-bar">
+<div class="responsive-top-bar">
+    <div style="text-align: center;">
+        <img src="/source/static/img/matt-makai-small.jpg" class="img-circle">
+    </div>
+    <p style="padding-top: 30px;">
+        <a href="/">Matt Makai</a> -
+        <a href="http://www.fullstackpython.com/">Python</a> web dev &amp;
+        <a href="https://www.twilio.com/">Twilio</a>
+        Developer Evangelist.
+    </p>
+    <p>@<a href="https://twitter.com/mattmakai">mattmakai</a> 
+       &amp; <a href="https://github.com/makaimc">makaimc</a>
+    </p>
+</div>            </div>
+            <div class="col-md-2 sidebar">
+<ul class="nav nav-sidebar nav-sidebar-top">
+    <li style="text-align: center;">
+        <img src="/source/static/img/matt-makai-small.jpg" class="img-circle">
+    </li>
+</ul>
+<div class="nav nav-sidebar">
+    <p>
+        <a href="/">Matt Makai</a>, software developer with an affinity
+        for <a href="https://www.python.org/">Python</a>. 
+        <a href="http://www.letshackdc.com/">Washington, D.C.</a>-based 
+        <a href="https://www.twilio.com/blog/2014/02/introducing-developer-evangelist-matt-makai.html">Developer Evangelist</a> 
+        for
+        <a href="https://www.twilio.com/">Twilio</a>. 
+    </p>
+    <p>
+        Author of
+        <a href="http://www.fullstackpython.com/">Full Stack Python</a>
+        and 
+        <a href="http://www.codingacrossamerica.com/">Coding Across America</a>.
+    </p>
+    <p>
+       I am <a href="https://github.com/makaimc">makaimc</a> on GitHub and
+       @<a href="https://twitter.com/mattmakai">mattmakai</a> on Twitter.
+    </p>
+</div>
+<ul class="nav nav-sidebar">
+    <li class="active"><a href="/">Writing</a></li>
+    <li ><a href="/talks.html">Tech Talks</a></li>
+    <li ><a href="/about.html">About</a></li>
+    <li ><a href="/work.html">Work</a></li>
+    <li ><a href="/bookmarks.html">Bookmarks</a></li>
+    <li><a href="/matt-makai-resume.pdf">Resume (.pdf)</a></li>
+</ul>
+<ul class="nav nav-sidebar nav-sidebar-top">
+    <li class="active" style="text-align: center;">
+        <img src="/source/static/img/8-bit-matt-small.png" class="img-rounded">
+    </li>
+</ul>            </div>
+            <div class="col-md-offset-2 col-md-10 main">
+        
+    <h2 class="entry-title">
+        <a href="/websockets-python-resources.html">WebSockets with Python Resources</a>
+    </h2> 
+    <p>Before you to node.js to handle WebSockets or any type of full-duplex
+client-server communication, learn some of the options for getting the job
+done with Python. I'll lay out some of the resources here that I found most
+helpful for getting started coding Python web applications that use
+WebSockets. It's not necessary to have seen the talk but this page goes along
+with the
+<a class="reference external" href="www.meetup.com/sfpython/events/219577721/">San Francisco Python January 2015 meetup</a>.</p>
+<p>Before diving in make sure you check out the
+<a class="reference external" href="http://www.fullstackpython.com/websockets.html">WebSockets page on Full Stack Python</a>.
+The page is new so it's a bit sparse at the moment but I'll continue filling
+it out throughout the rest of the month.</p>
+<div class="section" id="general-websocket-resources">
+<h2>General WebSocket resources</h2>
+<p>The below WebSocket resources aren't specific to Python but it's a good
+idea to get grounded in the technology itself first.</p>
+<ul class="simple">
+<li>There is an official
+<a class="reference external" href="http://www.faqs.org/rfcs/rfc6455.html">RFC for WebSockets</a> that is a good
+place to start if you prefer to go straight to the source. I generally
+read a few summaries by other folks before diving into an RFC.</li>
+<li><a class="reference external" href="http://lucumr.pocoo.org/2012/9/24/websockets-101/">WebSockets 101</a>
+provides context for what's good and not so good about the WebSockets
+protocol.</li>
+<li>Can I Use? has a nice chart for what
+<a class="reference external" href="http://caniuse.com/#feat=websockets">browsers and versions support WebSockets</a>.</li>
+<li><a class="reference external" href="https://developer.mozilla.org/en-US/docs/WebSockets">Mozilla's WebSockets documentation</a> is good for a range of explanations and tutorials.</li>
+<li>This
+<a class="reference external" href="http://chimera.labs.oreilly.com/books/1230000000545/ch17.html">chapter from High Performance Browsering Networking</a>
+is a comprehensive overview of WebSockets.</li>
+</ul>
+</div>
+<div class="section" id="evented-networking-frameworks">
+<h2>Evented networking frameworks</h2>
+<p>I recommend reading the
+<a class="reference external" href="https://github.com/vinta/awesome-python#concurrency-and-networking">awesome-python list of concurrency and networking libraries</a>.</p>
+<p>In the SF Python January 2015 meetup group I used
+<a class="reference external" href="http://www.gevent.org/">gevent</a> with Flask,
+<a class="reference external" href="https://flask-socketio.readthedocs.org/en/latest/">Flask-SocketIO</a> and
+<a class="reference external" href="http://socket.io/">SocketIO</a> to handle WebSocket connections.</p>
+</div>
+<div class="section" id="websockets-with-python-web-frameworks">
+<h2>WebSockets with Python web frameworks</h2>
+<p>These resources are specific to using WebSockets with Python web frameworks
+like Django, Flask and Bottle and Klein. Each tutorial will show you
+step-by-step how to implement WebSockets with that framework.</p>
+<ul class="simple">
+<li>I highly recommend Miguel Grinberg's blog post on
+<a class="reference external" href="http://blog.miguelgrinberg.com/post/easy-websockets-with-flask-and-gevent">WebSockets with Flask</a>.</li>
+<li>My <a class="reference external" href="https://www.twilio.com/blog/2014/11/choose-your-own-adventure-presentations-with-reveal-js-python-and-websockets.html">Choose Your Own Adventure Presentations</a>
+blog post shows how to use Flask, gevent, Reveal.js and SMS to create
+interactive presentations.</li>
+<li><a class="reference external" href="http://tavendo.com/blog/post/going-asynchronous-from-flask-to-twisted-klein/">Going asynchronous: from Flask to Twisted Klein</a>
+explains how to use Klein for async apps as a replacement for Flask.</li>
+<li><a class="reference external" href="http://blog.jupo.org/2011/08/13/real-time-web-apps-with-django-and-websockets/">Real-time Web Apps with Django and WebSockets</a>
+is a few years old but still relevant for implementing WebSockets if you're
+using Django.</li>
+<li><a class="reference external" href="http://bottlepy.org/docs/dev/async.html">Async with Bottle</a> is a
+walkthrough for the Bottle framework.</li>
+</ul>
+</div>
+<div class="section" id="websockets-vs-webrtc-data-vs-sse">
+<h2>WebSockets vs WebRTC Data vs SSE</h2>
+<p>There are multiple ways to accomplish server push and full duplex
+communication between web browsers and a server. The WebRTC Data Channel and
+<a class="reference external" href="http://www.w3schools.com/html/html5_serversentevents.asp">Server-Sent Events</a>
+(SSE) can provide similar functionality to WebSockets, although there are
+differences such as SSE not being able to push from client to server, only
+server to client. There is often confusion for how these technologies
+compare so it's a good idea to read a few of the posts below to survey the
+landscape.</p>
+<ul class="simple">
+<li>This post on
+<a class="reference external" href="http://www.tokbox.com/blog/webrtc-data-channels-vs-websockets/">WebRTC Data Channels vs WebSockets</a>
+specifically addresses where data channels are currently appropriate and
+where they are less useful.</li>
+<li>There's a well done
+<a class="reference external" href="http://stackoverflow.com/questions/5195452/websockets-vs-server-sent-events-eventsource">Stack Overflow discussion on WebSockets vs SSE</a>.</li>
+<li>These slides roll through
+<a class="reference external" href="http://www.slideshare.net/swanandpagnis/lets-get-real-time-serversent-events-websockets-and-webrtc-for-the-soul">what WebSockets, SSE and WebRTC are</a>.</li>
+</ul>
+</div>
+
+
+    <hr />
+    <div style="margin-bottom: 20px;">
+        &laquo; <a href="/">Back to blog</a>
+    </div>
+            </div>
+            <div class="col-md-2" id="responsive-bottom-bar">
+<div style="margin: 30px 0 20px 0;">
+    <ul class="nav nav-sidebar" style="text-align: center;">
+        <li><a href="/">Writing</a></li>
+        <li ><a href="/talks.html">Tech Talks</a></li>
+    <li ><a href="/about.html">About</a></li>
+    <li ><a href="/work.html">Work</a></li>
+        <li ><a href="/bookmarks.html">Bookmarks</a></li>
+        <li><a href="/matt-makai-resume.pdf">Resume (.pdf)</a></li>
+        <li><a href="https://github.com/makaimc">Code (github.com) &raquo;</a></li>
+    </ul>
+    <ul class="nav nav-sidebar nav-sidebar-top">
+    <li class="active" style="text-align: center;">
+        <img src="/source/static/img/8-bit-matt-small.png" class="img-rounded">
+    </li>
+</div> 
+            </div>
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+    <script src="/source/static/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+        });
+    </script>
+    <div style="display: none;">
+        <img src="https://www.linkedin.com/profile/view?authToken=zRgB&authType=name&id=3952407" />
+    </div>
+</body>
+</html>
