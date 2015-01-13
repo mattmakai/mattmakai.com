@@ -18,6 +18,12 @@ Before diving in make sure you check out the
 The page is new so it's a bit sparse at the moment but I'll continue filling 
 it out throughout the rest of the month.
 
+One more shamless plug: if you're going to PyCon this year make sure to check
+out the talks 
+`virtualenv for new Pythonista <https://us.pycon.org/2015/schedule/presentation/421/>`_ 
+and
+`Choose Your Own WSGI Deployment Adventure <https://us.pycon.org/2015/schedule/presentation/336/>`_ on Saturday.
+
 
 General WebSocket resources
 ---------------------------
