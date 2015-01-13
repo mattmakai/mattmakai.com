@@ -39,8 +39,8 @@ in Montreal, Canada at the beginning of April.
 ----
 
 
-Asynchronous Python Web Apps with WebSockets and gevent
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+`Asynchronous Python Web Apps with WebSockets and gevent </presentations/2015-sfpython-websockets.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Why should Node.js folks have all the asynchronous web application fun? In 
 this talk you'll learn how to use WebSockets with Python, Flask and gevent to 
 build full-duplex communications into your web apps. We'll live code from a 

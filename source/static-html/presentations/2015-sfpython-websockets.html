@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>SF Python: Asynchronous Python Web Apps with WebSockets and gevent </title>
+
+		<meta name="description" content="">
+
+		<meta name="author" content="Matt Makai">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="/source/static/css/reveal/reveal.css">
+        <link rel="stylesheet" href="/source/static/css/reveal/theme/sfpython.css" id="theme">
+        <link rel="stylesheet" href="/source/static/lib/css/zenburn.css">
+        <style>
+            ol.bigger li, 
+            ul.bigger li {
+               color: #222;
+               font-size: 3em;
+               margin-bottom: 15px;
+               line-height: 1.1em;
+               margin-left: 20px;
+            }
+            ul.bigger-contact-info li {
+               color: #222;
+               font-size: 2.2em;
+               margin-bottom: 15px;
+               margin-top: 20px;
+               line-height: 1.1em;
+               margin-left: 20px;
+            }
+            ol.bigger-contact-info li {
+                margin-left: 1em;
+            }
+            ol.bigger li {
+                margin-left: 1em;
+            }
+            img.no-border-rounded {border: none; border-radius: 5px;}
+        </style>
+
+		<!--[if lt IE 9]>
+		<script src="/source/static/lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div class="reveal">
+            <div class="slides" style="text-align: left;">
+				<section>
+                    <h1 style="margin-bottom: 25px; font-size: 3.8em;">
+                        Async Python Web Apps with WebSockets &amp; gevent 
+                    </h1>
+                    <h3><a href="http://www.meetup.com/sfpython/events/219577721/">SF Python | January 2015</a></h3>
+                    <p style="font-size: 1em;">
+                        <a href="http://www.mattmakai.com">Matt Makai</a> | 
+                        <a href="http://twitter.com/mattmakai">@mattmakai</a> |
+                        <a href="https://github.com/makaimc">makaimc</a> 
+                        on GitHub |
+                        <a href="https://www.twilio.com">Twilio</a> 
+                    </p>
+				</section>
+                
+                <section data-state="webdev">
+                </section>
+                
+                <section data-state="standard-web">
+                </section>
+                
+                <section data-state="standard-wsgi">
+                </section>
+               
+                <section data-state="long-polling-ajax">
+                </section>
+
+                <section data-state="websockets">
+                </section>
+
+                <section data-state="webdev">
+                </section>
+               
+                <section data-state="async-slide">
+                </section>
+
+                <section style="text-align: center;">
+                    <h1>Let's build</h1>
+                </section>
+                
+                <section style="text-align: left;">
+                    <h1 style="font-size: 3.2em;">sfpy.mattmakai.com</h1>
+                </section>
+
+                <section class="typical">
+                    <h2>Send a text msg to:</h2>
+                    <h1 style="color: #222;">(415) 630-6194</h1>
+                    <br>
+                    <h2>Scale 0-10: How likely are you to recommend 
+                        this talk to a colleague or friend?</h2>
+                    <h2>0 - Not likely at all</h1>
+                    <h2>10 - Extremely likely</h2>
+                </section>
+              
+                <section>
+                    <h2>Matt Makai</h2>
+                    <ul class="bigger-contact-info">
+                        <li><a href="https://www.twilio.com/">Twilio</a> 
+                        Developer Evangelist
+                        </li>
+                        <li>
+                            <a href="https://github.com/makaimc">makaimc</a> 
+                            on GitHub</a>
+                        </li>
+                        <li><a href="http://twitter.com/mattmakai">@mattmakai</a></li>
+                        <li>makai@twilio.com</li>
+                    </ul>
+                </section>
+		</div>
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script> 
+		<script src="/source/static/lib/js/head.min.js"></script>
+		<script src="/source/static/js/reveal.min.js"></script>
+
+		<script>
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: false,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: '/source/static/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '/source/static/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '/source/static/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				]
+			});
+
+            $(document).ready(function() {
+            });
+
+		</script>
+
+	</body>
+</html>
