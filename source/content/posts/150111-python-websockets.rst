@@ -25,6 +25,12 @@ and
 `Choose Your Own WSGI Deployment Adventure <https://us.pycon.org/2015/schedule/presentation/336/>`_ on Saturday.
 
 
+WebSockets Talk Code
+--------------------
+All code for the meetup live demo can be found on 
+`GitHub in the sf-python-websockets repo <https://github.com/makaimc/sf-python-websockets>`_.
+
+
 General WebSocket resources
 ---------------------------
 The below WebSocket resources aren't specific to Python but it's a good
