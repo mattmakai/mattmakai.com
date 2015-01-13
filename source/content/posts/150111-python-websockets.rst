@@ -20,7 +20,7 @@ it out throughout the rest of the month.
 
 One more shamless plug: if you're going to PyCon this year make sure to check
 out the talks 
-`virtualenv for new Pythonista <https://us.pycon.org/2015/schedule/presentation/421/>`_ 
+`virtualenv for new Pythonista <https://us.pycon.org/2015/schedule/presentation/421/>`_ on Friday
 and
 `Choose Your Own WSGI Deployment Adventure <https://us.pycon.org/2015/schedule/presentation/336/>`_ on Saturday.
 
