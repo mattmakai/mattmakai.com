@@ -260,6 +260,11 @@ h1.light-bg {color: #222;}
   background-size: cover;
 }
 
+.only-wsgi .reveal .state-background {
+  background: url(/source/static/img/presentations/2015-sfpython/wsgi-world.png);
+  background-size: cover;
+}
+
 .standard-wsgi .reveal .state-background {
   background: url(/source/static/img/presentations/2015-sfpython/standard-wsgi.png);
   background-size: cover;
