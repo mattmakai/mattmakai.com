@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/all.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2015-01-14T00:00:00-05:00</updated><entry><title>WebSockets with Python Resources</title><link href="http://www.letshackdc.com/websockets-python-resources.html" rel="alternate"></link><updated>2015-01-14T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2015-01-14:websockets-python-resources.html</id><summary type="html">&lt;p&gt;Before you to node.js to handle WebSockets or any type of full-duplex
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/all.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2015-01-14T00:00:00-05:00</updated><entry><title>Resources for WebSockets with Python</title><link href="http://www.letshackdc.com/websockets-python-resources.html" rel="alternate"></link><updated>2015-01-14T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2015-01-14:websockets-python-resources.html</id><summary type="html">&lt;p&gt;Before you to node.js to handle WebSockets or any type of full-duplex
 client-server communication, learn some of the options for getting the job
 done with Python. I'll lay out some of the resources here that I found most
 helpful for getting started coding Python web applications that use
@@ -15,10 +15,14 @@ out the talks
 &lt;a class="reference external" href="https://us.pycon.org/2015/schedule/presentation/421/"&gt;virtualenv for new Pythonista&lt;/a&gt; on Friday
 and
 &lt;a class="reference external" href="https://us.pycon.org/2015/schedule/presentation/336/"&gt;Choose Your Own WSGI Deployment Adventure&lt;/a&gt; on Saturday.&lt;/p&gt;
-&lt;div class="section" id="websockets-talk-code"&gt;
-&lt;h2&gt;WebSockets Talk Code&lt;/h2&gt;
+&lt;div class="section" id="code-for-the-websockets-talk"&gt;
+&lt;h2&gt;Code for the WebSockets Talk&lt;/h2&gt;
 &lt;p&gt;All code for the meetup live demo can be found on
 &lt;a class="reference external" href="https://github.com/makaimc/sf-python-websockets"&gt;GitHub in the sf-python-websockets repo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The
+&lt;a class="reference external" href="/presentations/2015-sfpython-websockets.html"&gt;slides are also available&lt;/a&gt;
+but do not make a lot of sense without corresponding audio of the
+presentation.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="general-websocket-resources"&gt;
 &lt;h2&gt;General WebSocket resources&lt;/h2&gt;

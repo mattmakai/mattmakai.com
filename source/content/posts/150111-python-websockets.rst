@@ -1,5 +1,5 @@
-WebSockets with Python Resources
-================================
+Resources for WebSockets with Python
+====================================
 
 :slug: websockets-python-resources
 :category: post
@@ -25,10 +25,15 @@ and
 `Choose Your Own WSGI Deployment Adventure <https://us.pycon.org/2015/schedule/presentation/336/>`_ on Saturday.
 
 
-WebSockets Talk Code
---------------------
+Code for the WebSockets Talk
+----------------------------
 All code for the meetup live demo can be found on 
 `GitHub in the sf-python-websockets repo <https://github.com/makaimc/sf-python-websockets>`_.
+
+The 
+`slides are also available </presentations/2015-sfpython-websockets.html>`_
+but do not make a lot of sense without corresponding audio of the 
+presentation.
 
 
 General WebSocket resources
