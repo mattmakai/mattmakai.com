@@ -47,9 +47,13 @@ build full-duplex communications into your web apps. We'll live code from a
 blank file to a completed app that updates vote counters in a web browser via 
 WebSockets without page refreshes.
 
-Upcoming talk at 
+Talk given to
 `SF Python <http://www.meetup.com/sfpython/events/219577721/>`_ on January 14 
-in San Francisco, CA.
+in San Francisco, CA at Yelp headquarters. There's a 
+`blog post </websockets-python-resources.html>`_ and
+`open source GitHub project <https://github.com/makaimc/sf-python-websockets>`_
+that accompany this talk.
+
 
 ----
 
