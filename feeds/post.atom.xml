@@ -18,7 +18,7 @@ and
 &lt;div class="section" id="code-for-the-websockets-talk"&gt;
 &lt;h2&gt;Code for the WebSockets Talk&lt;/h2&gt;
 &lt;p&gt;All code for the meetup live demo can be found on
-&lt;a class="reference external" href="https://github.com/makaimc/sf-python-websockets"&gt;GitHub in the sf-python-websockets repo&lt;/a&gt;.&lt;/p&gt;
+&lt;a class="reference external" href="https://github.com/makaimc/python-websockets-example"&gt;GitHub in the python-websockets-example repo&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;The
 &lt;a class="reference external" href="/presentations/2015-sfpython-websockets.html"&gt;slides are also available&lt;/a&gt;
 but do not make a lot of sense without corresponding audio of the
