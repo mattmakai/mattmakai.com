@@ -5,13 +5,13 @@ Resources for WebSockets with Python
 :category: post
 :date: 2015-01-14
 
-Before you to node.js to handle WebSockets or any type of full-duplex 
-client-server communication, learn some of the options for getting the job
-done with Python. I'll lay out some of the resources here that I found most
-helpful for getting started coding Python web applications that use 
-WebSockets. It's not necessary to have seen the talk but this page goes along 
-with the 
-`San Francisco Python January 2015 meetup <www.meetup.com/sfpython/events/219577721/>`_. 
+Before you learn node.js to handle WebSockets or any type of full-duplex 
+client-server communication, check out some Python options first. In this
+post I'll lay out some of the resources that I found most helpful for getting 
+started coding Python web applications that use WebSockets. 
+
+It's not necessary to have seen the talk but this page goes along with the 
+`San Francisco Python January 2015 meetup <www.meetup.com/sfpython/events/219577721/>`_ event. 
 
 Before diving in make sure you check out the  
 `WebSockets page on Full Stack Python <http://www.fullstackpython.com/websockets.html>`_. 
