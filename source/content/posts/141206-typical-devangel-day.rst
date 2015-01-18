@@ -174,6 +174,9 @@ fine posts:
 
 * `My Experience As A New Developer Evangelist <http://www.rdegges.com/my-experience-as-a-new-developer-evangelist/>`_ by `Randall Degges <https://twitter.com/rdegges>`_
 
+* `Developer Evangelists and Burnout <http://baugues.com/beating-burnout>`_
+  by `Greg Baugues <https://twitter.com/greggyb>`_
+
 ----
 
 [1] burrito bowl, veges, double chicken, pico de gallo, medium salsa, 
