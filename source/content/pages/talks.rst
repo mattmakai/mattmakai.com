@@ -23,6 +23,7 @@ in Montreal, Canada at the beginning of April.
 
 ----
 
+
 Choose Your Own WSGI Deployment Adventure
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 From servers and proxies to configuration management, the Web Server Gateway 
@@ -35,6 +36,17 @@ participate!
 Upcoming talk with 
 `Kate Heddleston at PyCon 2015 <https://us.pycon.org/2015/schedule/presentation/336/>`_ 
 in Montreal, Canada at the beginning of April.
+
+----
+
+
+virtualenv for new Pythonistas
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+...
+
+First run of PyCon 2015 virtualenv talk to present at 
+`Django District March meetup <http://www.meetup.com/django-district/>`_
+in Washington, D.C. on March 17.
 
 ----
 
@@ -53,7 +65,6 @@ in San Francisco, CA at Yelp headquarters. There's a
 `blog post </websockets-python-resources.html>`_ and
 `open source GitHub project <https://github.com/makaimc/python-websockets-example>`_
 that accompany this talk.
-
 
 ----
 

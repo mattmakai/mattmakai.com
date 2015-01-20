@@ -177,6 +177,10 @@ fine posts:
 * `Developer Evangelists and Burnout <http://baugues.com/beating-burnout>`_
   by `Greg Baugues <https://twitter.com/greggyb>`_
 
+* `Should I Become a Developer Evangelist? <http://blog.rickyrobinett.com/2015/01/should-i-become-a-developer-evangelist/>`_
+  by `Ricky Robinett <https://twitter.com/rickyrobinett>`_
+
+
 ----
 
 [1] burrito bowl, veges, double chicken, pico de gallo, medium salsa, 
