@@ -11,7 +11,7 @@ post I'll lay out some of the resources that I found most helpful for getting
 started coding Python web applications that use WebSockets. 
 
 It's not necessary to have seen the talk but this page goes along with the 
-`San Francisco Python January 2015 meetup <www.meetup.com/sfpython/events/219577721/>`_ event. 
+`San Francisco Python January 2015 meetup <http://www.meetup.com/sfpython/events/219577721/>`_ event. 
 
 Before diving in make sure you check out the  
 `WebSockets page on Full Stack Python <http://www.fullstackpython.com/websockets.html>`_. 
