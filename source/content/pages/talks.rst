@@ -40,8 +40,8 @@ in Montreal, Canada at the beginning of April.
 ----
 
 
-virtualenv for new Pythonistas
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+`Virtualenv for New Pythonistas </presentations/2015-virtualenv-new-pythonistas.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ...
 
 First run of PyCon 2015 virtualenv talk to present at 
