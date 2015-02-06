@@ -180,6 +180,9 @@ fine posts:
 * `Should I Become a Developer Evangelist? <http://blog.rickyrobinett.com/2015/01/should-i-become-a-developer-evangelist/>`_
   by `Ricky Robinett <https://twitter.com/rickyrobinett>`_
 
+* `Thoughts on Developer Evangelism <http://www.kevin.mn/evangelism>`_
+  by `Kevin Whinnery <http://www.kevin.mn/>`_
+
 
 ----
 
