@@ -24,7 +24,7 @@ and
 `Choose Your Own WSGI Deployment Adventure <https://us.pycon.org/2015/schedule/presentation/336/>`_ 
 at PyCon in 2015.  Matt also writes 
 `Full Stack Python <http://www.fullstackpython.com>`_ 
-which helps over 25,0000 developers a month learn to build and deploy 
+which helps over 25,000 developers a month learn to build and deploy 
 Python web applications.
 
 
