@@ -10,8 +10,11 @@ client-server communication, check out some Python options first. In this
 post I'll lay out some of the resources that I found most helpful for getting 
 started coding Python web applications that use WebSockets. 
 
-It's not necessary to have seen the talk but this page goes along with the 
-`San Francisco Python January 2015 meetup <http://www.meetup.com/sfpython/events/219577721/>`_ event. 
+It's not necessary to have seen either talk but this page goes along with the 
+`San Francisco Python January 2015 meetup <http://www.meetup.com/sfpython/events/219577721/>`_ 
+and 
+`Django District March 2015 meetup <http://www.meetup.com/django-district/events/220439364/>`_ 
+events. 
 
 Before diving in make sure you check out the  
 `WebSockets page on Full Stack Python <http://www.fullstackpython.com/websockets.html>`_. 
@@ -65,7 +68,8 @@ Evented networking frameworks
 I recommend reading the 
 `awesome-python list of concurrency and networking libraries <https://github.com/vinta/awesome-python#concurrency-and-networking>`_.
 
-In the SF Python January 2015 meetup group I used 
+In the SF Python January 2015 and Django District March 2015 meetup groups 
+I used 
 `gevent <http://www.gevent.org/>`_ with Flask, 
 `Flask-SocketIO <https://flask-socketio.readthedocs.org/en/latest/>`_ and 
 `SocketIO <http://socket.io/>`_ to handle WebSocket connections.

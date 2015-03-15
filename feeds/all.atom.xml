@@ -3,8 +3,11 @@
 client-server communication, check out some Python options first. In this
 post I'll lay out some of the resources that I found most helpful for getting
 started coding Python web applications that use WebSockets.&lt;/p&gt;
-&lt;p&gt;It's not necessary to have seen the talk but this page goes along with the
-&lt;a class="reference external" href="http://www.meetup.com/sfpython/events/219577721/"&gt;San Francisco Python January 2015 meetup&lt;/a&gt; event.&lt;/p&gt;
+&lt;p&gt;It's not necessary to have seen either talk but this page goes along with the
+&lt;a class="reference external" href="http://www.meetup.com/sfpython/events/219577721/"&gt;San Francisco Python January 2015 meetup&lt;/a&gt;
+and
+&lt;a class="reference external" href="http://www.meetup.com/django-district/events/220439364/"&gt;Django District March 2015 meetup&lt;/a&gt;
+events.&lt;/p&gt;
 &lt;p&gt;Before diving in make sure you check out the
 &lt;a class="reference external" href="http://www.fullstackpython.com/websockets.html"&gt;WebSockets page on Full Stack Python&lt;/a&gt;.
 The page is new so it's a bit sparse at the moment but I'll continue filling
@@ -47,7 +50,8 @@ is a comprehensive overview of WebSockets.&lt;/li&gt;
 &lt;h2&gt;Evented networking frameworks&lt;/h2&gt;
 &lt;p&gt;I recommend reading the
 &lt;a class="reference external" href="https://github.com/vinta/awesome-python#concurrency-and-networking"&gt;awesome-python list of concurrency and networking libraries&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;In the SF Python January 2015 meetup group I used
+&lt;p&gt;In the SF Python January 2015 and Django District March 2015 meetup groups
+I used
 &lt;a class="reference external" href="http://www.gevent.org/"&gt;gevent&lt;/a&gt; with Flask,
 &lt;a class="reference external" href="https://flask-socketio.readthedocs.org/en/latest/"&gt;Flask-SocketIO&lt;/a&gt; and
 &lt;a class="reference external" href="http://socket.io/"&gt;SocketIO&lt;/a&gt; to handle WebSocket connections.&lt;/p&gt;
