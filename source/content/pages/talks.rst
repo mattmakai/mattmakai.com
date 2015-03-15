@@ -8,8 +8,8 @@ Tech Talks
 2015
 ----
 
-Don't Make Us Say We Told You So: virtualenv for New Pythonistas
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+`Don't Make Us Say We Told You So: virtualenv for New Pythonistas </presentations/2015-virtualenv-new-pythonistas.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Even though it’s possible to program without using virtual environments, you 
 can shoot yourself in the foot without them. This talk will start with an 
 illustration of how not using virtual environments can mess you up as a 
@@ -40,12 +40,14 @@ in Montreal, Canada at the beginning of April.
 ----
 
 
-`Virtualenv for New Pythonistas </presentations/2015-virtualenv-new-pythonistas.html>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-...
+`Async Flask Web Apps with WebSockets </presentations/2015-async-web-apps-django-district.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Curious about how to build WebSockets into your Python web applications? 
+In this talk we'll start from a blank environment and build up to an entire
+running application that allows for real-time audience voting. 
 
-First run of PyCon 2015 virtualenv talk to present at 
-`Django District March meetup <http://www.meetup.com/django-district/>`_
+Presented to 
+`Django District March meetup <http://www.meetup.com/django-district/events/220439364/>`_
 in Washington, D.C. on March 17.
 
 ----
