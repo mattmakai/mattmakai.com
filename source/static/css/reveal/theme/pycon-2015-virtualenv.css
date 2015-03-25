@@ -294,3 +294,18 @@ h1.light-bg {color: #222;}
   background: url(/source/static/img/presentations/2015-django-district/python-virtualenvs.png);
   background-size: cover;
 }
+
+.project-dependencies .reveal .state-background {
+  background: url(/source/static/img/presentations/2015-pycon-virtualenv/project-dependencies.png);
+  background-size: cover;
+}
+
+.virtualenv-focus .reveal .state-background {
+  background: url(/source/static/img/presentations/2015-pycon-virtualenv/virtualenv-focus.png);
+  background-size: cover;
+}
+
+.virtualenv-inspection .reveal .state-background {
+  background: url(/source/static/img/presentations/2015-pycon-virtualenv/virtualenv-inspection.png);
+  background-size: cover;
+}

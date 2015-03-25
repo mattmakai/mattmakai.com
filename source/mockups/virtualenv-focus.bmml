@@ -7,12 +7,12 @@
     </control>
     <control controlID="1" controlTypeID="com.balsamiq.mockups::Canvas" x="95" y="90" w="735" h="475" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1">
       <controlProperties>
-        <color>16777215</color>
+        <color>6710886</color>
       </controlProperties>
     </control>
     <control controlID="2" controlTypeID="com.balsamiq.mockups::Canvas" x="114" y="153" w="695" h="392" measuredW="100" measuredH="70" zOrder="2" locked="false" isInGroup="-1">
       <controlProperties>
-        <color>16777215</color>
+        <color>6710886</color>
       </controlProperties>
     </control>
     <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="114" y="113" w="-1" h="-1" measuredW="388" measuredH="40" zOrder="3" locked="false" isInGroup="-1">
@@ -38,21 +38,21 @@
     <control controlID="8" controlTypeID="com.balsamiq.mockups::TextArea" x="135" y="217" w="659" h="141" measuredW="200" measuredH="140" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
         <align>center</align>
-        <color>10066329</color>
+        <color>6710886</color>
         <size>28</size>
         <text/>
       </controlProperties>
     </control>
     <control controlID="9" controlTypeID="com.balsamiq.mockups::Label" x="152" y="232" w="-1" h="-1" measuredW="582" measuredH="48" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
-        <color>16777215</color>
+        <color>0</color>
         <size>40</size>
         <text>System-wide%20Python%20interpreter</text>
       </controlProperties>
     </control>
     <control controlID="10" controlTypeID="com.balsamiq.mockups::Label" x="152" y="295" w="-1" h="-1" measuredW="332" measuredH="48" zOrder="8" locked="false" isInGroup="-1">
       <controlProperties>
-        <color>16777215</color>
+        <color>0</color>
         <size>40</size>
         <text>lib/site-packages/</text>
       </controlProperties>

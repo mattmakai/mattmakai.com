@@ -1,41 +1,36 @@
-<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1132" measuredH="722" mockupW="1084" mockupH="705">
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1132" measuredH="652" mockupW="1084" mockupH="635">
   <controls>
-    <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="48" y="17" w="1084" h="705" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="-1">
-      <controlProperties>
-        <borderStyle>none</borderStyle>
-      </controlProperties>
-    </control>
-    <control controlID="1" controlTypeID="com.balsamiq.mockups::Canvas" x="95" y="90" w="700" h="539" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1">
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Canvas" x="95" y="90" w="735" h="475" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1">
       <controlProperties>
         <color>16777215</color>
       </controlProperties>
     </control>
-    <control controlID="2" controlTypeID="com.balsamiq.mockups::Canvas" x="114" y="138" w="668" h="462" measuredW="100" measuredH="70" zOrder="2" locked="false" isInGroup="-1">
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Canvas" x="114" y="153" w="695" h="392" measuredW="100" measuredH="70" zOrder="2" locked="false" isInGroup="-1">
       <controlProperties>
         <color>16777215</color>
       </controlProperties>
     </control>
-    <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="116" y="106" w="-1" h="-1" measuredW="234" measuredH="32" zOrder="3" locked="false" isInGroup="-1">
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="114" y="113" w="-1" h="-1" measuredW="388" measuredH="40" zOrder="3" locked="false" isInGroup="-1">
       <controlProperties>
         <color>0</color>
-        <size>24</size>
-        <text>Virtual%20Private%20Server</text>
+        <size>32</size>
+        <text>Laptop%20/%20Desktop%20/%20Server</text>
       </controlProperties>
     </control>
-    <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="128" y="153" w="-1" h="-1" measuredW="196" measuredH="32" zOrder="4" locked="false" isInGroup="-1">
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="135" y="177" w="-1" h="-1" measuredW="419" measuredH="40" zOrder="4" locked="false" isInGroup="-1">
       <controlProperties>
         <color>0</color>
-        <size>24</size>
-        <text>Operating%20system</text>
+        <size>32</size>
+        <text>Linux%20/%20Mac%20OS%20X%20/%20Windows</text>
       </controlProperties>
     </control>
-    <control controlID="5" controlTypeID="com.balsamiq.mockups::SubTitle" x="95" y="58" w="-1" h="-1" measuredW="406" measuredH="35" zOrder="5" locked="false" isInGroup="-1">
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::SubTitle" x="95" y="55" w="-1" h="-1" measuredW="379" measuredH="35" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
         <size>32</size>
-        <text>Web%20application%20deployment</text>
+        <text>Development%20Environment</text>
       </controlProperties>
     </control>
-    <control controlID="8" controlTypeID="com.balsamiq.mockups::TextArea" x="139" y="200" w="621" h="189" measuredW="200" measuredH="140" zOrder="6" locked="false" isInGroup="-1">
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::TextArea" x="135" y="217" w="659" h="141" measuredW="200" measuredH="140" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
         <align>center</align>
         <color>40463</color>
@@ -43,20 +38,23 @@
         <text/>
       </controlProperties>
     </control>
-    <control controlID="9" controlTypeID="com.balsamiq.mockups::Label" x="152" y="214" w="-1" h="-1" measuredW="414" measuredH="32" zOrder="7" locked="false" isInGroup="-1">
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Label" x="152" y="232" w="-1" h="-1" measuredW="582" measuredH="48" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
-        <bold>true</bold>
         <color>16777215</color>
-        <size>24</size>
-        <text>System-installed%20Python%20interpreter</text>
+        <size>40</size>
+        <text>System-wide%20Python%20interpreter</text>
       </controlProperties>
     </control>
-    <control controlID="10" controlTypeID="com.balsamiq.mockups::Label" x="158" y="268" w="-1" h="-1" measuredW="209" measuredH="32" zOrder="8" locked="false" isInGroup="-1">
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Label" x="152" y="295" w="-1" h="-1" measuredW="332" measuredH="48" zOrder="8" locked="false" isInGroup="-1">
       <controlProperties>
-        <bold>true</bold>
         <color>16777215</color>
-        <size>24</size>
+        <size>40</size>
         <text>lib/site-packages/</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Canvas" x="48" y="17" w="1084" h="635" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
       </controlProperties>
     </control>
   </controls>
