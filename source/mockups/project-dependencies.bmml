@@ -5,7 +5,7 @@
         <borderStyle>none</borderStyle>
       </controlProperties>
     </control>
-    <control controlID="13" controlTypeID="com.balsamiq.mockups::TextArea" x="78" y="46" w="288" h="464" measuredW="200" measuredH="140" zOrder="1" locked="false" isInGroup="-1">
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::TextArea" x="78" y="46" w="412" h="464" measuredW="200" measuredH="140" zOrder="1" locked="false" isInGroup="-1">
       <controlProperties>
         <align>center</align>
         <color>11982760</color>
@@ -13,71 +13,31 @@
         <text/>
       </controlProperties>
     </control>
-    <control controlID="16" controlTypeID="com.balsamiq.mockups::Label" x="172" y="60" w="86" h="-1" measuredW="88" measuredH="48" zOrder="3" locked="false" isInGroup="-1">
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Label" x="98" y="64" w="373" h="-1" measuredW="362" measuredH="68" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>0</color>
+        <size>60</size>
+        <text>work%20project</text>
+      </controlProperties>
+    </control>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::Label" x="98" y="202" w="225" h="-1" measuredW="193" measuredH="48" zOrder="3" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>true</bold>
         <color>0</color>
         <size>40</size>
-        <text>work</text>
-      </controlProperties>
-    </control>
-    <control controlID="20" controlTypeID="com.balsamiq.mockups::Label" x="420" y="60" w="-1" h="-1" measuredW="204" measuredH="48" zOrder="4" locked="false" isInGroup="-1">
-      <controlProperties>
-        <bold>true</bold>
-        <color>0</color>
-        <size>40</size>
-        <text>other%20work</text>
-      </controlProperties>
-    </control>
-    <control controlID="39" controlTypeID="com.balsamiq.mockups::Label" x="110" y="179" w="225" h="-1" measuredW="135" measuredH="36" zOrder="5" locked="false" isInGroup="-1">
-      <controlProperties>
-        <bold>true</bold>
-        <color>0</color>
-        <size>28</size>
         <text>django%201.6</text>
       </controlProperties>
     </control>
-    <control controlID="40" controlTypeID="com.balsamiq.mockups::Label" x="110" y="230" w="225" h="-1" measuredW="146" measuredH="36" zOrder="6" locked="false" isInGroup="-1">
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::Label" x="98" y="262" w="225" h="-1" measuredW="209" measuredH="48" zOrder="4" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>true</bold>
         <color>0</color>
-        <size>28</size>
-        <text>South%200.84</text>
+        <size>40</size>
+        <text>South%201.0.2</text>
       </controlProperties>
     </control>
-    <control controlID="45" controlTypeID="com.balsamiq.mockups::Label" x="420" y="179" w="237" h="-1" measuredW="135" measuredH="36" zOrder="7" locked="false" isInGroup="-1">
-      <controlProperties>
-        <bold>true</bold>
-        <color>0</color>
-        <size>28</size>
-        <text>django%201.7</text>
-      </controlProperties>
-    </control>
-    <control controlID="46" controlTypeID="com.balsamiq.mockups::Label" x="420" y="428" w="-1" h="-1" measuredW="21" measuredH="36" zOrder="8" locked="false" isInGroup="-1">
-      <controlProperties>
-        <bold>true</bold>
-        <color>0</color>
-        <size>28</size>
-        <text>...</text>
-      </controlProperties>
-    </control>
-    <control controlID="51" controlTypeID="com.balsamiq.mockups::Label" x="110" y="281" w="225" h="-1" measuredW="169" measuredH="36" zOrder="9" locked="false" isInGroup="-1">
-      <controlProperties>
-        <bold>true</bold>
-        <color>0</color>
-        <size>28</size>
-        <text>requests%202.5</text>
-      </controlProperties>
-    </control>
-    <control controlID="53" controlTypeID="com.balsamiq.mockups::TextArea" x="392" y="46" w="288" h="464" measuredW="200" measuredH="140" zOrder="2" locked="false" isInGroup="-1">
-      <controlProperties>
-        <align>center</align>
-        <color>11982760</color>
-        <size>28</size>
-        <text/>
-      </controlProperties>
-    </control>
-    <control controlID="54" controlTypeID="com.balsamiq.mockups::TextArea" x="706" y="46" w="288" h="464" measuredW="200" measuredH="140" zOrder="10" locked="false" isInGroup="-1">
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::TextArea" x="523" y="46" w="412" h="464" measuredW="200" measuredH="140" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
         <align>center</align>
         <color>16770457</color>
@@ -85,115 +45,83 @@
         <text/>
       </controlProperties>
     </control>
-    <control controlID="55" controlTypeID="com.balsamiq.mockups::Label" x="734" y="60" w="-1" h="-1" measuredW="233" measuredH="48" zOrder="11" locked="false" isInGroup="-1">
+    <control controlID="55" controlTypeID="com.balsamiq.mockups::Label" x="545" y="64" w="-1" h="-1" measuredW="349" measuredH="68" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>0</color>
+        <size>60</size>
+        <text>side%20project</text>
+      </controlProperties>
+    </control>
+    <control controlID="56" controlTypeID="com.balsamiq.mockups::Label" x="545" y="202" w="-1" h="-1" measuredW="192" measuredH="48" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>true</bold>
         <color>0</color>
         <size>40</size>
-        <text>side%20project</text>
+        <text>django%201.7</text>
       </controlProperties>
     </control>
-    <control controlID="56" controlTypeID="com.balsamiq.mockups::Label" x="734" y="179" w="-1" h="-1" measuredW="135" measuredH="36" zOrder="12" locked="false" isInGroup="-1">
+    <control controlID="58" controlTypeID="com.balsamiq.mockups::Label" x="98" y="318" w="291" h="-1" measuredW="250" measuredH="48" zOrder="8" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>true</bold>
         <color>0</color>
-        <size>28</size>
-        <text>django%201.8</text>
+        <size>40</size>
+        <text>gunicorn%2017.5</text>
       </controlProperties>
     </control>
-    <control controlID="58" controlTypeID="com.balsamiq.mockups::Label" x="110" y="332" w="225" h="-1" measuredW="199" measuredH="36" zOrder="13" locked="false" isInGroup="-1">
+    <control controlID="59" controlTypeID="com.balsamiq.mockups::Label" x="98" y="381" w="225" h="-1" measuredW="207" measuredH="48" zOrder="9" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>true</bold>
         <color>0</color>
-        <size>28</size>
-        <text>gunicorn%2019.3.0</text>
+        <size>40</size>
+        <text>twilio%203.6.4</text>
       </controlProperties>
     </control>
-    <control controlID="59" controlTypeID="com.balsamiq.mockups::Label" x="110" y="383" w="225" h="-1" measuredW="143" measuredH="36" zOrder="14" locked="false" isInGroup="-1">
+    <control controlID="60" controlTypeID="com.balsamiq.mockups::Label" x="98" y="429" w="-1" h="-1" measuredW="29" measuredH="48" zOrder="10" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>true</bold>
         <color>0</color>
-        <size>28</size>
-        <text>twilio%203.7.2</text>
-      </controlProperties>
-    </control>
-    <control controlID="60" controlTypeID="com.balsamiq.mockups::Label" x="110" y="428" w="-1" h="-1" measuredW="21" measuredH="36" zOrder="15" locked="false" isInGroup="-1">
-      <controlProperties>
-        <bold>true</bold>
-        <color>0</color>
-        <size>28</size>
+        <size>40</size>
         <text>...</text>
       </controlProperties>
     </control>
-    <control controlID="62" controlTypeID="com.balsamiq.mockups::Label" x="420" y="281" w="237" h="-1" measuredW="169" measuredH="36" zOrder="16" locked="false" isInGroup="-1">
+    <control controlID="64" controlTypeID="com.balsamiq.mockups::Label" x="98" y="140" w="225" h="-1" measuredW="199" measuredH="48" zOrder="11" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>true</bold>
         <color>0</color>
-        <size>28</size>
-        <text>requests%202.6</text>
+        <size>40</size>
+        <text>python%202.6</text>
       </controlProperties>
     </control>
-    <control controlID="63" controlTypeID="com.balsamiq.mockups::Label" x="420" y="332" w="225" h="-1" measuredW="194" measuredH="36" zOrder="17" locked="false" isInGroup="-1">
+    <control controlID="65" controlTypeID="com.balsamiq.mockups::Label" x="547" y="140" w="-1" h="-1" measuredW="198" measuredH="48" zOrder="12" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>true</bold>
         <color>0</color>
-        <size>28</size>
-        <text>gunicorn%2018.1.0</text>
-      </controlProperties>
-    </control>
-    <control controlID="64" controlTypeID="com.balsamiq.mockups::Label" x="110" y="128" w="225" h="-1" measuredW="139" measuredH="36" zOrder="18" locked="false" isInGroup="-1">
-      <controlProperties>
-        <bold>true</bold>
-        <color>0</color>
-        <size>28</size>
+        <size>40</size>
         <text>python%202.7</text>
       </controlProperties>
     </control>
-    <control controlID="65" controlTypeID="com.balsamiq.mockups::Label" x="734" y="123" w="-1" h="-1" measuredW="139" measuredH="36" zOrder="19" locked="false" isInGroup="-1">
+    <control controlID="67" controlTypeID="com.balsamiq.mockups::Label" x="547" y="318" w="316" h="-1" measuredW="284" measuredH="48" zOrder="13" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>true</bold>
         <color>0</color>
-        <size>28</size>
-        <text>python%203.5</text>
+        <size>40</size>
+        <text>gunicorn%2019.3.0</text>
       </controlProperties>
     </control>
-    <control controlID="66" controlTypeID="com.balsamiq.mockups::Label" x="734" y="281" w="237" h="-1" measuredW="119" measuredH="36" zOrder="20" locked="false" isInGroup="-1">
+    <control controlID="69" controlTypeID="com.balsamiq.mockups::Label" x="545" y="381" w="225" h="-1" measuredW="205" measuredH="48" zOrder="14" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>true</bold>
         <color>0</color>
-        <size>28</size>
-        <text>requests</text>
+        <size>40</size>
+        <text>twilio%203.7.2</text>
       </controlProperties>
     </control>
-    <control controlID="67" controlTypeID="com.balsamiq.mockups::Label" x="734" y="332" w="225" h="-1" measuredW="114" measuredH="36" zOrder="21" locked="false" isInGroup="-1">
+    <control controlID="70" controlTypeID="com.balsamiq.mockups::Label" x="545" y="429" w="-1" h="-1" measuredW="29" measuredH="48" zOrder="15" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>true</bold>
         <color>0</color>
-        <size>28</size>
-        <text>gunicorn</text>
-      </controlProperties>
-    </control>
-    <control controlID="68" controlTypeID="com.balsamiq.mockups::Label" x="420" y="128" w="225" h="-1" measuredW="139" measuredH="36" zOrder="22" locked="false" isInGroup="-1">
-      <controlProperties>
-        <bold>true</bold>
-        <color>0</color>
-        <size>28</size>
-        <text>python%202.7</text>
-      </controlProperties>
-    </control>
-    <control controlID="69" controlTypeID="com.balsamiq.mockups::Label" x="734" y="383" w="225" h="-1" measuredW="70" measuredH="36" zOrder="23" locked="false" isInGroup="-1">
-      <controlProperties>
-        <bold>true</bold>
-        <color>0</color>
-        <size>28</size>
-        <text>twilio</text>
-      </controlProperties>
-    </control>
-    <control controlID="70" controlTypeID="com.balsamiq.mockups::Label" x="734" y="428" w="-1" h="-1" measuredW="21" measuredH="36" zOrder="24" locked="false" isInGroup="-1">
-      <controlProperties>
-        <bold>true</bold>
-        <color>0</color>
-        <size>28</size>
+        <size>40</size>
         <text>...</text>
       </controlProperties>
     </control>
