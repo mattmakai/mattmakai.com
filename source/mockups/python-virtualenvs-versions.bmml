@@ -105,5 +105,21 @@
         <text/>
       </controlProperties>
     </control>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::Label" x="193" y="446" w="-1" h="-1" measuredW="197" measuredH="48" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>0</color>
+        <size>40</size>
+        <text>Django%201.6</text>
+      </controlProperties>
+    </control>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::Label" x="484" y="446" w="-1" h="-1" measuredW="196" measuredH="48" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>0</color>
+        <size>40</size>
+        <text>Django%201.8</text>
+      </controlProperties>
+    </control>
   </controls>
 </mockup>

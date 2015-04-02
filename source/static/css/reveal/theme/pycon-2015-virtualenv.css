@@ -250,58 +250,34 @@ body {
 
 h1.light-bg {color: #222;}
 
-.webdev .reveal .state-background {
-  background: url(/source/static/img/presentations/2015-sfpython/webdev.png);
-  background-size: cover;
-}
-
-.standard-web .reveal .state-background {
-  background: url(/source/static/img/presentations/2015-sfpython/standard-web.png);
-  background-size: cover;
-}
-
-.only-wsgi .reveal .state-background {
-  background: url(/source/static/img/presentations/2015-sfpython/wsgi-world.png);
-  background-size: cover;
-}
-
-.standard-wsgi .reveal .state-background {
-  background: url(/source/static/img/presentations/2015-sfpython/standard-wsgi.png);
-  background-size: cover;
-}
-
-.async-slide .reveal .state-background {
-  background: url(/source/static/img/presentations/2015-sfpython/async-processing.png);
-  background-size: cover;
-}
-
-.long-polling-ajax .reveal .state-background {
-  background: url(/source/static/img/presentations/2015-sfpython/long-polling-ajax.png);
-  background-size: cover;
-}
-
-.websockets .reveal .state-background {
-  background: url(/source/static/img/presentations/2015-sfpython/websockets.png);
-  background-size: cover;
-}
-
-.python-system-interpreter .reveal .state-background {
-  background: url(/source/static/img/presentations/2015-django-district/python-system-interpreter.png);
-  background-size: cover;
-}
-
-.virtualenvs .reveal .state-background {
-  background: url(/source/static/img/presentations/2015-django-district/python-virtualenvs.png);
-  background-size: cover;
-}
 
 .project-dependencies .reveal .state-background {
   background: url(/source/static/img/presentations/2015-pycon-virtualenv/project-dependencies.png);
   background-size: cover;
 }
 
-.virtualenv-focus .reveal .state-background {
-  background: url(/source/static/img/presentations/2015-pycon-virtualenv/virtualenv-focus.png);
+.python-system-installation .reveal .state-background {
+  background: url(/source/static/img/presentations/2015-pycon-virtualenv/python-system-installation.png);
+  background-size: cover;
+}
+
+.python-system-installation-django-16 .reveal .state-background {
+  background: url(/source/static/img/presentations/2015-pycon-virtualenv/python-system-installation-django-16.png);
+  background-size: cover;
+}
+
+.python-system-installation-django-18 .reveal .state-background {
+  background: url(/source/static/img/presentations/2015-pycon-virtualenv/python-system-installation-django-18.png);
+  background-size: cover;
+}
+
+.python-virtualenvs-versions .reveal .state-background {
+  background: url(/source/static/img/presentations/2015-pycon-virtualenv/python-virtualenvs-versions.png);
+  background-size: cover;
+}
+
+.python-virtualenvs .reveal .state-background {
+  background: url(/source/static/img/presentations/2015-pycon-virtualenv/python-virtualenvs.png);
   background-size: cover;
 }
 

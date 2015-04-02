@@ -181,7 +181,7 @@
         <bold>true</bold>
         <color>0</color>
         <size>28</size>
-        <text>django%201.7</text>
+        <text>django%201.8</text>
       </controlProperties>
     </control>
     <control controlID="46" controlTypeID="com.balsamiq.mockups::Label" x="485" y="462" w="-1" h="-1" measuredW="21" measuredH="36" zOrder="24" locked="false" isInGroup="-1">
