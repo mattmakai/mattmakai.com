@@ -1,0 +1,25 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1660" measuredH="1105" mockupW="1600" mockupH="1085">
+  <controls>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Image" x="60" y="20" w="1600" h="1085" measuredW="1600" measuredH="1085" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/antique-map-blank.jpg</src>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::RoundButton" x="201" y="63" w="1337" h="892" measuredW="32" measuredH="32" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>472931</borderColor>
+        <color>2848996</color>
+        <shape>roundRect</shape>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::Label" x="619" y="406" w="643" h="-1" measuredW="466" measuredH="189" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <size>72</size>
+        <text>%22The%20Internet%22</text>
+        <textOrientation>slanted</textOrientation>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

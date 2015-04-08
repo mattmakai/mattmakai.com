@@ -18,6 +18,8 @@
         <link rel="stylesheet" href="/source/static/css/reveal/reveal.css">
         <link rel="stylesheet" href="/source/static/css/reveal/theme/pycon-2015-virtualenv.css" id="theme">
         <link rel="stylesheet" href="/source/static/lib/css/zenburn.css">
+        <link rel="stylesheet" media="print" href="/source/static/css/reveal/print/pdf.css">
+        <link rel="stylesheet" media="print" href="/source/static/css/reveal/print/print.css">
         <style>
             ol.bigger li, 
             ul.bigger li {
@@ -45,6 +47,15 @@
             h2.commandline {font-size: 3em; color: #222; padding-top: 20px;}
             h2.commandline-sm {font-size: 2.2em; color: #222; padding-top: 30px;}
         </style>
+
+    <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
 
 		<!--[if lt IE 9]>
 		<script src="/source/static/lib/js/html5shiv.js"></script>
@@ -159,6 +170,10 @@
                 
                 <section>
                     <h2 class="commandline">Virtualenvwrapper</h2>
+                </section>
+                
+                <section data-state="black-bg">
+                    <img src="/source/static/img/presentations/2015-pycon-virtualenv/docker-logo.png" style="border: none; background: none; box-shadow: none;">
                 </section>
                 
                 <section>
