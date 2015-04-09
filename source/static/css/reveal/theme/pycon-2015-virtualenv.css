@@ -285,3 +285,9 @@ h1.light-bg {color: #222;}
   background: url(/source/static/img/presentations/2015-pycon-virtualenv/virtualenv-inspection.png);
   background-size: cover;
 }
+
+.open-source .reveal .state-background {
+  background: url(/source/static/img/presentations/2015-pycon-virtualenv/virtualenv-open-source.jpg);
+  background-size: cover;
+}
+
