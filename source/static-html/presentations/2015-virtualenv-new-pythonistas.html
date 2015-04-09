@@ -24,8 +24,8 @@
             ol.bigger li, 
             ul.bigger li {
                color: #222;
-               font-size: 3em;
-               margin-bottom: 15px;
+               font-size: 2em;
+               margin-bottom: 5px;
                line-height: 1.1em;
                margin-left: 20px;
             }
@@ -48,6 +48,7 @@
             h2.commandline-sm {font-size: 2.2em; color: #222; padding-top: 30px;}
             h1.code {font-family: courier; font-weight: bold;}
             h2.code {font-family: courier; font-weight: bold;}
+            ol.secondary {font-size: 22px; margin-left: 40px;}
         </style>
 
     <!-- Printing and PDF exports -->
@@ -92,10 +93,8 @@
                     <h1>Our day jobs</h1>
                 </section>
                 
-                <section style="text-align: center;">
-                    <h2 style="font-size: 3.5em; line-height: 1.1em;">
-                        The Dependencies Problem
-                    </h2>
+                <section style="text-align: center;" data-state="black-bg">
+                    <h2 style="font-size: 3.8em; line-height: 1.1em; color: #eee;">The Dependencies Problem</h2>
                 </section>
                 
                 <section data-state="project-dependencies">
@@ -116,16 +115,11 @@
                 <section data-state="python-virtualenvs-versions">
                 </section>
                 
-                <section style="text-align: center;">
-                    <h1>Under the covers</h1>
+                <section style="text-align: center;" data-state="black-bg">
+                    <h2 style="font-size: 3.8em; line-height: 1.1em; color: #eee;">Under the covers</h2>
                 </section>
                 
                 <section data-state="virtualenv-inspection">
-                </section>
-                
-                <section style="text-align: center;">
-                    <h1>Activating</h1>
-                    <h1>virtualenv</h1>
                 </section>
                 
                 <section style="text-align: left;">
@@ -156,8 +150,8 @@
                     <h2 class="commandline-sm code">/usr/bin</h2>
                 </section>
 
-                <section style="text-align: center;">
-                    <h1>Tips &amp; Tricks</h1>
+                <section style="text-align: center;" data-state="black-bg">
+                    <h2 style="font-size: 3.8em; line-height: 1.1em; color: #eee;">Tips &amp; Tricks</h2>
                 </section>
                 
                 <section data-state="open-source">
@@ -182,7 +176,7 @@
 
                 <section>
                     <h1>Autoenv</h1>
-                    <h2 class="commandline" style="color: #222;">.env</h2>
+                    <h2 class="commandline code" style="color: #222;">.env</h2>
                 </section>
                 
                 <section style="text-align: center;">
@@ -193,7 +187,24 @@
                 <section data-state="black-bg">
                     <img src="/source/static/img/presentations/2015-pycon-virtualenv/docker-logo.png" style="border: none; background: none; box-shadow: none;">
                 </section>
-                
+
+                <section>
+                    <h2>For New Pythonistas</h2>
+                    <ul class="bigger">
+                        <li>The Dependencies Problem</li>
+                        <li class="fragment">Virtualenv solution</li>
+                        <li class="fragment">Inside the env directory</li>
+                        <li class="fragment">Tips &amp; Tricks
+                            <ol class="secondary">
+                                <li>Aliases</li>
+                                <li>Autoenv</li>
+                                <li>virtualenvwrapper</li>
+                                <li>Docker</li>
+                            </ol>
+                        </ul>
+                    </ul>
+                </section>
+
                 <section>
                     <h2>Renee Chu</h2>
                     <ul class="bigger-contact-info">
