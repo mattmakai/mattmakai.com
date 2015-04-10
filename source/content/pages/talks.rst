@@ -35,9 +35,9 @@ in Montreal, Canada on April 11.
 
 `Don't Make Us Say We Told You So: virtualenv for New Pythonistas </presentations/2015-virtualenv-new-pythonistas.html>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Even though it’s possible to program without using virtual environments, you 
-can shoot yourself in the foot without them. This talk will start with an 
-illustration of how not using virtual environments can mess you up as a 
+Even though it’s possible to program multiple Python projects without using 
+virtualenv, you can shoot yourself in the foot without them. This talk will 
+start with an illustration of how not using virtualenv can mess you up as a 
 programmer, and will walk you through a simple way to get started with good 
 habits using virtualenv.
 
