@@ -8,18 +8,11 @@ Tech Talks
 2015
 ----
 
-`Don't Make Us Say We Told You So: virtualenv for New Pythonistas </presentations/2015-virtualenv-new-pythonistas.html>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Even though it’s possible to program without using virtual environments, you 
-can shoot yourself in the foot without them. This talk will start with an 
-illustration of how not using virtual environments can mess you up as a 
-programmer, and will walk you through a simple way to get started with good 
-habits using virtualenv.
-
-Upcoming talk with 
-`Renee Chu at PyCon 2015 <https://us.pycon.org/2015/schedule/presentation/421/>`_ 
-in Montreal, Canada at the beginning of April.
-
+How to Leverage Media for Your Startup
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+`Upcoming panel at the Wix Developer's Lounge <https://blogs.dropbox.com/developers/2015/03/how-to-leverage-media-for-your-startup-event/>`_ 
+with Leah Culver of Dropbox and Wix's David Zuckerman in San Francisco on
+May 13.
 
 ----
 
@@ -35,7 +28,22 @@ participate!
 
 Upcoming talk with 
 `Kate Heddleston at PyCon 2015 <https://us.pycon.org/2015/schedule/presentation/336/>`_ 
-in Montreal, Canada at the beginning of April.
+in Montreal, Canada on April 11.
+
+----
+
+
+`Don't Make Us Say We Told You So: virtualenv for New Pythonistas </presentations/2015-virtualenv-new-pythonistas.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Even though it’s possible to program without using virtual environments, you 
+can shoot yourself in the foot without them. This talk will start with an 
+illustration of how not using virtual environments can mess you up as a 
+programmer, and will walk you through a simple way to get started with good 
+habits using virtualenv.
+
+Upcoming talk with 
+`Renee Chu at PyCon 2015 <https://us.pycon.org/2015/schedule/presentation/421/>`_ 
+in Montreal, Canada on April 10.
 
 ----
 
