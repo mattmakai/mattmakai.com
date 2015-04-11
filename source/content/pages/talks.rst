@@ -41,7 +41,7 @@ start with an illustration of how not using virtualenv can mess you up as a
 programmer, and will walk you through a simple way to get started with good 
 habits using virtualenv.
 
-Upcoming talk with 
+Talk given with 
 `Renee Chu at PyCon 2015 <https://us.pycon.org/2015/schedule/presentation/421/>`_ 
 in Montreal, Canada on April 10.
 
