@@ -10,7 +10,7 @@ At PyCon 2015 in Montreal, `Kate Heddleston <http://www.kateheddleston.com/>`_
 and I presented 
 `Choose Your Own WSGI Deployment Adventure <https://us.pycon.org/2015/schedule/presentation/336/>`_.
 
-If you'd like to create your own Choose Your Own Adventure Presentations,
+If you'd like to create your own Choose Your Own Adventure presentations,
 all the code is open source and there are blog posts detailing how the code
 was written. Here are the links to get you going:
 

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/all.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2015-04-11T00:00:00-04:00</updated><entry><title>PyCon WSGI Deployment Adventure Links</title><link href="http://www.letshackdc.com/pycon-wsgi-deployment-adventure-links.html" rel="alternate"></link><updated>2015-04-11T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2015-04-11:pycon-wsgi-deployment-adventure-links.html</id><summary type="html">&lt;p&gt;At PyCon 2015 in Montreal, &lt;a class="reference external" href="http://www.kateheddleston.com/"&gt;Kate Heddleston&lt;/a&gt;
 and I presented
 &lt;a class="reference external" href="https://us.pycon.org/2015/schedule/presentation/336/"&gt;Choose Your Own WSGI Deployment Adventure&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;If you'd like to create your own Choose Your Own Adventure Presentations,
+&lt;p&gt;If you'd like to create your own Choose Your Own Adventure presentations,
 all the code is open source and there are blog posts detailing how the code
 was written. Here are the links to get you going:&lt;/p&gt;
 &lt;ul class="simple"&gt;
