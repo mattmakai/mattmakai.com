@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/all-en.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2015-01-14T00:00:00-05:00</updated><entry><title>Resources for WebSockets with Python</title><link href="http://www.letshackdc.com/websockets-python-resources.html" rel="alternate"></link><updated>2015-01-14T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2015-01-14:websockets-python-resources.html</id><summary type="html">&lt;p&gt;Before you learn node.js to handle WebSockets or any type of full-duplex
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/all-en.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2015-04-11T00:00:00-04:00</updated><entry><title>PyCon WSGI Deployment Adventure Links</title><link href="http://www.letshackdc.com/pycon-wsgi-deployment-adventure-links.html" rel="alternate"></link><updated>2015-04-11T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2015-04-11:pycon-wsgi-deployment-adventure-links.html</id><summary type="html">&lt;p&gt;At PyCon 2015 in Montreal, &lt;a class="reference external" href="http://www.kateheddleston.com/"&gt;Kate Heddleston&lt;/a&gt;
+and I presented
+&lt;a class="reference external" href="https://us.pycon.org/2015/schedule/presentation/336/"&gt;Choose Your Own WSGI Deployment Adventure&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you'd like to create your own Choose Your Own Adventure Presentations,
+all the code is open source and there are blog posts detailing how the code
+was written. Here are the links to get you going:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/makaimc/choose-your-own-adventure-presentations"&gt;Choose Your Own Adventures Git repository&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.twilio.com/blog/2014/11/choose-your-own-adventure-presentations-with-reveal-js-python-and-websockets.html"&gt;Choose Your Own Adventure Presentations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.twilio.com/blog/2015/03/choose-your-own-adventures-presentations-wizard-mode-part-1-of-3.html"&gt;Choose Your Own Adventure Presentations: Wizard Mode Part 1 of 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Choose Your Own Adventure Presentations: Wizard Mode Part 2 of 3 (coming soon!)&lt;/li&gt;
+&lt;li&gt;Choose Your Own Adventure Presentations: Wizard Mode Part 3 of 3 (coming soon!)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For the topics we covered during the talk, and the many other deployment
+subjects we did not explain, make sure to check out
+&lt;a class="reference external" href="http://www.fullstackpython.com"&gt;Full Stack Python&lt;/a&gt;. These pages in
+particular will be useful if you want to learn about deploying and
+running WSGI applications:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.fullstackpython.com/deployment.html"&gt;Deployments&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.fullstackpython.com/wsgi-servers.html"&gt;WSGI servers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.fullstackpython.com/web-analytics.html"&gt;Web analytics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.fullstackpython.com/configuration-management.html"&gt;Configuration management&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.fullstackpython.com/web-frameworks.html"&gt;Web frameworks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.fullstackpython.com/logging.html"&gt;Logging&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.fullstackpython.com/task-queues.html"&gt;Task queues&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Also, there's a
+&lt;a class="reference external" href="http://www.fullstackpython.com/table-of-contents.html"&gt;huge table of contents&lt;/a&gt;
+that lays out every subject categories. Don't forget that Full Stack Python
+itself is &lt;a class="reference external" href="https://github.com/makaimc/fullstackpython.com"&gt;also open source&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;We hope that our Choose Your Own WSGI Deployment Adventure talk
+made you laugh and maybe learn a little bit more about Python
+web application deployments.&lt;/p&gt;
+</summary></entry><entry><title>Resources for WebSockets with Python</title><link href="http://www.letshackdc.com/websockets-python-resources.html" rel="alternate"></link><updated>2015-01-14T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2015-01-14:websockets-python-resources.html</id><summary type="html">&lt;p&gt;Before you learn node.js to handle WebSockets or any type of full-duplex
 client-server communication, check out some Python options first. In this
 post I'll lay out some of the resources that I found most helpful for getting
 started coding Python web applications that use WebSockets.&lt;/p&gt;
