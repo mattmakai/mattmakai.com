@@ -124,8 +124,11 @@ h3.my-advantages {font-size: 21px; margin-top: 40px;}
 .specific-link {font-style: italic;}
 .specific-text {font-size: 13px; line-height: 1.25em;}
 .talk-title {font-size: 12px;}
+.job-title {font-size: 12px;}
 
-.contact-info {font-family: "News Cycle"; font-weight: normal;}
+.contact-info {font-family: "News Cycle"; 
+               font-weight: normal; 
+               margin-top: 10px;}
 
 .after-one {margin-top: 15px;}
 .after-talk-one {margin-top: 10px;}
