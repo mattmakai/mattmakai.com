@@ -8,9 +8,17 @@ Tech Talks
 2015
 ----
 
+I'm taking a break from speaking during the launch of my 
+`new Python deployments book <http://www.deploypython.com/>`_. When I am
+ready to get back into the technical speaking game this fall, I'll have a 
+new talk on Swift.
+
+----
+
+
 How to Leverage Media for Your Startup
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-`Upcoming panel at the Wix Developer's Lounge <https://blogs.dropbox.com/developers/2015/03/how-to-leverage-media-for-your-startup-event/>`_ 
+`Panel at the Wix Developer's Lounge <https://blogs.dropbox.com/developers/2015/03/how-to-leverage-media-for-your-startup-event/>`_ 
 with Leah Culver of Dropbox and Wix's David Zuckerman in San Francisco on
 May 13.
 
@@ -26,7 +34,7 @@ choose topics via text and email votes. Each choice leads down a separate path
 to explain different confusing WSGI subjects. Bring your phone or laptop to 
 participate!
 
-Upcoming talk with 
+Talk given with 
 `Kate Heddleston at PyCon 2015 <https://us.pycon.org/2015/schedule/presentation/336/>`_ 
 in Montreal, Canada on April 11.
 
