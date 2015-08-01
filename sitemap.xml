@@ -307,6 +307,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>http://www.mattmakai.com/learning-swift.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>http://www.mattmakai.com/lua.html</loc>
     <priority>1.0</priority>
   </url>
