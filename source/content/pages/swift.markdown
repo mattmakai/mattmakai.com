@@ -7,6 +7,12 @@ slug: learning-swift
 * Bought an [Apple Watch](http://www.apple.com/watch/). Oh my.
 * Dictionaries use the `[]` symbols, which is confusing coming from Python
   where you'd use `{}`.
+* `&&` is used to combine `if` conditionals and `||` are used to perform OR
+  on conditionals. Again, different from using the `and` and `or` keywords.
+* `Bool` is the boolean variable type, `true` and `false` are the values,
+  with lowercase charaters for the first letters on the values.
+* `else if` is how to define else if in if conditionals, rather than `elif`
+  in Python.
 
 
 #### 08.01.2015
