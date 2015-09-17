@@ -31,5 +31,5 @@ Typically one of these three open source projects are being streamed:
 
 ## About Me
 I'm a [Twilio Developer Evangelist](https://www.twilio.com/blog/2014/02/introducing-developer-evangelist-matt-makai.html) based in San Francisco, CA
-and I primarily develop software in Python and Swift.
+and I mostly code in Python and Swift.
 
