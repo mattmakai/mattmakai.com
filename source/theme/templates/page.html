@@ -1,15 +1,17 @@
-{% if page.category == 'about' %}
+{% if page.slug == 'about' %}
     {% include 'about.html' %}
-{% elif page.category == 'bookmarks' %}
+{% elif page.slug == 'bookmarks' %}
     {% include 'bookmarks.html' %}
-{% elif page.category == 'work' %}
+{% elif page.slug == 'work' %}
     {% include 'work.html' %}
-{% elif page.category == 'talks' %}
+{% elif page.slug == 'talks' %}
     {% include 'talks.html' %}
+{% elif page.slug == 'bio' %}
+    {% include 'other.html' %}
+{% elif page.slug == 'live-coding' %}
+    {% include 'other.html' %}
+{% elif page.slug == 'learning-swift' %}
+    {% include 'other.html' %}
 {% elif page.category == 'page' %}
-    {% include 'other.html' %}
-{% elif page.category == 'bio' %}
-    {% include 'other.html' %}
-{% elif page.category == 'learning' %}
     {% include 'other.html' %}
 {% endif %}

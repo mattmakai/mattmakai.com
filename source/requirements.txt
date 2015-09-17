@@ -1,2 +1,2 @@
-Pelican==3.3
-Markdown==2.4
+Markdown==2.6.2
+pelican==3.6.3

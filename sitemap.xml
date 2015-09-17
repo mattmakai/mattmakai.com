@@ -295,11 +295,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://www.mattmakai.com/javascript.html</loc>
+    <loc>http://www.mattmakai.com/javascript-frameworks.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://www.mattmakai.com/javascript-frameworks.html</loc>
+    <loc>http://www.mattmakai.com/javascript.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -307,7 +307,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://www.mattmakai.com/learning-swift.html</loc>
+    <loc>http://www.mattmakai.com/live-coding.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -332,6 +332,10 @@
   </url>
   <url>
     <loc>http://www.mattmakai.com/startups.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.mattmakai.com/learning-swift.html</loc>
     <priority>1.0</priority>
   </url>
   <url>
