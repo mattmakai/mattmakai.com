@@ -9,15 +9,15 @@ background info for context.
 
 Typically one of these three open source projects are being streamed:
 
-1. [Comparing Python Web Frameworks](https://github.com/makaimc/python-web-framework-comparison)
-   builds same example Python web application in many 
+1. [Comparing Python Web Frameworks](https://github.com/makaimc/python-web-framework-comparison), where we
+   build the same example Python web application in as many 
    [web frameworks](http://www.fullstackpython.com/web-frameworks.html) as
-   possible to learn their similarities and differences. We'll use frameworks
+   possible to compare and contrast the frameworks. Frameworks
    such as [Django](http://www.fullstackpython.com/django.html), 
    [Flask](http://www.fullstackpython.com/flask.html),
    [Bottle](http://www.fullstackpython.com/bottle.html) and
-   [Morepath](http://www.fullstackpython.com/morepath.html)
-   then move on to 
+   [Morepath](http://www.fullstackpython.com/morepath.html) are in progress
+   before we continue on to
    [other ones](http://www.fullstackpython.com/other-web-frameworks.html).
 
 1. [Full Stack Python](http://www.fullstackpython.com/), which primarily 
