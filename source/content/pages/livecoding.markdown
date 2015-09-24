@@ -37,3 +37,19 @@ based in San Francisco, CA and I mostly code in Python and Swift.
 Recently I wrote a book on [Python deployments](http://www.deploypython.com/). 
 Use the promo code *livecoding* to get 10% off the price when you purchase
 it.
+
+
+## Past sesssions
+Here's a rundown of what I covered in previous sessions with a links to
+the videos.
+
+### Sept 24, 2015
+* Started out working on the Flask app within the
+  [Python web framework comparison](https://github.com/makaimc/python-web-framework-comparison)
+  project to clean up the UI and fix a couple of bugs.
+
+* Moved over to the 
+  [Bottle](https://github.com/makaimc/python-web-framework-comparison/tree/master/bottle_sqlalchemy)
+  app and built the basic application along with delete and calling. Left
+  form handling for next streaming time.
+
