@@ -43,7 +43,10 @@ it.
 Here's a rundown of what I covered in previous sessions with a links to
 the videos.
 
-### Sept 24, 2015
+### Teaching Python Web Dev (Flask & Bottle)
+Streamed on September 24, 2015. There's a 
+[video available of this session](https://www.livecoding.tv/video/teaching-python-web-dev-flask-bottle/).
+
 * Started out working on the Flask app within the
   [Python web framework comparison](https://github.com/makaimc/python-web-framework-comparison)
   project to clean up the UI and fix a couple of bugs.
