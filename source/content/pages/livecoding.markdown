@@ -30,6 +30,10 @@ Typically one of these three open source projects are being streamed:
 
 
 ## About Me
-I'm a [Twilio Developer Evangelist](https://www.twilio.com/blog/2014/02/introducing-developer-evangelist-matt-makai.html) based in San Francisco, CA
-and I mostly code in Python and Swift.
+I'm a 
+[Twilio Developer Evangelist](https://www.twilio.com/blog/2014/02/introducing-developer-evangelist-matt-makai.html) 
+based in San Francisco, CA and I mostly code in Python and Swift.
 
+Recently I wrote a book on [Python deployments](http://www.deploypython.com/). 
+Use the promo code *livecoding* to get 10% off the price when you purchase
+it.
