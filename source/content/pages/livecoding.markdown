@@ -40,12 +40,24 @@ it.
 
 
 ## Past sessions
-Here's a rundown of what I covered in previous sessions with a links to
-the videos.
+Here's a rundown of what I covered in previous live coding sessions. Click on the
+title to go to the video capture from that session.
 
-### Teaching Python Web Dev (Flask & Bottle)
-Streamed on September 24, 2015. There's a 
-[video available of this session](https://www.livecoding.tv/video/teaching-python-web-dev-flask-bottle/).
+
+### [Python Web Apps: Bottle, Django & Morepath](https://www.livecoding.tv/video/python-web-apps-bottle-django-morepath/)
+Streamed on Friday, September 25, 2015.
+
+* Finished up the 
+  [Bottle](https://github.com/makaimc/python-web-framework-comparison/tree/master/bottle_sqlalchemy)
+  implementation of the web app.
+
+* Started working on the 
+  [Morepath](https://github.com/makaimc/python-web-framework-comparison/tree/master/morepath_sqlalchemy)
+  version, but did not get a prototype working just yet. To be continued.
+
+
+### [Teaching Python Web Dev (Flask & Bottle)](https://www.livecoding.tv/video/teaching-python-web-dev-flask-bottle/)
+Streamed on Thursday, September 24, 2015. 
 
 * Started out working on the Flask app within the
   [Python web framework comparison](https://github.com/makaimc/python-web-framework-comparison)
@@ -57,9 +69,8 @@ Streamed on September 24, 2015. There's a
   form handling for next streaming time.
 
 
-### Vim-Fu and Python
-Streamed on September 13, 2015. The 
-[video recording of this session is available](https://www.livecoding.tv/video/vim-fu-and-python/).
+### [Vim-Fu and Python](https://www.livecoding.tv/video/vim-fu-and-python/)
+Streamed on Sunday, September 13, 2015.
 
 * Messed around with [Vim](http://www.fullstackpython.com/vim.html) plugin
   managers and plugins.
