@@ -39,7 +39,7 @@ Use the promo code *livecoding* to get 10% off the price when you purchase
 it.
 
 
-## Past sesssions
+## Past sessions
 Here's a rundown of what I covered in previous sessions with a links to
 the videos.
 
