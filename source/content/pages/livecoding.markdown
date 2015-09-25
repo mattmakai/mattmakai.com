@@ -9,8 +9,8 @@ background info for context.
 
 Typically one of these three open source projects are being streamed:
 
-1. [Comparing Python Web Frameworks](https://github.com/makaimc/python-web-framework-comparison), where we
-   build the same example Python web application in as many 
+1. [Comparing Python Web Frameworks](https://github.com/makaimc/python-web-framework-comparison), 
+   where we build the same example Python web application in as many 
    [web frameworks](http://www.fullstackpython.com/web-frameworks.html) as
    possible to compare and contrast the frameworks. Frameworks
    such as [Django](http://www.fullstackpython.com/django.html), 
@@ -55,4 +55,16 @@ Streamed on September 24, 2015. There's a
   [Bottle](https://github.com/makaimc/python-web-framework-comparison/tree/master/bottle_sqlalchemy)
   app and built the basic application along with delete and calling. Left
   form handling for next streaming time.
+
+
+### Vim-Fu and Python
+Streamed on September 13, 2015. The 
+[video recording of this session is available](https://www.livecoding.tv/video/vim-fu-and-python/).
+
+* Messed around with [Vim](http://www.fullstackpython.com/vim.html) plugin
+  managers and plugins.
+
+* Worked with [Flask](http://www.fullstackpython.com/flask.html) and 
+  [Bottle](http://www.fullstackpython.com/bottle.html) in the
+  [Python web frameworks comparison repo](https://github.com/makaimc/python-web-framework-comparison).
 
