@@ -79,3 +79,8 @@ Streamed on Sunday, September 13, 2015.
   [Bottle](http://www.fullstackpython.com/bottle.html) in the
   [Python web frameworks comparison repo](https://github.com/makaimc/python-web-framework-comparison).
 
+
+### [Comparing Python Web Frameworks](https://www.livecoding.tv/video/comparing-python-web-frameworks-5/)
+
+* Built the initial Flask application in the
+  [Python web frameworks comparison project](https://github.com/makaimc/python-web-framework-comparison).
