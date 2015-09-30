@@ -43,6 +43,14 @@ it.
 Here's a rundown of what I covered in previous live coding sessions. Click on the
 title to go to the video capture from that session.
 
+### [Python + Django Web App Development](https://www.livecoding.tv/video/python-django-web-app-development/)
+Streamed on Wed, September 30, 2015.
+
+* Chatted a bit about Django and Websockets.
+
+* Started [Django project for compare Python web frameworks](https://github.com/makaimc/compare-python-web-frameworks/tree/master/django_defaults).
+
+
 
 ### [Python Web Apps: Bottle, Django & Morepath](https://www.livecoding.tv/video/python-web-apps-bottle-django-morepath/)
 Streamed on Friday, September 25, 2015.
