@@ -43,6 +43,15 @@ it.
 Here's a rundown of what I covered in previous live coding sessions. Click on the
 title to go to the video capture from that session.
 
+### [PyCon Proposals and Django Web Development](https://www.livecoding.tv/video/pycon-proposals-and-django-web-development/)
+Streamed on Wed, October 14, 2015.
+
+* Worked on PyCon 2016 talk proposal for Vim+Python.
+
+* Django web development for [comparing Python web frameworks](https://github.com/makaimc/compare-python-web-frameworks).
+
+
+
 ### [Python + Django Web App Development](https://www.livecoding.tv/video/python-django-web-app-development/)
 Streamed on Wed, September 30, 2015.
 
