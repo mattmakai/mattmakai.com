@@ -9,7 +9,7 @@ background info for context.
 
 Typically one of these three open source projects are being streamed:
 
-1. [Comparing Python Web Frameworks](https://github.com/makaimc/python-web-framework-comparison), 
+1. [Comparing Python Web Frameworks](https://github.com/makaimc/compare-python-web-frameworks), 
    where we build the same example Python web application in as many 
    [web frameworks](http://www.fullstackpython.com/web-frameworks.html) as
    possible to compare and contrast the frameworks. Frameworks
@@ -43,6 +43,16 @@ it.
 Here's a rundown of what I covered in previous live coding sessions. Click on the
 title to go to the video capture from that session.
 
+
+### [Django Web Development Tutorial](https://www.livecoding.tv/video/django-web-development-tutorial-2/)
+Streamed on Thursday, October 15, 2015.
+
+* Built out more of the 
+  [Django defaults project under the compare Python web frameworks repository](https://github.com/makaimc/compare-python-web-frameworks/tree/master/django_defaults). 
+  Still a work in progress.
+
+
+
 ### [PyCon Proposals and Django Web Development](https://www.livecoding.tv/video/pycon-proposals-and-django-web-development/)
 Streamed on Wed, October 14, 2015.
 
@@ -65,11 +75,11 @@ Streamed on Wed, September 30, 2015.
 Streamed on Friday, September 25, 2015.
 
 * Finished up the 
-  [Bottle](https://github.com/makaimc/python-web-framework-comparison/tree/master/bottle_sqlalchemy)
+  [Bottle](https://github.com/makaimc/compare-python-web-frameworks/tree/master/bottle_sqlalchemy)
   implementation of the web app.
 
 * Started working on the 
-  [Morepath](https://github.com/makaimc/python-web-framework-comparison/tree/master/morepath_sqlalchemy)
+  [Morepath](https://github.com/makaimc/compare-python-web-frameworks/tree/master/morepath_sqlalchemy)
   version, but did not get a prototype working just yet. To be continued.
 
 
@@ -77,11 +87,11 @@ Streamed on Friday, September 25, 2015.
 Streamed on Thursday, September 24, 2015. 
 
 * Started out working on the Flask app within the
-  [Python web framework comparison](https://github.com/makaimc/python-web-framework-comparison)
+  [Python web framework comparison](https://github.com/makaimc/compare-python-web-frameworks)
   project to clean up the UI and fix a couple of bugs.
 
 * Moved over to the 
-  [Bottle](https://github.com/makaimc/python-web-framework-comparison/tree/master/bottle_sqlalchemy)
+  [Bottle](https://github.com/makaimc/compare-python-web-frameworks/tree/master/bottle_sqlalchemy)
   app and built the basic application along with delete and calling. Left
   form handling for next streaming time.
 
@@ -94,10 +104,10 @@ Streamed on Sunday, September 13, 2015.
 
 * Worked with [Flask](http://www.fullstackpython.com/flask.html) and 
   [Bottle](http://www.fullstackpython.com/bottle.html) in the
-  [Python web frameworks comparison repo](https://github.com/makaimc/python-web-framework-comparison).
+  [Python web frameworks comparison repo](https://github.com/makaimc/compare-python-web-frameworks).
 
 
 ### [Comparing Python Web Frameworks](https://www.livecoding.tv/video/comparing-python-web-frameworks-5/)
 
 * Built the initial Flask application in the
-  [Python web frameworks comparison project](https://github.com/makaimc/python-web-framework-comparison).
+  [Python web frameworks comparison project](https://github.com/makaimc/compare-python-web-frameworks).
