@@ -44,6 +44,18 @@ Here's a rundown of what I covered in previous live coding sessions. Click on th
 title to go to the video capture from that session.
 
 
+### [Full Stack Python](https://www.livecoding.tv/video/full-stack-python/)
+Streamed on Tuesday, October 21, 2015.
+
+* A bit of a misnomer on this stream's title. First I worked a bit on the "Vim for 
+  Python" proposal for PyCon 2016.
+
+* Coded up the delete and call functionality on the 
+  [django defaults](https://github.com/makaimc/compare-python-web-frameworks/tree/master/django_defaults)
+  project.
+
+
+
 ### [Django Web Development Tutorial](https://www.livecoding.tv/video/django-web-development-tutorial-2/)
 Streamed on Thursday, October 15, 2015.
 
