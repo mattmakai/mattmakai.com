@@ -44,12 +44,13 @@ Here's a rundown of what I covered in previous live coding sessions. Click on th
 title to go to the video capture from that session.
 
 
-### Django REST Framework and APIs
+### [Django REST Framework for Web APIs](https://www.livecoding.tv/video/django-rest-framework-for-web-apis/)
 Streamed on Friday, October 23, 2015.
 
 * Worked on [PLAPI](https://github.com/makaimc/plapi), the web API for 
   learning programming languages. Added tutorials and refactored some
   old serializer code.
+
 
 
 ### [Full Stack Python](https://www.livecoding.tv/video/full-stack-python/)
