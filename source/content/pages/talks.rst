@@ -5,16 +5,19 @@ Tech Talks
 :slug: talks
 
 
+2016
+----
+I'm currently taking a break from speaking to spend more time coding on
+my open source side projects `PLAPI <https://github.com/makaimc/plapi>`_ 
+and 
+`the ever-expanding Full Stack Python <https://www.fullstackpython.com/>`_.
+
+
+----
+
+
 2015
 ----
-
-I'm taking a break from speaking during the launch of my 
-`new Python deployments book <http://www.deploypython.com/>`_. When I am
-ready to get back into the technical speaking game this fall, I'll have a 
-new talk on Swift.
-
-----
-
 
 How to Leverage Media for Your Startup
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

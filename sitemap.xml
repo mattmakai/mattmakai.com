@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
+    <loc>http://www.mattmakai.com/2015-software-development-year-review.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>http://www.mattmakai.com/pycon-wsgi-deployment-adventure-links.html</loc>
     <priority>0.8</priority>
   </url>

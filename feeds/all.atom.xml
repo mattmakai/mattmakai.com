@@ -1,5 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/all.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2015-04-11T00:00:00-04:00</updated><entry><title>PyCon WSGI Deployment Adventure Links</title><link href="http://www.letshackdc.com/pycon-wsgi-deployment-adventure-links.html" rel="alternate"></link><updated>2015-04-11T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2015-04-11:pycon-wsgi-deployment-adventure-links.html</id><summary type="html">&lt;p&gt;At PyCon 2015 in Montreal, &lt;a class="reference external" href="http://www.kateheddleston.com/"&gt;Kate Heddleston&lt;/a&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/all.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2015-12-30T00:00:00-05:00</updated><entry><title>My 2015 Software Development Year in Review</title><link href="http://www.letshackdc.com/2015-software-development-year-review.html" rel="alternate"></link><updated>2015-12-30T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2015-12-30:2015-software-development-year-review.html</id><summary type="html">&lt;p&gt;The end of the year is a good time to step back and take stock of everything
+accomplished throughout the past 365 days. This software development
+year in review post continues the retrospectives I performed in
+&lt;a class="reference external" href="/2012-development-year-in-review.html"&gt;2012&lt;/a&gt;,
+&lt;a class="reference external" href="/2013-development-year-in-review.html"&gt;2013&lt;/a&gt; and
+&lt;a class="reference external" href="/2014-software-development-year-review.html"&gt;2014&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="section" id="highlights"&gt;
+&lt;h2&gt;2015 Highlights&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Writing and releasing my first book,
+&lt;a class="reference external" href="http://www.deploypython.com/"&gt;The Full Stack Python Guide to Deployments&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Expanding &lt;a class="reference external" href="https://www.fullstackpython.com/"&gt;fullstackpython.com&lt;/a&gt;'s
+content with
+&lt;a class="reference external" href="https://github.com/makaimc/fullstackpython.com/commits/gh-pages"&gt;many open source code commits&lt;/a&gt; while growing the audience from 18,000 to over
+55,000 readers per month&lt;/li&gt;
+&lt;li&gt;Speaking at PyCon US with both Renee Chu and Kate Heddleston&lt;/li&gt;
+&lt;li&gt;Presenting my all time favorite tech talk at
+&lt;a class="reference external" href="http://www.meetup.com/sfpython/events/219577721/"&gt;SF Python&lt;/a&gt;:
+&lt;a class="reference external" href="https://www.youtube.com/watch?v=L5YQbNrFfyw"&gt;Asynchronous Python Web Apps with WebSockets and gevent&lt;/a&gt;,
+which was all live-coded except for a few introduction slides&lt;/li&gt;
+&lt;li&gt;Working with the
+&lt;a class="reference external" href="https://www.youtube.com/watch?v=TF129ioe8kc"&gt;Twilio Developer Network&lt;/a&gt;
+to execute the incredible
+&lt;a class="reference external" href="https://www.twilio.com/signal"&gt;Signal 2015 developers conference&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Creating and deploying the initial version of
+&lt;a class="reference external" href="https://github.com/makaimc/plapi"&gt;PLAPI&lt;/a&gt;
+(along with working on the
+&lt;a class="reference external" href="https://github.com/makaimc/plapi-prototype-flask"&gt;Flask prototype&lt;/a&gt;),
+which will be my primary 2016 side project&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="coding"&gt;
+&lt;h2&gt;Coding&lt;/h2&gt;
+&lt;p&gt;All of my technical writing is based on open source coding projects.
+Typically I start a project prototype with a fury of programming in a couple
+of days or weeks. Then I'll write a blog post on it. In some cases, that's
+the end of both the programming and writing unless there are bugs found or
+unexpected questions asked by the community that make me want to take the
+project further.&lt;/p&gt;
+&lt;p&gt;In other cases, the initial code is a foundation for a larger effort
+that weaves coding, writing and speaking together. In these cases, such
+as with &lt;a class="reference external" href="http://codingacrossamerica.com/"&gt;Coding Across America&lt;/a&gt;,
+Full Stack Python, Choose Your Own Adventure Presentations, The Full
+Stack Python Guide to Deployments and PLAPI, I seek a fast feedback loop
+based on in-person and online conversations, pull requests, GitHub issues,
+online comments, emails and tweets. Updates are made based on the feedback
+received.&lt;/p&gt;
+&lt;p&gt;These are some of the projects that followed the community feedback
+formula that will continue in 2016:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Started &lt;a class="reference external" href="https://github.com/makaimc/compare-python-web-frameworks"&gt;comparing Python web frameworks&lt;/a&gt;
+to expand beyond my typical
+&lt;a class="reference external" href="http://www.fullstackpython.com/django.html"&gt;Django&lt;/a&gt; and
+&lt;a class="reference external" href="http://www.fullstackpython.com/flask.html"&gt;Flask&lt;/a&gt; frameworks usage&lt;/li&gt;
+&lt;li&gt;Created an &lt;a class="reference external" href="https://github.com/makaimc/fsp-deployment-guide"&gt;open source Ansible playbook&lt;/a&gt;
+for deploying WSGI applications as a companion to my deployments book&lt;/li&gt;
+&lt;li&gt;Wrote a
+&lt;a class="reference external" href="https://github.com/makaimc/plapi-prototype-flask"&gt;PLAPI prototype with Flask and Flask-RESTful&lt;/a&gt;
+then began the version 1 codebase with
+&lt;a class="reference external" href="https://github.com/makaimc/plapi"&gt;Django and Django REST Framework&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Updated the &lt;a class="reference external" href="http://docs.ansible.com/ansible/twilio_module.html"&gt;Twilio Ansible module&lt;/a&gt;
+to support &lt;a class="reference external" href="https://www.twilio.com/mms"&gt;multimedia messages&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To keep the above projects moving forward I try to make an improvement and
+Git commit every day to at least one of them. In 2014, I missed 3 days out
+of 365. This year I missed 2 days, which snapped my 505 day commit streak
+but is still crazy in how consistent I was able to be despite my intense
+travel schedule. There were several hundred more private commits but here
+is how the public commit chart turned out:&lt;/p&gt;
+&lt;img alt="GitHub commits for 2015" src="/source/static/img/151230-year-review/github-commits.png" style="width: 100%;" /&gt;
+&lt;p&gt;The vast majority of the above commits were Python code. I probably wrote
+85% of my code in Python (although some subset of that is JavaScript on the
+front end when necessary) and about 15% in Swift. That ratio will ideally
+change in 2016 to about 65% Python and 35% Swift, with far more of the
+Swift code as open source than I was able to accomplish this year.&lt;/p&gt;
+&lt;p&gt;I also started &lt;a class="reference external" href="/live-coding.html"&gt;live code streaming&lt;/a&gt; in the second
+half of this year on both Livecoding.tv and Twitch Creative. The dozen
+streams added up to about 18 hours of video. There is still a lot of work to
+figure out how well these platforms work. However, the initial results
+are encouraging.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="writing"&gt;
+&lt;h2&gt;Writing&lt;/h2&gt;
+&lt;p&gt;The majority of my technical writing this year was for
+&lt;a class="reference external" href="https://www.twilio.com/blog/author/mmakai"&gt;Twilio&lt;/a&gt;,
+&lt;a class="reference external" href="http:///www.deploypython.com/"&gt;my Python deployments book&lt;/a&gt; and
+&lt;a class="reference external" href="http://www.fullstackpython.com/"&gt;Full Stack Python&lt;/a&gt;. My goal in writing
+is to be accessible to developers of all skill levels. I skew towards
+pragmatic projects and much of my writing boils down to &amp;quot;&lt;em&gt;try out this
+tutorial and you'll learn x, y and z&lt;/em&gt;&amp;quot;. My 2015 Twilio blog posts closely
+followed this formula:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.twilio.com/blog/2015/12/city-chat-with-python-django-and-twilio-ip-messaging.html"&gt;City Chat with Python, Django and Twilio IP Messaging&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.twilio.com/blog/2015/09/warm-phone-call-transfers-with-python-flask-and-twilio-voice.html"&gt;Warm Phone Call Transfers with Python, Flask and Twilio Voice&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.twilio.com/blog/2015/01/net-promoter-score-python-sms.html"&gt;Calculating Net Promoter Score with Python and SMS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The three part series that continues building out the
+&lt;a class="reference external" href="https://github.com/makaimc/choose-your-own-adventure-presentations"&gt;Choose Your Own Adventure Presentation&lt;/a&gt;
+Flask application:&lt;ol class="arabic"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.twilio.com/blog/2015/03/choose-your-own-adventures-presentations-wizard-mode-part-1-of-3.html"&gt;Choose Your Own Adventure Presentations: Wizard Mode Part 1 of 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.twilio.com/blog/2015/05/choose-your-own-adventure-presentations-wizard-mode-part-2-of-3.html"&gt;Choose Your Own Adventure Presentations: Wizard Mode Part 2 of 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.twilio.com/blog/2015/07/choose-your-own-adventure-presentations-flask-reveal-js-websockets.html"&gt;Choose Your Own Adventure Presentations: Wizard Mode Part 3 of 3&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.twilio.com/blog/2015/05/how-to-build-your-own-hackpack.html"&gt;How to Build Your Own Hackpack&lt;/a&gt;
+and &lt;a class="reference external" href="https://www.twilio.com/blog/2015/02/multi-channel-support-desk-taskrouter.html"&gt;Building A Multi Channel Support Desk with TaskRouter&lt;/a&gt;
+which I had the pleasure of coding and writing with the incredible
+&lt;a class="reference external" href="http://blog.rickyrobinett.com/"&gt;Ricky Robinett&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These tutorials are solid executions of inspiring and equipping fellow
+software developers that I look forward to continuing to write in 2016.&lt;/p&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>PyCon WSGI Deployment Adventure Links</title><link href="http://www.letshackdc.com/pycon-wsgi-deployment-adventure-links.html" rel="alternate"></link><updated>2015-04-11T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2015-04-11:pycon-wsgi-deployment-adventure-links.html</id><summary type="html">&lt;p&gt;At PyCon 2015 in Montreal, &lt;a class="reference external" href="http://www.kateheddleston.com/"&gt;Kate Heddleston&lt;/a&gt;
 and I presented
 &lt;a class="reference external" href="https://us.pycon.org/2015/schedule/presentation/336/"&gt;Choose Your Own WSGI Deployment Adventure&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;If you'd like to create your own Choose Your Own Adventure presentations,
