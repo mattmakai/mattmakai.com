@@ -3,11 +3,13 @@ category: livecoding
 slug: live-coding
 
 
-If you're joining from the 
-[livecoding.tv stream](https://livecoding.tv/mattmakai), here's a little 
-background info for context.
+If you're joining from the [Twitch Creative](http://www.twitch.tv/mattmakai)
+or [livecoding.tv stream](https://livecoding.tv/mattmakai), here is
+background information for context.
 
 Typically one of these three open source projects are being streamed:
+1. [PLAPI](https://github.com/makaimc/plapi), a web API for programming
+   languages written in Python with Django and Django REST Framework.
 
 1. [Comparing Python Web Frameworks](https://github.com/makaimc/compare-python-web-frameworks), 
    where we build the same example Python web application in as many 
@@ -24,9 +26,6 @@ Typically one of these three open source projects are being streamed:
    involves researching and writing content along with some basic coding
    with [Pelican](http://blog.getpelican.com/) and 
    [Jinja](http://jinja.pocoo.org/docs/dev/) templates.
-   
-1. [PLAPI](https://github.com/makaimc/plapi), a web API for programming
-   languages written in Python with Django and Django REST Framework.
 
 
 ## About Me
