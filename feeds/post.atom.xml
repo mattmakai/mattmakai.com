@@ -24,7 +24,7 @@ which was all live-coded except for a few introduction slides&lt;/li&gt;
 to execute the incredible
 &lt;a class="reference external" href="https://www.twilio.com/signal"&gt;Signal 2015 developers conference&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Creating and deploying the initial version of
-&lt;a class="reference external" href="https://github.com/makaimc/plapi"&gt;PLAPI&lt;/a&gt;
+&lt;a class="reference external" href="https://github.com/makaimc/plapi"&gt;Plapi&lt;/a&gt;
 (along with working on the
 &lt;a class="reference external" href="https://github.com/makaimc/plapi-prototype-flask"&gt;Flask prototype&lt;/a&gt;),
 which will be my primary 2016 side project&lt;/li&gt;
@@ -42,7 +42,7 @@ project further.&lt;/p&gt;
 that weaves coding, writing and speaking together. In these cases, such
 as with &lt;a class="reference external" href="http://codingacrossamerica.com/"&gt;Coding Across America&lt;/a&gt;,
 Full Stack Python, Choose Your Own Adventure Presentations, The Full
-Stack Python Guide to Deployments and PLAPI, I seek a fast feedback loop
+Stack Python Guide to Deployments and Plapi, I seek a fast feedback loop
 based on in-person and online conversations, pull requests, GitHub issues,
 online comments, emails and tweets. Updates are made based on the feedback
 received.&lt;/p&gt;
@@ -56,7 +56,7 @@ to expand beyond my typical
 &lt;li&gt;Created an &lt;a class="reference external" href="https://github.com/makaimc/fsp-deployment-guide"&gt;open source Ansible playbook&lt;/a&gt;
 for deploying WSGI applications as a companion to my deployments book&lt;/li&gt;
 &lt;li&gt;Wrote a
-&lt;a class="reference external" href="https://github.com/makaimc/plapi-prototype-flask"&gt;PLAPI prototype with Flask and Flask-RESTful&lt;/a&gt;
+&lt;a class="reference external" href="https://github.com/makaimc/plapi-prototype-flask"&gt;Plapi prototype with Flask and Flask-RESTful&lt;/a&gt;
 then began the version 1 codebase with
 &lt;a class="reference external" href="https://github.com/makaimc/plapi"&gt;Django and Django REST Framework&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Updated the &lt;a class="reference external" href="http://docs.ansible.com/ansible/twilio_module.html"&gt;Twilio Ansible module&lt;/a&gt;
