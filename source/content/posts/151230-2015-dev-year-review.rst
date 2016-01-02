@@ -130,3 +130,35 @@ These tutorials are solid executions of inspiring and equipping fellow
 software developers that I look forward to continuing to write in 2016.
 
 
+Speaking
+--------
+My technical talks delivery was a tale of two halves in 2015. The first half of
+the year I gave one of my favorite talks ever at 
+SF Python called 
+`Async Python Web Apps with WebSockets and gevent <https://www.youtube.com/watch?v=L5YQbNrFfyw>`_. 
+The aspect I enjoyed the most about this talk was that it was almost all lived
+coded and there were several sections where the audience could interact with what
+I was building.
+
+In April I was fortunate enough to have two incredible speaking partners in Kate
+Heddleston and Renee Chu for two PyCon US talks. Both talks went well. However,
+afterwards I was exhausted and realized that over the past couple of years I gave
+over fifty full length talks. Most of those talks were new or customized for the
+audience since that's what typically produces the best results for the folks who
+are taking time to listen to what you have to say. It's difficult to keep that
+pace though so I significantly cut back as I moved from DC to SF in June.
+
+There hasn't been a subject that I've been excited enough to get back into crafting
+a new talk. I still give plenty of live coded demos and shorter talks but for now
+I'm going to chill on tech talks to focus on coding Plapi and writing Full Stack 
+Python.
+
+
+Onward
+------
+It's been a good year across my major focus areas in software development. 2016
+will be another solid year of learning, growth and software delivery. For more on
+that, check out my 
+`software development year ahead in 2016 <2016-year-ahead-software-development.html>`_ 
+post.
+
