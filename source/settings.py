@@ -9,7 +9,7 @@ GITHUB_URL = 'https://github.com/makaimc/letshackdc.github.com'
 DISQUS_SITENAME = 'makaimc'
 PDF_GENERATOR = False
 
-DEFAULT_PAGINATION = 20
+DEFAULT_PAGINATION = 10
 
 DIRECT_TEMPLATES = ('index', 'sitemap',)
 
