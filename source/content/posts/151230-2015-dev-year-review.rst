@@ -32,7 +32,7 @@ year in review post continues the retrospectives I performed in
   to execute the incredible 
   `Signal 2015 developers conference <https://www.twilio.com/signal>`_
 * Creating and deploying the initial version of 
-  `Plapi <https://github.com/makaimc/plapi>`_ 
+  `The Programming Languages Web API (Plapi) <https://github.com/makaimc/plapi>`_ 
   (along with working on the 
   `Flask prototype <https://github.com/makaimc/plapi-prototype-flask>`_), 
   which will be my primary 2016 side project
@@ -51,10 +51,10 @@ In other cases, the initial code is a foundation for a larger effort
 that weaves coding, writing and speaking together. In these cases, such
 as with `Coding Across America <http://codingacrossamerica.com/>`_, 
 Full Stack Python, Choose Your Own Adventure Presentations, The Full 
-Stack Python Guide to Deployments and Plapi, I seek a fast feedback loop 
-based on in-person and online conversations, pull requests, GitHub issues, 
-online comments, emails and tweets. Updates are made based on the feedback 
-received.
+Stack Python Guide to Deployments and `Plapi <https://www.plapi.io>`_, 
+I seek a fast feedback loop based on in-person and online conversations, 
+pull requests, GitHub issues, online comments, emails and tweets. 
+Updates are made based on the feedback received.
 
 These are some of the projects that followed the community feedback
 formula that will continue in 2016:

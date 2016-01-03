@@ -119,7 +119,7 @@ which was all live-coded except for a few introduction slides&lt;/li&gt;
 to execute the incredible
 &lt;a class="reference external" href="https://www.twilio.com/signal"&gt;Signal 2015 developers conference&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Creating and deploying the initial version of
-&lt;a class="reference external" href="https://github.com/makaimc/plapi"&gt;Plapi&lt;/a&gt;
+&lt;a class="reference external" href="https://github.com/makaimc/plapi"&gt;The Programming Languages Web API (Plapi)&lt;/a&gt;
 (along with working on the
 &lt;a class="reference external" href="https://github.com/makaimc/plapi-prototype-flask"&gt;Flask prototype&lt;/a&gt;),
 which will be my primary 2016 side project&lt;/li&gt;
@@ -137,10 +137,10 @@ project further.&lt;/p&gt;
 that weaves coding, writing and speaking together. In these cases, such
 as with &lt;a class="reference external" href="http://codingacrossamerica.com/"&gt;Coding Across America&lt;/a&gt;,
 Full Stack Python, Choose Your Own Adventure Presentations, The Full
-Stack Python Guide to Deployments and Plapi, I seek a fast feedback loop
-based on in-person and online conversations, pull requests, GitHub issues,
-online comments, emails and tweets. Updates are made based on the feedback
-received.&lt;/p&gt;
+Stack Python Guide to Deployments and &lt;a class="reference external" href="https://www.plapi.io"&gt;Plapi&lt;/a&gt;,
+I seek a fast feedback loop based on in-person and online conversations,
+pull requests, GitHub issues, online comments, emails and tweets.
+Updates are made based on the feedback received.&lt;/p&gt;
 &lt;p&gt;These are some of the projects that followed the community feedback
 formula that will continue in 2016:&lt;/p&gt;
 &lt;ul class="simple"&gt;
