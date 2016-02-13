@@ -3,9 +3,10 @@ category: livecoding
 slug: live-coding
 
 
-If you're joining from the [Twitch Creative](http://www.twitch.tv/mattmakai)
-or [livecoding.tv stream](https://livecoding.tv/mattmakai), here is
-background information for context.
+If you're joining from my 
+[Twitch Creative channel](https://www.twitch.tv/mattmakai) or the
+[Team Twilio channel](https://www.twitch.tv/team/twilio),
+here is some additional background information for context.
 
 Typically one of these three open source projects are being streamed:
 1. [PLAPI](https://github.com/makaimc/plapi), a web API for programming
