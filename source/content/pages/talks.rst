@@ -7,11 +7,10 @@ Tech Talks
 
 2016
 ----
-I'm currently taking a break from speaking to spend more time coding on
-my open source side projects `PLAPI <https://github.com/makaimc/plapi>`_ 
-and 
-`the ever-expanding Full Stack Python <https://www.fullstackpython.com/>`_.
-
+R2-D2 or Skynet? Combining Slack Bots with the Twilio API
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Upcoming talk at `Signal Conference 2016 <https://www.twilio.com/signal>`_ 
+in San Francisco, CA on May 25, 2016.
 
 ----
 
