@@ -9,7 +9,10 @@ Tech Talks
 ----
 R2-D2 or Skynet? Combining Slack Bots with the Twilio API
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Upcoming talk at `Signal Conference 2016 <https://www.twilio.com/signal>`_ 
+Upcoming talk with 
+`Don Goodman-Wilson <https://twitter.com/DEGoodmanWilson>`_` of 
+`Slack <https://slack.com/>`_ 
+at `Twilio Signal Conference 2016 <https://www.twilio.com/signal>`_ 
 in San Francisco, CA on May 25, 2016.
 
 ----
