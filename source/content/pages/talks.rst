@@ -9,6 +9,13 @@ Tech Talks
 ----
 R2-D2 or Skynet? Combining Slack Bots with the Twilio API
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+If you've ever had the pleasure of coordinating a large team's activities 
+on a project, you know scaling communication between team members quickly 
+becomes a chore. What if we could build a Slack bot to automate that 
+communication via Slack messages, SMS and voice calls? Come to this session 
+to learn whether the bot being live coded in Python becomes our new best 
+friend or a heavy handed robot overlord.
+
 Upcoming talk with 
 `Don Goodman-Wilson <https://twitter.com/DEGoodmanWilson>`_ of 
 `Slack <https://slack.com/>`_ 
