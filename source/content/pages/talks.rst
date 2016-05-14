@@ -7,8 +7,8 @@ Tech Talks
 
 2016
 ----
-R2-D2 or Skynet? Combining Slack Bots with the Twilio API
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+`R2-D2 or Skynet? Combining Slack Bots with the Twilio API </presentations/2016-r2-d2-skynet-bots.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 If you've ever had the pleasure of coordinating a large team's activities 
 on a project, you know scaling communication between team members quickly 
 becomes a chore. What if we could build a Slack bot to automate that 

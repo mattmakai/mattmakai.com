@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>R2-D2 or Skynet? Combining Slack Bots with the Twilio API</title>
+
+		<meta name="description" content="">
+
+		<meta name="author" content="Matt Makai">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="/source/static/css/reveal/reveal.css">
+        <link rel="stylesheet" href="/source/static/css/reveal/theme/signal-2016.css" id="theme">
+        <link rel="stylesheet" href="/source/static/lib/css/zenburn.css">
+        <link rel="stylesheet" media="print" href="/source/static/css/reveal/print/pdf.css">
+        <link rel="stylesheet" media="print" href="/source/static/css/reveal/print/print.css">
+        <style>
+            ol.bigger li, 
+            ul.bigger li {
+               color: #222;
+               font-size: 2em;
+               margin-bottom: 5px;
+               line-height: 1.1em;
+               margin-left: 20px;
+            }
+            ul.bigger-contact-info li {
+               color: #222;
+               font-size: 1.8em;
+               margin-bottom: 5px;
+               margin-top: 5px;
+               line-height: 1.1em;
+               margin-left: 20px;
+            }
+            ol.bigger-contact-info li {
+                margin-left: 1em;
+            }
+            ol.bigger li {
+                margin-left: 1em;
+            }
+            img.no-border-rounded {border: none; border-radius: 5px;}
+            h2.commandline {font-size: 3em; color: #222; padding-top: 20px;}
+            h2.commandline-sm {font-size: 2.2em; color: #222; padding-top: 30px;}
+            h1.code {font-family: courier; font-weight: bold;}
+            h2.code {font-family: courier; font-weight: bold;}
+            ol.secondary {font-size: 22px; margin-left: 40px;}
+        </style>
+
+    <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+
+		<!--[if lt IE 9]>
+		<script src="/source/static/lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div class="reveal">
+            <div class="slides" style="text-align: left;">
+				<section>
+                    <h1 style="margin-bottom: 25px; font-size: 3.8em;">
+                        R2-D2 or Skynet?
+                    </h1>
+                    <h2>Combining Slack Bots with the Twilio API</h2>
+                    <h3><a href="https://www.twilio.com/signal/schedule/1SKkaudJJi6cMu4uQg6yq/s">Twilio SIGNAL | May 2016</a></h3>
+                    <p style="font-size: 1em;">
+                        <a href="https://www.linkedin.com/in/degoodmanwilson">Don Goodman-Wilson</a> | 
+                        <a href="https://twitter.com/degoodmanwilson" style="padding-bottom: 5px;">@degoodmanwilson</a> |
+                        <a href="https://slack.com">Slack</a> 
+                    </p>
+                    <p style="font-size: 1em;"> 
+                        <a href="http://www.mattmakai.com">Matthew Makai</a> | 
+                        <a href="http://twitter.com/mattmakai">@mattmakai</a> |
+                        <a href="https://www.twilio.com">Twilio</a> 
+                    </p>
+				</section>
+                
+                <section data-state="tutorials">
+                </section>
+
+                <section data-state="devnetwork">
+                </section>
+                
+                <section data-state="slack">
+                </section>
+
+                <section data-state="livestream">
+                </section>
+
+                <section data-state="blog-posts">
+                </section>
+
+                <section data-state="tutorials-page">
+                </section>
+                
+                <section data-state="github-source">
+                </section>
+                
+                <section data-state="team-docsweek">
+                </section>
+
+                <section data-state="video-launch">
+                </section>
+
+                <section data-state="devangel-events">
+                </section>
+                
+                <section data-state="spreadsheets">
+                </section>
+
+                <section data-state="slack-bots-signal">
+                </section>
+
+                <section data-state="launch">
+                </section>
+
+                <section>
+                    <h1>Draw the Owl Bot</h1>
+                </section>
+
+                <section data-state="draw-the-owl">
+                </section>
+
+                <!-- coding section -->
+
+                <section data-state="get-out-phones">
+                </section>
+
+                <section data-state="r2-d2">
+                </section>
+
+                <section data-state="skynet">
+                </section>
+
+
+                <section>
+                    <h2>Don Goodman-Wilson</h2>
+                    <ul class="bigger-contact-info">
+                        <li><a href="https://slack.com/">Slack Senior Engineer</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/DEGoodmanWilson">DEGoodmanWilson on GitHub</a>
+                        </li>
+                        <li>don@slack-corp.com</li>
+                    </ul>
+                    <hr>
+                    <h2>Matt Makai</h2>
+                    <ul class="bigger-contact-info">
+                        <li><a href="https://www.twilio.com/" style="padding-bottom: 5px;">Twilio Developer Evangelist</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/makaimc">makaimc on GitHub</a> 
+                        </li>
+                        <li>makai@twilio.com</li>
+                    </ul>
+                </section>
+		</div>
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script> 
+		<script src="/source/static/lib/js/head.min.js"></script>
+		<script src="/source/static/js/reveal.min.js"></script>
+
+		<script>
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: false,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: '/source/static/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '/source/static/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '/source/static/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				]
+			});
+
+            $(document).ready(function() {
+            });
+
+		</script>
+
+	</body>
+</html>

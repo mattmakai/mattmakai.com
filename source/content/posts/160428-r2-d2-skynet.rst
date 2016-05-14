@@ -1,0 +1,223 @@
+R2-D2 or Skynet? Combining Slack Bots with the Twilio API
+=========================================================
+
+:slug: r2d2-skynet
+:category: post
+:date: 2016-04-28
+
+
+
+This is a rough transcript along with the slides from our
+`SIGNAL 2016 <https://www.twilio.com/signal>`_ talk that will be given 
+on May 24, 2016.
+
+You can also find the slides on my `tech talks </talks.html>`_ page. The
+code is open sourced under the MIT license in a GitHub repository
+named 
+`slack-api-python-examples <https://github.com/makaimc/slack-api-python-examples>`_.
+
+----
+
+*Note: this blog post for the talk is a work in progress.*
+
+**R2-D2 or Skynet? Combining Slack Bots with the Twilio API**
+by Matt Makai (Twilio) and Don Goodman-Wilson (Slack)
+
+.. image:: /source/static/img/160428-r2d2-skynet/r2-d2-skynet-signal.png
+  :alt: SIGNAL page for this talk
+  :width: 100%
+  :class: talk-slide
+
+
+Back in March, Twilio launched a new 
+`Tutorials by Twilio <https://www.twilio.com/blog/2016/03/tutorials-the-new-documentation-experience-from-twilio.html>`_ 
+format. The tutorials made my developer senses tingle, in a good way. Each 
+tutorial provided idiomatic code for every major programming language 
+along with the frameworks that developers commonly use in those ecosystems.
+
+.. image:: /source/static/img/160428-r2d2-skynet/tutorials-blog-post.jpg
+  :alt: Tutorials by Twilio launch blog post slide
+  :width: 100%
+  :class: talk-slide
+
+
+Twilio's 
+`Developer Network team <https://www.youtube.com/watch?v=TF129ioe8kc>`_
+is globally distributed, so we needed some handy software to
+coordinate between nine time zones. 
+
+.. image:: /source/static/img/160428-r2d2-skynet/8-bit-devnetwork.png
+  :alt: The DevNetwork as 8-bit characters
+  :width: 100%
+  :class: talk-slide
+
+
+We of course turned to Slack, which Twilio uses company-wide. A new Slack 
+channel named *team-docsweek* was born with everyone who was on point for the 
+launch.
+
+.. image:: /source/static/img/160428-r2d2-skynet/slack.jpg
+  :alt: We used Slack to coordinate team activities
+  :width: 100%
+  :class: talk-slide
+
+
+Now, how hard could a launch be? Well, here's a quick list of all the
+things that had to come together to make this work out for us.
+Six live streams by different Developer Evangelists throughout the week.
+
+.. image:: /source/static/img/160428-r2d2-skynet/brent-stream.jpg
+  :alt: Twitch livestream by Brent
+  :width: 100%
+  :class: talk-slide
+
+
+Eight blog posts going live in a specific order.
+
+.. image:: /source/static/img/160428-r2d2-skynet/blog-posts.jpg
+  :alt: Blog posts on twilio.com/blog
+  :width: 100%
+  :class: talk-slide
+
+
+Over one hundred tutorials checked and cross-checked for accuracy both
+in the tutorial prose and the code. 
+
+.. image:: /source/static/img/160428-r2d2-skynet/100-tutorials.png
+  :alt: Blog posts picture
+  :width: 100%
+  :class: talk-slide
+
+
+Every tutorial open sourced on GitHub with appropriate READMEs and
+hooked up to continuous integration.
+
+.. image:: /source/static/img/160428-r2d2-skynet/github-repo-example.png
+  :alt: Blog posts picture
+  :width: 100%
+  :class: talk-slide
+
+
+Clearly all this manual intervention isn't going to scale past a half a 
+dozen people. It mostly worked, but there was way too much manual "hey, 
+you there? hey, you ready to put that post up so we can do this other 
+thing?" 
+
+.. image:: /source/static/img/160428-r2d2-skynet/team-docsweek.png
+  :alt: An excerpt from the team-docsweek Slack channel
+  :width: 100%
+  :class: talk-slide
+
+
+Now, this certainly was far from the most complicated launch Twilio has 
+executed. Products like Video and IP Messaging require a boatloads of 
+communication across the entire company - similarly, in many time zones 
+across the world.
+
+.. image:: /source/static/img/160428-r2d2-skynet/twilio-video.png
+  :alt: Video & IP Messaging launches
+  :width: 100%
+  :class: talk-slide
+
+
+Plus, many of us are on the road at events, or heads down coding.
+
+.. image:: /source/static/img/160428-r2d2-skynet/rob-speaking.jpg
+  :alt: DevAngel Rob Spectre at an event
+  :width: 100%
+  :class: talk-slide
+
+
+There is definitely a better way to handle all these logistics. The
+answer is spreadsheets. Lots and lots of spreadsheets.
+
+.. image:: /source/static/img/160428-r2d2-skynet/spreadsheets.png
+  :alt: Spreadsheets. Tons of them.
+  :width: 100%
+  :class: talk-slide
+
+
+No, not really spreadsheets. We're *software developers*. We know most 
+spreadsheets are just terrible wannabe databases with no schema or 
+data constraints. What we could use are smart bots in Slack with some 
+intelligence based on our launch schedule and the list of people involved.
+
+.. image:: /source/static/img/160428-r2d2-skynet/bots.jpg
+  :alt: We need bots.
+  :width: 100%
+  :class: talk-slide
+
+
+How would this Slack Bot scheduling utopia work? Well, rather than just
+talk about it, let's launch something together right now.
+
+.. image:: /source/static/img/160428-r2d2-skynet/launch.jpg
+  :alt: Launching Twilio blog post together. Image courtesy of Wikipedia (https://upload.wikimedia.org/wikipedia/commons/f/fb/Launch_of_Falcon_9_carrying_ABS-EUTELSAT_%2816510241270%29.jpg).
+  :width: 100%
+  :class: talk-slide
+
+
+We, as in everyone in this entire room, are going to launch a Python and 
+Twilio-powered Slack bot with automated scheduling magic, called 
+Draw the Owl Bot.
+
+.. image:: /source/static/img/160428-r2d2-skynet/draw-the-owl.jpg
+  :alt: Draw the Owl. Image credit: http://i0.kym-cdn.com/photos/images/facebook/000/572/078/d6d.jpg
+  :width: 100%
+  :class: talk-slide
+
+
+Here are the items we're launching today: open source GitHub project,
+publish a Twilio blog post, social promote with @twilio and @fullstackpython.
+
+
+.. image:: /source/static/img/160428-r2d2-skynet/placeholder.png
+  :alt: Launch plan.
+  :width: 100%
+  :class: talk-slide
+
+
+We need a Slack channel to coordinate our launch, so we created one at
+draw-the-owl-bot.slack.com. Now we need your help. Get out your phones.
+Join the channel by texting (202) 555-1234.
+
+.. image:: /source/static/img/160428-r2d2-skynet/get-out-phones.jpg
+  :alt: iPhone held in hand. Image credit: http://cdn2.macworld.co.uk/cmsdata/features/3589633/iphone_6s_review_20.jpg
+  :width: 100%
+  :class: talk-slide
+
+
+Ok, here is our #general channel filling up. ("/launch-participants").
+
+.. image:: /source/static/img/160428-r2d2-skynet/placeholder.png
+  :alt: Slack channel.
+  :width: 100%
+  :class: talk-slide
+
+
+Time to roll up our sleeves and dig in to write some bot code.
+
+.. image:: /source/static/img/160428-r2d2-skynet/placeholder.png
+  :alt: Spreadsheets. Tons of them.
+  :width: 100%
+  :class: talk-slide
+
+
+Our Slackbot should start out friendly, with helpful nudges like 
+R2-D2's bleeps and boops.
+
+.. image:: /source/static/img/160428-r2d2-skynet/r2-d2.jpg
+  :alt: R2-D2 from Star Wars. Image credit: http://preview.turbosquid.com/Preview/2014/07/11__11_24_34/Textured2.jpg183b598c-faf6-4f34-a025-5bbb19571f9bOriginal.jpg
+  :width: 100%
+  :class: talk-slide
+
+
+
+
+...but the bot goes full Skynet mode if you just never respond.
+
+.. image:: /source/static/img/160428-r2d2-skynet/skynet.png
+  :alt: Terminator artwork. Image credit: http://orig14.deviantart.net/5dbc/f/2014/005/f/5/skynet_t800_factory_2__wallpaper__by_dadmad-d70yq68.png
+  :width: 100%
+  :class: talk-slide
+

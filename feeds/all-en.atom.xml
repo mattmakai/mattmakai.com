@@ -1,5 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/all-en.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2016-01-01T00:00:00-05:00</updated><entry><title>My 2016 Year Ahead in Software Development</title><link href="http://www.letshackdc.com/2016-year-ahead-software-development.html" rel="alternate"></link><updated>2016-01-01T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2016-01-01:2016-year-ahead-software-development.html</id><summary type="html">&lt;p&gt;With my
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/all-en.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2016-04-28T00:00:00-04:00</updated><entry><title>R2-D2 or Skynet? Combining Slack Bots with the Twilio API</title><link href="http://www.letshackdc.com/r2d2-skynet.html" rel="alternate"></link><updated>2016-04-28T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2016-04-28:r2d2-skynet.html</id><summary type="html">&lt;p&gt;This is a rough transcript along with the slides from our
+&lt;a class="reference external" href="https://www.twilio.com/signal"&gt;SIGNAL 2016&lt;/a&gt; talk that will be given
+on May 24, 2016.&lt;/p&gt;
+&lt;p&gt;You can also find the slides on my &lt;a class="reference external" href="/talks.html"&gt;tech talks&lt;/a&gt; page. The
+code is open sourced under the MIT license in a GitHub repository
+named
+&lt;a class="reference external" href="https://github.com/makaimc/slack-api-python-examples"&gt;slack-api-python-examples&lt;/a&gt;.&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;p&gt;&lt;strong&gt;R2-D2 or Skynet? Combining Slack Bots with the Twilio API&lt;/strong&gt;
+by Matt Makai (Twilio) and Don Goodman-Wilson (Slack)&lt;/p&gt;
+&lt;img alt="SIGNAL page for this talk" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/r2-d2-skynet-signal.png" style="width: 100%;" /&gt;
+&lt;p&gt;Back in March, Twilio launched a new
+&lt;a class="reference external" href="https://www.twilio.com/blog/2016/03/tutorials-the-new-documentation-experience-from-twilio.html"&gt;Tutorials by Twilio&lt;/a&gt;
+format. The tutorials made my developer senses tingle, in a good way. Each
+tutorial provided idiomatic code for every major programming language
+along with the frameworks that developers commonly use in those ecosystems.&lt;/p&gt;
+&lt;img alt="Tutorials by Twilio launch blog post slide" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/tutorials-blog-post.jpg" style="width: 100%;" /&gt;
+&lt;p&gt;Twilio's
+&lt;a class="reference external" href="https://www.youtube.com/watch?v=TF129ioe8kc"&gt;Developer Network team&lt;/a&gt;
+is globally distributed, so we needed some handy software to
+coordinate between nine time zones.&lt;/p&gt;
+&lt;img alt="The DevNetwork as 8-bit characters" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/8-bit-devnetwork.png" style="width: 100%;" /&gt;
+&lt;p&gt;We of course turned to Slack, which Twilio uses company-wide. A new Slack
+channel named &lt;em&gt;team-docsweek&lt;/em&gt; was born with everyone who was on point for the
+launch.&lt;/p&gt;
+&lt;img alt="We used Slack to coordinate team activities" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/slack.jpg" style="width: 100%;" /&gt;
+&lt;p&gt;Now, how hard could a launch be? Well, here's a quick list of all the
+things that had to come together to make this work out for us.
+Six live streams by different Developer Evangelists throughout the week.&lt;/p&gt;
+&lt;img alt="Twitch livestream by Brent" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/brent-stream.jpg" style="width: 100%;" /&gt;
+&lt;p&gt;Eight blog posts going live in a specific order.&lt;/p&gt;
+&lt;img alt="Blog posts on twilio.com/blog" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/blog-posts.jpg" style="width: 100%;" /&gt;
+&lt;p&gt;Over one hundred tutorials checked and cross-checked for accuracy both
+in the tutorial prose and the code.&lt;/p&gt;
+&lt;img alt="Blog posts picture" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/100-tutorials.png" style="width: 100%;" /&gt;
+&lt;p&gt;Every tutorial open sourced on GitHub with appropriate READMEs and
+hooked up to continuous integration.&lt;/p&gt;
+&lt;img alt="Blog posts picture" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/github-repo-example.png" style="width: 100%;" /&gt;
+&lt;p&gt;Clearly all this manual intervention isn't going to scale past a half a
+dozen people. It mostly worked, but there was way too much manual &amp;quot;hey,
+you there? hey, you ready to put that post up so we can do this other
+thing?&amp;quot;&lt;/p&gt;
+&lt;img alt="An excerpt from the team-docsweek Slack channel" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/team-docsweek.png" style="width: 100%;" /&gt;
+&lt;p&gt;Now, this certainly was far from the most complicated launch Twilio has
+executed. Products like Video and IP Messaging require a boatloads of
+communication across the entire company - similarly, in many time zones
+across the world.&lt;/p&gt;
+&lt;img alt="Video &amp;amp; IP Messaging launches" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/twilio-video.png" style="width: 100%;" /&gt;
+&lt;p&gt;Plus, many of us are on the road at events, or heads down coding.&lt;/p&gt;
+&lt;img alt="DevAngel Rob Spectre at an event" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/rob-speaking.jpg" style="width: 100%;" /&gt;
+&lt;p&gt;There is definitely a better way to handle all these logistics. The
+answer is spreadsheets. Lots and lots of spreadsheets.&lt;/p&gt;
+&lt;img alt="Spreadsheets. Tons of them." class="talk-slide" src="/source/static/img/160428-r2d2-skynet/spreadsheets.png" style="width: 100%;" /&gt;
+&lt;p&gt;No, not really spreadsheets. We're &lt;em&gt;software developers&lt;/em&gt;. We know most
+spreadsheets are just terrible wannabe databases with no schema or
+data constraints. What we could use are smart bots in Slack with some
+intelligence based on our launch schedule and the list of people involved.&lt;/p&gt;
+&lt;img alt="We need bots." class="talk-slide" src="/source/static/img/160428-r2d2-skynet/bots.jpg" style="width: 100%;" /&gt;
+&lt;p&gt;How would this Slack Bot scheduling utopia work? Well, rather than just
+talk about it, let's launch something together right now.&lt;/p&gt;
+&lt;img alt="Launching Twilio blog post together. Image courtesy of Wikipedia (https://upload.wikimedia.org/wikipedia/commons/f/fb/Launch_of_Falcon_9_carrying_ABS-EUTELSAT_%2816510241270%29.jpg)." class="talk-slide" src="/source/static/img/160428-r2d2-skynet/launch.jpg" style="width: 100%;" /&gt;
+&lt;p&gt;We, as in everyone in this entire room, are going to launch a Python and
+Twilio-powered Slack bot with automated scheduling magic, called
+Draw the Owl Bot.&lt;/p&gt;
+&lt;img alt="Draw the Owl. Image credit: http://i0.kym-cdn.com/photos/images/facebook/000/572/078/d6d.jpg" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/draw-the-owl.jpg" style="width: 100%;" /&gt;
+&lt;p&gt;Here are the items we're launching today: open source GitHub project,
+publish a Twilio blog post, social promote with &amp;#64;twilio and &amp;#64;fullstackpython.&lt;/p&gt;
+&lt;img alt="Launch plan." class="talk-slide" src="/source/static/img/160428-r2d2-skynet/placeholder.png" style="width: 100%;" /&gt;
+&lt;p&gt;We need a Slack channel to coordinate our launch, so we created one at
+draw-the-owl-bot.slack.com. Now we need your help. Get out your phones.
+Join the channel by texting (202) 555-1234.&lt;/p&gt;
+&lt;img alt="iPhone held in hand. Image credit: http://cdn2.macworld.co.uk/cmsdata/features/3589633/iphone_6s_review_20.jpg" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/get-out-phones.jpg" style="width: 100%;" /&gt;
+&lt;p&gt;Ok, here is our #general channel filling up. (&amp;quot;/launch-participants&amp;quot;).&lt;/p&gt;
+&lt;img alt="Slack channel." class="talk-slide" src="/source/static/img/160428-r2d2-skynet/placeholder.png" style="width: 100%;" /&gt;
+&lt;p&gt;Time to roll up our sleeves and dig in to write some bot code.&lt;/p&gt;
+&lt;img alt="Spreadsheets. Tons of them." class="talk-slide" src="/source/static/img/160428-r2d2-skynet/placeholder.png" style="width: 100%;" /&gt;
+&lt;p&gt;Our Slackbot should start out friendly, with helpful nudges like
+R2-D2's bleeps and boops.&lt;/p&gt;
+&lt;img alt="R2-D2 from Star Wars. Image credit: http://preview.turbosquid.com/Preview/2014/07/11__11_24_34/Textured2.jpg183b598c-faf6-4f34-a025-5bbb19571f9bOriginal.jpg" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/r2-d2.jpg" style="width: 100%;" /&gt;
+&lt;p&gt;...but the bot goes full Skynet mode if you just never respond.&lt;/p&gt;
+&lt;img alt="Terminator artwork. Image credit: http://orig14.deviantart.net/5dbc/f/2014/005/f/5/skynet_t800_factory_2__wallpaper__by_dadmad-d70yq68.png" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/skynet.png" style="width: 100%;" /&gt;
+</summary></entry><entry><title>My 2016 Year Ahead in Software Development</title><link href="http://www.letshackdc.com/2016-year-ahead-software-development.html" rel="alternate"></link><updated>2016-01-01T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2016-01-01:2016-year-ahead-software-development.html</id><summary type="html">&lt;p&gt;With my
 &lt;a class="reference external" href="/2015-software-development-year-review.html"&gt;2015 software development year in review&lt;/a&gt;
 done, I'm going to use this post to try something new: looking ahead at the big
 picture for what I want to accomplish in software throughout 2016. While I have a

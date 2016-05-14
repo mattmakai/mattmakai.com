@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
+    <loc>http://www.mattmakai.com/r2d2-skynet.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>http://www.mattmakai.com/2016-year-ahead-software-development.html</loc>
     <priority>0.8</priority>
   </url>
