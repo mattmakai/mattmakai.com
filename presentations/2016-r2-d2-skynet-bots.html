@@ -48,7 +48,7 @@
             h2.commandline-sm {font-size: 2.2em; color: #222; padding-top: 30px;}
             h1.code {font-family: courier; font-weight: bold;}
             h2.code {font-family: courier; font-weight: bold;}
-            ol.secondary {font-size: 22px; margin-left: 40px;}
+            ul.secondary {font-size: 26px; margin-left: 50px;}
         </style>
 
     <!-- Printing and PDF exports -->
@@ -85,37 +85,28 @@
                         <a href="https://www.twilio.com">Twilio</a> 
                     </p>
 				</section>
-                
+
                 <section data-state="tutorials">
                 </section>
 
                 <section data-state="devnetwork">
                 </section>
-                
+
+                <section data-state="twilio-logo">
+                </section>
+
                 <section data-state="slack">
                 </section>
 
-                <section data-state="livestream">
+                <section data-state="slack-mission">
                 </section>
 
-                <section data-state="blog-posts">
-                </section>
-
-                <section data-state="tutorials-page">
-                </section>
-                
-                <section data-state="github-source">
-                </section>
-                
                 <section data-state="team-docsweek">
                 </section>
 
                 <section data-state="video-launch">
                 </section>
 
-                <section data-state="devangel-events">
-                </section>
-                
                 <section data-state="spreadsheets">
                 </section>
 
@@ -125,21 +116,98 @@
                 <section data-state="launch">
                 </section>
 
+                <section data-state="r2-d2">
+                </section>
+                
+                <section data-state="skynet">
+                </section>
+
                 <section>
                     <h1>Draw the Owl Bot</h1>
                 </section>
 
-                <section data-state="draw-the-owl">
+                <section>
+                    <h2 style="font-size: 2.6em;">Draw the Owl Bot Launch</h2>
+                    <ul class="bigger" style="font-size: 1.25em;">
+                        <li class="fragment">Open source Bot code</li>
+                        <li class="fragment">Twilio /blog post</li>
+                        <li class="fragment">@twilio tweet</li>
+                    </ul>
                 </section>
-
+                
                 <section data-state="get-out-phones">
                 </section>
+               
+                <section data-state="draw-the-owl-bot-architecture">
+                </section>
 
+                <section>
+                    <h2>Slack Web API</h2>
+                    <ul class="bigger">
+                        <li>RPC-style API</li>
+                            <ul class="secondary">
+                                <li>Not REST</li>
+                                <li>Calls not idempotent or stateless</li>
+                            </ul>
+                        </li>
+                        <li class="fragment">Requires auth token</li>
+                        <li class="fragment">Calls performed on behalf of token owner</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2>Slack Web API</h2>
+<pre style="font-size: 70px; padding-top: 20px; padding-bottom: 20px; padding-left: 50px; padding-right: 40px;">
+chat.postMessage
+
+chat.update
+
+rtm.start
+</pre>
+                </section>
+
+                <section>
+                    <h2>Real-time API</h2>
+                    <ul class="bigger">
+                        <li>WebSockets</li>
+                        <li>Event stream</li>
+                        <li>Firehose  🚒</li>
+                        <li>Can post simple messages</li>
+                        <li>Some non-trivial caveats</li>
+                        </ul>
+                    </ul>
+                </section>
+
+                <section style="text-align: center;">
+                    <h1>Let's code!</h1>
+                </section>
+
+                <section>
+                    <h2>Build a Great Bot</h2>
+                    <ul class="bigger">
+                        <li class="fragment">Automates tedious tasks</li>
+                        <li class="fragment">Gets out of the way</li>
+                        <li class="fragment">Assists when thing fail</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>For every interaction you design, ask yourself:</h2>
+                    <h3>Is this making your customers' working lives
+                       <em>simpler</em>
+                       <em>more pleasant</em>,
+                       and <em>more productive</em>?
+                    </h3>
+                </section>
+
+                <section>
+                    <h1>Thanks for launching!</h1>
+                </section>
 
                 <section>
                     <h2>Don Goodman-Wilson</h2>
                     <ul class="bigger-contact-info">
-                        <li><a href="https://slack.com/">Slack Senior Engineer</a>
+                        <li><a href="https://slack.com/">Slack Senior Developer Advocate</a>
                         </li>
                         <li>
                             <a href="https://github.com/DEGoodmanWilson">DEGoodmanWilson on GitHub</a>
