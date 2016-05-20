@@ -261,7 +261,7 @@ h1.light-bg {color: #222;}
 }
 
 .devnetwork .reveal .state-background {
-  background: url(/source/static/img/160428-r2d2-skynet/slides/8-bit-devnetwork.jpg);
+  background: url(/source/static/img/160428-r2d2-skynet/slides/tutorials-launch.jpg);
   background-size: cover;
 }
 
@@ -343,6 +343,11 @@ h1.light-bg {color: #222;}
 
 .get-out-phones .reveal .state-background {
   background: url(/source/static/img/160428-r2d2-skynet/slides/get-out-phones.jpg);
+  background-size: cover;
+}
+
+.developers .reveal .state-background {
+  background: url(/source/static/img/160428-r2d2-skynet/slides/developers.jpg);
   background-size: cover;
 }
 
