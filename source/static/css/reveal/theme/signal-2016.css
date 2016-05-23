@@ -362,6 +362,11 @@ h1.light-bg {color: #222;}
 }
 
 .demo-architecture .reveal .state-background {
-  background: url(/source/static/img/160428-r2d2-skynet/slides/demo-architecture.jpg);
+  background: url(/source/static/img/160428-r2d2-skynet/slides/demo-architecture.png);
+  background-size: cover;
+}
+
+.what-you-build .reveal .state-background {
+  background: url(/source/static/img/160428-r2d2-skynet/slides/bots-you-build.jpg);
   background-size: cover;
 }

@@ -8,17 +8,12 @@ R2-D2 or Skynet? Combining Slack Bots with the Twilio API
 
 
 This is a rough transcript along with the slides from our
-`SIGNAL 2016 <https://www.twilio.com/signal>`_ talk that will be given 
-on May 24, 2016.
+`SIGNAL 2016 <https://www.twilio.com/signal>`_ talk from May 24, 2016.
 
-You can also find the slides on my `tech talks </talks.html>`_ page. The
-code is open sourced under the MIT license in a GitHub repository
-named 
-`slack-api-python-examples <https://github.com/makaimc/slack-api-python-examples>`_.
-
-----
-
-*Note: this blog post for the talk is a work in progress.*
+You can also find the slides without notes on my `tech talks </talks.html>`_ 
+page. The code for the bot is open sourced under the MIT license in a 
+GitHub repository named 
+`callbot <https://github.com/makaimc/callbot>`_.
 
 **R2-D2 or Skynet? Combining Slack Bots with the Twilio API**
 by Matt Makai (Twilio) and Don Goodman-Wilson (Slack)
@@ -28,12 +23,28 @@ by Matt Makai (Twilio) and Don Goodman-Wilson (Slack)
   :width: 100%
   :class: talk-slide
 
+----
 
-Back in March, Twilio launched a new 
-`Tutorials by Twilio <https://www.twilio.com/blog/2016/03/tutorials-the-new-documentation-experience-from-twilio.html>`_ 
-format. The tutorials made my developer senses tingle, in a good way. Each 
-tutorial provided idiomatic code for every major programming language 
-along with the frameworks that developers commonly use in those ecosystems.
+Hey folks, my name is Matt Makai and I'm a Developer Evangelist with 
+Twilio. Joining me on stage is Don Goodman-Wilson, a Senior Developer 
+Advocate from Slack. Welcome to "R2-D2 or Skynet?" Today we're going to 
+show how to combine the Slack and Twilio APIs and learn about good 
+bot-building practices.
+
+.. image:: /source/static/img/160428-r2d2-skynet/r2-d2-skynet-title.png
+  :alt: Title slide for talk
+  :width: 100%
+  :class: talk-slide
+
+
+Back in March, Twilio launched 
+`Tutorials <https://www.twilio.com/blog/2016/03/tutorials-the-new-documentation-experience-from-twilio.html>`_,
+a new feature on the `Twilio documentation <https://www.twilio.com/docs>`_.
+If you're a developer working on common features that incorporate Twilio,
+such as two-factor authentication or building an interactive voice response
+(IVR) system, you could find a tutorial with the code in your programming 
+language along with an entire step-by-step walkthrough for how to add that
+feature to your application.
 
 .. image:: /source/static/img/160428-r2d2-skynet/tutorials-blog-post.jpg
   :alt: Tutorials by Twilio launch blog post slide
@@ -41,43 +52,37 @@ along with the frameworks that developers commonly use in those ecosystems.
   :class: talk-slide
 
 
-Twilio's 
-`Developer Network team <https://www.youtube.com/watch?v=TF129ioe8kc>`_
-is globally distributed, so we needed some handy software to
-coordinate between nine time zones. 
+The launch involved about a dozen people at Twilio within the
+`Developer Network team <https://www.youtube.com/watch?v=TF129ioe8kc>`_.
+Even with a reasonable size team we ran into issues manually scaling our
+communication across everyone on the team, such as when blog posts were 
+going live.
 
-.. image:: /source/static/img/160428-r2d2-skynet/8-bit-devnetwork.png
+.. image:: /source/static/img/160428-r2d2-skynet/tutorials-launch.jpg
   :alt: The DevNetwork as 8-bit characters
   :width: 100%
   :class: talk-slide
 
 
-We of course turned to Slack, which Twilio uses company-wide. A new Slack 
-channel named *team-docsweek* was born with everyone who was on point for the 
-launch.
+Twilio's mission is to empower developers to build the future of 
+communications. Internally, we use many tools to help us accomplish that
+mission.
 
-.. image:: /source/static/img/160428-r2d2-skynet/slack.jpg
+.. image:: /source/static/img/160428-r2d2-skynet/twilio-logo.jpg
+  :alt: Twilio logo
+  :width: 100%
+  :class: talk-slide
+
+
+One of those tools is Slack, which Twilio uses company-wide. A new Slack 
+channel was born with everyone who was on point for the launch.
+
+.. image:: /source/static/img/160428-r2d2-skynet/slack-logo.jpg
   :alt: We used Slack to coordinate team activities
   :width: 100%
   :class: talk-slide
 
 
-Now, how hard could a launch be? Well, here's a quick list of all the
-things that had to come together to make this work out for us.
-Six live streams by different Developer Evangelists throughout the week.
-
-.. image:: /source/static/img/160428-r2d2-skynet/brent-stream.jpg
-  :alt: Twitch livestream by Brent
-  :width: 100%
-  :class: talk-slide
-
-
-Eight blog posts going live in a specific order.
-
-.. image:: /source/static/img/160428-r2d2-skynet/blog-posts.jpg
-  :alt: Blog posts on twilio.com/blog
-  :width: 100%
-  :class: talk-slide
 
 
 Over one hundred tutorials checked and cross-checked for accuracy both
@@ -89,24 +94,6 @@ in the tutorial prose and the code.
   :class: talk-slide
 
 
-Every tutorial open sourced on GitHub with appropriate READMEs and
-hooked up to continuous integration.
-
-.. image:: /source/static/img/160428-r2d2-skynet/github-repo-example.png
-  :alt: Blog posts picture
-  :width: 100%
-  :class: talk-slide
-
-
-Clearly all this manual intervention isn't going to scale past a half a 
-dozen people. It mostly worked, but there was way too much manual "hey, 
-you there? hey, you ready to put that post up so we can do this other 
-thing?" 
-
-.. image:: /source/static/img/160428-r2d2-skynet/team-docsweek.png
-  :alt: An excerpt from the team-docsweek Slack channel
-  :width: 100%
-  :class: talk-slide
 
 
 Now, this certainly was far from the most complicated launch Twilio has 

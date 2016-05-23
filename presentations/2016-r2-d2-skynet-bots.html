@@ -104,8 +104,10 @@
                 <section data-state="tutorials-page">
                 </section>
 
+                <!--
                 <section data-state="video-launch">
                 </section>
+                -->
 
                 <section data-state="spreadsheets">
                 </section>
@@ -148,22 +150,17 @@
                     <h2>Slack Web API</h2>
                     <ul class="bigger">
                         <li>RPC-style API</li>
-                            <ul class="secondary">
-                                <li>Not REST</li>
-                                <li>Calls not idempotent or stateless</li>
-                            </ul>
-                        </li>
+                        <li class="fragment">Not REST</li>
+                        <li class="fragment">Calls not idempotent or stateless</li>
                         <li class="fragment">Requires auth token</li>
-                        <li class="fragment">Calls performed on behalf of token owner</li>
+                        <li class="fragment">Returns JSON</li>
                     </ul>
                 </section>
                 
                 <section>
                     <h2>Slack Web API</h2>
-<pre style="font-size: 70px; padding-top: 20px; padding-bottom: 20px; padding-left: 50px; padding-right: 40px;">
+<pre style="font-size: 78px; padding-top: 20px; padding-bottom: 20px; padding-left: 50px; padding-right: 40px;">
 chat.postMessage
-
-chat.update
 
 rtm.start
 </pre>
@@ -176,7 +173,6 @@ rtm.start
                         <li class="fragment">Event stream</li>
                         <li class="fragment">Firehose  🚒</li>
                         <li class="fragment">Can post simple messages</li>
-                        <li class="fragment">Some non-trivial caveats</li>
                         </ul>
                     </ul>
                 </section>
@@ -207,6 +203,9 @@ rtm.start
 
                 <section>
                     <h1>Thanks for launching!</h1>
+                </section>
+                
+                <section data-state="what-you-build">
                 </section>
 
                 <section>
