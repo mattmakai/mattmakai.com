@@ -36,50 +36,40 @@ mission.&lt;/p&gt;
 &lt;img alt="Twilio logo" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/twilio-logo.jpg" style="width: 100%;" /&gt;
 &lt;p&gt;One of those tools is Slack, which Twilio uses company-wide. A new Slack
 channel was born with everyone who was on point for the launch.&lt;/p&gt;
-&lt;img alt="We used Slack to coordinate team activities" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/slack-logo.jpg" style="width: 100%;" /&gt;
-&lt;p&gt;Over one hundred tutorials checked and cross-checked for accuracy both
-in the tutorial prose and the code.&lt;/p&gt;
+&lt;img alt="We used Slack to coordinate team activities (Slack logo)" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/slack-logo.jpg" style="width: 100%;" /&gt;
+&lt;p&gt;Slack's mission is to make people's working lives simpler, more pleasant
+and more productive.&lt;/p&gt;
+&lt;img alt="Slack's mission statement" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/slides/slack-mission.jpg" style="width: 100%;" /&gt;
+&lt;p&gt;During our tutorials launch, we faced scaling challenges that we might've
+been able to overcome if we had better automated communication.&lt;/p&gt;
 &lt;img alt="Blog posts picture" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/100-tutorials.png" style="width: 100%;" /&gt;
-&lt;p&gt;Now, this certainly was far from the most complicated launch Twilio has
-executed. Products like Video and IP Messaging require a boatloads of
-communication across the entire company - similarly, in many time zones
-across the world.&lt;/p&gt;
-&lt;img alt="Video &amp;amp; IP Messaging launches" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/twilio-video.png" style="width: 100%;" /&gt;
-&lt;p&gt;Plus, many of us are on the road at events, or heads down coding.&lt;/p&gt;
-&lt;img alt="DevAngel Rob Spectre at an event" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/rob-speaking.jpg" style="width: 100%;" /&gt;
 &lt;p&gt;There is definitely a better way to handle all these logistics. The
 answer is spreadsheets. Lots and lots of spreadsheets.&lt;/p&gt;
 &lt;img alt="Spreadsheets. Tons of them." class="talk-slide" src="/source/static/img/160428-r2d2-skynet/spreadsheets.png" style="width: 100%;" /&gt;
-&lt;p&gt;No, not really spreadsheets. We're &lt;em&gt;software developers&lt;/em&gt;. We know most
-spreadsheets are just terrible wannabe databases with no schema or
-data constraints. What we could use are smart bots in Slack with some
+&lt;p&gt;No, not really spreadsheets. We're &lt;em&gt;software developers&lt;/em&gt;. We're on
+the side of good - the ones that want to rid the world of spreadsheets,
+not make them proliferate.&lt;/p&gt;
+&lt;img alt="Developers looking down at code." class="talk-slide" src="/source/static/img/160428-r2d2-skynet/slides/developers.jpg" style="width: 100%;" /&gt;
+&lt;p&gt;Our Slackbot should start out friendly, with helpful nudges like
+R2-D2's bleeps and boops.&lt;/p&gt;
+&lt;img alt="R2-D2 from Star Wars. Image credit: http://preview.turbosquid.com/Preview/2014/07/11__11_24_34/Textured2.jpg183b598c-faf6-4f34-a025-5bbb19571f9bOriginal.jpg" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/slides/r2-d2.jpg" style="width: 100%;" /&gt;
+&lt;p&gt;...but the bot goes full Skynet mode if you just never respond.&lt;/p&gt;
+&lt;img alt="Terminator artwork. Image credit: http://orig14.deviantart.net/5dbc/f/2014/005/f/5/skynet_t800_factory_2__wallpaper__by_dadmad-d70yq68.png" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/slides/skynet.jpg" style="width: 100%;" /&gt;
+&lt;p&gt;What we could use are smart bots in Slack with some
 intelligence based on our launch schedule and the list of people involved.&lt;/p&gt;
 &lt;img alt="We need bots." class="talk-slide" src="/source/static/img/160428-r2d2-skynet/bots.jpg" style="width: 100%;" /&gt;
 &lt;p&gt;How would this Slack Bot scheduling utopia work? Well, rather than just
 talk about it, let's launch something together right now.&lt;/p&gt;
-&lt;img alt="Launching Twilio blog post together. Image courtesy of Wikipedia (https://upload.wikimedia.org/wikipedia/commons/f/fb/Launch_of_Falcon_9_carrying_ABS-EUTELSAT_%2816510241270%29.jpg)." class="talk-slide" src="/source/static/img/160428-r2d2-skynet/launch.jpg" style="width: 100%;" /&gt;
-&lt;p&gt;We, as in everyone in this entire room, are going to launch a Python and
-Twilio-powered Slack bot with automated scheduling magic, called
-Draw the Owl Bot.&lt;/p&gt;
-&lt;img alt="Draw the Owl. Image credit: http://i0.kym-cdn.com/photos/images/facebook/000/572/078/d6d.jpg" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/draw-the-owl.jpg" style="width: 100%;" /&gt;
+&lt;img alt="Launching Twilio blog post together. Image courtesy of Wikipedia (https://upload.wikimedia.org/wikipedia/commons/f/fb/Launch_of_Falcon_9_carrying_ABS-EUTELSAT_%2816510241270%29.jpg)." class="talk-slide" src="/source/static/img/160428-r2d2-skynet/slides/launch.jpg" style="width: 100%;" /&gt;
 &lt;p&gt;Here are the items we're launching today: open source GitHub project,
 publish a Twilio blog post, social promote with &amp;#64;twilio and &amp;#64;fullstackpython.&lt;/p&gt;
-&lt;img alt="Launch plan." class="talk-slide" src="/source/static/img/160428-r2d2-skynet/placeholder.png" style="width: 100%;" /&gt;
-&lt;p&gt;Here's how our bot architecture works.&lt;/p&gt;
-&lt;img alt="Draw the Owl Bot architecture." class="talk-slide" src="/source/static/img/160428-r2d2-skynet/draw-the-owl-bot.png" style="width: 100%;" /&gt;
+&lt;img alt="List of items we are launching today." class="talk-slide" src="/source/static/img/placeholder.png" style="width: 100%;" /&gt;
 &lt;p&gt;We need a Slack channel to coordinate our launch, so we created one at
 draw-the-owl-bot.slack.com. Now we need your help. Get out your phones.
-Join the channel by texting (202) 555-1234.&lt;/p&gt;
-&lt;img alt="iPhone held in hand. Image credit: http://cdn2.macworld.co.uk/cmsdata/features/3589633/iphone_6s_review_20.jpg" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/get-out-phones.jpg" style="width: 100%;" /&gt;
-&lt;p&gt;Ok, here is our #general channel filling up. (&amp;quot;/launch-participants&amp;quot;).&lt;/p&gt;
-&lt;img alt="Slack channel." class="talk-slide" src="/source/static/img/160428-r2d2-skynet/placeholder.png" style="width: 100%;" /&gt;
-&lt;p&gt;Time to roll up our sleeves and dig in to write some bot code.&lt;/p&gt;
-&lt;img alt="Spreadsheets. Tons of them." class="talk-slide" src="/source/static/img/160428-r2d2-skynet/placeholder.png" style="width: 100%;" /&gt;
-&lt;p&gt;Our Slackbot should start out friendly, with helpful nudges like
-R2-D2's bleeps and boops.&lt;/p&gt;
-&lt;img alt="R2-D2 from Star Wars. Image credit: http://preview.turbosquid.com/Preview/2014/07/11__11_24_34/Textured2.jpg183b598c-faf6-4f34-a025-5bbb19571f9bOriginal.jpg" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/r2-d2.jpg" style="width: 100%;" /&gt;
-&lt;p&gt;...but the bot goes full Skynet mode if you just never respond.&lt;/p&gt;
-&lt;img alt="Terminator artwork. Image credit: http://orig14.deviantart.net/5dbc/f/2014/005/f/5/skynet_t800_factory_2__wallpaper__by_dadmad-d70yq68.png" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/skynet.png" style="width: 100%;" /&gt;
+Join the channel by texting (xxx) yyy-zzzz.&lt;/p&gt;
+&lt;img alt="iPhone held in hand. Image credit: http://cdn2.macworld.co.uk/cmsdata/features/3589633/iphone_6s_review_20.jpg" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/slides/get-out-phones.jpg" style="width: 100%;" /&gt;
+&lt;p&gt;Here's how our bot architecture works.&lt;/p&gt;
+&lt;img alt="Draw the Owl Bot architecture." class="talk-slide" src="/source/static/img/160428-r2d2-skynet/draw-the-owl-bot.png" style="width: 100%;" /&gt;
 </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Thu, 28 Apr 2016 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2016-04-28:r2d2-skynet.html</guid></item><item><title>My 2016 Year Ahead in Software Development</title><link>http://www.letshackdc.com/2016-year-ahead-software-development.html</link><description>&lt;p&gt;With my
 &lt;a class="reference external" href="/2015-software-development-year-review.html"&gt;2015 software development year in review&lt;/a&gt;
 done, I'm going to use this post to try something new: looking ahead at the big
