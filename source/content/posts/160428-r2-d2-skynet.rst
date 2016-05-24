@@ -176,7 +176,7 @@ with @twilio.
 
 We need a Slack channel to coordinate our launch, so we created one at
 draw-the-owl-bot.slack.com. Now we need your help. Get out your phones.
-Join the channel by texting (xxx) yyy-zzzz.
+Join the channel by texting (415) 689-xxxx.
 
 .. image:: /source/static/img/160428-r2d2-skynet/slides/get-out-phones.jpg
   :alt: iPhone held in hand. Image credit: http://cdn2.macworld.co.uk/cmsdata/features/3589633/iphone_6s_review_20.jpg
@@ -215,7 +215,8 @@ context about it.
   :class: talk-slide
 
 
-Notes.
+The Slack web API has a couple of methods that we're using in our talk
+today.
 
 .. image:: /source/static/img/160428-r2d2-skynet/slack-web-api-methods.png
   :alt: Web API methods our Slack bot uses
@@ -223,7 +224,7 @@ Notes.
   :class: talk-slide
 
 
-Notes.
+Here are some important points about the Slack Real Time Messaging API.
 
 .. image:: /source/static/img/160428-r2d2-skynet/real-time-messaging-api.png
   :alt: Slack Real Time Messaging API notes
@@ -231,7 +232,7 @@ Notes.
   :class: talk-slide
 
 
-Notes.
+Let's finally get to the launch! (Demo done in Slack console.)
 
 .. image:: /source/static/img/160428-r2d2-skynet/lets-launch.png
   :alt: Let's launch our open source project!
@@ -239,7 +240,9 @@ Notes.
   :class: talk-slide
 
 
-Notes.
+The demo architecture was a bit different than when people texted in
+the first time. In this case, we're going from the Slack user interface
+via their web app, with outbound communication to phones.
 
 .. image:: /source/static/img/160428-r2d2-skynet/demo-architecture.png
   :alt: Architecture for the Draw the Owl Bot demo.
@@ -247,8 +250,52 @@ Notes.
   :class: talk-slide
 
 
-Notes.
+Here are several rules for building great bots based on what Slack's
+seen so far with their API.
 
+
+.. image:: /source/static/img/160428-r2d2-skynet/build-great-bot.png
+  :alt: Notes for building a great bot.
+  :width: 100%
+  :class: talk-slide
+
+
+For every interaction, ask yourself if it's necessary and makes people's
+lives better and their jobs easier.
+
+.. image:: /source/static/img/160428-r2d2-skynet/every-interaction.png
+  :alt: Rules for every interaction.
+  :width: 100%
+  :class: talk-slide
+
+
+Thanks for launching with us! Let's quickly see how we're doing on our
+GitHub stars and retweets.
+
+.. image:: /source/static/img/160428-r2d2-skynet/thanks-launching.png
+  :alt: Thanks for launching with us!
+  :width: 100%
+  :class: talk-slide
+
+
+To paraphrase Jeff Lawson, our CEO and co-founder, we can't wait to 
+see what bots you build.
+
+.. image:: /source/static/img/160428-r2d2-skynet/cant-wait.jpg
+  :alt: We can't wait to see what bots you build.
+  :width: 100%
+  :class: talk-slide
+
+
+Thanks again. My name is Matt Makai and I'm a Developer Evangelist
+with Twilio, this is Don Goodman-Wilson from Slack. We'll be happy
+to answer questions in the hallway or contact us with the information
+on this slide.
+
+.. image:: /source/static/img/160428-r2d2-skynet/contact-info.png
+  :alt: Our contact information.
+  :width: 100%
+  :class: talk-slide
 
 
 ----
@@ -256,6 +303,12 @@ Notes.
 
 More Bot-building Resources
 ---------------------------
-* How to Build SMS Slack Bots with Python
+* `How to Build SMS Slack Bots with Python <https://www.twilio.com/blog/2016/05/build-sms-slack-bot-python.html>`_
 * `Bots page on Full Stack Python <https://www.fullstackpython.com/bots.html>`_
+* `Add A Phone Calling Bot to Slack with Python <https://www.twilio.com/blog/2016/05/add-phone-calling-slack-python.html>`_
+* `PhoneBot with IBM Watson and Twilio Voice <http://jamesthom.as/blog/2015/05/29/phonebot/>`_ 
+  along with the `GitHub repository <https://github.com/IBM-Bluemix/phonebot>`_
+* `The 5 branches of conversational commerce: A guide to the bot world <http://venturebeat.com/2016/05/21/the-5-branches-of-conversational-commerce-a-guide-for-the-bot-curious/>`_ by Jeff Lawson
+
+
 

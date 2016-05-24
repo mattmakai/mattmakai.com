@@ -155,7 +155,7 @@ with &#64;twilio.</p>
 <img alt="We're launching 3 items today: open source project, blog post and giving it a boost with a tweet from &#64;twilio." class="talk-slide" src="/source/static/img/160428-r2d2-skynet/launch-phone-calls-in-slack.png" style="width: 100%;" />
 <p>We need a Slack channel to coordinate our launch, so we created one at
 draw-the-owl-bot.slack.com. Now we need your help. Get out your phones.
-Join the channel by texting (xxx) yyy-zzzz.</p>
+Join the channel by texting (415) 689-xxxx.</p>
 <img alt="iPhone held in hand. Image credit: http://cdn2.macworld.co.uk/cmsdata/features/3589633/iphone_6s_review_20.jpg" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/slides/get-out-phones.jpg" style="width: 100%;" />
 <p>Our demo assistant is &quot;Draw the Owl Bot&quot;, after one of Twilio's core
 values named after the
@@ -170,21 +170,44 @@ TwiML. Draw the Owl Bot then made a call to the Slack API to post a message.</p>
 <p>The Slack API is a very important part of the architecture, so here's more
 context about it.</p>
 <img alt="More information about the Slack web API." class="talk-slide" src="/source/static/img/160428-r2d2-skynet/slack-web-api.png" style="width: 100%;" />
-<p>Notes.</p>
+<p>The Slack web API has a couple of methods that we're using in our talk
+today.</p>
 <img alt="Web API methods our Slack bot uses" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/slack-web-api-methods.png" style="width: 100%;" />
-<p>Notes.</p>
+<p>Here are some important points about the Slack Real Time Messaging API.</p>
 <img alt="Slack Real Time Messaging API notes" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/real-time-messaging-api.png" style="width: 100%;" />
-<p>Notes.</p>
+<p>Let's finally get to the launch! (Demo done in Slack console.)</p>
 <img alt="Let's launch our open source project!" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/lets-launch.png" style="width: 100%;" />
-<p>Notes.</p>
+<p>The demo architecture was a bit different than when people texted in
+the first time. In this case, we're going from the Slack user interface
+via their web app, with outbound communication to phones.</p>
 <img alt="Architecture for the Draw the Owl Bot demo." class="talk-slide" src="/source/static/img/160428-r2d2-skynet/demo-architecture.png" style="width: 100%;" />
-<p>Notes.</p>
+<p>Here are several rules for building great bots based on what Slack's
+seen so far with their API.</p>
+<img alt="Notes for building a great bot." class="talk-slide" src="/source/static/img/160428-r2d2-skynet/build-great-bot.png" style="width: 100%;" />
+<p>For every interaction, ask yourself if it's necessary and makes people's
+lives better and their jobs easier.</p>
+<img alt="Rules for every interaction." class="talk-slide" src="/source/static/img/160428-r2d2-skynet/every-interaction.png" style="width: 100%;" />
+<p>Thanks for launching with us! Let's quickly see how we're doing on our
+GitHub stars and retweets.</p>
+<img alt="Thanks for launching with us!" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/thanks-launching.png" style="width: 100%;" />
+<p>To paraphrase Jeff Lawson, our CEO and co-founder, we can't wait to
+see what bots you build.</p>
+<img alt="We can't wait to see what bots you build." class="talk-slide" src="/source/static/img/160428-r2d2-skynet/cant-wait.jpg" style="width: 100%;" />
+<p>Thanks again. My name is Matt Makai and I'm a Developer Evangelist
+with Twilio, this is Don Goodman-Wilson from Slack. We'll be happy
+to answer questions in the hallway or contact us with the information
+on this slide.</p>
+<img alt="Our contact information." class="talk-slide" src="/source/static/img/160428-r2d2-skynet/contact-info.png" style="width: 100%;" />
 <hr class="docutils" />
 <div class="section" id="more-bot-building-resources">
 <h2>More Bot-building Resources</h2>
 <ul class="simple">
-<li>How to Build SMS Slack Bots with Python</li>
+<li><a class="reference external" href="https://www.twilio.com/blog/2016/05/build-sms-slack-bot-python.html">How to Build SMS Slack Bots with Python</a></li>
 <li><a class="reference external" href="https://www.fullstackpython.com/bots.html">Bots page on Full Stack Python</a></li>
+<li><a class="reference external" href="https://www.twilio.com/blog/2016/05/add-phone-calling-slack-python.html">Add A Phone Calling Bot to Slack with Python</a></li>
+<li><a class="reference external" href="http://jamesthom.as/blog/2015/05/29/phonebot/">PhoneBot with IBM Watson and Twilio Voice</a>
+along with the <a class="reference external" href="https://github.com/IBM-Bluemix/phonebot">GitHub repository</a></li>
+<li><a class="reference external" href="http://venturebeat.com/2016/05/21/the-5-branches-of-conversational-commerce-a-guide-for-the-bot-curious/">The 5 branches of conversational commerce: A guide to the bot world</a> by Jeff Lawson</li>
 </ul>
 </div>
 
