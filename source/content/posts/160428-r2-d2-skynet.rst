@@ -15,8 +15,13 @@ page. The code for the bot is open sourced under the MIT license in a
 GitHub repository named 
 `callbot <https://github.com/makaimc/callbot>`_.
 
+At the end of the talk I give out bot-building resources to all the 
+attendees - all those linked resources are listed at the bottom of this
+post.
+
 **R2-D2 or Skynet? Combining Slack Bots with the Twilio API**
-by Matt Makai (Twilio) and Don Goodman-Wilson (Slack)
+by `Matt Makai <https://twitter.com/mattmakai>`_ (Twilio) and 
+`Don Goodman-Wilson <https://twitter.com/degoodmanwilson>`_ (Slack)
 
 .. image:: /source/static/img/160428-r2d2-skynet/r2-d2-skynet-signal.png
   :alt: SIGNAL page for this talk
@@ -159,14 +164,14 @@ talk about it, let's launch something together right now.
 
 
 
-Here are the items we're launching today: open source GitHub project,
-publish a Twilio blog post, social promote with @twilio and @fullstackpython.
+Here are the three items part of our launch today: open source a GitHub 
+project named "callbot", publish a Twilio blog post and social promote 
+with @twilio.
 
-.. image:: /source/static/img/placeholder.png
-  :alt: List of items we are launching today.
+.. image:: /source/static/img/160428-r2d2-skynet/launch-phone-calls-in-slack.png
+  :alt: We're launching 3 items today: open source project, blog post and giving it a boost with a tweet from @twilio.
   :width: 100%
   :class: talk-slide
-
 
 
 We need a Slack channel to coordinate our launch, so we created one at
@@ -179,11 +184,78 @@ Join the channel by texting (xxx) yyy-zzzz.
   :class: talk-slide
 
 
+Our demo assistant is "Draw the Owl Bot", after one of Twilio's core
+values named after the 
+`Draw the Owl Bot <http://s3.amazonaws.com/marquee-test-akiaisur2rgicbmpehea/R7x3FamR2K1LHtgwZURc_Screen%20Shot%202015-11-17%20at%204.01.11%20PM.png>`_ 
+meme.
 
-Here's how our bot architecture works.
+.. image:: /source/static/img/160428-r2d2-skynet/draw-the-owl-bot-title.png
+  :alt: Our Slack assistant today is the Draw the Owl Bot
+  :width: 100%
+  :class: talk-slide
+
+
+Here's how our bot architecture works. When you sent a text message to our
+Slack bot's phone number, that was actually a number on Twilio. Twilio then
+sent an HTTP POST request to the Draw the Owl Bot and it responded with
+TwiML. Draw the Owl Bot then made a call to the Slack API to post a message.
 
 .. image:: /source/static/img/160428-r2d2-skynet/draw-the-owl-bot.png
   :alt: Draw the Owl Bot architecture.
   :width: 100%
   :class: talk-slide
+
+
+The Slack API is a very important part of the architecture, so here's more
+context about it.
+
+.. image:: /source/static/img/160428-r2d2-skynet/slack-web-api.png
+  :alt: More information about the Slack web API.
+  :width: 100%
+  :class: talk-slide
+
+
+Notes.
+
+.. image:: /source/static/img/160428-r2d2-skynet/slack-web-api-methods.png
+  :alt: Web API methods our Slack bot uses
+  :width: 100%
+  :class: talk-slide
+
+
+Notes.
+
+.. image:: /source/static/img/160428-r2d2-skynet/real-time-messaging-api.png
+  :alt: Slack Real Time Messaging API notes
+  :width: 100%
+  :class: talk-slide
+
+
+Notes.
+
+.. image:: /source/static/img/160428-r2d2-skynet/lets-launch.png
+  :alt: Let's launch our open source project!
+  :width: 100%
+  :class: talk-slide
+
+
+Notes.
+
+.. image:: /source/static/img/160428-r2d2-skynet/demo-architecture.png
+  :alt: Architecture for the Draw the Owl Bot demo.
+  :width: 100%
+  :class: talk-slide
+
+
+Notes.
+
+
+
+----
+
+
+More Bot-building Resources
+---------------------------
+* How to Build SMS Slack Bots with Python
+* `Bots page on Full Stack Python <https://www.fullstackpython.com/bots.html>`_
 

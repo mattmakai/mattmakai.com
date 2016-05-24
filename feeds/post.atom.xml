@@ -5,8 +5,12 @@
 page. The code for the bot is open sourced under the MIT license in a
 GitHub repository named
 &lt;a class="reference external" href="https://github.com/makaimc/callbot"&gt;callbot&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;At the end of the talk I give out bot-building resources to all the
+attendees - all those linked resources are listed at the bottom of this
+post.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;R2-D2 or Skynet? Combining Slack Bots with the Twilio API&lt;/strong&gt;
-by Matt Makai (Twilio) and Don Goodman-Wilson (Slack)&lt;/p&gt;
+by &lt;a class="reference external" href="https://twitter.com/mattmakai"&gt;Matt Makai&lt;/a&gt; (Twilio) and
+&lt;a class="reference external" href="https://twitter.com/degoodmanwilson"&gt;Don Goodman-Wilson&lt;/a&gt; (Slack)&lt;/p&gt;
 &lt;img alt="SIGNAL page for this talk" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/r2-d2-skynet-signal.png" style="width: 100%;" /&gt;
 &lt;hr class="docutils" /&gt;
 &lt;p&gt;Hey folks, my name is Matt Makai and I'm a Developer Evangelist with
@@ -61,15 +65,44 @@ intelligence based on our launch schedule and the list of people involved.&lt;/p
 &lt;p&gt;How would this Slack Bot scheduling utopia work? Well, rather than just
 talk about it, let's launch something together right now.&lt;/p&gt;
 &lt;img alt="Launching Twilio blog post together. Image courtesy of Wikipedia (https://upload.wikimedia.org/wikipedia/commons/f/fb/Launch_of_Falcon_9_carrying_ABS-EUTELSAT_%2816510241270%29.jpg)." class="talk-slide" src="/source/static/img/160428-r2d2-skynet/slides/launch.jpg" style="width: 100%;" /&gt;
-&lt;p&gt;Here are the items we're launching today: open source GitHub project,
-publish a Twilio blog post, social promote with &amp;#64;twilio and &amp;#64;fullstackpython.&lt;/p&gt;
-&lt;img alt="List of items we are launching today." class="talk-slide" src="/source/static/img/placeholder.png" style="width: 100%;" /&gt;
+&lt;p&gt;Here are the three items part of our launch today: open source a GitHub
+project named &amp;quot;callbot&amp;quot;, publish a Twilio blog post and social promote
+with &amp;#64;twilio.&lt;/p&gt;
+&lt;img alt="We're launching 3 items today: open source project, blog post and giving it a boost with a tweet from &amp;#64;twilio." class="talk-slide" src="/source/static/img/160428-r2d2-skynet/launch-phone-calls-in-slack.png" style="width: 100%;" /&gt;
 &lt;p&gt;We need a Slack channel to coordinate our launch, so we created one at
 draw-the-owl-bot.slack.com. Now we need your help. Get out your phones.
 Join the channel by texting (xxx) yyy-zzzz.&lt;/p&gt;
 &lt;img alt="iPhone held in hand. Image credit: http://cdn2.macworld.co.uk/cmsdata/features/3589633/iphone_6s_review_20.jpg" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/slides/get-out-phones.jpg" style="width: 100%;" /&gt;
-&lt;p&gt;Here's how our bot architecture works.&lt;/p&gt;
+&lt;p&gt;Our demo assistant is &amp;quot;Draw the Owl Bot&amp;quot;, after one of Twilio's core
+values named after the
+&lt;a class="reference external" href="http://s3.amazonaws.com/marquee-test-akiaisur2rgicbmpehea/R7x3FamR2K1LHtgwZURc_Screen%20Shot%202015-11-17%20at%204.01.11%20PM.png"&gt;Draw the Owl Bot&lt;/a&gt;
+meme.&lt;/p&gt;
+&lt;img alt="Our Slack assistant today is the Draw the Owl Bot" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/draw-the-owl-bot-title.png" style="width: 100%;" /&gt;
+&lt;p&gt;Here's how our bot architecture works. When you sent a text message to our
+Slack bot's phone number, that was actually a number on Twilio. Twilio then
+sent an HTTP POST request to the Draw the Owl Bot and it responded with
+TwiML. Draw the Owl Bot then made a call to the Slack API to post a message.&lt;/p&gt;
 &lt;img alt="Draw the Owl Bot architecture." class="talk-slide" src="/source/static/img/160428-r2d2-skynet/draw-the-owl-bot.png" style="width: 100%;" /&gt;
+&lt;p&gt;The Slack API is a very important part of the architecture, so here's more
+context about it.&lt;/p&gt;
+&lt;img alt="More information about the Slack web API." class="talk-slide" src="/source/static/img/160428-r2d2-skynet/slack-web-api.png" style="width: 100%;" /&gt;
+&lt;p&gt;Notes.&lt;/p&gt;
+&lt;img alt="Web API methods our Slack bot uses" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/slack-web-api-methods.png" style="width: 100%;" /&gt;
+&lt;p&gt;Notes.&lt;/p&gt;
+&lt;img alt="Slack Real Time Messaging API notes" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/real-time-messaging-api.png" style="width: 100%;" /&gt;
+&lt;p&gt;Notes.&lt;/p&gt;
+&lt;img alt="Let's launch our open source project!" class="talk-slide" src="/source/static/img/160428-r2d2-skynet/lets-launch.png" style="width: 100%;" /&gt;
+&lt;p&gt;Notes.&lt;/p&gt;
+&lt;img alt="Architecture for the Draw the Owl Bot demo." class="talk-slide" src="/source/static/img/160428-r2d2-skynet/demo-architecture.png" style="width: 100%;" /&gt;
+&lt;p&gt;Notes.&lt;/p&gt;
+&lt;hr class="docutils" /&gt;
+&lt;div class="section" id="more-bot-building-resources"&gt;
+&lt;h2&gt;More Bot-building Resources&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;How to Build SMS Slack Bots with Python&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.fullstackpython.com/bots.html"&gt;Bots page on Full Stack Python&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 </summary></entry><entry><title>My 2016 Year Ahead in Software Development</title><link href="http://www.letshackdc.com/2016-year-ahead-software-development.html" rel="alternate"></link><updated>2016-01-01T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2016-01-01:2016-year-ahead-software-development.html</id><summary type="html">&lt;p&gt;With my
 &lt;a class="reference external" href="/2015-software-development-year-review.html"&gt;2015 software development year in review&lt;/a&gt;
 done, I'm going to use this post to try something new: looking ahead at the big
