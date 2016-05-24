@@ -308,8 +308,11 @@ More Bot-building Resources
 * `Getting Started with the Slack API using Python and Flask <https://realpython.com/blog/python/getting-started-with-the-slack-api-using-python-and-flask/>`_
 * `How to Send SMS Text Messages with Python <http://www.fullstackpython.com/blog/send-sms-text-messages-python.html>`_
 * `Bots page on Full Stack Python <https://www.fullstackpython.com/bots.html>`_
+* `Python-RTMBot <https://github.com/slackhq/python-rtmbot>`_ is Slack's
+  library for creating Slack bots in Python
 * `PhoneBot with IBM Watson and Twilio Voice <http://jamesthom.as/blog/2015/05/29/phonebot/>`_ 
   along with the `GitHub repository <https://github.com/IBM-Bluemix/phonebot>`_
+* `BotKit <https://howdy.ai/botkit/>`_ is a bot-building framework for JavaScript
 * `The 5 branches of conversational commerce: A guide to the bot world <http://venturebeat.com/2016/05/21/the-5-branches-of-conversational-commerce-a-guide-for-the-bot-curious/>`_ by Jeff Lawson
 
 
