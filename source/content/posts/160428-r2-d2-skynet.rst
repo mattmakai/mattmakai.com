@@ -287,7 +287,7 @@ see what bots you build.
   :class: talk-slide
 
 
-Thanks again. My name is Matt Makai and I'm a Developer Evangelist
+Thanks again! My name is Matt Makai and I'm a Developer Evangelist
 with Twilio, this is Don Goodman-Wilson from Slack. We'll be happy
 to answer questions in the hallway or contact us with the information
 on this slide.
@@ -300,6 +300,7 @@ on this slide.
 
 ----
 
+Resources given out via SMS during this talk provided below.
 
 More Bot-building Resources
 ---------------------------
