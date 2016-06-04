@@ -16,11 +16,11 @@ communication via Slack messages, SMS and voice calls? Come to this session
 to learn whether the bot being live coded in Python becomes our new best 
 friend or a heavy handed robot overlord.
 
-Upcoming talk with 
+Talk with 
 `Don Goodman-Wilson <https://twitter.com/DEGoodmanWilson>`_ of 
-`Slack <https://slack.com/>`_ 
-at `Twilio Signal Conference 2016 <https://www.twilio.com/signal>`_ 
-in San Francisco, CA on May 25, 2016.
+`Slack <https://slack.com/>`_ given at 
+`Twilio Signal Conference 2016 <https://www.twilio.com/signal>`_ 
+in San Francisco, CA on May 24, 2016.
 
 ----
 
