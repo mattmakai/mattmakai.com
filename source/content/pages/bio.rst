@@ -11,17 +11,12 @@ If you're looking for a picture, I generally use
 
 General
 -------
-Matt Makai (`makaimc <https://github.com/makaimc>`_) is a 
-`Twilio Developer Evangelist <https://www.twilio.com/blog/2014/02/introducing-developer-evangelist-matt-makai.html>`_ 
-and software developer with an affinity for Python. He was a speaker at
-`EuroPython <https://www.youtube.com/watch?v=s6NaOKD40rY>`_,
-`DjangoCon US <https://www.youtube.com/watch?v=QrFEKghISEI>`_ and PyCon US
-with `Virtualenv for New Pythonistas <https://us.pycon.org/2015/schedule/presentation/421/>`_ 
-and 
-`Choose Your Own WSGI Deployment Adventure <https://us.pycon.org/2015/schedule/presentation/336/>`_.  Matt also writes 
-`Full Stack Python <http://www.fullstackpython.com>`_ 
-which helps over 75,000 developers a month learn to build and deploy 
-Python web applications.
+Matt Makai is a software developer with an affinity for Python and Swift 
+and currently leads the Developer Evangelism team at Twilio. Matt 
+teaches Python to fellow developers via conferences such as PyCon, 
+EuroPython and DjangoCon US and produces tutorials on the Twilio blog. 
+Matt also writes Full Stack Python which helps over 75,000 developers a 
+month learn to build and deploy their Python web applications.
 
 
 Python
