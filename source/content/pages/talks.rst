@@ -93,7 +93,7 @@ Talk given to
 `SF Python <http://www.meetup.com/sfpython/events/219577721/>`_ on January 14 
 in San Francisco, CA at Yelp headquarters. There's a 
 `blog post </websockets-python-resources.html>`_ and
-`open source GitHub project <https://github.com/makaimc/python-websockets-example>`_
+`open source GitHub project <https://github.com/mattmakai/python-websockets-example>`_
 that accompany this talk.
 
 ----
@@ -499,7 +499,7 @@ headquarters. There is a `video available of the talk <http://www.youtube.com/wa
 
 `Txt 2 React: Instant Presentation Feedback From Audience Text Messages </presentations/2014-txt2react-twilio-app.html>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-`Txt 2 React <https://github.com/makaimc/txt2react>`_ is an open source web 
+`Txt 2 React <https://github.com/mattmakai/txt2react>`_ is an open source web 
 application I built to facilitate immediate feedback from an audience 
 during a presentation. The app is written in Django and easily deployable to
 virtual private servers by using Ansible. Txt 2 React uses the Twilio platform 
