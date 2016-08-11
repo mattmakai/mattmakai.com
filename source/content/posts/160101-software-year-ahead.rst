@@ -16,7 +16,7 @@ about my professional software career here.
 The following goals are the high level objectives for the 366 days in 2016:
 
 * Code, launch and operate my 2016 side project 
-  `Plapi <https://github.com/makaimc/plapi>`_
+  `Plapi <https://github.com/mattmakai/plapi>`_
 
 * Inspire and equip fellow developers as a 
   `Twilio Developer Evangelist <https://www.youtube.com/watch?v=TF129ioe8kc>`_
@@ -33,7 +33,7 @@ Let's dig in with more details on what each one of those objectives entails.
 
 Plapi
 -----
-`The Programming Languages Web API (Plapi) <https://github.com/makaimc/plapi>`_ 
+`The Programming Languages Web API (Plapi) <https://github.com/mattmakai/plapi>`_ 
 is my `2016 side project </work.html>`_. Plapi consists of three components: 
 
 1. Web application programming interface: api.plapi.io
@@ -66,10 +66,10 @@ Much of the work will be based on what we know works, such as:
 
 * Coding and writing new apps and blog posts like 
   `Warm Phone Call Transfers <https://www.twilio.com/blog/2015/09/warm-phone-call-transfers-with-python-flask-and-twilio-voice.html>`_ 
-  (`Python/Flask code <https://github.com/makaimc/python-warm-transfer-call>`_),
+  (`Python/Flask code <https://github.com/mattmakai/python-warm-transfer-call>`_),
   `City Chat <https://www.twilio.com/blog/2015/12/city-chat-with-python-django-and-twilio-ip-messaging.html>`_ 
-  (`Python/Django code <https://github.com/makaimc/city-chat>`_) and
-  `Calculating Net Promoter Score via Twilio SMS <https://www.twilio.com/blog/2015/01/net-promoter-score-python-sms.html>`_ (`Python code <https://github.com/makaimc/sms-net-promoter-score>`_)
+  (`Python/Django code <https://github.com/mattmakai/city-chat>`_) and
+  `Calculating Net Promoter Score via Twilio SMS <https://www.twilio.com/blog/2015/01/net-promoter-score-python-sms.html>`_ (`Python code <https://github.com/mattmakai/sms-net-promoter-score>`_)
 
 * Putting on one of the best developer conferences: 
   `Signal 2016 <https://www.twilio.com/signal>`_, which will be even better after

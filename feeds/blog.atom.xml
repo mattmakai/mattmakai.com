@@ -67,7 +67,7 @@ with Pelican.&lt;/p&gt;
 &lt;p&gt;My GitHub contributions through December 13 of 2013.&lt;/p&gt;
 &lt;p&gt;I'm working on open sourcing my Ansible scripts for deploying Django websites.
 The repository is called
-&lt;a class="reference external" href="https://github.com/makaimc/deploy-django-with-ansible"&gt;deploy-django-with-ansible&lt;/a&gt;
+&lt;a class="reference external" href="https://github.com/mattmakai/deploy-django-with-ansible"&gt;deploy-django-with-ansible&lt;/a&gt;
 and it will use the MIT open source license.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="twilio"&gt;

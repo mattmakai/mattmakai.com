@@ -159,7 +159,7 @@ mustacher. Give this
 `Choose Your Own Adventure Presentations tutorial <https://www.twilio.com/blog/2014/11/choose-your-own-adventure-presentations-with-reveal-js-python-and-websockets.html>`_ 
 a try even if you don't have time to finish this service as you can always 
 go back to the post or the 
-`companion GitHub repository <https://github.com/makaimc/choose-your-own-adventure-presentations>`_ 
+`companion GitHub repository <https://github.com/mattmakai/choose-your-own-adventure-presentations>`_ 
 to polish it off on your own time.
 
 

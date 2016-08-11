@@ -14,7 +14,7 @@ If you'd like to create your own Choose Your Own Adventure presentations,
 all the code is open source and there are blog posts detailing how the code
 was written. Here are the links to get you going:
 
-* `Choose Your Own Adventures Git repository <https://github.com/makaimc/choose-your-own-adventure-presentations>`_
+* `Choose Your Own Adventures Git repository <https://github.com/mattmakai/choose-your-own-adventure-presentations>`_
 * `Choose Your Own Adventure Presentations <https://www.twilio.com/blog/2014/11/choose-your-own-adventure-presentations-with-reveal-js-python-and-websockets.html>`_
 * `Choose Your Own Adventure Presentations: Wizard Mode Part 1 of 3 <https://www.twilio.com/blog/2015/03/choose-your-own-adventures-presentations-wizard-mode-part-1-of-3.html>`_
 * Choose Your Own Adventure Presentations: Wizard Mode Part 2 of 3 (coming soon!)
@@ -37,7 +37,7 @@ running WSGI applications:
 Also, there's a 
 `huge table of contents <http://www.fullstackpython.com/table-of-contents.html>`_ 
 that lays out every subject categories. Don't forget that Full Stack Python
-itself is `also open source <https://github.com/makaimc/fullstackpython.com>`_!
+itself is `also open source <https://github.com/mattmakai/fullstackpython.com>`_!
 
 We hope that our Choose Your Own WSGI Deployment Adventure talk 
 made you laugh and maybe learn a little bit more about Python

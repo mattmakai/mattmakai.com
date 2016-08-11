@@ -8,7 +8,7 @@ Plushcap Python Package Blog Series
 The 
 `first part of my multi-part series <https://www.twilio.com/blog/2014/08/website-sms-alerts-with-the-plushcap-python-package-part-1.html>`_
 with a detailed walkthrough for building the 
-`Plushcap Python package <https://github.com/makaimc/plushcap>`_ 
+`Plushcap Python package <https://github.com/mattmakai/plushcap>`_ 
 for website monitoring and alerting is up on the 
 `Twilio <https://twilio.com/>`_ blog. 
 
@@ -19,5 +19,5 @@ alerting when a website is erroring or not responding to HTTP requests.
 
 Part two in the series will show how to use Plushcap with a task queue. 
 Part three will build out the 
-`plushcap-flask <https://github.com/makaimc/plushcap-flask>`_ front end
+`plushcap-flask <https://github.com/mattmakai/plushcap-flask>`_ front end
 dashboard to view a website's uptime over extended periods.

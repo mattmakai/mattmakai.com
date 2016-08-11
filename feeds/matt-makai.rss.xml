@@ -4,7 +4,7 @@
 &lt;p&gt;You can also find the slides without notes on my &lt;a class="reference external" href="/talks.html"&gt;tech talks&lt;/a&gt;
 page. The code for the bot is open sourced under the MIT license in a
 GitHub repository named
-&lt;a class="reference external" href="https://github.com/makaimc/callbot"&gt;callbot&lt;/a&gt;.&lt;/p&gt;
+&lt;a class="reference external" href="https://github.com/mattmakai/callbot"&gt;callbot&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;At the end of the talk I give out bot-building resources to all the
 attendees - all those linked resources are listed at the bottom of this
 post.&lt;/p&gt;
@@ -141,7 +141,7 @@ about my professional software career here.&lt;/p&gt;
 &lt;p&gt;The following goals are the high level objectives for the 366 days in 2016:&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;Code, launch and operate my 2016 side project
-&lt;a class="reference external" href="https://github.com/makaimc/plapi"&gt;Plapi&lt;/a&gt;&lt;/li&gt;
+&lt;a class="reference external" href="https://github.com/mattmakai/plapi"&gt;Plapi&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Inspire and equip fellow developers as a
 &lt;a class="reference external" href="https://www.youtube.com/watch?v=TF129ioe8kc"&gt;Twilio Developer Evangelist&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Release several new updates to
@@ -153,7 +153,7 @@ with daily updates&lt;/li&gt;
 &lt;p&gt;Let's dig in with more details on what each one of those objectives entails.&lt;/p&gt;
 &lt;div class="section" id="id1"&gt;
 &lt;h2&gt;Plapi&lt;/h2&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://github.com/makaimc/plapi"&gt;The Programming Languages Web API (Plapi)&lt;/a&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://github.com/mattmakai/plapi"&gt;The Programming Languages Web API (Plapi)&lt;/a&gt;
 is my &lt;a class="reference external" href="/work.html"&gt;2016 side project&lt;/a&gt;. Plapi consists of three components:&lt;/p&gt;
 &lt;ol class="arabic simple"&gt;
 &lt;li&gt;Web application programming interface: api.plapi.io&lt;/li&gt;
@@ -182,10 +182,10 @@ their feedback to our internal developers.&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;Coding and writing new apps and blog posts like
 &lt;a class="reference external" href="https://www.twilio.com/blog/2015/09/warm-phone-call-transfers-with-python-flask-and-twilio-voice.html"&gt;Warm Phone Call Transfers&lt;/a&gt;
-(&lt;a class="reference external" href="https://github.com/makaimc/python-warm-transfer-call"&gt;Python/Flask code&lt;/a&gt;),
+(&lt;a class="reference external" href="https://github.com/mattmakai/python-warm-transfer-call"&gt;Python/Flask code&lt;/a&gt;),
 &lt;a class="reference external" href="https://www.twilio.com/blog/2015/12/city-chat-with-python-django-and-twilio-ip-messaging.html"&gt;City Chat&lt;/a&gt;
-(&lt;a class="reference external" href="https://github.com/makaimc/city-chat"&gt;Python/Django code&lt;/a&gt;) and
-&lt;a class="reference external" href="https://www.twilio.com/blog/2015/01/net-promoter-score-python-sms.html"&gt;Calculating Net Promoter Score via Twilio SMS&lt;/a&gt; (&lt;a class="reference external" href="https://github.com/makaimc/sms-net-promoter-score"&gt;Python code&lt;/a&gt;)&lt;/li&gt;
+(&lt;a class="reference external" href="https://github.com/mattmakai/city-chat"&gt;Python/Django code&lt;/a&gt;) and
+&lt;a class="reference external" href="https://www.twilio.com/blog/2015/01/net-promoter-score-python-sms.html"&gt;Calculating Net Promoter Score via Twilio SMS&lt;/a&gt; (&lt;a class="reference external" href="https://github.com/mattmakai/sms-net-promoter-score"&gt;Python code&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Putting on one of the best developer conferences:
 &lt;a class="reference external" href="https://www.twilio.com/signal"&gt;Signal 2016&lt;/a&gt;, which will be even better after
 having such a great time at Signal 2015.&lt;/li&gt;
@@ -240,7 +240,7 @@ year in review post continues the retrospectives I performed in
 &lt;a class="reference external" href="http://www.deploypython.com/"&gt;The Full Stack Python Guide to Deployments&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Expanding &lt;a class="reference external" href="https://www.fullstackpython.com/"&gt;fullstackpython.com&lt;/a&gt;'s
 content with
-&lt;a class="reference external" href="https://github.com/makaimc/fullstackpython.com/commits/gh-pages"&gt;many open source code commits&lt;/a&gt; while growing the audience from 18,000 to over
+&lt;a class="reference external" href="https://github.com/mattmakai/fullstackpython.com/commits/gh-pages"&gt;many open source code commits&lt;/a&gt; while growing the audience from 18,000 to over
 55,000 readers per month&lt;/li&gt;
 &lt;li&gt;Speaking at PyCon US with both Renee Chu and Kate Heddleston&lt;/li&gt;
 &lt;li&gt;Presenting my all time favorite tech talk at
@@ -252,9 +252,9 @@ which was all live-coded except for a few introduction slides&lt;/li&gt;
 to execute the incredible
 &lt;a class="reference external" href="https://www.twilio.com/signal"&gt;Signal 2015 developers conference&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Creating and deploying the initial version of
-&lt;a class="reference external" href="https://github.com/makaimc/plapi"&gt;The Programming Languages Web API (Plapi)&lt;/a&gt;
+&lt;a class="reference external" href="https://github.com/mattmakai/plapi"&gt;The Programming Languages Web API (Plapi)&lt;/a&gt;
 (along with working on the
-&lt;a class="reference external" href="https://github.com/makaimc/plapi-prototype-flask"&gt;Flask prototype&lt;/a&gt;),
+&lt;a class="reference external" href="https://github.com/mattmakai/plapi-prototype-flask"&gt;Flask prototype&lt;/a&gt;),
 which will be my primary 2016 side project&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
@@ -277,16 +277,16 @@ Updates are made based on the feedback received.&lt;/p&gt;
 &lt;p&gt;These are some of the projects that followed the community feedback
 formula that will continue in 2016:&lt;/p&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;Started &lt;a class="reference external" href="https://github.com/makaimc/compare-python-web-frameworks"&gt;comparing Python web frameworks&lt;/a&gt;
+&lt;li&gt;Started &lt;a class="reference external" href="https://github.com/mattmakai/compare-python-web-frameworks"&gt;comparing Python web frameworks&lt;/a&gt;
 to expand beyond my typical
 &lt;a class="reference external" href="http://www.fullstackpython.com/django.html"&gt;Django&lt;/a&gt; and
 &lt;a class="reference external" href="http://www.fullstackpython.com/flask.html"&gt;Flask&lt;/a&gt; frameworks usage&lt;/li&gt;
-&lt;li&gt;Created an &lt;a class="reference external" href="https://github.com/makaimc/fsp-deployment-guide"&gt;open source Ansible playbook&lt;/a&gt;
+&lt;li&gt;Created an &lt;a class="reference external" href="https://github.com/mattmakai/fsp-deployment-guide"&gt;open source Ansible playbook&lt;/a&gt;
 for deploying WSGI applications as a companion to my deployments book&lt;/li&gt;
 &lt;li&gt;Wrote a
-&lt;a class="reference external" href="https://github.com/makaimc/plapi-prototype-flask"&gt;Plapi prototype with Flask and Flask-RESTful&lt;/a&gt;
+&lt;a class="reference external" href="https://github.com/mattmakai/plapi-prototype-flask"&gt;Plapi prototype with Flask and Flask-RESTful&lt;/a&gt;
 then began the version 1 codebase with
-&lt;a class="reference external" href="https://github.com/makaimc/plapi"&gt;Django and Django REST Framework&lt;/a&gt;&lt;/li&gt;
+&lt;a class="reference external" href="https://github.com/mattmakai/plapi"&gt;Django and Django REST Framework&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Updated the &lt;a class="reference external" href="http://docs.ansible.com/ansible/twilio_module.html"&gt;Twilio Ansible module&lt;/a&gt;
 to support &lt;a class="reference external" href="https://www.twilio.com/mms"&gt;multimedia messages&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -323,7 +323,7 @@ followed this formula:&lt;/p&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.twilio.com/blog/2015/09/warm-phone-call-transfers-with-python-flask-and-twilio-voice.html"&gt;Warm Phone Call Transfers with Python, Flask and Twilio Voice&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.twilio.com/blog/2015/01/net-promoter-score-python-sms.html"&gt;Calculating Net Promoter Score with Python and SMS&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;The three part series that continues building out the
-&lt;a class="reference external" href="https://github.com/makaimc/choose-your-own-adventure-presentations"&gt;Choose Your Own Adventure Presentation&lt;/a&gt;
+&lt;a class="reference external" href="https://github.com/mattmakai/choose-your-own-adventure-presentations"&gt;Choose Your Own Adventure Presentation&lt;/a&gt;
 Flask application:&lt;ol class="arabic"&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.twilio.com/blog/2015/03/choose-your-own-adventures-presentations-wizard-mode-part-1-of-3.html"&gt;Choose Your Own Adventure Presentations: Wizard Mode Part 1 of 3&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.twilio.com/blog/2015/05/choose-your-own-adventure-presentations-wizard-mode-part-2-of-3.html"&gt;Choose Your Own Adventure Presentations: Wizard Mode Part 2 of 3&lt;/a&gt;&lt;/li&gt;
@@ -374,7 +374,7 @@ and I presented
 all the code is open source and there are blog posts detailing how the code
 was written. Here are the links to get you going:&lt;/p&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://github.com/makaimc/choose-your-own-adventure-presentations"&gt;Choose Your Own Adventures Git repository&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/mattmakai/choose-your-own-adventure-presentations"&gt;Choose Your Own Adventures Git repository&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.twilio.com/blog/2014/11/choose-your-own-adventure-presentations-with-reveal-js-python-and-websockets.html"&gt;Choose Your Own Adventure Presentations&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.twilio.com/blog/2015/03/choose-your-own-adventures-presentations-wizard-mode-part-1-of-3.html"&gt;Choose Your Own Adventure Presentations: Wizard Mode Part 1 of 3&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Choose Your Own Adventure Presentations: Wizard Mode Part 2 of 3 (coming soon!)&lt;/li&gt;
@@ -397,7 +397,7 @@ running WSGI applications:&lt;/p&gt;
 &lt;p&gt;Also, there's a
 &lt;a class="reference external" href="http://www.fullstackpython.com/table-of-contents.html"&gt;huge table of contents&lt;/a&gt;
 that lays out every subject categories. Don't forget that Full Stack Python
-itself is &lt;a class="reference external" href="https://github.com/makaimc/fullstackpython.com"&gt;also open source&lt;/a&gt;!&lt;/p&gt;
+itself is &lt;a class="reference external" href="https://github.com/mattmakai/fullstackpython.com"&gt;also open source&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;We hope that our Choose Your Own WSGI Deployment Adventure talk
 made you laugh and maybe learn a little bit more about Python
 web application deployments.&lt;/p&gt;
@@ -422,7 +422,7 @@ and
 &lt;div class="section" id="code-for-the-websockets-talk"&gt;
 &lt;h2&gt;Code for the WebSockets Talk&lt;/h2&gt;
 &lt;p&gt;All code for the meetup live demo can be found on
-&lt;a class="reference external" href="https://github.com/makaimc/python-websockets-example"&gt;GitHub in the python-websockets-example repo&lt;/a&gt;.&lt;/p&gt;
+&lt;a class="reference external" href="https://github.com/mattmakai/python-websockets-example"&gt;GitHub in the python-websockets-example repo&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;The
 &lt;a class="reference external" href="/presentations/2015-sfpython-websockets.html"&gt;slides are also available&lt;/a&gt;
 but do not make a lot of sense without corresponding audio of the
@@ -530,9 +530,9 @@ to
 &lt;a class="reference external" href="https://www.youtube.com/watch?v=ZAQbIa0hAeo"&gt;demo the Rapid Response Kit&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Growing &lt;a class="reference external" href="http://www.fullstackpython.com/"&gt;Full Stack Python&lt;/a&gt;'s audience
 from ~500 to ~15,000 uniques a month&lt;/li&gt;
-&lt;li&gt;Coding the &lt;a class="reference external" href="https://github.com/makaimc/underwear"&gt;Underwear&lt;/a&gt;,
-&lt;a class="reference external" href="https://github.com/makaimc/plushcap"&gt;Plushcap&lt;/a&gt; and
-&lt;a class="reference external" href="https://github.com/makaimc/choose-your-own-adventure-presentations"&gt;Choose Your Own Adventure Presentations&lt;/a&gt;
+&lt;li&gt;Coding the &lt;a class="reference external" href="https://github.com/mattmakai/underwear"&gt;Underwear&lt;/a&gt;,
+&lt;a class="reference external" href="https://github.com/mattmakai/plushcap"&gt;Plushcap&lt;/a&gt; and
+&lt;a class="reference external" href="https://github.com/mattmakai/choose-your-own-adventure-presentations"&gt;Choose Your Own Adventure Presentations&lt;/a&gt;
 projects&lt;/li&gt;
 &lt;li&gt;Hacking on some damn fun projects with
 &lt;a class="reference external" href="http://laurenraeorsini.com/"&gt;Lauren Orsini&lt;/a&gt;, such as
@@ -568,9 +568,9 @@ writing and talks than if I worked on several varying topics in parallel.&lt;/p&
 &lt;p&gt;A good example of this triumvirate approach is the work I did this year with
 Ansible.&lt;/p&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;Coded &lt;a class="reference external" href="https://github.com/makaimc/sf-django"&gt;Ansible playbooks&lt;/a&gt; to
+&lt;li&gt;Coded &lt;a class="reference external" href="https://github.com/mattmakai/sf-django"&gt;Ansible playbooks&lt;/a&gt; to
 deploy existing Python web applications&lt;/li&gt;
-&lt;li&gt;Programmed &lt;a class="reference external" href="https://github.com/makaimc/underwear"&gt;Underwear&lt;/a&gt; library
+&lt;li&gt;Programmed &lt;a class="reference external" href="https://github.com/mattmakai/underwear"&gt;Underwear&lt;/a&gt; library
 to learn  more about Ansible's code base&lt;/li&gt;
 &lt;li&gt;Coded the Twilio module in Python&lt;/li&gt;
 &lt;li&gt;Got the pull request accepted into the Ansible 1.6 release&lt;/li&gt;
@@ -665,7 +665,7 @@ Since I do both activities in Vim they have a similar creative flow.
 Many of the open source projects I work on also go along with a blog post
 so writing and coding tasks often overlap.
 For example, I programmed the
-&lt;a class="reference external" href="https://github.com/makaimc/choose-your-own-adventure-presentations"&gt;Choose Your Own Adventure Presentations&lt;/a&gt; Flask web app while writing the
+&lt;a class="reference external" href="https://github.com/mattmakai/choose-your-own-adventure-presentations"&gt;Choose Your Own Adventure Presentations&lt;/a&gt; Flask web app while writing the
 content for the &lt;a class="reference external" href="https://www.twilio.com/blog/2014/11/choose-your-own-adventure-presentations-with-reveal-js-python-and-websockets.html"&gt;code walkthrough blog post&lt;/a&gt;.&lt;/p&gt;
 &lt;img alt="The simple desk with external monitor I use to work from home" class="space-me" src="/source/static/img/141201-devangel-day/home-desk.jpg" style="width: 100%;" /&gt;
 &lt;p&gt;During the morning hours I often work from the desk in my apartment (shown
@@ -904,7 +904,7 @@ mustacher. Give this
 &lt;a class="reference external" href="https://www.twilio.com/blog/2014/11/choose-your-own-adventure-presentations-with-reveal-js-python-and-websockets.html"&gt;Choose Your Own Adventure Presentations tutorial&lt;/a&gt;
 a try even if you don't have time to finish this service as you can always
 go back to the post or the
-&lt;a class="reference external" href="https://github.com/makaimc/choose-your-own-adventure-presentations"&gt;companion GitHub repository&lt;/a&gt;
+&lt;a class="reference external" href="https://github.com/mattmakai/choose-your-own-adventure-presentations"&gt;companion GitHub repository&lt;/a&gt;
 to polish it off on your own time.&lt;/p&gt;
 &lt;/div&gt;
 </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Fri, 05 Dec 2014 00:00:00 -0500</pubDate><guid>tag:www.letshackdc.com,2014-12-05:women-who-code-dc-workshop.html</guid></item><item><title>Brain Boosting</title><link>http://www.letshackdc.com/brain-boosting.html</link><description>&lt;p&gt;In college, I was never one to take adderal or ritalin to cram all night before
@@ -1307,7 +1307,7 @@ and government clients before joining Twilio.&lt;/p&gt;
 talk presented at
 &lt;a class="reference external" href="http://www.djangocon.us/schedule/presentation/10/"&gt;DjangoCon 2014&lt;/a&gt;. You
 can also find the reveal.js
-&lt;a class="reference external" href="https://github.com/makaimc/mattmakai.github.io/blob/gh-pages/source/static-html/presentations/2014-djangocon-top-5-enterprise.html"&gt;source code to the presentation on GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;a class="reference external" href="https://github.com/mattmakai/mattmakai.com/blob/gh-pages/source/static-html/presentations/2014-djangocon-top-5-enterprise.html"&gt;source code to the presentation on GitHub&lt;/a&gt;.&lt;/p&gt;
 &lt;div class="section" id="integrating-with-active-directory"&gt;
 &lt;h2&gt;Integrating with Active Directory&lt;/h2&gt;
 &lt;ul class="simple"&gt;
@@ -1440,7 +1440,7 @@ slides are very relevant for API integration.&lt;/li&gt;
 </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Sun, 24 Aug 2014 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2014-08-24:links-learning-web-fundamentals.html</guid></item><item><title>Plushcap Python Package Blog Series</title><link>http://www.letshackdc.com/plushcap-python-package-series.html</link><description>&lt;p&gt;The
 &lt;a class="reference external" href="https://www.twilio.com/blog/2014/08/website-sms-alerts-with-the-plushcap-python-package-part-1.html"&gt;first part of my multi-part series&lt;/a&gt;
 with a detailed walkthrough for building the
-&lt;a class="reference external" href="https://github.com/makaimc/plushcap"&gt;Plushcap Python package&lt;/a&gt;
+&lt;a class="reference external" href="https://github.com/mattmakai/plushcap"&gt;Plushcap Python package&lt;/a&gt;
 for website monitoring and alerting is up on the
 &lt;a class="reference external" href="https://twilio.com/"&gt;Twilio&lt;/a&gt; blog.&lt;/p&gt;
 &lt;p&gt;Plushcap, named after the
@@ -1449,7 +1449,7 @@ is a simple open source package for monitoring and
 alerting when a website is erroring or not responding to HTTP requests.&lt;/p&gt;
 &lt;p&gt;Part two in the series will show how to use Plushcap with a task queue.
 Part three will build out the
-&lt;a class="reference external" href="https://github.com/makaimc/plushcap-flask"&gt;plushcap-flask&lt;/a&gt; front end
+&lt;a class="reference external" href="https://github.com/mattmakai/plushcap-flask"&gt;plushcap-flask&lt;/a&gt; front end
 dashboard to view a website's uptime over extended periods.&lt;/p&gt;
 </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Fri, 22 Aug 2014 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2014-08-22:plushcap-python-package-series.html</guid></item><item><title>Hiring for U.S. Digital Services</title><link>http://www.letshackdc.com/united-states-digital-services.html</link><description>&lt;p&gt;The new
 &lt;a class="reference external" href="http://www.washingtonpost.com/blogs/the-switch/wp/2014/08/11/white-house-launches-u-s-digital-service-with-healthcare-gov-fixer-at-the-helm/"&gt;U.S. Digital Services&lt;/a&gt;
@@ -1744,7 +1744,7 @@ with Pelican.&lt;/p&gt;
 &lt;p&gt;My GitHub contributions through December 13 of 2013.&lt;/p&gt;
 &lt;p&gt;I'm working on open sourcing my Ansible scripts for deploying Django websites.
 The repository is called
-&lt;a class="reference external" href="https://github.com/makaimc/deploy-django-with-ansible"&gt;deploy-django-with-ansible&lt;/a&gt;
+&lt;a class="reference external" href="https://github.com/mattmakai/deploy-django-with-ansible"&gt;deploy-django-with-ansible&lt;/a&gt;
 and it will use the MIT open source license.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="twilio"&gt;
@@ -1762,10 +1762,10 @@ hosting.&lt;/p&gt;
 &lt;p&gt;A quick note before we dive in. I've been using Pelican for about
 two and a half years. I currently have three live sites
 deployed, and the code to each one is on GitHub. Those repositories are
-&lt;a class="reference external" href="https://github.com/makaimc/mattmakai.github.com"&gt;this blog&lt;/a&gt;,
-&lt;a class="reference external" href="https://github.com/makaimc/codingacrossamerica.github.com"&gt;my Coding Across America project&lt;/a&gt;,
+&lt;a class="reference external" href="https://github.com/mattmakai/mattmakai.com"&gt;this blog&lt;/a&gt;,
+&lt;a class="reference external" href="https://github.com/mattmakai/codingacrossamerica.com"&gt;my Coding Across America project&lt;/a&gt;,
 and
-&lt;a class="reference external" href="https://github.com/makaimc/fullstackpython.github.com"&gt;the Full Stack Python walkthrough&lt;/a&gt;.
+&lt;a class="reference external" href="https://github.com/mattmakai/fullstackpython.com"&gt;the Full Stack Python walkthrough&lt;/a&gt;.
 I can't guarantee that each one uses Pelican version 3.3+ best practices, but
 each one does exactly what I want it to do: get out of my way so I can
 write and publish.&lt;/p&gt;
@@ -1778,7 +1778,7 @@ that may be an option if you're operating system limited.&lt;/p&gt;
 few steps.&lt;/p&gt;
 &lt;p&gt;First, grab the code and put it in a directory named &amp;quot;fsp&amp;quot;:&lt;/p&gt;
 &lt;pre class="literal-block"&gt;
-git clone git&amp;#64;github.com:makaimc/fullstackpython.github.com fsp
+git clone git&amp;#64;github.com:mattmakai/fullstackpython.com fsp
 &lt;/pre&gt;
 &lt;p&gt;We can already get the website working since it's already been generated in
 its current state by Pelican when I checked it in. Go to the &amp;quot;fsp&amp;quot; directory
@@ -2309,7 +2309,7 @@ projects should keep my Python skills from going soft.&lt;/p&gt;
 &lt;p&gt;My blogging here on this site will likely languish (as it has since early in
 January) because I will be writing so frequently for Coding Across America.
 I will continue to update this blog with occasional technical posts and
-&lt;a class="reference external" href="../pages/presentations.html"&gt;my presentations&lt;/a&gt;.&lt;/p&gt;
+&lt;a class="reference external" href="/talks.html"&gt;my presentations&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I currently have two future tech talks scheduled. I will be speaking
 to the George Washington University Computer Science department about
 &amp;quot;real world&amp;quot; Python development. At the end of March I still plan to
@@ -2406,7 +2406,7 @@ time with Python and JavaScript might be higher.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="libraries-open-source"&gt;
 &lt;h2&gt;Libraries &amp;amp; Open Source&lt;/h2&gt;
-&lt;p&gt;I did some work with the &lt;a class="reference external" href="https://github.com/makaimc/python-library"&gt;Urban Airship Python API binding library&lt;/a&gt;
+&lt;p&gt;I did some work with the &lt;a class="reference external" href="https://github.com/mattmakai/python-library"&gt;Urban Airship Python API binding library&lt;/a&gt;
 for a mobile app proof of concept to a client that unfortunately didn't pan
 out.&lt;/p&gt;
 &lt;p&gt;I issued a pretty simple but useful
@@ -2422,11 +2422,11 @@ open source project. I'm working with
 first several 2013 presentations but I may go back to impress.js at some
 point.&lt;/p&gt;
 &lt;p&gt;I
-&lt;a class="reference external" href="https://github.com/makaimc/Visualization-Portfolio"&gt;open sourced on Github&lt;/a&gt;
+&lt;a class="reference external" href="https://github.com/mattmakai/Visualization-Portfolio"&gt;open sourced on Github&lt;/a&gt;
 my &lt;a class="reference external" href="http://visualizationportfolio.com/"&gt;Visualization Portfolio&lt;/a&gt; side
 project. I also open sourced
-&lt;a class="reference external" href="https://github.com/makaimc/mattmakai.github.com"&gt;this blog&lt;/a&gt; and my
-&lt;a class="reference external" href="https://github.com/makaimc/codingacrossamerica.github.com"&gt;Coding Across America blog&lt;/a&gt;.
+&lt;a class="reference external" href="https://github.com/mattmakai/mattmakai.com"&gt;this blog&lt;/a&gt; and my
+&lt;a class="reference external" href="https://github.com/mattmakai/codingacrossamerica.com"&gt;Coding Across America blog&lt;/a&gt;.
 I need to figure out the licensing situations on those things though.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="side-projects"&gt;
@@ -2469,7 +2469,7 @@ ever since I made the switch.&lt;/p&gt;
 should begin to get interesting in late January when I start talking to
 startups in Washington, DC. Then on March 9th I'll hit the road for a
 5 month tour of the US. Any startups out there in any of the 30 cities I'll
-be in please contact me on Twitter &amp;#64;makaimc or by email at
+be in please contact me on Twitter &amp;#64;mattmakai or by email at
 &lt;a class="reference external" href="mailto:matthew.makai&amp;#64;gmail.com"&gt;matthew.makai&amp;#64;gmail.com&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="presentations-and-technical-talks"&gt;
@@ -2943,7 +2943,7 @@ add many d3.js-related entries in my
 &lt;/div&gt;
 </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Sat, 06 Oct 2012 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2012-10-06:journey-to-true-full-stack-developer.html</guid></item><item><title>Agile in the Federal Government Presentation</title><link>http://www.letshackdc.com/agile-in-federal-government-presentation.html</link><description>&lt;p&gt;Yesterday I presented at the &lt;a class="reference external" href="http://www.pmiwdc.org/2012/09/project-management-symposium"&gt;2012 PMI Project Management Symposium&lt;/a&gt; in at the Crystal City
 Hyatt in Arlington, Virginia. My &lt;a class="reference external" href="/presentations/agile-software-development-in-federal-government.html"&gt;slides for the talk&lt;/a&gt; are posted and the source code
-is &lt;a class="reference external" href="https://github.com/makaimc/mattmakai.github.com/blob/gh-pages/source/static-html/presentations/agile-software-development-in-federal-government.html"&gt;available on Github&lt;/a&gt;.
+is &lt;a class="reference external" href="https://github.com/mattmakai/mattmakai.com/blob/gh-pages/source/static-html/presentations/agile-software-development-in-federal-government.html"&gt;available on Github&lt;/a&gt;.
 It's a decent example of &lt;a class="reference external" href="http://bartaz.github.com/impress.js"&gt;impress.js&lt;/a&gt;
 although I still need to invest more time into the framework to put together
 a really impressive talk.&lt;/p&gt;
@@ -3142,7 +3142,7 @@ can help to identify new subjects to learn.&lt;/p&gt;
 an outline is a downside because you realize how far you have to go. But it
 also helps to prevent blindspots in your knowledge map of what you need
 to know.&lt;/p&gt;
-&lt;p&gt;I'm sure I missed many areas. Message me on Twitter &amp;#64;makaimc to let me know
+&lt;p&gt;I'm sure I missed many areas. Message me on Twitter &amp;#64;mattmakai to let me know
 what else needs to be added to this outline for non-developers as I also
 work on expanding each point into its own blog post.&lt;/p&gt;
 &lt;/div&gt;
@@ -3711,7 +3711,7 @@ that my Logitech presentation pointer didn't work for advancing and
 reversing the slides.&lt;/p&gt;
 &lt;p&gt;After a little digging, I found out that presentation pointers emulate page
 up/down key strokes. So I
-&lt;a class="reference external" href="https://github.com/makaimc/impress.js"&gt;forked the impress.js&lt;/a&gt;
+&lt;a class="reference external" href="https://github.com/mattmakai/impress.js"&gt;forked the impress.js&lt;/a&gt;
 library, updated the code, and issued a
 &lt;a class="reference external" href="https://github.com/bartaz/impress.js/pull/15"&gt;pull request&lt;/a&gt; to add
 the presentation pointer capability. Thanks to

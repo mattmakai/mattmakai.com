@@ -18,7 +18,7 @@ projects should keep my Python skills from going soft.
 My blogging here on this site will likely languish (as it has since early in
 January) because I will be writing so frequently for Coding Across America.
 I will continue to update this blog with occasional technical posts and
-`my presentations <../pages/presentations.html>`_. 
+`my presentations </talks.html>`_. 
 
 I currently have two future tech talks scheduled. I will be speaking 
 to the George Washington University Computer Science department about 

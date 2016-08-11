@@ -35,7 +35,7 @@ I also learned LESS and got much better with CSS3.
 
 Libraries & Open Source
 -----------------------
-I did some work with the `Urban Airship Python API binding library <https://github.com/makaimc/python-library>`_ 
+I did some work with the `Urban Airship Python API binding library <https://github.com/mattmakai/python-library>`_ 
 for a mobile app proof of concept to a client that unfortunately didn't pan 
 out.
 
@@ -53,11 +53,11 @@ first several 2013 presentations but I may go back to impress.js at some
 point.
 
 I 
-`open sourced on Github <https://github.com/makaimc/Visualization-Portfolio>`_ 
+`open sourced on Github <https://github.com/mattmakai/Visualization-Portfolio>`_ 
 my `Visualization Portfolio <http://visualizationportfolio.com/>`_ side 
 project. I also open sourced 
-`this blog <https://github.com/makaimc/mattmakai.github.com>`_ and my
-`Coding Across America blog <https://github.com/makaimc/codingacrossamerica.github.com>`_. 
+`this blog <https://github.com/mattmakai/mattmakai.com>`_ and my
+`Coding Across America blog <https://github.com/mattmakai/codingacrossamerica.com>`_. 
 I need to figure out the licensing situations on those things though.
 
 
@@ -107,7 +107,7 @@ My Coding Across America blog is also on Github Pages. Coding Across America
 should begin to get interesting in late January when I start talking to
 startups in Washington, DC. Then on March 9th I'll hit the road for a
 5 month tour of the US. Any startups out there in any of the 30 cities I'll
-be in please contact me on Twitter @makaimc or by email at 
+be in please contact me on Twitter @mattmakai or by email at 
 matthew.makai@gmail.com.
 
 

@@ -32,7 +32,7 @@ Since I do both activities in Vim they have a similar creative flow.
 Many of the open source projects I work on also go along with a blog post
 so writing and coding tasks often overlap. 
 For example, I programmed the 
-`Choose Your Own Adventure Presentations <https://github.com/makaimc/choose-your-own-adventure-presentations>`_ Flask web app while writing the 
+`Choose Your Own Adventure Presentations <https://github.com/mattmakai/choose-your-own-adventure-presentations>`_ Flask web app while writing the 
 content for the `code walkthrough blog post <https://www.twilio.com/blog/2014/11/choose-your-own-adventure-presentations-with-reveal-js-python-and-websockets.html>`_. 
 
 .. image:: /source/static/img/141201-devangel-day/home-desk.jpg

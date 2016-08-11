@@ -14,10 +14,10 @@ hosting.
 A quick note before we dive in. I've been using Pelican for about 
 two and a half years. I currently have three live sites 
 deployed, and the code to each one is on GitHub. Those repositories are 
-`this blog <https://github.com/makaimc/mattmakai.github.com>`_, 
-`my Coding Across America project <https://github.com/makaimc/codingacrossamerica.github.com>`_, 
+`this blog <https://github.com/mattmakai/mattmakai.com>`_, 
+`my Coding Across America project <https://github.com/mattmakai/codingacrossamerica.com>`_, 
 and 
-`the Full Stack Python walkthrough <https://github.com/makaimc/fullstackpython.github.com>`_.
+`the Full Stack Python walkthrough <https://github.com/mattmakai/fullstackpython.com>`_.
 I can't guarantee that each one uses Pelican version 3.3+ best practices, but
 each one does exactly what I want it to do: get out of my way so I can
 write and publish.
@@ -33,7 +33,7 @@ few steps.
 
 First, grab the code and put it in a directory named "fsp"::
 
-    git clone git@github.com:makaimc/fullstackpython.github.com fsp
+    git clone git@github.com:mattmakai/fullstackpython.com fsp
 
 We can already get the website working since it's already been generated in
 its current state by Pelican when I checked it in. Go to the "fsp" directory

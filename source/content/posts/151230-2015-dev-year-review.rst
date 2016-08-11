@@ -20,7 +20,7 @@ year in review post continues the retrospectives I performed in
   `The Full Stack Python Guide to Deployments <http://www.deploypython.com/>`_
 * Expanding `fullstackpython.com <https://www.fullstackpython.com/>`_'s 
   content with 
-  `many open source code commits <https://github.com/makaimc/fullstackpython.com/commits/gh-pages>`_ while growing the audience from 18,000 to over 
+  `many open source code commits <https://github.com/mattmakai/fullstackpython.com/commits/gh-pages>`_ while growing the audience from 18,000 to over 
   55,000 readers per month
 * Speaking at PyCon US with both Renee Chu and Kate Heddleston
 * Presenting my all time favorite tech talk at 
@@ -32,9 +32,9 @@ year in review post continues the retrospectives I performed in
   to execute the incredible 
   `Signal 2015 developers conference <https://www.twilio.com/signal>`_
 * Creating and deploying the initial version of 
-  `The Programming Languages Web API (Plapi) <https://github.com/makaimc/plapi>`_ 
+  `The Programming Languages Web API (Plapi) <https://github.com/mattmakai/plapi>`_ 
   (along with working on the 
-  `Flask prototype <https://github.com/makaimc/plapi-prototype-flask>`_), 
+  `Flask prototype <https://github.com/mattmakai/plapi-prototype-flask>`_), 
   which will be my primary 2016 side project
 
 
@@ -59,18 +59,18 @@ Updates are made based on the feedback received.
 These are some of the projects that followed the community feedback
 formula that will continue in 2016:
 
-* Started `comparing Python web frameworks <https://github.com/makaimc/compare-python-web-frameworks>`_
+* Started `comparing Python web frameworks <https://github.com/mattmakai/compare-python-web-frameworks>`_
   to expand beyond my typical 
   `Django <http://www.fullstackpython.com/django.html>`_ and 
   `Flask <http://www.fullstackpython.com/flask.html>`_ frameworks usage
 
-* Created an `open source Ansible playbook <https://github.com/makaimc/fsp-deployment-guide>`_
+* Created an `open source Ansible playbook <https://github.com/mattmakai/fsp-deployment-guide>`_
   for deploying WSGI applications as a companion to my deployments book
 
 * Wrote a 
-  `Plapi prototype with Flask and Flask-RESTful <https://github.com/makaimc/plapi-prototype-flask>`_
+  `Plapi prototype with Flask and Flask-RESTful <https://github.com/mattmakai/plapi-prototype-flask>`_
   then began the version 1 codebase with
-  `Django and Django REST Framework <https://github.com/makaimc/plapi>`_
+  `Django and Django REST Framework <https://github.com/mattmakai/plapi>`_
 
 * Updated the `Twilio Ansible module <http://docs.ansible.com/ansible/twilio_module.html>`_
   to support `multimedia messages <https://www.twilio.com/mms>`_ 
@@ -114,7 +114,7 @@ followed this formula:
 * `Warm Phone Call Transfers with Python, Flask and Twilio Voice <https://www.twilio.com/blog/2015/09/warm-phone-call-transfers-with-python-flask-and-twilio-voice.html>`_
 * `Calculating Net Promoter Score with Python and SMS <https://www.twilio.com/blog/2015/01/net-promoter-score-python-sms.html>`_
 * The three part series that continues building out the 
-  `Choose Your Own Adventure Presentation <https://github.com/makaimc/choose-your-own-adventure-presentations>`_ 
+  `Choose Your Own Adventure Presentation <https://github.com/mattmakai/choose-your-own-adventure-presentations>`_ 
   Flask application: 
     
   1. `Choose Your Own Adventure Presentations: Wizard Mode Part 1 of 3 <https://www.twilio.com/blog/2015/03/choose-your-own-adventures-presentations-wizard-mode-part-1-of-3.html>`_ 

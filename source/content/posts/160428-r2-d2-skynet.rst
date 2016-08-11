@@ -13,7 +13,7 @@ This is a rough transcript along with the slides from our
 You can also find the slides without notes on my `tech talks </talks.html>`_ 
 page. The code for the bot is open sourced under the MIT license in a 
 GitHub repository named 
-`callbot <https://github.com/makaimc/callbot>`_.
+`callbot <https://github.com/mattmakai/callbot>`_.
 
 At the end of the talk I give out bot-building resources to all the 
 attendees - all those linked resources are listed at the bottom of this

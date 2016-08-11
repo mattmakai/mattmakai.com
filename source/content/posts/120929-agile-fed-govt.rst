@@ -7,7 +7,7 @@ Agile in the Federal Government Presentation
 
 Yesterday I presented at the `2012 PMI Project Management Symposium <http://www.pmiwdc.org/2012/09/project-management-symposium>`_ in at the Crystal City
 Hyatt in Arlington, Virginia. My `slides for the talk </presentations/agile-software-development-in-federal-government.html>`_ are posted and the source code
-is `available on Github <https://github.com/makaimc/mattmakai.github.com/blob/gh-pages/source/static-html/presentations/agile-software-development-in-federal-government.html>`_. 
+is `available on Github <https://github.com/mattmakai/mattmakai.com/blob/gh-pages/source/static-html/presentations/agile-software-development-in-federal-government.html>`_. 
 It's a decent example of `impress.js <http://bartaz.github.com/impress.js>`_ 
 although I still need to invest more time into the framework to put together
 a really impressive talk.

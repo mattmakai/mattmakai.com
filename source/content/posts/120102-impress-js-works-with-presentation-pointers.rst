@@ -16,7 +16,7 @@ reversing the slides.
 
 After a little digging, I found out that presentation pointers emulate page 
 up/down key strokes. So I 
-`forked the impress.js <https://github.com/makaimc/impress.js>`_ 
+`forked the impress.js <https://github.com/mattmakai/impress.js>`_ 
 library, updated the code, and issued a 
 `pull request <https://github.com/bartaz/impress.js/pull/15>`_ to add 
 the presentation pointer capability. Thanks to 

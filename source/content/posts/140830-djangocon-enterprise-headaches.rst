@@ -17,7 +17,7 @@ These links also go along with my
 talk presented at 
 `DjangoCon 2014 <http://www.djangocon.us/schedule/presentation/10/>`_. You
 can also find the reveal.js 
-`source code to the presentation on GitHub <https://github.com/makaimc/mattmakai.github.io/blob/gh-pages/source/static-html/presentations/2014-djangocon-top-5-enterprise.html>`_.
+`source code to the presentation on GitHub <https://github.com/mattmakai/mattmakai.com/blob/gh-pages/source/static-html/presentations/2014-djangocon-top-5-enterprise.html>`_.
 
 
 Integrating with Active Directory

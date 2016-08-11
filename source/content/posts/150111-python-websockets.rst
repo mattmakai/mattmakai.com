@@ -31,7 +31,7 @@ and
 Code for the WebSockets Talk
 ----------------------------
 All code for the meetup live demo can be found on 
-`GitHub in the python-websockets-example repo <https://github.com/makaimc/python-websockets-example>`_.
+`GitHub in the python-websockets-example repo <https://github.com/mattmakai/python-websockets-example>`_.
 
 The 
 `slides are also available </presentations/2015-sfpython-websockets.html>`_

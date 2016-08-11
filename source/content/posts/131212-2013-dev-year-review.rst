@@ -83,7 +83,7 @@ My GitHub contributions through December 13 of 2013.
 
 I'm working on open sourcing my Ansible scripts for deploying Django websites.
 The repository is called 
-`deploy-django-with-ansible <https://github.com/makaimc/deploy-django-with-ansible>`_
+`deploy-django-with-ansible <https://github.com/mattmakai/deploy-django-with-ansible>`_
 and it will use the MIT open source license.
 
 Twilio

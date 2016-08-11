@@ -174,6 +174,6 @@ an outline is a downside because you realize how far you have to go. But it
 also helps to prevent blindspots in your knowledge map of what you need
 to know.
 
-I'm sure I missed many areas. Message me on Twitter @makaimc to let me know
+I'm sure I missed many areas. Message me on Twitter @mattmakai to let me know
 what else needs to be added to this outline for non-developers as I also
 work on expanding each point into its own blog post.

@@ -45,9 +45,9 @@ past year were:
 * Growing `Full Stack Python <http://www.fullstackpython.com/>`_'s audience 
   from ~500 to ~15,000 uniques a month
 
-* Coding the `Underwear <https://github.com/makaimc/underwear>`_, 
-  `Plushcap <https://github.com/makaimc/plushcap>`_ and 
-  `Choose Your Own Adventure Presentations <https://github.com/makaimc/choose-your-own-adventure-presentations>`_
+* Coding the `Underwear <https://github.com/mattmakai/underwear>`_, 
+  `Plushcap <https://github.com/mattmakai/plushcap>`_ and 
+  `Choose Your Own Adventure Presentations <https://github.com/mattmakai/choose-your-own-adventure-presentations>`_
   projects
 
 * Hacking on some damn fun projects with 
@@ -92,10 +92,10 @@ writing and talks than if I worked on several varying topics in parallel.
 A good example of this triumvirate approach is the work I did this year with 
 Ansible.
 
-* Coded `Ansible playbooks <https://github.com/makaimc/sf-django>`_ to 
+* Coded `Ansible playbooks <https://github.com/mattmakai/sf-django>`_ to 
   deploy existing Python web applications
 
-* Programmed `Underwear <https://github.com/makaimc/underwear>`_ library 
+* Programmed `Underwear <https://github.com/mattmakai/underwear>`_ library 
   to learn  more about Ansible's code base
 
 * Coded the Twilio module in Python
