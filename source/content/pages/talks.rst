@@ -7,6 +7,16 @@ Tech Talks
 
 2016
 ----
+
+A Rapid-fire Overview of Python Static Site Generators
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Upcoming lightning talk for 
+`SF Python: Holiday Party edition <https://www.meetup.com/sfpython/events/235659987/>`_ 
+in San Francisco, CA on December 8, 2016.
+
+----
+
+
 `R2-D2 or Skynet? Combining Slack Bots with the Twilio API </presentations/2016-r2-d2-skynet-bots.html>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 If you've ever had the pleasure of coordinating a large team's activities 
