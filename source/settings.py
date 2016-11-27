@@ -11,7 +11,7 @@ PDF_GENERATOR = False
 
 DEFAULT_PAGINATION = 10
 
-DIRECT_TEMPLATES = ('index', 'sitemap',)
+DIRECT_TEMPLATES = ('index','sitemap','startpage')
 
 SITEMAP_SAVE_AS = 'sitemap.xml'
 
