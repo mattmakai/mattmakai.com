@@ -280,6 +280,11 @@ h1.light-bg {color: #222;}
   background-size: cover;
 }
 
+.pelican-command .reveal .state-background {
+  background: url(/source/static/img/presentations/2016-static-site/pelican-command.png);
+  background-size: cover;
+}
+
 .hacker-news-frontpage .reveal .state-background {
   background: url(/source/static/img/presentations/2016-static-site/hacker-news-frontpage.jpg);
   background-size: cover;
