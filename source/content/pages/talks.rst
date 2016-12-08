@@ -8,8 +8,8 @@ Tech Talks
 2016
 ----
 
-A Rapid-fire Overview of Python Static Site Generators
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+`A Rapid-fire Overview of Python Static Site Generators </presentations/2016-static-site-generators.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Upcoming lightning talk for 
 `SF Python: Holiday Party edition <https://www.meetup.com/sfpython/events/235659987/>`_ 
 in San Francisco, CA on December 8, 2016.
