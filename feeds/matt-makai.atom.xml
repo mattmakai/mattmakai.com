@@ -1,5 +1,183 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/matt-makai.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2016-04-28T00:00:00-04:00</updated><entry><title>R2-D2 or Skynet? Combining Slack Bots with the Twilio API</title><link href="http://www.letshackdc.com/r2d2-skynet.html" rel="alternate"></link><updated>2016-04-28T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2016-04-28:r2d2-skynet.html</id><summary type="html">&lt;p&gt;This is a rough transcript along with the slides from our
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/matt-makai.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2016-12-25T00:00:00-05:00</updated><entry><title>My 2016 Software Development Year in Review</title><link href="http://www.letshackdc.com/2016-software-development-year-review.html" rel="alternate"></link><updated>2016-12-25T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2016-12-25:2016-software-development-year-review.html</id><summary type="html">&lt;p&gt;In the past several years I have taken time at the end of December to
+reflect on the coding projects, software talks and tutorials
+that I worked on throughout the year. It is useful to have an account of my
+software development highlights even though I do not expect this type of
+post to necessarily be riveting retrospectives for most readers. They are
+just an honest retrospective on what worked, didn't work and how I can get
+better going forward.&lt;/p&gt;
+&lt;p&gt;This post differs slightly from past retrospectives in
+&lt;a class="reference external" href="/2012-development-year-in-review.html"&gt;2012&lt;/a&gt;,
+&lt;a class="reference external" href="/2013-development-year-in-review.html"&gt;2013&lt;/a&gt;,
+&lt;a class="reference external" href="/2014-software-development-year-review.html"&gt;2014&lt;/a&gt; and
+&lt;a class="reference external" href="/2015-software-development-year-review.html"&gt;2015&lt;/a&gt;
+by starting with a big picture summary before diving into the highlights
+for what I created. I also wrote a forward-looking post on
+&lt;a class="reference external" href="2016-year-ahead-software-development.html"&gt;my year ahead in software development&lt;/a&gt;
+to kick off this year so I'll take a look at how my results stacked up
+to what I was expecting to accomplish.&lt;/p&gt;
+&lt;div class="section" id="summary"&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;2016 was my first complete calendar year as a software developer in San
+Francisco. Without looking too far ahead into 2017, it will also be my last
+year here as I am moving back to Washington, DC in April to continue the
+work with Twilio that I started there in 2014.&lt;/p&gt;
+&lt;p&gt;Overall I made progress on becoming a better Swift &amp;amp; iOS developer.
+My work continued on the Python projects that are important to me while
+also learning a bit more about the Bottle, Pyramid and Morepath web
+frameworks to branch out from my usual
+&lt;a class="reference external" href="https://www.fullstackpython.com/django.html"&gt;Django&lt;/a&gt; and
+&lt;a class="reference external" href="https://www.fullstackpython.com/flask.html"&gt;Flask&lt;/a&gt; work.
+I invested significant time into live streaming programming and creating
+tutorial videos to put onto YouTube.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="expectations-vs-results"&gt;
+&lt;h2&gt;Expectations vs. Results&lt;/h2&gt;
+&lt;p&gt;My four goals were stated at the start of the
+&lt;a class="reference external" href="2016-year-ahead-software-development.html"&gt;year ahead in software developer&lt;/a&gt; as follows:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;Code, launch and operate my 2016 side project Plapi&lt;/li&gt;
+&lt;li&gt;Inspire and equip fellow developers as a Twilio Developer Evangelist&lt;/li&gt;
+&lt;li&gt;Release new updates to The Full Stack Python Guide to Deployments book&lt;/li&gt;
+&lt;li&gt;Build on the Full Stack Python foundation with daily updates&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Goal #1 to code, launch and operate the Programming Languages Web API was a
+semi-bust. I wrote a &lt;a class="reference external" href="https://github.com/mattmakai/plapi"&gt;decent initial version&lt;/a&gt; and deployed it on a Linode server. However, I fell on my face
+while trying to operate it. Essentially, the operations did not happen.
+There really needed to be daily updates to the content and code for
+this project to take off. In the late spring the whole thing was shelved
+when Michael Kennedy and I started working on
+&lt;a class="reference external" href="https://www.kickstarter.com/projects/mikeckennedy/python-for-entrepreneurs-video-course"&gt;the Python for Entrepreneurs video course&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I will have to take another swing at it again when I am more firmly
+committed to the project.&lt;/p&gt;
+&lt;p&gt;Goal #2 to continue inspiring and equipping developers as a Twilio Developer
+Evangelist was solid. Twilio is a special company completely focused on
+developers. I am just as stoked while entering my fourth year as a Twilion
+as the day I joined.&lt;/p&gt;
+&lt;p&gt;Releasing several &lt;a class="reference external" href="http://www.deploypython.com/"&gt;Guide to Deployments book&lt;/a&gt;
+updates was the third goal. There was significant progress in the book
+toolchain, creation of the .mobi version and some content updates and tweaks.
+However, I really aim to get out an update each month or every other month
+at the least. In 2017 I need to do better to crank out regular meaty updates
+and keep the book's instructions fresh.&lt;/p&gt;
+&lt;p&gt;Goal #4 to continue building Full Stack Python with daily updates was very
+successful. While I did not deliver updates every single day, I was
+intentional in the days I would not commit a code change because I needed
+a break due to vacation or work commitments. I'm happy how this one turned
+out with the addition of the
+&lt;a class="reference external" href="https://www.fullstackpython.com/blog.html"&gt;new tutorials blog&lt;/a&gt;, a
+revamped
+&lt;a class="reference external" href="https://www.fullstackpython.com/table-of-contents.html"&gt;table of contents that includes a roadmap for upcoming pages&lt;/a&gt;
+significantly reduced HTML+CSS file sizes and a ton of additional content
+across many new pages. Crossing the 800,000 reader mark for the year is also
+a good stepping stone towards my 1+ million readers target in 2017.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="coding"&gt;
+&lt;h2&gt;Coding&lt;/h2&gt;
+&lt;p&gt;I did a lot of coding this past year but a lot of it didn't feel as meaty
+as some projects I worked on for extended periods of time when I was a
+consultant in my pre-Twilio days.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Spent significant time coding Python projects, both open source and some private side prototype projects&lt;/li&gt;
+&lt;li&gt;Developed with Swift and released a small iOS mobile app on the App Store&lt;/li&gt;
+&lt;li&gt;Coded occasionally on Windows with both Python and Java&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here was my GitHub commit log throughout the year, including both public
+and private repositories.&lt;/p&gt;
+&lt;img alt="GitHub commits for 2016" src="/source/static/img/161225-2016-year-review/contributions-2016.png" style="width: 100%;" /&gt;
+&lt;p&gt;I'll need to think about longer-term projects in 2017 to make sure I do
+not get stuck spending all my time constantly creating new projects rather
+than maintaining and building upon existing ones.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="writing"&gt;
+&lt;h2&gt;Writing&lt;/h2&gt;
+&lt;p&gt;My writing is split between several locations, including the
+&lt;a class="reference external" href="https://www.twilio.com/blog"&gt;Twilio blog&lt;/a&gt;,
+&lt;a class="reference external" href="https://www.fullstackpython.com/"&gt;Full Stack Python&lt;/a&gt;,
+&lt;a class="reference external" href="http://www.mattmakai.com/"&gt;this personal blog you're reading right now&lt;/a&gt;
+and any outside sites I have the opportunity to write for, such as
+Real Python this year or O'Reilly's site in past years.&lt;/p&gt;
+&lt;div class="section" id="twilio-posts"&gt;
+&lt;h3&gt;Twilio posts&lt;/h3&gt;
+&lt;p&gt;I wrote less Twilio posts than I would've like to put out there, but the
+resulting list is decent.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.twilio.com/blog/2016/02/ios-and-web-browser-video-calls-with-python-and-swift-2.html"&gt;iOS and Web Browser Video Calls with Python and Swift&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.twilio.com/blog/2016/03/tutorials-from-twilio-live-coding-on-twitch-this-week.html"&gt;Tutorials from Twilio: Live Coding on Twitch This Week&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.twilio.com/blog/2016/05/build-sms-slack-bot-python.html"&gt;How to Build an SMS Slack Bot in Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.twilio.com/blog/2016/05/add-phone-calling-slack-python.html"&gt;How to Add Phone Calling Bots to Slack with Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.twilio.com/blog/2016/08/getting-started-python-bottle-twilio-sms-mms.html"&gt;Getting Started with Python, Bottle and Twilio SMS / MMS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.twilio.com/blog/2016/11/make-receive-phone-calls-python-bottle-twilio-voice.html"&gt;How to Make and Receive Phone Calls with Python, Bottle and Twilio Voice&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.twilio.com/blog/2016/11/first-steps-python-bottle-web-framework.html"&gt;First Steps with Python &amp;amp; Bottle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.twilio.com/blog/2016/12/localhost-tunneling-ngrok-mac-os-x.html"&gt;How to Set Up Localhost Tunneling with Ngrok on Mac OS X&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="full-stack-python-posts"&gt;
+&lt;h3&gt;Full Stack Python posts&lt;/h3&gt;
+&lt;p&gt;Back in May I started writing blog posts to supplement the explanation pages
+typically found on Full Stack Python. Most were written between May and July
+with a trickle of new ones throughout the remainder of the year.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.fullstackpython.com/blog/full-stack-python-blog.html"&gt;The Full Stack Python Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.fullstackpython.com/blog/python-3-django-gunicorn-ubuntu-1604-xenial-xerus.html"&gt;Setting up Python 3, Django and Gunicorn on Ubuntu 16.04 LTS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.fullstackpython.com/blog/python-3-flask-green-unicorn-ubuntu-1604-xenial-xerus.html"&gt;How to set up Python 3, Flask and Green Unicorn on Ubuntu 16.04 LTS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.fullstackpython.com/blog/send-sms-text-messages-python.html"&gt;How to Send SMS Text Messages with Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.fullstackpython.com/blog/python-3-bottle-gunicorn-ubuntu-1604-xenial-xerus.html"&gt;Configuring Python 3, Bottle and Gunicorn for Development on Ubuntu 16.04 LTS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.fullstackpython.com/blog/send-mms-picture-messages-python.html"&gt;How to Send MMS Picture Messages with Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.fullstackpython.com/blog/install-redis-use-python-3-ubuntu-1604.html"&gt;How to Use Redis with Python 3 and redis-py on Ubuntu 16.04&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.fullstackpython.com/blog/postgresql-python-3-psycopg2-ubuntu-1604.html"&gt;Setting up PostgreSQL with Python 3 and psycopg on Ubuntu 16.04&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.fullstackpython.com/blog/install-mysql-ubuntu-1604.html"&gt;How to Install and Use MySQL on Ubuntu 16.04&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.fullstackpython.com/blog/respond-sms-text-messages-python-flask.html"&gt;Responding to SMS Text Messages with Python &amp;amp; Flask&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.fullstackpython.com/blog/build-first-slack-bot-python.html"&gt;How to Build Your First Slack Bot with Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.fullstackpython.com/blog/reply-sms-text-messages-python-bottle.html"&gt;Replying to SMS Text Messages with Python and Bottle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.fullstackpython.com/blog/python-3-pyramid-gunicorn-ubuntu-1604-xenial-xerus.html"&gt;Configuring Python 3, Pyramid and Gunicorn on Ubuntu 16.04&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.fullstackpython.com/blog/python-3-django-gunicorn-linux-mint-17.html"&gt;Setting Up Python 3, Django &amp;amp; Gunicorn on Linux Mint 17.3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.fullstackpython.com/blog/python-entrepreneurs.html"&gt;Python for Entrepreneurs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.fullstackpython.com/blog/dial-outbound-phone-calls-python-bottle.html"&gt;Dialing Outbound Phone Calls with a Bottle Web App&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.fullstackpython.com/blog/make-phone-calls-python.html"&gt;How to Make Phone Calls in Python&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="other-posts"&gt;
+&lt;h3&gt;Other Posts&lt;/h3&gt;
+&lt;p&gt;I wrote a post for the guys who run one of my favorite Python sites,
+&lt;a class="reference external" href="https://realpython.com/"&gt;Real Python&lt;/a&gt;, on
+&lt;a class="reference external" href="https://realpython.com/blog"&gt;Getting Started with the Slack API&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My personal blog only had three posts, the look ahead for 2016, this year
+in review post and a
+&lt;a class="reference external" href="/r2d2-skynet.html"&gt;summary of my SIGNAL 2016 talk on bots&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="book-updates"&gt;
+&lt;h3&gt;Book updates&lt;/h3&gt;
+&lt;p&gt;Daily updates to Full Stack Python, including the blog posts listed above,
+along with one major update to The Full Stack Python Guide to Deployments
+were the highlights on the book update side. There is a lot of work to be
+done in 2017 with more frequent updates to the Guide to Deployments book
+to improve it based on reader feedback.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="streaming-and-videos"&gt;
+&lt;h2&gt;Streaming and Videos&lt;/h2&gt;
+&lt;p&gt;I started streaming on Livecoding.tv at the end of 2015 and then moved over
+to Twitch Creative for the first six months of 2016. Finally I switched to
+creating videos for YouTube and the Python for Entrepreneurs video course.
+The two public videos I created were:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/watch?v=qakG9BYJ1tw"&gt;First Steps with Python and Bottle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/watch?v=oy13mDsXC4s"&gt;Localhost Tunneling with Ngrok on Mac OS X&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The rest of the videos I created are in the
+&lt;a class="reference external" href="https://training.talkpython.fm/courses/details/python-for-entrepreneurs-build-and-launch-your-online-business"&gt;Git chapter on the Python for
+Entrepreneurs course page&lt;/a&gt;. I have a
+lot more videos coming in 2017 and that will be one focus area for me
+heading into the new year.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="onward"&gt;
+&lt;h2&gt;Onward!&lt;/h2&gt;
+&lt;p&gt;That's my long list of what I achieved, didn't achieve and some insight into
+what I hope to do better for 2017. Next up I'll do a short post sometime in
+the next few weeks that will look ahead towards my goals for the new year.&lt;/p&gt;
+&lt;/div&gt;
+</summary></entry><entry><title>R2-D2 or Skynet? Combining Slack Bots with the Twilio API</title><link href="http://www.letshackdc.com/r2d2-skynet.html" rel="alternate"></link><updated>2016-04-28T00:00:00-04:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2016-04-28:r2d2-skynet.html</id><summary type="html">&lt;p&gt;This is a rough transcript along with the slides from our
 &lt;a class="reference external" href="https://www.twilio.com/signal"&gt;SIGNAL 2016&lt;/a&gt; talk from May 24, 2016.&lt;/p&gt;
 &lt;p&gt;You can also find the slides without notes on my &lt;a class="reference external" href="/talks.html"&gt;tech talks&lt;/a&gt;
 page. The code for the bot is open sourced under the MIT license in a
@@ -560,7 +738,7 @@ content creation, speaking and coding. The hypothesis was that by focusing my
 efforts on interrelated activities (&amp;quot;synergy&amp;quot; for you MBA folks), I would get
 better results and feel less scattershot in my work output.&lt;/p&gt;
 &lt;p&gt;I told the Twilio Developer Evangelism team about this approach and
-&lt;a class="reference external" href="http://wwww.brooklynhacker.com/"&gt;Rob Spectre&lt;/a&gt; dubbed it the &amp;quot;Makai
+&lt;a class="reference external" href="http://www.brooklynhacker.com/"&gt;Rob Spectre&lt;/a&gt; dubbed it the &amp;quot;Makai
 Triumvirate&amp;quot;. Below is a picture representing what the approach looks like.&lt;/p&gt;
 &lt;img alt="So called &amp;quot;Makai Triumvirate&amp;quot;, named by Rob Spectre" src="/source/static/img/141225-year-review/makai-triumvirate.png" style="width: 100%;" /&gt;
 &lt;p&gt;When activities are related I can produce much greater output in coding,

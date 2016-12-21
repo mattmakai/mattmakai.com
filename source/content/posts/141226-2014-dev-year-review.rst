@@ -79,7 +79,7 @@ efforts on interrelated activities ("synergy" for you MBA folks), I would get
 better results and feel less scattershot in my work output.
 
 I told the Twilio Developer Evangelism team about this approach and 
-`Rob Spectre <http://wwww.brooklynhacker.com/>`_ dubbed it the "Makai 
+`Rob Spectre <http://www.brooklynhacker.com/>`_ dubbed it the "Makai 
 Triumvirate". Below is a picture representing what the approach looks like.
 
 .. image:: /source/static/img/141225-year-review/makai-triumvirate.png
