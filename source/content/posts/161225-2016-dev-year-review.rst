@@ -67,7 +67,8 @@ web API again when I am more firmly committed to the project.
 Goal #2 to continue inspiring and equipping developers as a Twilio Developer 
 Evangelist was solid. Twilio is a special company completely focused on 
 developers. I am just as stoked while entering my fourth year as a Twilion
-as the day I joined.
+as 
+`the day I joined <https://www.twilio.com/blog/2014/02/introducing-developer-evangelist-matt-makai.html>`_.
 
 Goal #3 was to release several 
 `Guide to Deployments book <http://www.deploypython.com/>`_ updates. There 
