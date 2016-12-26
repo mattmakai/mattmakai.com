@@ -69,7 +69,7 @@ Evangelist was solid. Twilio is a special company completely focused on
 developers. I am just as stoked while entering my fourth year as a Twilion
 as the day I joined.
 
-Goal #4 was to release several 
+Goal #3 was to release several 
 `Guide to Deployments book <http://www.deploypython.com/>`_ updates. There 
 was significant progress in the book toolchain, creation of the .mobi 
 version and some content updates and tweaks. However, I really aim to get 
