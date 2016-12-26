@@ -46,7 +46,7 @@ tutorial videos to put onto YouTube.
 Expectations vs. Results
 ------------------------
 My four goals were stated in
-`my 2016 year ahead in software development <2016-year-ahead-software-development.html>`_ as follows:
+`my 2016 year ahead in software development </2016-year-ahead-software-development.html>`_ as follows:
 
 1. Code, launch and operate my 2016 side project Plapi
 2. Inspire and equip fellow developers as a Twilio Developer Evangelist
@@ -61,20 +61,21 @@ this project to take off. In the late spring the whole thing was shelved
 when Michael Kennedy and I started working on 
 `the Python for Entrepreneurs video course <https://www.kickstarter.com/projects/mikeckennedy/python-for-entrepreneurs-video-course>`_.
 
-I will have to take another swing at it again when I am more firmly 
-committed to the project.
+I will have to take another swing at building this programming languages
+web API again when I am more firmly committed to the project.
 
 Goal #2 to continue inspiring and equipping developers as a Twilio Developer 
 Evangelist was solid. Twilio is a special company completely focused on 
 developers. I am just as stoked while entering my fourth year as a Twilion
 as the day I joined.
 
-Releasing several `Guide to Deployments book <http://www.deploypython.com/>`_ 
-updates was the third goal. There was significant progress in the book
-toolchain, creation of the .mobi version and some content updates and tweaks.
-However, I really aim to get out an update each month or every other month
-at the least. In 2017 I need to do better to crank out regular meaty updates
-and keep the book's instructions fresh.
+Goal #4 was to release several 
+`Guide to Deployments book <http://www.deploypython.com/>`_ updates. There 
+was significant progress in the book toolchain, creation of the .mobi 
+version and some content updates and tweaks. However, I really aim to get 
+out an update each month or every other month at the least. In 2017 I need 
+to do better to crank out regular meaty updates and keep the book's 
+instructions fresh.
 
 Goal #4 to continue building Full Stack Python with daily updates was very
 successful. While I did not deliver updates every single day, I was 
@@ -199,21 +200,6 @@ lot more videos coming in 2017 and that will be one focus area for me
 heading into the new year.
 
 
-Worked / !Worked
-----------------
-On the Twilio Developer Network we constantly use a simeple 
-"worked / ! worked" tool for critical self-reflection after rehearsing
-and executing. We start with everything that worked for us then follow it up
-with what didn't go as well that we may want to improve. Here are my worked
-bits for 2016:
-
-
-Worked
-~~~~~~
-
-
-!Worked
-~~~~~~~
 
 
 Onward!
