@@ -167,7 +167,7 @@ Other Posts
 ~~~~~~~~~~~
 I wrote a post for the guys who run one of my favorite Python sites,
 `Real Python <https://realpython.com/>`_, on 
-`Getting Started with the Slack API <https://realpython.com/blog>`_.
+`Getting Started with the Slack API <https://realpython.com/blog/python/getting-started-with-the-slack-api-using-python-and-flask/>`_.
 
 My personal blog only had three posts, the look ahead for 2016, this year
 in review post and a 
@@ -200,6 +200,34 @@ lot more videos coming in 2017 and that will be one focus area for me
 heading into the new year.
 
 
+Worked / !Worked
+----------------
+On the Twilio Developer Network we constantly use a simeple 
+"worked / ! worked" tool for critical self-reflection after rehearsing
+and executing. We start with everything that worked for us then follow it up
+with what didn't go as well that we may want to improve. Here are my worked
+bits for 2016:
+
+
+*Worked*
+
+* Continued daily work on Full Stack Python
+* Reasonable technical tutorial output on multiple sites
+* Took time at the end of 2016 to stop and reflect on my work
+* Coded and learned way more in Swift & iOS development than any prior year
+* Became fully comfortable switching between Django, Flask and Bottle
+* Grew Full Stack Python to over 80,000 readers each month
+* Started Python for Entrepreneurs and ran successful Kickstarter with Michael Kennedy
+* Established a solid position to finish Python for Entrepreneurs course in early 2017
+* Had a better work/life balance in fall 2016 than 2015
+
+
+*!Worked*
+
+* Not yet fully comfortable with using Pyramid for web development
+* Did not produce enough book updates for readers
+* Overall did not spend enough time coding, especially on complicated projects
+* Did not do enough technical talks throughout the year
 
 
 Onward!

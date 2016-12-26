@@ -142,7 +142,7 @@ with a trickle of new ones throughout the remainder of the year.&lt;/p&gt;
 &lt;h3&gt;Other Posts&lt;/h3&gt;
 &lt;p&gt;I wrote a post for the guys who run one of my favorite Python sites,
 &lt;a class="reference external" href="https://realpython.com/"&gt;Real Python&lt;/a&gt;, on
-&lt;a class="reference external" href="https://realpython.com/blog"&gt;Getting Started with the Slack API&lt;/a&gt;.&lt;/p&gt;
+&lt;a class="reference external" href="https://realpython.com/blog/python/getting-started-with-the-slack-api-using-python-and-flask/"&gt;Getting Started with the Slack API&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;My personal blog only had three posts, the look ahead for 2016, this year
 in review post and a
 &lt;a class="reference external" href="/r2d2-skynet.html"&gt;summary of my SIGNAL 2016 talk on bots&lt;/a&gt;.&lt;/p&gt;
@@ -171,6 +171,33 @@ The two public videos I created were:&lt;/p&gt;
 Entrepreneurs course page&lt;/a&gt;. I have a
 lot more videos coming in 2017 and that will be one focus area for me
 heading into the new year.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="worked-worked"&gt;
+&lt;h2&gt;Worked / !Worked&lt;/h2&gt;
+&lt;p&gt;On the Twilio Developer Network we constantly use a simeple
+&amp;quot;worked / ! worked&amp;quot; tool for critical self-reflection after rehearsing
+and executing. We start with everything that worked for us then follow it up
+with what didn't go as well that we may want to improve. Here are my worked
+bits for 2016:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Worked&lt;/em&gt;&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Continued daily work on Full Stack Python&lt;/li&gt;
+&lt;li&gt;Reasonable technical tutorial output on multiple sites&lt;/li&gt;
+&lt;li&gt;Took time at the end of 2016 to stop and reflect on my work&lt;/li&gt;
+&lt;li&gt;Coded and learned way more in Swift &amp;amp; iOS development than any prior year&lt;/li&gt;
+&lt;li&gt;Became fully comfortable switching between Django, Flask and Bottle&lt;/li&gt;
+&lt;li&gt;Grew Full Stack Python to over 80,000 readers each month&lt;/li&gt;
+&lt;li&gt;Started Python for Entrepreneurs and ran successful Kickstarter with Michael Kennedy&lt;/li&gt;
+&lt;li&gt;Established a solid position to finish Python for Entrepreneurs course in early 2017&lt;/li&gt;
+&lt;li&gt;Had a better work/life balance in fall 2016 than 2015&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;!Worked&lt;/em&gt;&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Not yet fully comfortable with using Pyramid for web development&lt;/li&gt;
+&lt;li&gt;Did not produce enough book updates for readers&lt;/li&gt;
+&lt;li&gt;Overall did not spend enough time coding, especially on complicated projects&lt;/li&gt;
+&lt;li&gt;Did not do enough technical talks throughout the year&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="onward"&gt;
 &lt;h2&gt;Onward!&lt;/h2&gt;
