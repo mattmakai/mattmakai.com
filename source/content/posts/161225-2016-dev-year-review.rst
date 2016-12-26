@@ -45,8 +45,8 @@ tutorial videos to put onto YouTube.
 
 Expectations vs. Results
 ------------------------
-My four goals were stated at the start of the 
-`year ahead in software developer <2016-year-ahead-software-development.html>`_ as follows:
+My four goals were stated in
+`my 2016 year ahead in software development <2016-year-ahead-software-development.html>`_ as follows:
 
 1. Code, launch and operate my 2016 side project Plapi
 2. Inspire and equip fellow developers as a Twilio Developer Evangelist
@@ -199,6 +199,21 @@ lot more videos coming in 2017 and that will be one focus area for me
 heading into the new year.
 
 
+Worked / !Worked
+----------------
+On the Twilio Developer Network we constantly use a simeple 
+"worked / ! worked" tool for critical self-reflection after rehearsing
+and executing. We start with everything that worked for us then follow it up
+with what didn't go as well that we may want to improve. Here are my worked
+bits for 2016:
+
+
+Worked
+~~~~~~
+
+
+!Worked
+~~~~~~~
 
 
 Onward!
