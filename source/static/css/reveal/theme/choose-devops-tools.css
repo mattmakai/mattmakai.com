@@ -285,6 +285,11 @@ h1.light-bg {color: #222;}
   background-size: cover;
 }
 
+.django-logo .reveal .state-background {
+  background: url(/source/static/img/presentations/2017-devops-tools/django-logo.jpg);
+  background-size: cover;
+}
+
 .devops-1-layer .reveal .state-background {
   background: url(/source/static/img/presentations/2017-devops-tools/devops-1-layer.png);
   background-size: cover;
