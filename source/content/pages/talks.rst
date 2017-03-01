@@ -11,13 +11,10 @@ Tech Talks
 `How to Choose the Right DevOps Tools for You and Your Team </presentations/2017-choose-right-devops-tools.html>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Coding and deploying applications in 2017 is both easier and more 
-complicated with the proliferation of configuration management, containers, 
-microservices and continuous delivery tools. We'll learn how to mitigate 
-the complexity so we can get back to shipping great software by analyzing 
-concepts versus implementations, balancing pragmatism with technical 
-risk-taking and assessing how differing programming ecosystems fit into 
-your software development team culture.
-
+complicated with the proliferation of configuration management, 
+containers, microservices and continuous delivery tools. We'll learn how 
+to ignore the complexity of the tools by asking ourselves a dozen time 
+agnostic questions about software development.
 
 Upcoming talk at 
 `Oracle Code <https://go.oracle.com/oraclecode-san-francisco>`_ 
