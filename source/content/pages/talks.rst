@@ -16,8 +16,8 @@ containers, microservices and continuous delivery tools. We'll learn how
 to ignore the complexity of the tools by asking ourselves a dozen time 
 agnostic questions about software development.
 
-Upcoming talk at 
-`Oracle Code <https://go.oracle.com/oraclecode-san-francisco>`_ 
+Talk given at 
+`Oracle Code SF <https://go.oracle.com/oraclecode-san-francisco>`_ 
 in San Francisco, CA on March 1, 2017.
 
 ----
