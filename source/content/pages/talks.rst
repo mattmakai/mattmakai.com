@@ -8,6 +8,19 @@ Tech Talks
 2017
 ----
 
+`Adopting the Right DevOps Tools for You, Your Team and Your Organization </presentations/2017-choose-right-devops-tools.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating, deploying and operating applications in 2017 is both easier and 
+more complicated with the proliferation of configuration management, 
+containers, microservices and continuous delivery tools. We'll learn how 
+to ignore the complexity of the tools by asking ourselves a dozen time 
+agnostic questions about software development.
+
+Upcoming talk at Devoxx 2017 in San Jose, CA on March 23, 2017.
+
+----
+
+
 `How to Choose the Right DevOps Tools for You and Your Team </presentations/2017-choose-right-devops-tools.html>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Coding and deploying applications in 2017 is both easier and more 
