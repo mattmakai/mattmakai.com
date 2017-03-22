@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+ <meta charset="utf-8">
+ <title>Adopting the Right DevOps Tools for You and Your Team</title>
+ <meta name="description" content="">
+ <meta name="author" content="Matt Makai">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ <link rel="stylesheet" href="/source/static/css/reveal/reveal.css">
+        <link rel="stylesheet" href="/source/static/css/reveal/theme/choose-devops-tools.css" id="theme">
+        <link rel="stylesheet" href="/source/static/lib/css/zenburn.css">
+        <link rel="stylesheet" media="print" href="/source/static/css/reveal/print/pdf.css">
+        <link rel="stylesheet" media="print" href="/source/static/css/reveal/print/print.css">
+        <style>
+            ol.bigger li, 
+            ul.bigger li {
+               color: #222;
+               font-size: 2em;
+               margin-bottom: 5px;
+               line-height: 1.1em;
+               margin-left: 20px;
+            }
+            ul.bigger-contact-info li {
+               color: #222;
+               font-size: 1.8em;
+               margin-bottom: 5px;
+               margin-top: 5px;
+               line-height: 1.1em;
+               margin-left: 20px;
+            }
+            ol.bigger-contact-info li {
+                margin-left: 1em;
+            }
+            ol.bigger li {
+                margin-left: 1em;
+            }
+            img.no-border-rounded {border: none; border-radius: 5px;}
+            h2.commandline {font-size: 3em; color: #222; padding-top: 20px;}
+            h2.commandline-sm {font-size: 2.2em; color: #222; padding-top: 30px;}
+            h1.code {font-family: courier; font-weight: bold;}
+            h2.code {font-family: courier; font-weight: bold;}
+            ul.secondary {font-size: 26px; margin-left: 50px;}
+            h3.question {font-size: 50px; line-height: 1.2em; hyphens:manual}
+        </style>
+
+    <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+
+		<!--[if lt IE 9]>
+		<script src="/source/static/lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+<body>
+ <div class="reveal">
+  <div class="slides" style="text-align: left;">
+
+   <section>
+    <h1 style="margin-bottom:25px;font-size:2.8em;hyphens:manual;line-height:1.05em;">
+     Adopting the Right DevOps Tools for You and Your Team
+    </h1>
+    <h3 style="margin-top:50px"><a href="https://devoxx.us/">Devoxx San Jose | March 2017</a></h3>
+    <p style="font-size: 1em;"> 
+     <a href="http://www.mattmakai.com">Matt Makai</a> | 
+     <a href="https://github.com/mattmakai">mattmakai on GitHub</a>
+    </p>
+    <p style="font-size: 1em;"> 
+     <a href="https://www.twilio.com" 
+        style="padding-bottom: 10px">Twilio Developer Evangelist</a> |
+     <a href="https://www.fullstackpython.com" 
+        style="padding-bottom: 10px;">Full Stack Python author</a> 
+    </p>
+   </section>
+
+   <section data-state="python-swift-love"></section>
+   <section data-state="java-logo"></section>
+   <section data-state="dark-ages"></section>
+   <section data-state="different-versions"></section>
+   <section data-state="pat-on-back"></section>
+
+   <section data-state="devops-0-layers"></section>
+   <section data-state="devops-1-layer"></section>
+   <section data-state="devops-2-layers"></section>
+   <section data-state="devops-3-layers"></section>
+   <section data-state="devops-4-layers"></section>
+
+   <section>
+    <h2>Question #1</h2>
+    <h3 class="question">Do you know a developer who strongly 
+                         recommends a tool after 4+ years?</h3>
+   </section>
+
+   <section data-state="git-logo"></section>
+
+   <section>
+    <h2>Question #2</h2>
+    <h3 class="question">What is the difference between a concept and
+                         an implementation?</h3>
+   </section>
+   
+   <section data-state="docker-logo"></section>
+   <section data-state="containers"></section>
+
+   <section>
+    <h2>Question #3</h2>
+    <h3 class="question">On a 0 (lowest) -> 10 scale, how amenable is your 
+                         organization to improving the technical environment?
+    </h3>
+   </section>
+
+   <section>
+    <h2>Question #4</h2>
+    <h3 class="question">How many people on your team get stoked about making
+                         incremental fixes to your technical environment?
+    </h3>
+   </section>
+
+   <section data-state="devops-1-layer"></section>
+   <section data-state="devops-2-layers"></section>
+   <section data-state="continuous-integration-implementations"></section>
+
+   <section>
+     <h2>Test automation</h2>
+     <h3>Concepts: test runners, coverage, mocks</h1>
+     <h3>Python implementations: unittest, pytest, Nose, mock, coverage</h1>
+   </section>
+
+   <section style="text-align: center;">
+     <h1>$bash</h1>
+   </section>
+
+   <section data-state="python-fabric-logo"></section>
+   <section data-state="ansible-logo"></section>
+   <section data-state="devops-2-layers"></section>
+   <section data-state="devops-3-layers"></section>
+   <section data-state="configuration-management-tools"></section>
+
+   <section>
+     <h3>Ubuntu Linux command</h3>
+<pre style="font-size: 32px;">
+sudo apt-get install python-dev supervisor
+</pre>
+<br/>
+     <h3>Ansible Config Management YAML</h3>
+<pre style="font-size: 32px;">
+- name: install python-dev, supervisor pkgs
+  apt:
+    name: python-dev supervisor
+    state: present
+</pre>
+    </section>
+
+   <section>
+    <h2>Question #5</h2>
+    <h3 class="question">How many times per day does your team deploy to 
+                         test? How about production?
+    </h3>
+   </section>
+
+   <section>
+    <h2>Question #6</h2>
+    <h3 class="question">How many times per day do you <em>want</em> to
+                         deploy to test? To production?
+    </h3>
+   </section>
+   
+   <section>
+    <h2>Question #7</h2>
+    <h3 class="question">Who on your team gets excited about continuous
+                         delivery?</h3>
+   </section>
+
+   <section data-state="fsp-map"></section>
+   
+   <section>
+    <h2>Question #8</h2>
+    <h3 class="question">Who on your team is responsible for improving
+                         automated deployments and continuous delivery?</h3>
+   </section>
+   
+   <section>
+    <h2>Question #9</h2>
+    <h3 class="question">What are the top 5 specific impediments to 
+                         completely automating your deployments?</h3>
+   </section>
+
+   <section data-state="devops-3-layers"></section>
+   <section data-state="devops-4-layers"></section>
+
+   <section data-state="django-logo"></section>
+   
+   <section>
+    <h2>Question #10</h2>
+    <h3 class="question">What percentage of your errors do you know
+                         about before your users?</h3>
+   </section>
+
+   <section>
+    <h2>Question #11</h2>
+    <h3 class="question">What metrics do you collect that feed into every 
+                         sprint?</h3>
+   </section>
+
+   <section data-state="deploys-2016"></section>
+
+   <section>
+    <h2>Question #12</h2>
+    <h3 class="question">Can you spend money to solve some of your issues?</h3>
+   </section>
+
+   <section data-state="devops-1-layer"></section>
+   <section data-state="devops-2-layers"></section>
+   <section data-state="devops-3-layers"></section>
+   <section data-state="devops-4-layers"></section>
+
+   <section>
+    <h2>Matt Makai</h2>
+    <ul class="bigger-contact-info">
+     <li><a href="https://www.twilio.com/" style="padding-bottom: 5px;">Twilio Developer Evangelist</a></li>
+     <li><a href="https://www.fullstackpython.com/" style="padding-bottom: 5px;">fullstackpython.com</a></li>
+     <li><a href="https://github.com/mattmakai">mattmakai on GitHub</a></li>
+     <li>makai@twilio.com</li>
+    </ul>
+   </section>
+
+   <section>
+    <h2>Picture sources</h2>
+    <ul>
+     <li><a href="https://images.vice.com/motherboard/content-images/article/no-id/1461177723524826.jpg?crop=1xw:0.7911820394914796xh;center,center&resize=1050:*">Dark ages</a></li>
+     <li><a href="http://www.awesomelyluvvie.com/wp-content/uploads/2014/09/pat-on-the-back-saved-by-the-bell.gif">Pat on the back</a></li>
+    </ul>
+  </div>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script> 
+		<script src="/source/static/lib/js/head.min.js"></script>
+		<script src="/source/static/js/reveal.min.js"></script>
+
+		<script>
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: false,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: '/source/static/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '/source/static/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '/source/static/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				]
+			});
+
+            $(document).ready(function() {
+            });
+
+		</script>
+
+	</body>
+</html>

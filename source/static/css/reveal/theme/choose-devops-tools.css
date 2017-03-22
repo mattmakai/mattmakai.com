@@ -334,3 +334,18 @@ h1.light-bg {color: #222;}
   background: url(/source/static/img/presentations/2017-devops-tools/devops-4-layers.png);
   background-size: cover;
 }
+
+.docker-logo .reveal .state-background {
+  background: url(/source/static/img/presentations/2017-devops-tools/docker-logo.jpg);
+  background-size: cover;
+}
+
+.containers .reveal .state-background {
+  background: url(/source/static/img/presentations/2017-devops-tools/containers.jpg);
+  background-size: cover;
+}
+
+.fsp-map .reveal .state-background {
+  background: url(/source/static/img/presentations/2017-devops-tools/fsp-map.jpg);
+  background-size: cover;
+}
