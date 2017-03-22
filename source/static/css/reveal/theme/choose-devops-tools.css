@@ -359,3 +359,8 @@ h1.light-bg {color: #222;}
   background: url(/source/static/img/presentations/2017-devops-tools/sentry-github.png);
   background-size: cover;
 }
+
+.fsp-concepts-impls .reveal .state-background {
+  background: url(/source/static/img/presentations/2017-devops-tools/fsp-concepts-impls.png);
+  background-size: cover;
+}
