@@ -87,7 +87,7 @@
 like for rebuilding my database. This is particularly useful early in
 a project lifecycle before I start using South for database migrations
 and instead I am building new tables and columns at a fast clip.</p>
-<div class="highlight"><pre>def rebuild_db():
+<div class="highlight"><pre><span></span>def rebuild_db():
   run(&#39;mysql -u %s -p%s -e &quot;drop database if exists %s&quot;&#39; % (env.db_user,
     env.db_passwd, env.db_schema))
   run(&#39;mysql -u %s -p%s -e &quot;create database %s&quot;&#39; % (env.db_user,

@@ -8,6 +8,22 @@ Tech Talks
 2017
 ----
 
+Adding Phone Calls, Text Messages and Video to Your Python Apps with the Twilio API
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Learn to use Twilio's APIs to easily add communications, such as phone calling,
+messaging and video, to your Python applications. We'll walk through live coded
+examples that you can immediately use in your own applications for
+`2-factor authentication <https://www.twilio.com/docs/tutorials/two-factor-authentication-python-flask>`_,
+`phone-calling Slack bots <https://www.twilio.com/blog/2016/05/add-phone-calling-slack-python.html>`_,
+`video chat services <https://www.twilio.com/blog/2016/02/ios-and-web-browser-video-calls-with-python-and-swift-2.html>`_
+and many other useful features.
+
+Upcoming talk to `Python Frederick <https://www.meetup.com/python-frederick/>`_ in
+Frederick, Maryland on June 14, 2017.
+
+----
+
+
 `Adopting the Right DevOps Tools for You, Your Team and Your Organization </presentations/2017-devoxx-devops-tools.html>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Creating, deploying and operating applications in 2017 is both easier and 
@@ -16,7 +32,7 @@ containers, microservices and continuous delivery tools. We'll learn how
 to ignore the complexity of the tools by asking ourselves a dozen time 
 agnostic questions about software development.
 
-Upcoming talk at `Devoxx 2017 <https://devoxx.us/>`_ in San Jose, CA on 
+Talk presented at `Devoxx 2017 <https://devoxx.us/>`_ in San Jose, CA on 
 March 22, 2017.
 
 ----

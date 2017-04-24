@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Matt Makai</title><link>http://www.letshackdc.com/</link><description></description><atom:link href="http://www.letshackdc.com/feeds/matt-makai.rss.xml" rel="self"></atom:link><lastBuildDate>Mon, 02 Jan 2017 00:00:00 -0500</lastBuildDate><item><title>My 2017 Year Ahead in Software Development</title><link>http://www.letshackdc.com/2017-year-ahead-software-development.html</link><description>&lt;p&gt;My
+<rss version="2.0"><channel><title>Matt Makai</title><link>http://www.letshackdc.com/</link><description></description><lastBuildDate>Mon, 02 Jan 2017 00:00:00 -0500</lastBuildDate><item><title>My 2017 Year Ahead in Software Development</title><link>http://www.letshackdc.com/2017-year-ahead-software-development.html</link><description>&lt;p&gt;My
 &lt;a class="reference external" href="/2016-software-development-year-review.html"&gt;look back at what I accomplished professionally in 2016 is complete&lt;/a&gt;,
 so with this post I'm looking ahead at my software development goals for
 2017 along with the programming ecosystems I will be coding in. The three
@@ -67,7 +67,7 @@ development.&lt;/p&gt;
 &lt;p&gt;Those are my goals and expected programming ecosystems for 2017, time
 to get back at it!&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Mon, 02 Jan 2017 00:00:00 -0500</pubDate><guid>tag:www.letshackdc.com,2017-01-02:2017-year-ahead-software-development.html</guid></item><item><title>My 2016 Software Development Year in Review</title><link>http://www.letshackdc.com/2016-software-development-year-review.html</link><description>&lt;p&gt;In the past several years I have taken time at the end of December to
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Mon, 02 Jan 2017 00:00:00 -0500</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2017-01-02:2017-year-ahead-software-development.html</guid></item><item><title>My 2016 Software Development Year in Review</title><link>http://www.letshackdc.com/2016-software-development-year-review.html</link><description>&lt;p&gt;In the past several years I have taken time at the end of December to
 reflect on the coding projects, software talks and tutorials
 that I worked on throughout the year. It is useful to have an account of my
 software development highlights even though I do not expect this type of
@@ -274,7 +274,7 @@ bits for 2016:&lt;/p&gt;
 what I hope to do better for 2017. Next up I'll do a short post sometime in
 the next few weeks that will look ahead towards my goals for the new year.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Sun, 25 Dec 2016 00:00:00 -0500</pubDate><guid>tag:www.letshackdc.com,2016-12-25:2016-software-development-year-review.html</guid></item><item><title>R2-D2 or Skynet? Combining Slack Bots with the Twilio API</title><link>http://www.letshackdc.com/r2d2-skynet.html</link><description>&lt;p&gt;This is a rough transcript along with the slides from our
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Sun, 25 Dec 2016 00:00:00 -0500</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2016-12-25:2016-software-development-year-review.html</guid></item><item><title>R2-D2 or Skynet? Combining Slack Bots with the Twilio API</title><link>http://www.letshackdc.com/r2d2-skynet.html</link><description>&lt;p&gt;This is a rough transcript along with the slides from our
 &lt;a class="reference external" href="https://www.twilio.com/signal"&gt;SIGNAL 2016&lt;/a&gt; talk from May 24, 2016.&lt;/p&gt;
 &lt;p&gt;You can also find the slides without notes on my &lt;a class="reference external" href="/talks.html"&gt;tech talks&lt;/a&gt;
 page. The code for the bot is open sourced under the MIT license in a
@@ -407,7 +407,7 @@ along with the &lt;a class="reference external" href="https://github.com/IBM-Blu
 &lt;li&gt;&lt;a class="reference external" href="http://venturebeat.com/2016/05/21/the-5-branches-of-conversational-commerce-a-guide-for-the-bot-curious/"&gt;The 5 branches of conversational commerce: A guide to the bot world&lt;/a&gt; by Jeff Lawson&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Thu, 28 Apr 2016 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2016-04-28:r2d2-skynet.html</guid></item><item><title>My 2016 Year Ahead in Software Development</title><link>http://www.letshackdc.com/2016-year-ahead-software-development.html</link><description>&lt;p&gt;With my
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Thu, 28 Apr 2016 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2016-04-28:r2d2-skynet.html</guid></item><item><title>My 2016 Year Ahead in Software Development</title><link>http://www.letshackdc.com/2016-year-ahead-software-development.html</link><description>&lt;p&gt;With my
 &lt;a class="reference external" href="/2015-software-development-year-review.html"&gt;2015 software development year in review&lt;/a&gt;
 done, I'm going to use this post to try something new: looking ahead at the big
 picture for what I want to accomplish in software throughout 2016. While I have a
@@ -502,7 +502,7 @@ deployments.&lt;/p&gt;
 &lt;p&gt;With those four big picture priorities on my mind it's time to get started coding
 and writing. We'll see in December how it all went.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Fri, 01 Jan 2016 00:00:00 -0500</pubDate><guid>tag:www.letshackdc.com,2016-01-01:2016-year-ahead-software-development.html</guid></item><item><title>My 2015 Software Development Year in Review</title><link>http://www.letshackdc.com/2015-software-development-year-review.html</link><description>&lt;p&gt;The end of the year is a good time to step back and take stock of everything
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Fri, 01 Jan 2016 00:00:00 -0500</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2016-01-01:2016-year-ahead-software-development.html</guid></item><item><title>My 2015 Software Development Year in Review</title><link>http://www.letshackdc.com/2015-software-development-year-review.html</link><description>&lt;p&gt;The end of the year is a good time to step back and take stock of everything
 accomplished throughout the past 365 days. This software development
 year in review post continues the retrospectives I performed in
 &lt;a class="reference external" href="/2012-development-year-in-review.html"&gt;2012&lt;/a&gt;,
@@ -642,7 +642,7 @@ that, check out my
 &lt;a class="reference external" href="2016-year-ahead-software-development.html"&gt;software development year ahead in 2016&lt;/a&gt;
 post.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Wed, 30 Dec 2015 00:00:00 -0500</pubDate><guid>tag:www.letshackdc.com,2015-12-30:2015-software-development-year-review.html</guid></item><item><title>PyCon WSGI Deployment Adventure Links</title><link>http://www.letshackdc.com/pycon-wsgi-deployment-adventure-links.html</link><description>&lt;p&gt;At PyCon 2015 in Montreal, &lt;a class="reference external" href="http://www.kateheddleston.com/"&gt;Kate Heddleston&lt;/a&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Wed, 30 Dec 2015 00:00:00 -0500</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2015-12-30:2015-software-development-year-review.html</guid></item><item><title>PyCon WSGI Deployment Adventure Links</title><link>http://www.letshackdc.com/pycon-wsgi-deployment-adventure-links.html</link><description>&lt;p&gt;At PyCon 2015 in Montreal, &lt;a class="reference external" href="http://www.kateheddleston.com/"&gt;Kate Heddleston&lt;/a&gt;
 and I presented
 &lt;a class="reference external" href="https://us.pycon.org/2015/schedule/presentation/336/"&gt;Choose Your Own WSGI Deployment Adventure&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;If you'd like to create your own Choose Your Own Adventure presentations,
@@ -676,7 +676,7 @@ itself is &lt;a class="reference external" href="https://github.com/mattmakai/fu
 &lt;p&gt;We hope that our Choose Your Own WSGI Deployment Adventure talk
 made you laugh and maybe learn a little bit more about Python
 web application deployments.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Sat, 11 Apr 2015 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2015-04-11:pycon-wsgi-deployment-adventure-links.html</guid></item><item><title>Resources for WebSockets with Python</title><link>http://www.letshackdc.com/websockets-python-resources.html</link><description>&lt;p&gt;Before you learn node.js to handle WebSockets or any type of full-duplex
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Sat, 11 Apr 2015 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2015-04-11:pycon-wsgi-deployment-adventure-links.html</guid></item><item><title>Resources for WebSockets with Python</title><link>http://www.letshackdc.com/websockets-python-resources.html</link><description>&lt;p&gt;Before you learn node.js to handle WebSockets or any type of full-duplex
 client-server communication, check out some Python options first. In this
 post I'll lay out some of the resources that I found most helpful for getting
 started coding Python web applications that use WebSockets.&lt;/p&gt;
@@ -774,7 +774,7 @@ where they are less useful.&lt;/li&gt;
 &lt;a class="reference external" href="http://www.slideshare.net/swanandpagnis/lets-get-real-time-serversent-events-websockets-and-webrtc-for-the-soul"&gt;what WebSockets, SSE and WebRTC are&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Wed, 14 Jan 2015 00:00:00 -0500</pubDate><guid>tag:www.letshackdc.com,2015-01-14:websockets-python-resources.html</guid></item><item><title>My 2014 Software Development Year in Review</title><link>http://www.letshackdc.com/2014-software-development-year-review.html</link><description>&lt;p&gt;2014 was a solid year for improving my software development abilities. This
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Wed, 14 Jan 2015 00:00:00 -0500</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2015-01-14:websockets-python-resources.html</guid></item><item><title>My 2014 Software Development Year in Review</title><link>http://www.letshackdc.com/2014-software-development-year-review.html</link><description>&lt;p&gt;2014 was a solid year for improving my software development abilities. This
 year was different from past years because I moved completely out of software
 consulting and into coding open source projects.&lt;/p&gt;
 &lt;p&gt;This post will briefly cover my highlights from 2014 and go into the insights
@@ -917,7 +917,7 @@ pressures of being a consultant.&lt;/p&gt;
 &lt;p&gt;2015 is already shaping up as a killer year. I'll have a separate blog post
 later on my plans for the new year.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Fri, 26 Dec 2014 00:00:00 -0500</pubDate><guid>tag:www.letshackdc.com,2014-12-26:2014-software-development-year-review.html</guid></item><item><title>My Typical Day As A Developer Evangelist</title><link>http://www.letshackdc.com/typical-day-as-developer-evangelist.html</link><description>&lt;p&gt;&amp;quot;&lt;em&gt;What is a typical day like?&lt;/em&gt;&amp;quot; is one of the most common questions I receive
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Fri, 26 Dec 2014 00:00:00 -0500</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2014-12-26:2014-software-development-year-review.html</guid></item><item><title>My Typical Day As A Developer Evangelist</title><link>http://www.letshackdc.com/typical-day-as-developer-evangelist.html</link><description>&lt;p&gt;&amp;quot;&lt;em&gt;What is a typical day like?&lt;/em&gt;&amp;quot; is one of the most common questions I receive
 about my gig as a
 &lt;a class="reference external" href="https://www.twilio.com/blog/2014/02/introducing-developer-evangelist-matt-makai.html"&gt;Twilio Developer Evangelist&lt;/a&gt;. This blog post explains how I schedule
 my calendar when I'm in Washington, D.C. on work days.&lt;/p&gt;
@@ -1056,7 +1056,7 @@ by &lt;a class="reference external" href="http://www.kevinwhinnery.com/"&gt;Kevi
 &lt;p&gt;[1] burrito bowl, veges, double chicken, pico de gallo, medium salsa,
 lettuce, guac on the side, no rice, beans, cheese, sour cream or corn :)&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Sat, 06 Dec 2014 00:00:00 -0500</pubDate><guid>tag:www.letshackdc.com,2014-12-06:typical-day-as-developer-evangelist.html</guid></item><item><title>Women Who Code DC Workshop</title><link>http://www.letshackdc.com/women-who-code-dc-workshop.html</link><description>&lt;p&gt;Hello and welcome to the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Sat, 06 Dec 2014 00:00:00 -0500</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2014-12-06:typical-day-as-developer-evangelist.html</guid></item><item><title>Women Who Code DC Workshop</title><link>http://www.letshackdc.com/women-who-code-dc-workshop.html</link><description>&lt;p&gt;Hello and welcome to the
 &lt;a class="reference external" href="http://www.meetup.com/Women-Who-Code-DC/events/219004596/"&gt;Women Who Code DC Twilio API workshop&lt;/a&gt;
 for the 2014 Hour of Code week! In this workshop we're going to learn how
 to send and receive text messages (SMS), multimedia messages (MMS) and voice
@@ -1182,7 +1182,7 @@ go back to the post or the
 &lt;a class="reference external" href="https://github.com/mattmakai/choose-your-own-adventure-presentations"&gt;companion GitHub repository&lt;/a&gt;
 to polish it off on your own time.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Fri, 05 Dec 2014 00:00:00 -0500</pubDate><guid>tag:www.letshackdc.com,2014-12-05:women-who-code-dc-workshop.html</guid></item><item><title>Brain Boosting</title><link>http://www.letshackdc.com/brain-boosting.html</link><description>&lt;p&gt;In college, I was never one to take adderal or ritalin to cram all night before
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Fri, 05 Dec 2014 00:00:00 -0500</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2014-12-05:women-who-code-dc-workshop.html</guid></item><item><title>Brain Boosting</title><link>http://www.letshackdc.com/brain-boosting.html</link><description>&lt;p&gt;In college, I was never one to take adderal or ritalin to cram all night before
 an exam. That no-sleep study route sounded miserable to me. I was the
 unusual student who slowly and steadily worked every single day in the
 library towards inevitable midterms and finals. Nevertheless, increasing
@@ -1277,7 +1277,7 @@ according to research done with Starcraft players.&lt;/li&gt;
 Summary: seriously not good for you.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Mon, 01 Dec 2014 00:00:00 -0500</pubDate><guid>tag:www.letshackdc.com,2014-12-01:brain-boosting.html</guid></item><item><title>Learning Web APIs</title><link>http://www.letshackdc.com/learning-web-apis.html</link><description>&lt;p&gt;The following list is a collection of resources for understanding and
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Mon, 01 Dec 2014 00:00:00 -0500</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2014-12-01:brain-boosting.html</guid></item><item><title>Learning Web APIs</title><link>http://www.letshackdc.com/learning-web-apis.html</link><description>&lt;p&gt;The following list is a collection of resources for understanding and
 learning Web fundamentals and application programming interfaces (APIs).
 Much of modern software development is driven by crafting custom code
 and combining that code with APIs. The concepts listed here are useful for
@@ -1366,7 +1366,7 @@ slides are very relevant for API integration.&lt;/li&gt;
 &lt;a class="reference external" href="http://www.fullstackpython.com/application-programming-interfaces.html"&gt;Full Stack Python's APIs pages&lt;/a&gt;
 so be to check those out as well.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Wed, 15 Oct 2014 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2014-10-15:learning-web-apis.html</guid></item><item><title>How to Impress at Hackathons</title><link>http://www.letshackdc.com/must-have-hackathon-links.html</link><description>&lt;p&gt;What's the difference between a hackathon project that amazes the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Wed, 15 Oct 2014 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2014-10-15:learning-web-apis.html</guid></item><item><title>How to Impress at Hackathons</title><link>http://www.letshackdc.com/must-have-hackathon-links.html</link><description>&lt;p&gt;What's the difference between a hackathon project that amazes the
 audience versus one that lands with a thud? For better or worse
 if you're looking to win a hackathon it takes more than just code to
 impress the audience.&lt;/p&gt;
@@ -1482,7 +1482,7 @@ red track jacket walking around or posted up in a visible location. If you
 can't find me tweet me &lt;a class="reference external" href="https://twitter.com/mattmakai"&gt;&amp;#64;mattmakai&lt;/a&gt; to get
 the fastest response. You can also email me at &lt;a class="reference external" href="mailto:makai&amp;#64;twilio.com"&gt;makai&amp;#64;twilio.com&lt;/a&gt;. Happy coding!&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Fri, 03 Oct 2014 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2014-10-03:must-have-hackathon-links.html</guid></item><item><title>Full Stack Perspective Links</title><link>http://www.letshackdc.com/full-stack-perspective-links.html</link><description>&lt;p&gt;This post contains links and references that go along with a short talk
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Fri, 03 Oct 2014 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2014-10-03:must-have-hackathon-links.html</guid></item><item><title>Full Stack Perspective Links</title><link>http://www.letshackdc.com/full-stack-perspective-links.html</link><description>&lt;p&gt;This post contains links and references that go along with a short talk
 I gave at MoDev about
 &lt;a class="reference external" href="/presentations/2014-full-stack-python-perspective.html"&gt;the &amp;quot;full stack&amp;quot; development trend&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Several blog posts were influential in the early formation of the term
@@ -1517,7 +1517,7 @@ for the Python community. Full Stack Python has now been read by over
 &lt;p&gt;Web APIs are incredibly important in the full stack trend. If you'd like to
 read more about APIs and web fundamentals
 &lt;a class="reference external" href="/links-learning-web-fundamentals.html"&gt;I have a blog post specifically for those resources&lt;/a&gt;.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Mon, 15 Sep 2014 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2014-09-15:full-stack-perspective-links.html</guid></item><item><title>Django Deployment Adventure Links</title><link>http://www.letshackdc.com/links-django-deployment-adventure.html</link><description>&lt;p&gt;The following list is a collection of resources for Django deployments and
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Mon, 15 Sep 2014 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2014-09-15:full-stack-perspective-links.html</guid></item><item><title>Django Deployment Adventure Links</title><link>http://www.letshackdc.com/links-django-deployment-adventure.html</link><description>&lt;p&gt;The following list is a collection of resources for Django deployments and
 scenarios like handling web security vulnerabilities, measuring user traction&amp;quot;
 with web analytics, improving web application performance with caching and
 managing incoming feature requests from users.&lt;/p&gt;
@@ -1571,7 +1571,7 @@ about.&lt;/li&gt;
 lists open source web analytics projects and hosted web analytics services.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Sun, 31 Aug 2014 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2014-08-31:links-django-deployment-adventure.html</guid></item><item><title>Links for Solving Django's Top Enterprise Headaches</title><link>http://www.letshackdc.com/links-solve-djangos-top-enterprise-headaches.html</link><description>&lt;p&gt;The following list is a collection of resources for solving many of the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Sun, 31 Aug 2014 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2014-08-31:links-django-deployment-adventure.html</guid></item><item><title>Links for Solving Django's Top Enterprise Headaches</title><link>http://www.letshackdc.com/links-solve-djangos-top-enterprise-headaches.html</link><description>&lt;p&gt;The following list is a collection of resources for solving many of the
 headaches that come with using a dynamically typed language like Python
 in the enterprise with Django as a commonly misunderstood web framework.
 These resources I found very helpful when I found them during my time
@@ -1650,7 +1650,7 @@ is a list of exactly what it says. Examples can be used for social proof
 that Python is a widely used programming language.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Sat, 30 Aug 2014 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2014-08-30:links-solve-djangos-top-enterprise-headaches.html</guid></item><item><title>Links for Learning Web Fundamentals</title><link>http://www.letshackdc.com/links-learning-web-fundamentals.html</link><description>&lt;p&gt;The following list is a collection of resources for understanding and
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Sat, 30 Aug 2014 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2014-08-30:links-solve-djangos-top-enterprise-headaches.html</guid></item><item><title>Links for Learning Web Fundamentals</title><link>http://www.letshackdc.com/links-learning-web-fundamentals.html</link><description>&lt;p&gt;The following list is a collection of resources for understanding and
 learning Web fundamentals and application programming interfaces (APIs).
 Modern software development is driven by crafting custom code and combining
 that code with APIs. The concepts listed here are key to performing
@@ -1712,7 +1712,7 @@ application when relying on third party services.&lt;/li&gt;
 slides are very relevant for API integration.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Sun, 24 Aug 2014 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2014-08-24:links-learning-web-fundamentals.html</guid></item><item><title>Plushcap Python Package Blog Series</title><link>http://www.letshackdc.com/plushcap-python-package-series.html</link><description>&lt;p&gt;The
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Sun, 24 Aug 2014 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2014-08-24:links-learning-web-fundamentals.html</guid></item><item><title>Plushcap Python Package Blog Series</title><link>http://www.letshackdc.com/plushcap-python-package-series.html</link><description>&lt;p&gt;The
 &lt;a class="reference external" href="https://www.twilio.com/blog/2014/08/website-sms-alerts-with-the-plushcap-python-package-part-1.html"&gt;first part of my multi-part series&lt;/a&gt;
 with a detailed walkthrough for building the
 &lt;a class="reference external" href="https://github.com/mattmakai/plushcap"&gt;Plushcap Python package&lt;/a&gt;
@@ -1726,7 +1726,7 @@ alerting when a website is erroring or not responding to HTTP requests.&lt;/p&gt
 Part three will build out the
 &lt;a class="reference external" href="https://github.com/mattmakai/plushcap-flask"&gt;plushcap-flask&lt;/a&gt; front end
 dashboard to view a website's uptime over extended periods.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Fri, 22 Aug 2014 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2014-08-22:plushcap-python-package-series.html</guid></item><item><title>Hiring for U.S. Digital Services</title><link>http://www.letshackdc.com/united-states-digital-services.html</link><description>&lt;p&gt;The new
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Fri, 22 Aug 2014 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2014-08-22:plushcap-python-package-series.html</guid></item><item><title>Hiring for U.S. Digital Services</title><link>http://www.letshackdc.com/united-states-digital-services.html</link><description>&lt;p&gt;The new
 &lt;a class="reference external" href="http://www.washingtonpost.com/blogs/the-switch/wp/2014/08/11/white-house-launches-u-s-digital-service-with-healthcare-gov-fixer-at-the-helm/"&gt;U.S. Digital Services&lt;/a&gt;
 group has a difficult task ahead assembling a
 talented new software developers and designers team. Many of the best
@@ -1836,7 +1836,7 @@ systems maintained by an army of overpaid consultants.&lt;/p&gt;
 &lt;p&gt;Let's hope that Digital Services either writes some code worth reading or
 creates some software worth writing about.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Wed, 13 Aug 2014 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2014-08-13:united-states-digital-services.html</guid></item><item><title>Favoring Hands On Walkthroughs</title><link>http://www.letshackdc.com/favoring-hands-on-walkthroughs.html</link><description>&lt;p&gt;Tomorrow I'm giving a talk at
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Wed, 13 Aug 2014 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2014-08-13:united-states-digital-services.html</guid></item><item><title>Favoring Hands On Walkthroughs</title><link>http://www.letshackdc.com/favoring-hands-on-walkthroughs.html</link><description>&lt;p&gt;Tomorrow I'm giving a talk at
 &lt;a class="reference external" href="https://ep2014.europython.eu/en/"&gt;EuroPython&lt;/a&gt; called
 &lt;a class="reference external" href="https://ep2014.europython.eu/en/schedule/sessions/41/"&gt;Full Stack Python&lt;/a&gt;
 which is named after my Full Stack Python website. I'm stoked to give the
@@ -1865,7 +1865,7 @@ traditional talks.&lt;/p&gt;
 technical talk. However, my hypothesis is that I can help audiences learn
 more about technical subjects through them participating in hands on
 walkthroughs at tutorial sessions than time crunched technical talks.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Mon, 21 Jul 2014 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2014-07-21:favoring-hands-on-walkthroughs.html</guid></item><item><title>Recent Writing</title><link>http://www.letshackdc.com/recent-writing-june-2014.html</link><description>&lt;p&gt;Recently I have been writing content on other places around the Web. Here's a
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Mon, 21 Jul 2014 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2014-07-21:favoring-hands-on-walkthroughs.html</guid></item><item><title>Recent Writing</title><link>http://www.letshackdc.com/recent-writing-june-2014.html</link><description>&lt;p&gt;Recently I have been writing content on other places around the Web. Here's a
 quick summary of what I've been up to.&lt;/p&gt;
 &lt;p&gt;The majority of my work has been on
 &lt;a class="reference external" href="http://www.fullstackpython.com/"&gt;Full Stack Python&lt;/a&gt;, which I update every
@@ -1902,7 +1902,7 @@ has been on producing content for technical talks. In particular, I'm looking
 forward to my
 &lt;a class="reference external" href="https://ep2014.europython.eu/en/schedule/sessions/41/"&gt;Full Stack Python talk at EuroPython&lt;/a&gt;
 in Berlin on July 22nd.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Sun, 08 Jun 2014 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2014-06-08:recent-writing-june-2014.html</guid></item><item><title>CFPB Collab MySQL Install Error</title><link>http://www.letshackdc.com/cfpb-collab-mysql-requirements-txt-installation-error.html</link><description>&lt;p&gt;In case you're trying to get &lt;a class="reference external" href="https://github.com/cfpb/collab"&gt;CFPB collab&lt;/a&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Sun, 08 Jun 2014 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2014-06-08:recent-writing-june-2014.html</guid></item><item><title>CFPB Collab MySQL Install Error</title><link>http://www.letshackdc.com/cfpb-collab-mysql-requirements-txt-installation-error.html</link><description>&lt;p&gt;In case you're trying to get &lt;a class="reference external" href="https://github.com/cfpb/collab"&gt;CFPB collab&lt;/a&gt;
 working in your environment, there's a few errors you might run into. This is
 a quick post to highlight solutions to the issues I came across.&lt;/p&gt;
 &lt;p&gt;Collab currently requires MySQL for the backend. I do not believe MySQL is a
@@ -1951,7 +1951,7 @@ library installed. On Ubuntu you can accomplish this by running:&lt;/p&gt;
 &lt;pre class="literal-block"&gt;
 sudo apt-get install mysql-server libmysqlclient-dev
 &lt;/pre&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Fri, 17 Jan 2014 00:00:00 -0500</pubDate><guid>tag:www.letshackdc.com,2014-01-17:cfpb-collab-mysql-requirements-txt-installation-error.html</guid></item><item><title>My 2013 Software Development Year in Review</title><link>http://www.letshackdc.com/2013-development-year-in-review.html</link><description>&lt;p&gt;2013 was an incredible and fortunate year for me. The quick highlights:&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Fri, 17 Jan 2014 00:00:00 -0500</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2014-01-17:cfpb-collab-mysql-requirements-txt-installation-error.html</guid></item><item><title>My 2013 Software Development Year in Review</title><link>http://www.letshackdc.com/2013-development-year-in-review.html</link><description>&lt;p&gt;2013 was an incredible and fortunate year for me. The quick highlights:&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;traveled the US for 5 months talking to tech startups and software
 developers&lt;/li&gt;
@@ -2029,7 +2029,7 @@ be based in D.C. and will travel quite a bit to tech events around the US.
 It's an exciting opportunity and I'm sure I'll have more to say once I get
 started in a few weeks.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Thu, 12 Dec 2013 00:00:00 -0500</pubDate><guid>tag:www.letshackdc.com,2013-12-12:2013-development-year-in-review.html</guid></item><item><title>Getting Started With Pelican and GitHub Pages</title><link>http://www.letshackdc.com/introduction-to-pelican.html</link><description>&lt;p&gt;Pelican is an open source static website generator. While Pelican is written
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Thu, 12 Dec 2013 00:00:00 -0500</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2013-12-12:2013-development-year-in-review.html</guid></item><item><title>Getting Started With Pelican and GitHub Pages</title><link>http://www.letshackdc.com/introduction-to-pelican.html</link><description>&lt;p&gt;Pelican is an open source static website generator. While Pelican is written
 in Python, you don't have to know much about that programming language to get
 started. In this post, I'll walk through the steps to getting your first
 Pelican website up and running, including a deployment to GitHub Pages for
@@ -2148,7 +2148,7 @@ and &lt;a class="reference external" href="http://www.fullstackpython.com/"&gt;F
 which are Pelican-powered websites with all code freely accessible on
 GitHub.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Wed, 06 Nov 2013 00:00:00 -0500</pubDate><guid>tag:www.letshackdc.com,2013-11-06:introduction-to-pelican.html</guid></item><item><title>Evaluating Third Party Services for Django Projects</title><link>http://www.letshackdc.com/evaluating-third-party-services-for-django.html</link><description>&lt;p&gt;Every non-trivial modern Django project combines externally hosted third
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Wed, 06 Nov 2013 00:00:00 -0500</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2013-11-06:introduction-to-pelican.html</guid></item><item><title>Evaluating Third Party Services for Django Projects</title><link>http://www.letshackdc.com/evaluating-third-party-services-for-django.html</link><description>&lt;p&gt;Every non-trivial modern Django project combines externally hosted third
 party services with custom code to create a complete web application. The
 art of discovering, evaluating, integrating, and maintaining these third
 party services is an important capability for any post-entry-level Django
@@ -2233,7 +2233,7 @@ on September 5 at 10am.&lt;/p&gt;
 and check out my &lt;a class="reference external" href="http://www.codingacrossamerica.com/"&gt;Coding Across America&lt;/a&gt;
 project.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Wed, 14 Aug 2013 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2013-08-14:evaluating-third-party-services-for-django.html</guid></item><item><title>Discovering Third Party Services for Django Projects</title><link>http://www.letshackdc.com/identifying-third-party-services-for-django.html</link><description>&lt;p&gt;Every non-trivial modern Django project combines externally hosted third
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Wed, 14 Aug 2013 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2013-08-14:evaluating-third-party-services-for-django.html</guid></item><item><title>Discovering Third Party Services for Django Projects</title><link>http://www.letshackdc.com/identifying-third-party-services-for-django.html</link><description>&lt;p&gt;Every non-trivial modern Django project combines externally hosted third
 party services with custom code to create a complete web application.&lt;/p&gt;
 &lt;p&gt;For example:&lt;/p&gt;
 &lt;ul class="simple"&gt;
@@ -2307,7 +2307,7 @@ on September 5 at 10am.&lt;/p&gt;
 and check out my &lt;a class="reference external" href="http://www.codingacrossamerica.com/"&gt;Coding Across America&lt;/a&gt;
 project.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Wed, 14 Aug 2013 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2013-08-14:identifying-third-party-services-for-django.html</guid></item><item><title>One Additon Per Day</title><link>http://www.letshackdc.com/one-addition-per-day.html</link><description>&lt;p&gt;I'm a huge believer in the power of results that accumulate by working on
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Wed, 14 Aug 2013 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2013-08-14:identifying-third-party-services-for-django.html</guid></item><item><title>One Additon Per Day</title><link>http://www.letshackdc.com/one-addition-per-day.html</link><description>&lt;p&gt;I'm a huge believer in the power of results that accumulate by working on
 something every single day. This idea obviously isn't new.
 &lt;a class="reference external" href="http://nathanbarry.com/authority/"&gt;Nathan Barry's new book Authority&lt;/a&gt; is
 one of the most recent examples that explains the power of writing each day.&lt;/p&gt;
@@ -2333,7 +2333,7 @@ number of stars on Github so far)
 &lt;a class="reference external" href="http://www.fullstackpython.com/"&gt;Full Stack Python&lt;/a&gt; and fleshing out
 each section. Within the next week it won't be complete, but after a few
 weeks of sustained effort it will become a much more comprehensive resource.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Mon, 12 Aug 2013 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2013-08-12:one-addition-per-day.html</guid></item><item><title>Checklist for Evaluating Existing Django Projects</title><link>http://www.letshackdc.com/django-project-checklist.html</link><description>&lt;p&gt;Lately I've consulted for several clients where I was asked to drop into
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Mon, 12 Aug 2013 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2013-08-12:one-addition-per-day.html</guid></item><item><title>Checklist for Evaluating Existing Django Projects</title><link>http://www.letshackdc.com/django-project-checklist.html</link><description>&lt;p&gt;Lately I've consulted for several clients where I was asked to drop into
 an existing large Django project code base to triage issues and build
 enhancements. Working on an established code base is common whether you're
 a new developer on a team or like me working on consulting projects.&lt;/p&gt;
@@ -2493,7 +2493,7 @@ the services?&lt;/p&gt;
 &lt;li&gt;What are the usernames and passwords for the services?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Wed, 31 Jul 2013 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2013-07-31:django-project-checklist.html</guid></item><item><title>Developer Interview Questions</title><link>http://www.letshackdc.com/developer-interview-questions.html</link><description>&lt;p&gt;One of my clients was interviewing web developers and asked me about how
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Wed, 31 Jul 2013 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2013-07-31:django-project-checklist.html</guid></item><item><title>Developer Interview Questions</title><link>http://www.letshackdc.com/developer-interview-questions.html</link><description>&lt;p&gt;One of my clients was interviewing web developers and asked me about how
 I go about performing technical interviews. I have interviewed 15
 developers of all experience levels for
 &lt;a class="reference external" href="http://www.excella.com/"&gt;Excella Consulting&lt;/a&gt; in the past year. My style
@@ -2573,7 +2573,7 @@ are prevalent. If that works for them that's great. I just would not
 fit in well in that culture. It's likely that the people I want on my
 development teams would feel the same way so that's the path I take.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Tue, 26 Feb 2013 00:00:00 -0500</pubDate><guid>tag:www.letshackdc.com,2013-02-26:developer-interview-questions.html</guid></item><item><title>Coding Across America</title><link>http://www.letshackdc.com/coding-across-america.html</link><description>&lt;p&gt;In two weeks I get on the road to begin my primary 2013 project:
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Tue, 26 Feb 2013 00:00:00 -0500</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2013-02-26:developer-interview-questions.html</guid></item><item><title>Coding Across America</title><link>http://www.letshackdc.com/coding-across-america.html</link><description>&lt;p&gt;In two weeks I get on the road to begin my primary 2013 project:
 &lt;a class="reference external" href="http://www.codingacrossamerica.com/"&gt;Coding Across America&lt;/a&gt;. This is
 a large undertaking. I travel for five months from March until August to
 thirty cities across the United States.&lt;/p&gt;
@@ -2593,7 +2593,7 @@ the two topics I suggested are more useful to their audience. Otherwise
 I hope to keep the speaking engagements to a minimum while I am on the
 road. Listening, asking questions, and synthesizing information through
 writing are my priorities.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Fri, 22 Feb 2013 00:00:00 -0500</pubDate><guid>tag:www.letshackdc.com,2013-02-22:coding-across-america.html</guid></item><item><title>Getting to Plan B</title><link>http://www.letshackdc.com/getting-to-plan-b.html</link><description>&lt;p&gt;&lt;a class="reference external" href="http://www.amazon.com/gp/product/B004OC07HQ/ref=as_li_ss_tl?ie=UTF8&amp;amp;tag=minimneeds-20&amp;amp;linkCode=as2&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=B004OC07HQ"&gt;Getting to Plan B&lt;/a&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Fri, 22 Feb 2013 00:00:00 -0500</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2013-02-22:coding-across-america.html</guid></item><item><title>Getting to Plan B</title><link>http://www.letshackdc.com/getting-to-plan-b.html</link><description>&lt;p&gt;&lt;a class="reference external" href="http://www.amazon.com/gp/product/B004OC07HQ/ref=as_li_ss_tl?ie=UTF8&amp;amp;tag=minimneeds-20&amp;amp;linkCode=as2&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=B004OC07HQ"&gt;Getting to Plan B&lt;/a&gt;
 by John Mullins and Randy Komisar is a book about transitioning from an
 initial idea, your &amp;quot;Plan A&amp;quot;, to a subsequent idea, &amp;quot;Plan B through Z&amp;quot;,
 with a better product/market fit.&lt;/p&gt;
@@ -2656,7 +2656,7 @@ be a really bad idea and why?&lt;/p&gt;
 &lt;a class="reference external" href="../startup-owners-manual-strategy-guide.html"&gt;The Startup Owner's Manual Strategy Guide&lt;/a&gt;. This book provides a different perspective that is not
 seen in those two books or similar Lean Startup resources.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Sun, 06 Jan 2013 00:00:00 -0500</pubDate><guid>tag:www.letshackdc.com,2013-01-06:getting-to-plan-b.html</guid></item><item><title>My 2012 Software Development Year in Review</title><link>http://www.letshackdc.com/2012-development-year-in-review.html</link><description>&lt;p&gt;Ever since I was a little kid I knew that I wanted to develop software.
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Sun, 06 Jan 2013 00:00:00 -0500</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2013-01-06:getting-to-plan-b.html</guid></item><item><title>My 2012 Software Development Year in Review</title><link>http://www.letshackdc.com/2012-development-year-in-review.html</link><description>&lt;p&gt;Ever since I was a little kid I knew that I wanted to develop software.
 From what I hear that clarity of purpose is rare. It wasn't until college
 that I really felt I &amp;quot;got serious&amp;quot; about constantly improving on what I
 know. That learning has accelerated in the past few years since I finished
@@ -2783,7 +2783,7 @@ to be a better
 &lt;a class="reference external" href="http://www.codingacrossamerica.com/"&gt;Coding Across America&lt;/a&gt; trip.&lt;/p&gt;
 &lt;p&gt;I'll write up a separate post sometime in the near future to cover 2013.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Wed, 26 Dec 2012 00:00:00 -0500</pubDate><guid>tag:www.letshackdc.com,2012-12-26:2012-development-year-in-review.html</guid></item><item><title>The Startup Owner's Manual Strategy Guide</title><link>http://www.letshackdc.com/startup-owners-manual-strategy-guide.html</link><description>&lt;p&gt;&lt;a class="reference external" href="http://www.amazon.com/gp/product/B009UMTMKS/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=B009UMTMKS&amp;amp;linkCode=as2&amp;amp;tag=minimneeds-20"&gt;The Startup Owner's Manual Strategy Guide&lt;/a&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Wed, 26 Dec 2012 00:00:00 -0500</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-12-26:2012-development-year-in-review.html</guid></item><item><title>The Startup Owner's Manual Strategy Guide</title><link>http://www.letshackdc.com/startup-owners-manual-strategy-guide.html</link><description>&lt;p&gt;&lt;a class="reference external" href="http://www.amazon.com/gp/product/B009UMTMKS/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=B009UMTMKS&amp;amp;linkCode=as2&amp;amp;tag=minimneeds-20"&gt;The Startup Owner's Manual Strategy Guide&lt;/a&gt;
 by Steve Blank and Bob Dorf describes the Customer Development methodology
 that can be used by startups to search for a business model. The
 Customer Development model was developed because existing tools and
@@ -2855,7 +2855,7 @@ crosses lessons learned from both
 &lt;a class="reference external" href="../lean-startup-notes.html"&gt;The Lean Startup&lt;/a&gt; and The Startup Owner's
 Manual Strategy Guide.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Fri, 14 Dec 2012 00:00:00 -0500</pubDate><guid>tag:www.letshackdc.com,2012-12-14:startup-owners-manual-strategy-guide.html</guid></item><item><title>The Lean Startup by Eric Ries</title><link>http://www.letshackdc.com/lean-startup-notes.html</link><description>&lt;p&gt;I recently finished reading &lt;a class="reference external" href="http://www.amazon.com/gp/product/0307887898/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=0307887898&amp;amp;linkCode=as2&amp;amp;tag=minimneeds-20"&gt;The Lean Startup&lt;/a&gt; by Eric Ries. This blog post contains
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Fri, 14 Dec 2012 00:00:00 -0500</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-12-14:startup-owners-manual-strategy-guide.html</guid></item><item><title>The Lean Startup by Eric Ries</title><link>http://www.letshackdc.com/lean-startup-notes.html</link><description>&lt;p&gt;I recently finished reading &lt;a class="reference external" href="http://www.amazon.com/gp/product/0307887898/ref=as_li_ss_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=0307887898&amp;amp;linkCode=as2&amp;amp;tag=minimneeds-20"&gt;The Lean Startup&lt;/a&gt; by Eric Ries. This blog post contains
 some brief notes on the book. I'll have more to say at a later time.&lt;/p&gt;
 &lt;div class="section" id="primary-concepts"&gt;
 &lt;h2&gt;Primary concepts&lt;/h2&gt;
@@ -2937,7 +2937,7 @@ is how startups iterate the product as they learn from their customers and
 combine that learning with the founders' vision. Lean Startup is the
 intersection of Customer Development and Agile development.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Sun, 09 Dec 2012 00:00:00 -0500</pubDate><guid>tag:www.letshackdc.com,2012-12-09:lean-startup-notes.html</guid></item><item><title>How I Feel While Reading Open Source Projects</title><link>http://www.letshackdc.com/how-i-feel-reading-python-projects.html</link><description>&lt;p&gt;My New Year's resolution for 2013 is to read code from
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Sun, 09 Dec 2012 00:00:00 -0500</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-12-09:lean-startup-notes.html</guid></item><item><title>How I Feel While Reading Open Source Projects</title><link>http://www.letshackdc.com/how-i-feel-reading-python-projects.html</link><description>&lt;p&gt;My New Year's resolution for 2013 is to read code from
 &lt;a class="reference external" href="http://flask.pocoo.org/"&gt;awesome&lt;/a&gt;
 &lt;a class="reference external" href="http://docs.python-requests.org/en/latest/"&gt;open&lt;/a&gt;
 &lt;a class="reference external" href="http://gunicorn.org/"&gt;source&lt;/a&gt;
@@ -2949,7 +2949,7 @@ motivating me to figure out something I can write to give back to the
 community. On the lighter side,
 &lt;a class="reference external" href="http://i.qkme.me/3s3myj.jpg"&gt;this is how I feel&lt;/a&gt; while I am reading
 all the great open source Python projects out there.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Sat, 08 Dec 2012 00:00:00 -0500</pubDate><guid>tag:www.letshackdc.com,2012-12-08:how-i-feel-reading-python-projects.html</guid></item><item><title>Learning Python</title><link>http://www.letshackdc.com/learning-python-for-non-developers.html</link><description>&lt;p&gt;I am often asked by friends and colleagues that are not currently
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Sat, 08 Dec 2012 00:00:00 -0500</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-12-08:how-i-feel-reading-python-projects.html</guid></item><item><title>Learning Python</title><link>http://www.letshackdc.com/learning-python-for-non-developers.html</link><description>&lt;p&gt;I am often asked by friends and colleagues that are not currently
 developers how they should go about learning Python. It's not an easy
 question - the answer is often highly dependent upon the individual's
 immediate technical aptitude. I do however believe anyone can learn how to
@@ -3072,7 +3072,7 @@ Python and related project updates.&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://tech.yipit.com/2012/02/28/learn-django/"&gt;15 Key Resources to Learn Django&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Wed, 14 Nov 2012 00:00:00 -0500</pubDate><guid>tag:www.letshackdc.com,2012-11-14:learning-python-for-non-developers.html</guid></item><item><title>Wise Words From Elon Musk</title><link>http://www.letshackdc.com/wise-words-from-elon-musk.html</link><description>&lt;p&gt;Wise words from Elon Musk. While process can sometimes allow for a
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Wed, 14 Nov 2012 00:00:00 -0500</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-11-14:learning-python-for-non-developers.html</guid></item><item><title>Wise Words From Elon Musk</title><link>http://www.letshackdc.com/wise-words-from-elon-musk.html</link><description>&lt;p&gt;Wise words from Elon Musk. While process can sometimes allow for a
 repeatable way to perform an action, it is also often a substitute for
 thinking creatively. That type of situation leads to an innovation vacuum
 where workers do a task in the same way &amp;quot;it's always been done&amp;quot; without
@@ -3084,7 +3084,7 @@ substitute for thinking. You’re encouraged to behave like a little
 gear in a complex machine. Frankly, it allows you to keep people who
 aren’t that smart, who aren’t that creative.&lt;/blockquote&gt;
 &lt;p&gt;&lt;a class="reference external" href="http://www.wired.com/wiredscience/2012/10/ff-elon-musk-qa/all/"&gt;Awesome interview with Elon Musk on Wired.com&lt;/a&gt;.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Fri, 02 Nov 2012 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2012-11-02:wise-words-from-elon-musk.html</guid></item><item><title>Learning Vim - A Colleague's Question</title><link>http://www.letshackdc.com/learning-vim-colleague-question.html</link><description>&lt;p&gt;I received the following email from my colleague this morning:&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Fri, 02 Nov 2012 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-11-02:wise-words-from-elon-musk.html</guid></item><item><title>Learning Vim - A Colleague's Question</title><link>http://www.letshackdc.com/learning-vim-colleague-question.html</link><description>&lt;p&gt;I received the following email from my colleague this morning:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Hey buddy, finally taking the plunge to learn VIM because it will make
 me a lot more productive when working with Puppet manifests.  Any
@@ -3105,7 +3105,7 @@ tried to learn a command each day. Just look for something that you either
 didn't know you could do, or try to do on a regular basis but aren't quite
 sure how. For example, I find/replace things all the times with regular
 expressions. Here's how you can easy do that globally in a file:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;:%s/replace-this-text/replace-with-this-text/g
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;:%s/replace-this-text/replace-with-this-text/g
 &lt;/pre&gt;&lt;/div&gt;
 &lt;!--  --&gt;
 &lt;p&gt;The major logical leap is understanding that Vim is basically a language where you have a command and it can be prefixed by a number to execute it multiple times. For example,&lt;/p&gt;
@@ -3127,7 +3127,7 @@ articles and screencasts.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;A few random tips. I disabled the use of the arrow keys so I could get used
 to the &amp;quot;hlkj&amp;quot; movement. Do that with the following in your .vimrc file:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&amp;quot; disable arrow keys
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&amp;quot; disable arrow keys
 map &amp;lt;up&amp;gt; &amp;lt;nop&amp;gt;
 map &amp;lt;down&amp;gt; &amp;lt;nop&amp;gt;
 map &amp;lt;left&amp;gt; &amp;lt;nop&amp;gt;
@@ -3141,7 +3141,7 @@ imap &amp;lt;right&amp;gt; &amp;lt;nop&amp;gt;
 &lt;p&gt;Also if you prefer spaces to tabs just use &lt;em&gt;set tabexpand&lt;/em&gt; in your .vimrc.
 Shift width and tab spaces usually default to 8 spaces, so I change that
 to 4 spaces with:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;set ts=4
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;set ts=4
 set shiftwidth=4
 &lt;/pre&gt;&lt;/div&gt;
 &lt;!--  --&gt;
@@ -3150,7 +3150,7 @@ curve the editor feels like a natural extension of your thought process.
 The speed at which you can accomplish most tasks skyrockets after
 learning enough commands and embracing the philosophy of just using
 the keyboard for editing.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Mon, 15 Oct 2012 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2012-10-15:learning-vim-colleague-question.html</guid></item><item><title>The Journey to True Full-Stack Developer</title><link>http://www.letshackdc.com/journey-to-true-full-stack-developer.html</link><description>&lt;p&gt;There are several areas in which I need to improve to be a truly self-reliant
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Mon, 15 Oct 2012 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-10-15:learning-vim-colleague-question.html</guid></item><item><title>The Journey to True Full-Stack Developer</title><link>http://www.letshackdc.com/journey-to-true-full-stack-developer.html</link><description>&lt;p&gt;There are several areas in which I need to improve to be a truly self-reliant
 full-stack software engineer. My full-stack focus is on web development, both
 traditional desktop and tablet browsers as well as constrained smartphone
 mobile browsers. This post describes those areas and what I'm doing through
@@ -3216,7 +3216,7 @@ data sets processed on the server side with Python. I'll write blog posts and
 add many d3.js-related entries in my
 &lt;a class="reference external" href="../pages/learning-log.html"&gt;learning log&lt;/a&gt; over the next several months.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Sat, 06 Oct 2012 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2012-10-06:journey-to-true-full-stack-developer.html</guid></item><item><title>Agile in the Federal Government Presentation</title><link>http://www.letshackdc.com/agile-in-federal-government-presentation.html</link><description>&lt;p&gt;Yesterday I presented at the &lt;a class="reference external" href="http://www.pmiwdc.org/2012/09/project-management-symposium"&gt;2012 PMI Project Management Symposium&lt;/a&gt; in at the Crystal City
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Sat, 06 Oct 2012 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-10-06:journey-to-true-full-stack-developer.html</guid></item><item><title>Agile in the Federal Government Presentation</title><link>http://www.letshackdc.com/agile-in-federal-government-presentation.html</link><description>&lt;p&gt;Yesterday I presented at the &lt;a class="reference external" href="http://www.pmiwdc.org/2012/09/project-management-symposium"&gt;2012 PMI Project Management Symposium&lt;/a&gt; in at the Crystal City
 Hyatt in Arlington, Virginia. My &lt;a class="reference external" href="/presentations/agile-software-development-in-federal-government.html"&gt;slides for the talk&lt;/a&gt; are posted and the source code
 is &lt;a class="reference external" href="https://github.com/mattmakai/mattmakai.com/blob/gh-pages/source/static-html/presentations/agile-software-development-in-federal-government.html"&gt;available on Github&lt;/a&gt;.
 It's a decent example of &lt;a class="reference external" href="http://bartaz.github.com/impress.js"&gt;impress.js&lt;/a&gt;
@@ -3231,7 +3231,7 @@ had at least several more years of experience than me. I hope everyone
 who went got some value out of it and took away the key themes - there are
 certain actions (elaborated on in the presentation) that the best
 project managers do constantly that make projects much more likely to succeed.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Sat, 29 Sep 2012 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2012-09-29:agile-in-federal-government-presentation.html</guid></item><item><title>Introduction to Python for Non-Developers Notes</title><link>http://www.letshackdc.com/introduction-python-non-developers-notes.html</link><description>&lt;p&gt;Matt Camilli and I gave a
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Sat, 29 Sep 2012 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-09-29:agile-in-federal-government-presentation.html</guid></item><item><title>Introduction to Python for Non-Developers Notes</title><link>http://www.letshackdc.com/introduction-python-non-developers-notes.html</link><description>&lt;p&gt;Matt Camilli and I gave a
 &lt;a class="reference external" href="/presentations/what-is-python-for-everyone.html"&gt;talk Tuesday night&lt;/a&gt;
 introducing about 30 non-developers to the Python programming language's
 history, philosophy, and differences from other languages, as well as an
@@ -3253,7 +3253,7 @@ fantastic, especially
 &lt;a class="reference external" href="http://techreport.com/discussions.x/16713"&gt;Google&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Thanks again to everyone who came out to learn more about Python and also
 to my partner in crime, Matt Camilli.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Wed, 22 Aug 2012 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2012-08-22:introduction-python-non-developers-notes.html</guid></item><item><title>The First Django Website Run On Python 3</title><link>http://www.letshackdc.com/first-django-website-run-python-3.html</link><description>&lt;p&gt;The top post on &lt;a class="reference external" href="http://news.ycombinator.com/"&gt;Hacker News&lt;/a&gt; this morning
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Wed, 22 Aug 2012 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-08-22:introduction-python-non-developers-notes.html</guid></item><item><title>The First Django Website Run On Python 3</title><link>http://www.letshackdc.com/first-django-website-run-python-3.html</link><description>&lt;p&gt;The top post on &lt;a class="reference external" href="http://news.ycombinator.com/"&gt;Hacker News&lt;/a&gt; this morning
 is about a &lt;a class="reference external" href="http://myks.org/django-python3/"&gt;Django (1.5 development branch) site running on Python 3&lt;/a&gt;.
 Why is a Django site running on Python 3 newsworthy? Because while Django
 1.5 is tested and supported against Python 2.6 and Python 2.7 (dropping
@@ -3272,7 +3272,7 @@ throughout the development cycle and whether Python 3 is officially supported
 (the current plan) or whether there is a backtrack to unofficial support
 for this release to prevent too much of a delay in
 &lt;a class="reference external" href="https://docs.djangoproject.com/en/dev/releases/1.5/"&gt;releasing version 1.5&lt;/a&gt;.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Wed, 15 Aug 2012 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2012-08-15:first-django-website-run-python-3.html</guid></item><item><title>Steps for Non-Developers to Start an Internet Business</title><link>http://www.letshackdc.com/steps-non-developers-start-internet-business.html</link><description>&lt;p&gt;I am often asked by friends and colleagues about what first steps
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Wed, 15 Aug 2012 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-08-15:first-django-website-run-python-3.html</guid></item><item><title>Steps for Non-Developers to Start an Internet Business</title><link>http://www.letshackdc.com/steps-non-developers-start-internet-business.html</link><description>&lt;p&gt;I am often asked by friends and colleagues about what first steps
 a non-technical person should take when they come up with ideas and want to
 do something with them. I always appreciate these requests since it
 provides recognition that I have some insight into software development
@@ -3421,12 +3421,12 @@ to know.&lt;/p&gt;
 what else needs to be added to this outline for non-developers as I also
 work on expanding each point into its own blog post.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Tue, 14 Aug 2012 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2012-08-14:steps-non-developers-start-internet-business.html</guid></item><item><title>A Fascinating Post on Curiousity's Software</title><link>http://www.letshackdc.com/fascinating-post-curiositys-software.html</link><description>&lt;p&gt;I found this &lt;a class="reference external" href="http://jlouisramblings.blogspot.com/2012/08/getting-25-megalines-of-code-to-behave.html"&gt;blog post on Curiosity's hardware and software&lt;/a&gt; to
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Tue, 14 Aug 2012 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-08-14:steps-non-developers-start-internet-business.html</guid></item><item><title>A Fascinating Post on Curiousity's Software</title><link>http://www.letshackdc.com/fascinating-post-curiositys-software.html</link><description>&lt;p&gt;I found this &lt;a class="reference external" href="http://jlouisramblings.blogspot.com/2012/08/getting-25-megalines-of-code-to-behave.html"&gt;blog post on Curiosity's hardware and software&lt;/a&gt; to
 be a fascinating read. The Curiosity rover has 2.5 million lines of C code
 running on custom radiation and extreme temperature hardened computer systems.
 The author presents his view as an Erlang programmer of how the systems are
 designed to be as fault-proof as possible.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Mon, 13 Aug 2012 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2012-08-13:fascinating-post-curiositys-software.html</guid></item><item><title>My Favorite Django Article Sources</title><link>http://www.letshackdc.com/favorite-django-article-sources.html</link><description>&lt;ul class="simple"&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Mon, 13 Aug 2012 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-08-13:fascinating-post-curiositys-software.html</guid></item><item><title>My Favorite Django Article Sources</title><link>http://www.letshackdc.com/favorite-django-article-sources.html</link><description>&lt;ul class="simple"&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://tech.yipit.com/"&gt;yipit tech blog&lt;/a&gt;:
 Yipit is a tech start up in New York specializing in daily deals. Their
 platform is built on Python/Django and they write a lot of detailed
@@ -3447,11 +3447,11 @@ Daniel Greenfield (PyDanny) is an influential developer and blogger in
 the Python world. He writes on general Python subjects as well as specific
 Django topics of interest.&lt;/li&gt;
 &lt;/ul&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Fri, 22 Jun 2012 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2012-06-22:favorite-django-article-sources.html</guid></item><item><title>Fabric Function For Rebuilding a Django MySQL Database</title><link>http://www.letshackdc.com/fabfile-function-rebuilding-django-mysql-database.html</link><description>&lt;p&gt;This is a very specific blog post on what my Fabric fabfile.py looks
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Fri, 22 Jun 2012 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-06-22:favorite-django-article-sources.html</guid></item><item><title>Fabric Function For Rebuilding a Django MySQL Database</title><link>http://www.letshackdc.com/fabfile-function-rebuilding-django-mysql-database.html</link><description>&lt;p&gt;This is a very specific blog post on what my Fabric fabfile.py looks
 like for rebuilding my database. This is particularly useful early in
 a project lifecycle before I start using South for database migrations
 and instead I am building new tables and columns at a fast clip.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;def rebuild_db():
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;def rebuild_db():
   run(&amp;#39;mysql -u %s -p%s -e &amp;quot;drop database if exists %s&amp;quot;&amp;#39; % (env.db_user,
     env.db_passwd, env.db_schema))
   run(&amp;#39;mysql -u %s -p%s -e &amp;quot;create database %s&amp;quot;&amp;#39; % (env.db_user,
@@ -3468,7 +3468,7 @@ env.deploy_dir in your fabfile before calling this function.&lt;/li&gt;
 &lt;li&gt;I put my main test.json fixture under a &amp;quot;core&amp;quot; app directory. Parameterize
 these settings if your project structure differs.&lt;/li&gt;
 &lt;/ul&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Tue, 12 Jun 2012 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2012-06-12:fabfile-function-rebuilding-django-mysql-database.html</guid></item><item><title>Recent Python Posts</title><link>http://www.letshackdc.com/recent-python-posts.html</link><description>&lt;p&gt;I recently read and enjoyed the following Python blog posts (in no
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Tue, 12 Jun 2012 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-06-12:fabfile-function-rebuilding-django-mysql-database.html</guid></item><item><title>Recent Python Posts</title><link>http://www.letshackdc.com/recent-python-posts.html</link><description>&lt;p&gt;I recently read and enjoyed the following Python blog posts (in no
 particular order).&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://me.veekun.com/blog/2012/05/23/python-faq-descriptors/"&gt;Python FAQ: Descriptors&lt;/a&gt;&lt;/li&gt;
@@ -3477,7 +3477,7 @@ particular order).&lt;/p&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://satyajit.ranjeev.in/2012/05/17/python-a-few-things-to-remember.html"&gt;A Few Things to Remember While Coding in Python&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://lukeplant.me.uk/blog/posts/some-quick-django-optimisation-lessons/"&gt;Some quick Django optimisation lessons&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Sun, 27 May 2012 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2012-05-27:recent-python-posts.html</guid></item><item><title>wget and Proxy Servers</title><link>http://www.letshackdc.com/wget-proxy-servers.html</link><description>&lt;p&gt;Short answer: before you use wget, specify
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Sun, 27 May 2012 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-05-27:recent-python-posts.html</guid></item><item><title>wget and Proxy Servers</title><link>http://www.letshackdc.com/wget-proxy-servers.html</link><description>&lt;p&gt;Short answer: before you use wget, specify
 'export http_proxy=my.proxy.server:port' then wget will use the proxy.&lt;/p&gt;
 &lt;p&gt;I needed to grab some files with wget while working on a Linux server I was
 setting up for a Django deployment. Unfortunately, I was behind a firewall
@@ -3491,7 +3491,7 @@ proxy. No such luck.&lt;/p&gt;
 specify a proxy server to use with wget. I also found
 &lt;a class="reference external" href="http://www.gnu.org/software/wget/manual/html_node/Proxies.html"&gt;this proxies link&lt;/a&gt;
 useful as well.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Thu, 24 May 2012 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2012-05-24:wget-proxy-servers.html</guid></item><item><title>Recent Design Books</title><link>http://www.letshackdc.com/recent-design-books.html</link><description>&lt;p&gt;I recently purchased and read two design books,
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Thu, 24 May 2012 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-05-24:wget-proxy-servers.html</guid></item><item><title>Recent Design Books</title><link>http://www.letshackdc.com/recent-design-books.html</link><description>&lt;p&gt;I recently purchased and read two design books,
 &lt;a class="reference external" href="http://bootstrappingdesign.com/"&gt;Bootstrapping Design&lt;/a&gt; by Jarrod Drysdale
 and
 &lt;a class="reference external" href="http://sachagreif.com/ebook/"&gt;Step by Step UI Design&lt;/a&gt; by Sacha Greif. Both
@@ -3537,7 +3537,7 @@ of how to both come up with an idea, design it, and execute it quickly.&lt;/p&gt
 &lt;p&gt;Overall I am very pleased I purchased both of these design books. I recommend
 them to fellow software developers who want to improve their design
 thinking and have a more comfortable grasp on the design process.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Tue, 22 May 2012 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2012-05-22:recent-design-books.html</guid></item><item><title>Advice to College Graduates</title><link>http://www.letshackdc.com/advice-college-graduates.html</link><description>&lt;p&gt;A couple of weekends ago, I watched my little brother Luke graduate from
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Tue, 22 May 2012 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-05-22:recent-design-books.html</guid></item><item><title>Advice to College Graduates</title><link>http://www.letshackdc.com/advice-college-graduates.html</link><description>&lt;p&gt;A couple of weekends ago, I watched my little brother Luke graduate from
 &lt;a class="reference external" href="http://www.jmu.edu/"&gt;JMU&lt;/a&gt;. Dr. Rose, the outgoing President of JMU gave
 the commencement address. I've attended &lt;a class="reference external" href="http://www.jmu.edu/"&gt;enough&lt;/a&gt;
 &lt;a class="reference external" href="http://www.vt.edu/"&gt;graduation&lt;/a&gt; &lt;a class="reference external" href="http://www.virginia.edu/"&gt;ceremonies&lt;/a&gt;
@@ -3588,12 +3588,12 @@ professional life.&lt;/p&gt;
 college grad who wants to succeed and be happy in the real world. That isn't
 &lt;em&gt;everything&lt;/em&gt; you need to know, but it will ultimately lead you in the
 right professional direction.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Thu, 17 May 2012 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2012-05-17:advice-college-graduates.html</guid></item><item><title>Stanford's CS183 Class Notes</title><link>http://www.letshackdc.com/stanford-cs-183-class-notes.html</link><description>&lt;p&gt;&lt;a class="reference external" href="http://blakemasters.tumblr.com/peter-thiels-cs183-startup"&gt;Stanford's CS183 class with Peter Thiel&lt;/a&gt; is simply amazing. A &lt;em&gt;huge&lt;/em&gt; thank you to Blake Masters
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Thu, 17 May 2012 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-05-17:advice-college-graduates.html</guid></item><item><title>Stanford's CS183 Class Notes</title><link>http://www.letshackdc.com/stanford-cs-183-class-notes.html</link><description>&lt;p&gt;&lt;a class="reference external" href="http://blakemasters.tumblr.com/peter-thiels-cs183-startup"&gt;Stanford's CS183 class with Peter Thiel&lt;/a&gt; is simply amazing. A &lt;em&gt;huge&lt;/em&gt; thank you to Blake Masters
 for writing up summaries of each class. Every class notes post I have read
 has been amazingly insightful. I highly recommend checking it out if you
 are interested in how technology is shaping the world and learning about
 entrepreneurship from some of the major Silicon Valley investors.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Wed, 09 May 2012 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2012-05-09:stanford-cs-183-class-notes.html</guid></item><item><title>Screencasting on Mac OS X</title><link>http://www.letshackdc.com/screencasting-software-for-mac-os-x.html</link><description>&lt;p&gt;I recently took a look at the range of screencasting software available
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Wed, 09 May 2012 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-05-09:stanford-cs-183-class-notes.html</guid></item><item><title>Screencasting on Mac OS X</title><link>http://www.letshackdc.com/screencasting-software-for-mac-os-x.html</link><description>&lt;p&gt;I recently took a look at the range of screencasting software available
 on Mac OS X for a couple of reasons. First, I want to have an easy way
 of demoing software and uploading videos to Vimeo. Second, short
 screencasts like the ones provided by
@@ -3650,7 +3650,7 @@ purchased from there. This may be becasue the software is new to the App
 Store and it will get better. But do your due diligence to make sure you
 do not end up with a neutered product due to the API limitations placed
 on apps in the Mac OS X App Store.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Fri, 04 May 2012 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2012-05-04:screencasting-software-for-mac-os-x.html</guid></item><item><title>Can't "Find" Developers? Increase Your Offer</title><link>http://www.letshackdc.com/pay-for-developers.html</link><description>&lt;p&gt;This little
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Fri, 04 May 2012 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-05-04:screencasting-software-for-mac-os-x.html</guid></item><item><title>Can't "Find" Developers? Increase Your Offer</title><link>http://www.letshackdc.com/pay-for-developers.html</link><description>&lt;p&gt;This little
 &lt;a class="reference external" href="http://www.irrlicht3d.org/pivot/entry.php?id=1295"&gt;rant about paying developers what the market demands instead of complaining you can't find them&lt;/a&gt;
 climbed its way up to the top of the
 &lt;a class="reference external" href="http://news.ycombinator.com/"&gt;Hacker News&lt;/a&gt; charts this morning and for
@@ -3669,7 +3669,7 @@ either the salary is high enough that they feel they are adequately
 paid or compensated with a mix of salary, equity, and benefits. If you're
 not able to &amp;quot;find&amp;quot; developers, increase your offer in salary, vacation
 days, or some other compensation, such as 20% time for side projects.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Thu, 03 May 2012 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2012-05-03:pay-for-developers.html</guid></item><item><title>MongoDB, node.js, and Backbone.js</title><link>http://www.letshackdc.com/mongodb-nodejs-backbonejs.html</link><description>&lt;p&gt;The concept of an all-JavaScript stack on both the client and server is
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Thu, 03 May 2012 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-05-03:pay-for-developers.html</guid></item><item><title>MongoDB, node.js, and Backbone.js</title><link>http://www.letshackdc.com/mongodb-nodejs-backbonejs.html</link><description>&lt;p&gt;The concept of an all-JavaScript stack on both the client and server is
 hardly new, but I'm finding the idea more appealing now that the projects
 have matured. I see notifications like this
 &lt;a class="reference external" href="http://www.marketwatch.com/story/10gen-committed-to-making-mongodb-de-facto-data-store-for-nodejs-applications-2012-04-25"&gt;press release by 10gen&lt;/a&gt;
@@ -3705,13 +3705,13 @@ difficult it was to write a web application in Struts. So will writing a
 web application in node.js with a NoSQL MongoDB backend and a client-side
 MVC framework be fun? I just don't know until I write a project with these
 technologies.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Wed, 02 May 2012 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2012-05-02:mongodb-nodejs-backbonejs.html</guid></item><item><title>Django Officially On Github</title><link>http://www.letshackdc.com/django-on-github.html</link><description>&lt;p&gt;&lt;a class="reference external" href="http://www.djangoproject.com/"&gt;Django&lt;/a&gt;, the web application framework
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Wed, 02 May 2012 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-05-02:mongodb-nodejs-backbonejs.html</guid></item><item><title>Django Officially On Github</title><link>http://www.letshackdc.com/django-on-github.html</link><description>&lt;p&gt;&lt;a class="reference external" href="http://www.djangoproject.com/"&gt;Django&lt;/a&gt;, the web application framework
 for perfectionists with deadlines, is now
 &lt;a class="reference external" href="https://groups.google.com/forum/?fromgroups#!topic/django-developers/9--P57ezyBs"&gt;officially on Github&lt;/a&gt;. Welcome Django, it's about time you migrated
 over!&lt;/p&gt;
 &lt;p&gt;The code and documentation can now be found in the
 &lt;a class="reference external" href="https://github.com/django/django"&gt;official repository&lt;/a&gt;.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Sat, 28 Apr 2012 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2012-04-28:django-on-github.html</guid></item><item><title>Python &amp; MongoDB News</title><link>http://www.letshackdc.com/python-mongodb-news.html</link><description>&lt;p&gt;Yesterday had a couple of interesting Python &amp;amp; MongoDB related posts on
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Sat, 28 Apr 2012 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-04-28:django-on-github.html</guid></item><item><title>Python &amp; MongoDB News</title><link>http://www.letshackdc.com/python-mongodb-news.html</link><description>&lt;p&gt;Yesterday had a couple of interesting Python &amp;amp; MongoDB related posts on
 &lt;a class="reference external" href="http://news.ycombinator.com/"&gt;Hacker News&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;The first post was on
 &lt;a class="reference external" href="http://isbullsh.it/2012/04/Web-crawling-with-scrapy/"&gt;scrapping websites with scrapy and storing the data in MongoDB&lt;/a&gt;. The post walks through establishing
@@ -3724,7 +3724,7 @@ admin interface was a significant hurdle. It's great to see community projects
 that break down these barriers.&lt;/p&gt;
 &lt;p&gt;Hopefully future Django releases can incorporate some of this work to
 make it easier to work with non-relational databases when necessary.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Tue, 24 Apr 2012 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2012-04-24:python-mongodb-news.html</guid></item><item><title>Consolidation in the Python Hosting Industry</title><link>http://www.letshackdc.com/consolidation-python-hosting-industry.html</link><description>&lt;p&gt;The announcement yesterday about
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Tue, 24 Apr 2012 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-04-24:python-mongodb-news.html</guid></item><item><title>Consolidation in the Python Hosting Industry</title><link>http://www.letshackdc.com/consolidation-python-hosting-industry.html</link><description>&lt;p&gt;The announcement yesterday about
 &lt;a class="reference external" href="https://www.ep.io/blog/epio-closing-down/"&gt;Epio closing down&lt;/a&gt;
 got me thinking about the Python PaaS industry. I did not have any personal
 experience with Epio, but from the
@@ -3770,11 +3770,11 @@ Still, it's great to have options. For prototyping apps, Gondor and Heroku
 make great choices (as long as you don't immediately need a lot of database
 storage and performance). For production apps though, I still lean towards a
 mix of AWS and virtual private servers.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Thu, 19 Apr 2012 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2012-04-19:consolidation-python-hosting-industry.html</guid></item><item><title>Repository Structure and Python</title><link>http://www.letshackdc.com/repository-structure-and-python.html</link><description>&lt;p&gt;Kenneth Reitz has another great post on how to
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Thu, 19 Apr 2012 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-04-19:consolidation-python-hosting-industry.html</guid></item><item><title>Repository Structure and Python</title><link>http://www.letshackdc.com/repository-structure-and-python.html</link><description>&lt;p&gt;Kenneth Reitz has another great post on how to
 &lt;a class="reference external" href="http://kennethreitz.com/repository-structure-and-python.html"&gt;structure repositories for Python projects&lt;/a&gt;. Repository structure is one of those topics
 that everyone seems to come up with a slightly different way of doing so
 it's great to see some direction from a leader in the Python field.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Wed, 18 Apr 2012 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2012-04-18:repository-structure-and-python.html</guid></item><item><title>Django Nudge (django-nudge)</title><link>http://www.letshackdc.com/django-nudge.html</link><description>&lt;p&gt;&lt;a class="reference external" href="https://github.com/cfpb/django-nudge"&gt;Django Nudge&lt;/a&gt; (nudge) is an open
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Wed, 18 Apr 2012 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-04-18:repository-structure-and-python.html</guid></item><item><title>Django Nudge (django-nudge)</title><link>http://www.letshackdc.com/django-nudge.html</link><description>&lt;p&gt;&lt;a class="reference external" href="https://github.com/cfpb/django-nudge"&gt;Django Nudge&lt;/a&gt; (nudge) is an open
 source Django application written by developers at the Consumer Financial
 Protection Bureau. Nudge is designed to be the Django equivalent to Ramp
 for WordPress.&lt;/p&gt;
@@ -3797,7 +3797,7 @@ that their project will never go to production or be open sourced.&lt;/p&gt;
 and &lt;a class="reference external" href="http://radar.oreilly.com/2012/04/open-source-government-cfpb.html"&gt;recognition&lt;/a&gt; that CFPB received for being a forward-thinking government agency.&lt;/p&gt;
 &lt;p&gt;We need more of this great work coming from the government. Let's hope
 other agencies take note.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Tue, 17 Apr 2012 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2012-04-17:django-nudge.html</guid></item><item><title>Django in Production</title><link>http://www.letshackdc.com/django-in-production.html</link><description>&lt;p&gt;Django is easy to get started with, especially if you already have a
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Tue, 17 Apr 2012 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-04-17:django-nudge.html</guid></item><item><title>Django in Production</title><link>http://www.letshackdc.com/django-in-production.html</link><description>&lt;p&gt;Django is easy to get started with, especially if you already have a
 programming background in a &amp;quot;heavier&amp;quot; language like Java. When I first
 started creating websites with Django 0.96, I was programming Java systems
 during the day and relaxed in the evenings by using Python/Django. I found
@@ -3820,11 +3820,11 @@ learn what the &amp;quot;big boys&amp;quot; in the Django space were using in pr
 &lt;p&gt;Those are the best articles I've come across recently that I wish I had when
 I first started deploying Django projects (to be fair, those links didn't
 yet exist nor did many of the technologies that are now commonplace).&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Mon, 16 Apr 2012 00:00:00 -0400</pubDate><guid>tag:www.letshackdc.com,2012-04-16:django-in-production.html</guid></item><item><title>"DevOps is Ruining My Craft"</title><link>http://www.letshackdc.com/devops-ruining-my-craft.html</link><description>&lt;p&gt;This &lt;a class="reference external" href="http://tatiyants.com/devops-is-ruining-my-craft/"&gt;DevOps blog post&lt;/a&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Mon, 16 Apr 2012 00:00:00 -0400</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-04-16:django-in-production.html</guid></item><item><title>"DevOps is Ruining My Craft"</title><link>http://www.letshackdc.com/devops-ruining-my-craft.html</link><description>&lt;p&gt;This &lt;a class="reference external" href="http://tatiyants.com/devops-is-ruining-my-craft/"&gt;DevOps blog post&lt;/a&gt;
 is a great satirical take on the automation and DevOps movement. The post
 is written as an &amp;quot;interview&amp;quot; with a current sysadmin and it's definitely
 worth the quick read.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Thu, 23 Feb 2012 00:00:00 -0500</pubDate><guid>tag:www.letshackdc.com,2012-02-23:devops-ruining-my-craft.html</guid></item><item><title>Python Context Managers</title><link>http://www.letshackdc.com/python-context-managers.html</link><description>&lt;p&gt;During my talk to django-district last night, I explained that Django
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Thu, 23 Feb 2012 00:00:00 -0500</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-02-23:devops-ruining-my-craft.html</guid></item><item><title>Python Context Managers</title><link>http://www.letshackdc.com/python-context-managers.html</link><description>&lt;p&gt;During my talk to django-district last night, I explained that Django
 1.4 drops support for Python 2.4 because the core committers wanted to
 use Python's context managers. Python 2.4 would not suffice because
 context managers are a
@@ -3836,7 +3836,7 @@ old saying, now &amp;quot;there's a blog post for that.&amp;quot;&lt;/p&gt;
 &lt;h2&gt;Python Context Managers&lt;/h2&gt;
 &lt;p&gt;A context manager is created syntactically using the 'with' statement.
 Here is an example:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;with open(&amp;quot;example.txt&amp;quot;) as f:
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;with open(&amp;quot;example.txt&amp;quot;) as f:
     data = f.read()
     print len(data)
 &lt;/pre&gt;&lt;/div&gt;
@@ -3855,7 +3855,7 @@ of the process a context manager runs through.&lt;/p&gt;
 &lt;p&gt;[2] &lt;a class="reference external" href="http://effbot.org/zone/python-with-statement.htm"&gt;http://effbot.org/zone/python-with-statement.htm&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Wed, 22 Feb 2012 00:00:00 -0500</pubDate><guid>tag:www.letshackdc.com,2012-02-22:python-context-managers.html</guid></item><item><title>Django 1.4 Beta Released</title><link>http://www.letshackdc.com/django-1-4-beta-released.html</link><description>&lt;p&gt;The Django 1.4 beta release is
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Wed, 22 Feb 2012 00:00:00 -0500</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-02-22:python-context-managers.html</guid></item><item><title>Django 1.4 Beta Released</title><link>http://www.letshackdc.com/django-1-4-beta-released.html</link><description>&lt;p&gt;The Django 1.4 beta release is
 &lt;a class="reference external" href="https://www.djangoproject.com/weblog/2012/feb/15/14-beta-1/"&gt;now available&lt;/a&gt;
 for testing.&lt;/p&gt;
 &lt;p&gt;Although the 1.4 beta can be
@@ -3865,13 +3865,13 @@ on github) so you can update and take advantage of bug fixes as they are
 incorporated into the code base.&lt;/p&gt;
 &lt;p&gt;For more information on the new features coming in 1.4, come see
 &lt;a class="reference external" href="http://www.mattmakai.com/blog/django-district-feb-meetup-lightning-talk/"&gt;my talk on Tuesday night's Django District meetup in DC&lt;/a&gt;.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Thu, 16 Feb 2012 00:00:00 -0500</pubDate><guid>tag:www.letshackdc.com,2012-02-16:django-1-4-beta-released.html</guid></item><item><title>Django District February Meetup Lightning Talk</title><link>http://www.letshackdc.com/django-district-feb-meetup-lightning-talk.html</link><description>&lt;p&gt;I'll be giving a 10 minute lightning talk on updates and incompatibilities in
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Thu, 16 Feb 2012 00:00:00 -0500</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-02-16:django-1-4-beta-released.html</guid></item><item><title>Django District February Meetup Lightning Talk</title><link>http://www.letshackdc.com/django-district-feb-meetup-lightning-talk.html</link><description>&lt;p&gt;I'll be giving a 10 minute lightning talk on updates and incompatibilities in
 the upcoming &lt;a class="reference external" href="https://docs.djangoproject.com/en/dev/releases/1.4/"&gt;Django 1.4 release&lt;/a&gt;. If you're interested in Python/Django and want to hear more,
 &lt;a class="reference external" href="http://www.django-district.org/events/48873672/"&gt;RSVP on meetup.com&lt;/a&gt;.
 There will be some other great talks as well on EC2 + github integration,
 monitoring your apps with Graphite and Sentry, and Django chartit.&lt;/p&gt;
 &lt;p&gt;My impress.js slides for the talk will be posted on this site over the weekend.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Wed, 15 Feb 2012 00:00:00 -0500</pubDate><guid>tag:www.letshackdc.com,2012-02-15:django-district-feb-meetup-lightning-talk.html</guid></item><item><title>Django 1.4 Requires Python 2.5+</title><link>http://www.letshackdc.com/django-1-4-requires-python-2-5.html</link><description>&lt;p&gt;Django 1.4 is the first Django release to
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Wed, 15 Feb 2012 00:00:00 -0500</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-02-15:django-district-feb-meetup-lightning-talk.html</guid></item><item><title>Django 1.4 Requires Python 2.5+</title><link>http://www.letshackdc.com/django-1-4-requires-python-2-5.html</link><description>&lt;p&gt;Django 1.4 is the first Django release to
 &lt;a class="reference external" href="https://docs.djangoproject.com/en/dev/releases/1.4/#backwards-incompatible-changes-in-1-4"&gt;remove support for Python 2.4&lt;/a&gt;. This change is an expected
 for two reasons. First, beginning with Django 1.2, Python 2.3 support
 was dropped and the community was notified that Django 1.4 would again
@@ -3881,7 +3881,7 @@ developers need &lt;a class="reference external" href="http://mmakai.com/post/87
 yet support Python 3.x. Although progress has been made porting Django
 to Python 3.x, it is not fully tested or ready for release as specified
 in Django's release process.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Wed, 25 Jan 2012 00:00:00 -0500</pubDate><guid>tag:www.letshackdc.com,2012-01-25:django-1-4-requires-python-2-5.html</guid></item><item><title>What the Django's ORM Author Hates About It</title><link>http://www.letshackdc.com/what-author-django-orm-hates-about-it.html</link><description>&lt;p&gt;Alex Gaynor, a Django core committer and author of much of the
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Wed, 25 Jan 2012 00:00:00 -0500</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-01-25:django-1-4-requires-python-2-5.html</guid></item><item><title>What the Django's ORM Author Hates About It</title><link>http://www.letshackdc.com/what-author-django-orm-hates-about-it.html</link><description>&lt;p&gt;Alex Gaynor, a Django core committer and author of much of the
 object-relational mapping (ORM) code,
 &lt;a class="reference external" href="http://speakerdeck.com/u/alex/p/why-i-hate-the-django-orm"&gt;gave a presentation&lt;/a&gt; on what he hates about the mapping layer. Every ORM layer in
 existence has issues, especially for edge cases, but Django's has
@@ -3901,7 +3901,7 @@ show why they need to be fixed in future Django releases, and move the
 Django ORM from an &amp;quot;80/20&amp;quot; solution closer to a &amp;quot;90/10&amp;quot; solution that
 is easier to apply across a broader set of use cases.&lt;/p&gt;
 &lt;p&gt;Slides: &lt;a class="reference external" href="http://speakerdeck.com/u/alex/p/why-i-hate-the-django-orm"&gt;Why I hate the Django ORM&lt;/a&gt; (Speaker Deck)&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Fri, 20 Jan 2012 00:00:00 -0500</pubDate><guid>tag:www.letshackdc.com,2012-01-20:what-author-django-orm-hates-about-it.html</guid></item><item><title>The Seven Steps</title><link>http://www.letshackdc.com/the-seven-steps.html</link><description>&lt;p&gt;There are at least seven distinct steps towards Internet entrepreneurship.
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Fri, 20 Jan 2012 00:00:00 -0500</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-01-20:what-author-django-orm-hates-about-it.html</guid></item><item><title>The Seven Steps</title><link>http://www.letshackdc.com/the-seven-steps.html</link><description>&lt;p&gt;There are at least seven distinct steps towards Internet entrepreneurship.
 I'll begin with the caveat that these seven steps only apply in the
 Internet space and not other avenues such as starting a bakery.
 From my (limited) experience, everyone goes through these steps in
@@ -3942,14 +3942,14 @@ reasonable design I was okay starting with that I knew I could
 improve as I grow more comfortable in this step. Eventually I
 can look ahead to the next step in the path towards Internet
 entrepreneurship.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Wed, 18 Jan 2012 00:00:00 -0500</pubDate><guid>tag:www.letshackdc.com,2012-01-18:the-seven-steps.html</guid></item><item><title>Specify HTML File for PhoneGap and iOS</title><link>http://www.letshackdc.com/specify-html-file-phonegap-ios.html</link><description>&lt;p&gt;When working with iOS applications and using PhoneGap, you'll often want to
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Wed, 18 Jan 2012 00:00:00 -0500</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-01-18:the-seven-steps.html</guid></item><item><title>Specify HTML File for PhoneGap and iOS</title><link>http://www.letshackdc.com/specify-html-file-phonegap-ios.html</link><description>&lt;p&gt;When working with iOS applications and using PhoneGap, you'll often want to
 use a different file name than &amp;quot;index.html&amp;quot; for your first page. This can be
 tricky for first time PhoneGap/iOS developers because there is no stub
 function or properties file for specifying the file like there is in Android
 and BlackBerry projects.&lt;/p&gt;
 &lt;p&gt;In your AppDelegate.m file, add the following method and change the return
 value to the HTML file you want to use.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;+ (NSString*) startPage
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;+ (NSString*) startPage
 {
   return @&amp;quot;different.html&amp;quot;;
 }
@@ -3958,13 +3958,13 @@ value to the HTML file you want to use.&lt;/p&gt;
 example, if you have a combined Android and iOS project where Android
 requires the assets directory, specify &amp;quot;../assets/www/yourfile.html&amp;quot; as
 the return value.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Thu, 05 Jan 2012 00:00:00 -0500</pubDate><guid>tag:www.letshackdc.com,2012-01-05:specify-html-file-phonegap-ios.html</guid></item><item><title>Heroku on Ubuntu 10.04</title><link>http://www.letshackdc.com/heroku-ubuntu-10-04.html</link><description>&lt;p&gt;A couple of guys from Heroku gave a talk tonight at DC Python and it looked
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Thu, 05 Jan 2012 00:00:00 -0500</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-01-05:specify-html-file-phonegap-ios.html</guid></item><item><title>Heroku on Ubuntu 10.04</title><link>http://www.letshackdc.com/heroku-ubuntu-10-04.html</link><description>&lt;p&gt;A couple of guys from Heroku gave a talk tonight at DC Python and it looked
 like a good solution for running small sites. However, I was disappointed that
 set up was more difficult on Ubuntu 10.04 than turn key installers on Windows
 and Mac OS X. The set up
 &lt;a class="reference external" href="http://toolbelt.herokuapp.com/linux/readme"&gt;instructions&lt;/a&gt; required a few
 modifications to work properly.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;sudo apt-add-repository &amp;#39;deb http://toolbelt.herokuapp.com/ubuntu ./&amp;#39;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo apt-add-repository &amp;#39;deb http://toolbelt.herokuapp.com/ubuntu ./&amp;#39;
 curl https://toolbelt.herokuapp.com/apt/release.key | sudo apt-key add -
 sudo apt-get update
 sudo apt-get install heroku-toolbelt
@@ -3976,7 +3976,7 @@ properly.&lt;/p&gt;
 &lt;p&gt;Sources:&lt;/p&gt;
 &lt;p&gt;[1] &lt;a class="reference external" href="http://wmilesn.com/2011/10/code/avoiding-pitfalls-when-setting-up-heroku-for-node-js-on-ubuntu/"&gt;http://wmilesn.com/2011/10/code/avoiding-pitfalls-when-setting-up-heroku-for-node-js-on-ubuntu/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;[2] &lt;a class="reference external" href="http://rukuro-blog.heroku.com/2011/05/11/ruby-readline-loaderror"&gt;http://rukuro-blog.heroku.com/2011/05/11/ruby-readline-loaderror&lt;/a&gt;&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Tue, 03 Jan 2012 00:00:00 -0500</pubDate><guid>tag:www.letshackdc.com,2012-01-03:heroku-ubuntu-10-04.html</guid></item><item><title>Impress.js With Presentation Pointers</title><link>http://www.letshackdc.com/impress-js-works-with-presentation-pointers.html</link><description>&lt;p&gt;I saw &lt;a class="reference external" href="https://github.com/bartaz/impress.js"&gt;impress.js&lt;/a&gt;, a really cool CSS3
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Tue, 03 Jan 2012 00:00:00 -0500</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-01-03:heroku-ubuntu-10-04.html</guid></item><item><title>Impress.js With Presentation Pointers</title><link>http://www.letshackdc.com/impress-js-works-with-presentation-pointers.html</link><description>&lt;p&gt;I saw &lt;a class="reference external" href="https://github.com/bartaz/impress.js"&gt;impress.js&lt;/a&gt;, a really cool CSS3
 transformation-based presentation Javascript library on Hacker News yesterday.
 The &lt;a class="reference external" href="http://bartaz.github.com/impress.js/"&gt;demo&lt;/a&gt; is flashy - similar to Prezi
 but without Flash, plus new 3D effects. The only downside compared to an
@@ -3993,4 +3993,4 @@ the presentation pointer capability. Thanks to
 &lt;a class="reference external" href="https://github.com/bartaz"&gt;Bartek&lt;/a&gt;'s quick response,
 the pull request was merged and closed just a few hours later. So now
 presentation pointers work great with impress.js.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Mon, 02 Jan 2012 00:00:00 -0500</pubDate><guid>tag:www.letshackdc.com,2012-01-02:impress-js-works-with-presentation-pointers.html</guid></item></channel></rss>
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matt Makai</dc:creator><pubDate>Mon, 02 Jan 2012 00:00:00 -0500</pubDate><guid isPermaLink="false">tag:www.letshackdc.com,2012-01-02:impress-js-works-with-presentation-pointers.html</guid></item></channel></rss>
