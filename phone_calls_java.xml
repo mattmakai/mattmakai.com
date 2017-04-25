@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Response>
+  <Say voice="alice">Thanks for testing out the Twilio Java tutorial. Now adding you to the conference call!</Say>
+  <Dial record="true"><Conference>Twilio Java Conference</Conference></Dial>
+</Response>
