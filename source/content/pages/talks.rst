@@ -8,8 +8,8 @@ Tech Talks
 2017
 ----
 
-Adding Phone Calls, Text Messages and Video to Your Python Apps with the Twilio API
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+`Adding Phone Calls & Text Messages Python Apps with Twilio </presentations/2017-twilio.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Learn to use Twilio's APIs to easily add communications, such as phone calling,
 messaging and video, to your Python applications. We'll walk through live coded
 examples that you can immediately use in your own applications for
