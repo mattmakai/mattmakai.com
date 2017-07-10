@@ -8,6 +8,17 @@ Tech Talks
 2017
 ----
 
+`Voice Hacks with Phone Calls using Twilio </presentations/2017-voicehacks.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Learn how to use Twilio's Voice API to build voice-based hacks during
+this hands-on workshop.
+
+Upcoming workshop at `VoiceHacks DC <https://www.voicehacks.com/tour/dc>`_
+in Arlington, Virgina on July 10, 2017.
+
+----
+
+
 `Adding Phone Calls & Text Messages Python Apps with Twilio </presentations/2017-twilio.html>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Learn to use Twilio's APIs to easily add communications, such as phone calling,
@@ -18,7 +29,7 @@ examples that you can immediately use in your own applications for
 `video chat services <https://www.twilio.com/blog/2016/02/ios-and-web-browser-video-calls-with-python-and-swift-2.html>`_
 and many other useful features.
 
-Upcoming talk to `Python Frederick <https://www.meetup.com/python-frederick/>`_ in
+Talk given at `Python Frederick <https://www.meetup.com/python-frederick/>`_ in
 Frederick, Maryland on June 14, 2017.
 
 ----
