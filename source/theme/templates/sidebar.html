@@ -23,7 +23,7 @@
     </p>
 </div>
 <ul class="nav nav-sidebar">
-    <li{% if active_page == "writing" %} class="active"{% endif %}{% if not page and not active_page %} class="active"{% endif %}><a href="/">Writing</a></li>
+    <li{% if page and page.slug != "talks" and page.slug != "work" and page.slug != "about" %} class="active"{% endif %}{% if not page %} class="active"{% endif %}><a href="/">Writing</a></li>
     <li {% if page and page.slug == "talks" %} class="active"{% endif %}><a href="/talks.html">Talks</a></li>
     <li {% if page and page.slug == "work" %} class="active"{% endif %}><a href="/work.html">Work</a></li>
     <li {% if page and page.slug == "about" %} class="active"{% endif %}><a href="/about.html">About</a></li>
