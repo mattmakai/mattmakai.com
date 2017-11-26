@@ -8,12 +8,27 @@ Tech Talks
 2017
 ----
 
+`DevOps, Continuous Delivery... and You <https://www.fullstackpython.com/blog/devops-continuous-delivery-you.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+What is DevOps and why does it matter to you? Learn how how DevOps relate to 
+Continuous Delivery and what tools and concepts you can use to apply them in 
+your organization.
+
+Class taught for the
+`M.S. in the Management of Information Technology <https://www.commerce.virginia.edu/ms-mit>`_ 
+program at the 
+`University of Virginia <http://www.virginia.edu/>`_ on November 2 and
+November 4, 2017.
+
+
+----
+
 `Voice Hacks with Phone Calls using Twilio </presentations/2017-voicehacks.html>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Learn how to use Twilio's Voice API to build voice-based hacks during
 this hands-on workshop.
 
-Upcoming workshop at `VoiceHacks DC <https://www.voicehacks.com/tour/dc>`_
+Workshop given at `VoiceHacks DC <https://www.voicehacks.com/tour/dc>`_
 in Arlington, Virgina on July 10, 2017.
 
 ----
