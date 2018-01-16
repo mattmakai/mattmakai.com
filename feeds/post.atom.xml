@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/post.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2017-01-02T00:00:00-05:00</updated><entry><title>My 2017 Year Ahead in Software Development</title><link href="http://www.letshackdc.com/2017-year-ahead-software-development.html" rel="alternate"></link><published>2017-01-02T00:00:00-05:00</published><updated>2017-01-02T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2017-01-02:2017-year-ahead-software-development.html</id><summary type="html">&lt;p&gt;My
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Matt Makai</title><link href="http://www.letshackdc.com/" rel="alternate"></link><link href="http://www.letshackdc.com/feeds/post.atom.xml" rel="self"></link><id>http://www.letshackdc.com/</id><updated>2018-01-15T00:00:00-05:00</updated><entry><title>Focusing on Full Stack Python</title><link href="http://www.letshackdc.com/focusing-full-stack-python.html" rel="alternate"></link><published>2018-01-15T00:00:00-05:00</published><updated>2018-01-15T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2018-01-15:focusing-full-stack-python.html</id><summary type="html">&lt;p&gt;In late December I sat down to write my annual personal software
+development year-in-review post, like I had in
+&lt;a class="reference external" href="/2016-software-development-year-review.html"&gt;2016&lt;/a&gt; and previous years.
+However, my excitement for writing the 2017 post just was not there compared
+to 2016. I could not put my finger on why not because I was really
+energized to write the
+&lt;a class="reference external" href="https://www.fullstackpython.com/blog/five-years-full-stack-python.html"&gt;5 Years of Full Stack Python&lt;/a&gt;
+retrospective blog post.&lt;/p&gt;
+&lt;p&gt;After some reflection, I realized that the majority of my open source
+development focus lately has been on
+&lt;a class="reference external" href="https://www.fullstackpython.com/"&gt;Full Stack Python&lt;/a&gt;, perhaps to the
+detriment of investments in other personal software development-related
+capabilities.&lt;/p&gt;
+&lt;p&gt;Once I figured out the issue I knew the right course of action. I am going
+to double down on my Full Stack Python (FSP) work rather than
+worry about how exactly I'm personally investing in my own skillset.
+Sometimes you need to recognize where your passion lies and right now I
+am really excited about what I am working on for FSP.&lt;/p&gt;
+&lt;p&gt;The amount of time I have to work is severely limited until April due to
+my full-time focus on paternity leave so staying focsued on my most
+important project (and related efforts like FSP videos with Talk Python
+to Me) feels like the best way to go for at least the remainder of 2018.
+In addition, that means I likely will not be writing any more posts on
+this site for awhile.&lt;/p&gt;
+&lt;p&gt;Now back to all those new bits I have planned to add to
+&lt;a class="reference external" href="https://github.com/mattmakai/fullstackpython.com"&gt;the Full Stack Python project&lt;/a&gt;...&lt;/p&gt;
+</summary></entry><entry><title>My 2017 Year Ahead in Software Development</title><link href="http://www.letshackdc.com/2017-year-ahead-software-development.html" rel="alternate"></link><published>2017-01-02T00:00:00-05:00</published><updated>2017-01-02T00:00:00-05:00</updated><author><name>Matt Makai</name></author><id>tag:www.letshackdc.com,2017-01-02:2017-year-ahead-software-development.html</id><summary type="html">&lt;p&gt;My
 &lt;a class="reference external" href="/2016-software-development-year-review.html"&gt;look back at what I accomplished professionally in 2016 is complete&lt;/a&gt;,
 so with this post I'm looking ahead at my software development goals for
 2017 along with the programming ecosystems I will be coding in. The three
