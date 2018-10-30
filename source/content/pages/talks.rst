@@ -5,6 +5,20 @@ Tech Talks
 :slug: talks
 
 
+2018
+----
+
+`How to Explain Your Products to Software Developers <https://www.fullstackpython.com/blog/explain-products-developers.html>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Talk given during `Ubiquity.VC <http://www.ubiquity.vc/>`_ Summit at 
+`Silicon Valley Bank <https://www.svb.com/>`_ in Menlo Park, CA on 
+May 25, 2018.
+
+
+----
+
+
 2017
 ----
 
