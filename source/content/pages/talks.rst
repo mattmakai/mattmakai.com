@@ -5,13 +5,33 @@ Tech Talks
 :slug: talks
 
 
+2019
+----
+
+Developer-Led Sales for Startup Founders
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Software developers that know, use and love your product can be evangelists
+for you in their organizations. In this session, you will learn whether a 
+developer-led sales model will work for your initial company goals and how 
+to connect your strategy to realistic metrics. We'll also cover how to 
+`properly explain and market your product <https://www.fullstackpython.com/blog/explain-products-developers.html>`_ 
+so that you do not piss off developers you hope will support you in 
+prospective sales deals.
+
+Upcoming talk for `Ubiquity Ventures <http://www.ubiquity.vc/>`_ portfolio 
+founders, investors and advisors on June 26th, 2019.
+
+
+----
+
+
 2018
 ----
 
 `How to Explain Your Products to Software Developers <https://www.fullstackpython.com/blog/explain-products-developers.html>`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Talk given during `Ubiquity.VC <http://www.ubiquity.vc/>`_ Summit at 
+Talk given during `Ubiquity Ventures <http://www.ubiquity.vc/>`_ Summit at 
 `Silicon Valley Bank <https://www.svb.com/>`_ in Menlo Park, CA on 
 May 25, 2018.
 
