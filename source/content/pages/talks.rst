@@ -8,6 +8,22 @@ Tech Talks
 2019
 ----
 
+The Missing Operator's Manual for Python Static Site Generators
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Static site generators merge content written in a markup language with a 
+template engine to produce output files, such as HTML. This talk will teach 
+you how Python-based static site generators work, when they are a solid 
+implementation choice for your own projects, and how to handle both the 
+content and traffic at scale. We'll use the 
+`Full Stack Python website <https://www.fullstackpython.com/>`_, which is 
+read by millions of developers per year with hundreds of pages of content, as 
+one of our examples throughout the session.
+
+Potential talk for several upcoming Python conferences and events. 
+
+
+----
+
 Developer-Led Sales for Startup Founders
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Software developers that know, use and love your product can be evangelists
