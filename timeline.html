@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Matt Makai's Professional History</title>
+<style>
+/* General code */
+@import url(https://fonts.googleapis.com/css?family=Barlow+Condensed);
+body {
+  font-family: "Barlow Condensed";
+  margin: auto;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 16px;
+}
+button {
+  width: 100px;
+  margin: auto;
+}
+.timeline {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+.timeline .circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: #F22F46;
+  margin: 0;
+  padding: 2px;
+  margin-left: -5px;
+  z-index: 2;
+  position: relative;
+}
+.timeline .no-circle {
+  width: 30px;
+  height: 0px;
+  background-color: #fff;
+  margin-left: 14px;
+  margin: 0;
+  padding: 0 2px 0 2px;
+  margin-left: -5px;
+  z-index: 2;
+  position: relative;
+}
+.timeline .circle:hover {
+  cursor: pointer;
+}
+.timeline .circle p {
+  text-align: center;
+  margin: auto;
+  line-height: 30px;
+  color: #ffffff;
+}
+.timeline .link {
+  z-index: 0;
+  background-color: #F22F46;
+  padding: 0;
+}
+.square {
+  max-width: 250px;
+  min-width: 100px;
+  height: 115px;
+  border-radius: 10px;
+  background-color: #ddd;
+  z-index: 2;
+  position: relative;
+}
+.square.blank {
+  visibility: hidden;
+}
+#end {
+  width: 0;
+  height: 0;
+}
+.square h3,
+.square h4 {
+  margin: 0px 0px 0px 15px;
+  text-align: left;
+  font-size: 16px;
+}
+.square h3 {
+  padding-top: 5px;
+}
+.square h4 {
+  font-style: italic;
+  font-weight: normal;
+}
+
+
+/* Linear timeline from top to bottom */
+.vertical .block {
+  display: flex;
+  flex-direction: row;
+}
+#vertical-timeline {
+  flex-direction: column;
+}
+.vertical .link {
+  width: 5px;
+  height: 150px;
+  margin-top: 0;
+  margin-left: -20px;
+}
+.vertical .square {
+  width: 250px;
+  margin: 0px 25px 0px 35px;
+}
+.vertical .square p {
+  padding: 0;
+  margin: 0;
+}
+.vertical #end {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #f22f46;
+  margin: auto;
+  margin-left: 311px;
+}
+.square::after {
+  content: " ";
+  display: block;
+  z-index: 0;
+  width: 0px;
+  height: 0px;
+}
+.square.left::after {
+  margin: -70px 11px 0px -15px;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 20px solid #ddd;
+}
+.square.right::after {
+  margin: -75px 0px 0px 242px;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid #ddd;
+}
+.square.up50::after {
+  margin-top:-50px;
+}
+.square.up100::after {
+  margin-top:-100px;
+}
+.square.up120::after {
+  margin-top:-120px;
+}
+.square.up150::after {
+  margin-top:-150px;
+}
+.square.up::after {
+  margin-top:-195px;
+}
+.square.up35::after {
+  margin-top:-35px;
+}
+h3.title{margin-top:6px}
+img.job{margin-top:12px;width:86%;border-radius:10px;border:none;}
+.square > p {
+  margin-left:15px !important;
+  text-align:left;
+}
+</style>
+
+</head>
+<body>
+<!-- Second linear timeline -->
+<h3 style="margin-left:8px">Matt Makai</h3>
+<div id="vertical-timeline" class="timeline vertical">
+  <div class="block">
+    <div class="square right blank"></div>
+    <div class="circle">
+      <p>2005</p>
+    </div>
+    <div class="link" style="height:160px"></div>
+    <div class="square left" style="height:68px">
+      <h3 class="title">Graduated James Madison University</h3>
+      <h4>B.S. Computer Science</h4>
+      <p>&nbsp;<br>&nbsp;</p>
+    </div>
+  </div>
+  
+  <div class="block">
+    <div class="square right up120" style="margin-top:-80px;height:140px">
+      <h3 class="title">Freddie Mac</h3>
+      <h4>Programmer (mostly J2EE)</h4>
+      <img src="http://www.mattmakai.com/source/static/img/timeline/freddiemac.png" class="job">
+    </div>
+    <div class="no-circle"></div>
+    <div class="link" style="height:80px"></div>
+    <div class="square left blank"></div>
+  </div>
+
+  <div class="block">
+    <div class="square right blank"></div>
+    <div class="no-circle"></div>
+    <div class="link" style="height:100px;margin-top:-40px"></div>
+    <div class="square left up150" style="margin-top:-200px;height:190px">
+      <h3 class="title">Started Virginia Tech</h3>
+      <h4>M.S. Computer Science</h4>
+      <img src="http://www.mattmakai.com/source/static/img/timeline/virginia-tech.png" class="job" style="background:white;padding:10px;width:80%">
+    </div>
+  </div>
+  
+  <div class="block" style="margin-top:-120px">
+    <div class="square right blank"></div>
+    <div class="circle"><p>2006</p></div>
+    <div class="link" style="height:120px;"></div>
+    <div class="square left blank"></div>
+  </div>
+
+
+  <div class="block">
+    <div class="square right up" style="height:290px;margin-top:-20px">
+      <h3>Department of Defense / Booz Allen</h3>
+      <h4>Software Developer & Tech Lead (J2EE)</h4>
+      <img src="http://www.mattmakai.com/source/static/img/timeline/dod.png" class="job" style="background:white;padding:10px;width:80%">
+    </div>
+    <div class="circle activated">
+      <p>2007</p>
+    </div>
+    <div class="link" style="height:280px"></div>
+    <div class="square left blank"></div>
+  </div>
+
+  <div class="block">
+    <div class="square right blank"></div>
+    <div class="circle">
+      <p>2008</p>
+    </div>
+    <div class="link"></div>
+    <div class="square left up35" style="height:60px;margin-top:50px">
+      <h3>Graduated Virginia Tech</h3>
+      <h4>Completed M.S. Computer Science.</h4>
+    </div>
+  </div>
+  
+  <div class="block">
+    <div class="square right" style="height:255px;margin-top:-20px">
+      <h3>FBI / Sapient</h3>
+      <h4>Tech lead (Java)</h4>
+      <img src="http://www.mattmakai.com/source/static/img/timeline/fbi.png" class="job" style="background:white;padding:10px;width:80%">
+    </div>
+    <div class="circle">
+      <p>2009</p>
+    </div>
+    <div class="link" style="height:300px"></div>
+    <div class="square left up150" style="margin-top:30px;height:210px">
+      <h3>Started University of Virginia</h3>
+      <h4>M.S. Management of IT</h4>
+      <img src="http://www.mattmakai.com/source/static/img/timeline/uva.png" class="job" style="background:white;padding:10px;width:80%">
+    </div>
+  </div>
+
+
+  <div class="block">
+    <div class="square right">
+      <h3>Excella Consulting</h3>
+      <h4>Tech lead (Java, Python)</h4>
+      <p>Marriott, Consumer Finance Protection Bureau (CFPB), Nuclear Threat Initiative, Motley Fool</p>
+    </div>
+    <div class="circle">
+      <p>2010</p>
+    </div>
+    <div class="link"></div>
+    <div class="square left" style="height:60px;margin-top:55px">
+      <h3>Graduated University of Virginia</h3>
+      <h4>M.S. Management of IT</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    </div>
+  </div>
+  <div id="end"></div>
+  <hr width="95%">
+</div>
+
+
+<div id="vertical-timeline" class="timeline vertical">
+  <div class="block">
+    <div class="square right blank"></div>
+    <div class="circle">
+      <p>2012</p>
+    </div>
+    <div class="link" style="height:120px"></div>
+    <div class="square left" style="height:68px">
+      <h3 class="title">Started <a href="https://www.fullstackpython.com/">Full Stack Python</a></h3>
+      <h4>Now read by 250,000+ developers/month.</h4>
+      <p>&nbsp;<br>&nbsp;</p>
+    </div>
+  </div>
+
+
+  <div class="block">
+    <div class="square right blank"></div>
+    <div class="circle">
+      <p>2013</p>
+    </div>
+    <div class="link" style="height:220px"></div>
+    <div class="square left up120" style="height:190px">
+      <h3 class="title"><a href="http://www.codingacrossamerica.com/">Coding Across America</a></h3>
+      <h4>5 months. 30 cities. 13,690 miles.</h4>
+     <img src="http://www.codingacrossamerica.com/img/coding-across-america-map.png" class="job">
+    </div>
+  </div>
+
+
+  <div class="block">
+    <div class="square right" style="height:92px">
+      <h3>Joined Twilio (Washington, D.C.)</h3>
+      <h4>Developer Evangelist</h4>
+      <p>88 developer events in first year (still the record)</p>
+    </div>
+    <div class="circle">
+      <p>2014</p>
+    </div>
+    <div class="link"></div>
+    <div class="square left" style="margin-top:40px;height:60px">
+     <h3>Twilio at the White House</h3>
+     <h4>Two trips, <a href="https://www.twilio.com/blog/2014/08/twilio-white-house-twilio-org-rapid-response-kit-nt.html">one demo with spotty Internet</a></h4>
+     <p>&nbsp;</p>
+     <p>&nbsp;</p>
+    </div>
+  </div>
+
+  <div class="block">
+    <div class="square right" style="height:92px">
+      <h3>Twilio (San Francisco)</h3>
+      <h4>Developer Evangelism, Manager</h4>
+      <p>Moved to headquarters for promotion and lead the team alongside Devin Rader.<br>&nbsp;</p>
+    </div>
+    <div class="circle">
+      <p>2015</p>
+    </div>
+    <div class="link"></div>
+    <div class="square left" style="margin-top:40px;height:60px">
+     <h3>Wrote my first technical book</h3>
+     <h4>Full Stack Python Guide to Deployments</h4>
+     <p>&nbsp;</p>
+     <p>&nbsp;</p>
+    </div>
+  </div>
+  
+
+  <div class="block">
+    <div class="square right" style="height:92px;margin-top:40px">
+      <h3>Twilio</h3>
+      <h4>Developer Evangelist</h4>
+      <p>Back to Washington, D.C.<br>Founded Developer Voices team.</p>
+    </div>
+    <div class="circle">
+      <p>2017</p>
+    </div>
+    <div class="link" style="height:200px"></div>
+    <div class="square left up120" style="height:190px">
+      <h3 class="title">Twilio on Capitol Hill</a></h3>
+      <h4>First of many demos &amp; trips</h4>
+     <img src="http://www.mattmakai.com/source/static/img/timeline/capitol-hill.jpg" class="job">
+    </div>
+  </div>
+  
+
+  <div class="block">
+    <div class="square right" style="height:56px;margin-top:20px">
+      <h3>Twilio</h3>
+      <h4>Developer Voices, Sr. Manager</h4>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    </div>
+    <div class="circle">
+      <p>2018</p>
+    </div>
+    <div class="link"></div>
+    <div class="square left blank"></div>
+  </div>
+  
+  <div class="block">
+    <div class="square right blank"></div>
+    <div class="circle"><p>2019</p></div>
+    <div class="link" style="height:120px;"></div>
+    <div class="square left blank"></div>
+  </div>
+
+  <div class="block">
+    <div class="square right" style="height:56px;margin-top:20px">
+      <h3>Twilio</h3>
+      <h4>Director of Developer Content</h4>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    </div>
+    <div class="circle">
+      <p>2020</p>
+    </div>
+    <div class="link"></div>
+    <div class="square left blank"></div>
+  </div>
+
+  <div id="end"></div>
+
+  <hr width="100%">
+
+  <div style="text-align:left;margin-bottom:60px">
+  1. Well-respected for developer background and leadership.<br>
+  2. Led multiple teams at Twilio. Founded one team: Developer Voices.<br>
+  3. Lead by metrics and analysis, with focus on orders of magnitude changes.
+  </div>
+</div>
+</body>
+</html>
